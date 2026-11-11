@@ -70,13 +70,18 @@ function fromHtml(html, url) {
   html = String(html).replace(/<style\b[\s\S]*?<\/style>/gi, "");
   const dom = new JSDOM(html, { url: url || "http://localhost", virtualConsole: quietDom() });
   try { article.prepare(dom.window.document); } catch (e) {}   // buang menu/iklan/"baca juga", buka bagian "read more"
+  let image = "";
+  try {
+    const m = dom.window.document.querySelector('meta[property="og:image"],meta[name="og:image"],meta[name="twitter:image"],meta[property="twitter:image"]');
+    if (m && m.content) { const iu = new URL(m.content.trim(), url || "http://localhost"); if (/^https?:$/.test(iu.protocol)) image = iu.href; }
+  } catch (e) {}
   const art = new Readability(dom.window.document).parse();
   if (!art || !art.textContent.trim()) throw new Error("Isi artikel tidak ditemukan");
   let text = "";
   try { text = tf.fromParagraphs(article.extractText(new JSDOM("<!doctype html><body>" + art.content, { virtualConsole: quietDom() }).window.document)); } catch (e) {}
   const raw = clean(art.textContent);
   // Pengaman: kalau pembersihan membuang terlalu banyak, anggap berlebihan dan pakai hasil Readability apa adanya.
-  return { title: art.title, text: text && (raw.length < 600 || text.length >= raw.length * 0.35) ? text : raw };
+  return { title: art.title, image, text: text && (raw.length < 600 || text.length >= raw.length * 0.35) ? text : raw };
 }
 
 // ---------- Podcast (RSS) -> teks ----------

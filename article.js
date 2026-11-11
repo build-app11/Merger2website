@@ -177,7 +177,7 @@ async function readAll(fetchPage, parse, url, opt) {
     if (head && parts.some((p) => p.includes(head))) continue;   // halaman yang sama dengan yang sudah ada
     parts.push(got.text);
   }
-  return { title: art.title, text: parts.join(" "), pages: parts.length };
+  return { title: art.title, image: art.image || "", text: parts.join(" "), pages: parts.length };
 }
 
 module.exports = { prepare, extractText, findPager, isPagerUrl, isBoiler, isReadMore, readAll };

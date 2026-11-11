@@ -49,6 +49,18 @@ function itemLink(it, base) {
   } catch (e) { return ""; }
 }
 
+function imgOf(it) {   // thumbnail artikel: media:thumbnail/content, enclosure gambar, itunes:image, atau <img> pertama
+  let u = "", m;
+  for (const x of it.matchAll(/<media:(?:thumbnail|content)\b([^>]*)>/gi)) {
+    const a = x[1], t = attr(a, "type").toLowerCase(), md = attr(a, "medium").toLowerCase();
+    if ((!t && !md) || /^image/.test(t) || md === "image" || x[0].toLowerCase().startsWith("<media:thumbnail")) { u = attr(a, "url"); if (u) break; }
+  }
+  if (!u) for (const x of it.matchAll(/<enclosure\b([^>]*)>/gi)) { if (/^image/i.test(attr(x[1], "type"))) { u = attr(x[1], "url"); if (u) break; } }
+  if (!u) { m = it.match(/<itunes:image\b([^>]*)>/i); if (m) u = attr(m[1], "href"); }
+  if (!u) { m = it.match(/<img\b[^>]*>/i); if (m) u = attr(m[0], "src"); }
+  if (!u) { m = it.match(/&lt;img\b[^&]*?src=(?:&quot;|")([^&"]+)/i); if (m) u = dec(m[1]); }
+  return /^https?:\/\//i.test(u) ? u : "";
+}
 function parseNews(xml, opt) {
   xml = String(xml || "");
   opt = opt || {};
@@ -71,6 +83,7 @@ function parseNews(xml, opt) {
       date: isNaN(d) ? "" : d.toISOString(),
       summary: (desc || enc).slice(0, 300),
       content: full.slice(0, 50000),
+      image: imgOf(it),
     });
     if (articles.length >= max) break;
   }

@@ -103,11 +103,11 @@ body:not(.showipa):not(.showrm) .w{display:inline}
 <footer id="ctl" hidden>
   <div class="seek"><span id="t0">0:00</span><input id="seek" type="range" min="0" max="0" value="0" aria-label="Posisi kalimat"><span id="t1">0:00</span></div>
   <div class="btns">
-    <button class="cb" id="bPP" type="button" aria-label="Paragraf sebelumnya">⏪</button>
+    <button class="cb" id="bPP" type="button" aria-label="Bagian sebelumnya">⏪</button>
     <button class="cb" id="bP" type="button" aria-label="Kalimat sebelumnya">⏮</button>
     <button class="cb main" id="bPlay" type="button" aria-label="Putar">▶</button>
     <button class="cb" id="bN" type="button" aria-label="Kalimat berikutnya">⏭</button>
-    <button class="cb" id="bNN" type="button" aria-label="Paragraf berikutnya">⏩</button>
+    <button class="cb" id="bNN" type="button" aria-label="Bagian berikutnya">⏩</button>
   </div>
   <div class="r" id="doneRow" hidden><button class="pill" id="bDone" type="button">Selesai ✓</button></div>
   <div id="msg" role="status"></div>
@@ -351,8 +351,8 @@ function uiPlay(){const b=$('bPlay');b.textContent=playing?'⏸':'▶';b.setAttr
 $('bPlay').onclick=()=>{if(playing)stop();else speak(cur)};
 const go=i=>{i=Math.max(0,Math.min(SENTS.length-1,i));if(playing)speak(i);else setCur(i)};
 $('bP').onclick=()=>go(cur-1);$('bN').onclick=()=>go(cur+1);
-$('bPP').onclick=()=>{let i=cur;const p=SENTS[cur].para;while(i>0&&SENTS[i-1].para===p)i--;go(i===cur?(()=>{let j=cur-1;if(j<0)return 0;const q=SENTS[j].para;while(j>0&&SENTS[j-1].para===q)j--;return j})():i)};
-$('bNN').onclick=()=>{let i=cur;const p=SENTS[cur].para;while(i<SENTS.length-1&&SENTS[i].para===p)i++;go(i)};
+$('bPP').onclick=()=>{if(curPart>0)go(PARTS[curPart-1][0])};
+$('bNN').onclick=()=>{if(curPart<PARTS.length-1)go(PARTS[curPart+1][0])};
 $('seek').oninput=e=>{const i=+e.target.value;if(playing)speak(i);else setCur(i)};
 $('part').onchange=e=>go(PARTS[+e.target.value][0]);
 document.addEventListener('keydown',e=>{if(!D||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName)||$('dp').open)return;if(e.key===' '){e.preventDefault();$('bPlay').click()}else if(e.key==='ArrowRight')$('bN').click();else if(e.key==='ArrowLeft')$('bP').click()});

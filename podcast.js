@@ -38,6 +38,13 @@ function attr(attrs, n) {
   const q = attrs.match(new RegExp("\\b" + n + "\\s*=\\s*(?:\"([^\"]*)\"|'([^']*)')", "i"));
   return q ? dec(q[1] !== undefined ? q[1] : q[2]) : "";
 }
+function imgOf(xml) {   // gambar sampul: itunes:image / media:thumbnail / <image><url>
+  let m = xml.match(/<itunes:image\b([^>]*)>/i);
+  let u = m ? attr(m[1], "href") : "";
+  if (!u) { m = xml.match(/<media:(?:thumbnail|content)\b([^>]*)>/i); u = m ? attr(m[1], "url") : ""; }
+  if (!u) { m = xml.match(/<image\b[^>]*>[\s\S]*?<url>([\s\S]*?)<\/url>/i); u = m ? text(m[1]).trim() : ""; }
+  return /^https?:\/\//i.test(u) ? u : "";
+}
 function secs(v) {   // "3600", "59:30", "1:02:03" -> detik
   v = String(v || "").trim();
   if (!v) return 0;
@@ -49,7 +56,8 @@ function secs(v) {   // "3600", "59:30", "1:02:03" -> detik
 function parseFeed(xml, max) {
   xml = String(xml || "");
   if (!/<rss\b|<channel\b/i.test(xml)) throw new Error("Ini bukan feed RSS podcast");
-  const head = xml.split(/<item[\s>]/i)[0].replace(/<image\b[\s\S]*?<\/image>/gi, "");
+  const rawHead = xml.split(/<item[\s>]/i)[0];
+  const head = rawHead.replace(/<image\b[\s\S]*?<\/image>/gi, "");
   const items = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) || [], episodes = [];
   for (const it of items) {
     const enc = it.match(/<enclosure\b([^>]*)>/i), url = enc ? attr(enc[1], "url").trim() : "";
@@ -60,11 +68,12 @@ function parseFeed(xml, max) {
       date: isNaN(d) ? "" : d.toISOString().slice(0, 10),
       dur: secs(tag(it, "itunes:duration")),
       audio: url,
+      image: imgOf(it),
     });
     if (episodes.length >= (max || 200)) break;
   }
   if (!episodes.length) throw new Error("Tidak ada episode beraudio di feed ini");
-  return { title: tag(head, "title") || "Podcast", episodes };
+  return { title: tag(head, "title") || "Podcast", image: imgOf(rawHead), episodes };
 }
 
 /* ---------- Simpan audio ke file sementara ---------- */
