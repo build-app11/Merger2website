@@ -158,7 +158,6 @@ body:not(.showipa):not(.showrm) .w{display:inline}
 <div class="dp" id="dp" hidden role="dialog" aria-label="Arti kata">
   <div class="dph"><div class="dpw"><b class="dwd"></b><span class="dip"></span></div>
     <button class="dpb alt star" data-d="star" type="button" aria-pressed="false" aria-label="Bintangi kata untuk direview" title="Bintangi untuk direview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-5.4 3.3 1.4-6.1L3.3 9.9l6.2-.5L12 3.6l2.5 5.8 6.2.5-4.7 4.6 1.4 6.1z"/></svg></button>
-    <button class="dpb alt" data-d="from" type="button" aria-label="Putar dari kalimat ini" title="Putar dari kalimat ini">▶</button>
     <button class="dpb" data-d="say" type="button" aria-label="Ucapkan kata" title="Ucapkan"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg></button>
     <button class="dpb alt" data-d="x" type="button" aria-label="Tutup" title="Tutup"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></svg></button></div>
   <div class="dpbody"><div class="dpid"><small>ARTI</small><div class="did"></div></div>
@@ -635,7 +634,6 @@ dpEl.addEventListener('click',e=>{
   else if(a==='star')stToggle();
   else if(a==='en'||a==='tr')kdTab(a);
   else if(a==='say'&&dSt){stop();const my=++tok;playText(dSt.q,voiceFor(sl()),sl(),my,null)}
-  else if(a==='from'){const i=dSent;closeTip();speak(i)}
 });
 document.addEventListener('click',e=>{if(!e.target.closest('#dp')&&!e.target.closest('.w'))closeTip()});
 addEventListener('resize',placeDp);
