@@ -28,18 +28,6 @@
       "added": "2026-11-11T10:03:07.852Z"
     },
     {
-      "slug": "is-aircon-the-answer-to-a-heating-world",
-      "title": "Is aircon the answer to a heating world?",
-      "videoId": "",
-      "lines": 76,
-      "type": "read",
-      "words": 1197,
-      "duration": 399,
-      "category": "Podcast",
-      "channel": "6 Minute English",
-      "added": "2026-11-11T09:55:09.192Z"
-    },
-    {
       "slug": "learn-english-naturally-with-this-easy-vlog-comprehensible-input",
       "title": "Learn English Naturally With This Easy Vlog | Comprehensible Input",
       "videoId": "EoOkWxc0-j0",
@@ -65,6 +53,19 @@
         "panjang"
       ],
       "added": "2026-10-27T22:50:24.297Z"
+    },
+    {
+      "slug": "three-iran-backed-suspects-plotted-attacks-including-raf-fai",
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "videoId": "",
+      "lines": 1,
+      "type": "read",
+      "words": 770,
+      "duration": 257,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ba2/live/c17cf610-dd8f-11f1-8c82-87885cae71d3.jpg",
+      "category": "Berita",
+      "channel": "BBC News",
+      "added": "2026-11-11T10:55:00.732Z"
     }
   ]
 }
