@@ -1,0 +1,76 @@
+{
+  "pages": {
+    "audiobook-generator.html": {
+      "title": "Audiobook Generator",
+      "description": "Buat latihan audio sendiri: hasilkan transkrip dengan IPA di setiap kata, lalu simpan sebagai file JSON.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat",
+        "audio"
+      ],
+      "order": 1001,
+      "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23A07CFA%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%2264%22%20r%3D%2238%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%2248%22%20y%3D%22256%22%20width%3D%2252%22%20height%3D%2252%22%20rx%3D%2214%22%20fill%3D%22%232ED3A0%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%20transform%3D%22rotate(-14%2074%20282)%22%2F%3E%3Crect%20x%3D%22192%22%20y%3D%22162%22%20width%3D%22260%22%20height%3D%22170%22%20rx%3D%2214%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22180%22%20y%3D%22150%22%20width%3D%22260%22%20height%3D%22170%22%20rx%3D%2214%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cpath%20d%3D%22M310%20150v170%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cpath%20d%3D%22M205%20190h85M205%20225h85M205%20260h60M335%20190h85M335%20225h85M335%20260h60%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M215%20125C215%2010%20405%2010%20405%20125%22%20fill%3D%22none%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%2226%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M215%20125C215%2010%20405%2010%20405%20125%22%20fill%3D%22none%22%20stroke%3D%22%23FF6B5E%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22%2F%3E%3Crect%20x%3D%22193%22%20y%3D%22105%22%20width%3D%2244%22%20height%3D%2276%22%20rx%3D%2216%22%20fill%3D%22%23FF6B5E%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%22383%22%20y%3D%22105%22%20width%3D%2244%22%20height%3D%2276%22%20rx%3D%2216%22%20fill%3D%22%23FF6B5E%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cg%20fill%3D%22%232ED3A0%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%3E%3Crect%20x%3D%2262%22%20y%3D%22170%22%20width%3D%2224%22%20height%3D%2260%22%20rx%3D%2212%22%2F%3E%3Crect%20x%3D%2298%22%20y%3D%22146%22%20width%3D%2224%22%20height%3D%22108%22%20rx%3D%2212%22%2F%3E%3Crect%20x%3D%22134%22%20y%3D%22182%22%20width%3D%2224%22%20height%3D%2236%22%20rx%3D%2212%22%2F%3E%3Crect%20x%3D%22482%22%20y%3D%22182%22%20width%3D%2224%22%20height%3D%2236%22%20rx%3D%2212%22%2F%3E%3Crect%20x%3D%22518%22%20y%3D%22146%22%20width%3D%2224%22%20height%3D%22108%22%20rx%3D%2212%22%2F%3E%3Crect%20x%3D%22554%22%20y%3D%22170%22%20width%3D%2224%22%20height%3D%2260%22%20rx%3D%2212%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+    },
+    "video-generator.html": {
+      "title": "Video Generator",
+      "description": "Buat latihan dari video YouTube: ambil transkripnya, tambahkan IPA di setiap kata, lalu simpan sebagai file JSON.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat",
+        "video"
+      ],
+      "order": 1002,
+      "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%234C84FF%22%2F%3E%3Ccircle%20cx%3D%22108%22%20cy%3D%2282%22%20r%3D%2240%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%22520%22%20y%3D%22240%22%20width%3D%2256%22%20height%3D%2256%22%20rx%3D%2214%22%20fill%3D%22%23A07CFA%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%20transform%3D%22rotate(16%20548%20268)%22%2F%3E%3Crect%20x%3D%22162%22%20y%3D%22102%22%20width%3D%22340%22%20height%3D%22212%22%20rx%3D%2224%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22150%22%20y%3D%2290%22%20width%3D%22340%22%20height%3D%22212%22%20rx%3D%2224%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cpolygon%20points%3D%22294%2C134%20294%2C226%20376%2C180%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%226%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M186%20268h268%22%20stroke%3D%22%23D3D9F2%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M186%20268h130%22%20stroke%3D%22%23FF6B5E%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%22316%22%20cy%3D%22268%22%20r%3D%2211%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22104%22%20r%3D%2226%22%20fill%3D%22%232ED3A0%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3C%2Fsvg%3E"
+    },
+    "index-builder.html": {
+      "title": "Pembuat index.json",
+      "description": "Gabungkan semua file JSON pelajaran menjadi satu index.json untuk daftar latihan di halaman ini.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat",
+        "indeks"
+      ],
+      "order": 1003,
+      "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%232ED3A0%22%2F%3E%3Ccircle%20cx%3D%22104%22%20cy%3D%2284%22%20r%3D%2240%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%22522%22%20y%3D%2264%22%20width%3D%2252%22%20height%3D%2252%22%20rx%3D%2214%22%20fill%3D%22%23A07CFA%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%20transform%3D%22rotate(18%20548%2090)%22%2F%3E%3Crect%20x%3D%22222%22%20y%3D%2262%22%20width%3D%22220%22%20height%3D%22262%22%20rx%3D%2218%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22210%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22262%22%20rx%3D%2218%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Ctext%20x%3D%22320%22%20y%3D%22116%22%20font-family%3D%22ui-monospace%2CMenlo%2CConsolas%2Cmonospace%22%20font-size%3D%2254%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%2314162B%22%3E%7B%20%7D%3C%2Ftext%3E%3Cpath%20d%3D%22M236%20138h168%22%20stroke%3D%22%23D3D9F2%22%20stroke-width%3D%224%22%2F%3E%3Cg%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%3E%3Crect%20x%3D%22238%22%20y%3D%22160%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%229%22%20fill%3D%22%23FFD23F%22%2F%3E%3Crect%20x%3D%22238%22%20y%3D%22212%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%229%22%20fill%3D%22%23FF6B5E%22%2F%3E%3Crect%20x%3D%22238%22%20y%3D%22264%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%229%22%20fill%3D%22%234C84FF%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M288%20175h112M288%20227h112M288%20279h76%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%228%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%22446%22%20cy%3D%22294%22%20r%3D%2240%22%20fill%3D%22%23FF6B5E%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cpath%20d%3D%22M446%20276v36M430%20298l16%2016%2016-16%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+    },
+    "language-builder.html": {
+      "title": "Pembuat bahasa",
+      "description": "Tambahkan bahasa baru ke language.json: teks Indonesia diterjemahkan otomatis, diperiksa, lalu diunduh.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat",
+        "bahasa"
+      ],
+      "order": 1004,
+      "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23FF6B5E%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%2272%22%20r%3D%2238%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%2260%22%20y%3D%22250%22%20width%3D%2252%22%20height%3D%2252%22%20rx%3D%2214%22%20fill%3D%22%234C84FF%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%20transform%3D%22rotate(-14%2086%20276)%22%2F%3E%3Crect%20x%3D%22176%22%20y%3D%2286%22%20width%3D%22240%22%20height%3D%22160%22%20rx%3D%2222%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22164%22%20y%3D%2274%22%20width%3D%22240%22%20height%3D%22160%22%20rx%3D%2222%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Ctext%20x%3D%22284%22%20y%3D%22170%22%20font-family%3D%22Albert%20Sans%2Csystem-ui%2Csans-serif%22%20font-size%3D%2264%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%2314162B%22%3EA%E3%81%82%3C%2Ftext%3E%3Crect%20x%3D%22300%22%20y%3D%22190%22%20width%3D%22240%22%20height%3D%22120%22%20rx%3D%2222%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22288%22%20y%3D%22178%22%20width%3D%22240%22%20height%3D%22120%22%20rx%3D%2222%22%20fill%3D%22%232ED3A0%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Ctext%20x%3D%22408%22%20y%3D%22255%22%20font-family%3D%22Albert%20Sans%2Csystem-ui%2Csans-serif%22%20font-size%3D%2254%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%2314162B%22%3E%E6%96%87A%3C%2Ftext%3E%3C%2Fsvg%3E"
+    },
+    "contoh-halaman.html": {
+      "hidden": true,
+      "title": "Contoh Halaman",
+      "description": "Salin blok ini untuk menambah halaman baru. Hapus baris hidden agar tampil.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat"
+      ],
+      "order": 1005,
+      "image": ""
+    },
+    "reading-generator.html": {
+      "title": "Reading Generator",
+      "description": "Ambil teks bacaan dari teks biasa, file, foto dokumen, link web, berita, atau podcast, lalu kirim ke Sync Reader atau simpan sebagai JSON.",
+      "category": "Alat",
+      "youtube": "",
+      "tags": [
+        "alat",
+        "teks"
+      ],
+      "order": 1003,
+      "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23FF6B5E%22%2F%3E%3Ccircle%20cx%3D%22552%22%20cy%3D%2262%22%20r%3D%2236%22%20fill%3D%22%23FFD23F%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2262%22%20width%3D%22250%22%20height%3D%22250%22%20rx%3D%2214%22%20fill%3D%22%2314162B%22%2F%3E%3Crect%20x%3D%22188%22%20y%3D%2250%22%20width%3D%22250%22%20height%3D%22250%22%20rx%3D%2214%22%20fill%3D%22%23fff%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%225%22%2F%3E%3Cpath%20d%3D%22M220%20100h150M220%20138h186M220%20176h186M220%20214h120M220%20252h160%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Crect%20x%3D%22214%22%20y%3D%2286%22%20width%3D%2264%22%20height%3D%2228%22%20rx%3D%228%22%20fill%3D%22%23FFD23F%22%2F%3E%3Cpath%20d%3D%22M220%20100h50%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%22440%22%20cy%3D%22250%22%20r%3D%2242%22%20fill%3D%22%232ED3A0%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%226%22%2F%3E%3Cpath%20d%3D%22M470%20282l44%2044%22%20stroke%3D%22%2314162B%22%20stroke-width%3D%2216%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "slug": "can-chocolate-make-you-better-at-english",
+      "title": "Can chocolate make you better at English?",
+      "videoId": "jAdJAzntcjM",
+      "lines": 326,
+      "category": "Vlog",
+      "channel": "English by Jay - Sprout",
+      "tags": [
+        "Vlog",
+        "travel",
+        "panjang"
+      ],
+      "added": "2026-10-27T22:50:24.297Z"
+    },
+    {
+      "slug": "learn-english-naturally-with-this-easy-vlog-comprehensible-input",
+      "title": "Learn English Naturally With This Easy Vlog | Comprehensible Input",
+      "videoId": "EoOkWxc0-j0",
+      "lines": 596,
+      "category": "Vlog",
+      "channel": "Volka English",
+      "tags": [
+        "Travel",
+        "pemula"
+      ],
+      "added": "2026-10-27T22:50:24.297Z"
+    },
+    {
+      "slug": "speak-english-naturally-with-me-easy-comprehensible-input-vlog",
+      "title": "Speak English Naturally With Me | Easy Comprehensible Input Vlog",
+      "videoId": "DZP5ZL-JxSQ",
+      "lines": 451,
+      "category": "Vlog",
+      "channel": "Volka English",
+      "tags": [
+        "Travel",
+        "pemula",
+        "panjang"
+      ],
+      "added": "2026-10-27T22:50:24.297Z"
+    }
+  ]
+}
