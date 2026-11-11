@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Index Builder | Learning Fun</title>
+<meta name="theme-color" content="#EEF2FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101226" media="(prefers-color-scheme: dark)">
+<script src="i18n.js"></script>
+<script>try{var t=JSON.parse(localStorage.getItem('lf:theme'));if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #EEF2FF; --surface: #FFFFFF; --ink: #14162B; --on: #14162B; --muted: #4F5575;
+  --line: #14162B; --shadow: #14162B; --rule: #D3D9F2;
+  --yellow: #FFD23F; --coral: #FF6B5E; --blue: #4C84FF; --mint: #2ED3A0; --purple: #A07CFA;
+  --ok: #0F7A52; --warn: #8A5A00; --bad: #C0261D;
+  --font: 'Albert Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Fredoka', 'Albert Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101226; --surface: #1B1E3A; --ink: #F2F3FF; --muted: #A9AED6; --line: #7A80C4; --shadow: #04050E; --rule: #2A2F55;
+    --ok: #4CC38A; --warn: #E3A441; --bad: #FF8A80; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101226; --surface: #1B1E3A; --ink: #F2F3FF; --muted: #A9AED6; --line: #7A80C4; --shadow: #04050E; --rule: #2A2F55;
+  --ok: #4CC38A; --warn: #E3A441; --bad: #FF8A80; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+button, input, textarea { font: inherit; color: inherit; }
+a { color: inherit; }
+h1, h2, p { margin: 0; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.wrap { width: min(820px, 100% - 2 * clamp(16px, 4vw, 40px)); margin-inline: auto; }
+
+/* Header */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 20px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; text-decoration: none; }
+.logo { display: grid; place-items: center; width: 40px; height: 40px; border: 2.5px solid var(--line); border-radius: 12px; background: var(--yellow); box-shadow: 3px 3px 0 var(--shadow); }
+.right { display: flex; align-items: center; gap: 8px; }
+.back { padding: 8px 14px; border-radius: 999px; font-weight: 600; text-decoration: none; }
+.back:hover { background: var(--surface); }
+.icon-btn { display: grid; place-items: center; width: 42px; height: 42px; border: 2.5px solid var(--line); border-radius: 50%; background: var(--surface); cursor: pointer; box-shadow: 3px 3px 0 var(--shadow); }
+.icon-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+
+.page { display: flex; flex-direction: column; gap: 32px; padding-bottom: 72px; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.08; text-wrap: balance; }
+.lead { margin-top: 12px; color: var(--muted); max-width: 60ch; }
+
+/* Langkah = kartu */
+.step { display: flex; flex-direction: column; gap: 14px; min-width: 0; padding: 22px 22px 24px; background: var(--surface); border: 2.5px solid var(--line); border-radius: 22px; box-shadow: 6px 6px 0 var(--shadow); }
+.step > h2 { display: flex; align-items: center; gap: 12px; font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; line-height: 1.2; }
+.step > h2 .n { flex: none; display: inline-grid; place-items: center; width: 32px; height: 32px; border: 2px solid var(--line); border-radius: 50%; background: var(--c, var(--yellow)); color: var(--on); font-size: 1rem; }
+.s1 { --c: var(--yellow); } .s2 { --c: var(--coral); } .s3 { --c: var(--mint); }
+
+/* Tombol */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
+  padding: 10px 22px; border: 2.5px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink);
+  font-family: var(--font-display); font-weight: 600; font-size: 1rem; line-height: 1.2; cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow); transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.btn:hover:not(:disabled) { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow); }
+.btn:active:not(:disabled) { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+.btn.primary { background: var(--yellow); color: var(--on); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+
+/* Area drop */
+.drop { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-height: 148px; padding: 20px; text-align: center; border: 2.5px dashed var(--line); border-radius: 18px; background: var(--bg); cursor: pointer; }
+.drop.over { background: color-mix(in srgb, var(--yellow) 35%, var(--surface)); }
+.drop:focus-within { outline: 3px solid var(--blue); outline-offset: 3px; }
+.drop input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+.drop b { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; }
+.drop span { color: var(--muted); font-size: 0.95rem; max-width: 52ch; }
+.note { font-size: 0.92rem; color: var(--muted); }
+.note.warn { color: var(--warn); font-weight: 600; } .note.bad { color: var(--bad); }
+.sum { display: flex; flex-wrap: wrap; gap: 6px 14px; font-weight: 700; }
+.sum span { color: var(--muted); font-weight: 600; }
+
+/* Daftar pelajaran */
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.item { display: flex; gap: 12px; padding: 16px; background: var(--bg); border: 2.5px solid var(--line); border-radius: 18px; }
+.item.off { opacity: 0.5; }
+.item.err { border-style: dashed; border-color: var(--bad); }
+.chk { flex: none; display: grid; place-items: start center; width: 28px; padding-top: 2px; }
+.chk input { width: 22px; height: 22px; accent-color: var(--mint); cursor: pointer; }
+.body { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.t { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; line-height: 1.25; overflow-wrap: anywhere; }
+.m { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); overflow-wrap: anywhere; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.b { padding: 1px 10px; border: 2px solid var(--line); border-radius: 999px; background: var(--surface); font-size: 0.8rem; font-weight: 700; }
+.b.new { background: var(--yellow); color: var(--on); }
+.b.warn { background: color-mix(in srgb, var(--coral) 30%, var(--surface)); }
+.b.bad { background: var(--coral); color: var(--on); }
+.edit { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 2px; }
+.edit label { display: flex; flex-direction: column; gap: 4px; font-size: 0.82rem; font-weight: 700; color: var(--muted); min-width: 0; }
+.edit label.wide { grid-column: 1 / -1; }
+.edit input { width: 100%; min-width: 0; padding: 9px 14px; border: 2.5px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: 0.95rem; font-weight: 400; }
+.edit input::placeholder { color: var(--muted); }
+@media (max-width: 520px) { .edit { grid-template-columns: 1fr; } }
+
+details { border: 2.5px solid var(--line); border-radius: 16px; background: var(--bg); padding: 0 16px; }
+details > summary { min-height: 46px; display: flex; align-items: center; cursor: pointer; font-family: var(--font-display); font-weight: 600; }
+details[open] > summary { border-bottom: 2px dashed var(--rule); margin-bottom: 12px; }
+details .inner { display: flex; flex-direction: column; gap: 10px; padding-bottom: 16px; }
+details ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+textarea { width: 100%; min-height: 220px; padding: 14px; border: 2.5px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); font-family: var(--font-mono); font-size: 12px; line-height: 1.5; resize: vertical; }
+.toast { min-height: 1.4em; font-weight: 700; color: var(--ok); }
+.toast.bad { color: var(--bad); }
+code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-radius: 6px; background: color-mix(in srgb, var(--purple) 22%, var(--surface)); }
+.foot { padding-block: 0 48px; color: var(--muted); font-size: 0.95rem; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="./">
+    <span class="logo" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="#fff" stroke="#14162B" stroke-width="2" stroke-linejoin="round"/></svg>
+    </span>
+    Learning Fun
+  </a>
+  <div class="right">
+    <a class="back" href="./">Beranda</a>
+    <button id="theme" class="icon-btn" type="button" aria-label="Ganti tema terang atau gelap">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap page">
+  <header>
+    <h1>Pembuat index.json</h1>
+    <p class="lead">Pilih semua file JSON pelajaran sekaligus, lalu unduh <code>index.json</code> yang sudah diperbarui secara keseluruhan untuk daftar di <code>index.html</code>.</p>
+  </header>
+
+  <section class="step s1" aria-labelledby="h1s">
+    <h2 id="h1s"><span class="n">1</span>Pilih file JSON</h2>
+    <label class="drop" id="drop">
+      <b>Pilih beberapa file sekaligus</b>
+      <span>Semua file pelajaran (<code>nama.json</code>). Kalau punya <code>index.json</code> lama, ikutkan juga supaya tanggal tambah, kategori, tag, dan gambar tetap terjaga. Bisa juga diseret ke sini.</span>
+      <input type="file" id="files" accept=".json,application/json" multiple>
+    </label>
+    <div class="row">
+      <button class="btn" id="bClear" type="button" disabled>Kosongkan</button>
+    </div>
+  </section>
+
+  <section class="step s2" id="s2" aria-labelledby="h2s" hidden>
+    <h2 id="h2s"><span class="n">2</span>Periksa daftar</h2>
+    <div class="sum" id="sum"></div>
+    <p class="note" id="note"></p>
+    <ul class="list" id="list"></ul>
+  </section>
+
+  <section class="step s3" id="s3" aria-labelledby="h3s" hidden>
+    <h2 id="h3s"><span class="n">3</span>Unduh index.json</h2>
+    <div class="row">
+      <button class="btn primary" id="bDl" type="button">Unduh index.json</button>
+      <button class="btn" id="bCopy" type="button">Salin isinya</button>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <details>
+      <summary>Lihat isi file</summary>
+      <div class="inner"><textarea id="out" readonly spellcheck="false" aria-label="Isi index.json"></textarea></div>
+    </details>
+    <details>
+      <summary>Setelah itu</summary>
+      <div class="inner">
+        <ol>
+          <li>Buka repositori di GitHub, folder <code>data/</code>.</li>
+          <li>Upload <code>index.json</code> ini dan timpa yang lama. Pelajaran baru juga di-upload ke folder yang sama.</li>
+          <li>Tunggu beberapa saat, lalu muat ulang <code>index.html</code>.</li>
+        </ol>
+        <p class="note">Centang di daftar menentukan pelajaran mana yang masuk. Entri dari index lama yang filenya tidak dipilih tetap dipertahankan; hilangkan centangnya untuk menghapusnya dari daftar.</p>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap foot">Learning Fun, learningfun.zone.id</footer>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const SLUG_RE = /^[A-Za-z0-9_][A-Za-z0-9_.-]*$/;
+  const NOW = new Date().toISOString();
+  const KNOWN = ['slug', 'title', 'videoId', 'audio', 'lines', 'description', 'category', 'tags', 'order', 'image', 'feed', 'duration', 'added', 'channel', 'type', 'words'];
+  const isHttp = (v) => typeof v === 'string' && /^https?:\/\/\S+$/.test(v.trim());
+  // Cari link RSS podcast di JSON audio: kunci langsung, objek bersarang (mis. podcast.rss), atau nilai URL bergaya feed.
+  const feedOf = (j) => {
+    if (!j || typeof j !== 'object') return '';
+    const keyRe = /(^|[^a-z])(rss|feed|podcast)([^a-z]|$)|rss|feed/i;
+    const urlRe = /\.(xml|rss)(\?|#|$)|\/(rss|feed|feeds)(\/|\?|#|$)|feeds?\.|\/rss\//i;
+    const skip = new Set(['transcript', 'words', 'lines']);
+    const seen = new Set();
+    let weak = '';
+    const walk = (o, depth) => {
+      if (!o || typeof o !== 'object' || depth > 4 || seen.has(o)) return '';
+      seen.add(o);
+      for (const k of Object.keys(o)) {
+        if (skip.has(k)) continue;
+        const v = o[k];
+        if (isHttp(v)) {
+          if (keyRe.test(k)) return v.trim();
+          if (!weak && urlRe.test(v.trim())) weak = v.trim();
+        }
+      }
+      for (const k of Object.keys(o)) {
+        if (skip.has(k)) continue;
+        const v = o[k];
+        if (v && typeof v === 'object' && !Array.isArray(v)) { const r = walk(v, depth + 1); if (r) return r; }
+      }
+      return '';
+    };
+    return walk(j, 0) || weak;
+  };
+  const isAudioOnly = (b) => !!b.audio && !b.videoId;   // form RSS/gambar hanya untuk audio
+  const imgOf = (j) => str(j && (j.image || j.thumbnail || j.cover || j.logo));
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const str = (v) => (typeof v === 'string' ? v.trim() : '');
+  const tagsOf = (v) => {
+    const raw = Array.isArray(v) ? v : String(v || '').split(',');
+    const seen = new Set(), out = [];
+    raw.forEach((t) => { const s = String(t).trim().replace(/\s+/g, ' '); if (s && !seen.has(s.toLowerCase())) { seen.add(s.toLowerCase()); out.push(s); } });
+    return out;
+  };
+
+  /* ---- state ---- */
+  const fileLessons = new Map();   // slug -> data dari file pelajaran
+  let oldIndex = new Map();        // slug -> entri dari index.json lama
+  let indexName = '';
+  const errors = [];
+  const feedImg = new Map();       // link RSS -> URL gambar channel (hasil ambil otomatis)
+  const feedTried = new Set();
+  const ui = new Map();            // slug -> { include, category, tags } hasil ubahan di layar
+
+  /* ---- membaca file ---- */
+  async function addFiles(list) {
+    const dup = [];
+    for (const f of Array.from(list)) {
+      if (!/\.json$/i.test(f.name)) { errors.push({ name: f.name, msg: 'Bukan file .json.' }); continue; }
+      let j;
+      try { j = JSON.parse(await f.text()); } catch (e) { errors.push({ name: f.name, msg: 'Bukan JSON yang valid.' }); continue; }
+      if (j && Array.isArray(j.lessons) && !Array.isArray(j.lines)) { loadIndex(j, f.name); continue; }
+      const slug = f.name.replace(/\.json$/i, '');
+      if (!SLUG_RE.test(slug)) {
+        const fixed = slug.replace(/\s*\(\d+\)$/, '').replace(/[^A-Za-z0-9_.-]+/g, '-').replace(/-+/g, '-').replace(/^[-.]+|-+$/g, '');
+        const hint = (j && SLUG_RE.test(str(j.slug))) ? str(j.slug) : fixed;
+        errors.push({ name: f.name, msg: 'Nama file tidak valid (spasi atau tanda kurung seperti "(1)" tambahan Chrome tidak boleh). Ganti nama menjadi ' + (hint || 'nama-pelajaran') + '.json, lalu pilih lagi.' });
+        continue;
+      }
+      // bacaan hasil reading-generator (type "read"): tanpa transkrip berwaktu, dibuka di player-reading.html
+      if (j && (j.type === 'read' || j.type === 'reading') && (Array.isArray(j.paragraphs) || typeof j.text === 'string')) {
+        const paras = Array.isArray(j.paragraphs) ? j.paragraphs.length : String(j.text).split(/\n\s*\n/).filter((x) => x.trim()).length;
+        const wc = Number(j.words) || (String(j.text || '').match(/[\p{L}\p{N}']+/gu) || []).length;
+        if (!paras || !wc) { errors.push({ name: f.name, msg: 'Bacaan ini tidak berisi teks.' }); continue; }
+        if (fileLessons.has(slug)) dup.push(f.name);
+        fileLessons.set(slug, {
+          slug, type: 'read', title: str(j.title) || slug, videoId: '', audio: '', lines: paras, words: wc,
+          description: str(j.description), category: str(j.category), channel: str(j.channel), tags: tagsOf(j.tags),
+          image: imgOf(j), feed: '', duration: Math.round(Number(j.duration)) || Math.max(60, Math.round(wc / 180 * 60)),
+          order: Number.isFinite(j.order) ? j.order : undefined
+        });
+        continue;
+      }
+      // format audio (transcript / words dari generator) atau format lama (lines)
+      const tr = j && Array.isArray(j.transcript) ? j.transcript : (j && Array.isArray(j.words) ? j.words : null);
+      const src = j && Array.isArray(j.lines) && j.lines.length ? j.lines : tr;
+      if (!src || !src.length) { errors.push({ name: f.name, msg: 'Tidak berisi baris transkrip (butuh "transcript" atau "lines").' }); continue; }
+      const nLines = src === tr
+        ? Math.max(1, new Set(tr.map((w) => (Array.isArray(w) ? w[3] : w && w.b))).size)
+        : src.length;
+      // durasi (detik): pakai field "duration"; file lama tanpa field itu diperkirakan dari akhir kata terakhir
+      let dur = Math.round(Number(j.duration)) || 0;
+      if (!dur && src === tr) dur = Math.round(tr.reduce((m, w) => { const e = Number(Array.isArray(w) ? w[2] : w && w.e); return e > m ? e : m; }, 0));
+      if (fileLessons.has(slug)) dup.push(f.name);
+      fileLessons.set(slug, {
+        slug,
+        title: str(j.title) || slug,
+        videoId: /^[\w-]{11}$/.test(j.videoId || '') ? j.videoId : '',
+        audio: str(j.audio),
+        lines: nLines,
+        description: str(j.description),
+        category: str(j.category),
+        channel: str(j.channel),
+        tags: tagsOf(j.tags),
+        image: imgOf(j),
+        feed: feedOf(j),
+        duration: dur,
+        order: Number.isFinite(j.order) ? j.order : undefined
+      });
+    }
+    if (dup.length) errors.push({ name: dup.join(', '), msg: 'Dipilih lebih dari sekali. Yang terakhir dipakai.', soft: true });
+    render();
+  }
+  function loadIndex(j, name) {
+    oldIndex = new Map();
+    j.lessons.forEach((l) => { if (l && typeof l.slug === 'string' && SLUG_RE.test(l.slug)) oldIndex.set(l.slug, l); });
+    indexName = name;
+  }
+
+  /* ---- menyusun daftar akhir ---- */
+  function rows() {
+    const out = [];
+    const slugs = new Set([...fileLessons.keys(), ...oldIndex.keys()]);
+    for (const slug of slugs) {
+      const f = fileLessons.get(slug), o = oldIndex.get(slug);
+      const st = ui.get(slug) || {};
+      let base, status;
+      if (f) {
+        base = {
+          slug, type: f.type || (o && (o.type === 'read' || o.type === 'reading') ? 'read' : ''), words: f.words || Number(o && o.words) || 0,
+          title: f.title, videoId: f.videoId, audio: f.audio || str(o && o.audio), lines: f.lines,
+          description: f.description || str(o && o.description),
+          category: f.category || str(o && o.category),
+          channel: f.channel || str(o && o.channel),
+          tags: f.tags.length ? f.tags : tagsOf(o && o.tags),
+          image: f.image || str(o && o.image),
+          feed: f.feed || str(o && o.feed),
+          duration: f.duration || Math.round(Number(o && o.duration)) || 0,
+          order: f.order !== undefined ? f.order : (o && Number.isFinite(o.order) ? o.order : undefined),
+          added: (o && typeof o.added === 'string' && o.added) || NOW
+        };
+        status = !oldIndex.size ? '' : (o ? 'update' : 'new');
+      } else {
+        base = {
+          slug, type: (o.type === 'read' || o.type === 'reading') ? 'read' : '', words: Number(o.words) || 0,
+          title: str(o.title) || slug, videoId: /^[\w-]{11}$/.test(o.videoId || '') ? o.videoId : '', audio: str(o.audio), lines: Number(o.lines) || 0,
+          description: str(o.description), category: str(o.category), channel: str(o.channel), tags: tagsOf(o.tags), image: str(o.image), feed: str(o.feed), duration: Math.round(Number(o.duration)) || 0,
+          order: Number.isFinite(o.order) ? o.order : undefined,
+          added: (typeof o.added === 'string' && o.added) || ''
+        };
+        status = 'kept';
+      }
+      const extra = {};
+      if (o) Object.keys(o).forEach((k) => { if (KNOWN.indexOf(k) < 0) extra[k] = o[k]; });
+      const feed = st.feed !== undefined ? st.feed.trim() : base.feed;
+      out.push({ slug, status, base, extra, include: st.include !== false,
+        category: st.category !== undefined ? st.category.trim() : base.category,
+        tags: st.tags !== undefined ? tagsOf(st.tags) : base.tags,
+        feed,
+        image: st.image !== undefined ? st.image.trim() : (base.image || feedImg.get(feed) || '') });
+    }
+    return out.sort((a, b) => (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0));
+  }
+  function buildJson() {
+    const lessons = rows().filter((r) => r.include).map((r) => {
+      const b = r.base, e = { slug: r.slug, title: b.title, videoId: b.videoId, lines: b.lines };
+      if (b.type === 'read') { e.type = 'read'; if (b.words) e.words = b.words; if (b.duration > 0) e.duration = b.duration; if (r.image) e.image = r.image; }
+      if (b.audio) e.audio = b.audio;
+      if (b.description) e.description = b.description;
+      if (r.category) e.category = r.category;
+      if (b.channel) e.channel = b.channel;
+      if (r.tags.length) e.tags = r.tags;
+      if (isAudioOnly(b)) {
+        if (b.duration > 0) e.duration = b.duration;
+        if (r.image) e.image = r.image;
+        if (r.feed) e.feed = r.feed;
+      }
+      if (b.order !== undefined) e.order = b.order;
+      Object.assign(e, r.extra);
+      if (b.added) e.added = b.added;
+      return e;
+    });
+    return { text: JSON.stringify({ version: 1, lessons }, null, 2) + '\n', count: lessons.length };
+  }
+
+
+  /* ---- gambar channel dari RSS feed podcast ---- */
+  // Urutan: langsung (jika feed mengizinkan CORS), lalu rss2json, lalu allorigins.
+  const parseFeedImg = txt => {
+    try {
+      const d = new DOMParser().parseFromString(txt, 'text/xml');
+      const it = d.getElementsByTagName('itunes:image')[0];
+      let u = it && it.getAttribute('href');
+      if (!u) { const n = d.querySelector('channel > image > url'); u = n && n.textContent.trim(); }
+      return u || '';
+    } catch { return ''; }
+  };
+  async function feedImage(feed) {
+    const tries = [
+      async () => parseFeedImg(await (await fetch(feed)).text()),
+      async () => { const j = await (await fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed))).json(); return (j.feed && j.feed.image) || ''; },
+      async () => parseFeedImg(await (await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(feed))).text())
+    ];
+    for (const t of tries) {
+      try { const u = await t(); if (/^https?:\/\/\S+$/.test(u)) return u; } catch { /* coba cara berikutnya */ }
+    }
+    return '';
+  }
+  async function resolveFeeds() {
+    const feeds = [...new Set(rows().filter((r) => r.include && isAudioOnly(r.base) && r.feed && !r.image && !feedTried.has(r.feed)).map((r) => r.feed))];
+    if (!feeds.length) return;
+    feeds.forEach((f) => feedTried.add(f));
+    let got = false;
+    await Promise.all(feeds.map(async (f) => { const u = await feedImage(f); if (u) { feedImg.set(f, u); got = true; } }));
+    if (got) render();
+  }
+
+  /* ---- tampilan ---- */
+  const list = $('#list');
+  function render() {
+    const rs = rows();
+    const has = rs.length > 0 || errors.length > 0;
+    $('#s2').hidden = !has;
+    $('#bClear').disabled = !has && !indexName;
+    if (!has) { $('#s3').hidden = true; return; }
+    const cnt = (s) => rs.filter((r) => r.status === s).length;
+    const bits = [];
+    bits.push('<b>' + rs.length + '</b> pelajaran');
+    if (oldIndex.size) bits.push('<span>baru ' + cnt('new') + ' · diperbarui ' + cnt('update') + ' · dari index lama ' + cnt('kept') + '</span>');
+    if (errors.some((e) => !e.soft)) bits.push('<span style="color:var(--bad)">' + errors.filter((e) => !e.soft).length + ' file gagal</span>');
+    $('#sum').innerHTML = bits.join('');
+    $('#note').className = 'note' + (oldIndex.size ? '' : ' warn');
+    $('#note').textContent = oldIndex.size
+      ? 'Index lama dipakai: ' + indexName + '.'
+      : 'Tidak ada index.json lama yang dipilih. Semua pelajaran dianggap baru dan tanggal tambahnya diisi hari ini.';
+    list.innerHTML = rs.map((r) => {
+      const b = r.base;
+      const badges = [];
+      if (r.status === 'new') badges.push('<span class="b new">Baru</span>');
+      if (r.status === 'update') badges.push('<span class="b">Diperbarui</span>');
+      if (r.status === 'kept') badges.push('<span class="b warn">Dari index lama, file tidak dipilih</span>');
+      if (b.type === 'read') badges.push('<span class="b">Read</span>');
+      else if (!b.videoId && !b.audio) badges.push('<span class="b warn">Tanpa audio/video</span>');
+      return '<li class="item' + (r.include ? '' : ' off') + '" data-slug="' + esc(r.slug) + '">' +
+        '<label class="chk"><input type="checkbox" ' + (r.include ? 'checked' : '') + ' aria-label="Masukkan ' + esc(b.title) + '"></label>' +
+        '<div class="body"><div class="t">' + esc(b.title) + '</div>' +
+        '<div class="m">' + esc(r.slug) + '.json · ' + b.lines + (b.type === 'read' ? ' paragraf · ' + b.words + ' kata' : ' baris') + (b.videoId ? ' · ' + esc(b.videoId) : (b.audio ? ' · audio' : '')) + '</div>' +
+        (badges.length ? '<div class="badges">' + badges.join('') + '</div>' : '') +
+        '<div class="edit"><label>Kategori<input type="text" data-f="category" value="' + esc(r.category) + '" placeholder="Latihan" autocomplete="off"></label>' +
+        '<label>Tag (pisahkan koma)<input type="text" data-f="tags" value="' + esc(r.tags.join(', ')) + '" placeholder="travel, airport" autocomplete="off"></label>' +
+        (isAudioOnly(b) ? '<label class="wide">Link RSS podcast (opsional, gambar diambil otomatis)<input type="text" data-f="feed" value="' + esc(r.feed) + '" placeholder="https://.../feed.xml" autocomplete="off"></label>' +
+          '<label class="wide">Gambar thumbnail (isi manual untuk menimpa)<input type="text" data-f="image" value="' + esc(r.image) + '" placeholder="https://.../logo.jpg" autocomplete="off"></label>' : '') + '</div>' +
+        '</div></li>';
+    }).join('') + errors.map((e) =>
+      '<li class="item err"><div class="chk"></div><div class="body"><div class="t">' + esc(e.name) + '</div><div class="badges"><span class="b ' + (e.soft ? 'warn' : 'bad') + '">' + (e.soft ? 'Perhatian' : 'Gagal') + '</span></div><div class="m" style="font-family:inherit">' + esc(e.msg) + '</div></div></li>').join('');
+    refreshOut();
+    resolveFeeds();
+  }
+  function refreshOut() {
+    const { text, count } = buildJson();
+    $('#s3').hidden = rows().length === 0;
+    $('#out').value = text;
+    $('#bDl').disabled = $('#bCopy').disabled = count === 0;
+    $('#bDl').textContent = 'Unduh index.json (' + count + ')';
+  }
+
+  list.addEventListener('change', (e) => {
+    const li = e.target.closest('.item[data-slug]');
+    if (!li || e.target.type !== 'checkbox') return;
+    const s = ui.get(li.dataset.slug) || {}; s.include = e.target.checked; ui.set(li.dataset.slug, s);
+    li.classList.toggle('off', !e.target.checked);
+    refreshOut();
+  });
+  list.addEventListener('input', (e) => {
+    const li = e.target.closest('.item[data-slug]');
+    if (!li || !e.target.dataset.f) return;
+    const s = ui.get(li.dataset.slug) || {}; s[e.target.dataset.f] = e.target.value; ui.set(li.dataset.slug, s);
+    refreshOut();
+  });
+
+  /* ---- tema ---- */
+  $('#theme').addEventListener('click', () => {
+    const root = document.documentElement;
+    const cur = root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('lf:theme', JSON.stringify(next)); } catch (e) { /* abaikan */ }
+  });
+
+  /* ---- input file, seret-lepas, tombol ---- */
+  const input = $('#files'), drop = $('#drop');
+  input.addEventListener('change', async () => { await addFiles(input.files); input.value = ''; });
+  ['dragenter', 'dragover'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('over'); }));
+  ['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('over'); }));
+  drop.addEventListener('drop', (e) => { if (e.dataTransfer && e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
+  $('#bClear').addEventListener('click', () => { fileLessons.clear(); oldIndex = new Map(); indexName = ''; errors.length = 0; ui.clear(); feedImg.clear(); feedTried.clear(); toast(''); render(); });
+
+  let tt = null;
+  function toast(msg, bad) { const t = $('#toast'); t.textContent = msg; t.className = 'toast' + (bad ? ' bad' : ''); clearTimeout(tt); if (msg) tt = setTimeout(() => { t.textContent = ''; }, 5000); }
+  $('#bDl').addEventListener('click', () => {
+    try {
+      const blob = new Blob([buildJson().text], { type: 'application/json;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'index.json'; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 8000);
+      toast('File diunduh: index.json');
+    } catch (e) { toast('Unduh gagal. Pakai tombol Salin lalu tempel ke file index.json.', true); }
+  });
+  $('#bCopy').addEventListener('click', async () => {
+    const text = buildJson().text;
+    try { await navigator.clipboard.writeText(text); toast('Isi index.json disalin.'); }
+    catch (e) {
+      const t = $('#out'); t.closest('details').open = true; t.focus(); t.select();
+      toast('Salin otomatis ditolak. Isinya sudah dipilih, salin manual.', true);
+    }
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1205 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pembuat Shadowing</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&family=DM+Mono:wght@400;500&family=Gentium+Plus:ital,wght@0,400;1,400&display=swap">
+<style>
+/* Layout: satu kolom, tiga langkah berurutan (video, transkrip, hasil). Warna dan huruf sama dengan halaman shadowing. */
+:root {
+  --bg: #EEF2FF; --surface: #FFFFFF; --ink: #14162B; --muted: #4F5575; --rule: #D3D9F2;
+  --accent: #0B7A58; --accent-text: #0B7A58; --accent-ink: #FFFFFF; --tint: #DDF5EC; --ipa: #1F5FB8;
+  --ok: #1B7F4B; --warn: #94600A; --bad: #C0261D;
+  --font-en: 'Albert Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-ipa: 'Gentium Plus', 'Charis SIL', 'Noto Serif', 'DejaVu Serif', serif;
+  --font-mono: 'DM Mono', ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101226; --surface: #1B1E3A; --ink: #F2F3FF; --muted: #A9AED6; --rule: #2A2F55;
+    --accent: #34D3A1; --accent-text: #34D3A1; --accent-ink: #0B0D1E; --tint: #12352B; --ipa: #8DB8FF;
+    --ok: #4CC38A; --warn: #E3A441; --bad: #FF6B60; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101226; --surface: #1B1E3A; --ink: #F2F3FF; --muted: #A9AED6; --rule: #2A2F55;
+  --accent: #34D3A1; --accent-text: #34D3A1; --accent-ink: #0B0D1E; --tint: #12352B; --ipa: #8DB8FF;
+  --ok: #4CC38A; --warn: #E3A441; --bad: #FF6B60; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-en); font-size: 16px; line-height: 1.45; }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 22px 56px; display: flex; flex-direction: column; gap: 26px; }
+h1 { margin: 0; font-size: 1.45rem; font-weight: 700; letter-spacing: -0.015em; text-wrap: balance; }
+.lead { margin: 6px 0 0; color: var(--muted); font-size: 0.95rem; max-width: 60ch; }
+.step { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.step > h2 { margin: 0; display: flex; align-items: center; gap: 10px; font-size: 1.02rem; font-weight: 700; }
+.step > h2 .n { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: var(--bg); display: grid; place-items: center; font-family: var(--font-mono); font-size: 0.8rem; font-weight: 500; }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field label { font-size: 0.85rem; font-weight: 600; }
+.hint { font-size: 0.8rem; color: var(--muted); }
+select, input[type="text"], input[type="url"], textarea { width: 100%; min-width: 0; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; font-size: 16px; }
+textarea { min-height: 220px; resize: vertical; font-family: var(--font-mono); font-size: 13px; line-height: 1.5; }
+input:focus-visible, textarea:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--line); outline-offset: 2px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.btn { min-height: 44px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--rule); background: var(--surface); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.status { display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; }
+.pill { display: inline-flex; align-items: center; gap: 8px; width: fit-content; max-width: 100%; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); font-size: 0.84rem; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none; }
+.pill.ok .dot { background: var(--ok); } .pill.warn .dot { background: var(--warn); } .pill.bad .dot { background: var(--bad); }
+.pill code { font-family: var(--font-mono); }
+.note { margin: 0; font-size: 0.84rem; color: var(--muted); }
+.note.warn { color: var(--warn); } .note.bad { color: var(--bad); }
+.preview { display: flex; flex-direction: column; gap: 2px; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 6px; }
+.preview[hidden] { display: none; }
+.pl { display: flex; gap: 12px; padding: 10px; align-items: flex-start; }
+.pl .tm { flex: none; width: 44px; margin-top: 3px; text-align: center; font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.ws { display: flex; flex-wrap: wrap; gap: 2px 12px; min-width: 0; }
+.w { display: flex; flex-direction: column; }
+.w b { font-weight: 600; font-size: 1.05rem; }
+.w.jp { align-items: center; text-align: center; }
+.w.jp b { line-height: 1.9; }
+.w rt { font-family: var(--font-en); font-size: 0.48em; font-weight: 500; line-height: 1; color: var(--muted); }
+.w .ro { font-style: normal; font-size: 0.82rem; line-height: 1.2; color: var(--muted); }
+.w.pn { margin-left: -10px; }
+.ws.jpl { align-items: flex-end; }
+.w i { font-family: var(--font-ipa); font-style: normal; font-size: 0.92rem; color: var(--ipa); line-height: 1.25; }
+.more { padding: 4px 10px 8px; font-size: 0.8rem; color: var(--muted); }
+details { border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); padding: 0 14px; }
+details > summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 600; font-size: 0.9rem; }
+details[open] > summary { border-bottom: 1px solid var(--rule); margin-bottom: 12px; }
+details .inner { display: flex; flex-direction: column; gap: 10px; padding-bottom: 14px; }
+details ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; }
+.code { margin: 0; padding: 12px; border-radius: 10px; background: var(--bg); border: 1px solid var(--rule); font-family: var(--font-mono); font-size: 12px; line-height: 1.5; overflow-x: auto; white-space: pre; }
+#output { min-height: 140px; font-size: 12px; }
+.toast { min-height: 1.3em; font-size: 0.88rem; font-weight: 600; color: var(--ok); }
+.toast.bad { color: var(--bad); }
+#raw, #ipa, #tr, #furi, #lao, #rom, #alt { min-height: 150px; }
+#furi, #raw.jp { font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', system-ui, sans-serif; }
+.rowbtns { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.pl .trp { margin-top: 4px; font-size: 0.85rem; color: var(--muted); }
+.pl > div:last-child { min-width: 0; }
+.lbl { font-size: 0.85rem; font-weight: 600; }
+.lblrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.btn.sm { min-height: 34px; padding: 0 12px; font-size: 0.8rem; }
+
+[hidden] { display: none !important; }
+.sync { width: 100%; min-height: 52px; justify-content: center; font-size: 1rem; }
+.syncbox { display: flex; flex-direction: column; gap: 8px; }
+.syncbox .note { text-align: center; }
+/* Halaman 2: preview layar penuh */
+body.pv { margin: 0; overflow: hidden; }
+#vPv:not([hidden]) { display: flex; flex-direction: column; height: 100vh; height: 100dvh; }
+.bar { flex: none; background: var(--bg); border-bottom: 1px solid var(--rule); padding: 8px 12px; padding-top: calc(8px + env(safe-area-inset-top, 0px)); padding-inline: max(12px, env(safe-area-inset-left, 0px)) max(12px, env(safe-area-inset-right, 0px)); }
+.bar-in { display: flex; align-items: center; gap: 10px; }
+.bar h2 { flex: 1; min-width: 0; margin: 0; font-size: 1rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.back { flex: none; width: 44px; padding: 0; justify-content: center; }
+.back svg, .menu svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.menuwrap { position: relative; flex: none; margin-left: auto; }
+.menu { position: absolute; right: 0; top: calc(100% + 6px); min-width: 220px; padding: 6px; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2); z-index: 30; }
+.menu button { width: 100%; min-height: 44px; padding: 0 12px; display: flex; align-items: center; gap: 10px; text-align: left; border-radius: 10px; font-weight: 600; font-size: 0.9rem; }
+.menu button:hover { background: var(--bg); }
+.frame { flex: 1; min-height: 0; background: var(--bg); }
+.frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+#toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 40; max-width: calc(100vw - 32px); padding: 10px 16px; border-radius: 12px; background: var(--ink); color: var(--bg); font-size: 0.88rem; font-weight: 600; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
+#toast:empty { display: none; }
+#toast.bad { background: var(--bad); color: #fff; }
+.gback{display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;padding:6px 14px;border:2.5px solid var(--line,#14162B);border-radius:999px;background:var(--surface,#fff);color:var(--ink,#14162B);font:700 .9rem var(--font-en,system-ui,sans-serif);text-decoration:none;box-shadow:3px 3px 0 var(--shadow,#14162B)}
+.gback:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow,#14162B)}
+</style>
+</head>
+<body>
+
+<div id="vIn">
+<main class="wrap">
+  <header>
+    <a class="gback" href="index.html" aria-label="Kembali ke beranda">← Beranda</a>
+    <h1>Pembuat halaman shadowing</h1>
+    <p class="lead">Isi link video dan tempel transkrip dari toPhonetics. Hasilnya satu file HTML yang siap diunggah, dengan transkrip yang menyorot baris sesuai waktu video, fonetik per kata, fitur ulang, dan kecepatan.</p>
+  </header>
+
+  <section class="step" aria-labelledby="h1s">
+    <h2 id="h1s"><span class="n">1</span>Video</h2>
+    <div class="field">
+      <label for="url">Link YouTube</label>
+      <input type="url" id="url" placeholder="https://youtu.be/52t241OQ7Ec" autocomplete="off" inputmode="url">
+      <div class="status"><span class="pill" id="idPill"><span class="dot"></span><span id="idText">Belum ada link</span></span></div>
+    </div>
+    <div class="field">
+      <label for="title">Judul halaman</label>
+      <input type="text" id="title" placeholder="Otomatis dari link video, bisa diubah" autocomplete="off">
+      <span class="hint" id="titleHint" hidden></span>
+    </div>
+    <div class="field">
+      <label for="slugIn">Slug (nama file)</label>
+      <input type="text" id="slugIn" placeholder="Otomatis dari judul, bisa diubah" autocomplete="off" autocapitalize="none" spellcheck="false">
+      <span class="hint" id="slugHint">Nama file: halaman.json</span>
+    </div>
+    <div class="field">
+      <label for="cat">Kategori</label>
+      <input type="text" id="cat" placeholder="Contoh: Vlog" autocomplete="off" list="catList">
+      <datalist id="catList"><option value="Percakapan"><option value="Vlog"><option value="Berita"><option value="Pidato"><option value="Film &amp; Serial"><option value="Lagu"><option value="Pelajaran"></datalist>
+    </div>
+    <div class="field">
+      <label for="channel">Channel</label>
+      <input type="text" id="channel" placeholder="Otomatis dari link video, bisa diubah" autocomplete="off">
+      <span class="hint" id="channelHint" hidden></span>
+    </div>
+    <div class="field">
+      <label for="tags">Tag</label>
+      <input type="text" id="tags" placeholder="Contoh: british english, travel, pemula" autocomplete="off">
+      <span class="hint">Pisahkan tiap tag dengan koma.</span>
+    </div>
+  </section>
+
+  <section class="step" aria-labelledby="h2s">
+    <h2 id="h2s"><span class="n">2</span>Transkrip dan bacaan</h2>
+    <div class="field">
+      <label for="lang">Bahasa transkrip</label>
+      <select id="lang">
+        <option value="en">Inggris (IPA)</option>
+        <option value="ja">Jepang (furigana + romaji)</option>
+        <option value="zh">Mandarin (pinyin, karakter sederhana / tradisional)</option>
+        <option value="ko">Korea (romanisasi)</option>
+        <option value="th">Thailand (romanisasi)</option>
+        <option value="de">Jerman (IPA otomatis)</option>
+        <option value="nl">Belanda (IPA otomatis)</option>
+        <option value="fr">Prancis (IPA otomatis)</option>
+        <option value="es">Spanyol (IPA otomatis)</option>
+        <option value="it">Italia (IPA otomatis)</option>
+        <option value="pt">Portugis (IPA otomatis)</option>
+        <option value="pl">Polandia (IPA otomatis)</option>
+        <option value="fi">Finlandia (IPA otomatis)</option>
+        <option value="other">Bahasa lain (isi kode bahasa)</option>
+      </select>
+      <input id="langCode" type="text" placeholder="Kode bahasa, IPA otomatis: tr, cs, hu, ro, hr, sr, id, sw. Lainnya: ru, ar, vi, hi, sv" maxlength="12" autocomplete="off" spellcheck="false" hidden>
+      <span class="hint" id="langHint"></span>
+    </div>
+    <div class="field" id="fScript" hidden>
+      <label for="zhScript">Jenis karakter di kolom transkrip</label>
+      <select id="zhScript"><option value="simp">Sederhana (简体)</option><option value="trad">Tradisional (繁體)</option></select>
+    </div>
+        <div class="field">
+      <div class="lblrow"><label for="raw" id="rawLbl">Transkrip (teks Inggris)</label><span class="rowbtns"><button class="btn sm" id="bSegJa" type="button" hidden>Pisah kata</button><button class="btn sm" id="bFileRaw" type="button">Dari file</button></span></div>
+      <textarea id="raw" spellcheck="false" placeholder="[00:00:17] today&#10;[00:00:19] I'm going back to the UK&#10;[00:00:21] and you are coming with me"></textarea>
+      <span class="hint" id="rawHint">Tiap angka waktu menandai awal baris: [00:17], (00:17), 00:17, atau 00:00:17. Teks boleh dalam satu paragraf. Untuk Jepang, Mandarin, dan Thai, pisahkan tiap kata dengan spasi (tombol Pisah kata membantu).</span>
+      <span class="hint" id="rubyNote" hidden>Terdeteksi furigana dalam kurung, misalnya 皆(みな)さん. Pemisahan kata, furigana di atas kanji, dan romaji dibuat otomatis dari teks ini.</span>
+    </div>
+    <div class="field" id="fIpa">
+      <div class="lblrow"><label for="ipa">Phonetic (IPA)</label><button class="btn sm" id="bFileIpa" type="button">Dari file</button></div>
+      <textarea id="ipa" spellcheck="false" placeholder="[00:00:17] təˈdeɪ&#10;[00:00:19] aɪm ˈɡəʊɪŋ bæk tuː ðə juː-keɪ&#10;[00:00:21] ænd juː ɑː ˈkʌmɪŋ wɪð miː"></textarea>
+      <span class="hint">Waktunya harus sama dengan baris transkrip. Boleh dikosongkan kalau tidak perlu fonetik.</span>
+      <span class="note warn" id="ipaAuto" role="status" hidden></span>
+    </div>
+    <div class="field" id="fFuri" hidden>
+      <div class="lblrow"><label for="furi" id="furiLbl">Furigana (hiragana)</label><button class="btn sm" id="bFileFuri" type="button">Dari file</button></div>
+      <textarea id="furi" spellcheck="false" placeholder="[00:00:05] この こうえん に は 、 き が たくさん あります 。"></textarea>
+      <span class="hint" id="furiHint">Opsional, untuk bahasa Jepang. Tulis bacaan hiragana tiap kata, dipisah spasi, urutannya sama dengan kata di transkrip. Tampil di atas kanji. Kata tanpa kanji tidak diberi furigana. Tanda baca boleh dilewati.</span>
+    </div>
+    <div class="field" id="fLao" hidden>
+      <div class="lblrow"><label for="lao">Pinyin per kata (hasil Laoshi)</label><button class="btn sm" id="bFileLao" type="button">Dari file</button></div>
+      <textarea id="lao" spellcheck="false" placeholder="[00:00:04] zǎoshànghǎo ya&#10;[00:00:08] xiànzài wǒ yào qù gōngyuán lǐ guàngyiguàng"></textarea>
+      <span class="hint">Tempel hasil pinyin dari Laoshi (pinyin digabung per kata, tiap baris diawali waktu). Pengelompokan kata dan bacaannya mengikuti hasil ini, lalu dipecah per suku kata dan dipasangkan ke tiap hanzi. Boleh menempel seluruh halaman hasilnya, baris hanzi diabaikan. 啦 dan 喽 dikoreksi jadi la dan lou, 划龙舟 jadi huá.</span>
+    </div>
+    <div class="field" id="fRom" hidden>
+      <div class="lblrow"><label for="rom" id="romLbl">Romaji</label><button class="btn sm" id="bFileRom" type="button">Dari file</button></div>
+      <textarea id="rom" spellcheck="false" placeholder="[00:00:05] kono kouen ni wa ki ga takusan arimasu"></textarea>
+      <span class="hint" id="romHint">Opsional. Bacaan romaji tiap kata, dipisah spasi, urutannya sama dengan kata di transkrip. Tampil di bawah kata. Kolom Phonetic (IPA) boleh dikosongkan kalau hanya pakai furigana dan romaji.</span>
+    </div>
+    <div class="field" id="fAlt" hidden>
+      <div class="lblrow"><label for="alt" id="altLbl">Versi karakter lain</label><button class="btn sm" id="bFileAlt" type="button">Dari file</button></div>
+      <textarea id="alt" spellcheck="false" placeholder="[00:00:05] 我 今天 去 公園 散步 。"></textarea>
+      <span class="hint" id="altHint"></span>
+    </div>
+    <div class="field">
+      <div class="lblrow"><label for="tr">Terjemahan (Indonesia)</label><span class="rowbtns"><button class="btn sm" id="bAutoTr" type="button">Terjemahkan otomatis</button><button class="btn sm" id="bFileTr" type="button">Dari file</button></span></div>
+      <textarea id="tr" spellcheck="false" placeholder="[00:00:17] hari ini&#10;[00:00:19] Aku akan kembali ke Inggris&#10;[00:00:21] dan kamu ikut denganku"></textarea>
+      <span class="hint">Opsional. Waktunya harus sama dengan baris transkrip. Tampil di bawah tiap baris dan bisa dimatikan lewat tombol Teks.</span>
+      <span class="hint" id="trHint" hidden></span>
+    </div>
+    <div class="row">
+      <button class="btn" id="bFile" type="button">Pilih file .txt</button>
+      <button class="btn" id="bSample" type="button">Isi contoh</button>
+      <button class="btn" id="bClear" type="button">Hapus</button>
+      <input type="file" id="file" accept=".txt,text/plain" hidden>
+    </div>
+    <div class="status">
+      <span class="pill" id="rawPill"><span class="dot"></span><span id="rawText">Belum ada transkrip</span></span>
+      <p class="note warn" id="warn1" hidden></p>
+      <p class="note warn" id="warn2" hidden></p>
+    </div>
+    <div class="preview" id="preview" hidden></div>
+  </section>
+
+  <div class="syncbox">
+    <button class="btn primary sync" id="bSync" type="button" disabled>Sinkronisasi
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+    <p class="note" id="syncHint">Isi link video dan transkrip dulu, lalu tekan Sinkronisasi untuk membuka preview.</p>
+  </div>
+</main>
+</div>
+
+<div id="vPv" hidden>
+  <div class="bar"><div class="bar-in">
+    <button class="btn back" id="bBack" type="button" aria-label="Kembali ke pengisian"><svg viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+    <div class="menuwrap">
+      <button class="btn primary" id="bExport" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="menu">Ekspor
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="menu" id="menu" role="menu" hidden>
+        <button id="bJson" type="button" role="menuitem"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>Unduh JSON</button>
+        <button id="bCopyJson" type="button" role="menuitem"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 012-2h9"/></svg>Salin JSON</button>
+      </div>
+    </div>
+  </div></div>
+  <div class="frame"><iframe id="frame" title="Preview halaman shadowing" allow="fullscreen; encrypted-media; microphone"></iframe></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+
+
+<script src="i18n.js"></script>
+<script>
+const SAMPLE = "[00:00:17] today\n[00:00:17] təˈdeɪ\n[00:00:19] I'm going back to the UK\n[00:00:19] aɪm ˈɡəʊɪŋ bæk tuː ðə juː-keɪ\n[00:00:21] and you are coming with me\n[00:00:21] ænd juː ɑː ˈkʌmɪŋ wɪð miː\n[00:00:24] so let's travel and learn some English\n[00:00:24] səʊ lɛts ˈtrævᵊl ænd lɜːn sʌm ˈɪŋɡlɪʃ\n[00:00:33] [ Music ]\n[00:00:33] [ ˈmjuːzɪk ]\n[00:00:44] all right\n[00:00:44] ɔːl raɪt\n[00:00:45] we've arrived in London\n[00:00:45] wiːv  əˈraɪvd ɪn ˈlʌndən\n[00:00:46] got my coffee\n[00:00:46] ɡɒt maɪ ˈkɒfi\n[00:00:48] got my suitcase\n[00:00:48] ɡɒt maɪ ˈsuːtkeɪs\n[00:00:50] going to go to the center now and find my uncle\n[00:00:50] ˈɡəʊɪŋ tuː ɡəʊ tuː ðə ˈsɛntə naʊ ænd faɪnd maɪ ˈʌŋkᵊl\n[00:00:52] let's go\n[00:00:52] lɛts ɡəʊ\n[00:00:54] it's lovely British summertime\n[00:00:54] ɪts ˈlʌvli  ˈbrɪtɪʃ ˈsʌmətaɪm\n[00:00:56] i'm with my uncle Lee\n[00:00:56] aɪm wɪð maɪ ˈʌŋkᵊl liː\n[00:00:58] we're going to go get the tube\n[00:00:58] wɪə   ˈɡəʊɪŋ tuː ɡəʊ ɡɛt ðə ʧuːb\n[00:01:00] and explore London\n[00:01:00] ænd ɪkˈsplɔː ˈlʌndən\n[00:01:02] all right here we are queens station\n[00:01:02] ɔːl raɪt hɪə wiː ɑː kwiːnz ˈsteɪʃᵊn\n[00:01:04] heading into the tube\n[00:01:04] ˈhɛdɪŋ  ˈɪntuː ðə ʧuːb\n[00:01:06] i'm tapping my card and walking through the barriers\n[00:01:06] aɪm ˈtæpɪŋ maɪ kɑːd ænd ˈwɔːkɪŋ θruː    ðə ˈbæriəz\n[00:01:10] the tube has arrived\n[00:01:10] ðə ʧuːb hæz əˈraɪvd\n[00:01:12] the tube has arrived\n[00:01:12] ðə ʧuːb hæz əˈraɪvd\n[00:01:14] we're getting on\n[00:01:14] wɪə   ˈɡɛtɪŋ ɒn\n[00:01:18] now we're getting off\n[00:01:18] naʊ wɪə   ˈɡɛtɪŋ ɒf\n[00:01:21] all right just coming out of the tube\n[00:01:21] ɔːl raɪt ʤʌst ˈkʌmɪŋ aʊt ɒv ðə ʧuːb\n[00:01:22] and going onto the escalator\n[00:01:22] ænd ˈɡəʊɪŋ ˈɒntuː ði ˈɛskəleɪtə\n[00:01:25] this is an escalator\n[00:01:25] ðɪs ɪz ən ˈɛskəleɪtə\n[00:01:28] please hold the handrail\n[00:01:28] pliːz  həʊld ðə ˈhændreɪl";
+
+const $ = (s) => document.querySelector(s);
+const fmt = (s) => { s = Math.max(0, Math.floor(s)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const htmlEsc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+function extractId(s) {
+  s = (s || '').trim();
+  if (/^[\w-]{11}$/.test(s)) return s;
+  const m = s.match(/(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/|\/live\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+
+/* Waktu fleksibel di awal baris: [00:17], (00:17), 00:17, 0:17, 00:00:17, boleh pakai pecahan detik (00:17.48) */
+const TS_LINE = /^\s*[\[(]?\s*(?:(\d{1,2}):)?(\d{1,3}):(\d{2})(?:[.,](\d{1,3}))?\s*[\])]?\s*(.*)$/;
+function tsLine(l) {
+  const m = l.match(TS_LINE);
+  if (!m) return null;
+  const t = (+m[1] || 0) * 3600 + +m[2] * 60 + +m[3] + (m[4] ? +('0.' + m[4]) : 0);
+  return [Math.round(t * 1000) / 1000, m[5].trim()];
+}
+
+/* Angka waktu di mana pun (juga dalam satu paragraf) menandai awal baris baru. Teks sesudahnya, sampai angka waktu berikutnya, jadi isi baris itu. */
+const TS_ANY = /(^|[^\d:.])(?:[\[(]\s*)?(?:(\d{1,2}):)?(\d{1,3}):(\d{2})(?:[.,](\d{1,3}))?(?![\d:])\s*[\])]?/g;
+function splitTs(raw) {
+  const parts = String(raw).replace(/\r\n?/g, '\n')
+    .replace(/\[\s*(\d{1,3})\s*:\s*(\d{2})(?:\s*:\s*(\d{2}))?\s*\]/g, (m, a, b, c) => '[' + a + ':' + b + (c ? ':' + c : '') + ']')
+    .replace(TS_ANY, (m, g, h, mi, sc, f) => g + '\u0001[' + (h ? h + ':' : '') + mi + ':' + sc + (f ? '.' + f : '') + '] ')
+    .split('\u0001');
+  return parts.slice(1).map((p) => p.replace(/\s+/g, ' ').trim()).join('\n');
+}
+
+const langCode = () => { const v = $('#lang').value; if (v !== 'other') return v; const c = $('#langCode').value.trim().toLowerCase(); return /^[a-z]{2,3}(-[a-z0-9]{2,8})?$/.test(c) ? c : ''; };
+const lcode = () => langCode() || 'en';
+const PUNCT = /^[^\p{L}\p{N}]*$/u;
+const KANJI = /[\u3400-\u9FFF\uF900-\uFAFF々〆ヶ]/;
+const toHira = (s) => String(s).replace(/[\u30A1-\u30F6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+const RUNCLS = '\u3400-\u9FFF\uF900-\uFAFF々〆ヶ0-9０-９';
+const RUN_RE = new RegExp('[' + RUNCLS + ']+|[^' + RUNCLS + ']+', 'g');
+const RUN_START = new RegExp('^[' + RUNCLS + ']');
+/* furigana tepat di atas rangkaian kanji; kana di antaranya tetap polos (持ち帰り -> 持[も]ち帰[かえ]り) */
+function rubyHtml(w, f) {
+  if (f && f.indexOf('|') > -1) {
+    /* pinyin per suku kata: satu suku kata di atas tiap karakter Han */
+    const sy = f.split('|'), cs = [...w];
+    if (cs.every((c) => KANJI.test(c)) && cs.length === sy.length) return '<ruby>' + htmlEsc(w) + '<rt>' + htmlEsc(sy.join(' ')) + '</rt></ruby>';
+    if (cs.filter((c) => KANJI.test(c)).length === sy.length) { let k = 0; return cs.map((c) => (KANJI.test(c) ? '<ruby>' + htmlEsc(c) + '<rt>' + htmlEsc(sy[k++]) + '</rt></ruby>' : htmlEsc(c))).join(''); }
+    f = sy.join('');
+  }
+  if (!f || f === w || !KANJI.test(w)) return htmlEsc(w);
+  const parts = w.match(RUN_RE) || [w];
+  const rx = '^' + parts.map((p) => (RUN_START.test(p) ? '(.+?)' : toHira(p).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).join('') + '$';
+  const m = new RegExp(rx).exec(toHira(f));
+  if (!m) return '<ruby>' + htmlEsc(w) + '<rt>' + htmlEsc(f) + '</rt></ruby>';
+  let n = 1;
+  return parts.map((p) => {
+    if (!RUN_START.test(p)) return htmlEsc(p);
+    const r = m[n++];
+    return KANJI.test(p) && r !== p ? '<ruby>' + htmlEsc(p) + '<rt>' + htmlEsc(r) + '</rt></ruby>' : htmlEsc(p);
+  }).join('');
+}
+function jpWord([w, ip, fu, ro, al], hasRo) {
+  const pn = PUNCT.test(w);
+  return '<span class="w jp' + (pn ? ' pn' : '') + '"><b>' + (pn ? htmlEsc(w) : rubyHtml(w, fu)) + '</b>' + (ip ? '<i>' + htmlEsc(ip) + '</i>' : '') + (pn ? (hasRo ? '<em class="ro">&nbsp;</em>' : '') : ro ? '<em class="ro">' + htmlEsc(ro) + '</em>' : '') + '</span>';
+}
+function parse(raw) {
+  const ent = [];
+  splitTs(raw).split('\n').forEach((l) => {
+    const e = tsLine(l);
+    if (e) ent.push(e);
+  });
+  const tidy = (s) => s.replace(/"\s+(\S)/g, '"$1').replace(/\s+([.,?!])/g, '$1').replace(/ - /g, '-').replace(/\s+/g, ' ').trim();
+  const out = [];
+  let prev = -1, i = 0, skipped = 0, mism = 0;
+  while (i < ent.length - 1) {
+    if (ent[i][0] !== ent[i + 1][0]) { i += 1; skipped += 1; continue; }
+    let t = ent[i][0];
+    const en = tidy(ent[i][1]), ip = tidy(ent[i + 1][1]);
+    i += 2;
+    let tr = '', fu = '', ro = '', alt = '';
+    while (i < ent.length && ent[i][0] === ent[i - 1][0]) {
+      const x = ent[i][1];
+      if (/^≫/.test(x)) tr = x.replace(/^≫\s*/, '').replace(/\s+/g, ' ').trim();
+      else if (/^§F/.test(x)) fu = x.replace(/^§F\s*/, '').replace(/\s+/g, ' ').trim();
+      else if (/^§R/.test(x)) ro = x.replace(/^§R\s*/, '').replace(/\s+/g, ' ').trim();
+      else if (/^§A/.test(x)) alt = x.replace(/^§A\s*/, '').replace(/\s+/g, ' ').trim();
+      else break;
+      i++;
+    }
+    if (t <= prev) t = Math.round((prev + 0.6) * 100) / 100;
+    prev = t;
+    const a = en.split(' ');
+    const d = { t, en, ip };
+    if (tr) d.tr = tr;
+    if (fu) d.fu = fu;
+    if (ro) d.ro = ro;
+    if (alt) d.alt = alt;
+    if (fu || ro || alt) {
+      /* Bahasa Asia: kolom bacaan dipasangkan per kata. Tanda baca boleh ikut dihitung atau dilewati. */
+      const han = a.map((x) => (PUNCT.test(x) ? 0 : [...x].filter((c) => KANJI.test(c)).length));
+      const al = (s, zh) => {
+        if (!s) return null;
+        const q = s.split(' ');
+        if (q.length === a.length) return q;
+        const c = a.filter((x) => !PUNCT.test(x));
+        if (q.length === c.length) { let n = 0; return a.map((x) => (PUNCT.test(x) ? '' : q[n++])); }
+        /* pinyin per suku kata: satu suku kata per karakter Han */
+        if (zh && q.length === han.reduce((x, y) => x + y, 0)) { let n = 0; return a.map((x, k) => { if (!han[k]) return ''; const r = q.slice(n, n + han[k]).join(''); n += han[k]; return r; }); }
+        return false;
+      };
+      /* versi karakter lain (sederhana/tradisional): boleh per kata atau tanpa spasi, asal jumlah karakternya sama */
+      const altTok = (s) => {
+        if (!s) return null;
+        const q = s.split(' ');
+        if (q.length === a.length) return q;
+        const fa = [...a.join('')], fs = [...s.replace(/\s+/g, '')];
+        if (fa.length !== fs.length) return null;
+        let n = 0; return a.map((x) => { const L = [...x].length; const r = fs.slice(n, n + L).join(''); n += L; return r; });
+      };
+      const I = al(ip), F = al(fu, lcode() === 'zh'), R = al(ro), A = altTok(alt);
+      if (I !== false && F !== false && R !== false) d.w = a.map((x, k) => [x, I ? I[k] : '', F ? F[k] : '', R ? R[k] : '', A ? A[k] : '']);
+      else mism += 1;
+    } else {
+      const b = ip.split(' ');
+      if (a.length === b.length) d.w = a.map((x, k) => [x, b[k]]); else mism += 1;
+    }
+    out.push(d);
+  }
+  if (i === ent.length - 1) skipped += 1;
+  /* "_" menyambung suku kata/kata jadi satu kata (mis. học_sinh): tampil sebagai spasi, tapi teks yang diekspor tetap memakai "_" */
+  if (!['ja', 'zh', 'ko', 'th'].includes(lcode())) out.forEach((d) => { if (d.w) d.w = d.w.map((x) => x.map((y) => (typeof y === 'string' ? y.replace(/_/g, ' ') : y))); });
+  return { lines: out, skipped, mism, entries: ent.length };
+}
+
+function slug(s) {
+  const x = s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return x || 'halaman';
+}
+/* Slug halaman: otomatis dari judul sampai diubah manual. Dipakai untuk nama file dan field "slug" di JSON. */
+let slugManual = false;
+const curSlug = () => slug($('#slugIn').value || $('#title').value);
+function syncSlug() {
+  const el = $('#slugIn');
+  if (!slugManual) el.value = $('#title').value.trim() ? slug($('#title').value) : '';
+  $('#slugHint').textContent = 'Nama file: ' + curSlug() + '.json';
+}
+
+/* ---- dua kolom: transkrip dan phonetic, digabung per waktu ---- */
+const LCFG = {
+  en: { raw: 'Transkrip (teks Inggris)', ipa: true, seg: '', sl: 'en', hint: 'Fonetik IPA tampil di bawah tiap kata.' },
+  ja: { raw: 'Transkrip (teks Jepang, furigana dalam kurung)', seg: '', sl: 'ja', hint: 'Furigana tampil di atas kanji, romaji di bawah kata, keduanya dibuat otomatis dari transkrip.',
+    rawHint: 'Tempel teks dengan furigana dalam kurung setelah kanjinya, contoh: 皆(みな)さんこんにちは日本語(にほんご)教師(きょうし)です。 Kata dipisah otomatis, furigana ditaruh tepat di atas kanji, dan romaji dibuat dari bacaannya.' },
+  zh: { raw: 'Transkrip (teks Mandarin)', seg: '', sl: 'zh-CN', alt: true, hint: 'Pinyin tampil di atas tiap karakter. Pemutar bisa berpindah antara karakter sederhana dan tradisional kalau kedua versinya diisi.',
+    rawHint: 'Tulis teks Mandarin biasa, tidak perlu spasi antar kata. Kata dipisah otomatis dan pinyin dicocokkan ke tiap karakter.',
+    furi: ['Pinyin per suku kata (opsional)', 'Tempel pinyin dengan tanda nada, satu suku kata untuk tiap karakter, dipisah spasi, contoh: nǐ hǎo ， wǒ shì jiā jiā. Kata Latin dan angka ditulis apa adanya. Tanda baca boleh ada atau tidak. Dipakai sebagai cadangan kalau kolom Laoshi kosong atau jumlah suku katanya tidak cocok dengan hanzi.', '[00:00:00] nǐ hǎo ， wǒ shì jiā jiā'] },
+  ko: { raw: 'Transkrip (teks Korea)', seg: '', sl: 'ko', hint: 'Romanisasi tampil di bawah kata.',
+    rom: ['Romanisasi (Revised Romanization)', 'Satu token untuk tiap kata (kelompok suku kata yang dipisah spasi), urutannya sama dengan transkrip. Tampil di bawah kata.', '[00:00:05] oneul gongwone gasseoyo'] },
+  th: { raw: 'Transkrip (teks Thai)', seg: 'th', sl: 'th', hint: 'Romanisasi tampil di bawah kata.',
+    rom: ['Romanisasi (RTGS)', 'Satu token untuk tiap kata, dipisah spasi (suku kata dalam satu kata boleh dipisah tanda hubung, misalnya sà-wàt-deē). Transkrip Thai boleh tanpa spasi: kata dipotong otomatis supaya jumlah dan bentuknya cocok dengan token romanisasi. Tampil di bawah kata.', '[00:00:05] sawatdi khrap'] }
+};
+/* Bahasa beraksara Latin (selain Inggris): kolom IPA boleh kosong, kata tetap bisa diklik di pemutar */
+[['de', 'Jerman', 'de'], ['nl', 'Belanda', 'nl'], ['fr', 'Prancis', 'fr'], ['es', 'Spanyol', 'es'], ['it', 'Italia', 'it'], ['pt', 'Portugis', 'pt'], ['pl', 'Polandia', 'pl'], ['fi', 'Finlandia', 'fi']].forEach(([k, n, sl]) => {
+  LCFG[k] = { raw: 'Transkrip (teks ' + n + ')', ipa: true, seg: '', sl, hint: 'IPA (opsional) tampil di bawah tiap kata. Kalau kolom IPA dikosongkan, IPA dibuat otomatis dari ejaan memakai aturan bahasa ini (perkiraan, tanpa penanda tekanan). Tempel IPA sendiri untuk hasil yang pasti. Tiap kata bisa diklik untuk arti.' };
+});
+LCFG.other = {
+  raw: 'Transkrip (bahasa lain)', ipa: true,
+  get seg() { const c = langCode(); return ['lo', 'km', 'my'].includes(c) ? c : ''; },
+  get sl() { return langCode() || 'en'; },
+  get hint() {
+    const c = langCode();
+    let h = 'Isi kode bahasa (ISO 639-1, contoh ru, ar, tr, vi, hi). Pisahkan tiap kata dengan spasi. Fonetik atau romanisasi bersifat opsional (satu token per kata). Tiap kata bisa diklik untuk arti. Untuk Jepang, Mandarin, Korea, dan Thai pakai pilihan khusus di atas.';
+    if (['lo', 'km', 'my'].includes(c)) h += ' Bahasa ini ditulis tanpa spasi: tombol Pisah kata memotong kata otomatis memakai pemisah kata bawaan browser.';
+    if (c === 'vi') h += ' Spasi Vietnam memisahkan suku kata, bukan kata. Sambung suku kata satu kata dengan garis bawah supaya diklik sebagai satu kata, contoh: Tôi là học_sinh. Tanda _ tampil sebagai spasi. Hasil alat pemisah kata (underthesea, VnCoreNLP) sudah memakai format ini. Kolom fonetik pakai pola yang sama.';
+    return h;
+  }
+};
+const IPA_PH = $('#ipa').placeholder;
+function applyLang() {
+  const L = $('#lang').value, c = LCFG[L];
+  $('#rawLbl').textContent = c.raw;
+  $('#langHint').textContent = c.hint;
+  $('#fIpa').hidden = !c.ipa;
+  $('#langCode').hidden = L !== 'other';
+  $('#ipa').placeholder = L === 'en' ? IPA_PH : '[00:00:05] (IPA tiap kata, dipisah spasi, urutannya sama dengan transkrip)';
+  [['furi', 'fFuri'], ['rom', 'fRom']].forEach(([k, f]) => {
+    const v = c[k];
+    $('#' + f).hidden = !v;
+    if (v) { $('#' + k + 'Lbl').textContent = v[0]; $('#' + k + 'Hint').textContent = v[1]; $('#' + k).placeholder = v[2]; }
+  });
+  $('#fAlt').hidden = !c.alt;
+  $('#fLao').hidden = L !== 'zh';
+  $('#fScript').hidden = L !== 'zh';
+  if (c.alt) {
+    const trad = $('#zhScript').value === 'trad';
+    $('#altLbl').textContent = trad ? 'Versi karakter sederhana (opsional)' : 'Versi karakter tradisional (opsional)';
+    $('#altHint').textContent = 'Opsional. Isi supaya pemutar bisa berpindah antara karakter sederhana dan tradisional. Boleh dipisah spasi atau tidak, asal jumlah karakternya sama dengan transkrip.';
+    $('#alt').placeholder = trad ? '[00:00:05] 我 今天 去 公园 散步 。' : '[00:00:05] 我 今天 去 公園 散步 。';
+  }
+  $('#bSegJa').hidden = !c.seg;
+  $('#rawHint').textContent = c.rawHint || 'Tiap angka waktu menandai awal baris: [00:17], (00:17), 00:17, atau 00:00:17. Teks boleh dalam satu paragraf. Untuk Thai, pisahkan tiap kata dengan spasi (tombol Pisah kata membantu).';
+}
+const SAMPLES = {
+  ja: { raw: '[00:00:05] この公園(こうえん)には、木(き)がたくさんあります。\n[00:00:09] これは桜(さくら)です。', tr: '[00:00:05] Ada banyak pohon di taman ini.\n[00:00:09] Ini pohon sakura.' },
+  zh: { raw: '[00:00:05] 我今天去公园散步。\n[00:00:09] 这里的樱花很漂亮。', lao: '[00:00:05] wǒ jīntiān qù gōngyuán sànbù\n[00:00:09] zhèlǐ de yīnghuā hěn piàoliang', alt: '[00:00:05] 我今天去公園散步。\n[00:00:09] 這裡的櫻花很漂亮。', tr: '[00:00:05] Hari ini saya pergi jalan-jalan ke taman.\n[00:00:09] Bunga sakura di sini sangat indah.' },
+  ko: { raw: '[00:00:05] 오늘 공원에 갔어요.\n[00:00:09] 벚꽃이 정말 예뻐요.', rom: '[00:00:05] oneul gongwone gasseoyo\n[00:00:09] beotkkochi jeongmal yeppeoyo', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Bunga sakura sangat cantik.' },
+  th: { raw: '[00:00:05] สวัสดี ครับ\n[00:00:09] วันนี้ ผม ไป ตลาด', rom: '[00:00:05] sawatdi khrap\n[00:00:09] wan-ni phom pai talat', tr: '[00:00:05] Halo\n[00:00:09] Hari ini saya pergi ke pasar' },
+  de: { raw: '[00:00:05] Heute gehe ich in den Park.\n[00:00:09] Die Kirschblüten sind sehr schön.', ipa: '[00:00:05] ˈhɔʏtə ˈɡeːə ɪç ɪn deːn paʁk\n[00:00:09] diː ˈkɪʁʃblyːtn̩ zɪnt zeːɐ̯ ʃøːn', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Bunga sakura sangat indah.' },
+  nl: { raw: '[00:00:05] Vandaag ga ik naar het park.\n[00:00:09] De kersenbloesems zijn erg mooi.', ipa: '[00:00:05] vɑnˈdaːx xaː ɪk naːr ɦət pɑrk\n[00:00:09] də ˈkɛrsənblusəms zɛin ɛrx moːi', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Bunga sakura sangat indah.' },
+  fr: { raw: '[00:00:05] Aujourd\'hui, je vais au parc.\n[00:00:09] Les cerisiers sont très beaux.', ipa: '[00:00:05] oʒuʁdɥi ʒə vɛ o paʁk\n[00:00:09] le səʁizje sɔ̃ tʁɛ bo', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Pohon sakura itu sangat indah.' },
+  es: { raw: '[00:00:05] Hoy voy al parque.\n[00:00:09] Los cerezos están muy bonitos.', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Pohon sakura sangat indah.' },
+  it: { raw: '[00:00:05] Oggi vado al parco.\n[00:00:09] I ciliegi sono molto belli.', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Pohon sakura sangat indah.' },
+  other: { raw: '[00:00:05] Сегодня я иду в парк.\n[00:00:09] Вишня очень красивая.', ipa: '[00:00:05] sevódnya ya idú v park\n[00:00:09] víshnya óchen krasívaya', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Pohon ceri itu sangat indah.', code: 'ru' },
+  pt: { raw: '[00:00:05] Hoje vou ao parque.\n[00:00:09] As cerejeiras estão muito bonitas.', tr: '[00:00:05] Hari ini saya pergi ke taman.\n[00:00:09] Pohon sakura sangat indah.' }
+};
+let mergeInfo = { missing: 0, extra: 0, noIpa: false, trMissing: 0, trExtra: 0 };
+function entriesOf(raw) {
+  const out = [];
+  splitTs(raw).split('\n').forEach((l) => {
+    const e = tsLine(l);
+    if (!e) return;
+    const t = e[0], w = Math.floor(t), fr = Math.round((t - w) * 1000);
+    const ts = String(Math.floor(w / 3600)).padStart(2, '0') + ':' + String(Math.floor(w % 3600 / 60)).padStart(2, '0') + ':' + String(w % 60).padStart(2, '0') + (fr ? '.' + String(fr).padStart(3, '0').replace(/0+$/, '') : '');
+    out.push({ ts, t, text: e[1] });
+  });
+  return out;
+}
+const looksCombined = (en) => en.length >= 2 && en.length % 2 === 0 && en.every((e, k) => k % 2 === 1 || e.t === en[k + 1].t);
+/* Jepang: teks bertanda kurung seperti 皆(みな)さん diubah jadi transkrip per kata + furigana + romaji */
+const ANN = new RegExp('([' + RUNCLS + ']+)[(（]([\u3040-\u30FFー]+)[)）]', 'g');
+const hasRuby = (s) => { for (const m of String(s).matchAll(ANN)) if (KANJI.test(m[1])) return true; return false; };
+const segJa = window.Intl && Intl.Segmenter ? new Intl.Segmenter('ja', { granularity: 'word' }) : null;
+const KB = { あ:'a',い:'i',う:'u',え:'e',お:'o',か:'ka',き:'ki',く:'ku',け:'ke',こ:'ko',さ:'sa',し:'shi',す:'su',せ:'se',そ:'so',た:'ta',ち:'chi',つ:'tsu',て:'te',と:'to',な:'na',に:'ni',ぬ:'nu',ね:'ne',の:'no',は:'ha',ひ:'hi',ふ:'fu',へ:'he',ほ:'ho',ま:'ma',み:'mi',む:'mu',め:'me',も:'mo',や:'ya',ゆ:'yu',よ:'yo',ら:'ra',り:'ri',る:'ru',れ:'re',ろ:'ro',わ:'wa',を:'o',が:'ga',ぎ:'gi',ぐ:'gu',げ:'ge',ご:'go',ざ:'za',じ:'ji',ず:'zu',ぜ:'ze',ぞ:'zo',だ:'da',ぢ:'ji',づ:'zu',で:'de',ど:'do',ば:'ba',び:'bi',ぶ:'bu',べ:'be',ぼ:'bo',ぱ:'pa',ぴ:'pi',ぷ:'pu',ぺ:'pe',ぽ:'po',ゔ:'vu',ぁ:'a',ぃ:'i',ぅ:'u',ぇ:'e',ぉ:'o',ゎ:'wa' };
+const KY = { き:'ky',し:'sh',ち:'ch',に:'ny',ひ:'hy',み:'my',り:'ry',ぎ:'gy',じ:'j',ぢ:'j',び:'by',ぴ:'py' };
+const KYV = { ゃ:'a',ゅ:'u',ょ:'o' };
+const KF = { ふ:'f',う:'w',ゔ:'v',て:'t',で:'d',し:'sh',じ:'j',ち:'ch' };
+const KFV = { ぁ:'a',ぃ:'i',ぅ:'u',ぇ:'e',ぉ:'o' };
+function kanaRomaji(rd, w) {
+  const sp = { 'は': 'wa', 'へ': 'e', 'こんにちは': 'konnichiwa', 'こんばんは': 'konbanwa' };
+  if (sp[w]) return sp[w];
+  const s = [...toHira(rd)];
+  let out = '', i = 0, sok = false;
+  while (i < s.length) {
+    const c = s[i], n = s[i + 1];
+    if (c === 'っ') { sok = true; i++; continue; }
+    if (c === 'ー') { const m = out.match(/[aiueo]$/); if (m) out += m[0]; i++; continue; }
+    if (c === 'ん') { out += n && /[あいうえおやゆよ]/.test(n) ? "n'" : 'n'; i++; continue; }
+    let r;
+    if (n && KYV[n] && KY[c]) { r = KY[c] + KYV[n]; i += 2; }
+    else if (n && KFV[n] && KF[c]) { r = KF[c] + KFV[n]; i += 2; }
+    else if (KB[c]) { r = KB[c]; i++; }
+    else { out += c; sok = false; i++; continue; }
+    if (sok) { out += r.startsWith('ch') ? 't' : r[0]; sok = false; }
+    out += r;
+  }
+  return out;
+}
+function rubyTokens(text) {
+  let plain = '', last = 0;
+  const ann = [];
+  for (const m of text.matchAll(ANN)) {
+    if (!KANJI.test(m[1])) continue;
+    plain += text.slice(last, m.index);
+    const s = plain.length; plain += m[1];
+    ann.push({ s, e: plain.length, r: m[2] });
+    last = m.index + m[0].length;
+  }
+  plain += text.slice(last);
+  const ranges = [];
+  for (const c of plain.matchAll(/\S+/g)) {
+    const o = c.index;
+    if (segJa) for (const g of segJa.segment(c[0])) ranges.push([o + g.index, o + g.index + g.segment.length]);
+    else for (const g of c[0].matchAll(new RegExp('[' + RUNCLS + ']+|[\u3040-\u309F]+|[\u30A0-\u30FFー]+|[A-Za-z]+|.', 'g'))) ranges.push([o + g.index, o + g.index + g[0].length]);
+  }
+  /* kana kecil (ゃ ゅ ょ っ ー dst.) tidak boleh berdiri sendiri di awal kata */
+  for (let i = ranges.length - 1; i > 0; i--) {
+    if (/^[ゃゅょぁぃぅぇぉゎっャュョァィゥェォヮッー]/.test(plain[ranges[i][0]]) && ranges[i - 1][1] === ranges[i][0]) { ranges[i - 1][1] = ranges[i][1]; ranges.splice(i, 1); }
+  }
+  /* satu rangkaian kanji yang punya furigana tidak boleh terpotong antar kata */
+  ann.forEach((a) => {
+    const ids = [];
+    ranges.forEach((r, i) => { if (r[0] < a.e && r[1] > a.s) ids.push(i); });
+    if (ids.length > 1) { const i = ids[0], j = ids[ids.length - 1]; ranges.splice(i, j - i + 1, [ranges[i][0], ranges[j][1]]); }
+  });
+  const tok = [], fu = [], ro = [];
+  ranges.forEach(([a, b]) => {
+    const w = plain.slice(a, b);
+    let rd = '', pos = a;
+    while (pos < b) {
+      const an = ann.find((x) => x.s === pos && x.e <= b);
+      if (an) { rd += an.r; pos = an.e; } else { rd += plain[pos]; pos++; }
+    }
+    tok.push(w);
+    if (!PUNCT.test(w)) { fu.push(rd); ro.push(kanaRomaji(rd, w)); }
+  });
+  return { tok, fu, ro };
+}
+const segZh = window.Intl && Intl.Segmenter ? new Intl.Segmenter('zh', { granularity: 'word' }) : null;
+/* kamus kata cadangan: dipakai kalau pemisah kata bawaan browser tidak bisa memisah kata Mandarin (hasilnya per karakter) */
+const ZH_DICT = new Set(('大大 早上 上午 中午 下午 晚上 今天 明天 昨天 现在 以后 以前 时候 因为 所以 但是 如果 或者 还是 已经 一起 一些 一点 一下 一个 一边 一直 一样 可以 可能 应该 需要 知道 喜欢 希望 觉得 开始 结束 看看 看到 听到 学到 学习 表达 有用 帮助 视频 再见 欢迎 大家 你们 我们 他们 她们 它们 自己 别人 什么 怎么 为什么 这个 那个 这里 那里 这边 那边 这些 那些 哪里 哪个 多少 几个 很多 非常 比较 真的 当然 简单 日常 中文 汉语 英语 公园 成都 锦城湖 湖边 湖水 天空 天气 晴天 太阳 阳光 云朵 白色 红色 绿色 蓝色 粉色 紫色 颜色 好看 漂亮 美丽 风景 影子 十字路口 路口 入口 出口 长椅 长凳 靠背 跑步 散步 走路 台阶 小路 草坪 吊床 休息 垃圾桶 垃圾 休息区 下雨 躲雨 自动 售卖机 纯净水 电解质水 电解质 百事可乐 可乐 零食 苏打水 冰淇淋 口味 不同 下面 上面 旁边 中间 左边 右边 前面 后面 远处 对面 楼房 环球中心 中心 建筑 超大 自行车 骑自行车 绿道 码头 小码头 房子 水上 运动 运动中心 帆船 小帆船 桨板 皮划艇 救生衣 训练 龙舟 划龙舟 打鼓 节奏 篮球 篮球馆 地方 有人 没有 有没有 不是 是不是 小心 第一层 第二层 一层 二层 第一 第二 其实 之前 视频里 公共 朋友 家人 学校 老师 学生 工作 公司 吃饭 喝水 咖啡 茶 水果 苹果 香蕉 米饭 面条 超市 商店 医院 银行 车站 地铁 公交 火车 飞机 出租车 手机 电脑 电视 电影 音乐 歌曲 时间 分钟 小时 星期 周末 每天 经常 有时候 马上 一定 不要 不用 不会 不能 不好 不错 好吃 好玩 高兴 开心 难过 生气 容易 方便 便宜 贵 干净 安静 热闹 暖和 凉快 下雪 刮风 晴 阴天 雨天 春天 夏天 秋天 冬天 东西 南北 左右 上下 前后 里面 外面 城市 国家 中国 北京 上海 四川 世界').split(/\s+/));
+function zhDictSeg(c) {
+  const cs = [...c], out = [];
+  for (let i = 0; i < cs.length;) {
+    if (!/[\u3400-\u9FFF\uF900-\uFAFF]/.test(cs[i])) {
+      const m = /^[A-Za-z0-9'’]+/.exec(cs.slice(i).join(''));
+      if (m) { out.push(m[0]); i += [...m[0]].length; } else out.push(cs[i++]);
+      continue;
+    }
+    let n = 1;
+    for (let L = Math.min(5, cs.length - i); L >= 2; L--) { if (ZH_DICT.has(cs.slice(i, i + L).join(''))) { n = L; break; } }
+    out.push(cs.slice(i, i + n).join('')); i += n;
+  }
+  return out;
+}
+function zhTokens(text) {
+  const out = [];
+  for (const c of text.matchAll(/\S+/g)) {
+    const han = (c[0].match(/[\u3400-\u9FFF\uF900-\uFAFF]/g) || []).length;
+    let segs = null;
+    if (segZh) { segs = []; for (const g of segZh.segment(c[0])) segs.push(g.segment); }
+    /* kalau pemisah bawaan hanya menghasilkan satu karakter per kata, pakai kamus cadangan */
+    if (!segs || (han >= 2 && segs.every((x) => [...x].length === 1))) segs = zhDictSeg(c[0]);
+    out.push(...segs);
+  }
+  return out;
+}
+/* pinyin -> satu bacaan untuk tiap kata (suku kata dipisah '|'); null kalau jumlahnya tidak cocok.
+   Boleh per suku kata (nǐ hǎo) atau per kata (nǐhǎo, hasil konverter seperti Laoshi): kalau jumlah token tidak cocok, token digabung dipecah dulu jadi suku kata. */
+const PY_V = 'aāáǎàeēéěèiīíǐìoōóǒòuūúǔùüǖǘǚǜ';
+const PY_SYL = new RegExp('(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])?[' + PY_V + ']+(?:ng(?![' + PY_V + '])|n(?![' + PY_V + '])|r(?![' + PY_V + ']))?', 'giu');
+function pySplit(tok) {
+  const t = tok.replace(/['’]/g, '');
+  const m = t.match(PY_SYL);
+  return m && m.join('') === t ? m : [tok];
+}
+/* koreksi pelafalan yang sering salah di konverter */
+const ZH_FIX = { '啦': 'la', '喽': 'lou' };
+function zhAlignOnce(tokens, P) {
+  let n = 0;
+  const flat = [...tokens.join('')].filter((c) => KANJI.test(c));
+  const out = [];
+  for (const w of tokens) {
+    if (PUNCT.test(w)) continue;
+    const syl = [];
+    for (const m of w.matchAll(/[\u3400-\u9FFF\uF900-\uFAFF々〆ヶ]|[A-Za-z0-9'’]+/g)) {
+      if (KANJI.test(m[0])) {
+        if (n >= P.length) return null;
+        const k = n++;
+        let p = P[k];
+        if (ZH_FIX[m[0]]) p = ZH_FIX[m[0]];
+        else if (m[0] === '划' && /[龙船桨]/.test(flat[k + 1] || '')) p = 'huá';
+        syl.push(p);
+      }
+      else if (P[n] && P[n].toLowerCase() === m[0].toLowerCase()) n++;
+    }
+    out.push(syl.length ? syl.join('|') : w);
+  }
+  return n === P.length ? out : null;
+}
+function zhAlign(tokens, py) {
+  const P = py.split(/\s+/).filter((x) => x && !PUNCT.test(x));
+  return zhAlignOnce(tokens, P) || zhAlignOnce(tokens, P.flatMap(pySplit));
+}
+/* hasil Laoshi (pinyin per kata): pengelompokan kata dan bacaan mengikuti Laoshi; tiap kata dipecah per suku kata lalu dipasangkan ke hanzi. null kalau jumlahnya tidak cocok. */
+function zhFixSyl(c, p, nx) {
+  if (ZH_FIX[c]) return ZH_FIX[c];
+  if (c === '划' && /[龙船桨]/.test(nx || '')) return 'huá';
+  return p;
+}
+function zhFromLaoshi(text, lao) {
+  const chars = [...text.replace(/\s+/g, '')];
+  const hanIdx = [];
+  chars.forEach((c, k) => { if (KANJI.test(c)) hanIdx.push(k); });
+  const words = lao.split(/\s+/).filter((x) => x && !PUNCT.test(x)).map((x) => pySplit(x));
+  if (words.reduce((a, w) => a + w.length, 0) !== hanIdx.length) return null;
+  const tok = [], fu = [];
+  let pos = 0, hn = 0;
+  const flush = (to) => {
+    let buf = '';
+    for (; pos < to; pos++) buf += chars[pos];
+    if (buf) { tok.push(buf); if (!PUNCT.test(buf)) fu.push(buf); }
+  };
+  for (const w of words) {
+    flush(hanIdx[hn]);
+    const end = hanIdx[hn + w.length - 1] + 1;
+    const syl = [];
+    for (let k = 0; k < w.length; k++) syl.push(zhFixSyl(chars[hanIdx[hn + k]], w[k], chars[hanIdx[hn + k + 1]]));
+    tok.push(chars.slice(pos, end).join(''));
+    fu.push(syl.join('|'));
+    pos = end; hn += w.length;
+  }
+  flush(chars.length);
+  return { tok, fu };
+}
+/* Thai tanpa spasi + romanisasi per kata (suku kata dipisah '-'): teks dipotong mengikuti jumlah dan bentuk token romanisasi */
+const segTh = window.Intl && Intl.Segmenter ? new Intl.Segmenter('th', { granularity: 'word' }) : null;
+const TH_INI = { 'ก': 'g', 'ข': 'k', 'ฃ': 'k', 'ค': 'k', 'ฅ': 'k', 'ฆ': 'k', 'ง': 'ng', 'จ': 'zh', 'ฉ': 'ch', 'ช': 'ch', 'ฌ': 'ch', 'ซ': 's', 'ศ': 's', 'ษ': 's', 'ส': 's', 'ย': 'y', 'ญ': 'y', 'ด': 'd', 'ฎ': 'd', 'ต': 'dt', 'ฏ': 'dt', 'ถ': 't', 'ท': 't', 'ธ': 't', 'ฑ': 't', 'ฒ': 't', 'ฐ': 't', 'น': 'n', 'ณ': 'n', 'บ': 'b', 'ป': 'bp', 'ผ': 'p', 'พ': 'p', 'ภ': 'p', 'ฝ': 'f', 'ฟ': 'f', 'ม': 'm', 'ร': 'r', 'ฤ': 'r', 'ล': 'l', 'ฬ': 'l', 'ว': 'w', 'ห': 'h', 'ฮ': 'h' };
+const thCons = (c) => c >= '\u0E01' && c <= '\u0E2E';
+const thLead = (c) => c >= '\u0E40' && c <= '\u0E44';
+const thClass = (c) => (c >= '\u0E00' && c <= '\u0E7F' ? 'th' : /[A-Za-z0-9]/.test(c) ? 'lat' : 'ot');
+function thInitial(g) {
+  let i = 0;
+  while (i < g.length && thLead(g[i])) i++;
+  const c = g[i];
+  if (!c) return null;
+  if ((c === 'ห' || c === 'อ') && g[i + 1] && 'งญนมยรลว'.includes(g[i + 1]) && (c === 'ห' || g[i + 1] === 'ย')) return TH_INI[g[i + 1]];
+  if (c === 'อ') return '';
+  return TH_INI[c] === undefined ? null : TH_INI[c];
+}
+function romInitial(t) {
+  const s = t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  if (!/^[a-z]/.test(s)) return null;
+  const m = s.match(/^(ng|zh|ch|dt|bp|[bdfghjklmnprstwy])/);
+  return m ? (m[1] === 'j' ? 'zh' : m[1]) : '';
+}
+function thAlign(text, romLine) {
+  const chars = [...text.replace(/\s+/g, '')];
+  const toks = romLine.split(/\s+/).filter(Boolean);
+  const N = chars.length, K = toks.length;
+  if (!N || !K || K > N) return null;
+  /* boleh dipotong di mana saja? */
+  const ok = new Array(N + 1).fill(false);
+  ok[0] = ok[N] = true;
+  let inBr = false;
+  const seg = new Set();
+  if (segTh) { let p = 0; for (const s of segTh.segment(chars.join(''))) { seg.add(p); p += [...s.segment].length; } }
+  for (let i = 1; i < N; i++) {
+    const a = chars[i - 1], b = chars[i];
+    if (a === '[') inBr = true;
+    if (inBr) { if (a === ']') inBr = false; else continue; }
+    if (b === ']') continue;
+    const ca = thClass(a), cb = thClass(b);
+    if (cb === 'ot' && b !== '[') continue;
+    if (ca !== cb) { ok[i] = true; continue; }
+    if (ca === 'th') ok[i] = (thCons(b) || thLead(b) || b === 'ๆ') && !thLead(a);
+  }
+  const latRuns = new Set((chars.join('').match(/[A-Za-z0-9]+/g) || []).map((x) => x.toLowerCase()));
+  const INF = 1e9, MAXG = 26;
+  const dp = Array.from({ length: K + 1 }, () => new Array(N + 1).fill(INF));
+  const bk = Array.from({ length: K + 1 }, () => new Array(N + 1).fill(-1));
+  dp[0][0] = 0;
+  const cost = (j, i, tok) => {
+    const g = chars.slice(j, i), s = g.join('');
+    let c = 0;
+    if (j > 0 && ok[j] && thClass(chars[j - 1]) === 'th' && thClass(chars[j]) === 'th' && segTh && !seg.has(j)) c += 0.7;
+    if (s === 'ๆ') return c + (/^yamok$/.test(tok.normalize('NFD').replace(/[\u0300-\u036f-]/g, '').toLowerCase()) ? 0 : 1.5);
+    if (s[0] === '[') return c + (tok[0] === '[' ? 0.2 : 1.5);
+    if (thClass(g[0]) === 'lat') return c + (s.toLowerCase() === tok.toLowerCase() ? 0 : 1.5);
+    if (latRuns.has(tok.toLowerCase())) return c + 1.5;
+    const syl = /^\[\d+\]$/.test(tok) ? 1 : Math.max(1, tok.split('-').filter(Boolean).length);
+    const ex = 3 * syl;
+    c += Math.abs(g.length - ex) / Math.max(ex, 3);
+    const ti = thInitial(g), ri = romInitial(tok);
+    if (ti !== null && ri !== null && ti !== ri) c += 1.2;
+    return c;
+  };
+  for (let k = 1; k <= K; k++) {
+    for (let i = k; i <= N; i++) {
+      if (!ok[i]) continue;
+      for (let j = Math.max(k - 1, i - MAXG); j < i; j++) {
+        if (dp[k - 1][j] >= INF || !ok[j]) continue;
+        const v = dp[k - 1][j] + cost(j, i, toks[k - 1]);
+        if (v < dp[k][i]) { dp[k][i] = v; bk[k][i] = j; }
+      }
+    }
+  }
+  if (dp[K][N] >= INF || dp[K][N] / K > 1.5) return null;
+  const out = [];
+  for (let k = K, i = N; k > 0; k--) { const j = bk[k][i]; out.unshift(chars.slice(j, i).join('')); i = j; }
+  return out;
+}
+function updRubyNote() {
+  $('#rubyNote').hidden = !($('#lang').value === 'ja' && entriesOf($('#raw').value).some((e) => hasRuby(e.text)));
+}
+/* ---- IPA otomatis dari ejaan untuk bahasa yang polanya teratur (perkiraan berbasis aturan, tanpa penanda tekanan) ---- */
+const G2P_V = 'aeiouyáéíóúàèìòùâêîôûäöüãõ';
+const G2P_R = {
+  es: [[/ch/, 'tʃ'], [/ll/, 'ʝ'], [/rr/, 'r'], [/qu(?=[eiéí])/, 'k'], [/gu(?=[eiéí])/, 'ɡ'], [/g(?=[eiéí])/, 'x'], [/j/, 'x'], [/[cz](?=[eiéí])|z/, 'θ'], [/c/, 'k'], [/ñ/, 'ɲ'], [/h/, ''], [/[vb]/, 'b'], [/y(?=[aeiou])/, 'ʝ'], [/(?<![a-z])r/, 'r'], [/r/, 'ɾ'], [/x/, 'ks'], [/ü/, 'w'], [/g/, 'ɡ'], [/á/, 'a'], [/é/, 'e'], [/í/, 'i'], [/ó/, 'o'], [/[úu]/, 'u'], [/y/, 'i']],
+  it: [[/gg(?=[eiì])/, 'dʒ'], [/cc(?=[eiì])/, 'tʃ'], [/ch(?=[ei])/, 'k'], [/gh(?=[ei])/, 'ɡ'], [/gli/, 'ʎ'], [/gn/, 'ɲ'], [/sc(?=[eiì])/, 'ʃ'], [/ci(?=[aou])/, 'tʃ'], [/gi(?=[aou])/, 'dʒ'], [/c(?=[eiì])/, 'tʃ'], [/g(?=[eiì])/, 'dʒ'], [/qu/, 'kw'], [/c/, 'k'], [/g/, 'ɡ'], [/z/, 'ts'], [/h/, ''], [/è/, 'ɛ'], [/ò/, 'ɔ'], [/[àá]/, 'a'], [/[ìí]/, 'i'], [/[ùú]/, 'u'], [/é/, 'e'], [/ó/, 'o']],
+  de: [[/tsch/, 'tʃ'], [/sch/, 'ʃ'], [/chs/, 'ks'], [/(?<=[aouäöü])ch/, 'x'], [/ch/, 'ç'], [/ck/, 'k'], [/ph/, 'f'], [/qu/, 'kv'], [/(?<![a-zäöüß])sp/, 'ʃp'], [/(?<![a-zäöüß])st/, 'ʃt'], [/tion/, 'tsjoːn'], [/tz|z/, 'ts'], [/ei|ai|ey|ay/, 'aɪ'], [/eu|äu/, 'ɔʏ'], [/au/, 'aʊ'], [/ie/, 'iː'], [/aa|ah/, 'aː'], [/ee|eh/, 'eː'], [/oo|oh/, 'oː'], [/uh/, 'uː'], [/äh/, 'ɛː'], [/öh/, 'øː'], [/üh/, 'yː'], [/ng/, 'ŋ'], [/th/, 't'], [/ß/, 's'], [/v/, 'f'], [/w/, 'v'], [/s(?=[aeiouäöüy])/, 'z'], [/(?<=[aeiouäöü])r$|er$/, 'ɐ'], [/e$/, 'ə'], [/r/, 'ʁ'], [/ä/, 'ɛ'], [/ö/, 'ø'], [/ü|y/, 'y'], [/c/, 'k'], [/j/, 'j'], [/h(?=[^aeiouäöü])|(?<=[aeiouäöü])h/, '']],
+  nl: [[/sch/, 'sx'], [/ng/, 'ŋ'], [/nj/, 'ɲ'], [/sj/, 'ʃ'], [/ch|g/, 'x'], [/ij|ei/, 'ɛi'], [/ui/, 'œy'], [/ou|au/, 'ʌu'], [/oe/, 'u'], [/eu/, 'ø'], [/ie/, 'i'], [/aa/, 'aː'], [/ee/, 'eː'], [/oo/, 'oː'], [/uu/, 'y'], [/ck/, 'k'], [/qu/, 'kʋ'], [/c(?=[ei])/, 's'], [/c/, 'k'], [/w/, 'ʋ'], [/h/, 'ɦ'], [/j/, 'j'], [/y/, 'i'], [/e$/, 'ə'], [/(?<=[^aeiou])e(?=n$)/, 'ə'], [/e(?=[^aeiou]$)/, 'ɛ'], [/ë/, 'e']],
+  fr: [[/eau/, 'o'], [/au/, 'o'], [/ou/, 'u'], [/oi/, 'wa'], [/ai|ei|è|ê/, 'ɛ'], [/eu|œu/, 'ø'], [/(?:ain|ein|in|im)(?![aeiouyn])/, 'ɛ̃'], [/(?:an|am|en|em)(?![aeiouyn])/, 'ɑ̃'], [/(?:on|om)(?![aeiouyn])/, 'ɔ̃'], [/un(?![aeiouyn])/, 'œ̃'], [/ch/, 'ʃ'], [/ph/, 'f'], [/gn/, 'ɲ'], [/qu/, 'k'], [/gu(?=[eiy])/, 'ɡ'], [/g(?=[eiy])|j/, 'ʒ'], [/c(?=[eiy])|ç/, 's'], [/c/, 'k'], [/g/, 'ɡ'], [/(?<=[aeiouyéèêàâôûù])s(?=[aeiouyéèêàâôûù])/, 'z'], [/h/, ''], [/[éë]/, 'e'], [/[àâ]/, 'a'], [/ô/, 'o'], [/[ùûu]/, 'y'], [/x/, 'ks'], [/r/, 'ʁ'], [/w/, 'v'], [/y|î|ï/, 'i'], [/e(?=$)/, 'ə']],
+  pt: [[/lh/, 'ʎ'], [/nh/, 'ɲ'], [/ch/, 'ʃ'], [/rr|^r/, 'ʁ'], [/r/, 'ɾ'], [/ss/, 's'], [/(?<=[aeiouáéíóúâêôãõ])s(?=[aeiouáéíóúâêôãõ])/, 'z'], [/ç/, 's'], [/qu(?=[ei])/, 'k'], [/qu/, 'kw'], [/gu(?=[ei])/, 'ɡ'], [/g(?=[ei])|j/, 'ʒ'], [/c(?=[ei])/, 's'], [/c/, 'k'], [/g/, 'ɡ'], [/ão/, 'ɐ̃w̃'], [/ões/, 'õjs'], [/ã/, 'ɐ̃'], [/h/, ''], [/x/, 'ʃ'], [/(?:t)(?=i)/, 'tʃ'], [/d(?=i)/, 'dʒ'], [/é/, 'ɛ'], [/ó/, 'ɔ'], [/ê/, 'e'], [/ô/, 'o'], [/â/, 'ɐ'], [/á/, 'a'], [/í/, 'i'], [/ú/, 'u'], [/o$/, 'u'], [/e$/, 'i'], [/l$/, 'w']],
+  tr: [[/ç/, 'tʃ'], [/c/, 'dʒ'], [/ğ/, ''], [/ı/, 'ɯ'], [/ö/, 'ø'], [/ü/, 'y'], [/ş/, 'ʃ'], [/j/, 'ʒ'], [/y/, 'j'], [/[âá]/, 'a']]
+};
+
+G2P_R.pl = [[/szcz/, 'ʂtʂ'], [/sz/, 'ʂ'], [/cz/, 'tʂ'], [/dzi(?=[aeiouąęó])/, 'dʑ'], [/dź/, 'dʑ'], [/dż/, 'dʐ'], [/dz/, 'dz'], [/ci(?=[aeiouąęó])/, 'tɕ'], [/ni(?=[aeiouąęó])/, 'ɲ'], [/si(?=[aeiouąęó])/, 'ɕ'], [/zi(?=[aeiouąęó])/, 'ʑ'], [/ć/, 'tɕ'], [/ń/, 'ɲ'], [/ś/, 'ɕ'], [/ź/, 'ʑ'], [/rz|ż/, 'ʐ'], [/ch|h/, 'x'], [/c/, 'ts'], [/w/, 'v'], [/ł/, 'w'], [/ó|u/, 'u'], [/y/, 'ɨ'], [/ą/, 'ɔ̃'], [/ę/, 'ɛ̃'], [/i(?=[aeiouąęó])/, 'j'], [/e/, 'ɛ'], [/o/, 'ɔ']];
+G2P_R.fi = [[/aa/, 'ɑː'], [/ee/, 'eː'], [/ii/, 'iː'], [/oo/, 'oː'], [/uu/, 'uː'], [/yy/, 'yː'], [/ää/, 'æː'], [/öö/, 'øː'], [/ng/, 'ŋː'], [/nk/, 'ŋk'], [/a/, 'ɑ'], [/ä/, 'æ'], [/ö/, 'ø'], [/å/, 'o'], [/[cq]/, 'k'], [/[wv]/, 'ʋ'], [/x/, 'ks'], [/z/, 'ts'], [/š/, 'ʃ'], [/ž/, 'ʒ']];
+G2P_R.cs = [[/ch/, 'x'], [/č/, 'tʃ'], [/š/, 'ʃ'], [/ž/, 'ʒ'], [/ř/, 'r̝'], [/ě/, 'jɛ'], [/c/, 'ts'], [/h/, 'ɦ'], [/á/, 'aː'], [/é/, 'ɛː'], [/[íý]/, 'iː'], [/[úů]/, 'uː'], [/ó/, 'oː'], [/y/, 'i'], [/e/, 'ɛ'], [/ň/, 'ɲ'], [/ď/, 'ɟ'], [/ť/, 'c'], [/w/, 'v'], [/x/, 'ks'], [/q/, 'kv']];
+G2P_R.hu = [[/dzs/, 'dʒ'], [/cs/, 'tʃ'], [/sz/, 's'], [/zs/, 'ʒ'], [/gy/, 'ɟ'], [/ty/, 'c'], [/ny/, 'ɲ'], [/ly/, 'j'], [/s/, 'ʃ'], [/c/, 'ts'], [/á/, 'aː'], [/é/, 'eː'], [/í/, 'iː'], [/ő/, 'øː'], [/ó/, 'oː'], [/ú/, 'uː'], [/ű/, 'yː'], [/ö/, 'ø'], [/ü/, 'y'], [/a/, 'ɒ'], [/e/, 'ɛ'], [/w/, 'v'], [/x/, 'ks']];
+G2P_R.ro = [[/ch(?=[ei])/, 'k'], [/gh(?=[ei])/, 'ɡ'], [/ci(?=[aou])/, 'tʃ'], [/gi(?=[aou])/, 'dʒ'], [/c(?=[ei])/, 'tʃ'], [/g(?=[ei])/, 'dʒ'], [/c/, 'k'], [/[șş]/, 'ʃ'], [/[țţ]/, 'ts'], [/ă/, 'ə'], [/[âî]/, 'ɨ'], [/j/, 'ʒ'], [/x/, 'ks'], [/w/, 'v'], [/y/, 'i']];
+G2P_R.hr = [[/dž/, 'dʒ'], [/đ/, 'dʑ'], [/č/, 'tʃ'], [/ć/, 'tɕ'], [/š/, 'ʃ'], [/ž/, 'ʒ'], [/lj/, 'ʎ'], [/nj/, 'ɲ'], [/c/, 'ts'], [/h/, 'x']];
+G2P_R.sr = G2P_R.hr;
+G2P_R.id = [[/ng/, 'ŋ'], [/ny/, 'ɲ'], [/sy/, 'ʃ'], [/kh/, 'x'], [/c/, 'tʃ'], [/j/, 'dʒ'], [/y/, 'j'], [/é/, 'e'], [/e/, 'ə'], [/k$/, 'ʔ']];
+G2P_R.sw = [[/ch/, 'tʃ'], [/sh/, 'ʃ'], [/dh/, 'ð'], [/th/, 'θ'], [/gh/, 'ɣ'], [/ny/, 'ɲ'], [/ng/, 'ŋɡ'], [/j/, 'dʒ'], [/y/, 'j']];
+const G2P_CACHE = {};
+function g2pWord(lang, w) {
+  const R = G2P_R[lang].map(([r, o]) => [new RegExp(r.source, 'y'), o]);
+  w = w.toLowerCase();
+  if (lang === 'fr') {
+    if (w.length > 2) w = w.replace(/(?<=[^aeiouyéèêàâôûù])e[s]?$/, '').replace(/(?<=[^aeiouy])[sxzt]$/, '').replace(/(?<=[aeiouyéèê])[sxzt]$/, (m) => (m === 's' && w.length < 4 ? '' : ''));
+  }
+  let out = '', i = 0;
+  while (i < w.length) {
+    let hit = false;
+    for (const [r, o] of R) { r.lastIndex = i; const m = r.exec(w); if (m && m[0].length) { out += o; i += m[0].length; hit = true; break; } }
+    if (!hit) { out += w[i]; i++; }
+  }
+  return out.replace(/g/g, 'ɡ');
+}
+function g2pToken(lang, t) {
+  const parts = t.match(/[\p{L}]+/gu);
+  if (!parts) return t;
+  return parts.map((p) => { const k = lang + '|' + p; return G2P_CACHE[k] || (G2P_CACHE[k] = g2pWord(lang, p)); }).join('');
+}
+const g2pLine = (lang, s) => s.split(/\s+/).filter(Boolean).map((t) => g2pToken(lang, t)).join(' ');
+function mergedRaw() {
+  const raw = $('#raw').value;
+  const L = $('#lang').value, C = LCFG[L];
+  let en = entriesOf(raw), ip = C.ipa ? entriesOf($('#ipa').value) : [], tr = entriesOf($('#tr').value), fu = C.furi ? entriesOf($('#furi').value) : [], lao = L === 'zh' ? entriesOf($('#lao').value).filter((e) => !KANJI.test(e.text)) : [], ro = C.rom ? entriesOf($('#rom').value) : [], al = C.alt ? entriesOf($('#alt').value) : [];
+  mergeInfo = { missing: 0, extra: 0, noIpa: false, trMissing: 0, trExtra: 0 };
+  if (C.ipa && !ip.length && L !== 'en' && G2P_R[lcode()]) ip = en.map((e) => ({ ts: e.ts, t: e.t, text: g2pLine(lcode(), e.text) }));
+  if (L === 'ja' && en.some((e) => hasRuby(e.text))) {
+    const nf = [], nr = [];
+    en = en.map((e) => {
+      const r = rubyTokens(e.text);
+      nf.push({ ts: e.ts, t: e.t, text: r.fu.join(' ') });
+      nr.push({ ts: e.ts, t: e.t, text: r.ro.join(' ') });
+      return { ts: e.ts, t: e.t, text: r.tok.join(' ') };
+    });
+    fu = nf; ro = nr;
+  }
+  if (L === 'zh') {
+    const mkm = (arr) => { const m = new Map(); arr.forEach((e) => { if (!m.has(e.t)) m.set(e.t, []); m.get(e.t).push(e); }); return m; };
+    const pm = mkm(fu), lm = mkm(lao);
+    const nf = [];
+    en = en.map((e) => {
+      const pl = pm.get(e.t), ph = pl && pl.length ? pl.shift() : null;
+      const ll = lm.get(e.t), lh = ll && ll.length ? ll.shift() : null;
+      if (lh && lh.text) {
+        const g = zhFromLaoshi(e.text, lh.text);
+        if (g) { nf.push({ ts: e.ts, t: e.t, text: g.fu.join(' ') }); return { ts: e.ts, t: e.t, text: g.tok.join(' ') }; }
+      }
+      const tk = zhTokens(e.text);
+      const src = ph && ph.text ? ph : (lh && lh.text ? lh : null);
+      if (!src) return { ts: e.ts, t: e.t, text: tk.join(' ') };
+      const r = zhAlign(tk, src.text);
+      if (r) { nf.push({ ts: e.ts, t: e.t, text: r.join(' ') }); return { ts: e.ts, t: e.t, text: tk.join(' ') }; }
+      nf.push(src);
+      return e;
+    });
+    fu = nf;
+  }
+  if (L === 'th' && ro.length) {
+    const rm = new Map();
+    ro.forEach((e) => { if (!rm.has(e.t)) rm.set(e.t, []); rm.get(e.t).push(e); });
+    en = en.map((e) => {
+      const l = rm.get(e.t), rh = l && l.length ? l.shift() : null;
+      if (!rh || !rh.text) return e;
+      const n = rh.text.split(/\s+/).filter(Boolean).length;
+      if (e.text.split(/\s+/).filter((x) => x && !PUNCT.test(x)).length === n) return e;
+      const g = thAlign(e.text, rh.text);
+      return g ? { ts: e.ts, t: e.t, text: g.join(' ') } : e;
+    });
+  }
+  if (!en.length) return raw;
+  if (!ip.length) {
+    if (L === 'en' && looksCombined(en)) return raw;
+    if (!fu.length && !ro.length && !al.length) mergeInfo.noIpa = true;
+  }
+  const q = new Map();
+  ip.forEach((e) => { if (!q.has(e.t)) q.set(e.t, []); q.get(e.t).push(e); });
+  const mk = (arr) => { const m = new Map(); arr.forEach((e) => { if (!m.has(e.t)) m.set(e.t, []); m.get(e.t).push(e); }); return m; };
+  const fq = mk(fu), rq = mk(ro), aq = mk(al);
+  const tq = new Map();
+  tr.forEach((e) => { if (!tq.has(e.t)) tq.set(e.t, []); tq.get(e.t).push(e); });
+  const out = [];
+  en.forEach((e) => {
+    const list = q.get(e.t);
+    const hit = list && list.length ? list.shift() : null;
+    if (!hit && ip.length) mergeInfo.missing++;
+    out.push('[' + e.ts + '] ' + e.text, '[' + e.ts + '] ' + (hit ? hit.text : ''));
+    const fl = fq.get(e.t), fh = fl && fl.length ? fl.shift() : null;
+    if (fh && fh.text) out.push('[' + e.ts + '] §F ' + fh.text);
+    const rl = rq.get(e.t), rh = rl && rl.length ? rl.shift() : null;
+    if (rh && rh.text) out.push('[' + e.ts + '] §R ' + rh.text);
+    const ql = aq.get(e.t), qh = ql && ql.length ? ql.shift() : null;
+    if (qh && qh.text) out.push('[' + e.ts + '] §A ' + qh.text);
+    if (tr.length) {
+      const tl = tq.get(e.t), th = tl && tl.length ? tl.shift() : null;
+      if (th && th.text) out.push('[' + e.ts + '] ≫ ' + th.text); else mergeInfo.trMissing++;
+    }
+  });
+  q.forEach((l) => { mergeInfo.extra += l.length; });
+  tq.forEach((l) => { mergeInfo.trExtra += l.length; });
+  return out.join('\n');
+}
+const fmtEntries = (arr) => arr.map((e) => '[' + e.ts + '] ' + e.text).join('\n');
+function distribute(text) {
+  const en = entriesOf(text);
+  if (looksCombined(en)) {
+    $('#raw').value = fmtEntries(en.filter((_, k) => k % 2 === 0));
+    $('#ipa').value = fmtEntries(en.filter((_, k) => k % 2 === 1));
+  } else {
+    $('#raw').value = text.trim();
+  }
+}
+const DEFAULT_BACK = '/index.html';
+const tagList = () => $('#tags').value.split(',').map((x) => x.trim()).filter(Boolean);
+function buildJson() {
+  const id = extractId($('#url').value);
+  const p = parse(mergedRaw().replace(/\r\n?/g, '\n').trim());
+  return JSON.stringify({
+    version: 2,
+    slug: curSlug(),
+    videoId: id,
+    videoUrl: id ? 'https://youtu.be/' + id : '',
+    lang: langCode() || 'en',
+    zhScript: $('#lang').value === 'zh' ? $('#zhScript').value : undefined,
+    title: $('#title').value.trim() || 'Shadowing',
+    category: $('#cat').value.trim(),
+    channel: $('#channel').value.trim(),
+    tags: tagList(),
+    backUrl: DEFAULT_BACK,
+    lines: p.lines.map((d) => ({ start: d.t, text: d.en, ipa: d.ip || undefined, furi: d.fu || undefined, romaji: d.ro || undefined, alt: d.alt || undefined, tr: d.tr || undefined }))
+  });
+}
+
+/* Preview: JSON disimpan sementara di sessionStorage, lalu player-video.html (di iframe) membacanya sendiri lewat ?preview=1. */
+const PLAYER = 'player-video.html', PV_KEY = 'lf:preview';
+function loadPreview() {
+  try { sessionStorage.setItem(PV_KEY, buildJson()); }
+  catch (e) { toast('Preview gagal: sessionStorage tidak bisa dipakai di browser ini.', true); return; }
+  $('#frame').src = PLAYER + '?preview=1';
+}
+function clearPreview() {
+  $('#frame').src = 'about:blank';
+  try { sessionStorage.removeItem(PV_KEY); } catch (e) {}
+}
+let state = { id: null, parsed: null };
+let lastId = null, titleManual = false, channelManual = false, fetchSeq = 0;
+
+function setTitleHint(msg) { const h = $('#titleHint'); h.textContent = msg; h.hidden = !msg; }
+function setChHint(msg) { const h = $('#channelHint'); h.textContent = msg; h.hidden = !msg; }
+async function fetchTitle(id) {
+  const seq = ++fetchSeq;
+  const watch = 'https://www.youtube.com/watch?v=' + id;
+  const srcs = [
+    'https://www.youtube.com/oembed?format=json&url=' + encodeURIComponent(watch),
+    'https://noembed.com/embed?url=' + encodeURIComponent(watch)
+  ];
+  setTitleHint('Mencari judul video...');
+  if (!channelManual) setChHint('Mencari channel...');
+  for (const u of srcs) {
+    try {
+      const ctl = new AbortController();
+      const to = setTimeout(() => ctl.abort(), 6000);
+      const r = await fetch(u, { signal: ctl.signal });
+      clearTimeout(to);
+      if (!r.ok) continue;
+      const j = await r.json();
+      if (seq !== fetchSeq) return;
+      if (j && j.title) {
+        if (j.author_name && !channelManual) { $('#channel').value = j.author_name; setChHint('Channel diambil dari video. Kamu bisa mengubahnya.'); }
+        else if (!j.author_name && !channelManual && !$('#channel').value.trim()) setChHint('Channel tidak ditemukan di video ini. Isi manual.');
+        if (!titleManual) $('#title').value = j.title;
+        setTitleHint(titleManual ? '' : 'Judul diambil dari video. Kamu bisa mengubahnya.');
+        return;
+      }
+    } catch (e) {}
+  }
+  if (seq === fetchSeq) { setTitleHint('Judul tidak bisa diambil otomatis di sini. Isi manual.'); if (!channelManual && !$('#channel').value.trim()) setChHint('Channel tidak bisa diambil otomatis di sini. Isi manual.'); }
+}
+let timer = null;
+
+function setPill(el, cls, text) {
+  el.className = 'pill ' + cls;
+  el.querySelector('span:last-child').innerHTML = text;
+}
+
+/* Peringatan di bawah kolom IPA: tampil kalau kolom kosong dan IPA dibuat otomatis. Bahasa yang pola bacanya kurang teratur dapat peringatan lebih tegas. */
+const G2P_LOOSE = ['fr', 'nl', 'pt', 'de', 'id', 'pl'];
+function updIpaWarn() {
+  const el = $('#ipaAuto'), L = $('#lang').value, c = lcode();
+  const on = LCFG[L].ipa && L !== 'en' && G2P_R[c] && !$('#ipa').value.trim();
+  el.hidden = !on;
+  if (!on) return;
+  const loose = G2P_LOOSE.includes(c);
+  el.className = 'note' + (loose ? ' warn' : '');
+  el.textContent = loose
+    ? 'Peringatan: IPA di halaman ini dibuat otomatis dari ejaan dan kurang akurat untuk bahasa ini, karena pola bacanya tidak sepenuhnya teratur (huruf diam, kualitas vokal, tekanan kata). Periksa hasilnya, lalu tempel IPA yang benar di kolom ini supaya dipakai sebagai gantinya.'
+    : 'Catatan: IPA di halaman ini dibuat otomatis dari ejaan (perkiraan, tanpa penanda tekanan). Kalau ada yang kurang pas, tempel IPA sendiri di kolom ini.';
+}
+function refresh() {
+  updIpaWarn();
+  updRubyNote();
+  syncSlug();
+  state.id = extractId($('#url').value);
+  if (state.id !== lastId) { lastId = state.id; if (state.id) fetchTitle(state.id); else { fetchSeq++; setTitleHint(''); setChHint(''); } }
+  const hasUrl = $('#url').value.trim().length > 0;
+  if (state.id) setPill($('#idPill'), 'ok', 'ID video <code>' + htmlEsc(state.id) + '</code>');
+  else if (hasUrl) setPill($('#idPill'), 'bad', 'Link tidak dikenali. Pakai link youtu.be atau youtube.com/watch.');
+  else setPill($('#idPill'), '', 'Belum ada link');
+
+  const raw = mergedRaw();
+  const p = parse(raw);
+  state.parsed = p;
+  const trh = $('#trHint');
+  trh.hidden = !$('#tr').value.trim();
+  if (!trh.hidden) trh.textContent = p.lines.filter((d) => d.tr).length + ' dari ' + p.lines.length + ' baris punya terjemahan' + (mergeInfo.trExtra ? '; ' + mergeInfo.trExtra + ' baris terjemahan tidak cocok waktunya dengan transkrip' : '') + '.';
+  const w1 = $('#warn1'), w2 = $('#warn2'), pv = $('#preview');
+  w1.hidden = true; w2.hidden = true;
+  if (!raw.trim()) {
+    setPill($('#rawPill'), '', 'Belum ada transkrip');
+    pv.hidden = true;
+  } else if (!p.lines.length) {
+    setPill($('#rawPill'), 'bad', 'Formatnya belum terbaca. Pastikan tiap baris diawali waktu (mis. 00:17, [00:17], atau (00:17)) dan berpasangan.');
+    pv.hidden = true;
+  } else {
+    const last = p.lines[p.lines.length - 1].t;
+    setPill($('#rawPill'), 'ok', p.lines.length + ' baris terbaca, sampai sekitar ' + fmt(last + 5));
+    if (p.skipped) { w1.hidden = false; w1.textContent = p.skipped + ' baris dilewati karena waktunya tidak berpasangan antara teks Inggris dan IPA.'; }
+    if (p.mism) { w2.hidden = false; w2.textContent = p.mism + ' baris punya jumlah kata yang berbeda antara transkrip dan kolom fonetik/furigana/romaji, jadi tampil per baris, bukan per kata.'; }
+    if (mergeInfo.noIpa) { w1.hidden = false; w1.textContent = 'Kolom phonetic kosong, jadi halaman hanya menampilkan transkrip.'; }
+    else if (mergeInfo.missing || mergeInfo.extra) { w1.hidden = false; w1.textContent = (mergeInfo.missing ? mergeInfo.missing + ' baris transkrip tidak punya fonetik dengan waktu yang sama. ' : '') + (mergeInfo.extra ? mergeInfo.extra + ' baris fonetik tidak punya pasangan transkrip.' : ''); }
+    pv.hidden = false;
+    const show = p.lines.slice(0, 5);
+    pv.innerHTML = show.map((d) => {
+      const jp = !!(d.fu || d.ro || d.alt);
+      const body = d.w
+        ? d.w.map((x) => jp ? jpWord(x, d.w.some((y) => y[3])) : '<span class="w"><b>' + htmlEsc(x[0]) + '</b><i>' + htmlEsc(x[1]) + '</i></span>').join('')
+        : '<span class="w"><b>' + htmlEsc(d.en) + '</b><i>' + htmlEsc(d.ip || d.ro || '') + '</i></span>';
+      return '<div class="pl"><div><div class="ws' + (jp ? ' jpl' : '') + '"' + (lcode() !== 'en' ? ' lang="' + (lcode() === 'zh' ? ($('#zhScript').value === 'trad' ? 'zh-Hant' : 'zh-Hans') : lcode()) + '"' : '') + '>' + body + '</div>' + (d.tr ? '<div class="trp">' + htmlEsc(d.tr) + '</div>' : '') + '</div></div>';
+    }).join('') + (p.lines.length > 5 ? '<div class="more">dan ' + (p.lines.length - 5) + ' baris lainnya</div>' : '');
+  }
+  const ready = !!state.id && p.lines.length > 0;
+  $('#bSync').disabled = !ready;
+  $('#syncHint').hidden = ready;
+}
+function schedule() { clearTimeout(timer); timer = setTimeout(refresh, 150); }
+
+function toast(msg, bad) {
+  const t = $('#toast');
+  t.textContent = msg; t.className = 'toast' + (bad ? ' bad' : '');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => { t.textContent = ''; }, 5000);
+}
+
+async function copyText(text, okMsg) {
+  try {
+    await navigator.clipboard.writeText(text);
+    toast(okMsg);
+  } catch (e) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.cssText = 'position:fixed;top:0;opacity:0';
+      document.body.appendChild(ta); ta.select();
+      const ok = document.execCommand('copy'); ta.remove();
+      if (ok) { toast(okMsg); return; }
+    } catch (e2) {}
+    toast('Salin otomatis ditolak. Pakai tombol Unduh.', true);
+  }
+}
+
+async function saveFile(name, data, mime) {
+  try {
+    const dl = window.claude && window.claude.use ? await window.claude.use('downloads') : null;
+    if (dl) { await dl.save({ filename: name, data }); return true; }
+  } catch (e) { if (e && e.code === 'declined') return 'declined'; }
+  try {
+    const url = URL.createObjectURL(new Blob([data], { type: mime + ';charset=utf-8' }));
+    const a = document.createElement('a');
+    a.href = url; a.download = name; a.style.display = 'none';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 8000);
+    return true;
+  } catch (e) { return false; }
+}
+async function doSave(name, data, mime) {
+  const r = await saveFile(name, data, mime);
+  if (r === 'declined') return;
+  if (r) toast('File diunduh: ' + name);
+  else toast('Unduh gagal di tampilan ini. Pakai tombol Salin.', true);
+}
+$('#bJson').addEventListener('click', () => doSave(curSlug() + '.json', buildJson(), 'application/json'));
+$('#bCopyJson').addEventListener('click', () => copyText(buildJson(), 'JSON disalin.'));
+
+let fileTarget = 'both';
+function pickFile(t) { fileTarget = t; $('#file').value = ''; $('#file').click(); }
+function loadText(text) {
+  if (fileTarget === 'raw') $('#raw').value = text.trim();
+  else if (fileTarget === 'ipa') $('#ipa').value = text.trim();
+  else if (fileTarget === 'tr') $('#tr').value = text.trim();
+  else if (fileTarget === 'furi') $('#furi').value = text.trim();
+  else if (fileTarget === 'lao') $('#lao').value = text.trim();
+  else if (fileTarget === 'rom') $('#rom').value = text.trim();
+  else if (fileTarget === 'alt') $('#alt').value = text.trim();
+  else distribute(text);
+  refresh();
+}
+$('#bFile').addEventListener('click', () => pickFile('both'));
+$('#bFileRaw').addEventListener('click', () => pickFile('raw'));
+$('#bFileIpa').addEventListener('click', () => pickFile('ipa'));
+$('#bFileTr').addEventListener('click', () => pickFile('tr'));
+$('#bFileFuri').addEventListener('click', () => pickFile('furi'));
+$('#bFileLao').addEventListener('click', () => pickFile('lao'));
+$('#bFileRom').addEventListener('click', () => pickFile('rom'));
+$('#bFileAlt').addEventListener('click', () => pickFile('alt'));
+/* Pisah kata Jepang: tiap baris transkrip dipecah per kata pakai Intl.Segmenter bawaan browser */
+$('#bSegJa').addEventListener('click', () => {
+  if (hasRuby($('#raw').value)) { updRubyNote(); return; }
+  if (!window.Intl || !Intl.Segmenter) { $('#warn1').hidden = false; $('#warn1').textContent = 'Browser ini belum mendukung pemisah kata Jepang. Pisahkan dengan spasi secara manual.'; return; }
+  const seg = new Intl.Segmenter(LCFG[$('#lang').value].seg || 'ja', { granularity: 'word' });
+  const en = entriesOf($('#raw').value);
+  if (!en.length) return;
+  $('#raw').value = fmtEntries(en.map((e) => ({ ts: e.ts, text: [...seg.segment(e.text.replace(/\s+/g, ''))].map((s) => s.segment).join(' ') })));
+  refresh();
+});
+$('#file').addEventListener('change', async () => {
+  const f = $('#file').files[0];
+  if (!f) return;
+  try { loadText(await f.text()); }
+  catch (e) { setPill($('#rawPill'), 'bad', 'Gagal membaca file: ' + htmlEsc(e && e.message ? e.message : 'tidak diketahui')); }
+});
+$('#bSample').addEventListener('click', () => {
+  const SL = $('#lang').value;
+  if (SL !== 'en') {
+    const s = SAMPLES[SL];
+    if (s.code) { $('#langCode').value = s.code; }
+    $('#raw').value = s.raw; $('#ipa').value = s.ipa || ''; $('#furi').value = s.furi || ''; $('#lao').value = s.lao || ''; $('#rom').value = s.rom || ''; $('#alt').value = s.alt || ''; $('#tr').value = s.tr || '';
+    if (!$('#url').value.trim()) $('#url').value = 'https://youtu.be/52t241OQ7Ec';
+    if (!$('#title').value.trim()) $('#title').value = 'Contoh ' + $('#lang').selectedOptions[0].text.split(' (')[0];
+    refresh();
+    return;
+  }
+  const ls = SAMPLE.split('\n');
+  $('#raw').value = ls.filter((_, k) => k % 2 === 0).join('\n');
+  $('#ipa').value = ls.filter((_, k) => k % 2 === 1).join('\n');
+  if (!$('#url').value.trim()) $('#url').value = 'https://youtu.be/52t241OQ7Ec';
+  if (!$('#title').value.trim()) $('#title').value = 'Travel to the UK';
+  refresh();
+});
+$('#bClear').addEventListener('click', () => { $('#alt').value = ''; $('#raw').value = ''; $('#ipa').value = ''; $('#tr').value = ''; $('#furi').value = ''; $('#lao').value = ''; $('#rom').value = ''; refresh(); });
+['#url', '#title', '#raw', '#ipa', '#tr', '#furi', '#lao', '#rom', '#alt', '#channel'].forEach((s) => $(s).addEventListener('input', schedule));
+
+$('#lang').addEventListener('change', () => { applyLang(); refresh(); });
+$('#langCode').addEventListener('input', () => {
+  const c = $('#langCode').value.trim().toLowerCase();
+  if (c && [...$('#lang').options].some((o) => o.value === c && o.value !== 'other')) { $('#lang').value = c; $('#langCode').value = ''; }
+  applyLang();
+  refresh();
+});
+$('#zhScript').addEventListener('change', () => { applyLang(); refresh(); });
+/* Terjemahan otomatis (bahasa transkrip -> Indonesia) lewat layanan terjemah gratis; hasilnya bisa diedit sebelum sinkronisasi. */
+async function gTranslate(t) {
+  if (!t.trim() || /^\[[^\]]*\]$/.test(t.trim())) return t;
+  try {
+    const r = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + encodeURIComponent(LCFG[$('#lang').value].sl) + '&tl=id&dt=t&q=' + encodeURIComponent(t));
+    if (!r.ok) throw 0;
+    const j = await r.json(); const s = j[0].map((x) => x[0]).join('');
+    if (s) return s;
+  } catch (e) {}
+  try {
+    const r = await fetch('https://api.mymemory.translated.net/get?langpair=' + encodeURIComponent(LCFG[$('#lang').value].sl) + '|id&q=' + encodeURIComponent(t));
+    const j = await r.json(); const s = j.responseData && j.responseData.translatedText;
+    if (s && !/MYMEMORY WARNING/i.test(s)) return s;
+  } catch (e) {}
+  return '';
+}
+$('#bAutoTr').addEventListener('click', async () => {
+  const en = entriesOf($('#raw').value), btn = $('#bAutoTr'), hint = $('#trHint');
+  if (!en.length) { hint.hidden = false; hint.textContent = 'Isi transkrip dulu, lalu terjemahkan.'; return; }
+  if ($('#tr').value.trim() && !confirm('Ganti isi kolom terjemahan dengan hasil otomatis?')) return;
+  btn.disabled = true;
+  const out = new Array(en.length).fill(''); let next = 0, done = 0, fail = 0;
+  const worker = async () => {
+    while (next < en.length) {
+      const k = next++;
+      out[k] = await gTranslate(en[k].text);
+      if (!out[k]) fail++;
+      btn.textContent = 'Menerjemahkan ' + (++done) + '/' + en.length;
+    }
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  $('#tr').value = fmtEntries(en.map((e, k) => ({ ts: e.ts, text: out[k] })).filter((e) => e.text));
+  btn.disabled = false; btn.textContent = 'Terjemahkan otomatis';
+  refresh();
+  hint.hidden = false;
+  hint.textContent = fail ? fail + ' baris gagal diterjemahkan (layanan tidak terjangkau atau dibatasi). Isi manual atau coba lagi.' : 'Selesai. Periksa dan perbaiki hasilnya bila perlu.';
+});
+/* ---------- halaman: pengisian -> preview ---------- */
+const isReady = () => !!(state.id && state.parsed && state.parsed.lines.length);
+function closeMenu() { $('#menu').hidden = true; $('#bExport').setAttribute('aria-expanded', 'false'); }
+function route() {
+  const wantPv = location.hash === '#preview';
+  if (wantPv) { refresh(); if (!isReady()) { history.replaceState(null, '', location.pathname + location.search); return route(); } }
+  $('#vIn').hidden = wantPv;
+  $('#vPv').hidden = !wantPv;
+  document.body.classList.toggle('pv', wantPv);
+  closeMenu();
+  if (wantPv) {
+    loadPreview();
+    $('#toast').textContent = '';
+  } else {
+    clearPreview();
+  }
+  window.scrollTo(0, 0);
+}
+$('#title').addEventListener('input', () => { titleManual = $('#title').value.trim() !== ''; });
+$('#channel').addEventListener('input', () => { channelManual = $('#channel').value.trim() !== ''; if (channelManual) setChHint(''); });
+$('#slugIn').addEventListener('input', () => {
+  slugManual = $('#slugIn').value.trim() !== '';
+  $('#slugHint').textContent = 'Nama file: ' + curSlug() + '.json';
+});
+$('#slugIn').addEventListener('change', () => {
+  const v = $('#slugIn').value.trim();
+  $('#slugIn').value = v ? slug(v) : '';
+  slugManual = v !== '';
+  syncSlug();
+});
+$('#bSync').addEventListener('click', () => { refresh(); if (isReady()) location.hash = '#preview'; });
+$('#bBack').addEventListener('click', () => { location.hash = ''; });
+window.addEventListener('hashchange', route);
+$('#bExport').addEventListener('click', (e) => {
+  e.stopPropagation();
+  const open = $('#menu').hidden;
+  $('#menu').hidden = !open;
+  $('#bExport').setAttribute('aria-expanded', String(open));
+  if (open) $('#bJson').focus();
+});
+$('#menu').addEventListener('click', closeMenu);
+document.addEventListener('click', (e) => { if (!$('#menu').hidden && !e.target.closest('.menuwrap')) closeMenu(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#menu').hidden) { closeMenu(); $('#bExport').focus(); } });
+applyLang();
+refresh();
+route();
+</script>
+
+</body>
+</html>

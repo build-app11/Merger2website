@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jalur belajar · Learning Fun</title>
+<meta name="theme-color" content="#EEF2FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101226" media="(prefers-color-scheme: dark)">
+<script src="i18n.js"></script>
+<script>try{var t=JSON.parse(localStorage.getItem('lf:theme'));if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap">
+<style>
+:root{--bg:#EEF2FF;--surface:#FFFFFF;--ink:#14162B;--on:#14162B;--muted:#4F5575;--line:#14162B;--shadow:#14162B;--rule:#D3D9F2;--yellow:#FFD23F;--coral:#FF6B5E;--blue:#4C84FF;--mint:#2ED3A0;--purple:#A07CFA;--font:'Albert Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--font-display:'Fredoka','Albert Sans',system-ui,sans-serif;
+  --gut:clamp(14px,4vw,40px);--mw:36rem;--nw:clamp(68px,22vw,92px);--nh:calc(var(--nw)*.86);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101226;--surface:#1B1E3A;--ink:#F2F3FF;--muted:#A9AED6;--line:#7A80C4;--shadow:#04050E;--rule:#2A2F55;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101226;--surface:#1B1E3A;--ink:#F2F3FF;--muted:#A9AED6;--line:#7A80C4;--shadow:#04050E;--rule:#2A2F55;color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:1.0625rem;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  padding-left:max(var(--gut),env(safe-area-inset-left,0px));padding-right:max(var(--gut),env(safe-area-inset-right,0px));padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+/* bulatan dekorasi, sama seperti halaman Kosa Kata */
+body::before,body::after{content:"";position:fixed;z-index:-1;border:2.5px solid var(--line);pointer-events:none}
+body::before{right:-40px;top:60px;width:130px;height:130px;border-radius:50%;background:var(--yellow)}
+body::after{left:-44px;bottom:110px;width:110px;height:110px;border-radius:30px;background:var(--mint);transform:rotate(18deg)}
+button,a{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+
+/* header ringkas: tombol kembali + merek */
+.lf-hd{max-width:var(--mw);margin:0 auto;padding:calc(14px + env(safe-area-inset-top,0px)) 0 0;display:flex;align-items:center;gap:12px}
+.lf-back{flex:none;display:grid;place-items:center;width:42px;height:42px;border:2.5px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);text-decoration:none;font:700 1.3rem/1 var(--font-display);box-shadow:3px 3px 0 var(--shadow);transition:transform .12s ease,box-shadow .12s ease}
+.lf-back:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow)}
+.lf-brand{display:inline-flex;align-items:center;gap:10px;min-width:0;font:700 clamp(1.05rem,1rem + .4vw,1.25rem)/1 var(--font-display);color:var(--ink);text-decoration:none}
+.lf-logo{flex:none;display:grid;place-items:center;width:40px;height:40px;border:2.5px solid var(--line);border-radius:10px;background:var(--yellow);box-shadow:2px 2px 0 var(--shadow)}
+
+main{max-width:var(--mw);margin:0 auto;padding:clamp(16px,3vw,28px) 0 24px}
+
+/* kartu pembuka */
+.hero{display:flex;flex-direction:column;gap:12px;padding:clamp(18px,5vw,30px);background:var(--surface);border:2.5px solid var(--line);border-radius:26px;box-shadow:7px 7px 0 var(--shadow)}
+.hero h1{margin:0;font:700 clamp(1.7rem,6vw,2.6rem)/1.1 var(--font-display);letter-spacing:-.01em}
+.lead{margin:0;color:var(--muted);line-height:1.6;font-size:clamp(.95rem,.9rem + .3vw,1.05rem);max-width:56ch}
+.hero-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+
+.chip,.btn{border:2.5px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font-family:var(--font-display);font-weight:600;cursor:pointer;text-decoration:none}
+.chip{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:6px 18px;font-size:1rem;box-shadow:3px 3px 0 var(--shadow);transition:transform .12s ease,box-shadow .12s ease}
+.chip.fire{background:var(--yellow);color:var(--on)}
+.btn{display:flex;align-items:center;justify-content:center;width:100%;min-height:50px;margin-top:12px;padding:12px 22px;font-size:1.1rem;box-shadow:4px 4px 0 var(--shadow);transition:transform .12s ease,box-shadow .12s ease}
+.btn:active,.chip:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow)}
+.btn.pri{background:var(--yellow);color:var(--on)}
+
+/* unit */
+.unit{margin-top:clamp(22px,5vw,34px);padding:clamp(14px,3.5vw,20px) clamp(16px,4vw,24px);border:2.5px solid var(--line);border-radius:22px;box-shadow:5px 5px 0 var(--shadow);background:var(--c);color:var(--on);font-size:clamp(.9rem,.85rem + .3vw,1rem)}
+.unit b{display:block;font:700 clamp(1.35rem,1.1rem + 1.2vw,1.8rem)/1.15 var(--font-display)}
+.c-purple{--c:var(--purple)}.c-blue{--c:var(--blue)}.c-coral{--c:var(--coral)}.c-mint{--c:var(--mint)}
+
+/* jalur */
+.trail{position:relative;margin:36px 0 0}
+.trail svg{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}
+.trail path{fill:none;stroke:var(--muted);stroke-width:4;stroke-linecap:round;stroke-dasharray:1 13;opacity:.55}
+.nw{position:absolute;width:var(--nw);height:var(--nh);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.node{position:relative;width:var(--nw);height:var(--nh);display:grid;place-items:center;padding:0;border:2.5px solid var(--line);border-radius:50%/48%;background:var(--surface);color:var(--ink);font:600 calc(var(--nw)*.3) var(--font-display);box-shadow:0 7px 0 var(--shadow);cursor:pointer;transition:transform .08s,box-shadow .08s}
+.node:active{transform:translateY(5px);box-shadow:0 2px 0 var(--shadow)}
+.node.cur{background:var(--yellow);color:var(--on)}
+.node.done{background:var(--mint);color:var(--on)}
+.node.lock{background:var(--rule);color:var(--muted);cursor:not-allowed;opacity:.85}
+.tip{position:absolute;bottom:calc(100% + 14px);left:50%;transform:translateX(-50%);padding:1px 14px;border:2.5px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font:600 1rem var(--font-display);white-space:nowrap;animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translate(-50%,-5px)}}
+.msg{padding:56px 12px;text-align:center;color:var(--muted)}
+
+/* dialog */
+dialog{border:2.5px solid var(--line);border-radius:26px;background:var(--surface);color:var(--ink);padding:clamp(18px,5vw,26px);width:min(calc(100vw - 32px),400px);max-height:calc(var(--vh,1vh)*88);overflow:auto;box-shadow:7px 7px 0 var(--shadow)}
+dialog::backdrop{background:rgba(20,22,43,.55)}
+dialog h2{font:700 1.5rem/1.2 var(--font-display);margin:0 0 6px}
+.meta{margin:0 0 14px;color:var(--muted)}
+#toast{position:fixed;left:50%;bottom:calc(var(--lfh,84px) + 12px);transform:translateX(-50%);z-index:50;max-width:calc(100vw - 32px);text-align:center;padding:10px 18px;border:2.5px solid var(--line);border-radius:999px;background:var(--ink);color:var(--bg);font-weight:600;box-shadow:3px 3px 0 var(--shadow)}
+
+/* ===== Responsif ===== */
+@media(max-width:380px){
+  .hero{border-radius:22px;box-shadow:5px 5px 0 var(--shadow)}
+  .chip{padding:6px 14px}
+  .tip{font-size:.9rem;padding:0 10px}
+}
+@media(min-width:760px){
+  :root{--mw:44rem}
+  body::before{width:180px;height:180px;right:-50px;top:-30px}
+  body::after{width:150px;height:150px;left:-60px;bottom:40px}
+}
+@media(min-width:1100px){:root{--mw:50rem}}
+/* HP landscape / layar pendek */
+@media(orientation:landscape) and (max-height:560px){
+  :root{--nw:68px}
+  body::before,body::after{display:none}
+  .lf-hd{padding-top:calc(8px + env(safe-area-inset-top,0px))}
+  .hero{padding:14px 18px;gap:8px}
+  .hero h1{font-size:1.5rem}
+  .lead{font-size:.9rem}
+  .trail{margin-top:30px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="lf-hd"><a class="lf-back" href="./" aria-label="Kembali ke daftar latihan">←</a><a class="lf-brand" href="./"><span class="lf-logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="#fff" stroke="#14162B" stroke-width="2" stroke-linejoin="round"/></svg></span>Learning Fun</a></header>
+
+<main>
+  <section class="hero">
+    <h1>Jalur belajar</h1>
+    <p class="lead">Selesaikan latihan satu per satu. Setiap latihan yang selesai membuka latihan berikutnya.</p>
+    <div class="hero-row">
+      <span class="chip fire" id="streak" title="Hari berturut-turut berlatih">🔥 0</span>
+      <button class="chip" id="menuBtn" type="button">Progres</button>
+    </div>
+  </section>
+  <div id="path"><p class="msg">Memuat jalur…</p></div>
+</main>
+
+<dialog id="sheet"></dialog>
+
+<dialog id="menu">
+  <h2>Progres belajar</h2>
+  <p class="meta">Tersimpan di browser ini. Untuk mencadangkan atau memindahkannya ke perangkat lain, pakai Ekspor/Impor di halaman Akun.</p>
+  <a class="btn pri" href="akun.html">Buka halaman Akun</a>
+  <button class="btn" data-a="rst">Reset progres</button>
+  <button class="btn" data-a="close">Tutup</button>
+</dialog>
+<div id="toast" role="status" hidden></div>
+
+<script>
+/* tinggi layar sebenarnya (Chrome lama tidak mengenal dvh) */
+const setVh=()=>document.documentElement.style.setProperty('--vh',(window.innerHeight*0.01)+'px');
+setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()=>setTimeout(setVh,250));
+</script>
+<script>
+(() => {
+  const CFG = {
+    index: 'data/index.json',
+    viewer: 'player-video.html',        // ?q=slug
+    readViewer: 'player-reading.html',  // ?q=slug (pelajaran bertipe "read")
+    audioViewer: 'player-audio.html',   // ?q=slug (pelajaran yang punya kolom "audio")
+    perUnit: 5,                         // jumlah latihan per unit
+    key: 'lf:path'                      // progres
+  };
+  const COL = ['purple', 'blue', 'coral', 'mint'];
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { toast('Penyimpanan browser tidak tersedia'); } }
+  };
+  const day = d => d.toLocaleDateString('sv');
+  const isAudio = l => !!l.audio;
+  const isRead = l => l.type === 'read' || l.type === 'reading';
+  const href = l => (isRead(l) ? CFG.readViewer : isAudio(l) ? CFG.audioViewer : CFG.viewer) + '?q=' + encodeURIComponent(l.slug) + '&from=path';
+
+  let L = [], S = load(), first = true;
+  function load() {
+    const s = store.get(CFG.key);
+    return { done: (s && typeof s.done === 'object' && s.done) || {} };
+  }
+  const save = () => store.set(CFG.key, S);
+
+  function toast(t) {
+    const e = $('#toast'); e.textContent = t; e.hidden = false;
+    clearTimeout(toast.t); toast.t = setTimeout(() => e.hidden = true, 2400);
+  }
+  // streak harian: hari berturut-turut yang punya minimal 1 latihan selesai
+  function streak() {
+    const d = new Set(Object.values(S.done).map(v => day(new Date(v.at || 0))));
+    let c = new Date(), n = 0;
+    if (!d.has(day(c))) c = new Date(Date.now() - 864e5);   // hari ini belum latihan: streak kemarin masih berlaku
+    while (d.has(day(c))) { n++; c = new Date(c - 864e5); }
+    return n;
+  }
+
+  function render() {
+    $('#streak').textContent = '🔥 ' + streak();
+    const el = $('#path');
+    if (!L.length) { el.innerHTML = '<p class="msg">Belum ada latihan di data/index.json.</p>'; return; }
+    const cur = L.findIndex(l => !S.done[l.slug]), per = CFG.perUnit;
+    let h = '';
+    for (let u = 0; u * per < L.length; u++) {
+      const items = L.slice(u * per, u * per + per);
+      const n = items.filter(l => S.done[l.slug]).length;
+      h += `<section class="unit c-${COL[u % COL.length]}"><b>Unit ${u + 1}</b>${n} dari ${items.length} latihan selesai</section><div class="trail"><svg aria-hidden="true"></svg>`;
+      items.forEach((l, k) => {
+        const i = u * per + k, done = !!S.done[l.slug];
+        const st = done ? 'done' : i === cur ? 'cur' : 'lock';
+        h += `<div class="nw"><button class="node ${st}" data-i="${i}" aria-label="Latihan ${i + 1}">▶${i === cur ? '<span class="tip">Mulai</span>' : ''}</button></div>`;
+      });
+      h += '</div>';
+    }
+    el.innerHTML = h;
+    layout();
+    const c = $('.node.cur');
+    if (c && first) { first = false; c.scrollIntoView({ block: 'center' }); }
+  }
+
+  /* posisi node mengikuti lebar jalur & ukuran node (responsif) */
+  function layout() {
+    document.querySelectorAll('.trail').forEach(t => {
+      const W = t.clientWidth, nodes = [...t.querySelectorAll('.nw')];
+      if (!nodes.length) return;
+      const nw = nodes[0].offsetWidth || 88, nh = nodes[0].offsetHeight || 76;
+      const row = nh + 44, amp = Math.max(0, Math.min(W * 0.22, W / 2 - nw / 2 - 20, 150));
+      const pts = nodes.map((n, k) => {
+        const x = Math.round(W / 2 + Math.sin(k * 1.1) * amp), y = Math.round(k * row + nh / 2 + 18);
+        n.style.left = x + 'px'; n.style.top = y + 'px'; return [x, y];
+      });
+      t.style.height = nodes.length * row + 'px';
+      let d = '';
+      pts.forEach(([x, y], k) => {
+        if (!k) { d += `M${x} ${y}`; return; }
+        const [px, py] = pts[k - 1], my = (py + y) / 2;
+        d += `C${px} ${my} ${x} ${my} ${x} ${y}`;
+      });
+      t.querySelector('svg').innerHTML = `<path d="${d}"/>`;
+    });
+  }
+  let rt;
+  const relayout = () => { clearTimeout(rt); rt = setTimeout(layout, 100); };
+  addEventListener('resize', relayout);
+  addEventListener('orientationchange', () => setTimeout(layout, 300));
+
+  /* ---- sheet ---- */
+  const sheet = h => { const d = $('#sheet'); d.innerHTML = h; if (!d.open) d.showModal(); };
+  function openLesson(l, n) {
+    const done = S.done[l.slug];
+    sheet(`<h2>Latihan ${n}</h2><p class="meta">${isRead(l) ? 'Baca' : isAudio(l) ? 'Audio' : 'Video'} · ${l.lines || 0} ${isRead(l) ? 'paragraf' : 'baris'}${done ? ' · Selesai ✓' : ''}</p>
+      <a class="btn pri" data-a="go" href="${esc(href(l))}">${done ? 'Latihan lagi' : 'Mulai latihan'}</a>
+      <button class="btn" data-a="close">Tutup</button>`);
+  }
+  $('#path').addEventListener('click', e => {
+    const b = e.target.closest('.node'); if (!b) return;
+    if (b.classList.contains('lock')) return toast('Selesaikan latihan sebelumnya dulu');
+    openLesson(L[+b.dataset.i], +b.dataset.i + 1);
+  });
+  $('#sheet').addEventListener('click', e => {
+    if (e.target.id === 'sheet') return e.target.close();
+    const b = e.target.closest('[data-a]'); if (!b) return;
+    if (b.dataset.a === 'close') $('#sheet').close();
+  });
+
+  /* ---- menu: reset progres (ekspor/impor sekarang ada di halaman Akun) ---- */
+  const menu = $('#menu');
+  $('#menuBtn').onclick = () => menu.showModal();
+  menu.addEventListener('click', e => {
+    if (e.target === menu) return menu.close();
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a === 'close') menu.close();
+    if (a === 'rst' && confirm('Hapus semua progres di perangkat ini?')) {
+      S.done = {}; save(); render(); menu.close(); toast('Progres direset');
+    }
+  });
+
+  /* ---- mulai ---- */
+  async function init() {
+    try {
+      const r = await fetch(CFG.index); if (!r.ok) throw 0;
+      const j = await r.json();
+      L = (Array.isArray(j) ? j : j.lessons || []).filter(l => l && l.slug);
+      render();
+    } catch {
+      $('#path').innerHTML = `<p class="msg">Tidak bisa memuat ${esc(CFG.index)}.<br>Buka lewat server (bukan file langsung).</p>`;
+    }
+  }
+  addEventListener('pageshow', e => { if (e.persisted && L.length) { S = load(); render(); } });
+  init();
+})();
+</script>
+<script>
+/* Bilah tab bawah Learning Fun (jangan dipasang di player video/audio).
+   Ubah TABS untuk menambah/mengganti menu,  */
+(() => {
+  const TABS = [
+    { id: 'beranda',  label: 'Beranda',   href: './',            match: ['', 'index'],
+      icon: '<path d="M3.5 11.2 12 4l8.5 7.2"/><path d="M5.5 9.8V19a1 1 0 0 0 1 1H9.5v-5.5h5V20h3a1 1 0 0 0 1-1V9.8"/>' },
+    { id: 'cari',     label: 'Cari',      href: 'playphrase.html', match: ['playphrase', 'phrase'],
+      icon: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>' },
+    { id: 'path',     label: 'Path',      href: 'path.html',     match: ['path'],
+      icon: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H14a3 3 0 0 1 0 6h-4a3 3 0 0 0 0 6h5.5"/>' },
+    { id: 'kosakata', label: 'Kosa Kata', href: 'kosakata.html', match: ['kosakata'],
+      icon: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v15h5.5a1.5 1.5 0 0 1 1.5 1.5z"/>' },
+    { id: 'akun',     label: 'Akun',      href: 'akun.html',     match: ['akun'],
+      icon: '<circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/>' }
+  ];
+  const file = (location.pathname.split('/').pop() || '').replace(/\.html$/, '');
+  const css = document.createElement('style');
+  css.textContent = `
+#lfnav{position:fixed;left:50%;bottom:0;transform:translateX(-50%);z-index:20;width:100%;max-width:560px;display:flex;gap:2px;padding:8px 6px calc(8px + env(safe-area-inset-bottom,0px));background:var(--surface,var(--bar,#fff));border:2.5px solid var(--lfline,var(--line,#14162B));border-bottom:0;border-radius:20px 20px 0 0;font-family:var(--font-display,'Fredoka',system-ui,sans-serif)}
+#lfnav a{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;border:0;border-radius:14px;color:var(--muted,#4F5575);text-decoration:none;font-weight:600;font-size:.8rem;line-height:1.1}
+#lfnav a span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#lfnav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+#lfnav a[aria-current=page]{color:#F2B705}
+#lfnav a:focus-visible{outline:3px solid var(--blue,#4C84FF);outline-offset:2px}
+@media(max-width:360px){#lfnav a{font-size:.72rem}#lfnav svg{width:22px;height:22px}}
+@media(orientation:landscape) and (max-height:560px){
+  #lfnav{padding-top:4px;padding-bottom:calc(4px + env(safe-area-inset-bottom,0px))}
+  #lfnav a{flex-direction:row;justify-content:center;gap:6px;padding:4px}
+  #lfnav svg{width:20px;height:20px}
+}`;
+  document.head.appendChild(css);
+  const nav = document.createElement('nav');
+  nav.id = 'lfnav'; nav.setAttribute('aria-label', 'Menu utama');
+  nav.innerHTML = TABS.map(t =>
+    `<a href="${t.href}"${t.match.some(m => m === file || (m && file.includes(m))) ? ' aria-current="page"' : ''}><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span>${t.label}</span></a>`).join('');
+  const mount = () => {
+    document.body.appendChild(nav);
+    const fit = () => {
+      const h = nav.offsetHeight;
+      document.documentElement.style.setProperty('--lfh', h + 'px');
+      document.body.style.paddingBottom = (h + 16) + 'px';   // supaya isi tidak tertutup bilah
+    };
+    fit(); addEventListener('resize', fit); addEventListener('orientationchange', () => setTimeout(fit, 250));
+  };
+  document.body ? mount() : addEventListener('DOMContentLoaded', mount);
+})();
+</script>
+<script>
+/* Pengingat cadangan (dapat ditutup). Muncul hanya jika:
+   - sudah ada latihan selesai, dan
+   - belum pernah dicadangkan (min. 3 latihan selesai), atau cadangan terakhir >= 7 hari lalu dan ada latihan baru sejak itu.
+   Setelah ditutup, tidak muncul lagi selama 3 hari. Tidak memengaruhi tampilan lain. */
+(() => {
+  try {
+    const g = k => { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } };
+    const p = g('lf:path'), done = p && p.done && typeof p.done === 'object' ? Object.keys(p.done).length : 0;
+    if (done < 1) return;
+    const D = 864e5, now = Date.now(), b = g('lf:backup'), r = +localStorage.getItem('lf:remind') || 0;
+    if (now - r < 3 * D) return;
+    let msg;
+    if (!b || !b.at) { if (done < 3) return; msg = 'Progresmu belum pernah dicadangkan.'; }
+    else {
+      const d = Math.floor((now - b.at) / D);
+      if (d < 7 || done <= (b.done || 0)) return;
+      msg = 'Terakhir dicadangkan ' + d + ' hari lalu.';
+    }
+    const m = document.querySelector('main'); if (!m || document.getElementById('lfRemind')) return;
+    const st = document.createElement('style');
+    st.textContent = '#lfRemind{display:flex;align-items:center;gap:10px;flex-wrap:wrap;width:min(100% - 28px,40rem);margin:12px auto 0;padding:10px 14px;background:var(--surface,#fff);color:var(--ink,#14162B);border:2.5px solid var(--line,#14162B);border-radius:18px;box-shadow:3px 3px 0 var(--shadow,#14162B);font-size:.95rem}#lfRemind span{flex:1;min-width:10rem}#lfRemind a{padding:6px 14px;border:2.5px solid var(--line,#14162B);border-radius:999px;background:var(--yellow,#FFD23F);color:var(--on,#14162B);font-weight:700;text-decoration:none}#lfRemind button{width:34px;height:34px;border:2.5px solid var(--line,#14162B);border-radius:50%;background:transparent;color:inherit;font:inherit;cursor:pointer}';
+    document.head.appendChild(st);
+    const el = document.createElement('div'); el.id = 'lfRemind'; el.setAttribute('role', 'status');
+    const t = document.createElement('span'); t.textContent = msg + ' Cadangkan agar tidak hilang saat cache dibersihkan.';
+    const a = document.createElement('a'); a.href = 'akun.html'; a.textContent = 'Cadangkan';
+    const x = document.createElement('button'); x.type = 'button'; x.setAttribute('aria-label', 'Tutup pengingat'); x.textContent = '✕';
+    x.onclick = () => { try { localStorage.setItem('lf:remind', String(Date.now())); } catch (e) {} el.remove(); };
+    el.append(t, a, x);
+    m.insertBefore(el, m.firstChild);
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Reading Generator</title>
+<meta name="theme-color" content="#EEF2FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101226" media="(prefers-color-scheme: dark)">
+<script src="i18n.js"></script>
+<script src="lf-api.js"></script>
+<script>try{var t=JSON.parse(localStorage.getItem('lf:theme'));if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap">
+<style>
+body{margin:0}[hidden]{display:none!important}
+:root{--bg:#EEF2FF;--fg:#14162B;--muted:#4F5575;--accent:#FFD23F;--accent-soft:#FFF0B3;--line:#D3D9F2;--field:#FFFFFF;--head:#14162B;--warn:#B3261E;--ink:#14162B;--shadow:#14162B;--ui:#0B7A58;--ui-soft:#DDF5EC;--ui-on:#FFFFFF;--font-ui:"Albert Sans",system-ui,sans-serif;--font-display:"Fredoka","Albert Sans",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101226;--fg:#F2F3FF;--muted:#A9AED6;--accent-soft:#4A3F14;--line:#2A2F55;--field:#1B1E3A;--head:#F2F3FF;--warn:#FF8A7D;--ink:#7A80C4;--shadow:#04050E;--ui:#34D3A1;--ui-soft:#12352B;--ui-on:#0B0D1E;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101226;--fg:#F2F3FF;--muted:#A9AED6;--accent-soft:#4A3F14;--line:#2A2F55;--field:#1B1E3A;--head:#F2F3FF;--warn:#FF8A7D;--ink:#7A80C4;--shadow:#04050E;--ui:#34D3A1;--ui-soft:#12352B;--ui-on:#0B0D1E;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-ui);padding-inline:20px;-webkit-text-size-adjust:100%}
+main{max-width:34rem;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:22px}
+h1{margin:0;font:700 2rem/1.15 var(--font-display);color:var(--head);text-wrap:balance}
+.lead{margin:0;color:var(--muted);line-height:1.55}
+.gback{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;padding:6px 14px;border:2.5px solid var(--ink);border-radius:999px;background:var(--field);color:var(--fg);font:700 .9rem var(--font-ui);text-decoration:none;box-shadow:3px 3px 0 var(--shadow)}
+.gback:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow)}
+.gback:focus-visible,.go:focus-visible,.sbtn:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--ui);outline-offset:2px}
+.field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.lab{font-weight:700;font-size:.95rem;color:var(--head)}
+.hint{font-size:.82rem;color:var(--muted);line-height:1.45}
+.hint a{color:var(--ui)}
+input[type=text],input[type=url],input[type=number],select,textarea{box-sizing:border-box;width:100%;max-width:100%;font:inherit;font-size:.95rem;color:var(--fg);background:var(--field);border:1.5px solid var(--line);border-radius:12px;padding:11px 12px}
+textarea{min-height:9rem;resize:vertical;line-height:1.5}
+/* dropdown sumber: gaya tombol tebal seperti di aplikasi */
+#src{border:2.5px solid var(--ink);border-radius:14px;font:700 1.05rem var(--font-ui);padding:13px 44px 13px 16px;box-shadow:4px 4px 0 var(--shadow);appearance:none;-webkit-appearance:none;cursor:pointer;
+  background:var(--field) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%2314162B' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 9l7 7 7-7'/%3E%3C/svg%3E") no-repeat right 14px center}
+:root[data-theme="dark"] #src{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23F2F3FF' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 9l7 7 7-7'/%3E%3C/svg%3E")}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #src{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23F2F3FF' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 9l7 7 7-7'/%3E%3C/svg%3E")}}
+.pane{display:flex;flex-direction:column;gap:10px;padding:16px;background:var(--field);border:2.5px solid var(--ink);border-radius:16px;box-shadow:4px 4px 0 var(--shadow)}
+.row{display:flex;gap:8px;min-width:0}.row>input{flex:1;min-width:0}
+.wrap{flex-wrap:wrap}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fl{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:600;color:var(--head);min-width:0}
+.sbtn{font:700 .9rem var(--font-ui);border:2px solid var(--ink);background:var(--field);color:var(--fg);border-radius:12px;padding:10px 14px;cursor:pointer;white-space:nowrap}
+.sbtn:active{transform:translateY(1px)}
+.sbtn.pri{background:var(--accent);color:#14162B}
+.sbtn:disabled{opacity:.55;cursor:default}
+.go{font:700 1.05rem var(--font-ui);background:var(--ui);color:var(--ui-on);border:0;border-radius:12px;padding:14px 18px;cursor:pointer}
+.go:disabled{opacity:.55;cursor:default}
+.pick{position:relative;display:flex;align-items:center;gap:12px;background:var(--field);border:1.5px dashed var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;min-width:0}
+.pick:hover{border-color:var(--ui)}.pick:focus-within{outline:3px solid var(--ui);outline-offset:2px}
+.pick input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.pick .btn{flex:none;font-weight:700;font-size:.85rem;color:var(--ui);background:var(--ui-soft);border-radius:8px;padding:7px 12px}
+.pick .name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:.9rem}
+.pick.has{border-style:solid;border-color:var(--ui)}.pick.has .name{color:var(--fg);font-weight:600}
+.list{max-height:280px;overflow:auto;display:flex;flex-direction:column;gap:2px}
+.it{padding:10px 12px;border-radius:10px;cursor:pointer;font-size:.9rem;line-height:1.35;display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+.it:hover,.it.sel{background:var(--accent-soft)}.it.sel{outline:2px solid var(--accent)}
+.it .tx{min-width:0}.it b{display:block;overflow-wrap:anywhere}.it small{display:block;color:var(--muted);overflow-wrap:anywhere}
+.it .tick{color:var(--ui);font-weight:700;flex:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:2px;border:2px solid var(--ink);border-radius:999px;background:var(--field);font-size:.8rem;font-weight:700;max-width:100%}
+.chip button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:5px 6px 5px 10px;max-width:14rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip button+button{padding:5px 9px 5px 4px}
+video#cam{width:100%;max-height:60vh;border-radius:12px;background:#000;object-fit:contain}
+.thumbs{display:flex;flex-wrap:wrap;gap:8px}
+.th{position:relative;width:64px;height:84px;border:2px solid var(--ink);border-radius:8px;overflow:hidden;background:var(--line)}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th button{position:absolute;top:2px;right:2px;width:22px;height:22px;border-radius:50%;border:0;background:var(--ink);color:#fff;font-size:13px;line-height:1;cursor:pointer}
+audio{width:100%}
+progress{width:100%;height:10px;accent-color:var(--ui)}
+.chk{display:flex;gap:8px;align-items:flex-start;font-size:.9rem}.chk input{margin-top:3px;accent-color:var(--ui);width:auto}
+#msg{font-size:.92rem;line-height:1.5;color:var(--muted);min-height:1.4em;overflow-wrap:anywhere}
+#msg.err{color:var(--warn);font-weight:600}
+#stat{font-size:.82rem;color:var(--muted)}
+#out{min-height:14rem;font-size:.92rem}
+.btnrow{display:flex;flex-wrap:wrap;gap:8px}
+details summary{cursor:pointer;color:var(--ui);font-weight:600;font-size:.88rem;padding-block:4px}
+.lfsrv{border:2px solid var(--ink);border-radius:12px;background:var(--field);padding:2px 12px}
+.lfsrv summary{cursor:pointer;font-weight:700;font-size:.85rem;padding:9px 0;display:flex;align-items:center;gap:8px;list-style:none}
+.lfsrv summary::-webkit-details-marker{display:none}
+.lfsrv .dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+.lfsrv .dot.on{background:var(--ui)}.lfsrv .dot.off{background:var(--warn)}
+.lfbody{display:flex;flex-direction:column;gap:8px;padding-bottom:12px}.lfrow{display:flex;gap:8px}.lfrow input{flex:1;min-width:0}
+</style>
+</head>
+<body>
+<main>
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <a class="gback" href="index.html" aria-label="Kembali ke beranda">← Beranda</a>
+    <h1>Reading Generator</h1>
+    <p class="lead">Ambil teks bacaan dari teks biasa, file, foto dokumen, link web, berita, atau podcast. Hasilnya bisa diedit, diunduh, atau dikirim ke Sync Reader untuk diberi audio, IPA, dan terjemahan.</p>
+    <div id="srv"></div>
+  </div>
+
+  <div class="field">
+    <label class="lab" for="src">1. Sumber teks</label>
+    <select id="src" aria-label="Sumber teks">
+      <option value="text">Teks biasa</option>
+      <option value="file">File (PDF, EPUB, DOCX)</option>
+      <option value="scan">Scan dokumen (kamera)</option>
+      <option value="link">Web Link</option>
+      <option value="pod">Podcast (RSS) → teks</option>
+      <option value="news">Berita (RSS)</option>
+    </select>
+  </div>
+
+  <!-- Teks biasa -->
+  <section class="pane" data-pane="text">
+    <textarea id="t-in" spellcheck="false" aria-label="Teks" placeholder="Tempel teks di sini. Pisahkan paragraf dengan baris kosong."></textarea>
+    <div class="btnrow"><button class="sbtn pri" id="t-go" type="button">Pakai teks ini</button></div>
+  </section>
+
+  <!-- File -->
+  <section class="pane" data-pane="file" hidden>
+    <label class="pick" id="p-file"><span class="btn">Pilih file</span><span class="name">PDF, EPUB, DOCX, TXT, MD, atau HTML</span><input id="f-file" type="file" accept=".pdf,.epub,.docx,.txt,.md,.html,.htm,application/pdf,application/epub+zip,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/html"></label>
+    <div class="btnrow"><button class="sbtn pri" id="f-go" type="button">Ambil teks</button></div>
+    <span class="hint">File dibaca di browser, tidak diunggah ke server. PDF hasil scan (berupa gambar) tidak punya teks: pakai menu Scan dokumen.</span>
+  </section>
+
+  <!-- Scan -->
+  <section class="pane" data-pane="scan" hidden>
+    <video id="cam" playsinline muted hidden></video>
+    <div class="btnrow">
+      <button class="sbtn" id="s-open" type="button">Buka kamera</button>
+      <button class="sbtn pri" id="s-shot" type="button" hidden>Ambil foto</button>
+      <button class="sbtn" id="s-close" type="button" hidden>Tutup kamera</button>
+      <label class="sbtn" style="cursor:pointer">Galeri<input id="s-gal" type="file" accept="image/*" multiple hidden></label>
+      <label class="sbtn" style="cursor:pointer">Kamera bawaan<input id="s-nat" type="file" accept="image/*" capture="environment" hidden></label>
+    </div>
+    <span class="hint">Kamera langsung butuh HTTPS atau localhost dan izin kamera. Kalau tidak bisa dibuka, pakai Kamera bawaan atau Galeri.</span>
+    <div class="thumbs" id="s-th"></div>
+    <label class="fl" for="s-lang">Bahasa teks pada foto
+      <select id="s-lang"><option value="eng">English</option><option value="ind">Indonesia</option><option value="eng+ind">English + Indonesia</option><option value="fra">Français</option><option value="deu">Deutsch</option><option value="spa">Español</option></select></label>
+    <div class="btnrow"><button class="sbtn pri" id="s-go" type="button" disabled>Baca teks (OCR)</button></div>
+    <progress id="s-prog" max="1" value="0" hidden></progress>
+    <span class="hint">OCR (tesseract.js) berjalan di browser. Data bahasa diunduh sekali saat pertama dipakai.</span>
+  </section>
+
+  <!-- Web link -->
+  <section class="pane" data-pane="link" hidden>
+    <div class="row"><input id="l-url" type="url" inputmode="url" placeholder="https://…" spellcheck="false" autocomplete="off" aria-label="Alamat halaman"><button class="sbtn pri" id="l-go" type="button">Ambil teks</button></div>
+    <span class="hint">Hanya isi artikel yang diambil: menu, iklan, komentar, dan blok "Baca juga" dibuang. Halaman diambil lewat proxy CORS publik, jadi situs berbayar atau yang butuh login tidak didukung.</span>
+  </section>
+
+  <!-- Podcast -->
+  <section class="pane" data-pane="pod" hidden>
+    <div class="row"><input id="p-url" type="url" inputmode="url" value="https://feeds.acast.com/public/shows/67587e77c705e441797aff96" placeholder="URL feed RSS podcast" spellcheck="false" autocomplete="off" aria-label="URL feed podcast"><button class="sbtn" id="p-load" type="button">Muat</button></div>
+    <div class="list" id="p-list"></div>
+    <div class="hint" id="p-sel" role="status"></div>
+    <label class="pick" id="p-pick"><span class="btn">Atau pilih file audio</span><span class="name">MP3, M4A, WAV</span><input id="p-file" type="file" accept="audio/*,.mp3,.m4a,.wav,.ogg"></label>
+    <audio id="p-aud" controls hidden></audio>
+    <div class="cols">
+      <label class="fl" for="p-eng">Mesin transkripsi
+        <select id="p-eng"><option value="server">Whisper di server</option><option value="browser">Whisper di browser</option></select></label>
+      <label class="fl" for="p-model">Model Whisper
+        <select id="p-model">
+          <option value="onnx-community/whisper-tiny.en">English tiny (cepat, ±40 MB)</option>
+          <option value="onnx-community/whisper-base.en" selected>English base (seimbang, ±80 MB)</option>
+          <option value="onnx-community/whisper-small.en">English small (akurat, ±250 MB)</option>
+          <option value="onnx-community/whisper-base">Multibahasa base</option>
+        </select></label>
+      <label class="fl" for="p-lang">Bahasa audio (model multibahasa)
+        <select id="p-lang"><option value="">Otomatis</option><option value="english">English</option><option value="indonesian">Indonesia</option><option value="french">Français</option><option value="german">Deutsch</option><option value="spanish">Español</option></select></label>
+      <label class="fl" for="p-from">Mulai dari menit<input id="p-from" type="number" min="0" step="1" value="0"></label>
+      <label class="fl" for="p-dur">Durasi (menit, kosong = semua)<input id="p-dur" type="number" min="1" step="1" value="10"></label>
+    </div>
+    <label class="chk"><input type="checkbox" id="p-ts" checked><span>Sertakan timestamp <span class="hint">(format [00:00:17] teks, langsung cocok untuk kolom transkrip Sync Reader)</span></span></label>
+    <div class="btnrow"><button class="sbtn pri" id="p-go" type="button">Mulai transkripsi</button><button class="sbtn" id="p-stop" type="button" hidden>Batalkan</button></div>
+    <progress id="p-prog" max="1" value="0" hidden></progress>
+    <span class="hint"><b>Whisper di server</b> (bawaan bila server tersambung): server mengunduh audio episode dan memprosesnya, jadi cepat dan tidak membebani ponsel; hanya untuk episode dari daftar. <b>Whisper di browser</b> memakai CPU/RAM perangkat (transformers.js), jadi lambat di ponsel, tetapi bisa untuk file audio sendiri dan jalan tanpa server. Mulai dari 5–10 menit dan model tiny/base. Model diunduh dari Hugging Face sekali lalu disimpan cache browser. Kalau audio episode diblokir (CORS), unduh mp3-nya lalu pilih sebagai file audio.</span>
+  </section>
+
+  <!-- Berita -->
+  <section class="pane" data-pane="news" hidden>
+    <div class="row"><input id="n-url" type="url" inputmode="url" placeholder="URL feed RSS/Atom atau alamat situs berita" spellcheck="false" autocomplete="off" aria-label="URL feed berita"><button class="sbtn pri" id="n-load" type="button">Muat</button></div>
+    <div class="chips" id="n-feeds"></div>
+    <div class="btnrow"><button class="sbtn" id="n-save" type="button" hidden>Simpan feed</button></div>
+    <div class="hint" id="n-msg" role="status"></div>
+    <div class="list" id="n-list"></div>
+    <span class="hint">Ketuk artikel untuk mengambil isi lengkapnya. Bila halaman artikel tidak bisa dimuat, dipakai isi penuh dari feed (kalau ada). Tanda ✓ menandai artikel yang sudah diambil.</span>
+  </section>
+
+  <div class="field">
+    <span class="lab">2. Hasil teks</span>
+    <textarea id="out" spellcheck="false" aria-label="Hasil teks" placeholder="Teks hasil muncul di sini dan bisa diedit. Pisahkan paragraf dengan baris kosong; baris pendek tanpa tanda baca akhir dianggap judul bagian."></textarea>
+    <div id="stat"></div>
+  </div>
+
+  <div class="field">
+    <span class="lab">3. Info <span class="hint">(terisi otomatis dari sumber, bisa diubah)</span></span>
+    <label class="fl" for="i-title">Judul<input id="i-title" type="text" autocomplete="off"></label>
+    <label class="fl" for="i-slug">Slug<input id="i-slug" type="text" autocomplete="off" spellcheck="false" placeholder="otomatis dari judul"></label>
+    <label class="fl" for="i-cat">Kategori<input id="i-cat" type="text" list="cats" autocomplete="off" placeholder="mis. Artikel"><datalist id="cats"><option>Artikel</option><option>Berita</option><option>Podcast</option><option>Novel</option><option>Pelajaran</option></datalist></label>
+    <label class="fl" for="i-chan">Sumber / channel<input id="i-chan" type="text" autocomplete="off"></label>
+    <label class="fl" for="i-lang">Bahasa teks
+      <select id="i-lang"><option value="en" selected>English</option><option value="id">Indonesia</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="pt">Português</option><option value="nl">Nederlands</option><option value="ru">Русский</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="zh-CN">中文</option></select></label>
+    <label class="fl" for="i-tags">Tag<input id="i-tags" type="text" autocomplete="off" placeholder="pisahkan dengan koma"></label>
+  </div>
+
+  <div class="btnrow">
+    <button class="go" id="b-play" type="button">Buka di Player</button>
+    <button class="sbtn" id="b-sync" type="button">Kirim ke Sync Reader</button>
+    <button class="sbtn" id="b-json" type="button">Unduh JSON</button>
+    <button class="sbtn" id="b-txt" type="button">Unduh TXT</button>
+    <button class="sbtn" id="b-copy" type="button">Salin teks</button>
+  </div>
+  <div id="msg" role="status"></div>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const say=(t,err)=>{const m=$('msg');m.textContent=t;m.classList.toggle('err',!!err)};
+const lsGet=(k,d)=>{try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}};
+const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const slugify=t=>String(t||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,60).replace(/-+$/,'');
+const words=t=>(String(t).match(/[\p{L}\p{N}']+/gu)||[]).length;
+const hhmmss=s=>{s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')+':'+String(x).padStart(2,'0')};
+const norm=s=>String(s||'').replace(/ /g,' ').replace(/[ \t]+/g,' ').trim();
+
+/* ---------- pustaka dimuat saat dibutuhkan ---------- */
+const LIBS={
+  pdf:['https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js'],
+  zip:['https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js'],
+  docx:['https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js'],
+  ocr:['https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.1.0/tesseract.min.js'],
+  read:['https://cdn.jsdelivr.net/npm/@mozilla/readability@0.5.0/Readability.js']
+};
+const loaded={};
+function loadScript(src){return loaded[src]||(loaded[src]=new Promise((ok,no)=>{const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=()=>{delete loaded[src];no(new Error('Gagal memuat pustaka: '+src.split('/').pop()))};document.head.appendChild(s)}))}
+async function lib(k){for(const s of LIBS[k])await loadScript(s);if(k==='pdf'&&window.pdfjsLib)pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js'}
+
+/* ---------- ambil halaman lewat proxy CORS ---------- */
+const PROXIES=[u=>u,u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),u=>'https://corsproxy.io/?url='+encodeURIComponent(u)];
+async function fetchVia(url,kind){let last;for(const p of PROXIES){try{const r=await fetch(p(url));if(!r.ok)throw new Error(r.status);return kind==='text'?await r.text():await r.blob()}catch(e){last=e}}throw last||new Error('gagal')}
+function normUrl(u){u=String(u||'').trim();if(u&&!/^[a-z][a-z0-9+.-]*:\/\//i.test(u))u='https://'+u;try{const x=new URL(u);if(!/^https?:$/.test(x.protocol))return'';return x.href}catch(e){return''}}
+
+/* ---------- server (lf-api.js): fitur server dulu, cadangan di browser bila server tidak ada atau gagal ---------- */
+LF.mountPanel($('srv'));
+const blocks=t=>String(t||'').split(/\n+/).map(x=>x.trim()).filter(Boolean).join('\n\n');
+async function viaServer(srv,browser){
+  await LF.ready;
+  if(!LF.up)return browser();
+  try{return await srv()}catch(e){try{return await browser()}catch(e2){throw e}}
+}
+const LANG_CODE={english:'en',indonesian:'id',french:'fr',german:'de',spanish:'es'};
+
+/* ---------- teks -> paragraf (dari audiobook-generator) ---------- */
+const TERM=/[.!?。！？]["')\]”’）」』]*$/;
+function looksHeadingLoose(l){const w=l.trim().split(/\s+/);return w.length<=12&&!/[.!?,;:]$/.test(l.trim())&&!l.includes('=')}
+function blocksFromText(txt){
+  const out=[];
+  txt.replace(/\r/g,'').split(/\n\s*\n/).forEach(b=>{
+    const L=b.split('\n').map(s=>s.trim()).filter(Boolean);if(!L.length)return;
+    const strip=s=>s.replace(/^#+\s*/,'');
+    if(L.length===1){out.push({text:strip(L[0]),heading:looksHeadingLoose(L[0])&&L[0].split(/\s+/).length<=10});return}
+    out.push({text:L.map(strip).join(' '),heading:false});
+  });
+  return out;
+}
+/* teks hasil OCR: baris dalam satu paragraf digabung, kata yang terpotong tanda hubung disambung */
+function reflow(t){
+  return t.replace(/\r/g,'').split(/\n\s*\n/).map(p=>p.split('\n').map(s=>s.trim()).filter(Boolean).reduce((a,l)=>a?(/[a-z]-$/.test(a)?a.slice(0,-1)+l:a+' '+l):l,'')).filter(Boolean).join('\n\n');
+}
+
+/* ---------- pembersihan artikel web ---------- */
+const NOISE_LINE=[
+  /^(baca|simak|lihat|cek|klik|tonton|dengarkan|saksikan)\s+(juga|selengkapnya|berita|video|artikel)\b/i,
+  /^(read|see|watch|also read|also see)\s+(also|more|next|related)\b/i,
+  /^related(\s+(articles?|stories|posts|news|topics|content))?\s*[:：]?\s*$/i,
+  /^(advertisements?|iklan|sponsored(\s+content)?|scroll to continue( with content)?|story continues below advertisement|lanjutkan membaca di bawah iklan)\s*[:.]?\s*$/i,
+  /^(share this\b|share (on|via|to)\b|bagikan( artikel| berita)?( ini)?( ke| via| lewat)?\s*[:：]?\s*$|follow us\b|ikuti kami\b|subscribe\s*[:.!]?\s*$|subscribe (to|now)\b|berlangganan\b|join (our|us)\b)/i,
+  /^(penulis|editor|reporter|redaktur|kontributor|foto|ilustrasi|credit|photo)\s*:/i,
+  /^(read more|continue reading|baca selengkapnya|selengkapnya|load more|show more|view all|see more)[\s.…»›>→]*$/i
+];
+const cleanLines=t=>t.split(/\n\s*\n/).map(norm).filter(p=>p&&!NOISE_LINE.some(r=>r.test(p))).join('\n\n');
+const NOISE_SEL='script,style,noscript,template,nav,aside,footer,header nav,form,iframe,svg,button,select,dialog,[role=navigation],[role=complementary],[role=banner],[role=contentinfo],[role=search],[aria-hidden=true],figure figcaption';
+const NOISE_TOK=/(^|[\s_-])(related|recommended?|terkait|trending|popular|share|sharing|social|comments?|komentar|newsletter|advert(isement)?|ads?|iklan|sponsor(ed)?|promo|breadcrumbs?|sidebar|paywall|subscribe)($|[\s_-])/i;
+function stripNoise(root){
+  root.querySelectorAll(NOISE_SEL).forEach(e=>e.remove());
+  root.querySelectorAll('[class],[id]').forEach(e=>{if(e===root||!e.isConnected)return;const c=(e.getAttribute('class')||'')+' '+(e.id||'');if(NOISE_TOK.test(c)&&e.textContent.length<2500&&!e.querySelector('article'))e.remove()});
+  return root;
+}
+function textOfNode(root){
+  const sel='h1,h2,h3,h4,h5,h6,p,li,blockquote,pre',out=[];
+  root.querySelectorAll(sel).forEach(e=>{if(e.querySelector(sel))return;const t=norm(e.textContent);if(t)out.push(t)});
+  return out.join('\n\n');
+}
+async function articleFromHtml(html,url){
+  const doc=new DOMParser().parseFromString(html,'text/html');
+  const meta=(p)=>{const e=doc.querySelector('meta[property="'+p+'"],meta[name="'+p+'"]');return e&&e.content?e.content.trim():''};
+  let title=meta('og:title')||norm((doc.querySelector('h1')||{}).textContent)||norm(doc.title);
+  const site=meta('og:site_name');
+  let text='';
+  try{
+    await lib('read');
+    const d2=doc.cloneNode(true);stripNoise(d2.body||d2.documentElement);
+    const r=new Readability(d2,{charThreshold:150,keepClasses:false}).parse();
+    if(r&&r.content){const box=new DOMParser().parseFromString(r.content,'text/html').body;text=textOfNode(box);if(r.title&&!title)title=r.title}
+  }catch(e){}
+  if(words(text)<60){
+    const d3=doc.cloneNode(true);const body=stripNoise(d3.body||d3.documentElement);
+    const cand=body.querySelector('article')||body.querySelector('[role=main],main')||body;
+    const t2=textOfNode(cand);if(words(t2)>words(text))text=t2;
+  }
+  text=cleanLines(text);
+  if(title&&text.startsWith(title))text=text.slice(title.length).trim();
+  return{title,site,text,url};
+}
+
+/* ---------- RSS / Atom / RDF ---------- */
+const kid=(e,n)=>{for(const c of e.children)if(c.localName===n)return c;return null};
+const kt=(e,n)=>{const c=kid(e,n);return c?c.textContent.trim():''};
+const plain=h=>norm(new DOMParser().parseFromString(String(h||''),'text/html').body.textContent);
+function parseFeed(xml){
+  const d=new DOMParser().parseFromString(xml,'text/xml');
+  if(d.querySelector('parsererror')||!d.documentElement)return null;
+  const root=d.documentElement,atom=root.localName==='feed';
+  if(!atom&&root.localName!=='rss'&&root.localName!=='RDF')return null;
+  const chan=atom?root:(kid(root,'channel')||root);
+  const els=atom?[...root.children].filter(c=>c.localName==='entry'):[...d.getElementsByTagName('item')];
+  const items=els.map(it=>{
+    let link='';
+    if(atom){for(const c of it.children)if(c.localName==='link'){const rel=(c.getAttribute('rel')||'alternate');if(rel==='alternate'&&c.getAttribute('href')){link=c.getAttribute('href');break}}}
+    else{link=kt(it,'link');if(!/^https?:/i.test(link)){const g=kt(it,'guid');link=/^https?:/i.test(g)?g:''}}
+    const enc=kid(it,'enclosure');
+    const full=kt(it,'encoded')||(atom?kt(it,'content'):'');
+    const sum=kt(it,'description')||kt(it,'summary')||'';
+    return{title:plain(kt(it,'title'))||'(tanpa judul)',link,date:(kt(it,'pubDate')||kt(it,'published')||kt(it,'updated')||kt(it,'date')).slice(0,16),
+      snippet:plain(sum).slice(0,180),full:full?textOfNode(new DOMParser().parseFromString(full,'text/html').body):'',
+      audio:enc&&/audio|video|mpeg|mp4|m4a/i.test((enc.getAttribute('type')||'')+(enc.getAttribute('url')||''))?enc.getAttribute('url'):'',dur:kt(it,'duration')}
+  });
+  return{title:plain(kt(chan,'title')),items};
+}
+async function loadFeed(url){
+  const xml=await fetchVia(url,'text');
+  let f=parseFeed(xml);
+  if(f)return f;
+  /* bukan feed: cari <link rel="alternate"> di halaman */
+  const doc=new DOMParser().parseFromString(xml,'text/html');
+  const l=[...doc.querySelectorAll('link[rel~=alternate]')].find(e=>/rss|atom|xml/i.test(e.getAttribute('type')||'')&&e.getAttribute('href'));
+  if(!l)throw new Error('Bukan feed RSS/Atom dan tidak ada feed di halaman itu.');
+  const u=new URL(l.getAttribute('href'),url).href;
+  f=parseFeed(await fetchVia(u,'text'));
+  if(!f)throw new Error('Feed tidak bisa dibaca.');
+  f.url=u;return f;
+}
+
+/* ---------- hasil teks ---------- */
+let meta={type:'',url:'',episode:''},titleTouched=false,slugTouched=false,chanTouched=false,segs=[];
+function setOut(text,o){
+  o=o||{};
+  $('out').value=text;
+  if(o.type!==undefined)meta={type:o.type,url:o.url||'',episode:o.episode||''};
+  if(o.title&&!titleTouched)$('i-title').value=o.title;
+  if(o.channel&&!chanTouched)$('i-chan').value=o.channel;
+  if(o.cat&&!$('i-cat').value)$('i-cat').value=o.cat;
+  syncSlug();stat();
+}
+function syncSlug(){if(!slugTouched)$('i-slug').value=slugify($('i-title').value)}
+function stat(){const t=$('out').value,n=words(t);$('stat').textContent=n?n.toLocaleString('id-ID')+' kata · ±'+Math.max(1,Math.round(n/180))+' mnt baca':''}
+$('out').addEventListener('input',stat);
+$('i-title').addEventListener('input',()=>{titleTouched=!!$('i-title').value.trim();syncSlug()});
+$('i-chan').addEventListener('input',()=>{chanTouched=!!$('i-chan').value.trim()});
+$('i-slug').addEventListener('input',()=>{slugTouched=!!$('i-slug').value.trim();syncSlug()});
+const baseOf=n=>n.replace(/\.[^.]+$/,'').replace(/[_]+/g,' ').trim();
+let busyN=0;
+async function run(btn,label,fn){
+  if(btn.disabled)return;btn.disabled=true;const old=btn.textContent;
+  try{await fn()}catch(e){say(String(e&&e.message||e),true)}finally{btn.disabled=false;btn.textContent=old}
+}
+
+/* ---------- dropdown sumber ---------- */
+const sel=$('src');
+function showPane(){
+  document.querySelectorAll('[data-pane]').forEach(p=>p.hidden=p.dataset.pane!==sel.value);
+  if(sel.value!=='scan')camClose();
+  lsSet('lf:rd:src',sel.value);say('');
+}
+sel.addEventListener('change',showPane);
+
+/* ---------- 1. Teks biasa ---------- */
+$('t-go').onclick=()=>{
+  const t=$('t-in').value.replace(/\r/g,'').trim();
+  if(!t){say('Tempel teks dulu.',true);return}
+  setOut(t,{type:'text'});say('Teks dipakai. Periksa hasilnya di bawah.');
+};
+
+/* ---------- 2. File ---------- */
+$('f-file').addEventListener('change',e=>{const f=e.target.files[0];const p=$('p-file');p.classList.toggle('has',!!f);p.querySelector('.name').textContent=f?f.name:'PDF, EPUB, DOCX, TXT, MD, atau HTML'});
+async function blocksFromPdf(buf){
+  await lib('pdf');
+  const pdf=await pdfjsLib.getDocument({data:new Uint8Array(buf)}).promise;
+  const lines=[];
+  for(let p=1;p<=pdf.numPages;p++){
+    const pg=await pdf.getPage(p),tc=await pg.getTextContent();
+    const items=tc.items.filter(i=>i.str!==undefined&&i.str.trim()!==''||i.str===' ').map(i=>({s:i.str,x:i.transform[4],y:i.transform[5],h:i.height||Math.abs(i.transform[3])||10,w:i.width,f:i.fontName}));
+    items.sort((a,b)=>b.y-a.y||a.x-b.x);
+    let cur=null;const pl=[];
+    for(const it of items){if(cur&&Math.abs(it.y-cur.y)<=0.5*Math.max(it.h,cur.h)){cur.items.push(it)}else{cur={y:it.y,items:[it]};pl.push(cur)}}
+    let prevY=null;
+    for(const l of pl){
+      l.items.sort((a,b)=>a.x-b.x);
+      let t='',px=null,pw=0;const fc={};let h=0;
+      for(const it of l.items){
+        if(px!==null&&it.x-(px+pw)>0.15*it.h&&!t.endsWith(' ')&&!it.s.startsWith(' '))t+=' ';
+        t+=it.s;px=it.x;pw=it.w;fc[it.f]=(fc[it.f]||0)+it.s.length;h=Math.max(h,it.h)}
+      t=t.replace(/\s+/g,' ').trim();if(!t)continue;
+      const font=Object.keys(fc).sort((a,b)=>fc[b]-fc[a])[0];
+      lines.push({t,h,font,page:p,gap:prevY===null?null:prevY-l.y});prevY=l.y;
+    }
+  }
+  const clean=lines.filter(l=>!/^(page\s*\d+(\s*(of|\/)\s*\d+)?|\d+)$/i.test(l.t));
+  if(!clean.length)return[];
+  const fchars={};clean.forEach(l=>fchars[l.font]=(fchars[l.font]||0)+l.t.length);
+  const body=Object.keys(fchars).sort((a,b)=>fchars[b]-fchars[a])[0];
+  const bh=clean.filter(l=>l.font===body).map(l=>l.h).sort((a,b)=>a-b);const bodyH=bh[bh.length>>1]||10;
+  const gaps=clean.filter(l=>l.font===body&&l.gap!==null&&l.gap>0).map(l=>l.gap).sort((a,b)=>a-b);const pitch=gaps[gaps.length>>1]||bodyH*1.3;
+  const isHead=l=>l.font!==body||l.h>bodyH*1.12||(/^\d+[.)]\s+\S/.test(l.t)&&looksHeadingLoose(l.t.replace(/^\d+[.)]\s+/,'')));
+  const blocks=[];let cur=null;
+  for(const l of clean){
+    const hd=isHead(l),newGap=l.gap===null||l.gap>pitch*1.45;
+    if(cur&&cur.heading===hd&&!(hd&&newGap)&&!(!hd&&l.gap!==null&&newGap)&&!(!hd&&l.gap===null&&TERM.test(cur.text))){cur.text+=' '+l.t}
+    else{cur={text:l.t,heading:hd};blocks.push(cur)}
+  }
+  return blocks;
+}
+async function textFromEpub(buf){
+  await lib('zip');
+  const zip=await JSZip.loadAsync(buf);
+  const rd=async p=>{const f=zip.file(p);return f?await f.async('string'):''};
+  const xml=s=>new DOMParser().parseFromString(s,'text/xml');
+  const cont=xml(await rd('META-INF/container.xml'));
+  const rf=cont.querySelector('rootfile');if(!rf)throw new Error('File EPUB tidak valid (container.xml tidak ada).');
+  const opfPath=rf.getAttribute('full-path'),dir=opfPath.includes('/')?opfPath.replace(/[^/]*$/,''):'';
+  const opf=xml(await rd(opfPath));
+  const man={};opf.querySelectorAll('manifest > item').forEach(i=>man[i.getAttribute('id')]=i);
+  const title=norm((opf.getElementsByTagNameNS('*','title')[0]||{}).textContent);
+  const author=norm((opf.getElementsByTagNameNS('*','creator')[0]||{}).textContent);
+  const parts=[];
+  for(const ir of opf.querySelectorAll('spine > itemref')){
+    const it=man[ir.getAttribute('idref')];if(!it||!/html/.test(it.getAttribute('media-type')||''))continue;
+    const href=decodeURIComponent(it.getAttribute('href')).split('#')[0];
+    const html=await rd(dir+href)||await rd(href);if(!html)continue;
+    const body=new DOMParser().parseFromString(html,'text/html').body;
+    body.querySelectorAll('script,style,nav,sup.noteref,a.footnote').forEach(e=>e.remove());
+    const t=textOfNode(body);if(words(t)>3)parts.push(t);
+  }
+  return{title,author,text:parts.join('\n\n')};
+}
+$('f-go').onclick=()=>run($('f-go'),'',async()=>{
+  const f=$('f-file').files[0];if(!f){say('Pilih file dulu.',true);return}
+  const ext=(f.name.match(/\.([^.]+)$/)||[,''])[1].toLowerCase();let text='',title=baseOf(f.name),chan='';
+  await LF.ready;say('Membaca '+f.name+(LF.up?' di server…':'…'));
+  const r0=await viaServer(async()=>{const fd=new FormData();fd.append('file',f);const j=await LF.upload('/api/file',fd);return{text:blocks(j.text),title:j.title||title}},async()=>null);
+  if(r0){text=r0.text;title=r0.title||title}
+  else if(ext==='pdf'){
+    const b=await blocksFromPdf(await f.arrayBuffer());
+    if(!b.length)throw new Error('PDF ini tidak punya teks (kemungkinan hasil scan). Pakai menu Scan dokumen.');
+    text=b.map(x=>x.text).join('\n\n');
+  }else if(ext==='epub'){
+    const r=await textFromEpub(await f.arrayBuffer());text=r.text;if(r.title)title=r.title;chan=r.author;
+  }else if(ext==='docx'){
+    await lib('docx');
+    const r=await mammoth.extractRawText({arrayBuffer:await f.arrayBuffer()});text=r.value.replace(/\n{3,}/g,'\n\n').trim();
+  }else if(ext==='html'||ext==='htm'){
+    const a=await articleFromHtml(await f.text(),'');text=a.text;if(a.title)title=a.title;
+  }else if(['txt','md','markdown',''].includes(ext)||/^text\//.test(f.type)){
+    text=(await f.text()).replace(/^﻿/,'').trim();
+  }else throw new Error('Format .'+ext+' belum didukung. Gunakan PDF, EPUB, DOCX, TXT, MD, atau HTML.');
+  if(!words(text))throw new Error('Tidak ada teks yang bisa diambil dari file ini.');
+  setOut(text,{type:'file',title,channel:chan,cat:'Artikel'});
+  say('Selesai: '+words(text).toLocaleString('id-ID')+' kata dari '+f.name+'.');
+});
+
+/* ---------- 3. Scan dokumen ---------- */
+let stream=null,pages=[];
+function camClose(){if(stream){stream.getTracks().forEach(t=>t.stop());stream=null}const v=$('cam');v.srcObject=null;v.hidden=true;$('s-open').hidden=false;$('s-shot').hidden=true;$('s-close').hidden=true}
+$('s-close').onclick=camClose;
+$('s-open').onclick=async()=>{
+  if(!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia){say('Kamera langsung tidak tersedia di sini (butuh HTTPS atau localhost). Pakai Kamera bawaan atau Galeri.',true);return}
+  try{
+    stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'},width:{ideal:1920}},audio:false});
+    const v=$('cam');v.srcObject=stream;v.hidden=false;await v.play();
+    $('s-open').hidden=true;$('s-shot').hidden=false;$('s-close').hidden=false;say('');
+  }catch(e){camClose();say('Kamera tidak bisa dibuka ('+(e&&e.name||'error')+'). Pakai Kamera bawaan atau Galeri.',true)}
+};
+$('s-shot').onclick=()=>{
+  const v=$('cam');if(!v.videoWidth)return;
+  const c=document.createElement('canvas');c.width=v.videoWidth;c.height=v.videoHeight;c.getContext('2d').drawImage(v,0,0);
+  c.toBlob(b=>b&&addPage(b),'image/jpeg',.92);
+};
+function addPage(blob){pages.push({blob,url:URL.createObjectURL(blob)});drawPages()}
+function drawPages(){
+  const w=$('s-th');w.innerHTML='';
+  pages.forEach((p,i)=>{const d=document.createElement('div');d.className='th';const im=new Image();im.src=p.url;im.alt='Halaman '+(i+1);const b=document.createElement('button');b.type='button';b.textContent='×';b.setAttribute('aria-label','Hapus halaman '+(i+1));
+    b.onclick=()=>{URL.revokeObjectURL(p.url);pages.splice(i,1);drawPages()};d.append(im,b);w.appendChild(d)});
+  $('s-go').disabled=!pages.length;
+}
+['s-gal','s-nat'].forEach(id=>$(id).addEventListener('change',e=>{[...e.target.files].forEach(addPage);e.target.value=''}));
+/* perkecil foto besar supaya OCR tidak kehabisan memori */
+async function shrink(blob,max=2200){
+  try{
+    const bm=await createImageBitmap(blob),k=Math.min(1,max/Math.max(bm.width,bm.height));
+    if(k===1)return blob;
+    const c=document.createElement('canvas');c.width=Math.round(bm.width*k);c.height=Math.round(bm.height*k);c.getContext('2d').drawImage(bm,0,0,c.width,c.height);
+    return await new Promise(r=>c.toBlob(r,'image/jpeg',.92));
+  }catch(e){return blob}
+}
+$('s-go').onclick=()=>run($('s-go'),'',async()=>{
+  if(!pages.length)return;
+  const pr=$('s-prog');pr.hidden=false;pr.value=0;
+  say('Memuat mesin OCR…');await lib('ocr');
+  let cur=0,n=pages.length;
+  const worker=await Tesseract.createWorker($('s-lang').value,1,{logger:m=>{if(m.status==='recognizing text')pr.value=(cur+m.progress)/n;else say('OCR: '+m.status+'…')}});
+  const out=[];
+  try{for(;cur<n;cur++){say('Membaca halaman '+(cur+1)+' dari '+n+'…');const {data}=await worker.recognize(await shrink(pages[cur].blob));out.push(reflow(data.text))}}
+  finally{await worker.terminate();pr.hidden=true}
+  const text=out.filter(Boolean).join('\n\n');
+  if(!words(text))throw new Error('Tidak ada teks yang terbaca. Coba foto yang lebih terang dan lurus, atau ganti bahasa.');
+  setOut(text,{type:'scan',title:'Scan dokumen',cat:'Artikel'});
+  say('Selesai: '+words(text).toLocaleString('id-ID')+' kata dari '+n+' halaman. Periksa hasil OCR sebelum dipakai.');
+});
+
+/* ---------- 4. Web link ---------- */
+async function fetchArticle(url){
+  const html=await fetchVia(url,'text');
+  const a=await articleFromHtml(html,url);
+  return a;
+}
+$('l-go').onclick=()=>run($('l-go'),'',async()=>{
+  const u=normUrl($('l-url').value);if(!u){say('Isi alamat halaman yang valid (http/https).',true);return}
+  say('Mengambil halaman…');
+  await LF.ready;
+  const a=await viaServer(async()=>{const j=await LF.get('/api/extract?url='+encodeURIComponent(u));return{title:j.title,text:blocks(j.text),site:''}},()=>fetchArticle(u)).catch(e=>{throw new Error(LF.up?String(e.message||e):'Halaman tidak bisa dimuat (diblokir, butuh login, atau proxy sedang bermasalah).')});
+  if(words(a.text)<30)throw new Error('Isi artikel tidak terbaca. Mungkin halamannya dimuat lewat JavaScript, berbayar, atau memblokir akses.');
+  setOut(a.text,{type:'link',url:u,title:a.title,channel:a.site||new URL(u).hostname.replace(/^www\./,''),cat:'Artikel'});
+  say('Selesai: '+words(a.text).toLocaleString('id-ID')+' kata.'+(words(a.text)<120?' Teksnya pendek, periksa lewat link sumbernya.':''));
+});
+
+/* ---------- 5. Berita (RSS) ---------- */
+let newsFeed=null;
+const done=new Set(lsGet('lf:rd:done',[]));
+const feeds=()=>lsGet('lf:rd:feeds',[]);
+function drawFeeds(){
+  const w=$('n-feeds');w.innerHTML='';
+  feeds().forEach((f,i)=>{const c=document.createElement('span');c.className='chip';const a=document.createElement('button');a.type='button';a.textContent=f.title||f.url;a.title=f.url;
+    a.onclick=()=>{$('n-url').value=f.url;$('n-load').click()};
+    const x=document.createElement('button');x.type='button';x.textContent='×';x.setAttribute('aria-label','Hapus feed '+(f.title||f.url));
+    x.onclick=()=>{const L=feeds();L.splice(i,1);lsSet('lf:rd:feeds',L);drawFeeds()};c.append(a,x);w.appendChild(c)});
+}
+drawFeeds();
+$('n-save').onclick=()=>{
+  if(!newsFeed)return;const L=feeds().filter(f=>f.url!==newsFeed.url);L.unshift({url:newsFeed.url,title:newsFeed.title});lsSet('lf:rd:feeds',L.slice(0,20));drawFeeds();say('Feed disimpan.');
+};
+function drawNews(){
+  const L=$('n-list');L.innerHTML='';
+  newsFeed.items.slice(0,100).forEach(it=>{
+    const el=document.createElement('div');el.className='it';el.tabIndex=0;el.setAttribute('role','button');
+    el.innerHTML='<span class="tx"><b></b><small class="m"></small><small class="s"></small></span><span class="tick"></span>';
+    el.querySelector('b').textContent=it.title;el.querySelector('.m').textContent=[it.date,newsFeed.title].filter(Boolean).join(' · ');el.querySelector('.s').textContent=it.snippet;
+    const tick=el.querySelector('.tick');tick.textContent=done.has(it.link)?'✓':'';
+    const pick=async()=>{
+      if(el.dataset.busy)return;el.dataset.busy=1;L.querySelectorAll('.it').forEach(n=>n.classList.toggle('sel',n===el));
+      try{
+        say('Mengambil artikel…');let a=null,text='';
+        if(it.link){try{a=await viaServer(async()=>{const j=await LF.get('/api/news/article?url='+encodeURIComponent(it.link));return{text:blocks(j.text)}},()=>fetchArticle(it.link));text=a.text}catch(e){}}
+        let usedFeed=false;
+        if(words(text)<60&&words(it.full)>words(text)){text=it.full;usedFeed=true}
+        if(words(text)<30)throw new Error('Artikel tidak bisa diambil (berbayar atau situs memblokir akses). Artikel ini tidak disimpan.');
+        setOut(text,{type:'news',url:it.link,title:it.title,channel:newsFeed.title,cat:'Berita'});
+        titleTouched=false;$('i-title').value=it.title;syncSlug();
+        if(it.link){done.add(it.link);lsSet('lf:rd:done',[...done].slice(-300));tick.textContent='✓'}
+        say('Selesai: '+words(text).toLocaleString('id-ID')+' kata'+(usedFeed?' (dari isi feed).':'.')+(words(text)<120?' Teksnya pendek, periksa lewat link sumber.':''));
+      }catch(e){say(String(e.message||e),true)}finally{delete el.dataset.busy}
+    };
+    el.onclick=pick;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick()}};
+    L.appendChild(el);
+  });
+}
+$('n-load').onclick=()=>run($('n-load'),'',async()=>{
+  const u=normUrl($('n-url').value);if(!u){say('Isi alamat feed atau situs yang valid.',true);return}
+  $('n-msg').textContent='Memuat feed…';$('n-list').innerHTML='';
+  try{
+    const f=await viaServer(async()=>{const j=await LF.get('/api/news/feed?url='+encodeURIComponent(u));return{title:j.title,url:j.url,items:j.articles.map(a=>({title:a.title,link:a.link,date:(a.date||'').slice(0,10),snippet:plain(a.summary).slice(0,180),full:a.content?textOfNode(new DOMParser().parseFromString(a.content,'text/html').body):''}))}},()=>loadFeed(u));f.url=f.url||u;newsFeed=f;
+    if(!f.items.length)throw new Error('Feed kosong.');
+    $('n-msg').textContent=(f.title||'Feed')+' · '+Math.min(f.items.length,100)+' artikel. Ketuk satu.';$('n-save').hidden=false;drawNews();
+  }catch(e){newsFeed=null;$('n-save').hidden=true;$('n-msg').textContent='';say('Gagal memuat feed: '+(e.message||'URL salah atau diblokir.'),true)}
+});
+
+/* ---------- 6. Podcast (RSS) -> teks lewat Whisper di browser ---------- */
+let podEp=null,podFile=null,podFeedTitle='',asrPipe=null,asrModel='',cancelled=false,podBusy=false;
+$('p-file').addEventListener('change',e=>{
+  const f=e.target.files[0];podFile=f||null;const p=$('p-pick');p.classList.toggle('has',!!f);p.querySelector('.name').textContent=f?f.name:'MP3, M4A, WAV';
+  if(f){podEp=null;$('p-list').querySelectorAll('.sel').forEach(n=>n.classList.remove('sel'));const a=$('p-aud');a.src=URL.createObjectURL(f);a.hidden=false;$('p-sel').textContent='';if(!titleTouched)$('i-title').value=baseOf(f.name),syncSlug()}
+});
+$('p-load').onclick=()=>run($('p-load'),'',async()=>{
+  const u=normUrl($('p-url').value);if(!u){say('Isi URL feed podcast yang valid.',true);return}
+  const L=$('p-list');L.innerHTML='';$('p-sel').textContent='Memuat feed…';
+  try{
+    const f=await viaServer(async()=>{const j=await LF.get('/api/podcast/feed?url='+encodeURIComponent(u));return{title:j.title,items:j.episodes.map(e=>({title:e.title,date:(e.date||'').slice(0,10),dur:e.dur?hhmmss(e.dur):'',audio:e.audio}))}},()=>loadFeed(u)),eps=f.items.filter(i=>i.audio);
+    if(!eps.length)throw new Error('Tidak ada episode beraudio di feed ini.');
+    podFeedTitle=f.title;$('p-sel').textContent=(f.title||'Feed')+' · '+eps.length+' episode. Pilih satu.';
+    eps.slice(0,100).forEach(e=>{
+      const el=document.createElement('div');el.className='it';el.tabIndex=0;el.setAttribute('role','button');el.innerHTML='<span class="tx"><b></b><small></small></span>';
+      el.querySelector('b').textContent=e.title;el.querySelector('small').textContent=[e.date,e.dur].filter(Boolean).join(' · ');
+      const pick=()=>{podEp=e;podFile=null;$('p-file').value='';$('p-pick').classList.remove('has');$('p-pick').querySelector('.name').textContent='MP3, M4A, WAV';
+        L.querySelectorAll('.it').forEach(n=>n.classList.toggle('sel',n===el));
+        const a=$('p-aud');a.src=e.audio;a.hidden=false;
+        $('p-sel').textContent='Dipilih: '+e.title+' · ';const dl=document.createElement('a');dl.href=e.audio;dl.target='_blank';dl.rel='noopener';dl.textContent='Buka/unduh mp3';$('p-sel').appendChild(dl);
+        if(!titleTouched){$('i-title').value=e.title;syncSlug()}};
+      el.onclick=pick;el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();pick()}};
+      L.appendChild(el);
+    });
+  }catch(e){$('p-sel').textContent='';say('Gagal memuat feed: '+(e.message||'URL salah atau diblokir.'),true)}
+});
+function podText(){
+  if(!segs.length)return'';
+  if($('p-ts').checked)return segs.map(s=>'['+hhmmss(s.t)+'] '+s.text).join('\n');
+  const paras=[];let cur=[],sent=0;
+  segs.forEach(s=>{cur.push(s.text);if(TERM.test(s.text)&&++sent>=4){paras.push(cur.join(' '));cur=[];sent=0}});
+  if(cur.length)paras.push(cur.join(' '));
+  return paras.join('\n\n');
+}
+$('p-ts').addEventListener('change',()=>{if(meta.type==='pod'&&segs.length){$('out').value=podText();stat()}});
+function resample(x,from,to){
+  if(from===to)return x;const n=Math.floor(x.length*to/from),y=new Float32Array(n),k=from/to;
+  for(let i=0;i<n;i++){const p=i*k,j=p|0,f=p-j;y[i]=x[j]*(1-f)+(x[j+1]!==undefined?x[j+1]:x[j])*f}
+  return y;
+}
+async function decodePcm(buf){
+  const AC=window.AudioContext||window.webkitAudioContext;if(!AC)throw new Error('Browser ini tidak bisa mendecode audio.');
+  let ctx;try{ctx=new AC({sampleRate:16000})}catch(e){ctx=new AC()}
+  let ab;try{ab=await ctx.decodeAudioData(buf)}catch(e){throw new Error('Format audio tidak bisa didecode browser. Coba mp3 atau wav.')}finally{ctx.close&&ctx.close()}
+  const ch=ab.numberOfChannels,n=ab.length;let m=ab.getChannelData(0);
+  if(ch>1){m=new Float32Array(n);for(let c=0;c<ch;c++){const d=ab.getChannelData(c);for(let i=0;i<n;i++)m[i]+=d[i]/ch}}
+  return resample(m,ab.sampleRate,16000);
+}
+const rms=a=>{let s=0;const st=Math.max(1,a.length/8000|0);let c=0;for(let i=0;i<a.length;i+=st){s+=a[i]*a[i];c++}return Math.sqrt(s/(c||1))};
+async function getAsr(model,pr){
+  if(asrPipe&&asrModel===model)return asrPipe;
+  say('Memuat model Whisper (pertama kali diunduh dari Hugging Face)…');
+  const {pipeline,env}=await import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.2/+esm');
+  env.allowLocalModels=false;
+  asrPipe=await pipeline('automatic-speech-recognition',model,{progress_callback:p=>{if(p.status==='progress'&&p.total){say('Mengunduh model '+(p.file||'')+': '+Math.round(p.loaded/p.total*100)+'%')}}});
+  asrModel=model;return asrPipe;
+}
+$('p-stop').onclick=()=>{cancelled=true;if(podAbort)podAbort.abort();say('Membatalkan…')};
+let podAbort=null;
+function engUi(){
+  const o=$('p-eng').querySelector('option[value=server]');o.disabled=!LF.up;
+  if(!LF.up)$('p-eng').value='browser';else if($('p-eng').dataset.touched!=='1')$('p-eng').value='server';
+}
+$('p-eng').addEventListener('change',()=>{$('p-eng').dataset.touched='1'});
+document.addEventListener('lf:server',engUi);engUi();
+/* Whisper di server: server mengunduh audio, ffmpeg + Whisper memproses per 30 detik, hasil dikirim bertahap (NDJSON) */
+async function podServerRun(pr){
+  const model=$('p-model').value,key=/tiny/.test(model)?'tiny':/small/.test(model)?'small':'base';
+  const lang=/\.en$/.test(model)?'en':(LANG_CODE[$('p-lang').value]||'auto');
+  const from=Math.max(0,(+$('p-from').value||0)*60),dm=+$('p-dur').value,limit=dm>0?from+dm*60:Infinity;
+  meta={type:'pod',url:podEp.audio,episode:podEp.title};
+  if(!titleTouched)$('i-title').value=meta.episode,syncSlug();
+  if(!chanTouched&&podFeedTitle)$('i-chan').value=podFeedTitle;
+  if(!$('i-cat').value)$('i-cat').value='Podcast';
+  const ac=new AbortController();podAbort=ac;let pos=from,err='',hit=false;
+  try{
+    await LF.stream('/api/podcast/transcribe',{url:podEp.audio,model:key,lang,start:Math.floor(from)},m=>{
+      if(m.type==='status')say(m.msg);
+      else if(m.type==='dl')say('Server mengunduh audio… '+(m.len?Math.round(m.n/m.len*100)+'%':Math.round(m.n/1048576)+' MB'));
+      else if(m.type==='model')say('Server memuat model Whisper… '+Math.round(m.pct)+'%');
+      else if(m.type==='progress'){pos=m.t;say('Transkripsi '+hhmmss(m.t)+(isFinite(limit)?' dari '+hhmmss(limit):'')+'…');if(isFinite(limit))pr.value=Math.min(1,(m.t-from)/(limit-from))}
+      else if(m.type==='seg'){if(m.s>=limit){hit=true;ac.abort();return}segs.push({t:m.s,text:String(m.text).trim()});pos=Math.max(pos,m.s);$('out').value=podText();stat();$('out').scrollTop=$('out').scrollHeight}
+      else if(m.type==='error')err=m.error;
+    },ac.signal);
+  }catch(e){if(e.name!=='AbortError')throw e}
+  podAbort=null;
+  if(err)throw new Error(err);
+  pr.value=1;
+  say(cancelled?'Dibatalkan. Teks sampai '+hhmmss(pos)+' tetap tersimpan di bawah.':'Selesai: '+words($('out').value).toLocaleString('id-ID')+' kata (Whisper di server). Periksa dan perbaiki bila perlu.');
+}
+$('p-go').onclick=async()=>{
+  if(podBusy)return;
+  if(!podFile&&!podEp){say('Pilih episode dari daftar atau file audio dulu.',true);return}
+  podBusy=true;cancelled=false;$('p-go').hidden=true;$('p-stop').hidden=false;const pr=$('p-prog');pr.hidden=false;pr.value=0;segs=[];
+  try{
+    await LF.ready;
+    if(LF.up&&$('p-eng').value==='server'){
+      if(!podFile){await podServerRun(pr);return}
+      say('File lokal tidak bisa dikirim ke Whisper server; memakai Whisper di browser.');
+    }
+    let buf;
+    if(podFile)buf=await podFile.arrayBuffer();
+    else{say('Mengunduh audio episode…');
+      try{buf=await(await fetchVia(podEp.audio,'blob')).arrayBuffer()}
+      catch(e){throw new Error('Audio episode tidak bisa diunduh dari browser (server podcast memblokir). Buka link "Buka/unduh mp3", simpan, lalu pilih sebagai file audio.')}}
+    say('Mendecode audio…');
+    const pcm=await decodePcm(buf);buf=null;
+    const total=pcm.length/16000,model=$('p-model').value,multi=!/\.en$/.test(model),lang=multi?$('p-lang').value:'';
+    const from=Math.max(0,(+$('p-from').value||0)*60),dm=+$('p-dur').value,to=dm>0?Math.min(total,from+dm*60):total;
+    if(from>=total)throw new Error('Mulai dari menit melebihi durasi audio ('+Math.floor(total/60)+' menit).');
+    const asr=await getAsr(model,pr);
+    meta={type:'pod',url:podEp?podEp.audio:'',episode:podEp?podEp.title:(podFile?podFile.name:'')};
+    if(!titleTouched)$('i-title').value=meta.episode,syncSlug();
+    if(!chanTouched&&podFeedTitle&&podEp)$('i-chan').value=podFeedTitle;
+    if(!$('i-cat').value)$('i-cat').value='Podcast';
+    const WIN=30;let pos=from,lastText='';
+    while(pos<to-0.5&&!cancelled){
+      const end=Math.min(pos+WIN,to),chunk=pcm.subarray(Math.floor(pos*16000),Math.floor(end*16000));
+      say('Transkripsi '+hhmmss(pos)+' dari '+hhmmss(to)+'…');pr.value=(pos-from)/(to-from);
+      if(rms(chunk)<0.004){pos=end;continue}
+      const r=await asr(chunk,Object.assign({return_timestamps:true,chunk_length_s:0},lang?{language:lang,task:'transcribe'}:{}));
+      let ch=(r.chunks||[]).filter(c=>c.text&&c.text.trim()),adv=end;
+      /* jendela yang berakhir di tengah kalimat: buang segmen terakhir, jendela berikut mulai dari situ */
+      if(end<to&&ch.length>=2){const last=ch[ch.length-1],ls=last.timestamp[0]||0,le=last.timestamp[1];
+        if(ls>8&&(le==null||le>=WIN-0.6)){ch=ch.slice(0,-1);adv=pos+ls}}
+      ch.forEach(c=>{const t=c.text.trim();if(t===lastText)return;lastText=t;segs.push({t:pos+(c.timestamp[0]||0),text:t})});
+      $('out').value=podText();stat();$('out').scrollTop=$('out').scrollHeight;
+      pos=adv>pos+1?adv:end;
+    }
+    pr.value=1;
+    say(cancelled?'Dibatalkan. Teks sampai '+hhmmss(pos)+' tetap tersimpan di bawah.':'Selesai: '+words($('out').value).toLocaleString('id-ID')+' kata. Periksa dan perbaiki bila perlu.');
+  }catch(e){say(String(e&&e.message||e),true)}
+  finally{podBusy=false;$('p-go').hidden=false;$('p-stop').hidden=true;$('p-prog').hidden=true}
+};
+
+/* ---------- ekspor ---------- */
+function curText(){return $('out').value.replace(/\r/g,'').trim()}
+function info(){
+  const tags=[...new Set($('i-tags').value.split(',').map(t=>t.trim()).filter(Boolean))];
+  const title=$('i-title').value.trim()||'Tanpa judul';
+  return{title,slug:$('i-slug').value.trim()||slugify(title)||'bacaan',category:$('i-cat').value.trim(),channel:$('i-chan').value.trim(),lang:$('i-lang').value,tags};
+}
+function save(name,mime,data){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:mime}));a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)}
+const needText=()=>{if(!words(curText())){say('Belum ada teks. Ambil dari sumber di atas dulu.',true);return false}return true};
+$('b-json').onclick=()=>{
+  if(!needText())return;const j=readingJson();
+  save(j.slug+'.json','application/json',JSON.stringify(j,null,2));
+  say('JSON diunduh: '+j.slug+'.json');
+};
+$('b-txt').onclick=()=>{if(!needText())return;save(info().slug+'.txt','text/plain;charset=utf-8',curText()+'\n');say('TXT diunduh.')};
+$('b-copy').onclick=async()=>{
+  if(!needText())return;
+  try{await navigator.clipboard.writeText(curText());say('Teks disalin.')}catch(e){$('out').select();say('Tidak bisa menyalin otomatis. Teks sudah dipilih, tekan salin manual.',true)}
+};
+function readingJson(){
+  const i=info(),t=curText(),stamped=/^\[\d{1,2}:\d{2}(:\d{2})?\]/m.test(t);
+  const paragraphs=stamped?t.split('\n').map(l=>{const m=l.match(/^\[([\d:]+)\]\s*(.*)$/);return m?{time:m[1],text:m[2]}:{text:l}}).filter(p=>p.text):blocksFromText(t).map(b=>({text:b.text,heading:b.heading?1:0}));
+  const n=words(t);
+  return{type:'read',...i,source:{type:meta.type||'text',url:meta.url||'',episode:meta.episode||''},words:n,lines:paragraphs.length,duration:Math.max(60,Math.round(n/180*60)),text:t,paragraphs};
+}
+$('b-play').onclick=()=>{
+  if(!needText())return;
+  try{sessionStorage.setItem('lf:preview-reading',JSON.stringify(readingJson()))}
+  catch(e){say('Tidak bisa membuka player (penyimpanan sementara browser diblokir). Unduh JSON lalu buka di player-reading.html.',true);return}
+  location.href='player-reading.html?preview=1';
+};
+$('b-sync').onclick=()=>{
+  if(!needText())return;const i=info(),t=curText();
+  try{sessionStorage.setItem('lf:reading-handoff',JSON.stringify({...i,tags:i.tags.join(', '),text:t,stamped:/^\[\d{1,2}:\d{2}(:\d{2})?\]/m.test(t)}))}
+  catch(e){say('Tidak bisa mengirim (penyimpanan sementara browser diblokir). Pakai Salin teks lalu tempel di Sync Reader.',true);return}
+  location.href='audiobook-generator.html';
+};
+/* ---------- awal (dipanggil terakhir supaya semua variabel sudah ada) ---------- */
+{const s=lsGet('lf:rd:src','text');if([...sel.options].some(o=>o.value===s))sel.value=s;showPane()}
+</script>
+</body>
+</html>
