@@ -150,6 +150,12 @@ body:not(.showipa):not(.showrm) .w{display:inline}
       <p class="note" id="rmNote">Romanisasi dan IPA per kata untuk semua bahasa butuh server. Tanpa server, hanya IPA dari kamus online yang tersedia.</p>
       <div class="r"><select class="sel" id="tl" aria-label="Bahasa terjemahan"></select><button class="pill" id="bTr" type="button">🌐 Terjemahkan</button><label><input type="checkbox" id="cSayTr"> Bacakan terjemahan</label></div>
       <p class="note">Ketuk kata untuk arti, romanisasi, IPA, dan terjemahan; ketuk bagian lain dari kalimat untuk memutar dari sana. Dengan server, suara dibuat oleh Supertonic, Piper, atau Pocket (model dimuat di server, kalimat pertama bisa lama), IPA dan romanisasi dihitung di server, dan terjemahan lewat server. Tanpa server, suara memakai text-to-speech bawaan perangkat dan IPA dari kamus online. Durasi adalah perkiraan.</p>
+      <div id="cloneBox" hidden>
+        <p class="note"><b>Suara klon (Pocket TTS).</b> Unggah sampel suara Anda sendiri (atau yang sudah memberi izin), 10-30 detik, jernih tanpa musik. Suara bawaan Pocket tidak dipakai; hanya fitur kloningnya. Bahasa klon: Inggris, Jerman, Prancis, Spanyol, Italia, Portugis.</p>
+        <div class="r"><input type="text" id="clName" class="sel" maxlength="40" placeholder="Nama suara" aria-label="Nama suara klon"><select class="sel" id="clLang" aria-label="Bahasa sampel"><option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option><option value="it">Italiano</option><option value="pt">Português</option></select></div>
+        <div class="r"><input type="file" id="clFile" accept="audio/*" aria-label="Berkas sampel suara"><button class="pill" id="clAdd" type="button">Tambah klon</button></div>
+        <div id="clList"></div>
+      </div>
       <div id="srv"></div>
     </div>
   </details>
@@ -277,7 +283,7 @@ function serverVoices(lang){
   const b=baseOf(lang),out=[];if(!LF.up)return out;
   if(engOk('supertonic')&&SUPER_LANGS.includes(b))['F1','F2','F3','F4','F5','M1','M2','M3','M4','M5'].forEach(id=>out.push({key:'supertonic:'+id,kind:'srv',engine:'supertonic',id,label:'Supertonic · '+id}));
   if(engOk('piper')){const seen=new Set();PIPER_V.concat(ENG.piperAll.map(o=>[o.id,baseOf(o.lang)])).forEach(([id,l])=>{if(l===b&&!seen.has(id)){seen.add(id);out.push({key:'piper:'+id,kind:'srv',engine:'piper',id,label:'Piper · '+id.slice(6).replace(/-/g,' ')+' ('+id.slice(0,5)+')'})}})}
-  if(engOk('pocket')){POCKET_V.filter(v=>v[1]===b).forEach(([id])=>out.push({key:'pocket:'+id,kind:'srv',engine:'pocket',id,label:'Pocket · '+id}));ENG.clones.filter(c=>baseOf(c.lang||'en')===b).forEach(c=>out.push({key:'pocket:'+c.id,kind:'srv',engine:'pocket',id:c.id,label:'Clone · '+c.name+' (Pocket)'}))}
+  if(engOk('pocket')){ENG.clones.filter(c=>baseOf(c.lang||'en')===b).forEach(c=>out.push({key:'pocket:'+c.id,kind:'srv',engine:'pocket',id:c.id,label:'Clone · '+c.name+' (Pocket)'}))}
   return out;
 }
 function deviceVoices(lang){
@@ -297,7 +303,7 @@ function fillVoiceSel(sel,lang){
   if(!sel.options.length){const o=mk('option',null,'Belum ada suara untuk '+(SRCNAME[lang]||lang));o.value='';sel.appendChild(o);return}
   const v=voiceFor(lang);if(v)sel.value=v.key;
 }
-function fillVoices(){fillVoiceSel($('voice'),sl());fillVoiceSel($('voice2'),pref.tl);$('voice2').hidden=!pref.sayTr;$('bPiper').hidden=!LF.up;$('cRm').disabled=!LF.up;$('rmNote').hidden=LF.up}
+function fillVoices(){drawClones();fillVoiceSel($('voice'),sl());fillVoiceSel($('voice2'),pref.tl);$('voice2').hidden=!pref.sayTr;$('bPiper').hidden=!LF.up;$('cRm').disabled=!LF.up;$('rmNote').hidden=LF.up}
 if(synth){synth.onvoiceschanged=()=>D&&fillVoices()}
 $('voice').onchange=e=>{pref.voices[baseOf(sl())]=e.target.value;savePref();restart()};
 $('voice2').onchange=e=>{pref.voices[baseOf(pref.tl)]=e.target.value;savePref()};
@@ -308,6 +314,47 @@ $('bPiper').onclick=async()=>{
   try{const j=await LF.get('/api/tts/piper/voices');ENG.piperAll=j.voices||[];fillVoices();say('Daftar Piper dimuat: '+ENG.piperAll.length+' suara. Model suara diunduh server saat pertama dipakai.')}
   catch(e){say('Daftar Piper gagal dimuat: '+e.message,true)}
   $('bPiper').disabled=false;
+};
+/* ---------- suara klon: sampel -> WAV mono 24 kHz (maks. 30 dtk) -> /api/clone ---------- */
+function drawClones(){
+  const box=$('cloneBox');if(!box)return;
+  box.hidden=!(LF.up&&engOk('pocket'));
+  const l=$('clList');l.innerHTML='';
+  ENG.clones.forEach(c=>{
+    const r=mk('div','r');r.appendChild(mk('span',null,c.name+' ('+c.lang+')'));
+    const d=mk('button','pill','Hapus');d.type='button';
+    d.onclick=async()=>{if(!confirm('Hapus suara klon "'+c.name+'"?'))return;
+      try{const x=await fetch(LF.url('/api/clone/'+encodeURIComponent(c.id)),{method:'DELETE'});if(!x.ok)throw new Error('HTTP '+x.status);
+        ENG.clones=ENG.clones.filter(k=>k.id!==c.id);fillVoices()}catch(e){say('Gagal menghapus klon: '+e.message,true)}};
+    r.appendChild(d);l.appendChild(r);
+  });
+}
+async function toWav24k(file){
+  const Ctx=window.AudioContext||window.webkitAudioContext;
+  const ac=new Ctx();let buf;
+  try{buf=await ac.decodeAudioData(await file.arrayBuffer())}finally{ac.close&&ac.close()}
+  const SR=24000,len=Math.min(Math.ceil(buf.duration*SR),30*SR);
+  const oc=new OfflineAudioContext(1,len,SR),src=oc.createBufferSource();
+  src.buffer=buf;src.connect(oc.destination);src.start();   // channel dirata-ratakan jadi mono otomatis
+  const pcm=(await oc.startRendering()).getChannelData(0);
+  const out=new DataView(new ArrayBuffer(44+pcm.length*2)),w=(o,t)=>{for(let i=0;i<t.length;i++)out.setUint8(o+i,t.charCodeAt(i))};
+  w(0,'RIFF');out.setUint32(4,36+pcm.length*2,true);w(8,'WAVEfmt ');out.setUint32(16,16,true);out.setUint16(20,1,true);out.setUint16(22,1,true);
+  out.setUint32(24,SR,true);out.setUint32(28,SR*2,true);out.setUint16(32,2,true);out.setUint16(34,16,true);w(36,'data');out.setUint32(40,pcm.length*2,true);
+  for(let i=0;i<pcm.length;i++)out.setInt16(44+i*2,Math.max(-1,Math.min(1,pcm[i]))*32767,true);
+  return{blob:new Blob([out],{type:'audio/wav'}),sec:len/SR};
+}
+$('clAdd').onclick=async()=>{
+  const f=$('clFile').files[0];if(!f){say('Pilih berkas sampel suara dulu.',true);return}
+  const btn=$('clAdd');btn.disabled=true;say('Memproses sampel…');
+  try{
+    const{blob,sec}=await toWav24k(f);
+    if(sec<3)throw new Error('Sampel terlalu pendek (minimal 3 detik, disarankan 10-30 detik)');
+    const fd=new FormData();fd.append('audio',blob,'clone.wav');fd.append('name',$('clName').value.trim()||f.name.replace(/\.\w+$/,''));fd.append('lang',$('clLang').value);
+    const c=await LF.upload('/api/clone',fd);
+    ENG.clones.push(c);pref.voices[baseOf(c.lang)]='pocket:'+c.id;savePref();$('clFile').value='';$('clName').value='';fillVoices();
+    say('Klon "'+c.name+'" ditambahkan. Pilih bahasa utama '+c.lang+' untuk memakainya; kalimat pertama bisa lama karena model Pocket dimuat dulu.');
+  }catch(e){say('Gagal menambah klon: '+(e&&e.message||e),true)}
+  btn.disabled=false;
 };
 async function initServerVoices(){
   await LF.ready;fillVoices();
