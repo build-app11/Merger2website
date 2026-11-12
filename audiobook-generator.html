@@ -68,7 +68,6 @@ textarea.mono{min-height:9.5rem;margin-top:0;font:13px/1.5 ui-monospace,Menlo,mo
 .rssrow{display:flex;gap:8px;margin-top:8px}.rssrow input{flex:1;min-width:0;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--field);color:var(--fg);font:inherit}
 #setup .fl{display:flex;flex-direction:column;gap:4px;margin-top:10px;font-size:.82rem;font-weight:600;color:var(--head)}
 #setup .fl input{width:100%;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--field);color:var(--fg);font:400 .95rem var(--font-ui)}
-#rss-list{max-height:260px;overflow:auto;margin-top:6px}.rss-ep{padding:10px 12px;border-radius:10px;cursor:pointer;font-size:.9rem;line-height:1.35}.rss-ep:hover{background:var(--accent-soft)}.rss-ep.sel{background:var(--accent-soft);outline:2px solid var(--accent)}.rss-ep small{display:block;color:var(--muted)}
 .gback{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;padding:6px 14px;border:2.5px solid var(--ink);border-radius:999px;background:var(--field);color:var(--fg);font:700 .9rem var(--font-ui);text-decoration:none;box-shadow:3px 3px 0 var(--shadow)}
 .gback:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow)}
 .gback:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
@@ -96,9 +95,9 @@ body.reading main{max-width:none}
   <div class="field">
     <span class="lab">2. Audio</span>
     <label class="pick" id="p-audio"><span class="btn">Pilih file</span><span class="name">MP3, M4A, WAV</span><input id="f-audio" type="file" accept="audio/*,.mp3,.m4a,.wav,.ogg"></label>
-    <details id="rss"><summary>Atau ambil dari RSS podcast</summary>
-      <div class="rssrow"><input id="rss-url" value="https://feeds.acast.com/public/shows/67587e77c705e441797aff96" placeholder="URL feed RSS" spellcheck="false" autocomplete="off"><button class="b" id="rss-load" type="button">Muat</button></div>
-      <div class="hint" id="rss-msg" role="status"></div><div id="rss-list"></div>
+    <details id="rss" open><summary>Atau masukkan URL audio</summary>
+      <div class="rssrow"><input id="au-url" type="url" placeholder="https://… (mp3 langsung, Google Drive, Dropbox)" spellcheck="false" autocomplete="off" inputmode="url"><button class="sbtn" id="au-load" type="button">Cek</button></div>
+      <div class="hint" id="au-msg" role="status">Semua URL audio bisa dipakai. Link Google Drive (file harus dibagikan ke &quot;Siapa saja yang memiliki link&quot;) dan Dropbox diubah otomatis jadi link langsung.</div>
     </details>
   </div>
   <div class="field">
@@ -121,11 +120,11 @@ body.reading main{max-width:none}
     </div>
   </div>
   <div class="field">
-    <span class="lab">4. Info <span class="hint">(judul terisi otomatis dari ebook atau feed podcast, channel dari feed RSS)</span></span>
+    <span class="lab">4. Info <span class="hint">(judul terisi otomatis dari nama file ebook atau URL audio)</span></span>
     <label class="fl" for="f-title">Judul<input id="f-title" type="text" autocomplete="off" placeholder="Otomatis, bisa diubah"></label>
     <label class="fl" for="f-slug">Slug<input id="f-slug" type="text" autocomplete="off" spellcheck="false" placeholder="otomatis dari judul, mis. ai-brain-fry"></label>
     <label class="fl" for="f-cat">Kategori<input id="f-cat" type="text" list="cats" autocomplete="off" placeholder="mis. Podcast"><datalist id="cats"><option>Podcast</option><option>Novel</option><option>Artikel</option><option>Pelajaran</option><option>Berita</option></datalist></label>
-    <label class="fl" for="f-channel">Channel<input id="f-channel" type="text" autocomplete="off" placeholder="Otomatis dari RSS podcast, bisa diubah"></label>
+    <label class="fl" for="f-channel">Channel<input id="f-channel" type="text" autocomplete="off" placeholder="Opsional, mis. nama podcast atau sumber"></label>
     <label class="fl" for="f-tags">Tag<input id="f-tags" type="text" autocomplete="off" placeholder="pisahkan dengan koma, mis. bbc, sejarah"></label>
   </div>
   <button class="go" id="go">Buat sinkronisasi</button>
@@ -688,43 +687,51 @@ function closePreview(){
   $(p).dataset.ph=$(p).querySelector('.name').textContent;
   $('f-'+k).addEventListener('change',e=>{const f=e.target.files[0];const el=$(p);el.classList.toggle('has',!!f);el.querySelector('.name').textContent=f?f.name:el.dataset.ph})});
 /* ---------- judul otomatis ---------- */
-let titleTouched=false,rssChannel='',chanTouched=false;
+let titleTouched=false;
 const baseOf=n=>n.replace(/\.[^.]+$/,'').replace(/[_]+/g,' ').trim();
 function autoTitle(){
   if(titleTouched)return;
   const b=$('f-book').files[0];
-  $('f-title').value=b?baseOf(b.name):rssEp?rssEp.title:rssChannel;syncSlug();
+  const u=parseAudioUrl($('au-url').value);
+  $('f-title').value=b?baseOf(b.name):u?u.title:'';syncSlug();
 }
 const slugify=t=>String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,60).replace(/-+$/,'');
 let slugTouched=false;
 const syncSlug=()=>{if(!slugTouched)$('f-slug').value=slugify($('f-title').value)};
 $('f-title').addEventListener('input',()=>{titleTouched=!!$('f-title').value.trim();syncSlug()});
-$('f-channel').addEventListener('input',()=>{chanTouched=!!$('f-channel').value.trim()});
 $('f-slug').addEventListener('input',()=>{slugTouched=!!$('f-slug').value.trim();syncSlug()});
 $('f-book').addEventListener('change',autoTitle);
-/* ---------- RSS ---------- */
-let rssEp=null;
-const PROXIES=[u=>u,u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),u=>'https://corsproxy.io/?url='+encodeURIComponent(u)];
-async function fetchVia(url,kind){let last;for(const p of PROXIES){try{const r=await fetch(p(url));if(!r.ok)throw new Error(r.status);return kind==='text'?await r.text():await r.blob()}catch(e){last=e}}throw last||new Error('gagal')}
-function metaDur(url){return new Promise((ok,no)=>{const a=new Audio();a.preload='metadata';setTimeout(()=>no(new Error('timeout')),15000);a.onloadedmetadata=()=>ok(a.duration);a.onerror=()=>no(new Error('Audio episode tidak bisa dimuat dari browser (server podcast memblokir). Buka link "Buka/unduh mp3" di daftar episode, simpan mp3-nya, lalu pilih sebagai file audio di langkah 2.'));a.src=url})}
-$('rss-load').onclick=async()=>{
-  const m=$('rss-msg'),L=$('rss-list');m.textContent='Memuat feed…';L.innerHTML='';
+/* ---------- URL audio ---------- */
+/* Terima URL apa saja. Google Drive dan Dropbox diubah jadi link unduhan langsung supaya bisa diputar oleh <audio>. */
+function parseAudioUrl(raw){
+  raw=String(raw||'').trim();
+  if(!/^https?:\/\/\S+$/i.test(raw))return null;
+  let m=raw.match(/drive\.google\.com\/file\/d\/([\w-]+)/)||raw.match(/drive\.google\.com\/(?:open|uc|u\/\d+\/uc)\?(?:[^#]*&)?id=([\w-]+)/)||raw.match(/docs\.google\.com\/uc\?(?:[^#]*&)?id=([\w-]+)/);
+  if(m)return{url:'https://drive.usercontent.google.com/download?id='+m[1]+'&export=download&confirm=t',title:'',kind:'Google Drive'};
+  let url=raw,kind='';
   try{
-    const x=await fetchVia($('rss-url').value.trim(),'text');
-    const d=new DOMParser().parseFromString(x,'text/xml'),q=(e,s)=>{const n=e.querySelector(s);return n?n.textContent.trim():''};
-    const items=[...d.querySelectorAll('item')].map(i=>{const en=i.querySelector('enclosure'),du=i.getElementsByTagNameNS('*','duration')[0];
-      return{title:q(i,'title'),date:q(i,'pubDate').slice(0,16),dur:du?du.textContent.trim():'',url:en?en.getAttribute('url'):''}}).filter(e=>e.url);
-    if(!items.length)throw new Error('kosong');
-    rssChannel=q(d,'channel > title');autoTitle();if(!chanTouched)$('f-channel').value=rssChannel;m.textContent=(rssChannel||'Feed')+' · '+items.length+' episode. Pilih satu.';
-    items.forEach(e=>{const el=document.createElement('div');el.className='rss-ep';el.innerHTML='<b></b><small></small>';
-      el.firstChild.textContent=e.title;el.lastChild.textContent=[e.date,e.dur].filter(Boolean).join(' · ');
-      el.onclick=()=>{rssEp=e;autoTitle();L.querySelectorAll('.rss-ep').forEach(n=>n.classList.toggle('sel',n===el));
-        $('f-audio').value='';$('p-audio').classList.remove('has');$('p-audio').querySelector('.name').textContent=$('p-audio').dataset.ph;
-        m.textContent='Dipilih: '+e.title+' · ';const dl=document.createElement('a');dl.href=e.url;dl.target='_blank';dl.rel='noopener';dl.textContent='Buka/unduh mp3';m.appendChild(dl)};
-      L.appendChild(el)});
-  }catch(e){m.textContent='Gagal memuat feed (URL salah atau diblokir CORS).'}
+    const U=new URL(raw);
+    if(/(^|\.)dropbox\.com$/i.test(U.hostname)){U.searchParams.delete('dl');U.searchParams.set('raw','1');url=U.toString();kind='Dropbox'}
+  }catch(e){return null}
+  let title='';
+  try{const f=decodeURIComponent(new URL(url).pathname.split('/').filter(Boolean).pop()||'');title=/\.(mp3|m4a|wav|ogg|aac|opus|flac|mp4|webm)$/i.test(f)?baseOf(f):''}catch(e){}
+  return{url,title,kind}
+}
+function metaDur(url){return new Promise((ok,no)=>{const a=new Audio();a.preload='metadata';const t=setTimeout(()=>no(new Error('timeout')),15000);a.onloadedmetadata=()=>{clearTimeout(t);ok(a.duration)};a.onerror=()=>{clearTimeout(t);no(new Error('Audio tidak bisa dimuat dari browser (server memblokir, URL bukan file audio, atau file Google Drive belum dibagikan ke "Siapa saja yang memiliki link"). Coba URL lain, atau unduh lalu pilih sebagai file di langkah 2.'))};a.src=url})}
+const fmtDur=d=>{d=Math.round(d);const h=Math.floor(d/3600),m=Math.floor(d%3600/60),s=d%60;return(h?h+':'+String(m).padStart(2,'0'):m)+':'+String(s).padStart(2,'0')};
+$('au-load').onclick=async()=>{
+  const m=$('au-msg'),u=parseAudioUrl($('au-url').value);
+  m.style.color='';
+  if(!u){m.textContent='Masukkan URL lengkap yang diawali http:// atau https://.';m.style.color='var(--warn)';return}
+  m.textContent='Mengecek audio…';
+  try{const d=await metaDur(u.url);m.textContent='Audio terbaca'+(u.kind?' ('+u.kind+')':'')+' · durasi '+fmtDur(d)+'.'}
+  catch(e){m.textContent=(e&&e.message?e.message:'Gagal memuat audio.')+' Tetap bisa lanjut: durasi akan diperkirakan dari timestamp.';m.style.color='var(--warn)'}
 };
-$('f-audio').addEventListener('change',e=>{if(e.target.files[0]){rssEp=null;autoTitle();$('rss-list').querySelectorAll('.sel').forEach(n=>n.classList.remove('sel'))}});
+$('au-url').addEventListener('input',()=>{
+  if($('au-url').value.trim()){$('f-audio').value='';$('p-audio').classList.remove('has');$('p-audio').querySelector('.name').textContent=$('p-audio').dataset.ph}
+  $('au-msg').style.color='';autoTitle()});
+$('au-url').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('au-load').click()}});
+$('f-audio').addEventListener('change',e=>{if(e.target.files[0]){$('au-url').value='';$('au-msg').style.color='';autoTitle()}});
 /* ---------- terjemahan otomatis (Inggris -> Indonesia): dari kolom transkrip, hasilnya bisa diedit ---------- */
 async function mtId(t){
   try{const r=await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=id&dt=t&q='+encodeURIComponent(t));
@@ -779,7 +786,8 @@ $('go').onclick=async()=>{
     if(tm.miss)trMsg=tm.miss+' dari '+tm.total+' baris teks tidak punya terjemahan dengan waktu yang sama.';
   }
   if(!book&&!pasted&&!tsText)return say('Pilih ebook, atau isi timestamp (teksnya dipakai sebagai ebook).',true);
-  if(!audio&&!rssEp)return say('Pilih file audio atau episode RSS.',true);
+  const ue=audio?null:parseAudioUrl($('au-url').value);
+  if(!audio&&!ue)return say($('au-url').value.trim()?'URL audio tidak valid. Awali dengan http:// atau https://.':'Pilih file audio atau masukkan URL audio.',true);
   $('go').disabled=true;
   try{
     say('Membaca ebook…');await tick();
@@ -788,19 +796,19 @@ $('go').onclick=async()=>{
     else if(book||pasted)blocks=blocksFromText(book?await book.text():pasted);
     else blocks=blocksFromText(textFromTranscript(tsText));
     if(!blocks.length)throw new Error('Tidak ada teks yang terbaca dari ebook.');
-    say(audio?'Menganalisis audio…':'Membaca durasi audio dari server podcast…');await tick();
+    say(audio?'Menganalisis audio…':'Membaca durasi audio dari URL…');await tick();
     const tw=tsText?parseTranscript(tsText):[];
     let a;
     if(audio)a=await analyzeAudio(audio);
     else{
-      let D=0;try{D=await metaDur(rssEp.url)}catch(e){}
+      let D=0;try{D=await metaDur(ue.url)}catch(e){}
       if(!(D>0)){const mx=tw.reduce((m,o)=>o.t!=null&&o.t>m?o.t:m,0);D=mx>0?mx+20:0}
-      if(!(D>0))throw new Error('Durasi audio tidak bisa dibaca dari server podcast. Pilih file audio di langkah 2.');
+      if(!(D>0))throw new Error('Durasi audio tidak bisa dibaca dari URL tersebut. Cek URL-nya (Google Drive harus dibagikan ke "Siapa saja yang memiliki link") atau pilih file audio di langkah 2.');
       a={sil:[],D}}
     const r=await buildSync(blocks,tw,a,say);
     WORDS=r.words;lastDur=a.D>0?a.D:0;
-    lastAudioFile=audio;lastRss=rssEp?{feed:$('rss-url').value.trim(),title:rssEp.title}:null;$('ex-audio').value=audio?audio.name.replace(/\s+/g,'-'):rssEp.url;$('ex-code').classList.remove('show');$('ex-msg').textContent='';
-    if(audioUrl&&audioUrl.startsWith('blob:'))URL.revokeObjectURL(audioUrl);audioUrl=audio?URL.createObjectURL(audio):rssEp.url;
+    lastAudioFile=audio;lastRss=null;$('ex-audio').value=audio?audio.name.replace(/\s+/g,'-'):ue.url;$('ex-code').classList.remove('show');$('ex-msg').textContent='';
+    if(audioUrl&&audioUrl.startsWith('blob:'))URL.revokeObjectURL(audioUrl);audioUrl=audio?URL.createObjectURL(audio):ue.url;
     const pct=r.tsCount?Math.round(r.matched/r.refCount*100):null;
     hasPh=r.phCount>0;hasTr=r.trCount>0;
     const st=r.phStats||{lines:0,odd:0,inline:0};
@@ -846,15 +854,6 @@ function buildJson(){
 }
 $('ex-json').onclick=()=>doSave(jsonSlug()+'.json',async()=>buildJson());
 $('ex-jcopy').onclick=()=>doCopy(async()=>buildJson(),'JSON');
-/* ---------- terima teks dari Reading Generator (sessionStorage, sekali pakai) ---------- */
-try{const h=sessionStorage.getItem('lf:reading-handoff');if(h){sessionStorage.removeItem('lf:reading-handoff');const j=JSON.parse(h);
-  if(j.stamped){$('ts-paste').value=j.text}else{$('paste').value=j.text;const dt=$('paste').closest('details');if(dt)dt.open=true}
-  if(j.title){$('f-title').value=j.title;titleTouched=true}
-  if(j.slug){$('f-slug').value=j.slug;slugTouched=true}else syncSlug();
-  if(j.category)$('f-cat').value=j.category;
-  if(j.channel){$('f-channel').value=j.channel;chanTouched=true}
-  if(j.tags)$('f-tags').value=j.tags;
-  say('Teks dari Reading Generator sudah terisi. Pilih audio, lalu buat sinkronisasi.')}}catch(e){}
 
 </script>
 </body>
