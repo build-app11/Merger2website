@@ -38,8 +38,14 @@
 .w:hover{background:var(--accent-soft)}
 .ph{display:none;font:500 .52em/1.25 var(--font-ipa);color:var(--muted);letter-spacing:0}
 .rd.phon .ph{display:block}
-.rd.phon .w{display:inline-block;vertical-align:top;text-align:center;margin:0 .06em .55em}
-.rd.phon .rtxt p{line-height:1.5}
+.ro{display:none;font:500 .52em/1.25 var(--font-ipa);color:var(--muted);letter-spacing:0}
+.rd.roman .ro{display:block}
+.rd.phon .w,.rd.roman .w{display:inline-block;vertical-align:top;text-align:center;margin:0 .06em .55em}
+.rd.phon .rtxt p,.rd.roman .rtxt p{line-height:1.5}
+.t rt{font:500 .48em/1 var(--font-read);color:var(--muted);letter-spacing:0}
+.rd.nofu .t rt{display:none}
+.rd.furi:not(.nofu) .rtxt p{line-height:2.2}
+.rd.prac .ro,.rd.prac .t rt{display:none!important}
 .qzb{display:flex;flex-direction:column;align-items:center;gap:18px}
 .qzt{font:600 .85rem/1.4 var(--font-ui);color:var(--accent-text);background:var(--accent-soft);padding:8px 14px;border-radius:12px;text-align:center}
 .qzo{font:700 1.05rem/1.25 var(--font-ui);padding:12px 10px;border:2.5px solid var(--ink);border-radius:12px;background:var(--bar);color:var(--fg);box-shadow:3px 3px 0 var(--shadow);cursor:pointer;overflow-wrap:anywhere}
@@ -272,7 +278,7 @@
 </style>
 </head>
 <body>
-<div id="app"><div class="ld"><p>Memuat halaman…</p><a href="/index.html">Kembali</a></div></div>
+<div id="app"><div class="ld"><p>Memuat halaman…</p><a href="./">Kembali</a></div></div>
 <script src="i18n.js"></script>
 <script>function createReader(root,cfg){
   const WORDS=cfg.words,TERM=/[.!?。！？]["')\]”’）」』]*$/;
@@ -282,8 +288,33 @@
   Object.assign(pref,saved);delete pref.qd;if(pref.pm==='match'||pref.pm==='tr')pref.pm='fib';
   pref.ph=cfg.hasPh?(saved.ph===undefined?true:!!saved.ph):false;
   pref.tr=cfg.hasTr?(saved.tr===undefined?true:!!saved.tr):false;
+  pref.fu=cfg.hasFu?(saved.fu===undefined?true:!!saved.fu):false;
+  pref.ro=cfg.hasRo?(saved.ro===undefined?true:!!saved.ro):false;
   const save=()=>{try{localStorage.setItem(LS,JSON.stringify(pref))}catch(e){}};
   const SPEEDS=[0.5,0.75,1,1.25,1.5,2];
+  /* furigana / pinyin sebagai ruby di atas kata (sama dengan player-video) */
+  const LG=cfg.lang||'en';
+  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const KANJI=/[\u3400-\u9FFF\uF900-\uFAFF々〆ヶ]/,RUNCLS='\u3400-\u9FFF\uF900-\uFAFF々〆ヶ0-9０-９';
+  const RUN_RE=new RegExp('['+RUNCLS+']+|[^'+RUNCLS+']+','g'),RUN_START=new RegExp('^['+RUNCLS+']');
+  const toHira=s=>String(s).replace(/[\u30A1-\u30F6]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
+  function rubyHtml(w,f){
+    if(f&&f.indexOf('|')>-1){
+      const sy=f.split('|'),cs=[...w];
+      if(cs.every(c=>KANJI.test(c))&&cs.length===sy.length)return '<ruby>'+esc(w)+'<rt>'+esc(sy.join(' '))+'</rt></ruby>';
+      if(cs.filter(c=>KANJI.test(c)).length===sy.length){let k=0;return cs.map(c=>KANJI.test(c)?'<ruby>'+esc(c)+'<rt>'+esc(sy[k++])+'</rt></ruby>':esc(c)).join('')}
+      f=sy.join('');
+    }
+    if(!f||f===w)return esc(w);
+    if(!KANJI.test(w))return LG==='zh'?'<ruby>'+esc(w)+'<rt>'+esc(f)+'</rt></ruby>':esc(w);
+    const parts=w.match(RUN_RE)||[w];
+    const rx='^'+parts.map(p=>RUN_START.test(p)?'(.+?)':toHira(p).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('')+'$';
+    const m=new RegExp(rx).exec(toHira(f));
+    if(!m)return '<ruby>'+esc(w)+'<rt>'+esc(f)+'</rt></ruby>';
+    let n=1;
+    return parts.map(p=>{if(!RUN_START.test(p))return esc(p);const r=m[n++];return KANJI.test(p)&&r!==p?'<ruby>'+esc(p)+'<rt>'+esc(r)+'</rt></ruby>':esc(p)}).join('');
+  }
+  function setT(t,i){const w=WORDS[i];if(cfg.hasFu&&w.f)t.innerHTML=rubyHtml(w.w,w.f);else t.textContent=w.w}
   const QDESC={order:'Susun kata yang diacak menjadi kalimat yang benar: ketuk kata sesuai urutan, ketuk lagi untuk melepas. Tombol speaker memutar kalimatnya.'};
   let Z=null;
   const ICON_SET='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6a.5.5 0 0 0 .1-.6l-1.9-3.3a.5.5 0 0 0-.6-.2l-2.4 1a7.4 7.4 0 0 0-1.7-1l-.4-2.5a.5.5 0 0 0-.5-.4h-3.8a.5.5 0 0 0-.5.4l-.4 2.5a7.4 7.4 0 0 0-1.7 1l-2.4-1a.5.5 0 0 0-.6.2L2.6 8.8a.5.5 0 0 0 .1.6l2 1.6a7.5 7.5 0 0 0 0 2l-2 1.6a.5.5 0 0 0-.1.6l1.9 3.3c.1.2.4.3.6.2l2.4-1c.5.4 1.1.7 1.7 1l.4 2.5c0 .2.2.4.5.4h3.8c.3 0 .5-.2.5-.4l.4-2.5c.6-.3 1.2-.6 1.7-1l2.4 1c.2.1.5 0 .6-.2l1.9-3.3a.5.5 0 0 0-.1-.6zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/></svg>';
@@ -292,7 +323,7 @@
   root.innerHTML=`<div class="rd">
   <div class="rtop"><div class="rhead">
     ${cfg.onBack?`<button type="button" class="rtb rback rback-btn" aria-label="Kembali ke form"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg><span>Kembali</span></button>`:''}
-    ${cfg.back===null?'':`<a class="rtb rback" href="${cfg.back||'/index.html'}" aria-label="Kembali ke beranda"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg><span>Kembali</span></a>`}
+    ${cfg.back===null?'':`<a class="rtb rback" href="${cfg.back||'./'}" aria-label="Kembali ke beranda"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/></svg><span>Kembali</span></a>`}
     <div class="rtitle" role="button" tabindex="0" aria-expanded="false" hidden></div>
     <div class="racts"><button class="rtb" data-a="pmenu" aria-expanded="false" aria-label="Menu: Play, Latihan${cfg.exportEl?', Ekspor':''}" title="Play, Latihan${cfg.exportEl?', Ekspor':''}">${ICON_SET}</button></div>
   </div>
@@ -318,7 +349,9 @@
         <label class="prow"><span>Jumlah ulang</span><input type="number" class="nin" data-r="cnt" min="0" max="20" step="1" inputmode="numeric" aria-label="Jumlah pengulangan, 0 berarti terus"><i class="nun">kali · 0 = terus</i></label>
         <label class="prow"><span>Jeda ulang</span><input type="number" class="nin" data-r="gap" min="0" max="10" step="0.5" inputmode="decimal" aria-label="Jeda sebelum mengulang (detik)"><i class="nun">detik</i></label>
       </div>
-      <label class="prow"><span>Fonetik</span><input type="checkbox" data-a="ph" aria-label="Tampilkan fonetik Inggris"><i class="nun">Tampilkan fonetik Inggris</i></label>
+      <label class="prow"><span>Fonetik</span><input type="checkbox" data-a="ph" aria-label="Tampilkan fonetik IPA"><i class="nun">Tampilkan fonetik (IPA)</i></label>
+      <label class="prow" data-row="fu" hidden><span class="fu-l">Furigana</span><input type="checkbox" data-a="fu" aria-label="Tampilkan furigana atau pinyin"><i class="nun fu-d">Tampilkan di atas kata</i></label>
+      <label class="prow" data-row="ro" hidden><span class="ro-l">Romaji</span><input type="checkbox" data-a="ro" aria-label="Tampilkan romaji atau romanisasi"><i class="nun ro-d">Tampilkan di bawah kata</i></label>
       <label class="prow"><span>Terjemahan</span><input type="checkbox" data-a="tr" aria-label="Tampilkan terjemahan"><i class="nun">Tampilkan terjemahan di bawah baris</i></label>
       <div class="gl rnote"></div>
   </div>
@@ -373,6 +406,12 @@
   $q('.rnote').textContent=cfg.phNote||'';
   const phBtn=$q('.rpanel [data-a=ph]');if(!cfg.hasPh){phBtn.disabled=true;phBtn.style.opacity='.5'}
   const trBtn=$q('.rpanel [data-a=tr]');if(!cfg.hasTr){trBtn.disabled=true;trBtn.style.opacity='.5'}
+  const fuBtn=$q('.rpanel [data-a=fu]'),roBtn=$q('.rpanel [data-a=ro]');
+  $q('[data-row=fu]').hidden=!cfg.hasFu;$q('[data-row=ro]').hidden=!cfg.hasRo;
+  $q('.fu-l').textContent=LG==='zh'?'Pinyin':'Furigana';$q('.fu-d').textContent=LG==='zh'?'Tampilkan pinyin di atas tiap karakter':'Tampilkan furigana di atas kanji';
+  $q('.ro-l').textContent=LG==='ja'?'Romaji':'Romanisasi';$q('.ro-d').textContent=LG==='ja'?'Tampilkan romaji di bawah kata':'Tampilkan romanisasi di bawah kata';
+  if(LG!=='en')art.lang=LG;
+  const SPKL={ja:'ja-JP',zh:'zh-CN',ko:'ko-KR',th:'th-TH',de:'de-DE',fr:'fr-FR',es:'es-ES',it:'it-IT',pt:'pt-BR',nl:'nl-NL',pl:'pl-PL',fi:'fi-FI',ru:'ru-RU',id:'id-ID',tr:'tr-TR',vi:'vi-VN',ar:'ar-SA',hi:'hi-IN',sv:'sv-SE'};
   /* kalimat */
   const SEG=[],segOf=new Array(WORDS.length).fill(0);
   (function(){let a=0;for(let i=0;i<WORDS.length;i++){const w=WORDS[i];
@@ -390,8 +429,9 @@
       if(w.b!==curB){flushTr();p=document.createElement('p');if(w.h)p.className='h'+(w.b===0?' big':'');art.appendChild(p);curB=w.b}
       if(w.tr){flushTr();pend=w.tr}
       const s=document.createElement('span');s.className='w f';s.dataset.i=i;
-      const t=document.createElement('span');t.className='t';t.textContent=w.w;s.appendChild(t);
+      const t=document.createElement('span');t.className='t';setT(t,i);s.appendChild(t);
       if(w.p){const q=document.createElement('span');q.className='ph';q.textContent=w.p;s.appendChild(q)}
+      if(w.r){const q=document.createElement('span');q.className='ro';q.textContent=w.r;s.appendChild(q)}
       spans[i]=s;p.appendChild(s);if(!/[\u3000-\u303f\u3040-\u30ff\u3400-\u9fff\uff00-\uffef]$/.test(w.w))p.appendChild(document.createTextNode(' '))});flushTr()})();
   function find(t){let lo=0,hi=WORDS.length-1,r=-1;while(lo<=hi){const m=(lo+hi)>>1;if(WORDS[m].s<=t){r=m;lo=m+1}else hi=m-1}return r}
   function paintAll(n){idx=n;for(let i=0;i<spans.length;i++){spans[i].classList.toggle('on',i===n);spans[i].classList.toggle('f',i>n)}}
@@ -441,6 +481,8 @@
     rd.style.setProperty('--fs',pref.fs);
     rd.classList.toggle('phon',!!pref.ph&&!!cfg.hasPh&&!P);
     rd.classList.toggle('trn',!!pref.tr&&!!cfg.hasTr&&!P);
+    rd.classList.toggle('roman',!!pref.ro&&!!cfg.hasRo&&!P);
+    rd.classList.toggle('furi',!!cfg.hasFu);rd.classList.toggle('nofu',!(pref.fu&&cfg.hasFu)||!!P);
     au.playbackRate=pref.speed;au.loop=pref.rep==='all';
     const setN=(k,v)=>$$('[data-r="'+k+'"]').forEach(el=>{if(el.type==='number'&&document.activeElement===el)return;el.value=v});
     setN('fs',pref.fs);setN('speed',pref.speed);setN('cnt',pref.cnt);setN('gap',pref.gap);setN('rep',pref.rep);
@@ -452,6 +494,7 @@
     $q('.pmd').textContent=QDESC[pref.pm]||(pref.pm==='fib'?'Ketik kata yang hilang sambil mendengarkan. Hijau = benar, merah = salah.':pref.pm==='hiw'?'Ketuk kata yang tidak sama dengan audio. Hijau = benar, merah = salah.':'Seret atau ketuk kata yang tepat. Menguji tenses, subjek-kata kerja, pronoun, artikel, dan preposisi. Tiap kartu berisi 2–4 kotak, dengan kata pengecoh. Jumlah kartu: 3 / 5 / 8.');
     phBtn.checked=!!pref.ph&&!!cfg.hasPh;
     trBtn.checked=!!pref.tr&&!!cfg.hasTr;
+    fuBtn.checked=!!pref.fu&&!!cfg.hasFu;roBtn.checked=!!pref.ro&&!!cfg.hasRo;
     $q('.rlab').textContent=pref.rep==='sentence'?('Ulang kalimat'+(pref.cnt?' '+pref.cnt+'×':' ∞')):pref.rep==='all'?'Ulang semua':(pref.speed!==1?pref.speed+'×':'');
     save();
   }
@@ -484,6 +527,8 @@
     if(a==='ptab'){setPane(v);return}
     if(a==='ph'){if(cfg.hasPh)pref.ph=!pref.ph}
     else if(a==='tr'){if(cfg.hasTr)pref.tr=!pref.tr}
+    else if(a==='fu'){if(cfg.hasFu)pref.fu=!pref.fu}
+    else if(a==='ro'){if(cfg.hasRo)pref.ro=!pref.ro}
     else if(a==='fs-')setFs(pref.fs-1);else if(a==='fs+')setFs(pref.fs+1);
     else if(a==='speed')setSpeed(+v);
     else if(a==='rep'){pref.rep=v;syncLoop()}
@@ -535,7 +580,7 @@
     const c=cands(q);
     return DC[key]=(async()=>{
       for(const w of c){
-        const r=await fetch('https://freedictionaryapi.com/api/v1/entries/en/'+encodeURIComponent(w)+'?translations=true');
+        const r=await fetch('https://freedictionaryapi.com/api/v1/entries/'+encodeURIComponent(LG||'en')+'/'+encodeURIComponent(w)+'?translations=true');
         if(r.status===404)continue;
         if(!r.ok)throw new Error(r.status===429?'Batas permintaan kamus tercapai. Coba lagi nanti.':'Kamus tidak bisa dimuat ('+r.status+').');
         const j=await r.json();
@@ -702,7 +747,7 @@
       if(a==='x')closeDict();
       else if(a==='star')stToggle();
       else if(a==='en'||a==='tr')setTab(a);
-      else if(a==='say'&&dSt){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(dSt.q);u.lang='en-US';speechSynthesis.speak(u)}catch(_){}}});
+      else if(a==='say'&&dSt){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(dSt.q);u.lang=LG==='en'?'en-US':(SPKL[LG]||LG);speechSynthesis.speak(u)}catch(_){}}});
     new MutationObserver(stRefresh).observe(dpEl,{subtree:true,childList:true,characterData:true});
     au.addEventListener('play',closeDict);
     addEventListener('resize',()=>{if(!dpEl.hidden)dpEl.style.bottom=(root.querySelector('.rbar').offsetHeight+10)+'px'})}
@@ -845,8 +890,8 @@
     spans.forEach((s,i)=>{
       s.classList.remove('pdim','pk','ok','bad','miss','rev','blk');
       s.removeAttribute('tabindex');s.removeAttribute('role');s.removeAttribute('aria-pressed');
-      const t=s.querySelector('.t');if(t){t.hidden=false;t.textContent=WORDS[i].w}
-      [...s.childNodes].forEach(n=>{if(n!==t&&!(n.classList&&n.classList.contains('ph')))n.remove()});
+      const t=s.querySelector('.t');if(t){t.hidden=false;setT(t,i)}
+      [...s.childNodes].forEach(n=>{if(n!==t&&!(n.classList&&(n.classList.contains('ph')||n.classList.contains('ro'))))n.remove()});
     });
     P=null;rd.classList.remove('prac');
     if(!keepBar)$q('.pbar').hidden=true;
@@ -1317,7 +1362,7 @@ function lessonEnd(slug,mount,self){
 
 (async()=>{
   const app=document.getElementById("app"),q=new URLSearchParams(location.search);
-  const fail=m=>{app.innerHTML='<div class="ld"><p></p><a href="/index.html">Kembali</a></div>';app.querySelector("p").textContent=m};
+  const fail=m=>{app.innerHTML='<div class="ld"><p></p><a href="./">Kembali</a></div>';app.querySelector("p").textContent=m};
   const pv=q.get("preview"),G=pv?window.parent:null;
   let f=q.get("q")||q.get("f")||location.hash.slice(1);
   f=(f||"").replace(/\.json$/i,"").replace(/[^\w.-]+/g,"-");
@@ -1332,10 +1377,10 @@ function lessonEnd(slug,mount,self){
       j=await r.json();
     }
     document.title=j.title||document.title;
-    const T=(j.transcript||j.words||[]).map(a=>({w:a[0],s:a[1],e:a[2],b:a[3],h:a[4],p:a[5],tr:a[6]||''}));
+    const T=(j.transcript||j.words||[]).map(a=>({w:a[0],s:a[1],e:a[2],b:a[3],h:a[4],p:a[5],tr:a[6]||'',f:a[7]||'',r:a[8]||''}));
     if(!T.length)throw new Error("kosong");
     let endCheck=null;
-    const cfg={words:T,audio:j.audio,key:pv?"preview":(j.slug||f),title:j.title||"",hasPh:T.some(x=>x.p),hasTr:T.some(x=>x.tr),
+    const cfg={words:T,audio:j.audio,key:pv?"preview":(j.slug||f),title:j.title||"",hasPh:T.some(x=>x.p),hasTr:T.some(x=>x.tr),hasFu:T.some(x=>x.f),hasRo:T.some(x=>x.r),lang:/^[a-z]{2,3}(-[a-z0-9]{2,8})?$/i.test(j.lang||'')?String(j.lang).toLowerCase():'en',
       onTime:(t,ls,le,en)=>{if(endCheck)endCheck(t,ls,le,en)}};
     let exEl=null;
     if(pv){
