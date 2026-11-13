@@ -106,7 +106,6 @@ details summary { cursor: pointer; font-weight: 700; }
 footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bottom: 32px; }
 @media (max-width: 640px) { td.k { display: none; } th:first-child { display: none; } td.src, td.tr { width: 50%; } }
 </style>
-<script src="i18n.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -377,10 +376,11 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
   }
 
   /* ---------- Terjemah ---------- */
+  function slOf(k) { return k.indexOf('data-index-json.') === 0 ? 'auto' : 'id'; }   // judul pelajaran (index.json) bahasa aslinya dideteksi otomatis
   function gcode() { var c = code(); return GCODE[c] || c; }
-  function gtx(texts) {
+  function gtx(texts, sl) {
     var q = texts.map(protect).join('\n');
-    return fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=id&tl=' + encodeURIComponent(gcode()) + '&dt=t&q=' + encodeURIComponent(q))
+    return fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + (sl || 'id') + '&tl=' + encodeURIComponent(gcode()) + '&dt=t&q=' + encodeURIComponent(q))
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (j) {
         var out = (j[0] || []).map(function (x) { return x[0] || ''; }).join('').replace(/\r/g, '').split('\n');
@@ -388,21 +388,21 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
         return out.map(function (s) { return restore(s.trim()); });
       });
   }
-  function mm(text) {
-    return fetch('https://api.mymemory.translated.net/get?langpair=id|' + encodeURIComponent(code()) + '&q=' + encodeURIComponent(protect(text)))
+  function mm(text, sl) {
+    return fetch('https://api.mymemory.translated.net/get?langpair=' + (sl === 'auto' ? 'en' : 'id') + '|' + encodeURIComponent(code()) + '&q=' + encodeURIComponent(protect(text)))
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (j) { var s = j.responseData && j.responseData.translatedText; if (!s || /MYMEMORY WARNING|INVALID/i.test(s)) throw new Error('ditolak'); return restore(s); });
   }
   function put(k, s) { var t = ensure(); if (s) { t[k] = s; delete state[k]; check(k); } else state[k] = 'fail'; }
   function one(k) {
-    var p = $('#engine').value === 'mm' ? mm(src[k]) : gtx([src[k]]).then(function (a) { return a[0]; });
+    var p = $('#engine').value === 'mm' ? mm(src[k], slOf(k)) : gtx([src[k]], slOf(k)).then(function (a) { return a[0]; });
     return p.then(function (s) { put(k, s); }).catch(function () { state[k] = 'fail'; });
   }
   function chunkOf(list) {
     var out = [], c = [], len = 0;
     list.forEach(function (k) {
       var l = encodeURIComponent(src[k]).length + 3;
-      if (c.length && (c.length >= 25 || len + l > 1500)) { out.push(c); c = []; len = 0; }
+      if (c.length && (c.length >= 25 || len + l > 1500 || slOf(k) !== slOf(c[0]))) { out.push(c); c = []; len = 0; }
       c.push(k); len += l;
     });
     if (c.length) out.push(c); return out;
@@ -427,7 +427,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     function next() {
       if (aborted || i >= chunks.length) return Promise.resolve();
       var ch = chunks[i++], p;
-      if (gt) p = gtx(ch.map(function (k) { return src[k]; })).then(function (arr) { ch.forEach(function (k, n) { put(k, arr[n]); }); }).catch(function () { return Promise.all(ch.map(one)); });
+      if (gt) p = gtx(ch.map(function (k) { return src[k]; }), slOf(ch[0])).then(function (arr) { ch.forEach(function (k, n) { put(k, arr[n]); }); }).catch(function () { return Promise.all(ch.map(one)); });
       else p = one(ch[0]);
       return p.then(function () { finished += ch.length; status(); refresh(); return new Promise(function (r) { setTimeout(r, 120); }); }).then(next);
     }
@@ -575,6 +575,21 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       getText('data/card.json').then(function (t) { Object.keys(JSON.parse(t).pages || {}).forEach(add); }).catch(function () {})
     ]).then(function () { return Object.keys(names); });
   }
+  function indexTitles() {                                  // judul tiap pelajaran di data/index.json
+    return getText('data/index.json?t=' + Date.now()).then(function (t) {
+      var out = [], seen = {};
+      (JSON.parse(t).lessons || []).forEach(function (l) { var v = nrm(String(l && l.title || '')); if (v.length >= 2 && !seen[v]) { seen[v] = 1; out.push(v); } });
+      return out;
+    }).catch(function () { return []; });
+  }
+  function cardTexts() {                                    // judul, deskripsi, kategori, dan tag tiap kartu di data/card.json
+    return getText('data/card.json?t=' + Date.now()).then(function (t) {
+      var out = [], seen = {}, add = function (v) { v = nrm(String(v == null ? '' : v)); if (v.length >= 2 && !seen[v]) { seen[v] = 1; out.push(v); } };
+      var pg = JSON.parse(t).pages || {};
+      Object.keys(pg).forEach(function (k) { var c = pg[k] || {}; add(c.title); add(c.description); add(c.category); (Array.isArray(c.tags) ? c.tags : []).forEach(add); });
+      return out;
+    }).catch(function () { return []; });
+  }
   $('#pgAuto').addEventListener('click', function () {
     if (!data) { pgStatus('Muat language.json dulu (langkah 1).', 'bad'); return; }
     var btn = this; btn.disabled = true; pgStatus('Mencari daftar halaman…');
@@ -594,7 +609,11 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       var list = Object.keys(got).sort();
       if (!list.length) { pgStatus('Tidak ada halaman yang bisa diambil. Buka builder ini lewat alamat situs (http/https), atau pakai “Pilih file HTML”.', 'bad'); return; }
       pages = list.map(function (n) { var h = got[n]; return { name: n, html: h, texts: scanHtml(h), hasScript: hasScript(h) }; });
-      analyze();
+      return Promise.all([cardTexts(), indexTitles()]).then(function (r) {   // teks kartu (card.json) dan judul pelajaran (index.json) ikut dipindai
+        if (r[0].length) pages.push({ name: 'data/card.json', html: '', texts: r[0], hasScript: true });
+        if (r[1].length) pages.push({ name: 'data/index.json', html: '', texts: r[1], hasScript: true });
+        analyze();
+      });
     }).catch(function (e) { pgStatus('Pemindaian gagal: ' + (e && e.message || e), 'bad'); })
       .then(function () { btn.disabled = false; });
   });
