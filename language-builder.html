@@ -142,10 +142,12 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
 
     <section class="step" aria-labelledby="s1b">
       <h2 id="s1b"><span class="num">+</span>Sinkronkan teks dari halaman HTML</h2>
-      <p class="hint">Opsional. Tombol <b>Pindai semua halaman otomatis</b> mengambil semua halaman <code>.html</code> situs ini langsung dari server (tanpa upload) dan menampilkan teks yang belum ada di <b>language.json</b>. Perlu dibuka lewat alamat situs (http/https), bukan file lokal. Atau pilih manual satu atau beberapa file <code>.html</code>. Teks yang tampil dibaca, lalu teks yang belum ada di <b>language.json</b> (bagian Indonesia) ditambahkan sebagai key baru. Kalau halaman belum memuat <code>i18n.js</code>, kamu bisa mengunduh HTML yang sudah disisipi scriptnya. Isi halaman selain itu tidak diubah. Hilangkan centang pada teks yang bukan bahasa Indonesia (mis. contoh kalimat English).</p>
+      <p class="hint">Opsional. Tombol <b>Pindai semua halaman otomatis</b> mengambil semua halaman <code>.html</code> situs ini langsung dari server (tanpa upload) dan menampilkan teks yang belum ada di <b>language.json</b>. Perlu dibuka lewat alamat situs (http/https), bukan file lokal. Atau pilih manual satu atau beberapa file <code>.html</code>. Kalau <code>card.json</code> atau <code>index.json</code> terbaru belum Anda upload ke situs, pilih langsung filenya lewat <b>Pilih card.json / index.json terbaru</b>: pemindaian memakai file itu, bukan yang ada di server. Teks yang tampil dibaca, lalu teks yang belum ada di <b>language.json</b> (bagian Indonesia) ditambahkan sebagai key baru. Kalau halaman belum memuat <code>i18n.js</code>, kamu bisa mengunduh HTML yang sudah disisipi scriptnya. Isi halaman selain itu tidak diubah. Hilangkan centang pada teks yang bukan bahasa Indonesia (mis. contoh kalimat English).</p>
       <div class="row">
         <button class="btn btn-primary" id="pgAuto" type="button">Pindai semua halaman otomatis</button>
         <label class="btn" for="pgFiles" style="cursor:pointer">Pilih file HTML</label>
+        <label class="btn" for="pgJson" style="cursor:pointer">Pilih card.json / index.json terbaru</label>
+        <input id="pgJson" type="file" accept=".json,application/json" multiple hidden>
         <input id="pgFiles" type="file" accept=".html,.htm,text/html" multiple hidden>
         <button class="btn btn-primary" id="pgApply" type="button" disabled>Tambahkan teks terpilih</button>
         <button class="btn" id="pgToggle" type="button" disabled>Centang / kosongkan semua</button>
@@ -497,11 +499,13 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     m = /<head[^>]*>/i.exec(html);
     return m ? html.slice(0, m.index + m[0].length) + '\n' + tag + html.slice(m.index + m[0].length) : tag + '\n' + html;
   }
+  function literalLess(s) { return !/[A-Za-z0-9\u00C0-\uFFFF]/.test(s.replace(/\{[A-Za-z0-9_]+\}/g, '')); }   // mis. "{n}" saja: tanpa teks tetap
   function existingMatchers() {                            // teks Indonesia yang sudah ada: persis atau pola {n}
     var exact = {}, pats = [];
     keys.forEach(function (k) {
       var s = nrm(src[k]); if (!s) return;
       if (/\{[A-Za-z0-9_]+\}/.test(s)) {
+        if (literalLess(s)) return;                         // pola kosong cocok dengan semua teks, abaikan
         try { pats.push(new RegExp('^' + s.replace(/[.*+?^$()|[\]\\]/g, '\\$&').replace(/\{[A-Za-z0-9_]+\}/g, '(.+?)') + '$')); } catch (e) {}
       } else exact[s] = 1;
     });
@@ -519,13 +523,14 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     var isKnown = existingMatchers(), seen = {}, used = {};
     cand = [];
     pages.forEach(function (pg) {
-      pg.texts.forEach(function (s) { used[s] = 1; if (!seen[s] && !isKnown(s)) { seen[s] = 1; cand.push({ text: s, page: pg.name, on: !IPA_RE.test(s) }); } });
+      pg.texts.forEach(function (s) { used[s] = 1; if (!seen[s] && !literalLess(s) && !isKnown(s)) { seen[s] = 1; cand.push({ text: s, page: pg.name, on: !IPA_RE.test(s) }); } });
     });
     unused = keys.filter(function (k) { var s = nrm(src[k]); return !/\{[A-Za-z0-9_]+\}|…/.test(s) && !used[s] && state[k] !== 'skip' && !/^\W*$/.test(s); });
     renderCand(); renderPgOut();
     var nHtml = pages.filter(function (p) { return !p.hasScript; }).length;
     pgStatus(pages.length + ' halaman dibaca: ' + cand.length + ' teks baru, ' + unused.length + ' teks lama tidak ditemukan di halaman yang dipilih' +
-      (nHtml ? ', ' + nHtml + ' halaman belum memuat i18n.js.' : '.'), cand.length ? 'warn' : 'ok');
+      (nHtml ? ', ' + nHtml + ' halaman belum memuat i18n.js.' : '.') +
+      (upl.card || upl.index ? ' Memakai ' + [upl.card ? 'card.json' : '', upl.index ? 'index.json' : ''].filter(Boolean).join(' dan ') + ' dari file yang Anda pilih.' : ''), cand.length ? 'warn' : 'ok');
     $('#pgApply').disabled = !cand.length; $('#pgToggle').disabled = !cand.length; $('#pgPrune').disabled = !unused.length;
   }
   function renderCand() {
@@ -557,6 +562,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       return new Promise(function (ok) { var r = new FileReader(); r.onload = function () { ok({ name: f.name, html: String(r.result) }); }; r.onerror = function () { ok(null); }; r.readAsText(f); });
     })).then(function (list) {
       pages = list.filter(Boolean).map(function (p) { p.texts = scanHtml(p.html); p.hasScript = hasScript(p.html); return p; });
+      addPseudo(upl.card ? textsOfCard(upl.card) : null, upl.index ? titlesOfIndex(upl.index) : null);
       analyze();
     });
   });
@@ -575,21 +581,45 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       getText('data/card.json').then(function (t) { Object.keys(JSON.parse(t).pages || {}).forEach(add); }).catch(function () {})
     ]).then(function () { return Object.keys(names); });
   }
-  function indexTitles() {                                  // judul tiap pelajaran di data/index.json
-    return getText('data/index.json?t=' + Date.now()).then(function (t) {
-      var out = [], seen = {};
-      (JSON.parse(t).lessons || []).forEach(function (l) { var v = nrm(String(l && l.title || '')); if (v.length >= 2 && !seen[v]) { seen[v] = 1; out.push(v); } });
-      return out;
-    }).catch(function () { return []; });
+  var upl = { card: null, index: null };                     // card.json / index.json yang dipilih manual (menggantikan versi di server)
+  function uniq(list) { var out = [], seen = {}; list.forEach(function (v) { v = nrm(String(v == null ? '' : v)); if (v.length >= 2 && !seen[v]) { seen[v] = 1; out.push(v); } }); return out; }
+  function textsOfCard(j) {                                  // judul, deskripsi, kategori, dan tag tiap kartu
+    var all = [], pg = (j && j.pages) || {};
+    Object.keys(pg).forEach(function (k) { var c = pg[k] || {}; all.push(c.title, c.description, c.category); (Array.isArray(c.tags) ? c.tags : []).forEach(function (t) { all.push(t); }); });
+    return uniq(all);
   }
-  function cardTexts() {                                    // judul, deskripsi, kategori, dan tag tiap kartu di data/card.json
-    return getText('data/card.json?t=' + Date.now()).then(function (t) {
-      var out = [], seen = {}, add = function (v) { v = nrm(String(v == null ? '' : v)); if (v.length >= 2 && !seen[v]) { seen[v] = 1; out.push(v); } };
-      var pg = JSON.parse(t).pages || {};
-      Object.keys(pg).forEach(function (k) { var c = pg[k] || {}; add(c.title); add(c.description); add(c.category); (Array.isArray(c.tags) ? c.tags : []).forEach(add); });
-      return out;
-    }).catch(function () { return []; });
+  function titlesOfIndex(j) { return uniq(((j && j.lessons) || []).map(function (l) { return l && l.title; })); }
+  function cardTexts() {
+    if (upl.card) return Promise.resolve(textsOfCard(upl.card));
+    return getText('data/card.json?t=' + Date.now()).then(function (t) { return textsOfCard(JSON.parse(t)); }).catch(function () { return []; });
   }
+  function indexTitles() {
+    if (upl.index) return Promise.resolve(titlesOfIndex(upl.index));
+    return getText('data/index.json?t=' + Date.now()).then(function (t) { return titlesOfIndex(JSON.parse(t)); }).catch(function () { return []; });
+  }
+  function addPseudo(card, index) {                           // pasang card.json dan index.json sebagai "halaman" pindaian
+    pages = pages.filter(function (p) { return p.name !== 'data/card.json' && p.name !== 'data/index.json'; });
+    if (card && card.length) pages.push({ name: 'data/card.json', html: '', texts: card, hasScript: true });
+    if (index && index.length) pages.push({ name: 'data/index.json', html: '', texts: index, hasScript: true });
+  }
+  $('#pgJson').addEventListener('change', function () {
+    var files = [].slice.call(this.files); this.value = ''; if (!files.length) return;
+    if (!data) { pgStatus('Muat language.json dulu (langkah 1).', 'bad'); return; }
+    Promise.all(files.map(function (f) {
+      return new Promise(function (ok) { var r = new FileReader(); r.onload = function () { try { ok({ name: f.name, j: JSON.parse(String(r.result)) }); } catch (e) { ok({ name: f.name, bad: true }); } }; r.onerror = function () { ok({ name: f.name, bad: true }); }; r.readAsText(f); });
+    })).then(function (list) {
+      var got = [], skipped = [];
+      list.forEach(function (x) {
+        if (x.bad || !x.j) { skipped.push(x.name); return; }
+        if (x.j.pages && typeof x.j.pages === 'object' && !Array.isArray(x.j.pages)) { upl.card = x.j; got.push('card.json'); }
+        else if (Array.isArray(x.j.lessons)) { upl.index = x.j; got.push('index.json'); }
+        else skipped.push(x.name);
+      });
+      if (!got.length) { pgStatus('Tidak ada card.json atau index.json yang dikenali' + (skipped.length ? ' (' + skipped.join(', ') + ')' : '') + '.', 'bad'); return; }
+      addPseudo(upl.card ? textsOfCard(upl.card) : null, upl.index ? titlesOfIndex(upl.index) : null);
+      analyze();
+    });
+  });
   $('#pgAuto').addEventListener('click', function () {
     if (!data) { pgStatus('Muat language.json dulu (langkah 1).', 'bad'); return; }
     var btn = this; btn.disabled = true; pgStatus('Mencari daftar halaman…');
@@ -610,8 +640,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       if (!list.length) { pgStatus('Tidak ada halaman yang bisa diambil. Buka builder ini lewat alamat situs (http/https), atau pakai “Pilih file HTML”.', 'bad'); return; }
       pages = list.map(function (n) { var h = got[n]; return { name: n, html: h, texts: scanHtml(h), hasScript: hasScript(h) }; });
       return Promise.all([cardTexts(), indexTitles()]).then(function (r) {   // teks kartu (card.json) dan judul pelajaran (index.json) ikut dipindai
-        if (r[0].length) pages.push({ name: 'data/card.json', html: '', texts: r[0], hasScript: true });
-        if (r[1].length) pages.push({ name: 'data/index.json', html: '', texts: r[1], hasScript: true });
+        addPseudo(r[0], r[1]);
         analyze();
       });
     }).catch(function (e) { pgStatus('Pemindaian gagal: ' + (e && e.message || e), 'bad'); })
