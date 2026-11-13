@@ -141,19 +141,23 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
 <main class="wrap page">
   <header>
     <h1>Pembuat index.json</h1>
-    <p class="lead">Pilih semua file JSON pelajaran sekaligus, lalu unduh <code>index.json</code> yang sudah diperbarui secara keseluruhan untuk daftar di <code>index.html</code>.</p>
+    <p class="lead">Pindai folder <code>data/</code> sekali klik: semua file JSON pelajaran dibaca otomatis, kecuali <code>language.json</code>, <code>card.json</code>, dan <code>index.json</code> (yang terakhir hanya dipakai sebagai index lama). Lalu unduh <code>index.json</code> yang sudah diperbarui.</p>
   </header>
 
   <section class="step s1" aria-labelledby="h1s">
-    <h2 id="h1s"><span class="n">1</span>Pilih file JSON</h2>
+    <h2 id="h1s"><span class="n">1</span>Pindai folder data</h2>
     <label class="drop" id="drop">
-      <b>Pilih beberapa file sekaligus</b>
+      <b>Atau pilih/seret file satu per satu</b>
       <span>Semua file pelajaran (<code>nama.json</code>). Kalau punya <code>index.json</code> lama, ikutkan juga supaya tanggal tambah, kategori, tag, dan gambar tetap terjaga. Bisa juga diseret ke sini.</span>
       <input type="file" id="files" accept=".json,application/json" multiple>
     </label>
     <div class="row">
+      <button class="btn primary" id="bScan" type="button">Pindai folder data/</button>
       <button class="btn" id="bClear" type="button" disabled>Kosongkan</button>
+      <input type="file" id="folder" webkitdirectory multiple hidden>
     </div>
+    <p class="note">Pilih folder <code>data/</code> (atau folder proyek yang berisi <code>data/</code>). Semua <code>.json</code> di dalamnya dipindai, <code>language.json</code> dan <code>card.json</code> dilewati. Pindai ulang kapan saja untuk memuat file baru. Browser tidak boleh membaca folder tanpa izin Anda, jadi pemilihan folder tetap diperlukan.</p>
+    <p class="note" id="skipNote" hidden></p>
   </section>
 
   <section class="step s2" id="s2" aria-labelledby="h2s" hidden>
@@ -242,6 +246,8 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   let oldIndex = new Map();        // slug -> entri dari index.json lama
   let indexName = '';
   const errors = [];
+  const SKIP = new Set(['language.json', 'card.json']);   // bukan pelajaran, selalu dilewati
+  const skipped = [];
   const feedImg = new Map();       // link RSS -> URL gambar channel (hasil ambil otomatis)
   const feedTried = new Set();
   const ui = new Map();            // slug -> { include, category, tags } hasil ubahan di layar
@@ -250,6 +256,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   async function addFiles(list) {
     const dup = [];
     for (const f of Array.from(list)) {
+      if (SKIP.has(f.name.toLowerCase())) { if (skipped.indexOf(f.name) < 0) skipped.push(f.name); continue; }
       if (!/\.json$/i.test(f.name)) { errors.push({ name: f.name, msg: 'Bukan file .json.' }); continue; }
       let j;
       try { j = JSON.parse(await f.text()); } catch (e) { errors.push({ name: f.name, msg: 'Bukan JSON yang valid.' }); continue; }
@@ -312,6 +319,47 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
     j.lessons.forEach((l) => { if (l && typeof l.slug === 'string' && SLUG_RE.test(l.slug)) oldIndex.set(l.slug, l); });
     indexName = name;
   }
+
+  /* ---- pindai folder data/ ---- */
+  async function scanFiles(files) {
+    fileLessons.clear(); errors.length = 0; skipped.length = 0; toast('');
+    await addFiles(files);
+    const n = fileLessons.size;
+    toast('Pemindaian selesai: ' + n + ' pelajaran ditemukan.');
+  }
+  async function collectDir(dir) {
+    const out = [];
+    let dataDir = null;
+    for await (const [name, h] of dir.entries()) {
+      if (h.kind === 'file' && /\.json$/i.test(name)) out.push(await h.getFile());
+      else if (h.kind === 'directory' && name.toLowerCase() === 'data') dataDir = h;
+    }
+    if (dataDir) { const inner = []; for await (const [name, h] of dataDir.entries()) if (h.kind === 'file' && /\.json$/i.test(name)) inner.push(await h.getFile()); return inner; }
+    return out;
+  }
+  function pickFromRelative(files) {
+    const js = Array.from(files).filter((f) => /\.json$/i.test(f.name));
+    const par = (f) => { const p = (f.webkitRelativePath || f.name).split('/'); p.pop(); return p; };
+    const inData = js.filter((f) => { const p = par(f); return p.length && p[p.length - 1].toLowerCase() === 'data'; });
+    if (inData.length) return inData;
+    const min = Math.min(...js.map((f) => par(f).length));
+    return js.filter((f) => par(f).length === min);
+  }
+  $('#bScan').addEventListener('click', async () => {
+    if (window.showDirectoryPicker) {
+      try {
+        const dir = await window.showDirectoryPicker({ id: 'lf-data', mode: 'read' });
+        await scanFiles(await collectDir(dir));
+      } catch (e) { if (e && e.name !== 'AbortError') { toast('Gagal membuka folder: ' + (e.message || e.name), true); } }
+    } else {
+      $('#folder').click();   // Firefox/Safari: pemilih folder bawaan
+    }
+  });
+  $('#folder').addEventListener('change', async (e) => {
+    const picked = pickFromRelative(e.target.files);
+    e.target.value = '';
+    if (picked.length) await scanFiles(picked); else toast('Tidak ada file .json di folder itu.', true);
+  });
 
   /* ---- menyusun daftar akhir ---- */
   function rows() {
@@ -419,6 +467,9 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   const list = $('#list');
   function render() {
     const rs = rows();
+    const sk = $('#skipNote');
+    sk.hidden = !skipped.length;
+    sk.textContent = skipped.length ? 'Dilewati (bukan pelajaran): ' + skipped.join(', ') + '.' : '';
     const has = rs.length > 0 || errors.length > 0;
     $('#s2').hidden = !has;
     $('#bClear').disabled = !has && !indexName;
@@ -494,7 +545,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   ['dragenter', 'dragover'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('over'); }));
   ['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('over'); }));
   drop.addEventListener('drop', (e) => { if (e.dataTransfer && e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
-  $('#bClear').addEventListener('click', () => { fileLessons.clear(); oldIndex = new Map(); indexName = ''; errors.length = 0; ui.clear(); feedImg.clear(); feedTried.clear(); toast(''); render(); });
+  $('#bClear').addEventListener('click', () => { fileLessons.clear(); oldIndex = new Map(); indexName = ''; errors.length = 0; skipped.length = 0; ui.clear(); feedImg.clear(); feedTried.clear(); toast(''); render(); });
 
   let tt = null;
   function toast(msg, bad) { const t = $('#toast'); t.textContent = msg; t.className = 'toast' + (bad ? ' bad' : ''); clearTimeout(tt); if (msg) tt = setTimeout(() => { t.textContent = ''; }, 5000); }
