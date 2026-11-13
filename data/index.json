@@ -7,15 +7,31 @@
       "videoId": "",
       "lines": 58,
       "audio": "https://delivery-edge.libsyn.com/shows/17954/items/3941051/01_Bertie_s_Christmas_Storynory.mp3",
+      "lang": "en",
       "duration": 344,
       "image": "https://content.storynory.com/wp-content/uploads/2025/09/Camp_Counsillor_moley-1-scaled-450x450.jpg.webp",
       "added": "2026-11-12T02:43:52.669Z"
+    },
+    {
+      "slug": "7-minutes-of-real-life-korean-slow-korean-vlog",
+      "title": "7 Minutes of Real-Life Korean | Slow Korean Vlog",
+      "videoId": "5dkD1s0YGh0",
+      "lines": 110,
+      "lang": "ko",
+      "category": "Vlog",
+      "channel": "Korean Daily by Summer",
+      "tags": [
+        "Korea",
+        "real-life"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
     },
     {
       "slug": "can-chocolate-make-you-better-at-english",
       "title": "Can chocolate make you better at English?",
       "videoId": "jAdJAzntcjM",
       "lines": 326,
+      "lang": "en",
       "category": "Vlog",
       "channel": "English by Jay - Sprout",
       "tags": [
@@ -31,6 +47,7 @@
       "videoId": "",
       "lines": 1,
       "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pldlfg.mp3",
+      "lang": "en",
       "channel": "6 Minute English",
       "duration": 436,
       "image": "http://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg",
@@ -38,10 +55,95 @@
       "added": "2026-11-11T10:03:07.852Z"
     },
     {
+      "slug": "easy-japanese-15-valentines-day",
+      "title": "Easy Japanese 15 - Valentines Day",
+      "videoId": "qrtsf335r2M",
+      "lines": 105,
+      "lang": "ja",
+      "category": "Vlog",
+      "channel": "Easy Languages",
+      "tags": [
+        "Japanese",
+        "easy japan"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "easy-japanese-16-japanese-men",
+      "title": "Easy Japanese 16 - Japanese Men",
+      "videoId": "hfeGbwlJK1Y",
+      "lines": 90,
+      "lang": "ja",
+      "category": "Vlog",
+      "channel": "Easy Languages",
+      "tags": [
+        "Japanese",
+        "easy japan"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "easy-japanese-17-onomatope",
+      "title": "Easy Japanese 17 - Onomatope",
+      "videoId": "63epkh7SR98",
+      "lines": 100,
+      "lang": "ja",
+      "category": "Vlog",
+      "channel": "Easy Languages",
+      "tags": [
+        "Japanese",
+        "easy japan"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "easy-japanese-18-onomatope-ii",
+      "title": "Easy Japanese 18 - Onomatope (II)",
+      "videoId": "IsdAknr67gk",
+      "lines": 63,
+      "lang": "ja",
+      "category": "Vlog",
+      "channel": "Easy Languages",
+      "tags": [
+        "Japanese",
+        "easy japan"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "easy-japanese-19-slang-words",
+      "title": "Easy Japanese 19 - Slang words",
+      "videoId": "qK--SAlGD0Q",
+      "lines": 103,
+      "lang": "ja",
+      "category": "Vlog",
+      "channel": "Easy Languages",
+      "tags": [
+        "Japanese",
+        "easy jalan"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "easy-way-to-learn-spanish-with-repetition-comprehensible-input",
+      "title": "Easy Way to LEARN SPANISH with REPETITION // Comprehensible Input",
+      "videoId": "rKhPeDyKJ1g",
+      "lines": 171,
+      "lang": "es",
+      "category": "Vlog",
+      "channel": "Spanish After Hours",
+      "tags": [
+        "Spanish",
+        "compréhensible input"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
       "slug": "learn-english-naturally-with-this-easy-vlog-comprehensible-input",
       "title": "Learn English Naturally With This Easy Vlog | Comprehensible Input",
       "videoId": "EoOkWxc0-j0",
       "lines": 596,
+      "lang": "en",
       "category": "Vlog",
       "channel": "Volka English",
       "tags": [
@@ -51,10 +153,64 @@
       "added": "2026-10-27T22:50:24.297Z"
     },
     {
+      "slug": "learn-korean-with-a-vlog-real-life-korean-en-ko-sub",
+      "title": "Learn Korean With a Vlog | Real-Life Korean [EN/KO SUB]",
+      "videoId": "fMrWnig71LI",
+      "lines": 138,
+      "lang": "ko",
+      "channel": "Korean Daily by Summer",
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "learn-korean-with-me-at-the-airport-real-life-korean-listening",
+      "title": "Learn Korean with Me at the Airport ✈️ | Real-Life Korean Listening",
+      "videoId": "OkgZdlu5YhU",
+      "lines": 159,
+      "lang": "ko",
+      "category": "Vlog",
+      "channel": "Korean Daily by Summer",
+      "tags": [
+        "Airport",
+        "Korea learning"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "learn-spanish-naturally-a-morning-in-bogota",
+      "title": "Learn Spanish Naturally | A Morning in Bogotá",
+      "videoId": "end-26x5cK0",
+      "lines": 136,
+      "lang": "es",
+      "category": "Vlog",
+      "channel": "Un Cafecito en Español ☕",
+      "tags": [
+        "Naturally",
+        "Spanish",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "learn-spanish-naturally-with-this-vlog-w-subtitles",
+      "title": "LEARN SPANISH NATURALLY with This VLOG 🇪🇸 (w/ subtitles!)",
+      "videoId": "hjgiXM9zUiY",
+      "lines": 289,
+      "lang": "es",
+      "category": "Vlog",
+      "channel": "Spanish After Hours",
+      "tags": [
+        "Spanish",
+        "learn Spanish",
+        "naturally"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
       "slug": "speak-english-naturally-with-me-easy-comprehensible-input-vlog",
       "title": "Speak English Naturally With Me | Easy Comprehensible Input Vlog",
       "videoId": "DZP5ZL-JxSQ",
       "lines": 451,
+      "lang": "en",
       "category": "Vlog",
       "channel": "Volka English",
       "tags": [
@@ -65,6 +221,629 @@
       "added": "2026-10-27T22:50:24.297Z"
     },
     {
+      "slug": "sub-learn-korean-with-vlog-for-beginners-ep-8",
+      "title": "Sub) Learn Korean with Vlog for beginners Ep.8",
+      "videoId": "sa0mN3K7BIM",
+      "lines": 158,
+      "lang": "ko",
+      "category": "Vlog",
+      "channel": "최수수 ChoiSusu",
+      "tags": [
+        "Food",
+        "Korea learning"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-1",
+      "title": "CHAPTER XXV. CHERKIS",
+      "videoId": "",
+      "lines": 24,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 1,
+      "words": 772,
+      "duration": 257,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-10",
+      "title": "CHAPTER IX. THE PORTAL OF FLAME",
+      "videoId": "",
+      "lines": 50,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 10,
+      "words": 2074,
+      "duration": 691,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-11",
+      "title": "CHAPTER X. “WITCH! GIVE BACK MY SISTER”",
+      "videoId": "",
+      "lines": 66,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 11,
+      "words": 2268,
+      "duration": 756,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-12",
+      "title": "CHAPTER XI. THE METAL EMPEROR",
+      "videoId": "",
+      "lines": 87,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 12,
+      "words": 2874,
+      "duration": 958,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-13",
+      "title": "CHAPTER XII. “I WILL GIVE YOU PEACE”",
+      "videoId": "",
+      "lines": 55,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 13,
+      "words": 1846,
+      "duration": 615,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-14",
+      "title": "CHAPTER XIII. “VOICE FROM THE VOID”",
+      "videoId": "",
+      "lines": 36,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 14,
+      "words": 1253,
+      "duration": 418,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-15",
+      "title": "CHAPTER XIV. “FREE! BUT A MONSTER!”",
+      "videoId": "",
+      "lines": 60,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 15,
+      "words": 1856,
+      "duration": 619,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-16",
+      "title": "CHAPTER XV. THE HOUSE OF NORHALA",
+      "videoId": "",
+      "lines": 112,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 16,
+      "words": 4131,
+      "duration": 1377,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-17",
+      "title": "CHAPTER XVII. YURUK",
+      "videoId": "",
+      "lines": 45,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 17,
+      "words": 1423,
+      "duration": 474,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-18",
+      "title": "CHAPTER XVIII. INTO THE PIT",
+      "videoId": "",
+      "lines": 121,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 18,
+      "words": 4430,
+      "duration": 1477,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-19",
+      "title": "CHAPTER XIX. THE CITY THAT WAS ALIVE",
+      "videoId": "",
+      "lines": 98,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 19,
+      "words": 3192,
+      "duration": 1064,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-2",
+      "title": "CHAPTER I. VALLEY OF THE BLUE POPPIES",
+      "videoId": "",
+      "lines": 82,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 2,
+      "words": 2956,
+      "duration": 985,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-20",
+      "title": "CHAPTER XX. VAMPIRES OF THE SUN",
+      "videoId": "",
+      "lines": 250,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 20,
+      "words": 8053,
+      "duration": 2684,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-21",
+      "title": "CHAPTER XXII. THE ENSORCELLED CHAMBER",
+      "videoId": "",
+      "lines": 67,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 21,
+      "words": 2553,
+      "duration": 851,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-22",
+      "title": "CHAPTER XXIII. THE TREACHERY OF YURUK",
+      "videoId": "",
+      "lines": 150,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 22,
+      "words": 4907,
+      "duration": 1636,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-23",
+      "title": "CHAPTER XXIV. RUSZARK",
+      "videoId": "",
+      "lines": 74,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 23,
+      "words": 2441,
+      "duration": 814,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-24",
+      "title": "CHAPTER XXV. CHERKIS",
+      "videoId": "",
+      "lines": 74,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 24,
+      "words": 2319,
+      "duration": 773,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-25",
+      "title": "CHAPTER XXVI. THE VENGEANCE OF NORHALA",
+      "videoId": "",
+      "lines": 78,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 25,
+      "words": 2477,
+      "duration": 826,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-26",
+      "title": "CHAPTER XXVII. “THE DRUMS OF DESTINY”",
+      "videoId": "",
+      "lines": 105,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 26,
+      "words": 3520,
+      "duration": 1173,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-27",
+      "title": "CHAPTER XXVIII. THE FRENZY OF RUTH",
+      "videoId": "",
+      "lines": 97,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 27,
+      "words": 3669,
+      "duration": 1223,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-28",
+      "title": "CHAPTER XXIX. THE PASSING OF NORHALA",
+      "videoId": "",
+      "lines": 69,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 28,
+      "words": 2129,
+      "duration": 710,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-29",
+      "title": "CHAPTER XXX. BURNED OUT",
+      "videoId": "",
+      "lines": 130,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 29,
+      "words": 4340,
+      "duration": 1447,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-3",
+      "title": "CHAPTER II. THE SIGIL ON THE ROCKS",
+      "videoId": "",
+      "lines": 42,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 3,
+      "words": 1390,
+      "duration": 463,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-4",
+      "title": "CHAPTER III. RUTH VENTNOR",
+      "videoId": "",
+      "lines": 123,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 4,
+      "words": 3625,
+      "duration": 1208,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-5",
+      "title": "CHAPTER IV. METAL WITH A BRAIN",
+      "videoId": "",
+      "lines": 74,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 5,
+      "words": 2153,
+      "duration": 718,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-6",
+      "title": "CHAPTER V. THE SMITING THING",
+      "videoId": "",
+      "lines": 114,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 6,
+      "words": 3190,
+      "duration": 1063,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-7",
+      "title": "CHAPTER VI. NORHALA OF THE LIGHTNINGS",
+      "videoId": "",
+      "lines": 113,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 7,
+      "words": 3535,
+      "duration": 1178,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-8",
+      "title": "CHAPTER VII. THE SHAPES IN THE MIST",
+      "videoId": "",
+      "lines": 53,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 8,
+      "words": 1438,
+      "duration": 479,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "the-metal-monster-bab-9",
+      "title": "CHAPTER VIII. THE DRUMS OF THUNDER",
+      "videoId": "",
+      "lines": 80,
+      "type": "read",
+      "book": "The Metal Monster",
+      "chapter": 9,
+      "words": 2609,
+      "duration": 870,
+      "image": "https://i.imgur.com/WtjPHMA.jpeg",
+      "lang": "en",
+      "category": "Artikel",
+      "channel": "Abraham Merritt",
+      "tags": [
+        "Fiction",
+        "ebook",
+        "learn"
+      ],
+      "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
       "slug": "three-iran-backed-suspects-plotted-attacks-including-raf-fai",
       "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
       "videoId": "",
@@ -73,6 +852,7 @@
       "words": 770,
       "duration": 257,
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ba2/live/c17cf610-dd8f-11f1-8c82-87885cae71d3.jpg",
+      "lang": "en",
       "category": "Berita",
       "channel": "BBC News",
       "added": "2026-11-11T10:55:00.732Z"
