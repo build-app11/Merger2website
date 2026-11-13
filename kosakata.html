@@ -447,7 +447,6 @@ body.srs .stm{color:var(--muted)}
     <div class="g dd" id="g-ls"><span class="lab" id="lab-ls">Pelajaran</span><button type="button" class="ddb" id="ddb" aria-expanded="false" aria-controls="ls" aria-labelledby="lab-ls ddb"><span id="ddt">Pilih pelajaran</span><i aria-hidden="true">▾</i></button><div class="ls" id="ls" role="group" aria-label="Pilih pelajaran" hidden></div></div>
     <div class="g dd" id="g-anki" hidden><span class="lab" id="lab-as">Deck Anki</span><button type="button" class="ddb" id="adb" aria-expanded="false" aria-controls="als" aria-labelledby="lab-as adb"><span id="adt">Pilih deck</span><i aria-hidden="true">▾</i></button><div class="ls" id="als" role="group" aria-label="Pilih deck Anki" hidden></div><div class="arow"><button type="button" class="x" id="adeck">＋ Deck</button><button type="button" class="x" id="aadd">＋ Kartu</button><button type="button" class="x" id="aimp">＋ Impor .apkg / .csv / .txt</button><input type="file" id="afile" accept=".apkg,.csv,.txt" multiple hidden><button type="button" class="x" id="astat">Statistik</button><button type="button" class="x" id="abrw">Card Browser</button><button type="button" class="x" id="asmp">Contoh CSV</button><label class="mdr" style="flex-basis:100%"><input type="checkbox" id="ahdr" checked> CSV/TXT: baris pertama = judul kolom</label></div><div class="qzs" id="srsinfo" hidden></div><button type="button" class="x" id="cstudy" hidden>Belajar kustom…</button></div>
     <div class="g"><span class="lab">Mode</span><div class="chips" id="c-mode"><button class="chip" data-v="match" aria-pressed="true">Cocokkan kata</button><button class="chip" data-v="tr" aria-pressed="false">Terjemah kata</button><button class="chip" data-v="srs" aria-pressed="false">Hafalan (SRS)</button></div></div>
-    <div class="g" id="g-lang"><label class="lab" for="lang">Bahasa terjemahan</label><select class="lsel" id="lang"></select></div>
     <div class="g" id="g-dir"><span class="lab">Arah</span><div class="chips" id="c-dir"><button class="chip" id="d-ei" data-v="ei" aria-pressed="true"></button><button class="chip" id="d-ie" data-v="ie" aria-pressed="false"></button></div></div>
     <div class="g" id="g-n"><span class="lab">Jumlah soal</span><div class="chips" id="c-n"><button class="chip" data-v="4" aria-pressed="false">4</button><button class="chip" data-v="6" aria-pressed="true">6</button><button class="chip" data-v="8" aria-pressed="false">8</button></div></div>
     <div class="g" id="g-new" hidden><span class="lab">Kartu baru per hari</span><div class="chips" id="c-new"><button class="chip" data-v="10" aria-pressed="false">10</button><button class="chip" data-v="20" aria-pressed="true">20</button><input type="number" id="i-new" min="1" inputmode="numeric" aria-label="Jumlah kartu baru per hari (isi sendiri)" class="orow-in"></div></div>
@@ -474,14 +473,14 @@ const mk=(t,c,x)=>{const n=document.createElement(t);if(c)n.className=c;if(x!=nu
 const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const STOPW=new Set('the and but for with from that this these those have has had was were are been being not you your his her their our they them she him its than then into over after before there here what which who whom when where how very just also more most some any all each such only own same too would could should might will can may about because while until upon onto'.split(' '));
 const LANGS=[['id','Indonesia'],['ms','Melayu'],['jv','Jawa'],['su','Sunda'],['es','Spanyol'],['fr','Prancis'],['de','Jerman'],['it','Italia'],['pt','Portugis'],['nl','Belanda'],['ru','Rusia'],['ar','Arab'],['hi','Hindi'],['ja','Jepang'],['ko','Korea'],['zh-CN','Mandarin'],['th','Thai'],['vi','Vietnam'],['tr','Turki']];
-const LSK='kosakata.lang';
-let saved='id';try{saved=localStorage.getItem(LSK)||'id'}catch(e){}
-const opt={mode:'match',dir:'ei',n:6,tl:LANGS.some(l=>l[0]===saved)?saved:'id'};
-const langName=()=>(LANGS.find(l=>l[0]===opt.tl)||LANGS[0])[1];
-function paintLang(){$('#d-ei').textContent='Inggris → '+langName();$('#d-ie').textContent=langName()+' → Inggris'}
-LANGS.forEach(l=>{const o=mk('option',null,l[1]);o.value=l[0];$('#lang').appendChild(o)});
-$('#lang').value=opt.tl;paintLang();
-$('#lang').addEventListener('change',e=>{opt.tl=e.target.value;try{localStorage.setItem(LSK,opt.tl)}catch(_){}paintLang()});
+/* Bahasa terjemahan = bahasa tampilan yang dipilih di Beranda (lf:lang); bila sama dengan bahasa yang dipelajari, pakai Indonesia */
+const nativeTl=(()=>{const n=String(window.LANG||'id').split('-')[0].toLowerCase(),src=window.LFL?LFL.code:'en';return n!==src?n:(src==='id'?'en':'id')})();
+const opt={mode:'match',dir:'ei',n:6,tl:nativeTl};
+const uiBase=String(window.LANG||'id').split('-')[0].toLowerCase();
+const langName=()=>{if(uiBase==='id'){const f=LANGS.find(l=>l[0]===opt.tl);if(f)return f[1]}return window.LFL?LFL.nameIn(opt.tl):opt.tl};
+const srcName=()=>!window.LFL||(LFL.code==='en'&&uiBase==='id')?'Inggris':LFL.name;
+function paintLang(){$('#d-ei').textContent=srcName()+' → '+langName();$('#d-ie').textContent=langName()+' → '+srcName()}
+paintLang();
 let LESSONS=[],Z=null;
 
 /* ---------- pilihan ---------- */
@@ -501,7 +500,7 @@ function syncGo(){const an=deckMode(),p=sel();$('#go').disabled=!p.length;
   else $('#ddt').textContent=!p.length?'Pilih pelajaran':p.length===1?(p[0].title||p[0].slug):p.length+' pelajaran dipilih';
   srsInfo()}
 function applyMode(){const an=deckMode(),sr=an;
-  $('#g-ls').hidden=an;$('#g-anki').hidden=!sr;$('#g-lang').hidden=an;$('#g-dir').hidden=an;$('#g-n').hidden=an;$('#g-new').hidden=!an;
+  $('#g-ls').hidden=an;$('#g-anki').hidden=!sr;$('#g-dir').hidden=an;$('#g-n').hidden=an;$('#g-new').hidden=!an;
   if(sr)msg(PACKS.length?'Pilih satu atau lebih bagian deck.':'Impor file .apkg, .csv, atau .txt dulu untuk mulai.');
   else if(LOADERR)msg(LOADERR,true);else msg(LESSONS.length?'Pilih satu atau lebih pelajaran.':'');
   syncGo()}
@@ -1022,7 +1021,7 @@ async function srsNext(){
   const au=A(my.auto?'Auto: hidup':'Auto: mati',()=>{my.auto=!my.auto;au.textContent=my.auto?'Auto: hidup':'Auto: mati';sched()});b.appendChild(ac);
   const tbFlag=()=>{const f=c.r.flag||0,t=$('#tbf');t.innerHTML=ico(f?IC.flag:IC.flagO);t.style.color=f?BFLAGC[f]:''};
   $('#tbu').disabled=!(my.hist&&my.hist.length);$('#tbf').disabled=false;$('#tbm').disabled=false;tbFlag();
-  my.say=t=>{if(!my.tts||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(t||'').replace(/\s+/g,' ').trim());u.lang='en-US';speechSynthesis.speak(u)}catch(e){}};
+  my.say=t=>{if(!my.tts||!window.speechSynthesis)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(t||'').replace(/\s+/g,' ').trim());u.lang=(window.LFL?LFL.tts:'en-US');speechSynthesis.speak(u)}catch(e){}};
   my.ansText=()=>{const s=bk.querySelector('.srsside');if(!s)return bk.textContent;let t='',on=false;[...s.children].forEach(x=>{if(x.tagName==='HR')on=true;else if(on)t+=' '+x.textContent});return t.trim()||bk.textContent};
   const ok2=()=>Z===my&&(my.phase==='sask'||my.phase==='srate'),same=x=>x.n===c.n&&x.pack===c.pack;
   my.setFlag=k=>{if(!ok2())return;const o=Object.assign({},c.r);if(k)o.flag=k;else delete o.flag;c.r=o;saveCard(o);tbFlag()};
@@ -1436,7 +1435,7 @@ $('#astat').addEventListener('click',statsDlg);$('#abrw').addEventListener('clic
 async function loadIndex(){
   try{
     const r=await fetch(DATA+'index.json',{cache:'no-cache'});if(!r.ok)throw 0;
-    const j=await r.json();LESSONS=(j.lessons||[]).filter(l=>l&&l.slug);
+    const j=await r.json();LESSONS=(j.lessons||[]).filter(l=>l&&l.slug&&(!window.LFL||LFL.match(l)));
     if(!LESSONS.length)throw 0;
     const box=$('#ls');
     LESSONS.forEach((l,i)=>{const lb=mk('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;cb.addEventListener('change',syncGo);
@@ -1469,9 +1468,9 @@ function candidates(all){
 const MC={};
 function mt(t){const tl=opt.tl,k=tl+':'+t;if(MC[k])return MC[k];
   return MC[k]=(async()=>{
-    try{const r=await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl='+encodeURIComponent(tl)+'&dt=t&q='+encodeURIComponent(t));
+    try{const r=await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl='+(window.LFL?LFL.code:'en')+'&tl='+encodeURIComponent(tl)+'&dt=t&q='+encodeURIComponent(t));
       if(!r.ok)throw 0;const j=await r.json();const s=j[0].map(x=>x[0]).join('');if(!s)throw 0;return s}
-    catch(e){try{const r=await fetch('https://api.mymemory.translated.net/get?langpair=en|'+encodeURIComponent(tl)+'&q='+encodeURIComponent(t));
+    catch(e){try{const r=await fetch('https://api.mymemory.translated.net/get?langpair='+(window.LFL?LFL.code:'en')+'|'+encodeURIComponent(tl)+'&q='+encodeURIComponent(t));
       const j=await r.json();const s=j.responseData&&j.responseData.translatedText;if(!s||/MYMEMORY WARNING/i.test(s))throw 0;return s}
       catch(e2){delete MC[k];return ''}}})()}
 async function makePairs(cands,want){

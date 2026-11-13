@@ -177,7 +177,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   function render() {
     $('#streak').textContent = '🔥 ' + streak();
     const el = $('#path');
-    if (!L.length) { el.innerHTML = '<p class="msg">Belum ada latihan di data/index.json.</p>'; return; }
+    if (!L.length) { el.innerHTML = '<p class="msg">Belum ada latihan untuk ' + esc(window.LFL ? LFL.name : 'bahasa ini') + '. Ganti bahasa yang dipelajari lewat Beranda.</p>'; return; }
     const cur = L.findIndex(l => !S.done[l.slug]), per = CFG.perUnit;
     let h = '';
     for (let u = 0; u * per < L.length; u++) {
@@ -259,7 +259,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
     try {
       const r = await fetch(CFG.index); if (!r.ok) throw 0;
       const j = await r.json();
-      L = (Array.isArray(j) ? j : j.lessons || []).filter(l => l && l.slug);
+      L = (Array.isArray(j) ? j : j.lessons || []).filter(l => l && l.slug && (!window.LFL || LFL.match(l)));
       render();
     } catch {
       $('#path').innerHTML = `<p class="msg">Tidak bisa memuat ${esc(CFG.index)}.<br>Buka lewat server (bukan file langsung).</p>`;

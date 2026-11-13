@@ -220,7 +220,7 @@ async function loadAll(){
   let idx;
   try { idx = await (await fetch(INDEX_URL)).json(); }
   catch(e){ $('status').textContent = 'Gagal memuat ' + INDEX_URL; return; }
-  const lessons = (idx.lessons || []).filter(l => l.videoId);   // lewati podcast/audio
+  const lessons = (idx.lessons || []).filter(l => l.videoId && (!window.LFL || LFL.match(l)));   // lewati podcast/audio; hanya bahasa yang dipelajari
   let done = 0, ok = 0, i = 0;
   const upd = () => $('status').textContent = `Memuat ${done}/${lessons.length} • ${corpus.length} kalimat`;
   upd();

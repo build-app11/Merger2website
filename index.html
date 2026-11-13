@@ -67,6 +67,24 @@ h1, h2, h3, p { margin: 0; }
 .c-mint   { --c: var(--mint); }
 .c-purple { --c: var(--purple); }
 
+/* Popup pilih bahasa */
+#onb { width: min(92vw, 460px); max-height: 90vh; overflow: auto; padding: 22px; border: 2.5px solid var(--line); border-radius: 22px; background: var(--surface); color: var(--ink); box-shadow: 6px 6px 0 var(--shadow); }
+#onb::backdrop { background: rgba(16, 18, 38, .6); }
+#onb h2 { margin: 0 0 6px; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.2; }
+.onb-step { margin: 0 0 6px; font-weight: 700; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.onb-sub { margin: 0 0 14px; color: var(--muted); line-height: 1.45; }
+.onb-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.onb-opt { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border: 2.5px solid var(--line); border-radius: 14px; background: var(--bg); cursor: pointer; font-weight: 700; }
+.onb-opt small { font-weight: 600; font-size: .8rem; color: var(--muted); }
+.onb-opt input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.onb-opt:has(input:checked) { background: var(--yellow); color: var(--on); box-shadow: 3px 3px 0 var(--shadow); }
+.onb-opt:has(input:checked) small { color: var(--on); }
+.onb-opt:has(input:focus-visible) { outline: 3px solid var(--blue); outline-offset: 2px; }
+.onb-opt.off { opacity: .5; cursor: not-allowed; border-style: dashed; }
+.onb-opt.off input { cursor: not-allowed; }
+.onb-act { display: flex; gap: 10px; justify-content: flex-end; }
+.onb-skip { display: block; margin: 14px auto 0; border: 0; background: none; color: var(--muted); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; }
+
 /* Tombol */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -403,6 +421,7 @@ h1, h2, h3, p { margin: 0; }
         <button class="chip" type="button" data-view="all" style="--c: var(--yellow)" aria-pressed="true">Semua<span class="n" id="vtAllN"></span></button>
         <button class="chip" type="button" data-view="subs" style="--c: var(--mint)" aria-pressed="false">Langganan<span class="n" id="vtSubsN"></span></button>
       </div>
+      <button id="learnBtn" class="chip" type="button" data-no-i18n style="--c: var(--blue)"></button>
       <label class="search">
         <span class="sr">Cari latihan</span>
         <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
@@ -425,6 +444,19 @@ h1, h2, h3, p { margin: 0; }
 
 <footer class="wrap foot">Learning Fun, learningfun.zone.id</footer>
 
+<dialog id="onb" data-no-i18n aria-labelledby="onbT">
+  <form method="dialog" id="onbForm" novalidate>
+    <p class="onb-step" id="onbStep"></p>
+    <h2 id="onbT"></h2>
+    <p class="onb-sub" id="onbSub"></p>
+    <div class="onb-list" id="onbList" role="radiogroup"></div>
+    <div class="onb-act">
+      <button type="button" class="btn btn-small" id="onbBack" hidden></button>
+      <button type="button" class="btn btn-small btn-primary" id="onbNext"></button>
+    </div>
+    <button type="button" class="onb-skip" id="onbSkip"></button>
+  </form>
+</dialog>
 <script>
 (() => {
   'use strict';
@@ -589,7 +621,10 @@ h1, h2, h3, p { margin: 0; }
           duration: fmtDur(l.duration),
           image: HTTP_RE.test(String(l.image || '').trim()) ? String(l.image).trim() : '',
           feed: HTTP_RE.test(String(l.feed || '').trim()) ? String(l.feed).trim() : '',
-          tags: parseTags(l.tags)
+          tags: parseTags(l.tags),
+          book: String(l.book || '').trim(),
+          chapter: Number(l.chapter) || 0,
+          lang: String(l.lang || '').trim().toLowerCase().split('-')[0]
         }
       });
     }
@@ -731,7 +766,7 @@ h1, h2, h3, p { margin: 0; }
   const isRecent = d => { const t = Date.parse(d); return Number.isFinite(t) && Date.now() - t < 14 * 864e5; };
 
   function view() {
-    const rows = state.items.map(it => {
+    let rows = state.items.map(it => {
       const { m, page } = it;
       const yt = typeof m.youtube === 'string' ? m.youtube : (page.youtube || '');
       const feedUrl = (typeof m.feed === 'string' ? m.feed : page.feed) || '';
@@ -750,6 +785,9 @@ h1, h2, h3, p { margin: 0; }
         audio: !page.read && !!page.audio && !/^[A-Za-z0-9_-]{11}$/.test(yt),
         duration: fmtDur(m.duration) || page.duration || '',
         tags: m.tags !== undefined ? parseTags(m.tags) : parseTags(page.tags),
+        lang: page.lang || 'en',
+        book: page.read ? String(page.book || '').trim() : '',
+        chapter: Number(page.chapter) || 0,
         added: it.added || '',
         isNew: it.indexed ? isRecent(it.added) : !it.listed
       };
@@ -760,6 +798,8 @@ h1, h2, h3, p { margin: 0; }
       if (seen[r.title.toLowerCase()] > 1 && pretty(r.path).toLowerCase() !== r.title.toLowerCase()) r.title += ` (${pretty(r.path)})`;
     });
     const rank = r => (r.isNew ? -1 : (r.order ?? 1000));
+    const learn = getLearn();
+    rows = rows.filter(r => r.lang === learn);
     rows.sort((a, b) => rank(a) - rank(b) || b.added.localeCompare(a.added) || a.title.localeCompare(b.title, 'id'));
     return rows;
   }
@@ -861,7 +901,7 @@ h1, h2, h3, p { margin: 0; }
 
     if (!all.length) {
       elStatus.textContent = '';
-      elList.innerHTML = '<li class="empty"><p>Belum ada latihan.</p></li>';
+      elList.innerHTML = `<li class="empty"><p>${esc(OT().none.replace('{lang}', langName(getLearn())))}</p><button class="btn btn-small" type="button" data-act="learn">${esc(OT().change)}</button></li>`;
       return;
     }
     if (state.view === 'subs' && !vpool.length) {
@@ -875,13 +915,34 @@ h1, h2, h3, p { margin: 0; }
       elList.innerHTML = `<li class="empty"><p>Tidak ada latihan yang cocok${q ? ` dengan “${esc(state.q.trim())}”` : ''}.</p><button class="btn btn-small" type="button" data-act="clear">Hapus pencarian dan filter</button></li>`;
       return;
     }
+    // Bab-bab satu buku digabung jadi satu kartu. Kartu membuka bab terakhir dibaca, atau bab pertama.
+    const bookMap = new Map(), cards = [];
+    shown.forEach(r => {
+      if (!r.book) { cards.push(r); return; }
+      const k = r.book.toLowerCase();
+      let g = bookMap.get(k);
+      if (!g) { g = Object.assign({}, r, { chapters: [] }); bookMap.set(k, g); cards.push(g); }
+      g.chapters.push(r);
+      if (r.isNew) g.isNew = true;
+      if (!g.image && r.image) g.image = r.image;
+    });
+    bookMap.forEach(g => {
+      g.chapters.sort((a, b) => (a.chapter || 1e9) - (b.chapter || 1e9) || a.title.localeCompare(b.title, 'id'));
+      const last = store.get('lf:book:' + g.book.toLowerCase());
+      const hit = g.chapters.find(c => slugOf(c.path) === last);
+      g.path = (hit || g.chapters[0]).path;
+      g.title = g.book;
+      g.duration = '';
+      g.description = g.chapters.length + ' bab' + (hit ? ' · lanjut: ' + hit.title : '');
+      g.badgeText = 'Buku';
+    });
     const seenSet = getSeen();
     const fol = r => {
       if (!r.channel) return '';
       const on = isSub(r.channel);
       return `<span class="fol" role="button" tabindex="0" data-chan="${esc(r.channel)}" aria-pressed="${on}" title="${on ? 'Berhenti mengikuti channel ini' : 'Ikuti channel ini'}"><i aria-hidden="true">${on ? '✓' : '＋'}</i>${esc(r.channel)}</span>`;
     };
-    elList.innerHTML = shown.map(r => {
+    elList.innerHTML = cards.map(r => {
       const info = catInfo(r.category);
       const media = r.youtube
         ? `<span class="media"><img src="https://i.ytimg.com/vi/${esc(r.youtube)}/mqdefault.jpg" alt="" width="320" height="180" loading="lazy"><span class="play" aria-hidden="true">${PLAY_SVG}</span></span>`
@@ -897,7 +958,7 @@ h1, h2, h3, p { margin: 0; }
         <span class="rtop">
           ${photo}
           <span class="rside">
-            <span class="badge"><i aria-hidden="true">${BOOK_SVG}</i>Read</span>
+            <span class="badge"><i aria-hidden="true">${BOOK_SVG}</i>${r.badgeText || 'Read'}</span>
             ${r.duration ? `<span class="meta">${CLOCK_SVG}${esc(r.duration)}</span>` : ''}
           </span>
         </span>
@@ -977,6 +1038,7 @@ h1, h2, h3, p { margin: 0; }
     const a = e.target.closest('[data-act]');
     if (!a) return;
     if (a.dataset.act === 'reload') location.reload();
+    if (a.dataset.act === 'learn') { openOnb(2); return; }
     if (a.dataset.act === 'allview') { state.view = 'all'; state.chan = '*'; render(); }
     if (a.dataset.act === 'clear') { state.q = ''; state.cat = '*'; state.chan = '*'; state.tag = ''; elQ.value = ''; render(); elQ.focus(); }
   });
@@ -1024,6 +1086,7 @@ h1, h2, h3, p { margin: 0; }
     state.loaded = true;
     seedFeedCache();
     render();
+    dispatchEvent(new Event('lf:loaded'));
     resolveFeeds();
 
     // Halaman yang belum lengkap datanya di card.json dibaca dari file-nya.
@@ -1035,6 +1098,79 @@ h1, h2, h3, p { margin: 0; }
       resolveFeeds();
     }
   }
+  /* ---------- Popup bahasa: bahasa tampilan (penutur) + bahasa yang dipelajari ---------- */
+  const TARGETS = { en: 'English', id: 'Indonesia', es: 'Español', fr: 'Français', de: 'Deutsch', it: 'Italiano', pt: 'Português', nl: 'Nederlands', ru: 'Русский', ja: '日本語', ko: '한국어', zh: '中文' };
+  const OTXT = {
+    id: { s1: 'Langkah 1 dari 2', t1: 'Bahasa apa yang kamu pakai?', d1: 'Dipakai untuk tampilan situs dan penjelasan.', s2: 'Langkah 2 dari 2', t2: 'Mau belajar bahasa apa?', d2: 'Daftar latihan menyesuaikan pilihanmu. Bisa diganti kapan saja.', next: 'Lanjut', back: 'Kembali', start: 'Mulai belajar', skip: 'Lewati dulu', soon: 'Segera hadir', more: 'Bahasa lainnya', n: '{n} latihan', n1: '1 latihan', learn: 'Belajar: {lang}', change: 'Ganti bahasa', none: 'Belum ada latihan untuk {lang}.' },
+    en: { s1: 'Step 1 of 2', t1: 'Which language do you speak?', d1: 'Used for the site’s interface and explanations.', s2: 'Step 2 of 2', t2: 'Which language do you want to learn?', d2: 'The lesson list follows your choice. You can change it anytime.', next: 'Next', back: 'Back', start: 'Start learning', skip: 'Skip for now', soon: 'Coming soon', more: 'More languages', n: '{n} lessons', n1: '1 lesson', learn: 'Learning: {lang}', change: 'Change language', none: 'No lessons for {lang} yet.' },
+    es: { s1: 'Paso 1 de 2', t1: '¿Qué idioma hablas?', d1: 'Se usa para la interfaz y las explicaciones.', s2: 'Paso 2 de 2', t2: '¿Qué idioma quieres aprender?', d2: 'La lista de lecciones sigue tu elección. Puedes cambiarla cuando quieras.', next: 'Siguiente', back: 'Atrás', start: 'Empezar', skip: 'Omitir por ahora', soon: 'Próximamente', more: 'Más idiomas', n: '{n} lecciones', n1: '1 lección', learn: 'Aprendiendo: {lang}', change: 'Cambiar idioma', none: 'Aún no hay lecciones de {lang}.' },
+    fr: { s1: 'Étape 1 sur 2', t1: 'Quelle langue parlez-vous ?', d1: 'Utilisée pour l’interface et les explications.', s2: 'Étape 2 sur 2', t2: 'Quelle langue voulez-vous apprendre ?', d2: 'La liste des leçons suit votre choix. Modifiable à tout moment.', next: 'Suivant', back: 'Retour', start: 'Commencer', skip: 'Passer pour l’instant', soon: 'Bientôt', more: 'Autres langues', n: '{n} leçons', n1: '1 leçon', learn: 'J’apprends : {lang}', change: 'Changer de langue', none: 'Pas encore de leçons pour {lang}.' }
+  };
+  const uiLang = () => { try { return localStorage.getItem('lf:lang') || 'id'; } catch { return 'id'; } };
+  const OT = () => OTXT[onbNative || uiLang()] || OTXT[(onbNative || uiLang()).split('-')[0]] || OTXT.en;
+  const langName = c => TARGETS[c] || c;
+  const getLearn = () => { const v = store.get('lf:learn'); return typeof v === 'string' && v ? v : 'en'; };
+  const langCounts = () => { const c = {}; state.items.forEach(it => { const k = (it.page && it.page.lang) || 'en'; c[k] = (c[k] || 0) + 1; }); return c; };
+  let onbNative = '', onbLearn = '', onbStepNo = 1, onbLangs = [['id', 'Indonesia'], ['en', 'English'], ['es', 'Español'], ['fr', 'Français']];
+  const onb = $('#onb'), btnLearn = $('#learnBtn');
+  fetch('data/language.json').then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.languages) && j.languages.length) onbLangs = j.languages; }).catch(() => {});
+
+  const HERO = { id: 'Bicara {L} jadi seru, kata demi kata.', en: 'Speaking {L} is fun, word by word.', es: 'Hablar {L} es divertido, palabra por palabra.', fr: 'Parler {L} devient amusant, mot pour mot.' };
+  function paintHero() {   // judul hero mengikuti bahasa yang dipelajari (English dibiarkan: sudah diterjemahkan i18n.js)
+    const h = document.querySelector('.hero h1, h1'), L = getLearn(), ui = uiLang().split('-')[0];
+    if (!h || !HERO[ui] || L === 'en') return;
+    let n = L; try { n = new Intl.DisplayNames([ui], { type: 'language' }).of(L) || L; } catch {}
+    h.setAttribute('data-no-i18n', ''); h.textContent = HERO[ui].replace('{L}', n);
+  }
+  function paintLearnBtn() {
+    paintHero(); btnLearn.textContent = '🌐 ' + OT().learn.replace('{lang}', langName(getLearn())); }
+  function paintOnb() {
+    const T = OT(), n = onbStepNo;
+    $('#onbStep').textContent = T['s' + n]; $('#onbT').textContent = T['t' + n]; $('#onbSub').textContent = T['d' + n];
+    $('#onbBack').hidden = n === 1; $('#onbBack').textContent = T.back;
+    $('#onbNext').textContent = n === 1 ? T.next : T.start; $('#onbSkip').textContent = T.skip;
+    const list = $('#onbList');
+    if (n === 1) {
+      list.setAttribute('aria-label', T.t1);
+      list.innerHTML = onbLangs.map(([c, name]) => `<label class="onb-opt"><input type="radio" name="nat" value="${esc(c)}"${c === onbNative ? ' checked' : ''}>${esc(name)}</label>`).join('');
+    } else {
+      list.setAttribute('aria-label', T.t2);
+      const cnt = langCounts();
+      const codes = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a] || langName(a).localeCompare(langName(b)));
+      if (!cnt[onbLearn]) onbLearn = codes[0] || 'en';
+      list.innerHTML = codes.map(c =>
+        `<label class="onb-opt"><input type="radio" name="lrn" value="${esc(c)}"${c === onbLearn ? ' checked' : ''}>${esc(langName(c))}<small>${esc(cnt[c] === 1 ? T.n1 : T.n.replace('{n}', cnt[c]))}</small></label>`
+      ).join('') + `<div class="onb-opt off" style="grid-column:1/-1" aria-disabled="true">${esc(T.more)}<small>${esc(T.soon)}</small></div>`;
+    }
+  }
+  function openOnb(step) {
+    onbNative = uiLang(); onbLearn = getLearn(); onbStepNo = step || 1;
+    paintOnb(); if (!onb.open) onb.showModal();
+  }
+  function finishOnb() {
+    store.set('lf:learn', onbLearn || 'en'); store.set('lf:onb', 1);
+    const changed = onbNative && onbNative !== uiLang();
+    if (changed) { try { localStorage.setItem('lf:lang', onbNative); } catch {} }
+    onb.close();
+    if (changed) { location.reload(); return; }
+    state.cat = '*'; state.chan = '*'; state.tag = ''; paintLearnBtn(); render();
+  }
+  $('#onbList').addEventListener('change', e => {
+    if (e.target.name === 'nat') { onbNative = e.target.value; const T = OT(); $('#onbStep').textContent = T.s1; $('#onbT').textContent = T.t1; $('#onbSub').textContent = T.d1; $('#onbNext').textContent = T.next; $('#onbSkip').textContent = T.skip; $('#onbBack').textContent = T.back; }
+    if (e.target.name === 'lrn') onbLearn = e.target.value;
+  });
+  $('#onbNext').onclick = () => { if (onbStepNo === 1) { onbStepNo = 2; paintOnb(); } else finishOnb(); };
+  $('#onbBack').onclick = () => { onbStepNo = 1; paintOnb(); };
+  $('#onbSkip').onclick = () => { store.set('lf:onb', 1); if (!store.get('lf:learn')) store.set('lf:learn', 'en'); onb.close(); };
+  onb.addEventListener('cancel', () => { store.set('lf:onb', 1); });
+  btnLearn.onclick = () => openOnb(2);
+  paintLearnBtn();
+  addEventListener('lf:loaded', () => {
+    const ask = new URLSearchParams(location.search).get('learn');
+    if (ask) { const u = new URL(location.href); u.searchParams.delete('learn'); history.replaceState(null, '', u.pathname + u.search + u.hash); openOnb(2); }
+    else if (!store.get('lf:onb')) openOnb(1);
+  });
+
   init();
 })();
 </script>

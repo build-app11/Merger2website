@@ -81,6 +81,12 @@ details summary{cursor:pointer;color:var(--ui);font-weight:600;font-size:.88rem;
 .lfsrv .dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
 .lfsrv .dot.on{background:var(--ui)}.lfsrv .dot.off{background:var(--warn)}
 .lfbody{display:flex;flex-direction:column;gap:8px;padding-bottom:12px}.lfrow{display:flex;gap:8px}.lfrow input{flex:1;min-width:0}
+
+.chlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;max-height:320px;overflow:auto}
+.chlist li{display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:10px;padding:6px 8px;background:var(--field)}
+.chlist input[type=text]{flex:1;min-width:0;border:0;background:none;color:inherit;font:600 .85rem var(--font-ui);padding:4px}
+.chlist .w{flex:none;font-size:.75rem;color:var(--muted)}
+.chlist li.off{opacity:.55}
 </style>
 </head>
 <body>
@@ -185,6 +191,19 @@ details summary{cursor:pointer;color:var(--ui);font-weight:600;font-size:.88rem;
     <div id="stat"></div>
   </div>
 
+  <div class="field" id="chPanel">
+    <span class="lab">Pisah per bab <span class="hint">(untuk buku: EPUB, PDF, DOCX, atau teks panjang)</span></span>
+    <div class="btnrow" style="margin:0">
+      <button class="sbtn" id="b-detect" type="button">Deteksi bab</button>
+      <label class="fl" for="ch-start" style="flex:none;width:6.5rem">Mulai dari bab<input id="ch-start" type="number" min="1" step="1" value="1" inputmode="numeric"></label>
+    </div>
+    <ul id="chList" class="chlist" aria-live="polite"></ul>
+    <p class="hint" id="chHint">Bab dikenali dari judul seperti "Chapter 1", "Bab 2", "Part III", atau nomor berurutan "1. Judul". Hasil deteksi bisa dicentang dan judulnya diubah.</p>
+    <div class="btnrow" style="margin:0">
+      <button class="go" id="b-zip" type="button" hidden>Unduh semua bab (ZIP)</button>
+    </div>
+  </div>
+
   <div class="field">
     <span class="lab">3. Info <span class="hint">(terisi otomatis dari sumber, bisa diubah)</span></span>
     <label class="fl" for="i-title">Judul<input id="i-title" type="text" autocomplete="off"></label>
@@ -196,6 +215,9 @@ details summary{cursor:pointer;color:var(--ui);font-weight:600;font-size:.88rem;
     <label class="fl" for="i-lang">Bahasa teks
       <select id="i-lang"><option value="en" selected>English</option><option value="id">Indonesia</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="pt">Português</option><option value="nl">Nederlands</option><option value="ru">Русский</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="zh-CN">中文</option></select></label>
     <label class="fl" for="i-tags">Tag<input id="i-tags" type="text" autocomplete="off" placeholder="pisahkan dengan koma"></label>
+    <label class="fl" for="i-book">Buku (opsional)<input id="i-book" type="text" list="books" autocomplete="off" placeholder="mis. English Grammar Basics"><datalist id="books"></datalist></label>
+    <label class="fl" for="i-chap">Nomor bab<input id="i-chap" type="number" min="1" step="1" inputmode="numeric" placeholder="mis. 1"></label>
+    <p class="hint" id="bookHint" hidden>Bab dengan nama buku yang sama otomatis dikelompokkan di Beranda dan player.</p>
   </div>
 
   <div class="btnrow">
@@ -367,7 +389,22 @@ function setOut(text,o){
   if(o.cat&&!$('i-cat').value)$('i-cat').value=o.cat;
   syncSlug();stat();
 }
-function syncSlug(){if(!slugTouched)$('i-slug').value=slugify($('i-title').value)}
+function bookSlug(){const b=$('i-book').value.trim(),c=parseInt($('i-chap').value,10);return b&&c>0?slugify(b+' bab '+c):''}
+function syncSlug(){if(!slugTouched)$('i-slug').value=bookSlug()||slugify($('i-title').value)}
+/* buku: ingat daftar buku + bab terakhir, sarankan nomor bab berikutnya */
+const BK_KEY='lf:rd:books';
+const bkGet=()=>{const v=lsGet(BK_KEY,{});return v&&typeof v==='object'&&!Array.isArray(v)?v:{}};
+function bkFill(){$('books').innerHTML=Object.keys(bkGet()).map(b=>'<option value="'+b.replace(/"/g,'&quot;')+'">').join('')}
+let chapTouched=false;
+$('i-book').addEventListener('input',()=>{
+  const b=$('i-book').value.trim(),last=bkGet()[b];
+  $('bookHint').hidden=!b;
+  if(last&&!chapTouched)$('i-chap').value=last+1;
+  syncSlug();
+});
+$('i-chap').addEventListener('input',()=>{chapTouched=!!$('i-chap').value;syncSlug()});
+function bkRemember(){const b=$('i-book').value.trim(),c=parseInt($('i-chap').value,10);if(!b||!(c>0))return;const m=bkGet();m[b]=Math.max(m[b]||0,c);lsSet(BK_KEY,m);bkFill()}
+bkFill();
 function stat(){const t=$('out').value,n=words(t);$('stat').textContent=n?n.toLocaleString('id-ID')+' kata · ±'+Math.max(1,Math.round(n/180))+' mnt baca':''}
 $('out').addEventListener('input',stat);
 $('i-title').addEventListener('input',()=>{titleTouched=!!$('i-title').value.trim();syncSlug()});
@@ -483,7 +520,8 @@ $('f-go').onclick=()=>run($('f-go'),'',async()=>{
   }else throw new Error('Format .'+ext+' belum didukung. Gunakan PDF, EPUB, DOCX, TXT, MD, atau HTML.');
   if(!words(text))throw new Error('Tidak ada teks yang bisa diambil dari file ini.');
   setOut(text,{type:'file',title,channel:chan,cat:'Artikel'});
-  say('Selesai: '+words(text).toLocaleString('id-ID')+' kata dari '+f.name+'.');
+  const nCh=detectUI(true);
+  say('Selesai: '+words(text).toLocaleString('id-ID')+' kata dari '+f.name+'.'+(nCh?' Terdeteksi '+nCh+' bab: lihat bagian Pisah per bab.':''));
 });
 
 /* ---------- 3. Scan dokumen ---------- */
@@ -735,25 +773,89 @@ $('p-go').onclick=async()=>{
 
 /* ---------- ekspor ---------- */
 function curText(){return $('out').value.replace(/\r/g,'').trim()}
+/* ---------- pisah per bab ---------- */
+const NUMW='one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|satu|dua|tiga|empat|lima|enam|tujuh|delapan|sembilan|sepuluh';
+const CH_RE=new RegExp('^(?:chapter|bab|bagian|part|unit|lesson|pelajaran|chapitre|kapitel|cap[ií]tulo|capitolo|hoofdstuk)\\s*(?:\\d{1,3}|[ivxlc]{1,6}|'+NUMW+')\\b(?:\\s*[:.\\-–—]\\s*.*|\\s+.*)?$','i');
+const isHeadLine=b=>!b.includes('\n')&&b.length<=90&&b.split(/\s+/).length<=14&&!/[.!?,;]$/.test(b);
+function detectChapters(text){
+  const bl=String(text).replace(/\r/g,'').split(/\n\s*\n/).map(b=>b.trim()).filter(Boolean);
+  let idx=[];
+  bl.forEach((b,i)=>{if(isHeadLine(b)&&CH_RE.test(b))idx.push(i)});
+  if(idx.length<2){
+    idx=[];let exp=1;
+    bl.forEach((b,i)=>{const m=isHeadLine(b)&&b.match(/^(\d{1,3})[.)]?\s+\S/);if(m&&+m[1]===exp){idx.push(i);exp++}});
+    if(idx.length<3)idx=[];
+  }
+  if(!idx.length)return[];
+  const out=[],seg=(a,z)=>bl.slice(a,z).join('\n\n');
+  if(idx[0]>0){const t=seg(0,idx[0]);if(words(t)>=30)out.push({title:'Pembuka (sebelum bab pertama)',text:t,words:words(t),on:false})}
+  idx.forEach((a,k)=>{
+    const z=k+1<idx.length?idx[k+1]:bl.length,t=seg(a,z);let title=bl[a];
+    const nx=bl[a+1];
+    if(title.split(/\s+/).length<=3&&nx&&a+1<z&&isHeadLine(nx)&&!CH_RE.test(nx)&&nx.split(/\s+/).length<=10)title+=': '+nx;
+    const w=words(t);
+    if(w>=30)out.push({title:title.slice(0,90),text:t,words:w,on:true});   // <30 kata = baris daftar isi, dibuang
+  });
+  return out;
+}
+let CH=[];
+function chRender(){
+  const ul=$('chList');ul.innerHTML='';
+  CH.forEach((c,i)=>{
+    const li=document.createElement('li');li.className=c.on?'':'off';
+    const cb=document.createElement('input');cb.type='checkbox';cb.checked=c.on;cb.setAttribute('aria-label','Sertakan bab ini');
+    cb.onchange=()=>{c.on=cb.checked;li.className=c.on?'':'off';chCount()};
+    const ti=document.createElement('input');ti.type='text';ti.value=c.title;ti.setAttribute('aria-label','Judul bab');ti.oninput=()=>{c.title=ti.value};
+    const w=document.createElement('span');w.className='w';w.textContent=c.words.toLocaleString('id-ID')+' kata';
+    li.append(cb,ti,w);ul.appendChild(li);
+  });
+  chCount();
+}
+function chCount(){const n=CH.filter(c=>c.on).length;const b=$('b-zip');b.hidden=!CH.length;b.textContent='Unduh '+n+' bab (ZIP)';b.disabled=!n}
+function detectUI(auto){
+  CH=detectChapters(curText());chRender();
+  const n=CH.filter(c=>c.on).length;
+  $('chHint').textContent=CH.length?('Terdeteksi '+n+' bab. Centang atau hapus centang, ubah judul bila perlu, lalu unduh ZIP. Nama buku diisi di bagian Info; kalau kosong dipakai judul.'):(auto?'Tidak ada pola bab yang dikenali, teks diperlakukan sebagai satu bacaan.':'Tidak ada judul bab yang dikenali. Pastikan judul bab (mis. "Chapter 1") berada di baris sendiri dan dipisah baris kosong.');
+  if(CH.length&&!$('i-book').value.trim()){$('i-book').value=$('i-title').value.trim();$('i-book').dispatchEvent(new Event('input'))}
+  return n;
+}
+$('b-detect').onclick=()=>{if(!words(curText())){say('Belum ada teks.',true);return}const n=detectUI(false);say(n?'Terdeteksi '+n+' bab.':'Tidak ada bab yang dikenali.',!n)};
+$('b-zip').onclick=async()=>{
+  const sel=CH.filter(c=>c.on);if(!sel.length)return;
+  const book=$('i-book').value.trim()||$('i-title').value.trim()||'buku';
+  const start=Math.max(1,parseInt($('ch-start').value,10)||1);
+  const files=sel.map((c,k)=>{const n=start+k,slug=slugify(book+' bab '+n)||('bab-'+n);
+    return{name:slug+'.json',json:JSON.stringify(readingJson(c.text,{title:c.title.trim()||('Bab '+n),slug,book,chapter:n}),null,2)}});
+  try{
+    await lib('zip');const z=new JSZip();files.forEach(f=>z.file(f.name,f.json));
+    const blob=await z.generateAsync({type:'blob'});save((slugify(book)||'buku')+'-bab.zip','application/zip',blob);
+    say(files.length+' bab diunduh sebagai ZIP. Ekstrak ke folder data/, lalu jalankan index-builder.html.');
+  }catch(e){
+    say('ZIP gagal dibuat, mengunduh satu per satu…',true);
+    for(const f of files){save(f.name,'application/json',f.json);await new Promise(r=>setTimeout(r,350))}
+  }
+  const m=bkGet();m[book]=Math.max(m[book]||0,start+files.length-1);lsSet(BK_KEY,m);bkFill();
+};
+function bookInfo(){const b=$('i-book').value.trim(),c=parseInt($('i-chap').value,10);return b?{book:b,...(c>0?{chapter:c}:{})}:{}}
 function info(){
   const tags=[...new Set($('i-tags').value.split(',').map(t=>t.trim()).filter(Boolean))];
   const title=$('i-title').value.trim()||'Tanpa judul';
-  return{title,slug:$('i-slug').value.trim()||slugify(title)||'bacaan',category:$('i-cat').value.trim(),channel:$('i-chan').value.trim(),image:/^https?:\/\//i.test($('i-img').value.trim())?$('i-img').value.trim():'',lang:$('i-lang').value,tags};
+  return{title,slug:$('i-slug').value.trim()||slugify(title)||'bacaan',category:$('i-cat').value.trim(),channel:$('i-chan').value.trim(),image:/^https?:\/\//i.test($('i-img').value.trim())?$('i-img').value.trim():'',lang:$('i-lang').value,tags,...(bookInfo())};
 }
 function save(name,mime,data){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:mime}));a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)}
 const needText=()=>{if(!words(curText())){say('Belum ada teks. Ambil dari sumber di atas dulu.',true);return false}return true};
 $('b-json').onclick=()=>{
   if(!needText())return;const j=readingJson();
-  save(j.slug+'.json','application/json',JSON.stringify(j,null,2));
+  save(j.slug+'.json','application/json',JSON.stringify(j,null,2));bkRemember();
   say('JSON diunduh: '+j.slug+'.json');
 };
 $('b-copy').onclick=async()=>{
   if(!needText())return;const txt=JSON.stringify(readingJson(),null,2);
-  try{await navigator.clipboard.writeText(txt);say('JSON disalin.')}
+  try{await navigator.clipboard.writeText(txt);bkRemember();say('JSON disalin.')}
   catch(e){const t=document.createElement('textarea');t.value=txt;t.style.cssText='position:fixed;opacity:0';document.body.appendChild(t);t.select();let ok=false;try{ok=document.execCommand('copy')}catch(x){}t.remove();say(ok?'JSON disalin.':'Tidak bisa menyalin otomatis. Pakai Unduh JSON.',!ok)}
 };
-function readingJson(){
-  const i=info(),t=curText(),stamped=/^\[\d{1,2}:\d{2}(:\d{2})?\]/m.test(t);
+function readingJson(t0,over){
+  const i={...info(),...(over||{})},t=t0==null?curText():t0,stamped=/^\[\d{1,2}:\d{2}(:\d{2})?\]/m.test(t);
   const paragraphs=stamped?t.split('\n').map(l=>{const m=l.match(/^\[([\d:]+)\]\s*(.*)$/);return m?{time:m[1],text:m[2]}:{text:l}}).filter(p=>p.text):blocksFromText(t).map(b=>({text:b.text,heading:b.heading?1:0}));
   const n=words(t);
   return{type:'read',...i,source:{type:meta.type||'text',url:meta.url||'',episode:meta.episode||''},words:n,lines:paragraphs.length,duration:Math.max(60,Math.round(n/180*60)),text:t,paragraphs};

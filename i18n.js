@@ -150,4 +150,28 @@
     var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
     [].forEach.call(boxes, mount);
   });
+  /* ---------- Bahasa yang dipelajari (dipilih lewat popup di index.html, disimpan di "lf:learn") ----------
+     window.LFL.code     kode bahasa yang dipelajari (default "en")
+     window.LFL.name     nama bahasa itu dalam bahasa tampilan
+     window.LFL.of(l)    kode bahasa sebuah pelajaran di index.json (default "en")
+     window.LFL.match(l) true bila pelajaran itu berbahasa yang dipelajari
+     window.LFL.tts      kode suara untuk speechSynthesis
+     Bahasa hanya dipilih di Beranda (index.html); halaman lain cukup membaca LFL dan window.LANG. */
+  (function () {
+    var code = 'en';
+    try { var v = JSON.parse(localStorage.getItem('lf:learn')); if (typeof v === 'string' && /^[a-z]{2,3}$/.test(v)) code = v; } catch (e) {}
+    var TTS = { en: 'en-US', id: 'id-ID', es: 'es-ES', fr: 'fr-FR', de: 'de-DE', it: 'it-IT', pt: 'pt-BR', nl: 'nl-NL', ru: 'ru-RU', ja: 'ja-JP', ko: 'ko-KR', zh: 'zh-CN' };
+    function nameOf(c, ui) {
+      try { var n = new Intl.DisplayNames([ui || lang], { type: 'language' }).of(c); if (n && n !== c) return n; } catch (e) {}
+      return c;
+    }
+    var L = window.LFL = {
+      code: code,
+      name: nameOf(code),
+      nameIn: nameOf,
+      tts: TTS[code] || code,
+      of: function (l) { return String((l && l.lang) || 'en').toLowerCase().split('-')[0]; },
+      match: function (l) { return L.of(l) === code; }
+    };
+  })();
 })();

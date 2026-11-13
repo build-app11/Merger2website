@@ -196,7 +196,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   const $ = (s) => document.querySelector(s);
   const SLUG_RE = /^[A-Za-z0-9_][A-Za-z0-9_.-]*$/;
   const NOW = new Date().toISOString();
-  const KNOWN = ['slug', 'title', 'videoId', 'audio', 'lines', 'description', 'category', 'tags', 'order', 'image', 'feed', 'duration', 'added', 'channel', 'type', 'words'];
+  const KNOWN = ['slug', 'title', 'videoId', 'audio', 'lines', 'description', 'category', 'tags', 'order', 'image', 'feed', 'duration', 'added', 'channel', 'type', 'words', 'book', 'chapter', 'lang'];
   const isHttp = (v) => typeof v === 'string' && /^https?:\/\/\S+$/.test(v.trim());
   // Cari link RSS podcast di JSON audio: kunci langsung, objek bersarang (mis. podcast.rss), atau nilai URL bergaya feed.
   const feedOf = (j) => {
@@ -270,6 +270,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
         fileLessons.set(slug, {
           slug, type: 'read', title: str(j.title) || slug, videoId: '', audio: '', lines: paras, words: wc,
           description: str(j.description), category: str(j.category), channel: str(j.channel), tags: tagsOf(j.tags),
+          book: str(j.book), chapter: Number(j.chapter) || 0, lang: str(j.lang),
           image: imgOf(j), feed: '', duration: Math.round(Number(j.duration)) || Math.max(60, Math.round(wc / 180 * 60)),
           order: Number.isFinite(j.order) ? j.order : undefined
         });
@@ -298,6 +299,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
         tags: tagsOf(j.tags),
         image: imgOf(j),
         feed: feedOf(j),
+        lang: str(j.lang),
         duration: dur,
         order: Number.isFinite(j.order) ? j.order : undefined
       });
@@ -322,6 +324,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
       if (f) {
         base = {
           slug, type: f.type || (o && (o.type === 'read' || o.type === 'reading') ? 'read' : ''), words: f.words || Number(o && o.words) || 0,
+          book: f.book || str(o && o.book), chapter: f.chapter || Number(o && o.chapter) || 0, lang: f.lang || str(o && o.lang),
           title: f.title, videoId: f.videoId, audio: f.audio || str(o && o.audio), lines: f.lines,
           description: f.description || str(o && o.description),
           category: f.category || str(o && o.category),
@@ -337,6 +340,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
       } else {
         base = {
           slug, type: (o.type === 'read' || o.type === 'reading') ? 'read' : '', words: Number(o.words) || 0,
+          book: str(o.book), chapter: Number(o.chapter) || 0, lang: str(o.lang),
           title: str(o.title) || slug, videoId: /^[\w-]{11}$/.test(o.videoId || '') ? o.videoId : '', audio: str(o.audio), lines: Number(o.lines) || 0,
           description: str(o.description), category: str(o.category), channel: str(o.channel), tags: tagsOf(o.tags), image: str(o.image), feed: str(o.feed), duration: Math.round(Number(o.duration)) || 0,
           order: Number.isFinite(o.order) ? o.order : undefined,
@@ -349,6 +353,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
       const feed = st.feed !== undefined ? st.feed.trim() : base.feed;
       out.push({ slug, status, base, extra, include: st.include !== false,
         category: st.category !== undefined ? st.category.trim() : base.category,
+        lang: st.lang !== undefined ? st.lang.trim().toLowerCase() : base.lang,
         tags: st.tags !== undefined ? tagsOf(st.tags) : base.tags,
         feed,
         image: st.image !== undefined ? st.image.trim() : (base.image || feedImg.get(feed) || '') });
@@ -358,9 +363,10 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   function buildJson() {
     const lessons = rows().filter((r) => r.include).map((r) => {
       const b = r.base, e = { slug: r.slug, title: b.title, videoId: b.videoId, lines: b.lines };
-      if (b.type === 'read') { e.type = 'read'; if (b.words) e.words = b.words; if (b.duration > 0) e.duration = b.duration; if (r.image) e.image = r.image; }
+      if (b.type === 'read') { e.type = 'read'; if (b.book) { e.book = b.book; if (b.chapter) e.chapter = b.chapter; } if (b.words) e.words = b.words; if (b.duration > 0) e.duration = b.duration; if (r.image) e.image = r.image; }
       if (b.audio) e.audio = b.audio;
       if (b.description) e.description = b.description;
+      e.lang = (r.lang || 'en').split('-')[0];
       if (r.category) e.category = r.category;
       if (b.channel) e.channel = b.channel;
       if (r.tags.length) e.tags = r.tags;
@@ -441,6 +447,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
         '<div class="m">' + esc(r.slug) + '.json · ' + b.lines + (b.type === 'read' ? ' paragraf · ' + b.words + ' kata' : ' baris') + (b.videoId ? ' · ' + esc(b.videoId) : (b.audio ? ' · audio' : '')) + '</div>' +
         (badges.length ? '<div class="badges">' + badges.join('') + '</div>' : '') +
         '<div class="edit"><label>Kategori<input type="text" data-f="category" value="' + esc(r.category) + '" placeholder="Latihan" autocomplete="off"></label>' +
+        (b.lang ? '' : '<label>Bahasa (kode, file ini belum punya; kosong = en)<input type="text" data-f="lang" value="' + esc(r.lang) + '" placeholder="en" maxlength="8" autocomplete="off"></label>') +
         '<label>Tag (pisahkan koma)<input type="text" data-f="tags" value="' + esc(r.tags.join(', ')) + '" placeholder="travel, airport" autocomplete="off"></label>' +
         (isAudioOnly(b) ? '<label class="wide">Link RSS podcast (opsional, gambar diambil otomatis)<input type="text" data-f="feed" value="' + esc(r.feed) + '" placeholder="https://.../feed.xml" autocomplete="off"></label>' +
           '<label class="wide">Gambar thumbnail (isi manual untuk menimpa)<input type="text" data-f="image" value="' + esc(r.image) + '" placeholder="https://.../logo.jpg" autocomplete="off"></label>' : '') + '</div>' +

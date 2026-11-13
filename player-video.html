@@ -108,6 +108,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .only-pinned .line:not(.pinned) { display: none; }
 .empty { padding: 28px 12px; color: var(--muted); font-size: 0.9rem; text-align: center; }
 .empty[hidden] { display: none; }
+.deckbar { padding: 18px 12px 28px; text-align: center; }
+.deckbar[hidden] { display: none; }
+.deckbar .btnd { padding: 12px 22px; border: 2.5px solid var(--line); border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 700 0.95rem var(--font-en); cursor: pointer; box-shadow: 3px 3px 0 var(--shadow); }
+.deckbar .btnd:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+.deckbar p { margin: 10px 0 0; font-size: 0.8rem; color: var(--muted); line-height: 1.4; }
 
 /* dock */
 .dock { position: absolute; left: var(--gx); right: var(--gx); bottom: calc(10px + env(safe-area-inset-bottom, 0px)); z-index: 3; flex: none; background: color-mix(in srgb, var(--surface) 90%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.16); border: 1px solid var(--rule); border-radius: 22px; padding: 10px 12px 10px; display: flex; flex-direction: column; gap: 6px; }
@@ -181,6 +186,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .dmh { font: 700 0.8rem var(--font-en); color: var(--muted); padding: 2px 6px; }
 .dmi { text-align: left; border: 2px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); padding: 9px 10px; font: 600 0.9rem var(--font-en); cursor: pointer; }
 .dmi.on { background: var(--accent); color: var(--accent-ink); }
+#pdDlg { width: min(92vw, 380px); max-height: 80vh; padding: 14px; border: 2.5px solid var(--line); border-radius: 18px; background: var(--surface); color: var(--ink); box-shadow: 5px 5px 0 var(--shadow); }
+#pdDlg::backdrop { background: rgba(16, 18, 38, .55); }
+#pdDlg .dmi { display: block; width: 100%; margin-top: 6px; }
+#pdDlg .pdx { display: block; margin: 10px auto 0; border: 0; background: none; color: var(--muted); font: 600 0.85rem var(--font-en); text-decoration: underline; cursor: pointer; }
 .dmn { font-size: 0.78rem; color: var(--muted); padding: 2px 6px; line-height: 1.4; }
 .dpb.star svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
 .dpb.star[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
@@ -735,6 +744,11 @@ const emptyEl = document.createElement('div');
 emptyEl.className = 'empty'; emptyEl.hidden = true;
 emptyEl.textContent = 'Belum ada baris tersimpan. Tekan ikon pin di sebuah baris untuk menyimpannya.';
 list.appendChild(emptyEl);
+/* tombol di ujung bawah daftar Tersimpan */
+const deckBar = document.createElement('div');
+deckBar.className = 'deckbar'; deckBar.hidden = true;
+deckBar.innerHTML = '<button class="btnd" id="bPinDeck" type="button"></button><p>Kartu masuk ke deck di Kosakata: kalimat + IPA di depan, terjemahan di belakang.</p>';
+list.appendChild(deckBar);
 
 /* ---------- akhir transkrip: Selesai (dari path.html) / Lanjut berikutnya + Review kosakata ---------- */
 const _qs = new URLSearchParams(location.search);
@@ -829,6 +843,8 @@ $('#bTr').addEventListener('click', () => {
 function updatePinUI() {
   $('#pinCount').textContent = pins.size;
   const onlyPins = app.classList.contains('only-pinned');
+  deckBar.hidden = !(onlyPins && pins.size > 0);
+  $('#bPinDeck').textContent = '★ Simpan ' + pins.size + ' baris ke deck…';
   emptyEl.hidden = !(onlyPins && pins.size === 0);
   const cur = Math.max(activeIdx, 0);
   $('#bPin').setAttribute('aria-pressed', pins.has(DATA[cur].t) ? 'true' : 'false');
@@ -1457,6 +1473,55 @@ function stRefresh() {
   const s = stSnap(), o = a[i], n = { w: o.w, ipa: s.ipa || o.ipa, id: s.id || o.id, en: s.en || o.en, lg: s.id ? s.lg : o.lg };
   if (n.ipa !== o.ipa || n.id !== o.id || n.en !== o.en) { a[i] = Object.assign(o, n); stSet(a); }
 }
+/* ---------- baris tersimpan (pin) -> deck di Kosakata ---------- */
+const pdDlg = document.createElement('dialog'); pdDlg.id = 'pdDlg';
+document.body.appendChild(pdDlg);
+function pdDecks() {
+  let ds = []; try { ds = JSON.parse(localStorage.getItem('lf:decks') || '[]'); } catch (e) {}
+  if (!Array.isArray(ds)) ds = [];
+  if (!ds.some((d) => d.id === '__star')) ds.unshift({ id: '__star', name: 'Kata Berbintang' });
+  return ds;
+}
+function pdOpen() {
+  const sel = DATA.filter((d) => pins.has(d.t));
+  if (!sel.length) return;
+  const ds = pdDecks(), last = lsGet('lf:lastdeck', '__star');
+  pdDlg.textContent = '';
+  pdDlg.appendChild(mk('div', 'dmh', 'Simpan ' + sel.length + ' baris tersimpan ke deck'));
+  ds.forEach((d) => { const b = mk('button', 'dmi', d.name); b.type = 'button'; b.dataset.deck = d.id; if (d.id === last) b.classList.add('on'); pdDlg.appendChild(b); });
+  if (ds.length < 2) pdDlg.appendChild(mk('div', 'dmn', 'Buat deck lain di Kosakata (＋ Deck) supaya muncul di sini.'));
+  pdDlg.appendChild(mk('div', 'dmn', 'Baris tanpa subtitle terjemahan diterjemahkan otomatis ke ' + langOf()[1] + '.'));
+  const x = mk('button', 'pdx', 'Batal'); x.type = 'button'; pdDlg.appendChild(x);
+  if (!pdDlg.open) pdDlg.showModal();
+}
+async function pdSave(id) {
+  const sel = DATA.filter((d) => pins.has(d.t));
+  const nm = (pdDecks().find((d) => d.id === id) || { name: 'Kata Berbintang' }).name, tl = langOf()[0];
+  pdDlg.close(); flashStatus('menyimpan ' + sel.length + ' baris…');
+  const have = new Set(stGet().filter((x) => x.deck === id).map((x) => x.w));
+  const fresh = sel.filter((d) => d.en && !have.has(d.en));
+  const out = []; let miss = 0;
+  for (let i = 0; i < fresh.length; i += 4) {   // terjemahan otomatis paling banyak 4 sekaligus
+    await Promise.all(fresh.slice(i, i + 4).map(async (d) => {
+      let id2 = d.tr || '', lg = tl;
+      if (!id2 && tl !== LCODE) id2 = await mt(d.en, tl, LCODE);
+      if (!id2) miss++;
+      out.push({ w: d.en, ipa: d.ip || '', id: id2, en: '', lg, at: Date.now(), deck: id, line: 1, vid: VIDEO_ID, t: d.t });
+    }));
+  }
+  const order = new Map(fresh.map((d, i) => [d.en, i]));
+  out.sort((a, b) => order.get(b.w) - order.get(a.w));   // kosakata menampilkan terbaru dulu: urutan video tetap terbaca dari atas
+  if (out.length) stSet(out.concat(stGet()));
+  lsSet('lf:lastdeck', id);
+  const dup = sel.length - fresh.length;
+  flashStatus('★ ' + out.length + ' baris → ' + nm + (dup ? ' · ' + dup + ' sudah ada' : '') + (miss ? ' · ' + miss + ' tanpa terjemahan' : ''));
+}
+$('#bPinDeck').addEventListener('click', pdOpen);
+pdDlg.addEventListener('click', (e) => {
+  const b = e.target.closest('.dmi'); if (b) { pdSave(b.dataset.deck); return; }
+  if (e.target.closest('.pdx') || e.target === pdDlg) pdDlg.close();
+});
+
 new MutationObserver(stRefresh).observe(dpEl, { subtree: true, childList: true, characterData: true });
 window.addEventListener('resize', placeDp);
 document.addEventListener('click', (e) => { if (!e.target.closest('#dp') && !e.target.closest('.w')) closeTip(); });
