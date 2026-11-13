@@ -1135,17 +1135,40 @@ $('dl').onclick=()=>{
 };
 /* ---------- bab dalam satu buku ---------- */
 let NEXT=null;
+let navTok=0,BOOKIDX=null;
 function flipTo(url,dir){
-  try{sessionStorage.setItem('lf:rd:flip',dir+'|'+Date.now())}catch(e){}
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches){location.href=url;return}
-  $('text').classList.add('out-'+dir);setTimeout(()=>{location.href=url},210);
+  let s='';try{s=new URL(url,location.href).searchParams.get('q')}catch(e){}
+  if(!s){location.href=url;return}
+  loadChapter(s,dir,true);
 }
+/* pindah bab tanpa reload: judul dan isi diganti di tempat, URL diperbarui lewat history */
+async function loadChapter(slug,dir,push){
+  slug=String(slug||'').replace(/[^\w.-]/g,'');if(!slug)return;
+  const my=++navTok,t=$('text'),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  annFlush();stop();closeTip();hideSbar();
+  if(!reduce){t.classList.remove('in-n','in-p');t.classList.add('out-'+dir)}
+  try{
+    const [r]=await Promise.all([fetch('data/'+slug+'.json'),new Promise(ok=>setTimeout(ok,reduce?0:210))]);
+    if(my!==navTok)return;
+    if(!r.ok)throw new Error('Data "'+slug+'" tidak bisa dimuat.');
+    const j=await r.json();if(my!==navTok)return;
+    if(push)history.pushState({lf:1},'',chHref(slug));
+    t.classList.remove('out-n','out-p');
+    start(j,slug,false);
+    t.scrollTop=0;if(cur>0)setCur(cur,true);
+    if(!reduce){const c='in-'+dir;t.classList.add(c);t.addEventListener('animationend',()=>t.classList.remove(c),{once:true})}
+  }catch(e){
+    if(my!==navTok)return;
+    t.classList.remove('out-n','out-p');
+    const cs=$('chsel');if(cs&&D)cs.value=D.slug;
+    say(e.message||String(e),true);
+  }
+}
+addEventListener('popstate',()=>{
+  const s=new URLSearchParams(location.search).get('q');
+  if(s)loadChapter(s,'p',false);else location.reload();
+});
 function flipClick(e,url,dir){if(e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();flipTo(url,dir)}
-function flipIn(){
-  try{const v=(sessionStorage.getItem('lf:rd:flip')||'').split('|');sessionStorage.removeItem('lf:rd:flip');
-    if(!/^[np]$/.test(v[0])||Date.now()-(+v[1]||0)>4000)return;
-    const t=$('text'),c='in-'+v[0];t.classList.add(c);t.addEventListener('animationend',()=>t.classList.remove(c),{once:true})}catch(e){}
-}
 addEventListener('pageshow',()=>$('text').classList.remove('out-n','out-p'));
 const chHref=s=>{const q=new URLSearchParams(location.search);q.set('q',s);return 'player-reading.html?'+q.toString()};
 async function setupBook(){
@@ -1154,8 +1177,8 @@ async function setupBook(){
   try{localStorage.setItem('lf:book:'+D.book.toLowerCase(),JSON.stringify(D.slug))}catch(e){}
   let list=[];
   try{
-    const r=await fetch('data/index.json',{cache:'no-cache'});if(!r.ok)return;
-    const j=await r.json();
+    if(!BOOKIDX){const r=await fetch('data/index.json',{cache:'no-cache'});if(!r.ok)return;BOOKIDX=await r.json()}
+    const j=BOOKIDX;
     list=(j.lessons||[]).filter(l=>l&&l.slug&&String(l.book||'').trim().toLowerCase()===D.book.toLowerCase())
       .sort((a,b)=>(Number(a.chapter)||1e9)-(Number(b.chapter)||1e9)||String(a.title).localeCompare(String(b.title)));
   }catch(e){return}
@@ -1174,14 +1197,14 @@ async function setupBook(){
   $('nextRow').hidden=!(NEXT&&cur>=SENTS.length-1);
 }
 function start(j,fallback,fromPreview){
-  closeTray();D=normalize(j,fallback);document.title=D.title+' · Player Reading';$('ttl').textContent=D.title;
+  closeTray();phonBusy.clear();selWas=false;D=normalize(j,fallback);document.title=D.title+' · Player Reading';$('ttl').textContent=D.title;
   $('empty').hidden=true;$('bar').hidden=false;$('text').hidden=false;$('ctl').hidden=false;
   const fromPath=new URLSearchParams(location.search).get('from')==='path';
   $('back').href=fromPreview?'reading-generator.html':fromPath?'path.html':'index.html';
   doneOK=fromPath&&!fromPreview;doneSeen=false;$('doneRow').hidden=true;
   $('rate').value=String(pref.rate);$('fs').value=String(pref.fs);document.documentElement.style.setProperty('--fs',pref.fs+'rem');
   $('cIpa').checked=pref.ipa;$('cRm').checked=pref.rm;$('cSayTr').checked=pref.sayTr;applyAnnoUi();
-  fillVoices();build();flipIn();initServerVoices().then(()=>{applyAnnoUi();if(D)ensureAnno(cur,6)});
+  fillVoices();build();initServerVoices().then(()=>{applyAnnoUi();if(D)ensureAnno(cur,6)});
   setTimeout(()=>{fillVoices()},800);
   if(!fromPreview)setupBook();else{NEXT=null;$('chbar').hidden=true}
 }
