@@ -142,8 +142,9 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
 
     <section class="step" aria-labelledby="s1b">
       <h2 id="s1b"><span class="num">+</span>Sinkronkan teks dari halaman HTML</h2>
-      <p class="hint">Opsional. Pilih satu atau beberapa file <code>.html</code>. Teks yang tampil dibaca, lalu teks yang belum ada di <b>language.json</b> (bagian Indonesia) ditambahkan sebagai key baru. Kalau halaman belum memuat <code>i18n.js</code>, kamu bisa mengunduh HTML yang sudah disisipi scriptnya. Isi halaman selain itu tidak diubah. Hilangkan centang pada teks yang bukan bahasa Indonesia (mis. contoh kalimat English).</p>
+      <p class="hint">Opsional. Tombol <b>Pindai semua halaman otomatis</b> mengambil semua halaman <code>.html</code> situs ini langsung dari server (tanpa upload) dan menampilkan teks yang belum ada di <b>language.json</b>. Perlu dibuka lewat alamat situs (http/https), bukan file lokal. Atau pilih manual satu atau beberapa file <code>.html</code>. Teks yang tampil dibaca, lalu teks yang belum ada di <b>language.json</b> (bagian Indonesia) ditambahkan sebagai key baru. Kalau halaman belum memuat <code>i18n.js</code>, kamu bisa mengunduh HTML yang sudah disisipi scriptnya. Isi halaman selain itu tidak diubah. Hilangkan centang pada teks yang bukan bahasa Indonesia (mis. contoh kalimat English).</p>
       <div class="row">
+        <button class="btn btn-primary" id="pgAuto" type="button">Pindai semua halaman otomatis</button>
         <label class="btn" for="pgFiles" style="cursor:pointer">Pilih file HTML</label>
         <input id="pgFiles" type="file" accept=".html,.htm,text/html" multiple hidden>
         <button class="btn btn-primary" id="pgApply" type="button" disabled>Tambahkan teks terpilih</button>
@@ -557,6 +558,44 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
       pages = list.filter(Boolean).map(function (p) { p.texts = scanHtml(p.html); p.hasScript = hasScript(p.html); return p; });
       analyze();
     });
+  });
+  /* ---- pindai otomatis semua halaman HTML dari server, tanpa upload ---- */
+  var OKNAME = /^[A-Za-z0-9_][A-Za-z0-9_.-]*\.html?$/i;                                        // lewati "index (9).html", dll.
+  function getText(url) { return fetch(url, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }); }
+  function linksOf(html) {
+    var out = [], re = /["'`]((?:\.\/)?[^"'`#?\s\/\\]+\.html?)(?:[?#][^"'`]*)?["'`]/gi, m;   // href dan juga nama halaman di dalam JavaScript
+    while ((m = re.exec(html))) { var u = m[1].replace(/^\.\//, ''); if (!/^(?:[a-z]+:)?\/\//i.test(u) && u.indexOf('/') < 0 && OKNAME.test(u)) out.push(u); }
+    return out;
+  }
+  function discover() {                                    // daftar nama halaman dari beberapa sumber (digabung)
+    var names = {}, add = function (n) { if (n && OKNAME.test(n) && n.charAt(0) !== '_') names[n] = 1; };
+    add('index.html'); add(location.pathname.split('/').pop());
+    return Promise.all([
+      getText('data/card.json').then(function (t) { Object.keys(JSON.parse(t).pages || {}).forEach(add); }).catch(function () {})
+    ]).then(function () { return Object.keys(names); });
+  }
+  $('#pgAuto').addEventListener('click', function () {
+    if (!data) { pgStatus('Muat language.json dulu (langkah 1).', 'bad'); return; }
+    var btn = this; btn.disabled = true; pgStatus('Mencari daftar halaman…');
+    var got = {}, tried = {}, failed = 0;
+    function load(n) {                                       // ambil satu halaman, lalu ikuti tautan .html di dalamnya
+      if (tried[n]) return Promise.resolve(); tried[n] = 1;
+      return getText(n).then(function (html) {
+        if (!/<html|<body|<!doctype/i.test(html)) return;
+        got[n] = html;
+        return Promise.all(linksOf(html).map(load));
+      }).catch(function () { failed++; });
+    }
+    discover().then(function (names) {
+      pgStatus('Membaca ' + names.length + ' halaman…');
+      return Promise.all(names.map(load));
+    }).then(function () {
+      var list = Object.keys(got).sort();
+      if (!list.length) { pgStatus('Tidak ada halaman yang bisa diambil. Buka builder ini lewat alamat situs (http/https), atau pakai “Pilih file HTML”.', 'bad'); return; }
+      pages = list.map(function (n) { var h = got[n]; return { name: n, html: h, texts: scanHtml(h), hasScript: hasScript(h) }; });
+      analyze();
+    }).catch(function (e) { pgStatus('Pemindaian gagal: ' + (e && e.message || e), 'bad'); })
+      .then(function () { btn.disabled = false; });
   });
   $('#pgToggle').addEventListener('click', function () { var on = !cand.every(function (c) { return c.on; }); cand.forEach(function (c) { c.on = on; }); renderCand(); });
   $('#pgApply').addEventListener('click', function () {
