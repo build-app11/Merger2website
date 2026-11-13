@@ -145,18 +145,21 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   </header>
 
   <section class="step s1" aria-labelledby="h1s">
-    <h2 id="h1s"><span class="n">1</span>Pindai folder data</h2>
+    <h2 id="h1s"><span class="n">1</span>Pilih pelajaran baru</h2>
     <label class="drop" id="drop">
-      <b>Atau pilih/seret file satu per satu</b>
-      <span>Semua file pelajaran (<code>nama.json</code>). Kalau punya <code>index.json</code> lama, ikutkan juga supaya tanggal tambah, kategori, tag, dan gambar tetap terjaga. Bisa juga diseret ke sini.</span>
+      <b>Pilih file JSON pelajaran baru</b>
+      <span><code>index.json</code> yang sudah ada dimuat otomatis dari situs, jadi cukup pilih file pelajaran yang baru atau yang diubah (<code>nama.json</code>). Pelajaran lama tetap dipertahankan lengkap dengan tanggal tambah, kategori, tag, dan gambar. Bisa juga diseret ke sini.</span>
       <input type="file" id="files" accept=".json,application/json" multiple>
     </label>
     <div class="row">
-      <button class="btn primary" id="bScan" type="button">Pindai folder data/</button>
+      <button class="btn primary" id="bRepo" type="button">Pindai dari repositori</button>
+      <button class="btn" id="bScan" type="button">Pindai folder lokal</button>
       <button class="btn" id="bClear" type="button" disabled>Kosongkan</button>
       <input type="file" id="folder" webkitdirectory multiple hidden>
     </div>
-    <p class="note">Pilih folder <code>data/</code> (atau folder proyek yang berisi <code>data/</code>). Semua <code>.json</code> di dalamnya dipindai, <code>language.json</code> dan <code>card.json</code> dilewati. Pindai ulang kapan saja untuk memuat file baru. Browser tidak boleh membaca folder tanpa izin Anda, jadi pemilihan folder tetap diperlukan.</p>
+    <p class="note" id="idxNote">Memuat <code>data/index.json</code> dari situs…</p>
+    <p class="note"><b>Pindai dari repositori</b> mengambil file langsung dari situs/repositori (tanpa upload): daftar dari <code>data/index.json</code> ditambah daftar file di folder <code>data/</code> lewat GitHub API. Perlu dibuka lewat alamat situs (http/https). <b>Pindai folder lokal</b> membaca folder <code>data/</code> di komputer Anda. Keduanya melewati <code>language.json</code> dan <code>card.json</code>.</p>
+    <p class="note" id="scanNote" hidden></p>
     <p class="note" id="skipNote" hidden></p>
   </section>
 
@@ -345,6 +348,50 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
     const min = Math.min(...js.map((f) => par(f).length));
     return js.filter((f) => par(f).length === min);
   }
+  /* ---- muat index.json lama dari situs sendiri (tanpa API) ---- */
+  async function autoLoadIndex() {
+    const n = $('#idxNote');
+    try {
+      const r = await fetch('data/index.json', { cache: 'no-cache' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const j = await r.json();
+      if (!j || !Array.isArray(j.lessons)) throw new Error('format');
+      loadIndex(j, 'data/index.json (dari situs)');
+      n.className = 'note'; n.textContent = 'index.json dari situs dimuat: ' + oldIndex.size + ' pelajaran. Pilih file pelajaran baru untuk menambahkannya.';
+      render();
+    } catch (e) {
+      n.className = 'note warn';
+      n.textContent = 'index.json di situs tidak bisa dimuat (' + (location.protocol === 'file:' ? 'halaman dibuka sebagai file lokal' : 'belum ada atau gagal diambil') + '). Ikutkan index.json lama secara manual agar tanggal tambah tetap terjaga.';
+    }
+  }
+
+  /* ---- pindai dari repositori (server), tanpa upload ---- */
+  const REPO = { owner: 'build-app11', repo: 'Generate-transcript-english', branch: 'main', dir: 'data' };   // sama dengan CONFIG di index.html
+  const getText = (u) => fetch(u, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); });
+  $('#bRepo').addEventListener('click', async () => {
+    const btn = $('#bRepo'), note = $('#scanNote');
+    btn.disabled = true; note.hidden = false; note.className = 'note'; note.textContent = 'Memuat dari repositori…';
+    try {
+      const names = new Set(); let idxText = null, apiOk = true;
+      try { idxText = await getText(REPO.dir + '/index.json'); (JSON.parse(idxText).lessons || []).forEach((l) => { if (l && typeof l.slug === 'string') names.add(l.slug + '.json'); }); } catch (e) { idxText = null; }
+      try {
+        const r = await fetch('https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + '/contents/' + REPO.dir + '?ref=' + REPO.branch, { headers: { Accept: 'application/vnd.github+json' } });
+        if (!r.ok) throw new Error('api ' + r.status);
+        (await r.json()).forEach((it) => { if (it.type === 'file' && /\.json$/i.test(it.name)) names.add(it.name); });
+      } catch (e) { apiOk = false; }
+      names.delete('index.json'); SKIP.forEach((n) => names.delete(n));
+      if (!names.size && !idxText) { note.className = 'note bad'; note.textContent = 'Tidak ada yang bisa diambil. Buka halaman ini lewat alamat situs (bukan file lokal) atau pakai "Pindai folder lokal".'; return; }
+      const files = [], missing = [];
+      if (idxText) files.push(new File([idxText], 'index.json'));
+      await Promise.all([...names].map(async (n) => { try { files.push(new File([await getText(REPO.dir + '/' + encodeURIComponent(n))], n)); } catch (e) { missing.push(n); } }));
+      await scanFiles(files);
+      const bits = ['Dari repositori: ' + (names.size - missing.length) + ' file pelajaran dibaca.'];
+      if (!apiOk) bits.push('Daftar file dari GitHub API tidak bisa diambil, jadi hanya pelajaran yang sudah ada di index.json yang dipindai. File baru belum terdeteksi: pakai "Pindai folder lokal" atau coba lagi nanti.');
+      if (missing.length) bits.push('Gagal diambil: ' + missing.join(', ') + '.');
+      note.className = 'note' + (!apiOk || missing.length ? ' warn' : ''); note.textContent = bits.join(' ');
+    } catch (e) { note.className = 'note bad'; note.textContent = 'Gagal memindai: ' + (e && e.message || e); }
+    finally { btn.disabled = false; }
+  });
   $('#bScan').addEventListener('click', async () => {
     if (window.showDirectoryPicker) {
       try {
@@ -489,7 +536,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
       const badges = [];
       if (r.status === 'new') badges.push('<span class="b new">Baru</span>');
       if (r.status === 'update') badges.push('<span class="b">Diperbarui</span>');
-      if (r.status === 'kept') badges.push('<span class="b warn">Dari index lama, file tidak dipilih</span>');
+      if (r.status === 'kept') badges.push('<span class="b warn">Sudah ada di index (file tidak dipilih)</span>');
       if (b.type === 'read') badges.push('<span class="b">Read</span>');
       else if (!b.videoId && !b.audio) badges.push('<span class="b warn">Tanpa audio/video</span>');
       return '<li class="item' + (r.include ? '' : ' off') + '" data-slug="' + esc(r.slug) + '">' +
@@ -545,8 +592,9 @@ code { font-family: var(--font-mono); font-size: 0.9em; padding: 0 5px; border-r
   ['dragenter', 'dragover'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('over'); }));
   ['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('over'); }));
   drop.addEventListener('drop', (e) => { if (e.dataTransfer && e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
-  $('#bClear').addEventListener('click', () => { fileLessons.clear(); oldIndex = new Map(); indexName = ''; errors.length = 0; skipped.length = 0; ui.clear(); feedImg.clear(); feedTried.clear(); toast(''); render(); });
+  $('#bClear').addEventListener('click', () => { fileLessons.clear(); oldIndex = new Map(); indexName = ''; errors.length = 0; skipped.length = 0; $('#scanNote').hidden = true; ui.clear(); feedImg.clear(); feedTried.clear(); toast(''); render(); autoLoadIndex(); });
 
+  autoLoadIndex();
   let tt = null;
   function toast(msg, bad) { const t = $('#toast'); t.textContent = msg; t.className = 'toast' + (bad ? ' bad' : ''); clearTimeout(tt); if (msg) tt = setTimeout(() => { t.textContent = ''; }, 5000); }
   $('#bDl').addEventListener('click', () => {
