@@ -28,7 +28,7 @@ Halaman statis tetap bisa di-host di GitHub Pages sementara server berjalan di t
 ## Alur kerja
 
 1. `reading-generator.html`: pilih sumber di dropdown, ambil teks, edit, isi info, lalu **Buka di Player** (pratinjau), **Unduh JSON**, atau **Kirim ke Sync Reader**.
-2. Simpan JSON ke folder `data/`, buka `index-builder.html`, klik **Pindai folder data/** (semua `.json` dibaca otomatis, kecuali `language.json` dan `card.json`; `index.json` lama dipakai untuk menjaga tanggal tambah), lalu ganti `data/index.json`. Pelajaran muncul di beranda.
+2. Buka `index-builder.html` (memuat `data/index.json` dari situs otomatis), pilih file JSON pelajaran yang baru (`language.json` dan `card.json` dilewati), lalu unduh `index.json` dan ganti `data/index.json`. Upload file pelajaran barunya ke `data/`.
 3. Buka lewat kartu, atau `player-reading.html?q=slug`.
 
 ## Buku (banyak bab)
