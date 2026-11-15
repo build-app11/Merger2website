@@ -3844,7 +3844,20 @@
    "index.t009": "/fɔːr/",
    "index.t010": "/wɔːk/",
    "data-index-json.t047": "Short Spanish Story 🇪🇸 | A1 Daily Routine",
-   "data-index-json.t048": "Slow Spanish Vlog 🇪🇸 | Making Huevos Pericos"
+   "data-index-json.t048": "Slow Spanish Vlog 🇪🇸 | Making Huevos Pericos",
+   "kosakata.ui.impor_apkg_csv_txt": "＋ Import .apkg / .csv / .txt",
+   "kosakata.msg.ekspor_deck_apkg_dengan_progres_csv": "Export deck: .apkg (with progress), .csv, or .txt",
+   "kosakata.msg.sm_2_klasik_anki": "SM-2 (classic Anki)",
+   "kosakata.msg.fsrs_parameter_bawaan_tanpa_optimizer": "FSRS (default parameters, no optimizer)",
+   "video-generator.ui.nama_file_halaman_json": "File name: halaman.json",
+   "video-generator.ui.pilih_file_txt": "Choose a .txt file",
+   "index-builder.ui.pembuat_index_json": "index.json builder",
+   "index.msg.pembuat_index_json": "index.json builder",
+   "index-builder.ui.unduh_index_json": "Download index.json",
+   "index-builder.aria.isi_index_json": "Contents of index.json",
+   "index-builder.msg.file_diunduh_index_json": "File downloaded: index.json",
+   "language-builder.t005": "Open language.json",
+   "language-builder.t009": "Load language.json"
   },
   "es": {
    "title": "Learning Fun: practica hablar inglés con videos reales",
@@ -5722,7 +5735,20 @@
    "index.t007": "/ɑːr/",
    "index.t008": "/ˈɡoʊɪnorte/",
    "index.t009": "/fɔːr/",
-   "index.t010": "/wɔːk/"
+   "index.t010": "/wɔːk/",
+   "kosakata.ui.impor_apkg_csv_txt": "＋ Importar .apkg / .csv / .txt",
+   "kosakata.msg.ekspor_deck_apkg_dengan_progres_csv": "Exportar mazo: .apkg (con progreso), .csv o .txt",
+   "kosakata.msg.sm_2_klasik_anki": "SM-2 (el clásico de Anki)",
+   "kosakata.msg.fsrs_parameter_bawaan_tanpa_optimizer": "FSRS (parámetros predeterminados, sin optimizador)",
+   "video-generator.ui.nama_file_halaman_json": "Nombre de archivo: halaman.json",
+   "video-generator.ui.pilih_file_txt": "Elegir un archivo .txt",
+   "index-builder.ui.pembuat_index_json": "Creador de index.json",
+   "index.msg.pembuat_index_json": "Creador de index.json",
+   "index-builder.ui.unduh_index_json": "Descargar index.json",
+   "index-builder.aria.isi_index_json": "Contenido de index.json",
+   "index-builder.msg.file_diunduh_index_json": "Archivo descargado: index.json",
+   "language-builder.t005": "Abrir language.json",
+   "language-builder.t009": "Cargar language.json"
   },
   "fr": {
    "title": "Learning Fun : pratique de l'anglais avec des vidéos originales",
@@ -7600,7 +7626,20 @@
    "index.t007": "/ɑːr/",
    "index.t008": "/ˈɡoʊɪŋ/",
    "index.t009": "/fɔːr/",
-   "index.t010": "/wɔːk/"
+   "index.t010": "/wɔːk/",
+   "kosakata.ui.impor_apkg_csv_txt": "＋ Importer .apkg / .csv / .txt",
+   "kosakata.msg.ekspor_deck_apkg_dengan_progres_csv": "Exporter le deck : .apkg (avec progression), .csv ou .txt",
+   "kosakata.msg.sm_2_klasik_anki": "SM-2 (le classique d'Anki)",
+   "kosakata.msg.fsrs_parameter_bawaan_tanpa_optimizer": "FSRS (paramètres par défaut, sans optimiseur)",
+   "video-generator.ui.nama_file_halaman_json": "Nom du fichier : halaman.json",
+   "video-generator.ui.pilih_file_txt": "Choisir un fichier .txt",
+   "index-builder.ui.pembuat_index_json": "Générateur d'index.json",
+   "index.msg.pembuat_index_json": "Générateur d'index.json",
+   "index-builder.ui.unduh_index_json": "Télécharger index.json",
+   "index-builder.aria.isi_index_json": "Contenu d'index.json",
+   "index-builder.msg.file_diunduh_index_json": "Fichier téléchargé : index.json",
+   "language-builder.t005": "Ouvrir language.json",
+   "language-builder.t009": "Charger language.json"
   }
  }
 }

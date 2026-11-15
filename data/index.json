@@ -3,14 +3,19 @@
   "lessons": [
     {
       "slug": "01-bertie-s-christmas-storynory",
-      "title": "01 Bertie s Christmas Storynory",
+      "title": "Bertie's Christmas (Storynory)",
       "videoId": "",
       "lines": 58,
       "audio": "https://delivery-edge.libsyn.com/shows/17954/items/3941051/01_Bertie_s_Christmas_Storynory.mp3",
       "lang": "en",
       "duration": 344,
       "image": "https://content.storynory.com/wp-content/uploads/2025/09/Camp_Counsillor_moley-1-scaled-450x450.jpg.webp",
-      "added": "2026-11-12T02:43:52.669Z"
+      "added": "2026-11-12T02:43:52.669Z",
+      "category": "Podcast",
+      "tags": [
+        "Story",
+        "kids"
+      ]
     },
     {
       "slug": "7-minutes-of-real-life-korean-slow-korean-vlog",
@@ -46,13 +51,19 @@
       "title": "Could vaccines cure cancer?",
       "videoId": "",
       "lines": 1,
-      "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pldlfg.mp3",
+      "audio": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pldlfg.mp3",
       "lang": "en",
       "channel": "6 Minute English",
       "duration": 436,
-      "image": "http://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg",
+      "image": "https://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg",
       "feed": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
-      "added": "2026-11-11T10:03:07.852Z"
+      "added": "2026-11-11T10:03:07.852Z",
+      "category": "Podcast",
+      "tags": [
+        "BBC",
+        "6 Minute English",
+        "Health"
+      ]
     },
     {
       "slug": "easy-japanese-15-valentines-day",
@@ -120,7 +131,7 @@
       "channel": "Easy Languages",
       "tags": [
         "Japanese",
-        "easy jalan"
+        "easy japan"
       ],
       "added": "2026-11-13T08:04:25.785Z"
     },
@@ -134,9 +145,27 @@
       "channel": "Spanish After Hours",
       "tags": [
         "Spanish",
-        "compréhensible input"
+        "comprehensible input"
       ],
       "added": "2026-11-13T08:04:25.785Z"
+    },
+    {
+      "slug": "is-aircon-the-answer-to-a-heating-world",
+      "title": "Is aircon the answer to a heating world?",
+      "videoId": "",
+      "lines": 76,
+      "type": "read",
+      "words": 1197,
+      "duration": 399,
+      "lang": "en",
+      "category": "Podcast",
+      "channel": "6 Minute English",
+      "tags": [
+        "BBC",
+        "6 Minute English",
+        "Environment"
+      ],
+      "added": "2026-11-13T22:20:52.000Z"
     },
     {
       "slug": "learn-english-naturally-with-this-easy-vlog-comprehensible-input",
@@ -159,7 +188,12 @@
       "lines": 138,
       "lang": "ko",
       "channel": "Korean Daily by Summer",
-      "added": "2026-11-13T08:04:25.785Z"
+      "added": "2026-11-13T08:04:25.785Z",
+      "category": "Vlog",
+      "tags": [
+        "Korea learning",
+        "Vlog"
+      ]
     },
     {
       "slug": "learn-korean-with-me-at-the-airport-real-life-korean-listening",
@@ -206,6 +240,23 @@
       "added": "2026-11-13T08:04:25.785Z"
     },
     {
+      "slug": "s1e145-no-arcade-de-rv-uma-nova-aventura-te-espera",
+      "title": "S1E145 - No Arcade de RV: Uma nova aventura te espera!",
+      "videoId": "",
+      "lines": 1,
+      "audio": "https://episodes.castos.com/692eb30936b011-68690236/2504550/c1e-q318wb7644dh18g3v-rkgvd21qco24-1qndyp.mp3?awCollectionId=70751&awEpisodeId=https%3A%2F%2Fpermalink.castos.com%2Fpodcast%2F70751%2Fepisode%2F2504550&aw_0_1st.ri=castos&aw_0_cnt.rss=https%3A%2F%2Ffeeds.castos.com%2F93n64&aw_0_azn.pgenre=%5BEducation%3A+Language+Learning%2CEducation%2CLeisure%3A+Hobbies%5D&aw_0_cnt.url=https%3A%2F%2Fsmall-talk-cafe-learn-portuguese-in-minutes.castos.com%2Fepisodes%2Fs1e145-no-arcade-de-rv-uma-nova-aventura-te-espera&aw_0_azn.planguage=pt-br&q_co=3d257e9dec2e07544539285a7912fa3beda61e0d0c82254d4f96b8525a58c991",
+      "lang": "pt",
+      "duration": 317,
+      "channel": "Small Talk Café - Learn Portuguese in Minutes",
+      "category": "Podcast",
+      "tags": [
+        "Portuguese",
+        "podcast"
+      ],
+      "feed": "https://feeds.castos.com/93n64",
+      "added": "2026-11-13T22:20:52.000Z"
+    },
+    {
       "slug": "short-spanish-story-a1-daily-routine",
       "title": "Short Spanish Story 🇪🇸 | A1 Daily Routine",
       "videoId": "r__3iBspJR0",
@@ -250,7 +301,7 @@
     },
     {
       "slug": "sub-learn-korean-with-vlog-for-beginners-ep-8",
-      "title": "Sub) Learn Korean with Vlog for beginners Ep.8",
+      "title": "Learn Korean with Vlog for beginners Ep.8 (Sub)",
       "videoId": "sa0mN3K7BIM",
       "lines": 158,
       "lang": "ko",
@@ -264,14 +315,14 @@
     },
     {
       "slug": "the-metal-monster-bab-1",
-      "title": "CHAPTER XXV. CHERKIS",
+      "title": "PROLOGUE",
       "videoId": "",
-      "lines": 24,
+      "lines": 20,
       "type": "read",
       "book": "The Metal Monster",
       "chapter": 1,
-      "words": 772,
-      "duration": 257,
+      "words": 738,
+      "duration": 246,
       "image": "https://i.imgur.com/WtjPHMA.jpeg",
       "lang": "en",
       "category": "Artikel",
@@ -883,7 +934,10 @@
       "lang": "en",
       "category": "Berita",
       "channel": "BBC News",
-      "added": "2026-11-11T10:55:00.732Z"
+      "added": "2026-11-11T10:55:00.732Z",
+      "tags": [
+        "News"
+      ]
     }
   ]
 }

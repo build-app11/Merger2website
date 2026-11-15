@@ -5,10 +5,14 @@
   "category": "Podcast",
   "channel": "6 Minute English",
   "lang": "en",
-  "tags": [],
+  "tags": [
+    "BBC",
+    "6 Minute English",
+    "Environment"
+  ],
   "source": {
     "type": "pod",
-    "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk7c8b.mp3",
+    "url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk7c8b.mp3",
     "episode": "Is aircon the answer to a heating world?"
   },
   "words": 1197,
