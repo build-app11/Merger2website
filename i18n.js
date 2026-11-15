@@ -1,24 +1,27 @@
 /* i18n Learning Fun: lapisan terjemahan terpisah. Kode dan markup halaman TIDAK diubah.
    - Bahasa asli: Indonesia (id). Di bahasa id, skrip ini tidak melakukan apa-apa selain menyediakan menu bahasa.
-   - Bahasa lain dibaca dari data/language.json  { "languages": [[kode, nama]], "strings": { kode: { key: teks } } }.
+   - Bahasa lain dibaca (async, tidak memblokir halaman) dari data/lang/<kode>.json, hasil `npm run build:lang`
+     (scripts/split-lang.js). Kalau file itu belum ada, dipakai data/language.json
+     { "languages": [[kode, nama]], "strings": { kode: { key: teks } } }.
      Teks Indonesia (strings.id) dicocokkan dengan teks yang tampil di halaman, lalu diganti dengan teks bahasa terpilih
      pada teks di halaman, atribut (placeholder, aria-label, title, alt), judul, serta alert/confirm/prompt.
      Teks yang mengandung {n}, {a}, {b}, {q} dicocokkan sebagai pola. Teks tanpa terjemahan tetap Indonesia.
    - Pilih bahasa lewat menu <div data-lang-menu></div> atau ?lang=<kode> (tersimpan di localStorage "lf:lang"). */
 (function () {
   'use strict';
-  var lang = 'id', DATA = null;
+  var lang = 'id', DATA = null, LANGLIST = null;
   try { var q = new URLSearchParams(location.search).get('lang'); if (q) localStorage.setItem('lf:lang', q); lang = localStorage.getItem('lf:lang') || 'id'; } catch (e) {}
   if (!/^[a-zA-Z]{2,3}(-[A-Za-z0-9]+)?$/.test(lang)) lang = 'id';
   window.LANG = lang;
 
-  function loadSync() {
-    try {
-      var x = new XMLHttpRequest(); x.open('GET', 'data/language.json', false); x.send();
-      if (x.status === 200 || (x.status === 0 && x.responseText)) return JSON.parse(x.responseText);
-    } catch (e) {}
-    return null;
+  function getJson(url) { return fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function loadLang() {                                      // file kecil per bahasa dulu, lalu cadangan: language.json utuh
+    return getJson('data/lang/' + lang + '.json').catch(function () { return getJson('data/language.json'); });
   }
+  function loadLangList() {                                  // hanya daftar bahasa untuk menu
+    return getJson('data/lang/index.json').catch(function () { return getJson('data/language.json'); });
+  }
+  window.LFlangList = loadLangList;
 
   /* ---------- Penerjemah ---------- */
   var exact = Object.create(null), pats = [], cache = Object.create(null), active = false;
@@ -91,13 +94,20 @@
   });
 
   if (lang !== 'id') {
-    DATA = loadSync();
-    if (DATA && DATA.strings) {
-      window.I18N_DATA = DATA; build();
-      var rtl = /^(ar|he|fa|ur)(-|$)/i.test(lang);
-      document.documentElement.lang = lang; document.documentElement.dir = rtl ? 'rtl' : 'ltr';
-      if (active) start();
-    }
+    var rtl = /^(ar|he|fa|ur)(-|$)/i.test(lang), de = document.documentElement;
+    de.lang = lang; de.dir = rtl ? 'rtl' : 'ltr';
+    /* Sembunyikan halaman sebentar supaya teks Indonesia tidak berkedip; batas 1,5 detik agar tidak pernah macet. */
+    var wait = document.createElement('style'); wait.textContent = 'html.lf-wait{visibility:hidden}';
+    (document.head || de).appendChild(wait); de.classList.add('lf-wait');
+    var release = function () { de.classList.remove('lf-wait'); };
+    setTimeout(release, 1500);
+    loadLang().then(function (j) {
+      if (j && j.strings) {
+        DATA = window.I18N_DATA = j; build();
+        if (active) start();
+        document.dispatchEvent(new CustomEvent('lf:i18n', { detail: { lang: lang } }));
+      }
+    }).catch(function () {}).then(release);
   }
   window.LFt = function (k, d) { var S = (DATA && DATA.strings) || {}; var v = (S[lang] || {})[k]; return v != null ? v : (d != null ? d : k); };
 
@@ -119,7 +129,7 @@
     box.append(btn, pop);
     function build2() {
       pop.textContent = '';
-      ((DATA && DATA.languages) || [['id', 'Indonesia']]).forEach(function (l) {
+      (LANGLIST || (DATA && DATA.languages) || [['id', 'Indonesia']]).forEach(function (l) {
         var b = document.createElement('button'); b.type = 'button'; b.className = 'lfl-it'; b.setAttribute('role', 'menuitem'); b.lang = l[0]; b.title = l[1];
         if (l[0].toLowerCase() === lang.toLowerCase()) b.setAttribute('aria-current', 'true');
         b.innerHTML = '<b></b><span></span>'; b.firstChild.textContent = l[0].split('-')[0].toUpperCase(); b.lastChild.textContent = l[1];
@@ -135,7 +145,7 @@
       if (!pop.hidden) return open(false);
       if (!loaded) {
         loaded = true;
-        fetch('data/language.json').then(function (r) { return r.json(); }).then(function (j) { DATA = j; }).catch(function () {}).then(function () { build2(); if (!pop.hidden) open(true); });
+        loadLangList().then(function (j) { if (j && j.languages) LANGLIST = j.languages; }).catch(function () {}).then(function () { build2(); if (!pop.hidden) open(true); });
       }
       build2(); open(true);
     });

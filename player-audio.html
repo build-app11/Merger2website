@@ -57,6 +57,13 @@
 .qzs{font:500 .95rem/1.5 var(--font-read);color:var(--muted);text-align:center}
 .qzs b{color:var(--head)}
 .qzopts{display:flex;flex-direction:column;gap:10px;width:100%}
+.qzp{display:flex;align-items:flex-start;gap:10px;width:100%;text-align:left;font-weight:600;font-family:var(--font-read)}
+.qzp::before{content:'';flex:none;display:grid;place-items:center;width:22px;height:22px;margin-top:1px;border:2.5px solid currentColor;border-radius:7px;font:800 .8rem/1 var(--font-ui)}
+.qzp.sel::before{content:'✓'}
+.qzp .qzn{display:block;margin-top:4px;font:600 .8rem/1.3 var(--font-ui);opacity:.9}
+.qzp>span{flex:1;min-width:0}
+.qzo.miss{border-style:dashed;border-color:var(--ui);color:var(--ui);box-shadow:none}
+.qzc{font:700 .9rem/1.3 var(--font-ui);color:var(--muted)}
 .qzans{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-content:flex-start;min-height:4.2em;width:100%;padding:12px;border:2.5px dashed var(--ink);border-radius:14px;background:var(--field)}
 .qzfb{width:100%;padding:10px 14px;border-radius:12px;font:600 .95rem/1.45 var(--font-ui);border:2px solid var(--line);text-align:center}
 .qzfb.ok{background:var(--ui-soft);color:var(--ui);border-color:var(--ui)}
@@ -96,6 +103,13 @@
 .dpb{flex:none;width:40px;height:40px;padding:0;border-radius:50%;border:2.5px solid var(--ink);background:var(--accent);color:var(--on);display:grid;place-items:center;cursor:pointer;box-shadow:2px 2px 0 var(--shadow)}
 .dpb.alt{background:var(--bar);color:var(--head)}
 .dpb svg{width:20px;height:20px}
+.dvs{display:flex;gap:8px;flex:none}
+.rd:not(.voc) .dvs{display:none}
+.dvs button{flex:1;min-height:40px;border:2px solid var(--ink);border-radius:12px;background:var(--bar);color:var(--fg);padding:8px 6px;font:700 .85rem var(--font-ui);cursor:pointer}
+.dvs button[aria-pressed=true]{background:var(--accent);color:var(--on)}
+.dvs button[data-d=vl][aria-pressed=true]{background:rgba(34,180,90,.8);color:#04210f}
+.rd.voc:not(.prac) .w.vu .t{background:rgba(255,99,99,.28);border-radius:4px}
+.rd.voc:not(.prac) .w.vl .t{background:rgba(34,180,90,.8);color:#04210f;border-radius:4px}
 .dpb.star svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}
 .dpb.star[aria-pressed=true]{background:var(--accent);color:var(--on)}
 .dpb.star[aria-pressed=true] svg{fill:currentColor}
@@ -225,7 +239,9 @@
 .dqbar{flex:1;height:14px;border-radius:7px;background:var(--line);border:2.5px solid var(--ink);overflow:hidden}
 .dqbar i{display:block;height:100%;width:0;background:var(--ui);transition:width .3s}
 .dqn{flex:none;min-width:3.2em;text-align:right;font:700 .85rem var(--font-ui);color:var(--muted);font-variant-numeric:tabular-nums}
-.dqm{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;width:100%;max-width:var(--col);margin:0 auto;padding:8px 20px;display:flex;flex-direction:column;justify-content:center}
+.dqm{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;width:100%;max-width:var(--col);margin:0 auto;padding:8px 20px;display:flex;flex-direction:column;justify-content:flex-start}
+.dqm>.dqq,.dqm>.dqres,.dqm>.qzb{flex:none;margin-block:auto}   /* tengah kalau pendek, mulai dari atas dan bisa di-scroll kalau panjang (justify-content:center memotong bagian atas) */
+.qzb{width:100%;padding-bottom:6px}
 .dqq{display:flex;flex-direction:column;align-items:center;gap:22px}
 .dqq[hidden],.dqres[hidden]{display:none}
 .dqtag{font:600 .85rem/1.4 var(--font-ui);color:var(--accent-text);background:var(--accent-soft);padding:8px 14px;border-radius:12px;text-align:center}
@@ -276,10 +292,26 @@
 .ld p{margin:0}
 .ld a{color:var(--head);font:600 1rem var(--font-display);text-decoration:none;padding:10px 22px;border:2.5px solid var(--ink);border-radius:999px;background:var(--bar);box-shadow:3px 3px 0 var(--shadow)}
 </style>
+<meta name="description" content="Pemutar audio Learning Fun: audio asli dengan transkrip berwaktu dan IPA di setiap kata.">
+<link rel="canonical" href="https://learningfun.zone.id/player-audio.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Pemutar Audio · Learning Fun">
+<meta property="og:description" content="Pemutar audio Learning Fun: audio asli dengan transkrip berwaktu dan IPA di setiap kata.">
+<meta property="og:url" content="https://learningfun.zone.id/player-audio.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <div id="app"><div class="ld"><p>Memuat halaman…</p><a href="./">Kembali</a></div></div>
 <script src="i18n.js"></script>
+<script src="lf-stats.js"></script>
+<script src="lf-collect.js" data-record></script>
 <script>function createReader(root,cfg){
   const WORDS=cfg.words,TERM=/[.!?。！？]["')\]”’）」』]*$/;
   const LS='syncreader:'+(cfg.key||'page');
@@ -315,7 +347,7 @@
     return parts.map(p=>{if(!RUN_START.test(p))return esc(p);const r=m[n++];return KANJI.test(p)&&r!==p?'<ruby>'+esc(p)+'<rt>'+esc(r)+'</rt></ruby>':esc(p)}).join('');
   }
   function setT(t,i){const w=WORDS[i];if(cfg.hasFu&&w.f)t.innerHTML=rubyHtml(w.w,w.f);else t.textContent=w.w}
-  const QDESC={order:'Susun kata yang diacak menjadi kalimat yang benar: ketuk kata sesuai urutan, ketuk lagi untuk melepas. Tombol speaker memutar kalimatnya.'};
+  const QDESC={order:'Susun kata yang diacak menjadi kalimat yang benar: ketuk kata sesuai urutan, ketuk lagi untuk melepas. Tombol speaker memutar kalimatnya.',pick:'Audio memutar dua kalimat. Pilih 2 dari 5 kalimat yang benar-benar ada di audio. Tombol speaker memutar ulang. Jumlah soal: 3 / 5 / 8.'};
   let Z=null;
   const ICON_SET='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6a.5.5 0 0 0 .1-.6l-1.9-3.3a.5.5 0 0 0-.6-.2l-2.4 1a7.4 7.4 0 0 0-1.7-1l-.4-2.5a.5.5 0 0 0-.5-.4h-3.8a.5.5 0 0 0-.5.4l-.4 2.5a7.4 7.4 0 0 0-1.7 1l-2.4-1a.5.5 0 0 0-.6.2L2.6 8.8a.5.5 0 0 0 .1.6l2 1.6a7.5 7.5 0 0 0 0 2l-2 1.6a.5.5 0 0 0-.1.6l1.9 3.3c.1.2.4.3.6.2l2.4-1c.5.4 1.1.7 1.7 1l.4 2.5c0 .2.2.4.5.4h3.8c.3 0 .5-.2.5-.4l.4-2.5c.6-.3 1.2-.6 1.7-1l2.4 1c.2.1.5 0 .6-.2l1.9-3.3a.5.5 0 0 0-.1-.6zM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/></svg>';
   const ICON_PEN='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75zM20.7 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75z"/></svg>';
@@ -352,12 +384,13 @@
       <label class="prow"><span>Fonetik</span><input type="checkbox" data-a="ph" aria-label="Tampilkan fonetik IPA"><i class="nun">Tampilkan fonetik (IPA)</i></label>
       <label class="prow" data-row="fu" hidden><span class="fu-l">Furigana</span><input type="checkbox" data-a="fu" aria-label="Tampilkan furigana atau pinyin"><i class="nun fu-d">Tampilkan di atas kata</i></label>
       <label class="prow" data-row="ro" hidden><span class="ro-l">Romaji</span><input type="checkbox" data-a="ro" aria-label="Tampilkan romaji atau romanisasi"><i class="nun ro-d">Tampilkan di bawah kata</i></label>
+      <label class="prow"><span>Kosakata otomatis</span><input type="checkbox" data-a="vx" aria-label="Sorot kata belum dikenal dan sedang dipelajari"><i class="nun">Pink = belum dikenal, hijau = sedang dipelajari (sinkron deck)</i></label>
       <label class="prow"><span>Terjemahan</span><input type="checkbox" data-a="tr" aria-label="Tampilkan terjemahan"><i class="nun">Tampilkan terjemahan di bawah baris</i></label>
       <div class="gl rnote"></div>
   </div>
   <div class="pane" data-pane="pprac" hidden>
       <div class="g"><div class="gh"><b>Jenis latihan</b></div>
-        <div class="chips"><button class="chip" data-a="pmode" data-v="fib">Isi bagian kosong</button><button class="chip" data-a="pmode" data-v="hiw">Sorot kata salah</button><button class="chip" data-a="pmode" data-v="dnd">Pilih kata (grammar)</button><button class="chip" data-a="pmode" data-v="order">Susun kalimat</button></div>
+        <div class="chips"><button class="chip" data-a="pmode" data-v="fib">Isi bagian kosong</button><button class="chip" data-a="pmode" data-v="hiw">Sorot kata salah</button><button class="chip" data-a="pmode" data-v="dnd">Pilih kata (grammar)</button><button class="chip" data-a="pmode" data-v="order">Susun kalimat</button><button class="chip" data-a="pmode" data-v="pick">Pilih kalimat</button></div>
         <div class="gl pmd"></div></div>
       <div class="g"><div class="gh"><b>Panjang soal</b></div>
         <div class="chips"><button class="chip" data-a="plen" data-v="0">Semua teks</button><button class="chip" data-a="plen" data-v="3">3 kalimat</button><button class="chip" data-a="plen" data-v="5">5 kalimat</button><button class="chip" data-a="plen" data-v="10">10 kalimat</button></div>
@@ -472,6 +505,7 @@
   au.addEventListener('pause',()=>{$q('.rpi').setAttribute('d',PLAY);$q('[data-a=play]').setAttribute('aria-label','Putar')});
   au.addEventListener('loadedmetadata',()=>{au.playbackRate=pref.speed;ui()});
   au.addEventListener('ended',ui);
+  if(window.LFStats)LFStats.track(()=>!au.paused&&!au.ended,()=>LG);
   au.addEventListener('seeked',()=>{if(!gapTimer){paintAll(find(au.currentTime));ui()}});
   au.addEventListener('error',()=>{infoEl.hidden=false;infoEl.textContent='Audio tidak bisa dimuat. Pastikan file audio ada di folder yang sama dan namanya benar.'});
   seek.addEventListener('input',()=>jump(seek.value/1000*dur()));
@@ -493,6 +527,8 @@
     $$('[data-a=plvl]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.v===pref.pd)));
     $q('.pmd').textContent=QDESC[pref.pm]||(pref.pm==='fib'?'Ketik kata yang hilang sambil mendengarkan. Hijau = benar, merah = salah.':pref.pm==='hiw'?'Ketuk kata yang tidak sama dengan audio. Hijau = benar, merah = salah.':'Seret atau ketuk kata yang tepat. Menguji tenses, subjek-kata kerja, pronoun, artikel, dan preposisi. Tiap kartu berisi 2–4 kotak, dengan kata pengecoh. Jumlah kartu: 3 / 5 / 8.');
     phBtn.checked=!!pref.ph&&!!cfg.hasPh;
+    $q('.rpanel [data-a=vx]').checked=!!pref.vx;rd.classList.toggle('voc',!!pref.vx&&DICT);
+    if(!!pref.vx!==vocShown){vocShown=!!pref.vx;if(vocShown){deckLoad();vocPaintAll()}}
     trBtn.checked=!!pref.tr&&!!cfg.hasTr;
     fuBtn.checked=!!pref.fu&&!!cfg.hasFu;roBtn.checked=!!pref.ro&&!!cfg.hasRo;
     $q('.rlab').textContent=pref.rep==='sentence'?('Ulang kalimat'+(pref.cnt?' '+pref.cnt+'×':' ∞')):pref.rep==='all'?'Ulang semua':(pref.speed!==1?pref.speed+'×':'');
@@ -518,7 +554,7 @@
     const w=e.target.closest('.w');
     if(w){closePanels();const i=+w.dataset.i;
     if(P){if(P.mode==='hiw')pickWord(i);return}
-    if(DICT&&dpEl){cancelGap();au.pause();au.currentTime=Math.min(WORDS[i].s+.01,dur());follow=false;loopK=segOf[i];reps=0;paintAll(i);ui();openDict(WORDS[i].w,i);return}
+    if(DICT&&dpEl){cancelGap();au.pause();au.currentTime=Math.min(WORDS[i].s+.01,dur());follow=false;loopK=segOf[i];reps=0;paintAll(i);ui();openDict(WORDS[i].w,i);vocBtn();return}
     jump(WORDS[i].s+.01);loopK=segOf[i];reps=0;if(au.paused)au.play();return}
     const b=e.target.closest('[data-a]');
     if(!b){if(!e.target.closest('.rpanel'))closePanels();return}
@@ -529,6 +565,7 @@
     else if(a==='tr'){if(cfg.hasTr)pref.tr=!pref.tr}
     else if(a==='fu'){if(cfg.hasFu)pref.fu=!pref.fu}
     else if(a==='ro'){if(cfg.hasRo)pref.ro=!pref.ro}
+    else if(a==='vx'){pref.vx=!pref.vx}
     else if(a==='fs-')setFs(pref.fs-1);else if(a==='fs+')setFs(pref.fs+1);
     else if(a==='speed')setSpeed(+v);
     else if(a==='rep'){pref.rep=v;syncLoop()}
@@ -695,7 +732,7 @@
     const m=id.match(/^Terjemahan otomatis: (.*?)\. (?:Belum ada arti|Kata tidak)/);
     if(m)id=m[1];else if(!st.res||/^(Memuat|Belum ada arti)/.test(id))id='';
     let en='';if(st.res)for(const e of st.res.entries){const s=sensesOf(e)[0];if(s){en=s.definition;break}}
-    return{w:stKey(),ipa:dpEl.querySelector('.dip').textContent,id,en,lg:langOf()[0]}}
+    return{w:stKey(),ipa:dpEl.querySelector('.dip').textContent,id,en,lg:langOf()[0],sl:LG.split('-')[0]}}
   function stPaint(){
     if(!dpEl)return;const b=dpEl.querySelector('[data-d="star"]'),on=stFind(stGet())>=0;
     b.setAttribute('aria-pressed',String(on));b.title=on?'Hapus bintang':'Bintangi untuk direview'}
@@ -703,7 +740,7 @@
   function stToggle(){
     if(!dSt||!stKey())return;
     const a=stGet(),i=stFind(a);
-    if(i>=0){a.splice(i,1);stSet(a);stPaint();closeStMenu();flashStatus('Bintang dihapus');return}
+    if(i>=0){a.splice(i,1);stSet(a);stPaint();closeStMenu();vocFromStar(false);flashStatus('Bintang dihapus');return}
     if(dpEl.querySelector('.dmenu')){closeStMenu();return}
     const ds=deckList();if(!ds.some(d=>d.id==='__star'))ds.unshift({id:'__star',name:'Kata Berbintang'});
     const last=lsG('lf:lastdeck','__star'),m=mk('div','dmenu');
@@ -715,12 +752,61 @@
     if(!dSt||!stKey()){closeStMenu();return}
     const nm=(deckList().find(d=>d.id===id)||{name:'Kata Berbintang'}).name;
     const a=stGet();a.unshift(Object.assign(stSnap(),{at:Date.now(),deck:id}));
-    stSet(a);lsS('lf:lastdeck',id);closeStMenu();stPaint();flashStatus('★ '+stKey()+' → '+nm)}
+    stSet(a);lsS('lf:lastdeck',id);closeStMenu();stPaint();vocFromStar(true);flashStatus('★ '+stKey()+' → '+nm)}
   function stRefresh(){
     if(!dSt)return;stPaint();
     const a=stGet(),i=stFind(a);if(i<0)return;
     const s=stSnap(),o=a[i],n={w:o.w,ipa:s.ipa||o.ipa,id:s.id||o.id,en:s.en||o.en,lg:s.id?s.lg:o.lg};
     if(n.ipa!==o.ipa||n.id!==o.id||n.en!==o.en){a[i]=Object.assign(o,n);stSet(a)}}
+/* ---------- kosakata otomatis: pink = belum dikenal, hijau = sedang dipelajari (otomatis kalau kata ada di deck Kosakata), tanpa warna = dikenal.
+     Status disimpan di localStorage 'lf:vocab:<bahasa>' ({k:{kata:1},l:{kata:1}}), sama dengan player-reading. */
+  const VLB=LG.split('-')[0],VKEY='lf:vocab:'+VLB,CJKW=/[぀-ヿ㐀-鿿가-힯฀-๿]/;
+  let VOC={k:{},l:{}},DECK=new Set(),vocShown=false;
+  const vocW=raw=>String(raw).replace(/[’‘]/g,"'").toLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
+  function deckLoad(){   /* kata tunggal di 'lf:starred'; entri lama tanpa 'sl' dianggap cocok untuk semua bahasa */
+    const s=new Set();
+    try{const a=JSON.parse(localStorage.getItem('lf:starred')||'[]');if(Array.isArray(a))a.forEach(x=>{if(x&&!x.line&&x.w&&(!x.sl||x.sl===VLB)){const w=String(x.w).trim().toLowerCase();if(w&&!/\s/.test(w))s.add(w)}})}catch(e){}
+    DECK=s}
+  function vocLoad(){
+    try{const v=JSON.parse(localStorage.getItem(VKEY)||'null');VOC=v&&typeof v==='object'?{k:v.k||{},l:v.l||{}}:{k:{},l:{}}}catch(e){VOC={k:{},l:{}}}
+    deckLoad()}
+  const vocSave=()=>{try{localStorage.setItem(VKEY,JSON.stringify(VOC))}catch(e){}};
+  const vocOk=k=>!!k&&/^[\p{L}][\p{L}'’-]*$/u.test(k)&&(k.length>1||CJKW.test(k));
+  const vocSt=k=>!vocOk(k)?'':DECK.has(k)?'l':VOC.k[k]?'k':VOC.l[k]?'l':'u';
+  function vocPaintAll(){if(!pref.vx)return;spans.forEach((s,i)=>{const st=vocSt(vocW(WORDS[i].w));s.classList.toggle('vu',st==='u');s.classList.toggle('vl',st==='l')})}
+  function vocBtn(){
+    if(!dSt||!dpEl)return;const st=vocSt(dSt.q),ok=vocOk(dSt.q);
+    dpEl.querySelectorAll('.dvs button').forEach(b=>{b.hidden=!ok;b.setAttribute('aria-pressed',String(st===(b.dataset.d==='vk'?'k':'l')))})}
+  const vocKeys=()=>{const ks=[dSt.q];if(dSt.res&&dSt.res.word)ks.push(String(dSt.res.word).toLowerCase());return ks};
+  function deckDrop(ks){   /* hapus kata dari semua deck; kembalikan jumlah kartu yang dihapus */
+    const set=new Set(ks.filter(Boolean).map(x=>String(x).toLowerCase())),a=stGet();
+    const n=a.filter(x=>!(x&&!x.line&&set.has(String(x.w).trim().toLowerCase())&&(!x.sl||x.sl===VLB)));
+    if(n.length!==a.length)stSet(n);return a.length-n.length}
+  function deckAddQuiet(){   /* simpan ke deck terakhir yang dipakai; arti menyusul lewat stRefresh */
+    const a=stGet();if(stFind(a)>=0)return'';
+    let id=lsG('lf:lastdeck','__star');const ds=deckList();
+    if(id!=='__star'&&!ds.some(d=>d.id===id))id='__star';
+    a.unshift(Object.assign(stSnap(),{at:Date.now(),deck:id}));stSet(a);
+    return(ds.find(d=>d.id===id)||{name:'Kata Berbintang'}).name}
+  function vocRefresh(){deckLoad();vocPaintAll();if(dSt){vocBtn();stPaint()}}
+  function vocSet(to){
+    if(!dSt||!vocOk(dSt.q))return;
+    const k=dSt.q,cur=vocSt(k),next=cur===to?'u':to,ks=vocKeys();
+    ks.forEach(x=>{delete VOC.k[x];delete VOC.l[x]});
+    let msg='',gone=0;
+    if(next!=='l')gone=deckDrop(ks);
+    if(next==='k'){VOC.k[k]=1;msg=gone?'✓ “'+k+'” dikenal, dihapus dari deck':'✓ “'+k+'” ditandai dikenal'}
+    else if(next==='l'){VOC.l[k]=1;const nm=deckAddQuiet();msg=nm?'📚 “'+k+'” → '+nm:'📚 “'+k+'” sedang dipelajari'}
+    else if(gone)msg='“'+k+'” dihapus dari deck';
+    vocSave();vocRefresh();if(msg)flashStatus(msg)}
+  function vocFromStar(on){   /* bintang di popup berubah -> samakan warna */
+    if(!dSt||!vocOk(dSt.q))return;
+    vocKeys().forEach(x=>{delete VOC.k[x];delete VOC.l[x]});if(on)VOC.l[dSt.q]=1;
+    vocSave();vocRefresh()}
+  addEventListener('storage',e=>{if(e.key==='lf:starred'||e.key===VKEY){if(e.key===VKEY)vocLoad();vocRefresh()}});
+  addEventListener('pageshow',vocRefresh);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)vocRefresh()});
+  vocLoad();
   if(DICT){
     dpEl=mk('div','dp');dpEl.hidden=true;dpEl.setAttribute('role','dialog');dpEl.setAttribute('aria-label','Arti kata');
     dpEl.innerHTML='<div class="dph"><div class="dpw"><b class="dwd"></b><span class="dip"></span></div>'
@@ -728,6 +814,7 @@
       +'<button class="dpb" data-d="say" aria-label="Ucapkan kata" title="Ucapkan"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg></button>'
       +'<button class="dpb alt" data-d="x" aria-label="Tutup" title="Tutup"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></svg></button></div>'
       +'<div class="dpbody"><div class="dpid"><small>ARTI</small><div class="did"></div></div>'
+      +'<div class="dvs"><button type="button" data-d="vk" aria-pressed="false">✓ Sudah tahu</button><button type="button" data-d="vl" aria-pressed="false">📚 Sedang belajar</button></div>'
       +'<div class="dtabs" role="tablist"><button class="dtab" role="tab" data-d="en" aria-selected="true">EN</button><button class="dtab" role="tab" data-d="tr" aria-selected="false">Terjemah</button></div>'
       +'<select class="dsel" data-d="lang" aria-label="Bahasa terjemahan" hidden></select>'
       +'<div class="dlist"></div></div>'
@@ -746,6 +833,7 @@
       const b=e.target.closest('[data-d]');if(!b)return;const a=b.dataset.d;
       if(a==='x')closeDict();
       else if(a==='star')stToggle();
+      else if(a==='vk'||a==='vl')vocSet(a==='vk'?'k':'l');
       else if(a==='en'||a==='tr')setTab(a);
       else if(a==='say'&&dSt){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(dSt.q);u.lang=LG==='en'?'en-US':(SPKL[LG]||LG);speechSynthesis.speak(u)}catch(_){}}});
     new MutationObserver(stRefresh).observe(dpEl,{subtree:true,childList:true,characterData:true});
@@ -786,13 +874,14 @@
     return out.sort((a,b)=>a-b);
   }
   function startPrac(){
+    lfPracticed();lfPracUndone();
     hideDnd();if(P)clearPrac(true);
     cancelGap();au.pause();closeDict&&closeDict();
     let k0=segAt(au.currentTime);if(au.currentTime<=0.05)k0=0;
     while(k0<SEG.length-1&&WORDS[SEG[k0].a].h)k0++;
     const k1=pref.pl?Math.min(SEG.length-1,k0+pref.pl-1):SEG.length-1,ia=pref.pl?SEG[k0].a:0,iz=SEG[k1].z;
     if(pref.pm==='dnd'){startDnd(k0,k1);return}
-    if(pref.pm==='order'){startQuiz(k0,k1);return}
+    if(pref.pm==='order'||pref.pm==='pick'){startQuiz(k0,k1);return}
     const pool=[...new Set(WORDS.filter(w=>!w.h).map(w=>splitP(w.w).c).filter(c=>c.length>=3&&!/[\d']/.test(c)))];
     const cands=[];
     for(let i=ia;i<=iz;i++){const w=WORDS[i];if(w.h)continue;const c=splitP(w.w).c;if(!c)continue;
@@ -846,7 +935,7 @@
   function checkPrac(){
     if(!P)return;
     if(P.mode==='fib'){P.items.forEach(it=>{it.res=pn(it.el.value)===pn(it.core)?'ok':'bad'})}
-    P.checked=true;paintPrac();
+    P.checked=true;paintPrac();lfPracDone();
   }
   function retryPrac(){
     if(!P)return;
@@ -1075,7 +1164,7 @@
   const zOk=(txt,on)=>{const o=zq('.dqok');o.textContent=txt;o.disabled=!on};
   const zProg=(f,label)=>{zq('.dqbar i').style.width=Math.round(f*100)+'%';zq('.dqn').textContent=label||''};
   function zMsg(t){zBody().appendChild(mk('div','qzs',t));zOk('OK',false)}
-  function zPlay(k){if(!P)return;cancelGap();P.startT=segStart(k);P.endT=segEnd(k);au.currentTime=P.startT;au.play().catch(()=>{})}
+  function zPlay(k,k2){if(!P)return;cancelGap();P.startT=segStart(k);P.endT=segEnd(k2==null?k:k2);au.currentTime=P.startT;au.play().catch(()=>{})}
   function sentOf(i){const g=SEG[segOf[i]];return WORDS.slice(g.a,g.z+1).map(w=>w.w).join(' ')}
   function buildOrder(k0,k1,n){
     const L=[];
@@ -1089,10 +1178,14 @@
     infoEl.hidden=true;
     P={mode:'quiz',ia:SEG[k0].a,iz:SEG[k1].z,startT:0,endT:1e9,items:[],tg:new Map(),picked:new Set()};
     rd.classList.add('prac');applyPref();
-    const mode=pref.pm,n=[0,4,6,8][pref.pd]||6;
+    const mode=pref.pm,n=(mode==='pick'?[0,3,5,8]:[0,4,6,8])[pref.pd]||(mode==='pick'?5:6);
     qzEl().hidden=false;
     const my=Z={mode,n,list:[],i:0,total:0,bad:new Set(),score:0,wrong:[],phase:'load',check:null};
     zMsg('Menyiapkan soal…');zProg(0,'');
+    if(mode==='pick'){
+      my.list=buildPick(k0,k1,n);my.total=my.list.length;my.max=my.total*2;
+      if(!my.list.length){zMsg('Belum ada dua kalimat berurutan yang cocok (atau teks terlalu pendek untuk 5 pilihan). Coba panjang soal yang lebih besar.');return}
+      showItem();return}
     if(mode==='order'){
       my.list=buildOrder(k0,k1,n);my.total=my.list.length;
       if(!my.list.length){zMsg('Tidak ada kalimat berisi 4 sampai 14 kata di bagian ini. Coba panjang soal yang lebih besar.');return}
@@ -1100,7 +1193,7 @@
   function showItem(){
     Z.phase='ask';Z.check=null;zOk('OK',false);
     cancelGap();au.pause();
-    showOrder()}
+    if(Z.mode==='pick')showPick();else showOrder()}
   function showOrder(){
     const my=Z,b=zBody(),q=my.list[my.i],tot=my.total,idx=my.i,full=q.words.join(' ');
     zProg(my.i/tot,(my.i+1)+'/'+tot);
@@ -1124,6 +1217,57 @@
       else{my.wrong.push(full);fb.className='qzfb bad';fb.textContent='✗ Susunan yang benar: '+full}
       zOk(my.i+1>=tot?'Lihat hasil':'Lanjut',true)};
     draw()}
+  /* ---------- latihan: pilih 2 kalimat yang ada di audio (5 pilihan) ---------- */
+  const segText=g=>{const ws=WORDS.slice(g.a,g.z+1).map(w=>w.w);const j=ws.join(' ');return CJK.test(j)?ws.join(''):j};
+  const segOk=k=>{const g=SEG[k];if(!g||WORDS[g.a].h)return null;const t=segText(g),n=t.split(/\s+/).length;
+    const len=CJK.test(t)?t.replace(/\s/g,'').length>=5&&t.length<=60:(n>=3&&n<=24&&t.length<=190);return len?t:null};
+  function buildPick(k0,k1,n){
+    const norm=t=>t.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+    const all=[];for(let k=0;k<SEG.length;k++){const t=segOk(k);if(t)all.push({k,t,key:norm(t)})}
+    const byK=new Map(all.map(x=>[x.k,x]));
+    const pairs=[];for(let k=k0;k<k1;k++){const a=byK.get(k),b=byK.get(k+1);if(a&&b&&a.key!==b.key)pairs.push([a,b])}
+    const taken=new Set(),out=[];
+    for(const [a,b] of shuf(pairs.slice())){
+      if(out.length>=n)break;if(taken.has(a.k)||taken.has(b.k))continue;
+      const bad=new Set([a.key,b.key]),avg=(a.t.length+b.t.length)/2;
+      let pool=all.filter(x=>x.k!==a.k&&x.k!==b.k&&!bad.has(x.key));
+      const far=pool.filter(x=>x.k<a.k-1||x.k>b.k+1);if(far.length>=3)pool=far;   // hindari kalimat yang menempel persis di sebelah klip
+      const seen=new Set(),uniq=[];for(const x of pool)if(!seen.has(x.key)){seen.add(x.key);uniq.push(x)}
+      if(uniq.length<3)continue;
+      uniq.sort((x,y)=>Math.abs(x.t.length-avg)-Math.abs(y.t.length-avg));
+      const ds=shuf(uniq.slice(0,Math.max(3,Math.min(10,uniq.length)))).slice(0,3);
+      taken.add(a.k);taken.add(b.k);
+      out.push({k:a.k,k2:b.k,opts:shuf([{t:a.t,ok:true},{t:b.t,ok:true},...ds.map(x=>({t:x.t,ok:false}))])})}
+    return out.sort((x,y)=>x.k-y.k)}
+  function showPick(){
+    const my=Z,b=zBody(),q=my.list[my.i],tot=my.total;
+    zProg(my.i/tot,(my.i+1)+'/'+tot);
+    b.appendChild(mk('div','qzt','Dengarkan audionya, lalu pilih 2 kalimat yang ada di audio'));
+    const pl=mk('button','dqplay');pl.type='button';pl.setAttribute('aria-label','Putar ulang audio');pl.innerHTML=SPK_ICON;pl.addEventListener('click',()=>zPlay(q.k,q.k2));b.appendChild(pl);
+    const cnt=mk('div','qzc','Dipilih 0 dari 2');cnt.setAttribute('aria-live','polite');b.appendChild(cnt);
+    const box=mk('div','qzopts');box.setAttribute('role','group');box.setAttribute('aria-label','Pilih 2 kalimat yang ada di audio');b.appendChild(box);
+    const fb=mk('div','qzfb');fb.hidden=true;b.appendChild(fb);
+    let sel=[];const btns=q.opts.map(o=>{
+      const x=mk('button','qzo qzp');x.type='button';x.setAttribute('aria-pressed','false');x.appendChild(mk('span',null,o.t));
+      x.addEventListener('click',()=>{if(my.phase!=='ask')return;
+        if(sel.includes(o))sel=sel.filter(y=>y!==o);else{sel.push(o);if(sel.length>2)sel.shift()}   // pilihan ke-3 menggantikan yang paling lama
+        paint()});
+      box.appendChild(x);return x});
+    function paint(){
+      q.opts.forEach((o,i)=>{const on=sel.includes(o);btns[i].classList.toggle('sel',on);btns[i].setAttribute('aria-pressed',String(on))});
+      cnt.textContent='Dipilih '+sel.length+' dari 2';zOk('Cek',sel.length===2)}
+    my.check=()=>{
+      my.phase='next';let hit=0;
+      q.opts.forEach((o,i)=>{const on=sel.includes(o),x=btns[i];x.disabled=true;
+        if(on&&o.ok){hit++;x.classList.add('ok')}
+        else if(on){x.classList.add('bad');x.appendChild(mk('small','qzn','Tidak ada di audio'))}
+        else if(o.ok){x.classList.add('miss');x.appendChild(mk('small','qzn','Ada di audio, tapi belum kamu pilih'))}});
+      my.score+=hit;fb.hidden=false;
+      if(hit===2){fb.className='qzfb ok';fb.textContent='✓ Benar, kedua kalimat ada di audio'}
+      else{fb.className='qzfb bad';fb.textContent=hit===1?'Setengah benar: 1 dari 2 kalimat tepat':'✗ Belum tepat. Putar ulang audionya untuk membandingkan';
+        q.opts.forEach(o=>{if(o.ok&&!sel.includes(o))my.wrong.push(o.t)})}
+      zOk(my.i+1>=tot?'Lihat hasil':'Lanjut',true)};
+    paint();zPlay(q.k,q.k2)}
   function qzOk(){
     if(!Z)return;
     if(Z.phase==='result'){startPrac();return}
@@ -1132,15 +1276,15 @@
       Z.i++;if(Z.i>=Z.total)qzResult();else showItem()}}
   function qzResult(){
     au.pause();Z.phase='result';Z.check=null;zProg(1,'');
-    const t=Z.total,wrong=Z.wrong;
+    const t=Z.max||Z.total,wrong=Z.wrong;
     const score=Z.score;
     const r=mk('div','dqres');zBody().appendChild(r);
     r.appendChild(mk('h2',null,'Skor '+score+' dari '+t));
     if(wrong.length){
-      r.appendChild(mk('p','dqrt','Yang perlu diulang:'));
+      r.appendChild(mk('p','dqrt',Z.mode==='pick'?'Kalimat yang ada di audio tapi belum terpilih:':'Yang perlu diulang:'));
       const ul=mk('ul');wrong.forEach(x=>ul.appendChild(mk('li',null,x)));r.appendChild(ul)}
     else r.appendChild(mk('p','dqrt','Semua benar. Mantap!'));
-    zOk('Soal baru',true)}
+    zOk('Soal baru',true);lfPracDone(r)}
   function startDnd(k0,k1){
     const n=[0,3,5,8][pref.pd]||5;
     const list=shuf(buildDnd(k0,k1)).slice(0,n).sort((a,b)=>a.ka-b.ka);
@@ -1251,7 +1395,7 @@
         w.bad.forEach(j=>{const b=document.createElement('small');b.textContent=w.q.blanks[j].correct+': '+w.q.blanks[j].rule;li.appendChild(b)});ul.appendChild(li)});
       r.appendChild(ul);
     }else{t.textContent='Semua benar. Mantap!';r.appendChild(t)}
-    $q('.dqok').textContent='Soal baru';$q('.dqok').disabled=false;
+    $q('.dqok').textContent='Soal baru';$q('.dqok').disabled=false;lfPracDone(r);
   }
   /* seret atau ketuk kata dari bank ke kotak */
   (function(){
@@ -1289,9 +1433,37 @@
    - Dibuka dari tempat lain -> tombol "Lanjut berikutnya" (urutan index.json) + "Review kosakata" (kosakata.html)
    Panel baru muncul saat waktu putar mencapai akhir transkrip. mount(bar) menaruh panel di halaman.
    Mengembalikan fungsi check(t, awalBarisTerakhir, akhirTranskrip, sudahSelesai). */
+/* Latihan di path.html dicatat saat latihan DITUNTASKAN (bukan saat dimulai): lf:path.steps[slug].practice.
+   Dibuka dari tempat lain: tetap tercatat begitu dimulai, seperti sebelumnya. */
+function lfSlug(){var s='';try{var _q=new URLSearchParams(location.search);s=(_q.get('q')||_q.get('v')||'').replace(/\.json$/i,'').replace(/[^\w.-]/g,'')}catch(e){}return s}
+function lfFromPath(){try{return new URLSearchParams(location.search).get('from')==='path'}catch(e){return false}}
+function lfRecordPractice(){
+  var slug=lfSlug();if(!slug)return;
+  try{var p=JSON.parse(localStorage.getItem('lf:path'))||{};if(!p.steps||typeof p.steps!=='object')p.steps={};
+    var s=p.steps[slug]=p.steps[slug]||{};
+    if(!s.practice){s.practice=Date.now();localStorage.setItem('lf:path',JSON.stringify(p));localStorage.setItem('lf:path:pending','null')}}catch(e){}
+}
+function lfPracticed(){ // latihan dimulai
+  if(lfFromPath())return; // dari path: tunggu sampai latihan tuntas (lfPracDone)
+  lfRecordPractice();
+  if(window.lfPracBar){window.lfPracBar.hidden=false;try{window.lfPracBar.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){}}
+}
+function lfPracDone(after,quiet){ // latihan tuntas sampai akhir -> catat + tampilkan tombol Selesai
+  lfRecordPractice();
+  if(!lfFromPath())return;
+  if(window.lfPracBar){window.lfPracBar.hidden=false;if(!quiet){try{window.lfPracBar.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){}}}
+  if(after&&after.parentNode){ // layar hasil latihan menutupi daftar, jadi tombolnya ikut ditaruh di layar hasil
+    lfPracUndone();
+    if(!document.getElementById('lfDoneCss')){var c=document.createElement('style');c.id='lfDoneCss';c.textContent='.lfdone{display:flex;align-items:center;justify-content:center;margin:16px auto 0;max-width:34rem;padding:12px 22px;border:2.5px solid var(--ink,#14162B);border-radius:999px;background:var(--accent,#FFD23F);color:var(--on,#14162B);font:600 1.05rem var(--font-display,system-ui);box-shadow:3px 3px 0 var(--shadow,#14162B);text-decoration:none;text-align:center}';document.head.appendChild(c)}
+    var a=document.createElement('a');a.id='lfDoneLink';a.className='lfdone';a.href='path.html';a.textContent='Selesai ✓ Kembali ke path';
+    after.parentNode.insertBefore(a,after.nextSibling);
+  }
+}
+function lfPracUndone(){var o=document.getElementById('lfDoneLink');if(o)o.remove()}
 function lessonEnd(slug,mount,self){
   if(!slug)return function(){};
-  var from=null,rvDone=false;
+  var from=null,rvDone=false,STEP='';
+  try{STEP=new URLSearchParams(location.search).get('step')||''}catch(e){}
   try{
     if(new URLSearchParams(location.search).get('from')==='path')from='path.html'; // ?from=path dari path.html
     else{ // cadangan untuk tautan lama tanpa from: deteksi lewat referrer
@@ -1303,7 +1475,10 @@ function lessonEnd(slug,mount,self){
   css.textContent='#endBar{display:flex;flex-direction:column;gap:12px;width:calc(100% - 32px);max-width:var(--col,34rem);margin:24px auto 0;flex:none}#endBar[hidden],#endBar .eb[hidden]{display:none}#endBar .eb{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;border:2.5px solid var(--ink,#14162B);border-radius:999px;background:var(--surface,var(--bar,#fff));color:var(--ink,var(--fg,#14162B));font:600 1.05rem var(--font-display,var(--font-ui,system-ui));box-shadow:3px 3px 0 var(--shadow,#14162B);cursor:pointer;text-decoration:none;text-align:center}#endBar .eb.pri{background:var(--accent,#FFD23F);color:var(--on,var(--accent-ink,#14162B))}#endBar .eb:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow,#14162B)}';
   document.head.appendChild(css);
   var bar=document.createElement('div');bar.id='endBar';bar.hidden=true;
-  if(from){
+  if(from&&STEP==='practice'){
+    var pa=document.createElement('a');pa.className='eb pri';pa.href=from;pa.textContent='Selesai ✓ Kembali ke path';
+    bar.appendChild(pa);window.lfPracBar=bar;
+  }else if(from){
     var d=document.createElement('button');d.type='button';d.className='eb pri';d.textContent='Selesai ✓';
     d.addEventListener('click',function(){
       try{
@@ -1349,6 +1524,7 @@ function lessonEnd(slug,mount,self){
     })(0);
   }
   mount(bar);
+  if(from&&STEP==='practice')return function(){}; // bar muncul setelah Practice dipakai (lfPracticed)
   var latched=false;
   if(rvDone){bar.hidden=false;setTimeout(function(){try{bar.scrollIntoView({block:'nearest'})}catch(e){}},500);return function(){}} // baru kembali dari review: panel langsung tampil
   return function(t,lastStart,endT,ended){

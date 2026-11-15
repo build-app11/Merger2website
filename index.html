@@ -10,6 +10,9 @@
 <meta name="theme-color" content="#EEF2FF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101226" media="(prefers-color-scheme: dark)">
 <script src="i18n.js"></script>
+<script src="lf-stats.js"></script>
+<script src="lf-collect.js"></script>
+<script src="lf-goals.js"></script>
 <script>try{var t=JSON.parse(localStorage.getItem('lf:theme'));if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -131,6 +134,8 @@ h1, h2, h3, p { margin: 0; }
   transition: background-color 0.18s ease;
 }
 .dw:hover { border-color: var(--line); }
+.dw .r { font-size: 0.8rem; font-weight: 500; line-height: 1.1; color: var(--muted); }
+.dw.on .r { color: var(--on); }
 .dw .p { font-family: var(--font-ipa); font-weight: 400; font-size: 0.95rem; line-height: 1.2; color: var(--ipa); }
 .dw.on { background: var(--yellow); border-color: var(--line); color: var(--on); }
 .dw.on .p { color: var(--on); }
@@ -322,8 +327,64 @@ h1, h2, h3, p { margin: 0; }
 .fol:hover { background: color-mix(in srgb, var(--mint) 30%, var(--surface)); }
 .fol[aria-pressed="true"] { background: var(--mint); color: var(--on); }
 .fol:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+/* Target dan tantangan harian */
+.dash { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 24px; }
+.dcard { padding: 16px 18px; border: 2.5px solid var(--line); border-radius: 18px; background: var(--surface); box-shadow: 4px 4px 0 var(--shadow); display: flex; flex-direction: column; gap: 10px; }
+.dcard h3 { margin: 0; font: 700 1.1rem var(--font-display); display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.dcard h3 small { font: 700 0.8rem var(--font); color: var(--muted); }
+.dm { display: grid; gap: 4px; }
+.dm .dl { display: flex; justify-content: space-between; font-weight: 600; font-size: 0.9rem; }
+.dm .dl b { font-weight: 700; }
+.dm .pbar { width: 100%; height: 12px; }
+.dm.ok .pfill { background: var(--mint); }
+.dm:not(.ok) .pfill { background: var(--yellow); }
+.dm.off { opacity: .5; }
+.dcard .drow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: auto; }
+.dcard .drow .sp { flex: 1; }
+.dcard .dt { font-weight: 700; overflow-wrap: anywhere; }
+.dcard .dd { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.dcard.done { background: color-mix(in srgb, var(--mint) 22%, var(--surface)); }
+#goalDlg { width: min(92vw, 360px); padding: 18px; border: 2.5px solid var(--line); border-radius: 18px; background: var(--surface); color: var(--ink); box-shadow: 5px 5px 0 var(--shadow); font-family: var(--font); }
+#goalDlg::backdrop { background: rgba(16, 18, 38, .55); }
+#goalDlg h2 { margin: 0 0 6px; font: 700 1.2rem var(--font-display); }
+#goalDlg p { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; }
+#goalDlg label { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; font-weight: 600; }
+#goalDlg input { width: 5.5em; padding: 8px 10px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); font: 700 1rem var(--font); text-align: right; }
+#goalDlg .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
+.qb[aria-pressed="true"][data-qa="off"] { background: var(--mint); color: var(--on); }
+/* Koleksi: suka, simpan nanti, playlist */
+.pills .qa { margin-left: auto; display: inline-flex; gap: 6px; }
+.qb { position: relative; display: inline-grid; grid-auto-flow: column; align-items: center; justify-content: center; min-width: 34px; height: 32px; padding: 0 7px; border: 2px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: 0.95rem; line-height: 1; cursor: pointer; user-select: none; }
+.qb:hover { background: color-mix(in srgb, var(--yellow) 35%, var(--surface)); }
+.qb[aria-pressed="true"][data-qa="like"] { background: var(--coral); color: var(--on); }
+.qb[aria-pressed="true"][data-qa="later"] { background: var(--blue); color: var(--on); }
+.qb[aria-pressed="true"][data-qa="list"] { background: var(--purple); color: var(--on); }
+.qb:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.qb b { font: 700 0.72rem var(--font); margin-left: 3px; }
+.qb .ic { display: block; width: 18px; height: 18px; }
+.qb[aria-pressed="true"] .ic .fl { fill: currentColor; }
+#plDlg { width: min(92vw, 380px); max-height: 80vh; padding: 18px; border: 2.5px solid var(--line); border-radius: 18px; background: var(--surface); color: var(--ink); box-shadow: 5px 5px 0 var(--shadow); font-family: var(--font); }
+#plDlg::backdrop { background: rgba(16, 18, 38, .55); }
+#plDlg h2 { margin: 0 0 10px; font: 700 1.2rem var(--font-display); }
+#plDlg .plrows { display: grid; gap: 6px; max-height: 40vh; overflow: auto; margin-bottom: 12px; }
+#plDlg .plrow { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 2px solid var(--rule); border-radius: 12px; cursor: pointer; font-weight: 600; }
+#plDlg .plrow span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+#plDlg .plrow small { color: var(--muted); font-weight: 700; }
+#plDlg .plnone { margin: 0 0 12px; color: var(--muted); }
+#plDlg .plnew { display: flex; gap: 8px; margin-bottom: 12px; }
+#plDlg .plnew input { flex: 1; min-width: 0; padding: 8px 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); font: 600 0.95rem var(--font); }
 .sel.dim select { color: var(--muted); }
 </style>
+<link rel="canonical" href="https://learningfun.zone.id/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:url" content="https://learningfun.zone.id/">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#halaman">Lewati ke daftar latihan</a>
@@ -364,7 +425,7 @@ h1, h2, h3, p { margin: 0; }
     <div class="demo" role="group" aria-labelledby="demo-cap">
       <span class="sticker" aria-hidden="true">Coba di sini!</span>
       <p id="demo-cap" class="demo-cap">Contoh satu baris latihan</p>
-      <div id="demo-line" class="demo-line">
+      <div id="demo-line" class="demo-line" data-no-i18n translate="no">
         <button type="button" class="dw" data-say="we"><span>we</span><span class="p" aria-hidden="true">/wiː/</span></button>
         <button type="button" class="dw" data-say="are"><span>are</span><span class="p" aria-hidden="true">/ɑːr/</span></button>
         <button type="button" class="dw" data-say="going"><span>going</span><span class="p" aria-hidden="true">/ˈɡoʊɪŋ/</span></button>
@@ -415,6 +476,8 @@ h1, h2, h3, p { margin: 0; }
         <span class="pbar" aria-hidden="true"><span id="pfill" class="pfill"></span></span>
       </div>
     </div>
+
+    <div id="dash" class="dash" hidden></div>
 
     <div class="tools">
       <div class="chips views" role="group" aria-label="Tampilan daftar">
@@ -515,9 +578,33 @@ h1, h2, h3, p { margin: 0; }
     store.set('lf:theme', next);
   });
 
-  /* ---------- Contoh baris di hero ---------- */
-  const SENTENCE = 'We are going for a walk.';
-  const dWords = [...document.querySelectorAll('#demo-line .dw')];
+  /* ---------- Contoh baris di hero ----------
+     Kalimat, ejaan/IPA, dan suara mengikuti bahasa. DEMO_BY: 'learn' = bahasa yang dipelajari (sama dengan judul hero),
+     'ui' = bahasa tampilan situs. Tiap kata: [tulisan, romanisasi (aksara non-Latin saja, atau ''), IPA, teks yang dibacakan]. */
+  const DEMO_BY = 'learn';
+  const DEMOS = {
+    en: { v: 'en-US', s: 'We are going for a walk.', w: [['we', '', '/wiː/', 'we'], ['are', '', '/ɑːr/', 'are'], ['going', '', '/ˈɡoʊɪŋ/', 'going'], ['for', '', '/fɔːr/', 'for'], ['a', '', '/ə/', 'uh'], ['walk', '', '/wɔːk/', 'walk']] },
+    es: { v: 'es-ES', s: 'Vamos a dar un paseo.', w: [['vamos', '', '/ˈba.mos/', 'vamos'], ['a', '', '/a/', 'a'], ['dar', '', '/daɾ/', 'dar'], ['un', '', '/un/', 'un'], ['paseo', '', '/paˈse.o/', 'paseo']] },
+    fr: { v: 'fr-FR', s: 'Nous allons nous promener.', w: [['nous', '', '/nu/', 'nous'], ['allons', '', '/a.lɔ̃/', 'allons'], ['nous', '', '/nu/', 'nous'], ['promener', '', '/pʁɔm.ne/', 'promener']] },
+    de: { v: 'de-DE', s: 'Wir gehen spazieren.', w: [['wir', '', '/viːɐ̯/', 'wir'], ['gehen', '', '/ˈɡeːən/', 'gehen'], ['spazieren', '', '/ʃpaˈtsiːʁən/', 'spazieren']] },
+    it: { v: 'it-IT', s: 'Andiamo a fare una passeggiata.', w: [['andiamo', '', '/anˈdja.mo/', 'andiamo'], ['a', '', '/a/', 'a'], ['fare', '', '/ˈfa.re/', 'fare'], ['una', '', '/ˈu.na/', 'una'], ['passeggiata', '', '/pas.sedˈdʒa.ta/', 'passeggiata']] },
+    pt: { v: 'pt-BR', s: 'Nós vamos dar um passeio.', w: [['nós', '', '/nɔs/', 'nós'], ['vamos', '', '/ˈvɐ̃.mus/', 'vamos'], ['dar', '', '/daʁ/', 'dar'], ['um', '', '/ũ/', 'um'], ['passeio', '', '/paˈsej.u/', 'passeio']] },
+    nl: { v: 'nl-NL', s: 'Wij gaan wandelen.', w: [['wij', '', '/ʋɛi̯/', 'wij'], ['gaan', '', '/ɣaːn/', 'gaan'], ['wandelen', '', '/ˈʋɑn.də.lən/', 'wandelen']] },
+    ru: { v: 'ru-RU', s: 'Мы идём гулять.', w: [['мы', 'my', '/mɨ/', 'мы'], ['идём', 'idyom', '/ɪˈdʲɵm/', 'идём'], ['гулять', 'gulyat’', '/ɡʊˈlʲatʲ/', 'гулять']] },
+    ja: { v: 'ja-JP', s: '散歩に行きます。', w: [['散歩', 'sanpo', '/sampo/', '散歩'], ['に', 'ni', '/ni/', 'に'], ['行きます', 'ikimasu', '/ikimasɯ/', '行きます']] },
+    ko: { v: 'ko-KR', s: '산책하러 가요.', w: [['산책하러', 'sanchaekhareo', '/sant͡ɕʰɛkʰaɾʌ/', '산책하러'], ['가요', 'gayo', '/kajo/', '가요']] },
+    zh: { v: 'zh-CN', s: '我们去散步。', w: [['我们', 'wǒmen', '/wɔ˨˩.mən/', '我们'], ['去', 'qù', '/tɕʰy˥˩/', '去'], ['散步', 'sànbù', '/sɑn˥˩.pu˥˩/', '散步']] },
+    id: { v: 'id-ID', s: 'Kita pergi jalan-jalan.', w: [['kita', '', '/ˈki.ta/', 'kita'], ['pergi', '', '/ˈpər.ɡi/', 'pergi'], ['jalan', '', '/ˈdʒa.lan/', 'jalan'], ['jalan', '', '/ˈdʒa.lan/', 'jalan']] }
+  };
+  const demoKey = () => {
+    let c = 'en';
+    try { c = (DEMO_BY === 'ui' ? localStorage.getItem('lf:lang') : store.get('lf:learn')) || (DEMO_BY === 'ui' ? 'id' : 'en'); } catch { /* abaikan */ }
+    c = String(c).split('-')[0].toLowerCase();
+    return DEMOS[c] ? c : 'en';
+  };
+  const demoLine = $('#demo-line');
+  let dWords = [...demoLine.querySelectorAll('.dw')];
+  let DEMO = DEMOS.en, SENTENCE = DEMO.s, demoNow = 'en';
   const canSpeak = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   let demoTimer = null, offTimer = null;
   const light = i => dWords.forEach((w, j) => w.classList.toggle('on', j === i));
@@ -526,7 +613,7 @@ h1, h2, h3, p { margin: 0; }
     try {
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US'; u.rate = 0.85;
+      u.lang = DEMO.v; u.rate = 0.85;
       speechSynthesis.speak(u);
     } catch { /* abaikan */ }
   }
@@ -540,10 +627,22 @@ h1, h2, h3, p { margin: 0; }
       light(i++);
     }, 520);
   }
-  dWords.forEach((w, i) => w.addEventListener('click', () => {
-    stopDemo(); light(i); speak(w.dataset.say);
+  function paintDemo() {            // tulis ulang kata, romanisasi, IPA, dan bahasa suara sesuai bahasa terpilih
+    const k = demoKey();
+    if (k === demoNow && demoLine.dataset.k === k) return;
+    stopDemo(); try { if (canSpeak) speechSynthesis.cancel(); } catch { /* abaikan */ }
+    demoNow = k; DEMO = DEMOS[k]; SENTENCE = DEMO.s; demoLine.dataset.k = k;
+    demoLine.lang = DEMO.v.split('-')[0];
+    demoLine.innerHTML = DEMO.w.map(([t, r, p, say]) =>
+      `<button type="button" class="dw" data-say="${esc(say)}"><span>${esc(t)}</span>${r ? `<span class="r" aria-hidden="true">${esc(r)}</span>` : ''}<span class="p" aria-hidden="true">${esc(p)}</span></button>`).join('');
+    dWords = [...demoLine.querySelectorAll('.dw')];
+  }
+  demoLine.addEventListener('click', e => {
+    const w = e.target.closest('.dw'); if (!w) return;
+    stopDemo(); light(dWords.indexOf(w)); speak(w.dataset.say);
     offTimer = setTimeout(() => light(-1), 1000);
-  }));
+  });
+  paintDemo();
   if (canSpeak) $('#demo-play').addEventListener('click', () => sweep(true));
   else {
     $('#demo-play').hidden = true;
@@ -748,7 +847,7 @@ h1, h2, h3, p { margin: 0; }
   }
 
   /* ---------- Susun daftar ---------- */
-  const state = { items: [], q: '', cat: '*', chan: '*', tag: '', view: 'all', loaded: false };
+  const state = { items: [], q: '', cat: '*', chan: '*', tag: '', view: 'all', list: '', loaded: false };
 
   // Halaman di luar database (mis. alat) didaftarkan lewat data/card.json; keduanya digabung.
   function toItems(files, manifest, union) {
@@ -859,9 +958,15 @@ h1, h2, h3, p { margin: 0; }
 
     const pool = all.filter(r => state.cat === '*' || r.category === state.cat);
     const subs = getSubs(), isSub = c => !!c && subs.has(c.toLowerCase());
-    const vpool = state.view === 'subs' ? pool.filter(r => isSub(r.channel)) : pool;
+    const sl = r => slugOf(r.path);
+    const likeSet = new Set(LFC.likes()), laterSet = new Set(LFC.later());
+    const lists = LFC.lists(), inLists = new Map();
+    lists.forEach(l => l.items.forEach(s => inLists.set(s, (inLists.get(s) || 0) + 1)));
+    const inView = r => state.view === 'subs' ? isSub(r.channel) : true;
+    const vpool = pool.filter(inView);
     $('#vtAllN').textContent = all.length;
     $('#vtSubsN').textContent = all.filter(r => isSub(r.channel)).length;
+    renderDash(all);
     document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === state.view)));
 
     // Channel: mengikuti kategori yang dipilih. Disembunyikan jika belum ada pelajaran yang punya channel.
@@ -937,6 +1042,23 @@ h1, h2, h3, p { margin: 0; }
       g.badgeText = 'Buku';
     });
     const seenSet = getSeen();
+    const IC = (d, extra = '') => `<svg class="ic" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${d}${extra}</svg>`;
+    const ICO = {
+      like:  on => IC(`<path class="${on ? 'fl' : ''}" d="M3.5 11h3.5v9H3.5z"/><path class="${on ? 'fl' : ''}" d="M7 20h9.6a2 2 0 0 0 2-1.6l1.2-6a2 2 0 0 0-2-2.4H14l.6-3.3A2.4 2.4 0 0 0 12.3 4L7 11"/>`),
+      later: on => IC(`<path class="${on ? 'fl' : ''}" d="M6.5 3h11a1.5 1.5 0 0 1 1.5 1.5V21l-7-4.5L5 21V4.5A1.5 1.5 0 0 1 6.5 3z"/>`),
+      list:  () => IC('<path class="fl" d="M4 4.5v8l6.5-4z"/><path d="M14 6.5h7M14 10.5h7M4 16h17M4 20.5h17"/>'),
+      off:   on => on ? IC('<path d="M4 15v4a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-4"/><path d="M8 10.5l3 3 5-6"/>') : IC('<path d="M12 3.5v11.5M7 10.5l5 5 5-5"/><path d="M4 15v4a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-4"/>')
+    };
+    const qa = r => {
+      if (!isLesson(r.path)) return '';   // kartu dari card.json (alat/halaman) tanpa suka, nanti, playlist; hanya pelajaran dari index.json
+      const s = slugOf(r.path), lk = likeSet.has(s), lt = laterSet.has(s), n = inLists.get(s) || 0;
+      return `<span class="qa" data-slug="${esc(s)}">`
+        + `<span class="qb" role="button" tabindex="0" data-qa="like" aria-pressed="${lk}" aria-label="${lk ? 'Hapus dari suka' : 'Suka'}" title="${lk ? 'Hapus dari suka' : 'Suka'}">${ICO.like(lk)}</span>`
+        + `<span class="qb" role="button" tabindex="0" data-qa="later" aria-pressed="${lt}" aria-label="${lt ? 'Hapus dari simpan untuk nanti' : 'Simpan untuk nanti'}" title="${lt ? 'Hapus dari simpan untuk nanti' : 'Simpan untuk nanti'}">${ICO.later(lt)}</span>`
+        + `<span class="qb" role="button" tabindex="0" data-qa="list" aria-pressed="${n > 0}" aria-label="Simpan ke playlist" title="Simpan ke playlist">${ICO.list()}${n ? `<b>${n}</b>` : ''}</span>`
+        + (r.read ? (() => { const ss = offSlugs(r), on = ss.every(x => offMap()[x]); return `<span class="qb" role="button" tabindex="0" data-qa="off" data-slugs="${esc(ss.join(','))}" aria-pressed="${on}" aria-label="${on ? 'Hapus unduhan offline' : 'Unduh untuk dibaca offline'}" title="${on ? 'Hapus unduhan offline' : 'Unduh untuk dibaca offline'}">${ICO.off(on)}</span>`; })() : '')
+        + `</span>`;
+    };
     const fol = r => {
       if (!r.channel) return '';
       const on = isSub(r.channel);
@@ -968,6 +1090,7 @@ h1, h2, h3, p { margin: 0; }
             ${r.isNew ? '<span class="pill new">Baru</span>' : ''}
             ${seenSet.has(r.path) ? '<span class="pill seen">Sudah dibaca</span>' : ''}
             ${fol(r)}
+            ${qa(r)}
           </span>
           <span class="t">${esc(r.title)}</span>
           ${r.description ? `<span class="desc">${esc(r.description)}</span>` : ''}
@@ -994,6 +1117,7 @@ h1, h2, h3, p { margin: 0; }
             ${r.isNew ? '<span class="pill new">Baru</span>' : ''}
             ${seenSet.has(r.path) ? '<span class="pill seen">Sudah dicoba</span>' : ''}
             ${fol(r)}
+            ${qa(r)}
           </span>
           <span class="t">${esc(r.title)}</span>
           ${r.description ? `<span class="desc">${esc(r.description)}</span>` : ''}
@@ -1011,6 +1135,7 @@ h1, h2, h3, p { margin: 0; }
             ${r.isNew ? '<span class="pill new">Baru</span>' : ''}
             ${seenSet.has(r.path) ? '<span class="pill seen">Sudah dicoba</span>' : ''}
             ${fol(r)}
+            ${qa(r)}
           </span>
           <span class="t">${esc(r.title)}</span>
           ${r.description ? `<span class="desc">${esc(r.description)}</span>` : ''}
@@ -1030,8 +1155,122 @@ h1, h2, h3, p { margin: 0; }
     state.tag = state.tag === b.dataset.tag ? '' : b.dataset.tag;
     render();
   });
-  const onCardOpen = e => { if (e.target.closest('[data-chan]')) return; const a = e.target.closest('a.card'); if (a) markSeen(a.dataset.path); };
+  const onCardOpen = e => { if (e.target.closest('[data-chan]')) return; const a = e.target.closest('a.card'); if (a) { markSeen(a.dataset.path); if (isLesson(a.dataset.path)) LFC.record(slugOf(a.dataset.path)); } };
+
+  /* ---------- Koleksi: suka, simpan nanti, riwayat, playlist ---------- */
+  /* ---------- Target harian dan tantangan harian ---------- */
+  const elDash = $('#dash');
+  const fmtMin = m => (m >= 10 ? Math.floor(m) : Math.floor(m * 10) / 10);
+  function renderDash(all) {
+    if (!all.length) { elDash.hidden = true; return; }
+    const g = LFG.goals(), p = LFG.today(), streak = LFG.streak();
+    const meter = (key, label, unit) => {
+      const goal = g[key], val = p[key], ok = goal > 0 && val >= goal, pct = goal > 0 ? Math.min(100, Math.round(val / goal * 100)) : 0;
+      return `<div class="dm${ok ? ' ok' : ''}${goal > 0 ? '' : ' off'}"><div class="dl"><span>${label}</span><b>${key === 'listen' ? fmtMin(val) : Math.floor(val)}${goal > 0 ? ' / ' + goal : ''} ${unit}${ok ? ' ✓' : ''}</b></div><span class="pbar" aria-hidden="true"><span class="pfill" style="width: ${pct}%"></span></span></div>`;
+    };
+    // tantangan: satu pelajaran per hari, dipilih sekali lalu tetap
+    const cand = all.filter(r => isLesson(r.path) && !(r.book && (r.chapter || 1) > 1));
+    const unseen = cand.filter(r => !getSeen().has(r.path));
+    const bySlug = new Map(all.map(r => [slugOf(r.path), r]));
+    const ps = LFG.pick((unseen.length ? unseen : cand).map(slugOf2), cand.map(slugOf2));
+    const ch = bySlug.get(ps);
+    if (ch && LFG.challengeDone(ps)) LFG.markDone(ps);
+    const done = !!ch && LFG.challengeDone(ps), cs = LFG.challengeStreak();
+    elDash.hidden = false;
+    elDash.innerHTML = `<section class="dcard goals" aria-label="Target hari ini">
+        <h3>🎯 Target hari ini<small>${streak ? '🔥 ' + streak + ' hari beruntun' : 'Belum ada rentetan'}</small></h3>
+        ${meter('listen', 'Mendengarkan', 'mnt')}${meter('reads', 'Bacaan selesai', 'bacaan')}${meter('words', 'Kata baru', 'kata')}
+        <div class="drow"><span class="sp"></span><button class="btn btn-small" type="button" data-dact="goals">Atur target</button></div>
+      </section>
+      <section class="dcard chal${done ? ' done' : ''}" aria-label="Tantangan harian">
+        <h3>⚡ Tantangan harian<small>${cs ? '🔥 ' + cs + ' hari' : ''}</small></h3>
+        ${ch ? `<span class="dt">${esc(ch.title)}</span><p class="dd">${done ? 'Selesai hari ini. Sampai besok!' : esc(ch.read ? 'Baca sampai selesai dan ketuk Selesai.' : 'Selesaikan pelajaran ini hari ini (dengarkan minimal 3 menit atau tandai selesai di path).')}</p>
+        <div class="drow"><a class="btn btn-small" href="${esc(hrefOf(ch.path, ch.audio, ch.read))}" data-path="${esc(ch.path)}" data-daily="1">${done ? 'Buka lagi' : 'Mulai'}</a></div>` : '<p class="dd">Belum ada pelajaran untuk bahasa ini.</p>'}
+      </section>`;
+  }
+  const slugOf2 = r => slugOf(r.path);
+  elDash.addEventListener('click', e => {
+    if (e.target.closest('[data-daily]')) { const a = e.target.closest('[data-daily]'); markSeen(a.dataset.path); if (isLesson(a.dataset.path)) LFC.record(slugOf(a.dataset.path)); return; }
+    if (!e.target.closest('[data-dact="goals"]')) return;
+    let d = document.getElementById('goalDlg');
+    if (!d) { d = document.createElement('dialog'); d.id = 'goalDlg'; document.body.appendChild(d); }
+    const g = LFG.goals();
+    d.innerHTML = `<form method="dialog"><h2>Target harian</h2><p>Isi 0 untuk mematikan target. Rentetan bertambah saat semua target yang aktif tercapai.</p>
+      <label>Mendengarkan (menit)<input type="number" name="listen" min="0" max="600" value="${g.listen}" inputmode="numeric"></label>
+      <label>Bacaan selesai<input type="number" name="reads" min="0" max="50" value="${g.reads}" inputmode="numeric"></label>
+      <label>Kata baru<input type="number" name="words" min="0" max="500" value="${g.words}" inputmode="numeric"></label>
+      <div class="row"><button class="btn btn-small" type="button" data-gcancel>Batal</button><button class="btn btn-small" type="submit" data-gsave style="background: var(--yellow)">Simpan</button></div></form>`;
+    d.onclick = ev => { if (ev.target === d || ev.target.closest('[data-gcancel]')) d.close(); };
+    d.querySelector('form').onsubmit = ev => { ev.preventDefault(); const f = ev.target.elements; LFG.setGoals({ listen: f.listen.value, reads: f.reads.value, words: f.words.value }); d.close(); };
+    d.showModal();
+  });
+  addEventListener('lfg:change', () => { if (state.loaded) render(); });
+  addEventListener('pageshow', () => { if (state.loaded) render(); });
+  addEventListener('storage', e => { if (/^lf:(stats|goals|daily|path|offline)$/.test(e.key || '')) { if (state.loaded) render(); } });
+
+  /* ---------- Offline: bacaan (tipe read) disimpan di Cache API 'lf-offline' ---------- */
+  const OFFC = 'lf-offline';
+  const offMap = () => { const v = store.get('lf:offline'); return v && typeof v === 'object' && !Array.isArray(v) ? v : {}; };
+  const offSlugs = r => (r.chapters && r.chapters.length ? r.chapters : [r]).map(slugOf2);
+  const offUrl = s => new URL('data/' + encodeURIComponent(s) + '.json', location.href).href;
+  let offBusy = false;
+  async function offShell(c) {   // halaman pemutar bacaan dan skrip yang dibutuhkannya
+    const urls = new Set(['player-reading.html', 'data/index.json']);
+    try {
+      const html = await (await fetch('player-reading.html')).text();
+      for (const m of html.matchAll(/<script[^>]+src="([^"#?]+)"/gi)) if (!/^(?:https?:)?\/\//i.test(m[1])) urls.add(m[1]);
+      for (const m of html.matchAll(/<link[^>]+href="([^"#?]+)"/gi)) if (!/^(?:https?:)?\/\//i.test(m[1]) && /\.(?:css|webmanifest|png|svg)$/i.test(m[1])) urls.add(m[1]);
+    } catch (e) {}
+    await Promise.all([...urls].map(async u => { try { const r = await fetch(u); if (r.ok) await c.put(new URL(u, location.href).href, r); } catch (e) {} }));
+  }
+  async function offToggle(b) {
+    if (offBusy) return;
+    if (!window.caches) { elStatus.textContent = 'Unduhan offline butuh HTTPS atau localhost.'; return; }
+    const ss = (b.dataset.slugs || '').split(',').filter(Boolean), m = offMap(), on = ss.every(x => m[x]);
+    offBusy = true; b.textContent = '…';
+    try {
+      const c = await caches.open(OFFC);
+      if (on) { for (const s of ss) { await c.delete(offUrl(s)); delete m[s]; } }
+      else {
+        await offShell(c);
+        let ok = 0;
+        for (const s of ss) { try { const r = await fetch(offUrl(s), { cache: 'no-cache' }); if (r.ok) { await c.put(offUrl(s), r); m[s] = Date.now(); ok++; } } catch (e) {} }
+        if (!ok) elStatus.textContent = 'Gagal mengunduh. Periksa koneksi lalu coba lagi.';
+      }
+      store.set('lf:offline', m);
+    } catch (e) { elStatus.textContent = 'Penyimpanan offline tidak tersedia di browser ini.'; }
+    offBusy = false; render();
+  }
+  function openPicker(slug) {
+    let d = document.getElementById('plDlg');
+    if (!d) { d = document.createElement('dialog'); d.id = 'plDlg'; document.body.appendChild(d); }
+    const paint = () => {
+      const ls = LFC.lists();
+      d.innerHTML = '<h2>Simpan ke playlist</h2>'
+        + (ls.length ? `<div class="plrows">${ls.map(l => `<label class="plrow"><input type="checkbox" data-pl="${esc(l.id)}"${l.items.includes(slug) ? ' checked' : ''}><span>${esc(l.name)}</span><small>${l.items.length}</small></label>`).join('')}</div>` : '<p class="plnone">Belum ada playlist.</p>')
+        + '<form class="plnew"><input type="text" maxlength="60" placeholder="Nama playlist baru" aria-label="Nama playlist baru"><button class="btn btn-small" type="submit">Buat</button></form>'
+        + '<button class="btn btn-small" type="button" data-pclose>Selesai</button>';
+    };
+    d.onchange = e => { const c = e.target.closest('[data-pl]'); if (c) { if (c.checked) LFC.addToList(c.dataset.pl, slug); else LFC.removeFromList(c.dataset.pl, slug); } };
+    d.onsubmit = e => { e.preventDefault(); const i = d.querySelector('.plnew input'), x = LFC.createList(i.value); if (x) { LFC.addToList(x.id, slug); paint(); } };
+    d.onclick = e => { if (e.target === d || e.target.closest('[data-pclose]')) d.close(); };
+    paint();
+    if (!d.open) d.showModal();
+    const f = d.querySelector('.plrow input') || d.querySelector('.plnew input'); if (f) f.focus();
+  }
+  function qaAct(b) {
+    const s = b.closest('.qa').dataset.slug;
+    if (b.dataset.qa === 'off') { offToggle(b); return; }
+    if (b.dataset.qa === 'like') LFC.toggleLike(s);
+    else if (b.dataset.qa === 'later') LFC.toggleLater(s);
+    else openPicker(s);
+  }
+  const rerender = () => { if (state.loaded) render(); };
+  addEventListener('lfc:change', rerender);
+  addEventListener('storage', e => { if (/^lf:(likes|later|hist|lists)$/.test(e.key || '')) rerender(); });
   elList.addEventListener('click', e => {
+    const q = e.target.closest('[data-qa]');
+    if (q) { e.preventDefault(); e.stopPropagation(); qaAct(q); return; }
     const f = e.target.closest('[data-chan]');
     if (f) { e.preventDefault(); e.stopPropagation(); toggleSub(f.dataset.chan); return; }
     onCardOpen(e);
@@ -1044,6 +1283,8 @@ h1, h2, h3, p { margin: 0; }
   });
   elList.addEventListener('auxclick', onCardOpen);
   elList.addEventListener('keydown', e => {
+    const q = e.target.closest && e.target.closest('[data-qa]');
+    if (q && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); e.stopPropagation(); qaAct(q); return; }
     const f = e.target.closest && e.target.closest('[data-chan]');
     if (f && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); e.stopPropagation(); toggleSub(f.dataset.chan); }
   });
@@ -1113,7 +1354,7 @@ h1, h2, h3, p { margin: 0; }
   const langCounts = () => { const c = {}; state.items.forEach(it => { const k = (it.page && it.page.lang) || 'en'; c[k] = (c[k] || 0) + 1; }); return c; };
   let onbNative = '', onbLearn = '', onbStepNo = 1, onbLangs = [['id', 'Indonesia'], ['en', 'English'], ['es', 'Español'], ['fr', 'Français']];
   const onb = $('#onb'), btnLearn = $('#learnBtn');
-  fetch('data/language.json').then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.languages) && j.languages.length) onbLangs = j.languages; }).catch(() => {});
+  (window.LFlangList ? window.LFlangList() : fetch('data/language.json').then(r => r.ok ? r.json() : null)).catch(() => null).then(j => { if (j && Array.isArray(j.languages) && j.languages.length) onbLangs = j.languages; }).catch(() => {});
 
   const HERO = { id: 'Bicara {L} jadi seru, kata demi kata.', en: 'Speaking {L} is fun, word by word.', es: 'Hablar {L} es divertido, palabra por palabra.', fr: 'Parler {L} devient amusant, mot pour mot.' };
   function paintHero() {   // judul hero mengikuti bahasa yang dipelajari (English dibiarkan: sudah diterjemahkan i18n.js)
@@ -1123,7 +1364,7 @@ h1, h2, h3, p { margin: 0; }
     h.setAttribute('data-no-i18n', ''); h.textContent = HERO[ui].replace('{L}', n);
   }
   function paintLearnBtn() {
-    paintHero(); btnLearn.textContent = '🌐 ' + OT().learn.replace('{lang}', langName(getLearn())); }
+    paintHero(); paintDemo(); btnLearn.textContent = '🌐 ' + OT().learn.replace('{lang}', langName(getLearn())); }
   function paintOnb() {
     const T = OT(), n = onbStepNo;
     $('#onbStep').textContent = T['s' + n]; $('#onbT').textContent = T['t' + n]; $('#onbSub').textContent = T['d' + n];
@@ -1198,6 +1439,14 @@ h1, h2, h3, p { margin: 0; }
 #lfnav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 #lfnav a[aria-current=page]{color:#F2B705}
 #lfnav a:focus-visible{outline:3px solid var(--blue,#4C84FF);outline-offset:2px}`;
+    css.textContent += `
+@media(min-width:900px){
+  #lfnav{top:0;bottom:auto;left:0;right:0;transform:none;width:100%;max-width:none;justify-content:center;gap:6px;padding:8px 24px;border:0;border-bottom:2.5px solid var(--lfline,var(--line,#14162B));border-radius:0}
+  #lfnav a{flex:0 0 auto;flex-direction:row;gap:8px;padding:8px 18px;border-radius:999px;font-size:.95rem}
+  #lfnav a:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+  #lfnav a[aria-current=page]{background:var(--yellow,#FFD23F);color:var(--on,#14162B)}
+  #lfnav svg{width:20px;height:20px}
+}`;
   document.head.appendChild(css);
   const nav = document.createElement('nav');
   nav.id = 'lfnav'; nav.setAttribute('aria-label', 'Menu utama');
@@ -1205,7 +1454,16 @@ h1, h2, h3, p { margin: 0; }
     `<a href="${t.href}"${t.match.some(m => m === file || (m && file.includes(m))) ? ' aria-current="page"' : ''}><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span>${t.label}</span></a>`).join('');
   const mount = () => {
     document.body.appendChild(nav);
-    document.body.style.paddingBottom = 'calc(84px + env(safe-area-inset-bottom,0px))';   // supaya isi tidak tertutup bilah
+    const desk = matchMedia('(min-width:900px)');   // desktop: bilah pindah ke atas
+    const fit = () => {
+      const h = nav.offsetHeight, top = desk.matches, d = document.documentElement;
+      d.style.setProperty('--lfh', h + 'px');
+      d.style.setProperty('--lfb', top ? '0px' : h + 'px');            // jarak dari bawah layar untuk elemen yang menempel di bawah
+      d.style.paddingTop = top ? h + 'px' : '';
+      document.body.style.paddingBottom = top ? '' : (h + 16) + 'px';  // supaya isi tidak tertutup bilah
+    };
+    fit(); addEventListener('resize', fit); addEventListener('orientationchange', () => setTimeout(fit, 250));
+    if (desk.addEventListener) desk.addEventListener('change', fit);
   };
   document.body ? mount() : addEventListener('DOMContentLoaded', mount);
 })();

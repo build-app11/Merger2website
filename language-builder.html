@@ -107,6 +107,20 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
 @media (max-width: 640px) { td.k { display: none; } th:first-child { display: none; } td.src, td.tr { width: 50%; } }
 </style>
 <script src="i18n.js"></script>
+<meta name="description" content="Pembuat bahasa antarmuka untuk Learning Fun.">
+<link rel="canonical" href="https://learningfun.zone.id/language-builder.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Language Builder | Learning Fun">
+<meta property="og:description" content="Pembuat bahasa antarmuka untuk Learning Fun.">
+<meta property="og:url" content="https://learningfun.zone.id/language-builder.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <div class="wrap">
@@ -155,6 +169,13 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
         <button class="btn" id="pgPrune" type="button" disabled>Hapus teks yang tak terpakai</button>
       </div>
       <div class="status" id="pgStatus" role="status">Muat language.json dulu (langkah 1), lalu pilih file HTML.</div>
+      <label class="f" for="pgManual" style="margin-top:14px">Tambah teks manual
+        <textarea id="pgManual" spellcheck="false" placeholder="Tulis teks yang terlewat. Satu baris = satu teks." style="min-height:90px;font-family:var(--font);font-size:.95rem"></textarea>
+      </label>
+      <div class="row" style="margin-top:10px">
+        <button class="btn btn-primary" id="pgAdd" type="button">Tambah ke daftar teks baru</button>
+        <button class="btn" id="pgAddNow" type="button">Langsung tambahkan ke language.json</button>
+      </div>
       <div class="tablewrap" id="pgWrap" hidden><table>
         <thead><tr><th style="width:44px"></th><th>Halaman</th><th>Teks baru</th></tr></thead>
         <tbody id="pgRows"></tbody>
@@ -217,7 +238,15 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
 
     <section class="step" aria-labelledby="s4">
       <h2 id="s4"><span class="num">4</span>Ekspor</h2>
-      <p class="hint">Yang diekspor adalah <b>seluruh file</b>: semua bahasa lama tetap utuh, bahasa baru ditambahkan di bawahnya.</p>
+      <p class="hint"><b>Cara termudah:</b> klik <b>Unduh ZIP</b>, lalu ekstrak ke folder proyek dan timpa file yang sama. ZIP berisi <code>data/language.json</code> dan file kecil per bahasa di <code>data/lang/</code> yang sudah sinkron, jadi tidak perlu <code>npm run build:lang</code>, GitHub Action, atau server. Untuk update berikutnya (teks baru atau bahasa baru), muat ulang <code>language.json</code> di langkah 1, ubah, lalu unduh ZIP lagi. Centang <b>Hanya file yang berubah</b> supaya ZIP hanya memuat file yang beda dari yang sudah ada di situs.</p>
+      <div class="row">
+        <label style="display:flex;gap:8px;align-items:center;font-weight:600"><input type="checkbox" id="onlyCh" checked> Hanya file yang berubah</label>
+      </div>
+      <div class="row">
+        <button class="btn btn-primary" id="dlZip" type="button" disabled>Unduh ZIP (language.json + file per bahasa)</button>
+      </div>
+      <div class="status" id="zipStatus" role="status"></div>
+      <p class="hint">Atau unduh/salin hanya <code>language.json</code> saja:</p>
       <div class="row">
         <label class="f" style="min-width:220px">Nama file
           <input type="text" id="fname" value="language.json" autocomplete="off" spellcheck="false">
@@ -374,7 +403,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     $('#stWarn').textContent = warn + ' perlu dicek'; $('#stSkip').textContent = skip + ' tetap';
     $('#barFill').style.width = Math.min(100, Math.round(100 * done / todo)) + '%';
     $('#retry').disabled = !fail || running;
-    var langs = data.languages.length > 1; $('#dl').disabled = $('#cp').disabled = !langs;
+    var langs = data.languages.length > 1; $('#dl').disabled = $('#cp').disabled = $('#dlZip').disabled = !langs;
     buildOut();
   }
 
@@ -476,6 +505,60 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     function fb() { var o = $('#out'); o.focus(); o.select(); try { document.execCommand('copy') ? ok() : setStatus('#outStatus', 'Isinya sudah dipilih, salin manual.', 'warn'); } catch (e) { setStatus('#outStatus', 'Isinya sudah dipilih, salin manual.', 'warn'); } }
   });
 
+
+  /* ---------- ZIP per bahasa: setara scripts/split-lang.js, jalan di browser (tanpa Node, API, atau Action) ---------- */
+  function splitFiles() {
+    var langs = data.languages.filter(function (l) { return Array.isArray(l) && l[0]; }), id = data.strings.id, files = {}, counts = {};
+    langs.forEach(function (l) {
+      var c = l[0]; counts[c] = Object.keys(data.strings[c] || {}).length;
+      if (c === 'id') return;
+      var tg = data.strings[c] || {}, a = {}, b = {}, st = {};
+      Object.keys(tg).forEach(function (k) { if (typeof tg[k] === 'string' && tg[k] && typeof id[k] === 'string') { a[k] = id[k]; b[k] = tg[k]; } });
+      st.id = a; st[c] = b;
+      files['data/lang/' + c + '.json'] = JSON.stringify({ languages: langs, strings: st }) + '\n';
+    });
+    files['data/lang/index.json'] = JSON.stringify({ languages: langs, counts: counts }) + '\n';
+    return files;
+  }
+  var CRC = (function () { var t = new Uint32Array(256), n, c, k; for (n = 0; n < 256; n++) { c = n; for (k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+  function crc32(u) { var c = -1; for (var i = 0; i < u.length; i++) c = CRC[(c ^ u[i]) & 255] ^ (c >>> 8); return (c ^ -1) >>> 0; }
+  function makeZip(entries) {   /* zip tanpa kompresi (store) */
+    var enc = new TextEncoder(), parts = [], cd = [], off = 0, now = new Date();
+    var dt = (now.getHours() << 11) | (now.getMinutes() << 5) | (now.getSeconds() >> 1), dd = ((now.getFullYear() - 1980) << 9) | ((now.getMonth() + 1) << 5) | now.getDate();
+    entries.forEach(function (e) {
+      var nm = enc.encode(e.name), body = enc.encode(e.text), crc = crc32(body), h = new DataView(new ArrayBuffer(30)), c = new DataView(new ArrayBuffer(46));
+      h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(10, dt, true); h.setUint16(12, dd, true);
+      h.setUint32(14, crc, true); h.setUint32(18, body.length, true); h.setUint32(22, body.length, true); h.setUint16(26, nm.length, true);
+      c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true); c.setUint16(12, dt, true); c.setUint16(14, dd, true);
+      c.setUint32(16, crc, true); c.setUint32(20, body.length, true); c.setUint32(24, body.length, true); c.setUint16(28, nm.length, true); c.setUint32(42, off, true);
+      parts.push(h.buffer, nm, body); cd.push(c.buffer, nm); off += 30 + nm.length + body.length;
+    });
+    var size = 0, end = new DataView(new ArrayBuffer(22)); cd.forEach(function (b) { size += b.byteLength; });
+    end.setUint32(0, 0x06054b50, true); end.setUint16(8, entries.length, true); end.setUint16(10, entries.length, true); end.setUint32(12, size, true); end.setUint32(16, off, true);
+    return new Blob(parts.concat(cd, [end.buffer]), { type: 'application/zip' });
+  }
+  function deployed(name) { return fetch(name, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.text() : null; }).catch(function () { return null; }); }
+  $('#dlZip').addEventListener('click', function () {
+    if (!data) return;
+    var files = splitFiles(), names = Object.keys(files), only = $('#onlyCh').checked, btn = this;
+    btn.disabled = true; setStatus('#zipStatus', 'Membandingkan dengan file di situs…');
+    Promise.all(['data/language.json', 'data/lang/index.json'].concat(names).map(deployed)).then(function (cur) {
+      var entries = [], curJson = cur[0], oldIdx = null;
+      try { oldIdx = JSON.parse(cur[1] || 'null'); } catch (e) {}
+      if (!only || curJson !== json) entries.push({ name: 'data/language.json', text: json + '\n' });
+      names.forEach(function (n, i) { if (!only || cur[i + 2] !== files[n]) entries.push({ name: n, text: files[n] }); });
+      var gone = [], now = {}; data.languages.forEach(function (l) { now[l[0]] = 1; });
+      if (oldIdx && Array.isArray(oldIdx.languages)) oldIdx.languages.forEach(function (l) { if (l[0] !== 'id' && !now[l[0]]) gone.push('data/lang/' + l[0] + '.json'); });
+      if (!entries.length && !gone.length) { setStatus('#zipStatus', 'Tidak ada perubahan: semua file sudah sama dengan yang ada di situs.', 'ok'); return; }
+      var stamp = new Date().toISOString().slice(0, 10), zn = 'language-update-' + stamp + '.zip';
+      if (entries.length) {
+        var a = document.createElement('a'); a.href = URL.createObjectURL(makeZip(entries)); a.download = zn;
+        document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+      }
+      setStatus('#zipStatus', zn + ': ' + entries.length + ' file (' + entries.map(function (e) { return e.name.replace('data/', ''); }).join(', ') + '). Ekstrak ke folder proyek dan timpa.' + (gone.length ? ' Hapus manual (bahasa sudah dihapus): ' + gone.join(', ') + '.' : ''), 'ok');
+    }).catch(function () { setStatus('#zipStatus', 'Gagal membuat ZIP.', 'bad'); }).then(function () { btn.disabled = false; });
+  });
+
   /* ---------- Sinkronkan teks dari halaman HTML ---------- */
   var pages = [], cand = [], unused = [], IPA_RE = /^\/[^\/]+\/$/;   /* transkripsi IPA /…/ tidak dicentang */
   var P_SKIP = { SCRIPT: 1, STYLE: 1, TEXTAREA: 1, NOSCRIPT: 1 }, P_ATTR = ['placeholder', 'aria-label', 'title', 'alt'];
@@ -532,7 +615,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     pgStatus(pages.length + ' halaman dibaca: ' + cand.length + ' teks baru, ' + unused.length + ' teks lama tidak ditemukan di halaman yang dipilih' +
       (nHtml ? ', ' + nHtml + ' halaman belum memuat i18n.js.' : '.') +
       (upl.card || upl.index ? ' Memakai ' + [upl.card ? 'card.json' : '', upl.index ? 'index.json' : ''].filter(Boolean).join(' dan ') + ' dari file yang Anda pilih.' : ''), cand.length ? 'warn' : 'ok');
-    $('#pgApply').disabled = !cand.length; $('#pgToggle').disabled = !cand.length; $('#pgPrune').disabled = !unused.length;
+    $('#pgApply').disabled = !cand.length; $('#pgToggle').disabled = !cand.length; $('#pgPrune').disabled = !unused.length || !pages.some(function (p) { return p.name !== 'manual'; });
   }
   function renderCand() {
     var tb = $('#pgRows'); tb.textContent = ''; $('#pgWrap').hidden = !cand.length;
@@ -647,6 +730,35 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding-bot
     }).catch(function (e) { pgStatus('Pemindaian gagal: ' + (e && e.message || e), 'bad'); })
       .then(function () { btn.disabled = false; });
   });
+  /* ---- tambah teks manual (untuk teks yang terlewat saat pemindaian) ---- */
+  function manualTexts() {
+    var seen = {}, out = [];
+    $('#pgManual').value.split(/\r?\n/).forEach(function (l) { l = nrm(l); if (l && !seen[l]) { seen[l] = 1; out.push(l); } });
+    return out;
+  }
+  function takeManual(direct) {
+    if (!data) { pgStatus('Muat language.json dulu (langkah 1).', 'bad'); return; }
+    var list = manualTexts();
+    if (!list.length) { pgStatus('Tulis dulu teksnya, satu baris per teks.', 'warn'); return; }
+    var isKnown = existingMatchers(), fresh = list.filter(function (t) { return !isKnown(t); }), dup = list.length - fresh.length;
+    if (!fresh.length) { pgStatus('Semua teks itu sudah ada di language.json.', 'warn'); return; }
+    var note = dup ? ' (' + dup + ' teks sudah ada, dilewati)' : '';
+    var man = pages.filter(function (p) { return p.name === 'manual'; })[0];          // teks manual dicatat sebagai "halaman" agar tidak dianggap tak terpakai
+    if (!man) { man = { name: 'manual', html: '', texts: [], hasScript: true }; pages.push(man); }
+    $('#pgManual').value = '';
+    if (direct) {                                            // hanya teks manual, kandidat hasil pindai tidak ikut
+      fresh.forEach(function (t) { var k = nextKey('manual'); src[k] = t; keys.push(k); if (isSkip(k)) state[k] = 'skip'; if (man.texts.indexOf(t) < 0) man.texts.push(t); });
+      render(); refresh(); renderChips(); setStatus('#srcStatus', keys.length + ' teks Indonesia (' + fresh.length + ' ditambah manual).', 'ok');
+      analyze();
+      pgStatus(fresh.length + ' teks manual ditambahkan ke strings.id' + note + '. Lanjut ke langkah 2 untuk menerjemahkan.', 'ok');
+      return;
+    }
+    fresh.forEach(function (t) { if (man.texts.indexOf(t) < 0) man.texts.push(t); });
+    analyze();
+    pgStatus(fresh.length + ' teks manual masuk ke tabel “Teks baru” (halaman: manual)' + note + '. Centang yang diinginkan, lalu klik “Tambahkan teks terpilih”.', 'ok');
+  }
+  $('#pgAdd').addEventListener('click', function () { takeManual(false); });
+  $('#pgAddNow').addEventListener('click', function () { takeManual(true); });
   $('#pgToggle').addEventListener('click', function () { var on = !cand.every(function (c) { return c.on; }); cand.forEach(function (c) { c.on = on; }); renderCand(); });
   $('#pgApply').addEventListener('click', function () {
     if (!data) return;

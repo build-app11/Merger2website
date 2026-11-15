@@ -191,6 +191,13 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 #pdDlg .dmi { display: block; width: 100%; margin-top: 6px; }
 #pdDlg .pdx { display: block; margin: 10px auto 0; border: 0; background: none; color: var(--muted); font: 600 0.85rem var(--font-en); text-decoration: underline; cursor: pointer; }
 .dmn { font-size: 0.78rem; color: var(--muted); padding: 2px 6px; line-height: 1.4; }
+.dvs { display: flex; gap: 8px; flex: none; }
+body:not(.voc) .dvs { display: none; }
+.dvs button { flex: 1; min-height: 40px; border: 2px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 8px 6px; font: 700 0.85rem var(--font-en); cursor: pointer; }
+.dvs button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.dvs button[data-d="vl"][aria-pressed="true"] { background: rgba(34,180,90,.8); color: #04210f; }
+body.voc .w.vu b, body.voc .sw.vu { background: rgba(255,99,99,.28); border-radius: 4px; }
+body.voc .w.vl b, body.voc .sw.vl { background: rgba(34,180,90,.8); color: #04210f; border-radius: 4px; }
 .dpb.star svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
 .dpb.star[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
 .dpb.star[aria-pressed="true"] svg { fill: currentColor; }
@@ -332,8 +339,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .line.drilled:not(.reveal) .tr{filter:blur(9px)}
 .vpop #bTr{width:100%;min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-en);font-weight:600;font-size:0.85rem}
 .vpop #bTr .g{font-family:var(--font-ipa);font-size:1.2rem}
-.vpop #bTrAuto{width:100%;min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-en);font-weight:600;font-size:0.85rem}
-.vpop #bTrAuto .g{font-size:1.2rem}
+.vpop #bTrAuto,.vpop #bVoc{width:100%;min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-en);font-weight:600;font-size:0.85rem}
+.vpop #bTrAuto .g,.vpop #bVoc .g{font-size:1.2rem}
 .vpop #trLang{width:100%;min-height:44px;padding:0 10px;border:2.5px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:600 0.85rem var(--font-en)}
 .vpop #trLang[hidden]{display:none}
 .line .tr.wait{opacity:.45}
@@ -361,6 +368,20 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .w.bad b{text-decoration:underline wavy var(--bad);text-decoration-thickness:1.5px;text-underline-offset:4px}
 
 </style>
+<meta name="description" content="Pemutar shadowing Learning Fun: video asli, transkrip berwaktu, IPA di setiap kata, dan latihan mengulang.">
+<link rel="canonical" href="https://learningfun.zone.id/player-video.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Shadowing">
+<meta property="og:description" content="Pemutar shadowing Learning Fun: video asli, transkrip berwaktu, IPA di setiap kata, dan latihan mengulang.">
+<meta property="og:url" content="https://learningfun.zone.id/player-video.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <style>
@@ -376,6 +397,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 </style>
 <div id="boot" role="status"><div class="bx"><h2 id="bootT">Memuat halaman…</h2><p id="bootP"></p><div id="bootA" hidden><label class="pick">Pilih file JSON<input type="file" id="bootFile" accept=".json,application/json"></label></div><a class="bk" href="./">Kembali</a></div></div>
 <script src="i18n.js"></script>
+<script src="lf-stats.js"></script>
+<script src="lf-collect.js" data-record></script>
 <script>
 /* KERANGKA KOSONG: data pelajaran dimuat dari file JSON.
    Alamat: player-video.html?q=nama-pelajaran  ->  data/nama-pelajaran.json */
@@ -487,6 +510,7 @@ let VIDEO_ID = '', JUDUL = '', TRANSKRIP = '';
       <button id="bRomaji" aria-pressed="true" hidden><span class="g">Aa</span>Romaji</button>
       <button id="bTr" aria-pressed="true" hidden><span class="g">≫</span>Terjemahan</button>
       <label class="trl">Subtitle utama<select id="mainLang" aria-label="Bahasa subtitle utama"></select></label>
+      <button id="bVoc" aria-pressed="false"><span class="g">◐</span>Kosakata otomatis</button>
       <button id="bTrAuto" aria-pressed="false"><span class="g">⇄</span>Terjemahan otomatis</button>
       <select id="trLang" aria-label="Bahasa subtitle kedua" hidden></select>
       <div class="szrow"><span>Ukuran font</span><button id="fsVal" aria-label="Ukuran font, tekan untuk kembali ke awal">100%</button></div>
@@ -759,9 +783,37 @@ const LAST = DATA[DATA.length - 1];
    - Dibuka dari tempat lain -> tombol "Lanjut berikutnya" (urutan index.json) + "Review kosakata" (kosakata.html)
    Panel baru muncul saat waktu putar mencapai akhir transkrip. mount(bar) menaruh panel di halaman.
    Mengembalikan fungsi check(t, awalBarisTerakhir, akhirTranskrip, sudahSelesai). */
+/* Latihan di path.html dicatat saat latihan DITUNTASKAN (bukan saat dimulai): lf:path.steps[slug].practice.
+   Dibuka dari tempat lain: tetap tercatat begitu dimulai, seperti sebelumnya. */
+function lfSlug(){var s='';try{var _q=new URLSearchParams(location.search);s=(_q.get('q')||_q.get('v')||'').replace(/\.json$/i,'').replace(/[^\w.-]/g,'')}catch(e){}return s}
+function lfFromPath(){try{return new URLSearchParams(location.search).get('from')==='path'}catch(e){return false}}
+function lfRecordPractice(){
+  var slug=lfSlug();if(!slug)return;
+  try{var p=JSON.parse(localStorage.getItem('lf:path'))||{};if(!p.steps||typeof p.steps!=='object')p.steps={};
+    var s=p.steps[slug]=p.steps[slug]||{};
+    if(!s.practice){s.practice=Date.now();localStorage.setItem('lf:path',JSON.stringify(p));localStorage.setItem('lf:path:pending','null')}}catch(e){}
+}
+function lfPracticed(){ // latihan dimulai
+  if(lfFromPath())return; // dari path: tunggu sampai latihan tuntas (lfPracDone)
+  lfRecordPractice();
+  if(window.lfPracBar){window.lfPracBar.hidden=false;try{window.lfPracBar.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){}}
+}
+function lfPracDone(after,quiet){ // latihan tuntas sampai akhir -> catat + tampilkan tombol Selesai
+  lfRecordPractice();
+  if(!lfFromPath())return;
+  if(window.lfPracBar){window.lfPracBar.hidden=false;if(!quiet){try{window.lfPracBar.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){}}}
+  if(after&&after.parentNode){ // layar hasil latihan menutupi daftar, jadi tombolnya ikut ditaruh di layar hasil
+    lfPracUndone();
+    if(!document.getElementById('lfDoneCss')){var c=document.createElement('style');c.id='lfDoneCss';c.textContent='.lfdone{display:flex;align-items:center;justify-content:center;margin:16px auto 0;max-width:34rem;padding:12px 22px;border:2.5px solid var(--ink,#14162B);border-radius:999px;background:var(--accent,#FFD23F);color:var(--on,#14162B);font:600 1.05rem var(--font-display,system-ui);box-shadow:3px 3px 0 var(--shadow,#14162B);text-decoration:none;text-align:center}';document.head.appendChild(c)}
+    var a=document.createElement('a');a.id='lfDoneLink';a.className='lfdone';a.href='path.html';a.textContent='Selesai ✓ Kembali ke path';
+    after.parentNode.insertBefore(a,after.nextSibling);
+  }
+}
+function lfPracUndone(){var o=document.getElementById('lfDoneLink');if(o)o.remove()}
 function lessonEnd(slug,mount,self){
   if(!slug)return function(){};
-  var from=null,rvDone=false;
+  var from=null,rvDone=false,STEP='';
+  try{STEP=new URLSearchParams(location.search).get('step')||''}catch(e){}
   try{
     if(new URLSearchParams(location.search).get('from')==='path')from='path.html'; // ?from=path dari path.html
     else{ // cadangan untuk tautan lama tanpa from: deteksi lewat referrer
@@ -773,7 +825,10 @@ function lessonEnd(slug,mount,self){
   css.textContent='#endBar{display:flex;flex-direction:column;gap:12px;width:calc(100% - 32px);max-width:var(--col,34rem);margin:24px auto 0;flex:none}#endBar[hidden],#endBar .eb[hidden]{display:none}#endBar .eb{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;border:2.5px solid var(--ink,#14162B);border-radius:999px;background:var(--surface,var(--bar,#fff));color:var(--ink,var(--fg,#14162B));font:600 1.05rem var(--font-display,var(--font-ui,system-ui));box-shadow:3px 3px 0 var(--shadow,#14162B);cursor:pointer;text-decoration:none;text-align:center}#endBar .eb.pri{background:var(--accent,#FFD23F);color:var(--on,var(--accent-ink,#14162B))}#endBar .eb:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--shadow,#14162B)}';
   document.head.appendChild(css);
   var bar=document.createElement('div');bar.id='endBar';bar.hidden=true;
-  if(from){
+  if(from&&STEP==='practice'){
+    var pa=document.createElement('a');pa.className='eb pri';pa.href=from;pa.textContent='Selesai ✓ Kembali ke path';
+    bar.appendChild(pa);window.lfPracBar=bar;
+  }else if(from){
     var d=document.createElement('button');d.type='button';d.className='eb pri';d.textContent='Selesai ✓';
     d.addEventListener('click',function(){
       try{
@@ -819,6 +874,7 @@ function lessonEnd(slug,mount,self){
     })(0);
   }
   mount(bar);
+  if(from&&STEP==='practice')return function(){}; // bar muncul setelah Practice dipakai (lfPracticed)
   var latched=false;
   if(rvDone){bar.hidden=false;setTimeout(function(){try{bar.scrollIntoView({block:'nearest'})}catch(e){}},500);return function(){}} // baru kembali dari review: panel langsung tampil
   return function(t,lastStart,endT,ended){
@@ -872,6 +928,7 @@ function play() {
   else { if (clock.t >= dur() - 0.1) clock.t = 0; clock.playing = true; clock.last = performance.now(); }
 }
 function pause() { if (ytMode()) yt.pauseVideo(); else clock.playing = false; }
+if (window.LFStats) LFStats.track(isPlaying, () => window.LESSON_LANG);
 function setRate(r) {
   rate = r;
   if (ytMode()) yt.setPlaybackRate(r);
@@ -1313,6 +1370,7 @@ function showTip(wEl, sw) {
   tipEl = el; el.classList.add('sel');
   const mx = wEl.closest('.mtx');
   openDict(word, el, mx ? mx.lang : null);
+  vocBtn();
 }
 dpEl = mk('div', 'dp'); dpEl.id = 'dp'; dpEl.hidden = true; dpEl.setAttribute('role', 'dialog'); dpEl.setAttribute('aria-label', 'Arti kata');
 dpEl.innerHTML = '<div class="dph"><div class="dpw"><b class="dwd"></b><span class="dip"></span></div>'
@@ -1320,6 +1378,7 @@ dpEl.innerHTML = '<div class="dph"><div class="dpw"><b class="dwd"></b><span cla
   + '<button class="dpb" data-d="say" aria-label="Ucapkan kata" title="Ucapkan"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg></button>'
   + '<button class="dpb alt" data-d="x" aria-label="Tutup" title="Tutup"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></svg></button></div>'
   + '<div class="dpbody"><div class="dpid"><small>ARTI</small><div class="did"></div></div>'
+  + '<div class="dvs"><button type="button" data-d="vk" aria-pressed="false">✓ Sudah tahu</button><button type="button" data-d="vl" aria-pressed="false">📚 Sedang belajar</button></div>'
   + '<div class="dtabs" role="tablist"><button class="dtab" role="tab" data-d="en" aria-selected="true">EN</button><button class="dtab" role="tab" data-d="tr" aria-selected="false">Terjemah</button></div>'
   + '<select class="dsel" data-d="lang" aria-label="Bahasa terjemahan" hidden></select>'
   + '<div class="dlist"></div></div>'
@@ -1340,6 +1399,7 @@ dpEl.addEventListener('click', (e) => {
   const b = e.target.closest('[data-d]'); if (!b) return; const a = b.dataset.d;
   if (a === 'x') closeTip();
   else if (a === 'star') stToggle();
+  else if (a === 'vk' || a === 'vl') vocSet(a === 'vk' ? 'k' : 'l');
   else if (a === 'en' || a === 'tr') kdTab(a);
   else if (a === 'say' && dSt && canSpeak) { try { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(dSt.q); u.lang = dSt.sl !== MT_SL ? dSt.sl : speechLang(false); u.rate = 0.9; speechSynthesis.speak(u); } catch (_) {} }
 });
@@ -1428,6 +1488,74 @@ mainSel.addEventListener('change', () => { lsSet('uk-mainlang', mainSel.value); 
 trSync();
 if (trAuto || tl1()) trStart();
 
+/* ---------- kosakata otomatis: pink = belum dikenal, hijau = sedang dipelajari (otomatis kalau kata ada di deck Kosakata), tanpa warna = dikenal.
+   Status disimpan di localStorage 'lf:vocab:<bahasa>' ({k:{kata:1},l:{kata:1}}), sama dengan player-reading. ---------- */
+const VLB = LCODE.split('-')[0], VKEY = 'lf:vocab:' + VLB, CJKW = /[぀-ヿ㐀-鿿가-힯฀-๿]/;
+let VOC = { k: {}, l: {} }, DECK = new Set(), vocOn = lsGet('uk-voc', '0') === '1';
+function deckLoad() {   /* kata tunggal di 'lf:starred'; entri lama tanpa 'sl' dianggap cocok untuk semua bahasa */
+  const s = new Set();
+  try { const a = JSON.parse(localStorage.getItem('lf:starred') || '[]'); if (Array.isArray(a)) a.forEach((x) => { if (x && !x.line && x.w && (!x.sl || x.sl === VLB)) { const w = String(x.w).trim().toLowerCase(); if (w && !/\s/.test(w)) s.add(w); } }); } catch (e) {}
+  DECK = s;
+}
+function vocLoad() {
+  try { const v = JSON.parse(localStorage.getItem(VKEY) || 'null'); VOC = v && typeof v === 'object' ? { k: v.k || {}, l: v.l || {} } : { k: {}, l: {} }; } catch (e) { VOC = { k: {}, l: {} }; }
+  deckLoad();
+}
+const vocSave = () => { try { localStorage.setItem(VKEY, JSON.stringify(VOC)); } catch (e) {} };
+const vocOk = (k) => !!k && /^[\p{L}][\p{L}'’-]*$/u.test(k) && (k.length > 1 || CJKW.test(k));
+const vocSt = (k) => !vocOk(k) ? '' : DECK.has(k) ? 'l' : VOC.k[k] ? 'k' : VOC.l[k] ? 'l' : 'u';
+function vocPaintEl(el, key) { const st = vocSt(key); el.classList.toggle('vu', st === 'u'); el.classList.toggle('vl', st === 'l'); }
+function vocPaintAll() {
+  if (!vocOn) return;
+  list.querySelectorAll('.ws .w').forEach((w) => {
+    const sws = w.querySelectorAll('.sw');
+    if (sws.length) { w.classList.remove('vu', 'vl'); sws.forEach((x) => vocPaintEl(x, cleanWord(x.dataset.w || x.textContent))); }
+    else vocPaintEl(w, cleanWord(w.dataset.w || (w.querySelector('b') || w).textContent));
+  });
+}
+let vocRaf = 0;
+new MutationObserver(() => { if (!vocOn || vocRaf) return; vocRaf = requestAnimationFrame(() => { vocRaf = 0; vocPaintAll(); }); }).observe(list, { childList: true, subtree: true });
+function vocBtn() {
+  if (!dSt) return; const st = vocSt(dSt.q), ok = vocOk(dSt.q);
+  dpEl.querySelectorAll('.dvs button').forEach((b) => { b.hidden = !ok; b.setAttribute('aria-pressed', String(st === (b.dataset.d === 'vk' ? 'k' : 'l'))); });
+}
+const vocKeys = () => { const ks = [dSt.q]; if (dSt.res && dSt.res.word) ks.push(String(dSt.res.word).toLowerCase()); return ks; };
+function deckDrop(ks) {   /* hapus kata dari semua deck; kembalikan jumlah kartu yang dihapus */
+  const set = new Set(ks.filter(Boolean).map((x) => String(x).toLowerCase())), a = stGet();
+  const n = a.filter((x) => !(x && !x.line && set.has(String(x.w).trim().toLowerCase()) && (!x.sl || x.sl === VLB)));
+  if (n.length !== a.length) stSet(n); return a.length - n.length;
+}
+function deckAddQuiet() {   /* simpan ke deck terakhir yang dipakai; arti menyusul lewat stRefresh */
+  const a = stGet(); if (stFind(a) >= 0) return '';
+  let id = lsGet('lf:lastdeck', '__star'); const ds = pdDecks();
+  if (id !== '__star' && !ds.some((d) => d.id === id)) id = '__star';
+  a.unshift(Object.assign(stSnap(), { at: Date.now(), deck: id })); stSet(a);
+  return (ds.find((d) => d.id === id) || { name: 'Kata Berbintang' }).name;
+}
+function vocRefresh() { deckLoad(); vocPaintAll(); if (dSt) { vocBtn(); stPaint(); } }
+function vocSet(to) {
+  if (!dSt || !vocOk(dSt.q)) return;
+  const k = dSt.q, cur = vocSt(k), next = cur === to ? 'u' : to, ks = vocKeys();
+  ks.forEach((x) => { delete VOC.k[x]; delete VOC.l[x]; });
+  let msg = '', gone = 0;
+  if (next !== 'l') gone = deckDrop(ks);
+  if (next === 'k') { VOC.k[k] = 1; msg = gone ? '✓ “' + k + '” dikenal, dihapus dari deck' : '✓ “' + k + '” ditandai dikenal'; }
+  else if (next === 'l') { VOC.l[k] = 1; const nm = deckAddQuiet(); msg = nm ? '📚 “' + k + '” → ' + nm : '📚 “' + k + '” sedang dipelajari'; }
+  else if (gone) msg = '“' + k + '” dihapus dari deck';
+  vocSave(); vocRefresh(); if (msg) flashStatus(msg);
+}
+function vocFromStar(on) {   /* bintang di popup berubah -> samakan warna */
+  if (!dSt || !vocOk(dSt.q)) return;
+  vocKeys().forEach((x) => { delete VOC.k[x]; delete VOC.l[x]; }); if (on) VOC.l[dSt.q] = 1;
+  vocSave(); vocRefresh();
+}
+function vocApply() { document.body.classList.toggle('voc', vocOn); $('#bVoc').setAttribute('aria-pressed', String(vocOn)); if (vocOn) { deckLoad(); vocPaintAll(); } if (dSt) vocBtn(); }
+$('#bVoc').addEventListener('click', () => { vocOn = !vocOn; lsSet('uk-voc', vocOn ? '1' : '0'); vocApply(); });
+window.addEventListener('storage', (e) => { if (e.key === 'lf:starred' || e.key === VKEY) { if (e.key === VKEY) vocLoad(); vocRefresh(); } });
+window.addEventListener('pageshow', vocRefresh);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) vocRefresh(); });
+vocLoad(); vocApply();
+
 /* ---------- bintang: simpan kata untuk direview di Kosakata (localStorage 'lf:starred', dibaca kosakata.html di origin yang sama) ---------- */
 const STAR = 'lf:starred';
 const stGet = () => { try { const a = JSON.parse(localStorage.getItem(STAR) || '[]'); return Array.isArray(a) ? a : []; } catch (e) { return []; } };
@@ -1439,7 +1567,7 @@ function stSnap() {
   const m = id.match(/^Terjemahan otomatis: (.*?)\. (?:Belum ada arti|Kata tidak)/);
   if (m) id = m[1]; else if (!st.res || /^(Memuat|Belum ada arti)/.test(id)) id = '';
   let en = ''; if (st.res) for (const e of st.res.entries) { const s = sensesOf(e)[0]; if (s) { en = s.definition; break; } }
-  return { w: stKey(), ipa: dpEl.querySelector('.dip').textContent, id, en, lg: dLang()[0] };
+  return { w: stKey(), ipa: dpEl.querySelector('.dip').textContent, id, en, lg: dLang()[0], sl: LCODE.split('-')[0] };
 }
 function stPaint() {
   const b = dpEl.querySelector('[data-d="star"]'), on = stFind(stGet()) >= 0;
@@ -1449,7 +1577,7 @@ function closeStMenu() { const m = dpEl && dpEl.querySelector('.dmenu'); if (m) 
 function stToggle() {
   if (!dSt || !stKey()) return;
   const a = stGet(), i = stFind(a);
-  if (i >= 0) { a.splice(i, 1); stSet(a); stPaint(); closeStMenu(); flashStatus('bintang dihapus'); return; }
+  if (i >= 0) { a.splice(i, 1); stSet(a); stPaint(); closeStMenu(); vocFromStar(false); flashStatus('bintang dihapus'); return; }
   if (dpEl.querySelector('.dmenu')) { closeStMenu(); return; }
   let ds = []; try { ds = JSON.parse(localStorage.getItem('lf:decks') || '[]'); } catch (e) {}
   if (!Array.isArray(ds)) ds = [];
@@ -1465,7 +1593,7 @@ function stPick(id) {
   let ds = []; try { ds = JSON.parse(localStorage.getItem('lf:decks') || '[]'); } catch (e) {}
   const nm = (ds.find((d) => d.id === id) || { name: 'Kata Berbintang' }).name;
   const a = stGet(); a.unshift(Object.assign(stSnap(), { at: Date.now(), deck: id }));
-  stSet(a); lsSet('lf:lastdeck', id); closeStMenu(); stPaint(); flashStatus('★ ' + stKey() + ' → ' + nm);
+  stSet(a); lsSet('lf:lastdeck', id); closeStMenu(); stPaint(); vocFromStar(true); flashStatus('★ ' + stKey() + ' → ' + nm);
 }
 function stRefresh() {
   if (!dSt) return; stPaint();
@@ -1597,7 +1725,7 @@ document.addEventListener('click', (e) => { if (!lpop.hidden && !e.target.closes
 const recs = new Map();
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 const scores = new Map();
-const sh = { on: false, starting: false, idx: 0, state: 'idle', tok: 0, t0: 0, seen: false, end: 0, echoStart: 0, echoDur: 0, stream: null, mime: '', mr: null, recTimer: null, aud: null, gapTimer: null, sr: null, scoreP: null, srOnly: false, srRec: false, miss: 0 };
+const sh = { on: false, starting: false, idx: 0, state: 'idle', tok: 0, t0: 0, seen: false, end: 0, echoStart: 0, echoDur: 0, stream: null, mime: '', mr: null, recTimer: null, aud: null, gapTimer: null, sr: null, scoreP: null, srOnly: false, srRec: false, miss: 0, n: -1 };
 const pinOnly = () => app.classList.contains('only-pinned') && pins.size > 0;
 function shNext(from) {
   for (let j = Math.max(0, from); j < DATA.length; j++) {
@@ -1619,6 +1747,7 @@ function shRun(from) {
   clearTimeout(sh.gapTimer); clearTimeout(sh.recTimer);
   if (sh.aud) { try { sh.aud.pause(); } catch (e) {} sh.aud = null; }
   sh.tok++;
+  if (++sh.n >= 5) { lfPracDone(null, true); if (sh.n === 5) flashStatus('5 shadowing selesai · tombol Selesai ada di bawah daftar'); } // 5 shadowing selesai
   if (sh.mr && sh.mr.state !== 'inactive') { try { sh.mr.stop(); } catch (e) {} }
   setShState('idle');
   const j = shNext(from);
@@ -1942,7 +2071,8 @@ async function shStart() {
   if (!SR) flashStatus('skor suara tidak didukung browser ini, shadowing tetap berjalan');
   sh.stream = stream;
   sh.mime = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg;codecs=opus'].find((m) => MediaRecorder.isTypeSupported(m)) || '';
-  sh.on = true;
+  sh.on = true; sh.n = -1;
+  lfPracticed();
   $('#bShadow').setAttribute('aria-pressed', 'true');
   shownKey = null;
   shRun(Math.max(activeIdx, 0));
@@ -2030,7 +2160,7 @@ function dRender() {
   refreshStatus();
 }
 function dGo() {
-  if (dFin) { dst.clear(); dpos = 0; dRender(); return; }
+  if (dFin) { dst.clear(); dpos = 0; lfPracUndone(); dRender(); return; }
   const i = ditems[dpos], st = dst.get(i);
   if (st.done) {
     if (dpos < ditems.length - 1) { dpos++; dRender(); return; }
@@ -2048,6 +2178,7 @@ function dGo() {
   let ok = 0;
   inputs.forEach((x, k) => { if (ansOf(x.value) === dwords[k].ans) ok++; });
   st.done = true; st.correct = ok; st.total = inputs.length; st.pct = Math.round((100 * ok) / Math.max(1, inputs.length));
+  { let nDone = 0; dst.forEach((v) => { if (v.done) nDone++; }); if (nDone >= 5) lfPracDone($('#dMsg')); } // 5 dictation selesai -> tombol Selesai latihan
   if (loopIdx === i) setLoop(null);
   pause();
   dMark(); dUpdateNav(); dButton(); refreshStatus();
@@ -2076,6 +2207,7 @@ function setDict(on) {
     dpos = p < 0 ? 0 : p;
   }
   app.classList.toggle('dictation', on);
+  if (on) lfPracticed();
   $('#dict').hidden = !on;
   $('#bDict').setAttribute('aria-pressed', String(on));
   if (on) { setLoop(null); dRender(); }
@@ -2138,6 +2270,7 @@ pbtn.addEventListener('click', (e) => {
   const o = pmenu.hidden; pmenu.hidden = !o; pbtn.setAttribute('aria-expanded', String(o));
 });
 pmenu.addEventListener('click', (e) => { if (e.target.closest('.pitem')) closePmenu(); });
+try { if (new URLSearchParams(location.search).get('step') === 'practice') setTimeout(() => { try { pbtn.click(); } catch (e) {} }, 700); } catch (e) {}   // dari path: menu Practice langsung terbuka
 document.addEventListener('click', (e) => { if (!pmenu.hidden && !e.target.closest('#pwrap')) closePmenu(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePmenu(); });
 

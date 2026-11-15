@@ -7,6 +7,8 @@
 <meta name="theme-color" content="#EEF2FF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101226" media="(prefers-color-scheme: dark)">
 <script src="i18n.js"></script>
+<script src="lf-stats.js"></script>
+<script src="lf-collect.js" data-record></script>
 <script src="lf-api.js"></script>
 <script>try{var t=JSON.parse(localStorage.getItem('lf:theme'));if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,6 +69,23 @@ details.set summary::-webkit-details-marker{display:none}
 #empty h2{margin:0;font:700 1.5rem var(--font-display)}
 #empty p{margin:0;color:var(--muted);line-height:1.55}
 .open{display:inline-block;align-self:flex-start;border:2.5px solid var(--ink);border-radius:12px;background:var(--accent);color:#14162B;box-shadow:3px 3px 0 var(--shadow);padding:11px 16px;font-weight:700;cursor:pointer}
+.vhead{display:none;flex-wrap:wrap;gap:6px 8px;align-items:center;justify-content:center;font:600 .78rem var(--font-ui);margin:0 auto 14px;padding:10px;border:2px solid var(--line);border-radius:14px;line-height:1.3}
+body.voc .vhead{display:flex}
+.vhead .vb{border-radius:999px;padding:3px 10px;border:1.5px solid transparent}
+.vhead .vu{background:rgba(255,99,99,.28)}.vhead .vl{background:rgba(34,180,90,.8);color:#04210f}
+.vhead .vt{flex-basis:100%;text-align:center;color:var(--muted);font-weight:500}
+.vhead .sm{font-size:.78rem}
+body.voc .w.vu .pl{background:rgba(255,99,99,.28);border-radius:4px}
+body.voc .w.vl .pl{background:rgba(34,180,90,.8);color:#04210f;border-radius:4px}
+.vgrp{border:2px solid var(--line);border-radius:14px;margin:0;padding:6px 12px 10px;display:flex;flex-direction:column;gap:6px}.vgrp legend{font:700 .8rem var(--font-ui);color:var(--muted);padding:0 6px}
+body:not(.voc) .dvs{display:none}
+.cb:disabled{opacity:.4;cursor:not-allowed}
+.dvs{display:flex;gap:8px;flex:none}
+.dvs button{flex:1;border:2px solid var(--ink);border-radius:12px;background:var(--field);color:var(--fg);padding:8px 6px;font:700 .85rem var(--font-ui);cursor:pointer}
+.dvs button[aria-pressed="true"]{background:var(--accent);color:#14162B}
+.dvs button[data-d="vl"][aria-pressed="true"]{background:rgba(34,180,90,.8)}
+.vrow{display:flex;gap:10px;align-items:center;padding:6px 4px;border-bottom:1px solid var(--line)}
+.vrow small{margin-left:auto;color:var(--muted)}
 .w.tip .pl{text-decoration:underline;text-decoration-color:var(--ui);text-decoration-thickness:2px;text-underline-offset:3px}
 .dp{--tint:rgba(127,127,127,.13);--rule:rgba(127,127,127,.24);position:fixed;left:12px;right:12px;bottom:170px;max-width:34rem;margin:0 auto;height:min(44vh,28rem);z-index:20;display:flex;flex-direction:column;background:var(--field);color:var(--fg);border:2.5px solid var(--ink);border-radius:22px;box-shadow:6px 6px 0 var(--shadow);overflow:hidden;font-family:var(--font-ui)}
 .dph{display:flex;align-items:center;gap:8px;padding:12px 14px 6px;flex:none}
@@ -162,7 +181,50 @@ body.tray #ctl{display:none}
 #text.in-n{animation:lfInN .34s cubic-bezier(.2,.8,.2,1)}
 #text.in-p{animation:lfInP .34s cubic-bezier(.2,.8,.2,1)}
 @media (prefers-reduced-motion:reduce){#text.out-n,#text.out-p,#text.in-n,#text.in-p{animation:none}}
+
+/* ---- latihan: susun ulang paragraf ---- */
+.ro{position:fixed;inset:0;z-index:70;display:flex;flex-direction:column;background:var(--bg);color:var(--fg)}
+.roh{flex:none;display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--field);border-bottom:2.5px solid var(--ink)}
+.rot{flex:1;min-width:0;display:flex;flex-direction:column;font:700 1.05rem/1.2 var(--font-display)}
+.rot span{font:600 .8rem/1.3 var(--font-ui);color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rom{flex:1;overflow:auto;padding:14px 14px 22px;-webkit-overflow-scrolling:touch}
+.rotip{max-width:42rem;margin:0 auto 12px;padding:9px 14px;border-radius:12px;background:var(--hl);color:#14162B;font:600 .85rem/1.45 var(--font-ui);text-align:center}
+.rol{list-style:none;margin:0 auto;padding:0;max-width:42rem;display:grid;gap:10px}
+.roi{display:flex;align-items:flex-start;gap:10px;padding:12px;border:2.5px solid var(--ink);border-radius:14px;background:var(--field);box-shadow:3px 3px 0 var(--shadow)}
+.roi.ok{border-color:var(--ui);background:color-mix(in srgb,var(--ui) 14%,var(--field))}
+.roi.bad{border-color:var(--warn);background:color-mix(in srgb,var(--warn) 12%,var(--field))}
+.ron{flex:none;display:grid;place-items:center;width:30px;height:30px;border:2.5px solid var(--ink);border-radius:50%;background:var(--accent);color:#14162B;font:700 .85rem/1 var(--font-display)}
+.rob{flex:1;min-width:0}
+.rt{margin:0;font:500 1rem/1.6 var(--font-ui);overflow-wrap:anywhere}
+.ron2{display:block;margin-top:6px;font:700 .8rem/1.3 var(--font-ui);color:var(--warn)}
+.grip{flex:none;align-self:stretch;display:grid;place-items:center;width:44px;min-height:44px;margin:-4px -4px -4px 0;border:0;border-radius:10px;background:transparent;color:var(--muted);cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;padding:0}
+.grip svg{width:22px;height:22px;fill:currentColor}
+.grip:hover:not(:disabled){background:var(--hl);color:#14162B}
+.grip:disabled{opacity:.25;cursor:default}
+.roi.drag{position:relative;z-index:3;box-shadow:7px 7px 0 var(--shadow);cursor:grabbing}
+.roi.drag .grip{cursor:grabbing}
+.rol.dragging{-webkit-user-select:none;user-select:none}
+.rol.dragging .roi:not(.drag){transition:transform .16s ease}
+@media (prefers-reduced-motion:reduce){.rol.dragging .roi:not(.drag){transition:none}}
+.rofb{max-width:42rem;margin:12px auto 0;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:var(--field);font:600 .95rem/1.45 var(--font-ui);text-align:center}
+.rofb.ok{border-color:var(--ui);color:var(--ui)}.rofb.bad{border-color:var(--warn)}
+.rof{flex:none;display:flex;flex-direction:column;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--field);border-top:2.5px solid var(--ink)}
+.rof .pill.main{background:var(--accent);color:#14162B}
 </style>
+<meta name="description" content="Pembaca Learning Fun: sorotan kalimat dan kata, suara, terjemahan, romanisasi, IPA, dan popup arti.">
+<link rel="canonical" href="https://learningfun.zone.id/player-reading.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Player Reading">
+<meta property="og:description" content="Pembaca Learning Fun: sorotan kalimat dan kata, suara, terjemahan, romanisasi, IPA, dan popup arti.">
+<meta property="og:url" content="https://learningfun.zone.id/player-reading.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <header class="bar" id="bar" hidden>
@@ -181,7 +243,7 @@ body.tray #ctl{display:none}
   <p id="emsg" class="note" role="status"></p>
 </section>
 
-<main id="text" hidden tabindex="-1"><div class="col" id="col"></div></main>
+<main id="text" hidden tabindex="-1"><div class="col vhead" id="vhead" aria-live="polite"></div><div class="col" id="col"></div></main>
 
 <footer id="ctl" hidden>
   <div class="seek"><span id="t0">0:00</span><input id="seek" type="range" min="0" max="0" value="0" aria-label="Posisi kalimat"><span id="t1">0:00</span></div>
@@ -192,7 +254,7 @@ body.tray #ctl{display:none}
     <button class="cb" id="bN" type="button" aria-label="Kalimat berikutnya">⏭</button>
     <button class="cb" id="bNN" type="button" aria-label="Bagian berikutnya">⏩</button>
   </div>
-  <div class="r"><button class="pill" id="bAnn" type="button">✎ Coret &amp; Catatan</button></div>
+  <div class="r"><button class="pill" id="bAnn" type="button">✎ Coret &amp; Catatan</button><button class="pill" id="bRo" type="button">🧩 Susun paragraf</button></div>
   <div class="r" id="nextRow" hidden><a class="pill" id="bNext" href="#">Bab berikutnya →</a></div>
   <div class="r" id="doneRow" hidden><button class="pill" id="bDone" type="button">Selesai ✓</button></div>
   <div id="msg" role="status"></div>
@@ -201,6 +263,7 @@ body.tray #ctl{display:none}
     <div class="grid">
       <div class="r"><select class="sel" id="voice" aria-label="Suara"></select><button class="pill" id="bPiper" type="button" hidden>Semua suara Piper</button></div>
       <div class="r"><select class="sel" id="voice2" aria-label="Suara terjemahan" hidden></select><select class="sel" id="rate" aria-label="Kecepatan"><option value="0.7">0.7x</option><option value="0.85">0.85x</option><option value="1" selected>1x</option><option value="1.15">1.15x</option><option value="1.3">1.3x</option><option value="1.5">1.5x</option></select><select class="sel" id="fs" aria-label="Ukuran huruf"><option value="1">A kecil</option><option value="1.2" selected>A sedang</option><option value="1.45">A besar</option><option value="1.75">A besar sekali</option></select></div>
+      <fieldset class="vgrp"><legend>Kosakata otomatis</legend><div class="r"><label><input type="checkbox" id="cVoc"> Aktifkan</label></div><p class="note">Menyorot kata belum dikenal (pink) dan sedang dipelajari (hijau; otomatis hijau kalau kata itu ada di deck Kosakata, dan Sudah tahu menghapusnya dari deck), menampilkan statistik bacaan, dan menambah tombol Sudah tahu / Sedang belajar di popup arti. Selama aktif, tombol putar (TTS) dimatikan. Status kata tetap tersimpan saat dimatikan. Bawaan: nonaktif.</p></fieldset>
       <div class="r"><label><input type="checkbox" id="cRm"> Romanisasi</label><label><input type="checkbox" id="cIpa"> IPA</label></div>
       <p class="note" id="rmNote">Romanisasi dan IPA per kata untuk semua bahasa butuh server. Tanpa server, hanya IPA dari kamus online yang tersedia.</p>
       <div class="r"><select class="sel" id="tl" aria-label="Bahasa terjemahan"></select><button class="pill" id="bTr" type="button">🌐 Terjemahkan</button><label><input type="checkbox" id="cSayTr"> Bacakan terjemahan</label></div>
@@ -230,10 +293,24 @@ body.tray #ctl{display:none}
     <button class="dpb" data-d="say" type="button" aria-label="Ucapkan kata" title="Ucapkan"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg></button>
     <button class="dpb alt" data-d="x" type="button" aria-label="Tutup" title="Tutup"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></svg></button></div>
   <div class="dpbody"><div class="dpid"><small>ARTI</small><div class="did"></div></div>
+    <div class="dvs"><button type="button" data-d="vk" aria-pressed="false">✓ Sudah tahu</button><button type="button" data-d="vl" aria-pressed="false">📚 Sedang belajar</button></div>
     <div class="dtabs" role="tablist"><button class="dtab" role="tab" data-d="en" aria-selected="true" type="button">EN</button><button class="dtab" role="tab" data-d="tr" aria-selected="false" type="button">Terjemah</button></div>
     <select class="dsel" data-d="lang" aria-label="Bahasa terjemahan" hidden></select>
     <div class="dlist"></div></div>
   <div class="dfoot"><a href="https://en.wiktionary.org" target="_blank" rel="noopener">Wiktionary</a> via <a href="https://freedictionaryapi.com" target="_blank" rel="noopener">FreeDictionaryAPI.com</a></div>
+</div>
+
+<div class="ro" id="rotray" hidden role="dialog" aria-modal="true" aria-label="Latihan susun paragraf">
+  <div class="roh"><button class="rb" id="roX" type="button" aria-label="Tutup latihan">✕</button><div class="rot"><b>Susun paragraf</b><span id="roSub"></span></div></div>
+  <div class="rom">
+    <p class="rotip">Urutkan paragraf di bawah ini sesuai urutan di bacaan. Tekan dan seret ikon titik-titik di sisi kanan kartu ke posisi yang tepat, lalu tekan Cek urutan.</p>
+    <ol class="rol" id="roList" aria-label="Paragraf yang perlu diurutkan"></ol>
+    <div class="rofb" id="roFb" hidden role="status"></div>
+  </div>
+  <div class="rof">
+    <div class="r"><label>Jumlah paragraf <select class="sel" id="roN" aria-label="Jumlah paragraf"><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></label></div>
+    <div class="r"><button class="pill main" id="roCheck" type="button">Cek urutan</button><button class="pill" id="roShow" type="button" hidden>Lihat urutan benar</button><button class="pill" id="roNew" type="button">Soal baru</button></div>
+  </div>
 </div>
 
 <script>
@@ -254,6 +331,7 @@ let SENTS=[];          // semua kalimat berurutan: {i,text,para,heading,words,el
 let PARTS=[];          // [[idx awal,idx akhir)]
 let doneOK=false,doneSeen=false,curPart=0,cur=0,playing=false,tok=0,gotB=false,estTimer=null;
 const sl=()=>(D&&D.lang)||'en';
+if(window.LFStats)LFStats.track(()=>playing,sl);
 const slBase=()=>sl().split('-')[0];
 
 function normalize(j,fallbackTitle){
@@ -277,7 +355,7 @@ function wordSegs(text){
 
 /* ---------- bangun tampilan ---------- */
 function build(){
-  SENTS=[];
+  SENTS=[];vocLoad();
   D.paras.forEach((p,pi)=>{const ss=p.heading?[p.text]:splitSentences(p.text);ss.forEach(t=>SENTS.push({i:SENTS.length,text:t,para:pi,heading:p.heading,words:(t.match(/[\p{L}\p{N}']+/gu)||[]).length,tr:''}))});
   /* bagian: maksimal ±30 kalimat, dipotong di batas paragraf */
   PARTS=[];let a=0;
@@ -302,7 +380,7 @@ function showPart(k,scroll){
     pEl.appendChild(el);pEl.appendChild(document.createTextNode(' '));
   }
   if(scroll!==false)$('text').scrollTop=0;
-  paintIpa();inkDraw();
+  paintIpa();inkDraw();vocStats();
 }
 function setCur(i,scroll=true){
   i=Math.max(0,Math.min(SENTS.length-1,i));
@@ -334,7 +412,7 @@ function fillSentence(s){
     else{const p=mk('span','pl',x.s);p.dataset.o=x.i;p.dataset.e=x.i+x.s.length;el.appendChild(p)}
   });
   const tr=mk('span','tr',s.tr||'');tr.dataset.tr=s.i;el.appendChild(tr);s.trEl=tr;
-  paintHl(s);
+  paintHl(s);vocPaintS(s);
 }
 
 /* ---------- suara: server (Supertonic, Piper, Pocket, Google) atau perangkat (speechSynthesis) ---------- */
@@ -389,7 +467,7 @@ function drawClones(){
     const r=mk('div','r');r.appendChild(mk('span',null,c.name+' ('+c.lang+')'));
     const d=mk('button','pill','Hapus');d.type='button';
     d.onclick=async()=>{if(!confirm('Hapus suara klon "'+c.name+'"?'))return;
-      try{const x=await fetch(LF.url('/api/clone/'+encodeURIComponent(c.id)),{method:'DELETE'});if(!x.ok)throw new Error('HTTP '+x.status);
+      try{const x=await fetch(LF.url('/api/clone/'+encodeURIComponent(c.id)),{method:'DELETE',headers:LF.headers()});if(!x.ok)throw new Error('HTTP '+x.status);
         ENG.clones=ENG.clones.filter(k=>k.id!==c.id);fillVoices()}catch(e){say('Gagal menghapus klon: '+e.message,true)}};
     r.appendChild(d);l.appendChild(r);
   });
@@ -478,6 +556,7 @@ function playText(text,v,lang,my,s){
   });
 }
 function speak(i){
+  if(document.body.classList.contains('voc'))return;   /* mode kosakata otomatis aktif: putar TTS dimatikan */
   const my=++tok;clearEst();if(synth)synth.cancel();AU.pause();
   setCur(i);playing=true;uiPlay();
   const s=SENTS[i],v=voiceFor(sl());
@@ -503,7 +582,7 @@ $('bPP').onclick=()=>{if(curPart>0)go(PARTS[curPart-1][0])};
 $('bNN').onclick=()=>{if(curPart<PARTS.length-1)go(PARTS[curPart+1][0])};
 $('seek').oninput=e=>{const i=+e.target.value;if(playing)speak(i);else setCur(i)};
 $('part').onchange=e=>go(PARTS[+e.target.value][0]);
-document.addEventListener('keydown',e=>{if(!D||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName)||!$('dp').hidden)return;if(e.key===' '){e.preventDefault();$('bPlay').click()}else if(e.key==='ArrowRight')$('bN').click();else if(e.key==='ArrowLeft')$('bP').click()});
+document.addEventListener('keydown',e=>{if(!D||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName)||!$('dp').hidden||!$('rotray').hidden)return;if(e.key===' '){e.preventDefault();$('bPlay').click()}else if(e.key==='ArrowRight')$('bN').click();else if(e.key==='ArrowLeft')$('bP').click()});
 
 /* ---------- terjemahan: /api/translate di server, cadangan langsung ke layanan terjemahan ---------- */
 async function mt(t,from,to){
@@ -740,7 +819,7 @@ $('col').addEventListener('click',e=>{
   if(playing)stop();
   if(tipEl)tipEl.classList.remove('tip');
   tipEl=w;w.classList.add('tip');
-  openDict(word,w,i);
+  openDict(word,w,i);vocBtn();
 });
 dpEl.addEventListener('click',e=>{
   e.stopPropagation();
@@ -749,11 +828,100 @@ dpEl.addEventListener('click',e=>{
   const b=e.target.closest('[data-d]');if(!b)return;const a=b.dataset.d;
   if(a==='x')closeTip();
   else if(a==='star')stToggle();
+  else if(a==='vk'||a==='vl')vocSet(a==='vk'?'k':'l');
   else if(a==='en'||a==='tr')kdTab(a);
   else if(a==='say'&&dSt){stop();const my=++tok;playText(dSt.q,voiceFor(sl()),sl(),my,null)}
 });
 document.addEventListener('click',e=>{if(!e.target.closest('#dp')&&!e.target.closest('.w'))closeTip()});
 addEventListener('resize',placeDp);
+
+
+/* ---------- kosakata otomatis: tiap kata berstatus belum dikenal (pink) / sedang dipelajari (hijau) / dikenal (tanpa warna) ----------
+   Disimpan per bahasa di localStorage 'lf:vocab:<bahasa>' = {k:{kata:1},l:{kata:1}}. */
+let VOC={k:{},l:{}};
+const vocKey=()=>'lf:vocab:'+slBase();
+const CJKW=/[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\u0e00-\u0e7f]/;
+/* hijau juga berarti: kata itu ada di deck Kosakata ('lf:starred', tanpa baris/frasa). Entri lama tanpa 'sl' dianggap cocok untuk semua bahasa. */
+let DECK=new Set();
+function deckLoad(){const s=new Set(),b=slBase();try{const a=JSON.parse(localStorage.getItem('lf:starred')||'[]');if(Array.isArray(a))a.forEach(x=>{if(x&&!x.line&&x.w&&(!x.sl||x.sl===b)){const w=String(x.w).trim().toLowerCase();if(w&&!/\s/.test(w))s.add(w)}})}catch(e){}DECK=s}
+function vocLoad(){const v=lsGet(vocKey(),null);VOC=v&&typeof v==='object'?{k:v.k||{},l:v.l||{}}:{k:{},l:{}};deckLoad()}
+const vocSave=()=>lsSet(vocKey(),VOC);
+const vocOk=k=>!!k&&/^[\p{L}][\p{L}'’-]*$/u.test(k)&&(k.length>1||CJKW.test(k));
+const vocSt=k=>!vocOk(k)?'':DECK.has(k)?'l':VOC.k[k]?'k':VOC.l[k]?'l':'u';
+function vocPaintW(w){const st=vocSt(cleanWord(w.dataset.w));w.classList.toggle('vu',st==='u');w.classList.toggle('vl',st==='l')}
+function vocPaintS(s){(s.wEls||[]).forEach(x=>vocPaintW(x.el))}
+const vocPaintAll=()=>document.querySelectorAll('#col .w').forEach(vocPaintW);
+function vocCount(a,b){const c={k:0,u:0,l:0,t:0},f=new Map();
+  for(let i=a;i<b;i++){const s=SENTS[i];if(!s||s.heading)continue;
+    wordSegs(s.text).forEach(x=>{if(!x.w)return;const k=cleanWord(x.s),st=vocSt(k);if(!st)return;c[st]++;c.t++;if(st!=='k')f.set(k,(f.get(k)||0)+1)})}
+  c.f=f;return c}
+function vocStats(){
+  const h=$('vhead');if(!h||!SENTS.length)return;
+  const c=vocCount(0,SENTS.length),pc=c.t?Math.round(c.u/c.t*100):0;h.textContent='';
+  const pill=(cls,t)=>h.appendChild(mk('span','vb '+cls,t));
+  pill('vk','Dikenal: '+c.k);pill('vu','Belum: '+c.u+' ('+pc+'%)');pill('vl','Belajar: '+c.l);pill('vt2','Total: '+c.t);
+  h.appendChild(mk('span','vt','Kata '+(SRCNAME[slBase()]||sl())+' yang kamu kenal: '+Object.keys(VOC.k).length+'. Ketuk kata untuk arti, lalu tandai.'));
+  h.appendChild(sm('📚 Daftar belajar',vocListDlg));h.appendChild(sm('✓ Anggap bagian ini dikenal',vocKnowPart))}
+function vocBtn(){if(!dSt)return;const st=vocSt(dSt.q);
+  dpEl.querySelectorAll('.dvs button').forEach(b=>{b.hidden=!vocOk(dSt.q);b.setAttribute('aria-pressed',String(st===(b.dataset.d==='vk'?'k':'l')))})}
+const vocKeys=()=>{const ks=[dSt.q];if(dSt.res&&dSt.res.word)ks.push(String(dSt.res.word).toLowerCase());return ks};
+function deckDrop(ks){   /* hapus kata dari semua deck; kembalikan jumlah kartu yang dihapus */
+  const set=new Set(ks.filter(Boolean).map(x=>String(x).toLowerCase())),b=slBase(),a=stGet();
+  const n=a.filter(x=>!(x&&!x.line&&set.has(String(x.w).trim().toLowerCase())&&(!x.sl||x.sl===b)));
+  if(n.length!==a.length)stSet(n);return a.length-n.length}
+function deckAddQuiet(){   /* simpan ke deck terakhir yang dipakai; arti menyusul lewat stRefresh */
+  const a=stGet();if(stFind(a)>=0)return'';
+  let id='__star';try{id=localStorage.getItem('lf:lastdeck')||'__star'}catch(e){}
+  const ds=decksGet();if(id!=='__star'&&!ds.some(d=>d.id===id))id='__star';
+  a.unshift(Object.assign(stSnap(),{at:Date.now(),deck:id,sl:slBase()}));stSet(a);
+  return(ds.find(d=>d.id===id)||{name:'Kata Berbintang'}).name}
+function vocSet(to){
+  if(!dSt||!vocOk(dSt.q))return;const k=dSt.q,cur=vocSt(k),next=cur===to?'u':to,ks=vocKeys();
+  ks.forEach(x=>{delete VOC.k[x];delete VOC.l[x]});
+  let msg='',gone=0,nm='';
+  if(next!=='l')gone=deckDrop(ks);
+  if(next==='k'){VOC.k[k]=1;msg=gone?'✓ “'+k+'” dikenal, dihapus dari deck.':'✓ “'+k+'” ditandai dikenal.'}
+  else if(next==='l'){VOC.l[k]=1;nm=deckAddQuiet();msg=nm?'📚 “'+k+'” → deck “'+nm+'”.':'📚 “'+k+'” sedang dipelajari.'}
+  else msg=gone?'“'+k+'” dihapus dari deck.':'';
+  vocSave();deckLoad();vocPaintAll();vocStats();vocBtn();stPaint();
+  if(msg)say(msg)}
+function vocFromStar(on){   /* bintang di popup berubah -> samakan warna */
+  if(!dSt||!vocOk(dSt.q))return;
+  vocKeys().forEach(x=>{delete VOC.k[x];delete VOC.l[x]});if(on)VOC.l[dSt.q]=1;
+  vocSave();deckLoad();vocPaintAll();vocStats();vocBtn()}
+function vocResync(){deckLoad();vocPaintAll();vocStats();if(dSt)vocBtn()}
+addEventListener('storage',e=>{if(e.key==='lf:starred')vocResync()});
+addEventListener('pageshow',vocResync);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)vocResync()});
+function vocKnowPart(){
+  const[a,b]=PARTS[curPart],c=vocCount(a,b),n=c.f.size,un=[...c.f.keys()].filter(k=>vocSt(k)==='u');
+  if(!un.length){say('Tidak ada kata belum dikenal di bagian ini.');return}
+  if(!confirm(un.length+' kata belum dikenal di bagian ini akan ditandai SUDAH DIKENAL (kata hijau tetap). Lanjut?'))return;
+  un.forEach(k=>{VOC.k[k]=1});vocSave();vocPaintAll();vocStats();say('✓ '+un.length+' kata ditandai dikenal.')}
+function vocListDlg(){
+  const c=vocCount(0,SENTS.length),all=[...c.f.entries()].map(([k,n])=>({k,n,st:vocSt(k)}));
+  const lrn=all.filter(x=>x.st==='l').sort((x,y)=>y.n-x.n),unk=all.filter(x=>x.st==='u').sort((x,y)=>y.n-x.n||y.k.length-x.k.length).slice(0,40);
+  const{pn,close}=modal('Daftar belajar');
+  pn.appendChild(mk('p','hint','Kata hijau (sedang dipelajari) sudah tercentang, ditambah 40 kata belum dikenal yang paling sering muncul. Centang yang ingin disimpan sebagai kartu.'));
+  const rows=[],box=mk('div');
+  lrn.concat(unk).forEach(x=>{const r=mk('label','vrow'),cb=document.createElement('input');cb.type='checkbox';cb.checked=x.st==='l';
+    r.append(cb,mk('b',null,x.k),mk('small',null,x.n+'×'+(x.st==='l'?' · belajar':'')));box.appendChild(r);rows.push({x,cb})});
+  if(!rows.length)box.appendChild(mk('p','hint','Tidak ada kata untuk dipelajari di bacaan ini.'));
+  pn.appendChild(box);
+  const ds=decksGet();if(!ds.some(d=>d.id==='__star'))ds.unshift({id:'__star',name:'Kata Berbintang'});
+  const row=mk('div','mrow');
+  ds.forEach(d=>row.appendChild(sm('Simpan ke '+d.name,async()=>{
+    const pick=rows.filter(r=>r.cb.checked).map(r=>r.x.k);if(!pick.length){say('Centang minimal satu kata.',true);return}
+    close();say('Menyimpan '+pick.length+' kata…');let n=0;
+    for(const k of pick){delete VOC.k[k];VOC.l[k]=1;
+      const sent=SENTS.find(z=>!z.heading&&new RegExp('(^|[^\\p{L}])'+k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'($|[^\\p{L}])','iu').test(z.text))||SENTS[0];
+      let tr='';try{tr=await mtd(k,dLang()[0],sl())||''}catch(e){}
+      const a=stGet();if(!a.some(y=>String(y.w).toLowerCase()===k&&(y.deck||'__star')===d.id)){a.unshift({w:k,ipa:'',id:tr,en:sent?sent.text:'',lg:dLang()[0],sl:slBase(),at:Date.now(),deck:d.id});stSet(a);n++}}
+    try{localStorage.setItem('lf:lastdeck',d.id)}catch(e){}
+    vocSave();deckLoad();vocPaintAll();vocStats();say('★ '+n+' kata disimpan ke “'+d.name+'”.')})));
+  pn.appendChild(row);pn.appendChild(sm('Tutup',close))}
+function vocTts(){const on=document.body.classList.contains('voc'),b=$('bPlay');if(on&&playing)stop();b.disabled=on;b.title=on?'Putar dimatikan selama Kosakata otomatis aktif':''}
+$('cVoc').onchange=e=>{pref.vx=e.target.checked;savePref();document.body.classList.toggle('voc',pref.vx);vocTts();if(pref.vx){vocStats();vocBtn();say('Kosakata otomatis aktif. Putar TTS dimatikan.')}else say('')};
 
 /* ---------- bintang: simpan kata untuk direview di Kosakata (localStorage 'lf:starred' & 'lf:decks', sama dengan player-video) ---------- */
 const STAR='lf:starred';
@@ -777,7 +945,7 @@ function closeStMenu(){const m=dpEl.querySelector('.dmenu');if(m)m.remove()}
 function stToggle(){
   if(!dSt||!stKey())return;
   const a=stGet(),i=stFind(a);
-  if(i>=0){a.splice(i,1);stSet(a);stPaint();closeStMenu();say('Bintang dihapus.');return}
+  if(i>=0){a.splice(i,1);stSet(a);stPaint();closeStMenu();vocFromStar(false);say('Bintang dihapus.');return}
   if(dpEl.querySelector('.dmenu')){closeStMenu();return}
   const ds=decksGet();
   if(!ds.some(d=>d.id==='__star'))ds.unshift({id:'__star',name:'Kata Berbintang'});
@@ -792,8 +960,8 @@ function stPick(id){
   if(!dSt||!stKey()){closeStMenu();return}
   const nm=(decksGet().find(d=>d.id===id)||{name:'Kata Berbintang'}).name;
   const a=stGet();a.unshift(Object.assign(stSnap(),{at:Date.now(),deck:id}));
-  stSet(a);try{localStorage.setItem('lf:lastdeck',id)}catch(e){}
-  closeStMenu();stPaint();say('★ '+stKey()+' → '+nm);
+  a[0].sl=slBase();stSet(a);try{localStorage.setItem('lf:lastdeck',id)}catch(e){}
+  closeStMenu();stPaint();vocFromStar(true);say('★ '+stKey()+' → '+nm);
 }
 function stRefresh(){   /* arti/IPA yang datang belakangan ikut memperbarui kata yang sudah berbintang */
   if(!dSt)return;stPaint();
@@ -952,8 +1120,8 @@ function openDeckPick(w,sIdx,note){
 function saveDeck(d,w,s,back){
   const a=stGet(),k=w.trim().toLowerCase();
   if(a.some(x=>String(x.w).trim().toLowerCase()===k&&(x.deck||'__star')===d.id)){say('Sudah ada di deck “'+d.name+'”.',true);return true}
-  a.unshift({w:w.trim(),ipa:'',id:back,en:s.text,lg:pref.tl||'id',at:Date.now(),deck:d.id});
-  stSet(a);try{localStorage.setItem('lf:lastdeck',d.id)}catch(e){}
+  a.unshift({w:w.trim(),ipa:'',id:back,en:s.text,lg:pref.tl||'id',sl:slBase(),at:Date.now(),deck:d.id});
+  stSet(a);try{localStorage.setItem('lf:lastdeck',d.id)}catch(e){}deckLoad();vocPaintAll();vocStats();
   say('🗂 '+(w.length>40?w.slice(0,40)+'…':w)+' → '+d.name);return true;
 }
 
@@ -1201,9 +1369,9 @@ function start(j,fallback,fromPreview){
   $('empty').hidden=true;$('bar').hidden=false;$('text').hidden=false;$('ctl').hidden=false;
   const fromPath=new URLSearchParams(location.search).get('from')==='path';
   $('back').href=fromPreview?'reading-generator.html':fromPath?'path.html':'index.html';
-  doneOK=fromPath&&!fromPreview;doneSeen=false;$('doneRow').hidden=true;
+  doneOK=fromPath&&!fromPreview&&new URLSearchParams(location.search).get('step')!=='practice';doneSeen=false;$('doneRow').hidden=true;
   $('rate').value=String(pref.rate);$('fs').value=String(pref.fs);document.documentElement.style.setProperty('--fs',pref.fs+'rem');
-  $('cIpa').checked=pref.ipa;$('cRm').checked=pref.rm;$('cSayTr').checked=pref.sayTr;applyAnnoUi();
+  $('cVoc').checked=pref.vx===true;document.body.classList.toggle('voc',pref.vx===true);vocTts();$('cIpa').checked=pref.ipa;$('cRm').checked=pref.rm;$('cSayTr').checked=pref.sayTr;applyAnnoUi();
   fillVoices();build();initServerVoices().then(()=>{applyAnnoUi();if(D)ensureAnno(cur,6)});
   setTimeout(()=>{fillVoices()},800);
   if(!fromPreview)setupBook();else{NEXT=null;$('chbar').hidden=true}
@@ -1228,13 +1396,126 @@ LF.mountPanel($('srv'));
       const slug=q.get('q').replace(/[^\w.-]/g,'');
       const r=await fetch('data/'+slug+'.json');if(!r.ok)throw new Error('Data "'+slug+'" tidak bisa dimuat.');
       start(await r.json(),slug,false);
+      if(RO_STEP)setTimeout(roOpen,400);   // dari path: latihan susun paragraf langsung terbuka
     }
   }catch(err){$('emsg').textContent=err.message||String(err)}
 })();
 $('bDone').onclick=()=>{
+  try{if(window.LFStats)LFStats.read(D.slug,D.lang)}catch(e){}
   try{const p=JSON.parse(localStorage.getItem('lf:path'))||{};if(!p.done||typeof p.done!=='object')p.done={};p.done[D.slug]={at:Date.now()};localStorage.setItem('lf:path',JSON.stringify(p));localStorage.setItem('lf:path:pending','null')}catch(e){}
   location.href='path.html';
 };
+
+/* ---------- latihan: susun ulang paragraf ---------- */
+const RO={items:[],order:[],start:-1,checked:false,usable:[]};
+const roUsable=()=>D?D.paras.map((p,i)=>({p,i})).filter(x=>!x.p.heading&&x.p.text.split(/\s+/).length>=8):[];
+function roPick(first){
+  const u=RO.usable=roUsable(),n=Math.min(pref.reN||4,u.length),maxStart=u.length-n;
+  let s;
+  if(first){const pi=SENTS[cur]?SENTS[cur].para:0;s=u.findIndex(x=>x.i>=pi);if(s<0)s=maxStart}   // soal pertama mulai dari paragraf yang sedang dibaca
+  else{const o=[];for(let k=0;k<=maxStart;k++)if(k!==RO.start)o.push(k);s=o.length?o[Math.floor(Math.random()*o.length)]:0}
+  s=Math.max(0,Math.min(s,maxStart));RO.start=s;
+  const win=u.slice(s,s+n).map((x,k)=>({id:k,text:x.p.text}));
+  let sh=win.slice();
+  for(let t=0;t<20;t++){sh=win.slice();for(let i=sh.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[sh[i],sh[j]]=[sh[j],sh[i]]}if(sh.some((x,k)=>x.id!==k))break}
+  RO.items=win;RO.order=sh;RO.checked=false;
+  $('roN').value=String(n);
+  $('roSub').textContent='Paragraf '+(u[s].i+1)+'–'+(u[s+n-1].i+1)+' dari '+D.paras.length+' · '+(D.title||'');
+  $('roFb').hidden=true;roDraw();
+}
+const GRIP='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="1.8"/><circle cx="15" cy="6" r="1.8"/><circle cx="9" cy="12" r="1.8"/><circle cx="15" cy="12" r="1.8"/><circle cx="9" cy="18" r="1.8"/><circle cx="15" cy="18" r="1.8"/></svg>';
+function roDraw(){
+  const ol=$('roList');ol.textContent='';
+  RO.order.forEach((it,pos)=>{
+    const li=mk('li','roi'),body=mk('div','rob');li.dataset.id=it.id;
+    body.appendChild(mk('p','rt',it.text));
+    if(RO.checked){const ok=it.id===pos;li.classList.add(ok?'ok':'bad');if(!ok)body.appendChild(mk('small','ron2','Seharusnya urutan ke-'+(it.id+1)))}
+    const g=mk('button','grip');g.type='button';g.innerHTML=GRIP;g.disabled=RO.checked;
+    g.setAttribute('aria-label','Pindahkan paragraf urutan '+(pos+1)+'. Seret, atau tekan panah atas dan bawah');
+    g.addEventListener('pointerdown',e=>roDrag(e,li,g));
+    g.addEventListener('keydown',e=>{if(e.key==='ArrowUp'){e.preventDefault();roMove(pos,-1)}else if(e.key==='ArrowDown'){e.preventDefault();roMove(pos,1)}});
+    li.append(mk('span','ron',String(pos+1)),body,g);ol.appendChild(li)});
+  const perfect=RO.order.every((it,k)=>it.id===k);
+  $('roCheck').textContent=RO.checked?'Perbaiki':'Cek urutan';
+  $('roShow').hidden=!(RO.checked&&!perfect);
+}
+/* rencana posisi saat menyeret: top/h = posisi dan tinggi awal tiap kartu, i0 = kartu yang diseret, dy = jarak seret.
+   Hasil: order = urutan baru (indeks kartu awal), shift = geser tiap kartu dari posisi awalnya. */
+function roPlan(top,h,gap,i0,dy){
+  const n=top.length,c=top[i0]+dy+h[i0]/2;let t=0;
+  for(let j=0;j<n;j++){if(j!==i0&&c>top[j]+h[j]/2)t++}
+  const order=[];for(let j=0;j<n;j++)if(j!==i0)order.push(j);order.splice(t,0,i0);
+  const shift=new Array(n).fill(0);let cur=top[0];
+  order.forEach(j=>{shift[j]=cur-top[j];cur+=h[j]+gap});
+  return{order,shift};
+}
+function roDrag(e,li,grip){
+  if(RO.checked||(e.pointerType==='mouse'&&e.button!==0))return;
+  e.preventDefault();
+  const ol=$('roList'),sc=ol.parentElement,items=[...ol.children],i0=items.indexOf(li);
+  const top=items.map(x=>x.offsetTop),h=items.map(x=>x.offsetHeight),gap=parseFloat(getComputedStyle(ol).rowGap)||10;
+  const y0=e.clientY,s0=sc.scrollTop,id=e.pointerId;
+  let y=y0,raf=0,plan=roPlan(top,h,gap,i0,0);
+  try{grip.setPointerCapture(id)}catch(_){}
+  li.classList.add('drag');ol.classList.add('dragging');
+  const paint=()=>{
+    const dy=(y-y0)+(sc.scrollTop-s0);
+    plan=roPlan(top,h,gap,i0,dy);
+    items.forEach((x,j)=>{x.style.transform=j===i0?'translateY('+dy+'px)':(plan.shift[j]?'translateY('+plan.shift[j]+'px)':'')});
+    plan.order.forEach((j,k)=>{items[j].querySelector('.ron').textContent=String(k+1)});
+  };
+  const loop=()=>{                                    // gulir otomatis saat kartu didekatkan ke tepi atas atau bawah
+    const b=sc.getBoundingClientRect(),z=70;let d=0;
+    if(y<b.top+z)d=-Math.ceil((b.top+z-y)/5);else if(y>b.bottom-z)d=Math.ceil((y-(b.bottom-z))/5);
+    if(d){const before=sc.scrollTop;sc.scrollTop+=d;if(sc.scrollTop!==before)paint()}
+    raf=requestAnimationFrame(loop)};
+  const mv=ev=>{if(ev.pointerId!==id)return;y=ev.clientY;paint()};
+  const end=ev=>{
+    if(ev.pointerId!==id)return;
+    cancelAnimationFrame(raf);
+    grip.removeEventListener('pointermove',mv);grip.removeEventListener('pointerup',end);grip.removeEventListener('pointercancel',end);
+    try{grip.releasePointerCapture(id)}catch(_){}
+    if(ev.type==='pointerup')RO.order=plan.order.map(j=>RO.items[+items[j].dataset.id]);
+    roDraw();
+  };
+  grip.addEventListener('pointermove',mv);grip.addEventListener('pointerup',end);grip.addEventListener('pointercancel',end);
+  raf=requestAnimationFrame(loop);paint();
+}
+function roMove(pos,d){                              // cadangan lewat keyboard (panah atas/bawah pada pegangan)
+  const j=pos+d;if(RO.checked||j<0||j>=RO.order.length)return;
+  [RO.order[pos],RO.order[j]]=[RO.order[j],RO.order[pos]];
+  roDraw();
+  const g=$('roList').children[j].querySelector('.grip');if(g)g.focus();
+}
+const RO_STEP=(()=>{try{return new URLSearchParams(location.search).get('step')==='practice'&&new URLSearchParams(location.search).get('from')==='path'}catch(e){return false}})();
+function roRecord(){
+  try{const sl=D&&D.slug;if(!sl)return;const p=JSON.parse(localStorage.getItem('lf:path'))||{};if(!p.steps||typeof p.steps!=='object')p.steps={};
+    const s=p.steps[sl]=p.steps[sl]||{};if(!s.practice){s.practice=Date.now();localStorage.setItem('lf:path',JSON.stringify(p));localStorage.setItem('lf:path:pending','null')}}catch(e){}
+}
+function roFinBtn(f,txt){   // tombol di ringkasan latihan (hanya bila dibuka dari path)
+  if(!RO_STEP)return;
+  const b=mk('button','pill main',txt||'Selesai latihan ✓');b.type='button';b.style.cssText='display:block;margin:12px auto 0';
+  b.onclick=()=>{roRecord();location.href='path.html'};f.appendChild(b);
+}
+function roCheck(){
+  if(RO.checked){RO.checked=false;$('roFb').hidden=true;roDraw();return}     // "Perbaiki": lanjut menyusun
+  RO.checked=true;roDraw();
+  const n=RO.order.length,ok=RO.order.filter((it,k)=>it.id===k).length,f=$('roFb');
+  f.hidden=false;
+  if(ok===n){f.className='rofb ok';f.textContent='✓ Urutan sudah benar. Mantap!';roRecord();roFinBtn(f,'Latihan tercatat ✓ Kembali ke path')}
+  else{f.className='rofb bad';f.textContent=ok+' dari '+n+' paragraf sudah di posisi yang tepat. Yang merah belum pas: coba cari kata penghubung atau petunjuk waktu di awal paragraf.';roFinBtn(f)}
+}
+function roShow(){RO.order=RO.items.slice();RO.checked=true;roDraw();const f=$('roFb');f.hidden=false;f.className='rofb';f.textContent='Ini urutan yang benar menurut bacaan.';roFinBtn(f)}
+function roOpen(){
+  if(!D)return;
+  if(roUsable().length<3){say('Bacaan ini terlalu pendek untuk latihan susun paragraf (minimal 3 paragraf).',true);return}
+  stop();roPick(true);$('rotray').hidden=false;$('roX').focus();
+}
+function roClose(){$('rotray').hidden=true;$('bRo').focus()}
+$('bRo').onclick=roOpen;$('roX').onclick=roClose;
+$('roCheck').onclick=roCheck;$('roShow').onclick=roShow;$('roNew').onclick=()=>roPick(false);
+$('roN').onchange=e=>{pref.reN=+e.target.value;savePref();roPick(false)};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('rotray').hidden)roClose()});
 window.addEventListener('pagehide',()=>{if(synth)synth.cancel()});
 </script>
 </body>

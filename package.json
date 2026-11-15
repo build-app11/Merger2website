@@ -1,13 +1,19 @@
 {
   "name": "learning-fun",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "main": "server.js",
   "scripts": {
     "start": "node --expose-gc server.js",
+    "build:lang": "node scripts/split-lang.js",
+    "check:data": "node scripts/check-data.js",
+    "check:syntax": "node scripts/check-syntax.js",
+    "netsafe:test": "node test-netsafe.js",
     "phon:test": "node test-phon.js",
     "podcast:test": "node test-podcast.js",
     "news:test": "node test-news.js",
-    "article:test": "node test-article.js"
+    "article:test": "node test-article.js",
+    "test": "node scripts/check-syntax.js && node test-netsafe.js && node scripts/check-data.js",
+    "test:all": "npm test && node test-podcast.js && node test-news.js && node test-article.js"
   },
   "dependencies": {
     "adm-zip": "^0.5.14",
@@ -24,7 +30,8 @@
     "any-ascii": "^0.3.0",
     "phonemizer": "^1.2.1",
     "@huggingface/transformers": "^3.0.0",
-    "ffmpeg-static": "^5.2.0"
+    "ffmpeg-static": "^5.2.0",
+    "compression": "^1.7.4"
   },
   "engines": {
     "node": ">=18"

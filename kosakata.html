@@ -122,7 +122,7 @@ h1{font-size:clamp(1.7rem,6vw,2.7rem);line-height:1.1;letter-spacing:-.01em}
 .res ul{line-height:1.8;overflow-wrap:anywhere}
 
 /* Tombol OK menempel di atas bilah navigasi supaya tidak perlu menggulir */
-.foot{position:sticky;bottom:calc(var(--lfh,84px) + 8px);z-index:5;padding-top:12px;background:var(--bar);box-shadow:0 -10px 10px -6px var(--bar)}
+.foot{position:sticky;bottom:calc(var(--lfb,var(--lfh,84px)) + 8px);z-index:5;padding-top:12px;background:var(--bar);box-shadow:0 -10px 10px -6px var(--bar)}
 
 /* Layar sempit */
 @media(max-width:380px){
@@ -435,6 +435,19 @@ body.srs .stm{color:var(--muted)}
 #wbc{position:absolute;left:0;top:0;z-index:3;touch-action:none;cursor:crosshair}
 
 </style>
+<meta name="description" content="Latihan kosakata dengan kartu ulasan berjarak (SM-2 dan FSRS). Cocokkan kata, simpan kata dari pelajaran, impor dan ekspor deck Anki.">
+<link rel="canonical" href="https://learningfun.zone.id/kosakata.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Latihan Kosakata · Learning Fun">
+<meta property="og:description" content="Latihan kosakata dengan kartu ulasan berjarak (SM-2 dan FSRS). Cocokkan kata, simpan kata dari pelajaran, impor dan ekspor deck Anki.">
+<meta property="og:url" content="https://learningfun.zone.id/kosakata.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <header class="lf-hd"><a class="lf-back" href="./" aria-label="Kembali ke daftar latihan">←</a><a class="lf-brand" href="./"><span class="lf-logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="#fff" stroke="#14162B" stroke-width="2" stroke-linejoin="round"/></svg></span>Learning Fun</a></header>
@@ -1068,7 +1081,8 @@ async function srsNext(){
     const i=my.cards.indexOf(cd);if(i>=0)my.cards.splice(i,1);my.newq=my.newq.filter(x=>x!==cd);my.revq=my.revq.filter(x=>x!==cd);srsNext()}}
 
 function srsDone(){
-  const z=Z;clrT(z);stopAud();z.phase='sdone';zOk(RET?'Kembali ke pelajaran':'Tutup',true);['#tbu','#tbf','#tbm'].forEach(q=>{$(q).disabled=true});$('#tbf').style.color='';$('#tbf').innerHTML=ico(IC.flagO);
+  const z=Z;if(AUTO==='deck'&&!(z.empty&&!z.done))lfFin('deck');
+  clrT(z);stopAud();z.phase='sdone';zOk(gateOk()?'Selesai':RET?'Kembali ke pelajaran':'Tutup',true);['#tbu','#tbf','#tbm'].forEach(q=>{$(q).disabled=true});$('#tbf').style.color='';$('#tbf').innerHTML=ico(IC.flagO);
   const b=zBody(),r=mk('div','res');b.appendChild(r);
   const hd=mk('div');hd.style.cssText='display:flex;justify-content:flex-end';
   const ob=mk('button','tbi');ob.type='button';ob.innerHTML=ico(IC.tune);ob.title='Opsi deck (preset SRS)';ob.setAttribute('aria-label','Opsi deck (preset SRS)');
@@ -1121,7 +1135,7 @@ function setCfg(o){Object.keys(CFGD).forEach(k=>{if(o[k]!=null)CFG[k]=o[k]});
   try{localStorage.setItem('kosakata.cfg',JSON.stringify(CFG))}catch(e){}applyCfg();
   $('#c-new').querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',String(+c.dataset.v===opt.newDay)));$('#i-new').value=opt.newDay;syncGo()}
 applyCfg();
-const logRev=e=>tx('revlog','readwrite',s=>s.put(e)).catch(()=>{});
+const logRev=e=>{try{if(window.LFL&&LFL.code)e.lg=LFL.code}catch(_){}return tx('revlog','readwrite',s=>s.put(e)).catch(()=>{})};
 const dnum=t=>Math.floor((t-SRS.dayStart*3600000-new Date(t).getTimezoneOffset()*60000)/DAY);
 function modal(title){const ov=mk('div','mdl'),pn=mk('div','mdp');ov.setAttribute('role','dialog');ov.setAttribute('aria-modal','true');ov.setAttribute('aria-label',title);ov.appendChild(pn);pn.appendChild(mk('h2',null,title));
   const close=()=>{document.removeEventListener('keydown',esc);ov.remove()},esc=e=>{if(e.key==='Escape')close()};
@@ -1563,8 +1577,21 @@ function showTrans(){
       zOk(my.i+1>=tot?'Lihat hasil':'Lanjut',true)});
     box.appendChild(x)})}
 
+/* ---------- langkah dari path.html: kosakata.html?from=path.html&auto=deck|quiz&q=<slug> ---------- */
+const AUTO=(()=>{try{const a=new URLSearchParams(location.search).get('auto');return a==='deck'||a==='quiz'?a:''}catch(e){return''}})();
+const ASLUGS=(()=>{try{return(new URLSearchParams(location.search).get('q')||'').replace(/[^\w.,-]/g,'').split(',').filter(Boolean)}catch(e){return[]}})();
+const ASLUG=ASLUGS[0]||'';
+/* node Review/Kuis dari path: kosakata.html?from=path&auto=deck|quiz&q=<slug[,slug...]> (sama seperti ?from=path di player).
+   Kunci progres = auto + slug pertama. Selesai hanya dicatat lewat tombol "Selesai" di halaman terakhir, dan hanya bila Mulai sudah ditekan di path. */
+const FROMPATH=(()=>{try{const f=new URLSearchParams(location.search).get('from');return f==='path'||f==='path.html'}catch(e){return false}})();
+const GATE=FROMPATH&&AUTO&&ASLUG?AUTO+':'+ASLUG:'';
+const lfP=()=>{try{return JSON.parse(localStorage.getItem('lf:path'))||{}}catch(e){return{}}};
+function lfFin(step){if(!GATE){lfStep(step);return}try{const p=lfP(),g=p.gates&&p.gates[GATE];if(!g||!g.started)return;g.fin=Date.now();localStorage.setItem('lf:path',JSON.stringify(p))}catch(e){}}
+const gateOk=()=>{if(!GATE)return false;const g=(lfP().gates||{})[GATE];return!!(g&&g.started&&g.fin)};
+function gateDone(){if(!gateOk())return;try{const p=lfP();p.gates[GATE].done=Date.now();localStorage.setItem('lf:path',JSON.stringify(p))}catch(e){}}
+function lfStep(step){if(!ASLUG)return;try{const p=JSON.parse(localStorage.getItem('lf:path'))||{};if(!p.steps||typeof p.steps!=='object')p.steps={};(p.steps[ASLUG]=p.steps[ASLUG]||{})[step]=Date.now();localStorage.setItem('lf:path',JSON.stringify(p));localStorage.setItem('lf:path:pending','null')}catch(e){}}
 /* ---------- kembali ke pelajaran asal: dibuka dari pemutar lewat kosakata.html?from=<halaman pelajaran> ---------- */
-const RET=(()=>{try{const f=new URLSearchParams(location.search).get('from');if(!f)return'';const u=new URL(f,location.href);
+const RET=(()=>{try{let f=new URLSearchParams(location.search).get('from');if(f==='path')f='path.html';if(!f)return'';const u=new URL(f,location.href);
   if(u.origin!==location.origin||!/\.html$/i.test(u.pathname))return''; // hanya halaman di situs yang sama
   u.searchParams.set('rv','1'); // tanda "kosakata sudah direview" untuk pemutar
   return u.href}catch(e){return''}})();
@@ -1573,6 +1600,7 @@ if(RET){
   const ret=mk('a','chip','← Kembali ke pelajaran');ret.href=RET;ret.style.cssText='display:inline-block;margin:0 0 12px;text-decoration:none';
   const su=document.getElementById('setup');if(su)su.insertBefore(ret,su.firstChild)}
 function result(){
+  if(AUTO==='quiz')lfFin('quiz');
   Z.phase='result';zProg(1,'');
   const log=Z.log,good=log.filter(x=>x.ok),bad=log.filter(x=>!x.ok),r=mk('div','res');
   zBody().appendChild(r);
@@ -1585,14 +1613,14 @@ function result(){
     const ul=mk('ul');good.forEach(x=>ul.appendChild(mk('li',null,x.ask+' = '+x.right)));r.appendChild(ul)}
   else r.appendChild(mk('p','lead','Belum ada yang benar kali ini. Coba lagi.'));
   if(!bad.length)r.appendChild(mk('p','lead','Semua benar. Mantap!'));
-  if(RET){const a=mk('a','go','← Kembali ke pelajaran');a.href=RET;a.style.cssText='display:flex;align-items:center;justify-content:center;margin-top:16px;text-decoration:none';r.appendChild(a)}
+  if(RET){const a=mk('a','go',gateOk()?'Selesai':'← Kembali ke pelajaran');a.href=RET;if(gateOk())a.addEventListener('click',gateDone);a.style.cssText='display:flex;align-items:center;justify-content:center;margin-top:16px;text-decoration:none';r.appendChild(a)}
   zOk('Soal baru',true)}
 
 $('#ok').addEventListener('click',()=>{
   if(!Z)return;
   if(Z.phase==='check'){Z.check();return}
   if(Z.phase==='sask'){Z.reveal();return}
-  if(Z.phase==='sdone'){if(RET)location.href=RET;else exit();return}
+  if(Z.phase==='sdone'){gateDone();if(RET)location.href=RET;else exit();return}
   if(Z.phase==='result'||Z.phase==='retry'){again();return}
   if(Z.phase==='next'){if(Z.mode==='match'){result();return}Z.i++;Z.i>=Z.total?result():showItem()}});
 function exit(){tok++;Z=null;$('#quiz').hidden=true;$('#setup').hidden=false;document.body.classList.remove('quizing');srsChrome(false);window.scrollTo(0,0);syncGo()}
@@ -2296,8 +2324,22 @@ function wbAttach(my,host){
 function refreshStar(quiet){syncStar();if(!quiet){renderAnki();syncGo()}}
 window.addEventListener('storage',e=>{if(e.key===STARKEY)refreshStar()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&!Z)refreshStar()});
-loadPacks().then(()=>{syncStar();renderAnki()});
-loadIndex();
+const LP=loadPacks().then(()=>{syncStar();renderAnki()});
+const LI=loadIndex();
+if(AUTO)Promise.all([LP,LI]).then(()=>{
+  if(AUTO==='quiz'){
+    const cbs=ASLUGS.map(s=>LESSONS.findIndex(l=>l.slug===s)).filter(i=>i>=0).map(i=>document.querySelector('#ls input[value="'+i+'"]')).filter(Boolean);
+    if(!cbs.length){msg('Pelajaran ini belum ada di daftar kosakata. Pilih pelajaran secara manual.',true);return}
+    cbs.forEach(cb=>cb.checked=true);document.querySelector('#c-mode [data-v="match"]').click();syncGo();$('#go').click();
+  }else{
+    document.querySelector('#c-mode [data-v="srs"]').click();
+    let last='__star';try{const v=localStorage.getItem('lf:lastdeck');if(v){try{last=JSON.parse(v)||last}catch(e){last=v}}}catch(e){}
+    const all=[...document.querySelectorAll('#als input[data-p]')];
+    if(!all.length){msg('Belum ada kartu di deck. Bintangi kata di pemutar atau impor deck, lalu kembali ke path dan pilih Lewati.',true);return}
+    const mine=all.filter(c=>c.dataset.p===String(last));(mine.length?mine:all).forEach(c=>c.checked=true);
+    syncGo();if(sel().length)$('#go').click();
+  }
+});
 </script>
 <script>
 /* Bilah tab bawah Learning Fun (jangan dipasang di player video/audio).
@@ -2331,6 +2373,14 @@ loadIndex();
   #lfnav a{flex-direction:row;justify-content:center;gap:6px;padding:4px}
   #lfnav svg{width:20px;height:20px}
 }`;
+    css.textContent += `
+@media(min-width:900px){
+  #lfnav{top:0;bottom:auto;left:0;right:0;transform:none;width:100%;max-width:none;justify-content:center;gap:6px;padding:8px 24px;border:0;border-bottom:2.5px solid var(--lfline,var(--line,#14162B));border-radius:0}
+  #lfnav a{flex:0 0 auto;flex-direction:row;gap:8px;padding:8px 18px;border-radius:999px;font-size:.95rem}
+  #lfnav a:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+  #lfnav a[aria-current=page]{background:var(--yellow,#FFD23F);color:var(--on,#14162B)}
+  #lfnav svg{width:20px;height:20px}
+}`;
   document.head.appendChild(css);
   const nav = document.createElement('nav');
   nav.id = 'lfnav'; nav.setAttribute('aria-label', 'Menu utama');
@@ -2338,12 +2388,16 @@ loadIndex();
     `<a href="${t.href}"${t.match.some(m => m === file || (m && file.includes(m))) ? ' aria-current="page"' : ''}><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span>${t.label}</span></a>`).join('');
   const mount = () => {
     document.body.appendChild(nav);
+    const desk = matchMedia('(min-width:900px)');   // desktop: bilah pindah ke atas
     const fit = () => {
-      const h = nav.offsetHeight;
-      document.documentElement.style.setProperty('--lfh', h + 'px');
-      document.body.style.paddingBottom = (h + 16) + 'px';   // supaya isi tidak tertutup bilah
+      const h = nav.offsetHeight, top = desk.matches, d = document.documentElement;
+      d.style.setProperty('--lfh', h + 'px');
+      d.style.setProperty('--lfb', top ? '0px' : h + 'px');            // jarak dari bawah layar untuk elemen yang menempel di bawah
+      d.style.paddingTop = top ? h + 'px' : '';
+      document.body.style.paddingBottom = top ? '' : (h + 16) + 'px';  // supaya isi tidak tertutup bilah
     };
     fit(); addEventListener('resize', fit); addEventListener('orientationchange', () => setTimeout(fit, 250));
+    if (desk.addEventListener) desk.addEventListener('change', fit);
   };
   document.body ? mount() : addEventListener('DOMContentLoaded', mount);
 })();

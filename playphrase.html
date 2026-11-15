@@ -163,6 +163,19 @@ body::after{left:-44px;bottom:110px;width:110px;height:110px;border-radius:30px;
 .list{border-radius:26px;box-shadow:6px 6px 0 var(--shadow)}
 .player{box-shadow:6px 6px 0 var(--shadow)}
 </style>
+<meta name="description" content="PhraseClip: ketik kata atau frasa, lalu tonton potongan video yang memuatnya untuk melatih pendengaran dan ucapan.">
+<link rel="canonical" href="https://learningfun.zone.id/playphrase.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="PhraseClip · Learning Fun">
+<meta property="og:description" content="PhraseClip: ketik kata atau frasa, lalu tonton potongan video yang memuatnya untuk melatih pendengaran dan ucapan.">
+<meta property="og:url" content="https://learningfun.zone.id/playphrase.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <div id="app">
@@ -447,6 +460,14 @@ loadAll();
   #lfnav a{flex-direction:row;justify-content:center;gap:6px;padding:4px}
   #lfnav svg{width:20px;height:20px}
 }`;
+    css.textContent += `
+@media(min-width:900px){
+  #lfnav{top:0;bottom:auto;left:0;right:0;transform:none;width:100%;max-width:none;justify-content:center;gap:6px;padding:8px 24px;border:0;border-bottom:2.5px solid var(--lfline,var(--line,#14162B));border-radius:0}
+  #lfnav a{flex:0 0 auto;flex-direction:row;gap:8px;padding:8px 18px;border-radius:999px;font-size:.95rem}
+  #lfnav a:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+  #lfnav a[aria-current=page]{background:var(--yellow,#FFD23F);color:var(--on,#14162B)}
+  #lfnav svg{width:20px;height:20px}
+}`;
   document.head.appendChild(css);
   const nav = document.createElement('nav');
   nav.id = 'lfnav'; nav.setAttribute('aria-label', 'Menu utama');
@@ -454,8 +475,15 @@ loadAll();
     `<a href="${t.href}"${t.match.some(m => m === file || (m && file.includes(m))) ? ' aria-current="page"' : ''}><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span>${t.label}</span></a>`).join('');
   const mount = () => {
     document.body.appendChild(nav);
-    const fit = () => document.documentElement.style.setProperty('--lfh', nav.offsetHeight + 'px');
+    const desk = matchMedia('(min-width:900px)');   // desktop: bilah pindah ke atas
+    const fit = () => {
+      const h = nav.offsetHeight, top = desk.matches, d = document.documentElement;
+      d.style.setProperty('--lfh', h + 'px');
+      d.style.setProperty('--lfb', top ? '0px' : h + 'px');            // jarak dari bawah layar untuk elemen yang menempel di bawah
+      d.style.paddingTop = top ? h + 'px' : '';
+    };
     fit(); addEventListener('resize', fit); addEventListener('orientationchange', () => setTimeout(fit, 250));
+    if (desk.addEventListener) desk.addEventListener('change', fit);
   };
   document.body ? mount() : addEventListener('DOMContentLoaded', mount);
 })();

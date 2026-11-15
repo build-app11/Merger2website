@@ -21,6 +21,9 @@
       .then(function (j) { clearTimeout(t); return j; });
   }
   L.url = function (p) { return L.base + p; };
+  /* Token admin opsional (server dijalankan dengan ADMIN_TOKEN): simpan lewat konsol  localStorage.setItem('lf:token','...') */
+  function tok() { try { return localStorage.getItem('lf:token') || ''; } catch (e) { return ''; } }
+  L.headers = function (h) { h = h || {}; var t = tok(); if (t) h['X-Admin-Token'] = t; return h; };
   L.probe = function () {
     var saved = clean(lsGet()), cands = saved ? [saved, ''] : [''];
     if (location.protocol === 'file:') cands = saved ? [saved] : [];
@@ -37,22 +40,22 @@
     return r.json().catch(function () { return {}; }).then(function (j) { throw new Error(j.error || ('Server membalas HTTP ' + r.status)); });
   }
   L.get = function (path, signal) {
-    return fetch(L.url(path), { signal: signal }).then(function (r) { return r.ok ? r.json() : fail(r); });
+    return fetch(L.url(path), { headers: L.headers(), signal: signal }).then(function (r) { return r.ok ? r.json() : fail(r); });
   };
   L.post = function (path, body, signal) {
-    return fetch(L.url(path), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: signal })
+    return fetch(L.url(path), { method: 'POST', headers: L.headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(body), signal: signal })
       .then(function (r) { return r.ok ? r.json() : fail(r); });
   };
   L.postBlob = function (path, body, signal) {
-    return fetch(L.url(path), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: signal })
+    return fetch(L.url(path), { method: 'POST', headers: L.headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(body), signal: signal })
       .then(function (r) { return r.ok ? r.blob() : fail(r); });
   };
   L.upload = function (path, form, signal) {
-    return fetch(L.url(path), { method: 'POST', body: form, signal: signal }).then(function (r) { return r.ok ? r.json() : fail(r); });
+    return fetch(L.url(path), { method: 'POST', headers: L.headers(), body: form, signal: signal }).then(function (r) { return r.ok ? r.json() : fail(r); });
   };
   /* Aliran NDJSON (transkripsi): memanggil onMsg untuk tiap baris JSON */
   L.stream = function (path, body, onMsg, signal) {
-    return fetch(L.url(path), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: signal }).then(function (r) {
+    return fetch(L.url(path), { method: 'POST', headers: L.headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(body), signal: signal }).then(function (r) {
       if (!r.ok) return fail(r);
       var rd = r.body.getReader(), dec = new TextDecoder(), buf = '';
       function pump() {

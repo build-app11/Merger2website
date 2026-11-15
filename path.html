@@ -64,6 +64,7 @@ main{max-width:var(--mw);margin:0 auto;padding:clamp(16px,3vw,28px) 0 24px}
 .node:active{transform:translateY(5px);box-shadow:0 2px 0 var(--shadow)}
 .node.cur{background:var(--yellow);color:var(--on)}
 .node.done{background:var(--mint);color:var(--on)}
+.node.gate{font-size:calc(var(--nw)*.4);border-radius:22px;border-style:dashed}
 .node.lock{background:var(--rule);color:var(--muted);cursor:not-allowed;opacity:.85}
 .tip{position:absolute;bottom:calc(100% + 14px);left:50%;transform:translateX(-50%);padding:1px 14px;border:2.5px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font:600 1rem var(--font-display);white-space:nowrap;animation:bob 1.6s ease-in-out infinite}
 @keyframes bob{50%{transform:translate(-50%,-5px)}}
@@ -74,7 +75,12 @@ dialog{border:2.5px solid var(--line);border-radius:26px;background:var(--surfac
 dialog::backdrop{background:rgba(20,22,43,.55)}
 dialog h2{font:700 1.5rem/1.2 var(--font-display);margin:0 0 6px}
 .meta{margin:0 0 14px;color:var(--muted)}
-#toast{position:fixed;left:50%;bottom:calc(var(--lfh,84px) + 12px);transform:translateX(-50%);z-index:50;max-width:calc(100vw - 32px);text-align:center;padding:10px 18px;border:2.5px solid var(--line);border-radius:999px;background:var(--ink);color:var(--bg);font-weight:600;box-shadow:3px 3px 0 var(--shadow)}
+.st{padding:10px 0 12px;border-top:2px dashed var(--rule)}
+.st b{display:block;font-family:var(--font-display)}
+.st span{display:block;color:var(--muted);font-size:.92rem}
+.st .btn{min-height:42px;margin-top:8px;font-size:1rem}
+.st.ok b{color:var(--muted)}
+#toast{position:fixed;left:50%;bottom:calc(var(--lfb,var(--lfh,84px)) + 12px);transform:translateX(-50%);z-index:50;max-width:calc(100vw - 32px);text-align:center;padding:10px 18px;border:2.5px solid var(--line);border-radius:999px;background:var(--ink);color:var(--bg);font-weight:600;box-shadow:3px 3px 0 var(--shadow)}
 
 /* ===== Responsif ===== */
 @media(max-width:380px){
@@ -100,6 +106,19 @@ dialog h2{font:700 1.5rem/1.2 var(--font-display);margin:0 0 6px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
+<meta name="description" content="Jalur belajar bertahap: selesaikan latihan satu per satu, setiap latihan yang selesai membuka latihan berikutnya.">
+<link rel="canonical" href="https://learningfun.zone.id/path.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learning Fun">
+<meta property="og:title" content="Jalur belajar · Learning Fun">
+<meta property="og:description" content="Jalur belajar bertahap: selesaikan latihan satu per satu, setiap latihan yang selesai membuka latihan berikutnya.">
+<meta property="og:url" content="https://learningfun.zone.id/path.html">
+<meta property="og:image" content="https://learningfun.zone.id/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 </head>
 <body>
 <header class="lf-hd"><a class="lf-back" href="./" aria-label="Kembali ke daftar latihan">←</a><a class="lf-brand" href="./"><span class="lf-logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="#fff" stroke="#14162B" stroke-width="2" stroke-linejoin="round"/></svg></span>Learning Fun</a></header>
@@ -107,7 +126,7 @@ dialog h2{font:700 1.5rem/1.2 var(--font-display);margin:0 0 6px}
 <main>
   <section class="hero">
     <h1>Jalur belajar</h1>
-    <p class="lead">Selesaikan latihan satu per satu. Setiap latihan yang selesai membuka latihan berikutnya.</p>
+    <p class="lead">Selesaikan latihan satu per satu. Setelah 3 pelajaran ada Review kosakata, setelah 5 pelajaran ada Kuis.</p>
     <div class="hero-row">
       <span class="chip fire" id="streak" title="Hari berturut-turut berlatih">🔥 0</span>
       <button class="chip" id="menuBtn" type="button">Progres</button>
@@ -139,7 +158,9 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
     viewer: 'player-video.html',        // ?q=slug
     readViewer: 'player-reading.html',  // ?q=slug (pelajaran bertipe "read")
     audioViewer: 'player-audio.html',   // ?q=slug (pelajaran yang punya kolom "audio")
-    perUnit: 5,                         // jumlah latihan per unit
+    perUnit: 5,                         // jumlah pelajaran per unit
+    reviewAfter: 3,                     // Review kosakata muncul setelah pelajaran ke-3 tiap unit
+    quizAfter: 5,                       // Kuis muncul setelah pelajaran ke-5 tiap unit
     key: 'lf:path'                      // progres
   };
   const COL = ['purple', 'blue', 'coral', 'mint'];
@@ -157,8 +178,30 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   let L = [], S = load(), first = true;
   function load() {
     const s = store.get(CFG.key);
-    return { done: (s && typeof s.done === 'object' && s.done) || {} };
+    const done = (s && typeof s.done === 'object' && s.done) || {};
+    const steps = (s && typeof s.steps === 'object' && s.steps) || {};
+    // Progres lama (sebelum ada langkah): pelajaran yang sudah selesai dianggap lengkap semua langkahnya.
+    const legacy = s && s.v === 2 ? (Array.isArray(s.legacy) ? s.legacy : []) : Object.keys(done);
+    const gates = (s && typeof s.gates === 'object' && s.gates) || {};
+    return { done, steps, gates, legacy, v: 2 };
   }
+  const STEPS = {
+    learn: { t: 'Pelajaran', d: l => isRead(l) ? 'Baca teksnya.' : isAudio(l) ? 'Dengarkan audionya.' : 'Tonton videonya.' },
+    practice: { t: 'Latihan', d: l => isRead(l) ? 'Susun ulang paragraf sampai benar. Bila belum pas, tombol Selesai latihan ada di ringkasan.' : 'Pakai Practice (Shadowing atau Dictation); tombol Selesai muncul setelah 5 dictation atau 5 shadowing.' },
+  };
+  /* Review kosakata & Kuis bukan lagi langkah per pelajaran, tapi node tersendiri di jalur (lihat GATES) */
+  const GATES = {
+    deck: { t: 'Review kosakata', ic: '🔁', d: 'Ulas kartu deck kosakatamu (hafalan berjarak) sampai selesai.', where: n => 'Setelah pelajaran ' + n },
+    quiz: { t: 'Kuis', ic: '🏆', d: 'Cocokkan kata dari semua pelajaran di unit ini dengan terjemahannya.', where: n => 'Setelah pelajaran ' + n }
+  };
+  const stepsOf = l => ['learn', 'practice'];
+  const stepDone = (l, k) => k === 'learn' ? !!S.done[l.slug] : !!(S.steps[l.slug] && S.steps[l.slug][k]);
+  const complete = l => S.legacy.includes(l.slug) || stepsOf(l).every(k => stepDone(l, k));
+  const stepHref = (l, k) => k === 'learn' ? href(l)
+    : k === 'practice' ? href(l) + '&step=practice'
+    : href(l);
+  const gateHref = g => 'kosakata.html?from=path&auto=' + g.g + '&q=' + g.slugs.map(encodeURIComponent).join(',');   // ?from=path, sama seperti player
+  const gateRec = g => S.gates[g.key] || {};
   const save = () => store.set(CFG.key, S);
 
   function toast(t) {
@@ -167,30 +210,57 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   }
   // streak harian: hari berturut-turut yang punya minimal 1 latihan selesai
   function streak() {
-    const d = new Set(Object.values(S.done).map(v => day(new Date(v.at || 0))));
+    const ts = [...Object.values(S.done).map(v => v.at || 0)];
+    Object.values(S.steps).forEach(o => Object.values(o).forEach(v => ts.push(+v || 0)));
+    Object.values(S.gates).forEach(g => g && g.done && ts.push(+g.done || 0));
+    const d = new Set(ts.map(t => day(new Date(t))));
     let c = new Date(), n = 0;
     if (!d.has(day(c))) c = new Date(Date.now() - 864e5);   // hari ini belum latihan: streak kemarin masih berlaku
     while (d.has(day(c))) { n++; c = new Date(c - 864e5); }
     return n;
   }
 
+  /* Susunan jalur per unit: P1 P2 P3 [Review] P4 P5 [Kuis]. Review & Kuis adalah node tersendiri. */
+  let SEQ = [];
+  function buildSeq() {
+    const per = CFG.perUnit, units = [];
+    for (let u = 0; u * per < L.length; u++) {
+      const items = L.slice(u * per, u * per + per), seq = [];
+      items.forEach((l, k) => {
+        seq.push({ k: 'l', l, i: u * per + k });
+        const n = k + 1;
+        if (n === CFG.reviewAfter && items.length >= n) seq.push({ k: 'g', g: 'deck', n, key: 'deck:' + items[0].slug, slugs: [items[0].slug] });
+        if (n === CFG.quizAfter && items.length >= n) seq.push({ k: 'g', g: 'quiz', n, key: 'quiz:' + items[0].slug, slugs: items.slice(0, n).map(x => x.slug) });
+      });
+      units.push({ items, seq });
+    }
+    SEQ = units.flatMap(u => u.seq);
+    return units;
+  }
+  /* node Review/Kuis dianggap lewat bila ditandai selesai, atau bila ada pelajaran sesudahnya yang sudah selesai (progres lama) */
+  function seqDone(j) {
+    const x = SEQ[j];
+    if (x.k === 'l') return complete(x.l);
+    return !!gateRec(x).done || SEQ.slice(j + 1).some(y => y.k === 'l' && complete(y.l));
+  }
+
   function render() {
     $('#streak').textContent = '🔥 ' + streak();
     const el = $('#path');
     if (!L.length) { el.innerHTML = '<p class="msg">Belum ada latihan untuk ' + esc(window.LFL ? LFL.name : 'bahasa ini') + '. Ganti bahasa yang dipelajari lewat Beranda.</p>'; return; }
-    const cur = L.findIndex(l => !S.done[l.slug]), per = CFG.perUnit;
-    let h = '';
-    for (let u = 0; u * per < L.length; u++) {
-      const items = L.slice(u * per, u * per + per);
-      const n = items.filter(l => S.done[l.slug]).length;
-      h += `<section class="unit c-${COL[u % COL.length]}"><b>Unit ${u + 1}</b>${n} dari ${items.length} latihan selesai</section><div class="trail"><svg aria-hidden="true"></svg>`;
-      items.forEach((l, k) => {
-        const i = u * per + k, done = !!S.done[l.slug];
-        const st = done ? 'done' : i === cur ? 'cur' : 'lock';
-        h += `<div class="nw"><button class="node ${st}" data-i="${i}" aria-label="Latihan ${i + 1}">▶${i === cur ? '<span class="tip">Mulai</span>' : ''}</button></div>`;
+    const units = buildSeq(), cur = SEQ.findIndex((x, j) => !seqDone(j));
+    let h = '', j = 0;
+    units.forEach((un, u) => {
+      const n = un.items.filter(complete).length;
+      h += `<section class="unit c-${COL[u % COL.length]}"><b>Unit ${u + 1}</b>${n} dari ${un.items.length} latihan selesai</section><div class="trail"><svg aria-hidden="true"></svg>`;
+      un.seq.forEach(x => {
+        const done = seqDone(j), st = done ? 'done' : j === cur ? 'cur' : 'lock', tip = j === cur ? '<span class="tip">Mulai</span>' : '';
+        if (x.k === 'l') h += `<div class="nw"><button class="node ${st}" data-n="${j}" aria-label="Latihan ${x.i + 1}">▶${tip}</button></div>`;
+        else h += `<div class="nw"><button class="node gate ${st}" data-n="${j}" aria-label="${GATES[x.g].t}, unit ${u + 1}">${GATES[x.g].ic}${tip}</button></div>`;
+        j++;
       });
       h += '</div>';
-    }
+    });
     el.innerHTML = h;
     layout();
     const c = $('.node.cur');
@@ -226,20 +296,40 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   /* ---- sheet ---- */
   const sheet = h => { const d = $('#sheet'); d.innerHTML = h; if (!d.open) d.showModal(); };
   function openLesson(l, n) {
-    const done = S.done[l.slug];
-    sheet(`<h2>Latihan ${n}</h2><p class="meta">${isRead(l) ? 'Baca' : isAudio(l) ? 'Audio' : 'Video'} · ${l.lines || 0} ${isRead(l) ? 'paragraf' : 'baris'}${done ? ' · Selesai ✓' : ''}</p>
-      <a class="btn pri" data-a="go" href="${esc(href(l))}">${done ? 'Latihan lagi' : 'Mulai latihan'}</a>
+    const ks = stepsOf(l), all = complete(l), nxt = ks.find(k => !stepDone(l, k));
+    const rows = ks.map((k, i) => {
+      const dn = stepDone(l, k) || S.legacy.includes(l.slug), main = k === nxt;
+      return `<div class="st${dn ? ' ok' : ''}"><b>${i + 1}. ${STEPS[k].t}${dn ? ' ✓' : ''}</b><span>${esc(STEPS[k].d(l))}</span>
+        <a class="btn${main ? ' pri' : ''}" data-a="go" href="${esc(stepHref(l, k))}">${dn ? 'Ulangi' : 'Mulai'}</a></div>`;
+    }).join('');
+    sheet(`<h2>Latihan ${n}</h2><p class="meta">${isRead(l) ? 'Baca' : isAudio(l) ? 'Audio' : 'Video'} · ${l.lines || 0} ${isRead(l) ? 'paragraf' : 'baris'}${all ? ' · Selesai ✓' : ''}</p>${rows}
+      <button class="btn" data-a="close">Tutup</button>`);
+  }
+  /* Review kosakata / Kuis: tidak bisa dilewati. Tombol "Selesai" baru muncul di halaman terakhir
+     (kosakata.html) setelah Mulai ditekan dan sesinya dituntaskan; baru itu menandai node selesai. */
+  function openGate(g) {
+    const G = GATES[g.g], r = gateRec(g), dn = seqDone(SEQ.indexOf(g));
+    const note = dn ? 'Selesai ✓' : r.started ? 'Sudah dimulai. Tuntaskan sampai akhir; tombol Selesai muncul di halaman terakhir.' : 'Tekan Mulai, lalu tuntaskan sampai akhir.';
+    sheet(`<h2>${G.ic} ${G.t}</h2><p class="meta">${G.where(g.n)}${dn ? ' · Selesai ✓' : ''}</p>
+      <div class="st${dn ? ' ok' : ''}"><b>${G.t}${dn ? ' ✓' : ''}</b><span>${esc(G.d)}</span><span>${esc(note)}</span>
+        <a class="btn${dn ? '' : ' pri'}" data-a="gstart" data-k="${esc(g.key)}" href="${esc(gateHref(g))}">${dn ? 'Ulangi' : r.started ? 'Mulai lagi' : 'Mulai'}</a></div>
       <button class="btn" data-a="close">Tutup</button>`);
   }
   $('#path').addEventListener('click', e => {
     const b = e.target.closest('.node'); if (!b) return;
     if (b.classList.contains('lock')) return toast('Selesaikan latihan sebelumnya dulu');
-    openLesson(L[+b.dataset.i], +b.dataset.i + 1);
+    const x = SEQ[+b.dataset.n]; if (!x) return;
+    x.k === 'g' ? openGate(x) : openLesson(x.l, x.i + 1);
   });
   $('#sheet').addEventListener('click', e => {
     if (e.target.id === 'sheet') return e.target.close();
     const b = e.target.closest('[data-a]'); if (!b) return;
     if (b.dataset.a === 'close') $('#sheet').close();
+    if (b.dataset.a === 'gstart') {   // catat bahwa sesi dimulai; navigasi tetap lewat tautan
+      const k = b.dataset.k; S = load();
+      S.gates[k] = Object.assign({}, S.gates[k], { started: Date.now(), fin: 0 });
+      save();
+    }
   });
 
   /* ---- menu: reset progres (ekspor/impor sekarang ada di halaman Akun) ---- */
@@ -250,7 +340,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
     const a = e.target.closest('[data-a]')?.dataset.a;
     if (a === 'close') menu.close();
     if (a === 'rst' && confirm('Hapus semua progres di perangkat ini?')) {
-      S.done = {}; save(); render(); menu.close(); toast('Progres direset');
+      S.done = {}; S.steps = {}; S.gates = {}; S.legacy = []; save(); render(); menu.close(); toast('Progres direset');
     }
   });
 
@@ -260,6 +350,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
       const r = await fetch(CFG.index); if (!r.ok) throw 0;
       const j = await r.json();
       L = (Array.isArray(j) ? j : j.lessons || []).filter(l => l && l.slug && (!window.LFL || LFL.match(l)));
+      save();   // simpan penanda versi + daftar progres lama
       render();
     } catch {
       $('#path').innerHTML = `<p class="msg">Tidak bisa memuat ${esc(CFG.index)}.<br>Buka lewat server (bukan file langsung).</p>`;
@@ -300,6 +391,14 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   #lfnav a{flex-direction:row;justify-content:center;gap:6px;padding:4px}
   #lfnav svg{width:20px;height:20px}
 }`;
+    css.textContent += `
+@media(min-width:900px){
+  #lfnav{top:0;bottom:auto;left:0;right:0;transform:none;width:100%;max-width:none;justify-content:center;gap:6px;padding:8px 24px;border:0;border-bottom:2.5px solid var(--lfline,var(--line,#14162B));border-radius:0}
+  #lfnav a{flex:0 0 auto;flex-direction:row;gap:8px;padding:8px 18px;border-radius:999px;font-size:.95rem}
+  #lfnav a:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+  #lfnav a[aria-current=page]{background:var(--yellow,#FFD23F);color:var(--on,#14162B)}
+  #lfnav svg{width:20px;height:20px}
+}`;
   document.head.appendChild(css);
   const nav = document.createElement('nav');
   nav.id = 'lfnav'; nav.setAttribute('aria-label', 'Menu utama');
@@ -307,12 +406,16 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
     `<a href="${t.href}"${t.match.some(m => m === file || (m && file.includes(m))) ? ' aria-current="page"' : ''}><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span>${t.label}</span></a>`).join('');
   const mount = () => {
     document.body.appendChild(nav);
+    const desk = matchMedia('(min-width:900px)');   // desktop: bilah pindah ke atas
     const fit = () => {
-      const h = nav.offsetHeight;
-      document.documentElement.style.setProperty('--lfh', h + 'px');
-      document.body.style.paddingBottom = (h + 16) + 'px';   // supaya isi tidak tertutup bilah
+      const h = nav.offsetHeight, top = desk.matches, d = document.documentElement;
+      d.style.setProperty('--lfh', h + 'px');
+      d.style.setProperty('--lfb', top ? '0px' : h + 'px');            // jarak dari bawah layar untuk elemen yang menempel di bawah
+      d.style.paddingTop = top ? h + 'px' : '';
+      document.body.style.paddingBottom = top ? '' : (h + 16) + 'px';  // supaya isi tidak tertutup bilah
     };
     fit(); addEventListener('resize', fit); addEventListener('orientationchange', () => setTimeout(fit, 250));
+    if (desk.addEventListener) desk.addEventListener('change', fit);
   };
   document.body ? mount() : addEventListener('DOMContentLoaded', mount);
 })();

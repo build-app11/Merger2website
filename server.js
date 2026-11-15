@@ -1,6 +1,5 @@
 const express = require("express");
-const dns = require("dns").promises;
-const net = require("net");
+const ns = require("./netsafe");
 const multer = require("multer");
 const mammoth = require("mammoth");
 const AdmZip = require("adm-zip");
@@ -20,27 +19,54 @@ const path = require("path");
 const app = express();
 const ROOT = __dirname;
 
+// ---------- Pengaturan dasar ----------
+// TRUST_PROXY: isi bila server ada di belakang proxy/CDN (mis. TRUST_PROXY=1) supaya batas laju memakai IP pengunjung asli.
+if (process.env.TRUST_PROXY) app.set("trust proxy", /^\d+$/.test(process.env.TRUST_PROXY) ? +process.env.TRUST_PROXY : process.env.TRUST_PROXY);
+app.disable("x-powered-by");
+app.use((req, res, next) => {
+  res.set({ "X-Content-Type-Options": "nosniff", "Referrer-Policy": "strict-origin-when-cross-origin", "Permissions-Policy": "geolocation=(), payment=()" });
+  next();
+});
+// gzip untuk halaman dan JSON (opsional: npm install compression). Aliran NDJSON (transkripsi) dan audio tidak dikompres supaya tetap mengalir.
+try {
+  const compression = require("compression");
+  app.use(compression({ filter: (req, res) => (/^\/api\/(?:podcast|tts|clone)/.test(req.path) ? false : compression.filter(req, res)) }));
+} catch (e) { /* tidak terpasang: dilewati */ }
+
 // ---------- CORS (opsional) ----------
 // Bawaan: hanya satu origin (halaman yang dilayani server ini sendiri). Kalau halaman statis di-host di tempat lain
 // (mis. GitHub Pages) dan server ini di Codespaces/VPS, isi CORS_ORIGIN, misalnya CORS_ORIGIN=https://nama.github.io
-// (pisahkan koma untuk beberapa origin; "*" untuk semua).
+// (pisahkan koma untuk beberapa origin). "*" hanya untuk uji coba: jangan dipakai di produksi.
 const CORS_ORIGINS = (process.env.CORS_ORIGIN || "").split(",").map((x) => x.trim()).filter(Boolean);
+if (CORS_ORIGINS.includes("*")) console.warn("PERINGATAN: CORS_ORIGIN=* mengizinkan situs mana pun memakai server ini. Sebutkan origin yang dipercaya.");
 app.use("/api", (req, res, next) => {
   const o = req.headers.origin;
   if (o && (CORS_ORIGINS.includes("*") || CORS_ORIGINS.includes(o))) {
     res.set({ "Access-Control-Allow-Origin": CORS_ORIGINS.includes("*") ? "*" : o, Vary: "Origin",
-      "Access-Control-Allow-Methods": "GET,POST,DELETE,OPTIONS", "Access-Control-Allow-Headers": "Content-Type" });
+      "Access-Control-Allow-Methods": "GET,POST,DELETE,OPTIONS", "Access-Control-Allow-Headers": "Content-Type, X-Admin-Token" });
   }
   if (req.method === "OPTIONS") return res.sendStatus(204);
   next();
 });
+
+// ---------- Batas laju per IP ----------
+// Tiga tingkat: umum, layanan yang memanggil situs lain atau memakai CPU, dan aksi berat. RATE_LIMIT_SCALE=0 mematikan,
+// RATE_LIMIT_SCALE=2 melonggarkan dua kali lipat. Angka per menit per IP.
+const SCALE = process.env.RATE_LIMIT_SCALE == null ? 1 : Math.max(0, +process.env.RATE_LIMIT_SCALE || 0);
+const lim = (n) => ns.rateLimit({ max: Math.round(n * SCALE), windowMs: 60000 });
+app.use("/api", lim(400));
+app.use(["/api/tts", "/api/translate", "/api/detect", "/api/word", "/api/phon", "/api/extract", "/api/news", "/api/podcast/feed", "/api/file"], lim(150));
+app.use(["/api/podcast/transcribe", "/api/clone"], lim(20));
+// Aksi yang mengubah data (suara klon) bisa dikunci dengan token: ADMIN_TOKEN=... npm start (header X-Admin-Token).
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "";
+const adminOnly = ns.requireToken(ADMIN_TOKEN);
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } });
+const uploadSmall = multer({ storage: multer.memoryStorage(), limits: { fileSize: 12 * 1024 * 1024, files: 1 } });   // sampel suara klon (3-30 dtk)
 app.use(express.json({ limit: "1mb" }));
 
 const clean = (t) => t.replace(/\s+/g, " ").trim();
-const isPrivate = (ip) => /^(10\.|127\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.|::1|fc|fd|fe80)/i.test(ip);
 const wrap = (fn) => async (req, res) => {
-  try { res.json(await fn(req)); } catch (e) { res.status(400).json({ error: e.message }); }
+  try { res.json(await fn(req)); } catch (e) { res.status(e.status || 400).json({ error: e.message }); }
 };
 
 // Cek server: dipakai halaman untuk tahu apakah fitur server tersedia
@@ -48,19 +74,15 @@ app.get("/api/health", (req, res) => res.json({ ok: true, app: "learning-fun", v
 
 // ---------- Halaman statis ----------
 // Folder proyek ini berisi kode server, jadi hanya berkas halaman yang disajikan (bukan server.js, node_modules, models, dsb.).
-const STATIC_OK = /^\/(?:[A-Za-z0-9_-]+\.html|lf-api\.js|i18n\.js|data\/[A-Za-z0-9_.-]+\.json)$/;
+const STATIC_OK = /^\/(?:[A-Za-z0-9_-]+\.html|lf-api\.js|lf-stats\.js|lf-collect\.js|lf-goals\.js|i18n\.js|pwa\.js|sw\.js|manifest\.webmanifest|robots\.txt|sitemap\.xml|icons\/[A-Za-z0-9_-]+\.(?:png|svg)|data\/(?:lang\/)?[A-Za-z0-9_.-]+\.json)$/;
 app.get("/", (req, res) => res.sendFile(path.join(ROOT, "index.html")));
-app.get(STATIC_OK, (req, res, next) => res.sendFile(path.join(ROOT, req.path), { dotfiles: "deny", maxAge: 0 }, (e) => { if (e) next(); }));
+app.get(STATIC_OK, (req, res, next) => res.sendFile(path.join(ROOT, req.path), { dotfiles: "deny", maxAge: req.path.startsWith("/icons/") ? "7d" : 0 }, (e) => { if (e) next(); }));
 
 // Web Link
 app.get("/api/extract", wrap(async (req) => {
-  const u = new URL(req.query.url);
-  if (!["http:", "https:"].includes(u.protocol)) throw new Error("URL harus http atau https");
-  const ip = net.isIP(u.hostname) ? u.hostname : (await dns.lookup(u.hostname)).address;
-  if (isPrivate(ip)) throw new Error("Alamat tidak diizinkan");
-  const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0 (compatible; SuaraTTS/2.0)" }, signal: AbortSignal.timeout(15000) });
+  const r = await ns.safeFetch(req.query.url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; SuaraTTS/2.0)" }, signal: AbortSignal.timeout(15000) });
   if (!r.ok) throw new Error("Situs membalas dengan status " + r.status);
-  return fromHtml(await r.text(), u.href);
+  return fromHtml((await readLimited(r, 5 * 1024 * 1024)).toString("utf8"), r.finalUrl);
 }));
 
 // jsdom mencetak seluruh isi stylesheet ke terminal bila CSS-nya tidak bisa diurai (situs besar seperti The Guardian sering begini).
@@ -85,22 +107,8 @@ function fromHtml(html, url) {
 }
 
 // ---------- Podcast (RSS) -> teks ----------
-// fetch yang memeriksa alamat tujuan di setiap pengalihan (podcast hampir selalu lewat redirect pelacak)
-async function safeFetch(url, opts, hops = 5) {
-  let u;
-  try { u = new URL(String(url || "").trim()); } catch (e) { throw new Error("URL tidak valid"); }
-  for (let i = 0; i <= hops; i++) {
-    if (!["http:", "https:"].includes(u.protocol)) throw new Error("URL harus http atau https");
-    const ip = net.isIP(u.hostname) ? u.hostname : (await dns.lookup(u.hostname)).address;
-    if (isPrivate(ip)) throw new Error("Alamat tidak diizinkan");
-    const r = await fetch(u, Object.assign({}, opts, { redirect: "manual" }));
-    const loc = r.headers.get("location");
-    if (r.status >= 300 && r.status < 400 && loc) { try { await r.body.cancel(); } catch (e) {} u = new URL(loc, u); continue; }
-    r.finalUrl = u.href;
-    return r;
-  }
-  throw new Error("Terlalu banyak pengalihan");
-}
+// safeFetch: lihat netsafe.js (memeriksa alamat di setiap pengalihan dan menyambung ke alamat yang sudah diperiksa)
+const safeFetch = ns.safeFetch;
 async function readLimited(r, max) {
   const parts = []; let n = 0;
   for await (const c of r.body) { n += c.length; if (n > max) throw new Error("Respons terlalu besar"); parts.push(c); }
@@ -277,8 +285,8 @@ app.post("/api/tts/engine/preload", wrap(async (req) => { await engines.preload(
 app.get("/api/tts/engine/status", wrap(async () => engines.status()));
 // Suara klon (Pocket TTS): sampel WAV 3-30 detik milik pengguna
 app.get("/api/clone", wrap(async () => ({ clones: engines.cloneList() })));
-app.post("/api/clone", upload.single("audio"), wrap(async (req) => engines.cloneAdd(req.body && req.body.name, req.file && req.file.buffer, req.body && req.body.lang)));
-app.delete("/api/clone/:id", wrap(async (req) => ({ ok: engines.cloneDel(req.params.id) })));
+app.post("/api/clone", adminOnly, uploadSmall.single("audio"), wrap(async (req) => engines.cloneAdd(req.body && req.body.name, req.file && req.file.buffer, req.body && req.body.lang)));
+app.delete("/api/clone/:id", adminOnly, wrap(async (req) => ({ ok: engines.cloneDel(req.params.id) })));
 app.get("/api/tts/piper/voices", wrap(async () => ({ voices: await engines.piperVoices() })));
 
 // EPUB: baca urutan bab (spine) lalu ambil teksnya
@@ -451,6 +459,13 @@ app.get("/api/word", wrap(async (req) => {
 }));
 
 app.use((req, res) => res.status(404).json({ error: "Tidak ditemukan" }));
+// Penanganan galat terakhir (mis. file terlalu besar, JSON rusak) supaya tidak membocorkan jejak tumpukan.
+app.use((err, req, res, next) => {
+  if (res.headersSent) return next(err);
+  const code = err && err.code === "LIMIT_FILE_SIZE" ? 413 : (err && err.status) || 500;
+  if (code >= 500) console.error(err);
+  res.status(code).json({ error: code === 413 ? "File terlalu besar." : code >= 500 ? "Terjadi kesalahan di server." : (err.message || "Permintaan tidak valid") });
+});
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("Buka http://localhost:" + (process.env.PORT || 3000));
