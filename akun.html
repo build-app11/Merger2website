@@ -130,6 +130,21 @@ progress{width:100%;height:14px;margin-top:12px}
 #koleksi .tx small{display:block;margin-top:2px;font-size:.8rem;color:var(--muted);font-weight:600}
 #koleksi .x{flex:none;display:grid;place-items:center;width:40px;height:40px;border:2.5px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);font:700 1rem/1 var(--font);cursor:pointer}
 #koleksi .empty{margin-top:12px;padding:12px 14px;border:2.5px dashed var(--line);border-radius:16px;color:var(--muted);font-size:.95rem}
+
+/* evaluasi AI */
+#aiEval h3{margin:14px 0 6px;font:700 1.05rem/1.2 var(--font-display)}
+.aibtns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.aibtns .btn{margin-top:0;min-height:54px;font-size:1rem;flex-direction:column;gap:0;line-height:1.15}
+.aibtns .btn small{font:600 .72rem/1.2 var(--font);opacity:.85}
+.btn.rep{background:var(--purple);color:var(--on)}
+.btn.ses{background:var(--mint);color:var(--on)}
+.btn.pi{background:var(--yellow);color:var(--on);grid-column:1/-1}
+#aiPrompt{width:100%;min-height:9rem;margin-top:10px;padding:10px 12px;border:2.5px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:.85rem/1.5 var(--font);resize:vertical}
+#aiMsg{margin-top:8px;font-size:.9rem;font-weight:600;color:var(--muted)}
+.chalrow{display:flex;align-items:center;gap:10px;margin-top:8px;font:700 .95rem/1.2 var(--font)}
+.chalrow select{min-height:40px;padding:0 10px;border:2.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:700 .95rem var(--font)}
+.chalwords{max-height:9rem;overflow:auto;margin-top:8px;padding:10px 12px;border:2.5px dashed var(--line);border-radius:14px;font-size:.9rem;line-height:1.5}
+@media(max-width:360px){.aibtns{grid-template-columns:1fr}}
 </style>
 <meta name="description" content="Akun dan pengaturan Learning Fun.">
 <link rel="canonical" href="https://learningfun.zone.id/akun.html">
@@ -184,6 +199,22 @@ progress{width:100%;height:14px;margin-top:12px}
     <div id="dLangs"></div>
     <p id="dEmpty" hidden>Belum ada aktivitas. Putar audio atau video, selesaikan bacaan, atau review kosa kata, lalu statistiknya muncul di sini.</p>
     <p class="note" id="dNote"></p>
+  </section>
+
+  <section class="card" id="aiEval" aria-labelledby="aiT">
+    <h2 id="aiT">Tantangan &amp; evaluasi AI</h2>
+    <p>AI menilai progres belajarmu (kata, mendengarkan, bacaan, latihan), lalu mengajak dua tantangan dari deck Kata Berbintang-mu: buat kalimat bergilir (AI mulai, kamu balas, bergantian), kemudian mini cerita 3-5 kalimat. Kesalahanmu diberi tahu, dan di akhir ada evaluasi hasil tantangan. Prompt disalin otomatis, tinggal tempel (paste) di Replika (aplikasi), Sesame, atau Pi AI. Datamu tidak dikirim ke mana pun oleh halaman ini.</p>
+    
+    <p id="chalWords" class="chalwords" role="status" aria-live="polite"></p>
+    <div class="aibtns">
+      <button class="btn rep" id="bRep" type="button">Buka Replika<small>buka aplikasi, lewat chat</small></button>
+      <button class="btn ses" id="bSes" type="button">Buka Sesame<small>lewat suara</small></button>
+      <button class="btn pi" id="bPi" type="button">Buka Pi AI<small>chat atau suara</small></button>
+    </div>
+    <button class="btn" id="bCopy" type="button">Salin prompt saja</button>
+    <p id="aiMsg" role="status" aria-live="polite"></p>
+    <h3>Prompt yang akan disalin</h3>
+    <textarea id="aiPrompt" readonly aria-label="Prompt"></textarea>
   </section>
 
   <section class="card" id="health">
@@ -415,8 +446,100 @@ progress{width:100%;height:14px;margin-top:12px}
       row.appendChild(s); box.appendChild(row);
     });
 
+    // simpan ringkasan untuk Evaluasi AI
+    evalData = { learn, words, listen, reads: readSet.size, sk, wtot, week: days7.map(d => ({ w: d.w, m: Math.round((listenBy[d.k] || 0) / 60) })), langs: list.map(([c, x]) => ({ name: langName(c), cur: c === learn, ...x })), empty };
+    buildPrompt();
     $('#dNote').textContent = 'Waktu mendengarkan dihitung saat audio, video, atau bacaan sedang diputar' + (first ? ', sejak ' + fmtDate(Date.parse(first + 'T12:00:00')) : ', mulai sekarang') + '. Review kosa kata lama yang belum punya catatan bahasa dihitung ke bahasa yang sedang dipelajari.';
   }
+
+  /* ---------- Tantangan & evaluasi AI: susun prompt, salin, buka Replika / Sesame ---------- */
+  let evalData = null, chalWords = [];
+  const AI_LINKS = { rep: 'https://my.replika.com', ses: 'https://app.sesame.com', pi: 'https://pi.ai' };
+  const AI_NAMES = { rep: 'Replika', ses: 'Sesame', pi: 'Pi AI' };
+  /* Replika: buka aplikasinya. Android: intent ke paket ai.replika.app (cadangan: Play Store); iPhone/iPad: halaman App Store (ada tombol Buka); lainnya: web */
+  function aiTarget(k) {
+    if (k !== 'rep') return { url: AI_LINKS[k], same: false };
+    const ua = navigator.userAgent || '';
+    if (/Android/i.test(ua)) return { same: true, url: 'intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=ai.replika.app;S.browser_fallback_url=' + encodeURIComponent('https://play.google.com/store/apps/details?id=ai.replika.app') + ';end' };
+    if (/iPhone|iPad|iPod/i.test(ua)) return { same: false, url: 'https://apps.apple.com/app/id1158555867' };
+    return { same: false, url: AI_LINKS.rep };
+  }
+
+  /* kata dari deck Kosa Kata: kartu yang sudah pernah diulas, terbaru dulu; cadangan: kata berbintang */
+  const cleanTxt = s => String(s == null ? '' : s).replace(/<br\s*\/?>/gi, ' ').replace(/\[sound:[^\]]*\]/g, ' ')
+    .replace(/\{\{c\d+::(.*?)(?:::.*?)?\}\}/g, '$1').replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim().slice(0, 80);
+  /* hanya deck "Kata Berbintang" (localStorage 'lf:starred'), semua katanya tanpa batas */
+  async function loadWords() {
+    const out = [], seen = new Set();
+    try {
+      const st = parse(lsGet('lf:starred'), []);
+      (Array.isArray(st) ? st : []).forEach(x => {
+        if (!x || !x.w) return;
+        const w = cleanTxt(x.w), m = cleanTxt(x.id || x.en || ''), k = w.toLowerCase();
+        if (!w || seen.has(k)) return; seen.add(k); out.push({ w, m });
+      });
+    } catch (e) {}
+    return out;
+  }
+
+  function buildPrompt() {
+    const t = $('#aiPrompt'); if (!t) return '';
+    const d = evalData, learn = (d && d.langs.find(x => x.cur)) || null, lang = learn ? learn.name : 'bahasa yang sedang kupelajari';
+    const ws = chalWords;
+    // 1) ringkasan progres belajar
+    let prog;
+    if (!d || d.empty) {
+      prog = 'Aku baru mulai belajar lewat aplikasi Learning Fun, jadi belum ada data progres.';
+    } else {
+      const L = d.langs.filter(x => x.cur || x.words || x.listen || x.reads || x.done).map(x =>
+        '- ' + x.name + (x.cur ? ' (sedang dipelajari)' : '') + ': ' + x.done + '/' + x.total + ' latihan selesai, ' + x.words + ' kata, ' + fmtListen(x.listen) + ' mendengarkan, ' + x.reads + ' bacaan').join('\n');
+      prog = 'Progres belajarku di Learning Fun:\n'
+        + '- Kata dipelajari: ' + d.words + '\n'
+        + '- Total waktu mendengarkan: ' + fmtListen(d.listen) + '\n'
+        + '- Bacaan selesai: ' + d.reads + '\n'
+        + '- Streak harian: ' + d.sk.cur + ' hari (terbaik ' + d.sk.best + ')' + (d.sk.today ? ', sudah belajar hari ini' : ', belum belajar hari ini') + '\n'
+        + '- Mendengarkan 7 hari terakhir (menit): ' + d.week.map(x => x.w + ' ' + x.m).join(', ') + '\n'
+        + 'Per bahasa:\n' + L;
+    }
+    // 2) kata dari deck
+    const list = ws.length ? ws.map((x, i) => (i + 1) + '. ' + x.w + (x.m ? ' = ' + x.m : '')).join('\n') : '(belum ada kata di deck)';
+    const p = 'Halo! Tolong jadi pelatih bahasa ' + lang + ' untukku. Jawab dengan bahasa Indonesia yang santai; contoh dan cerita dalam ' + lang + '. Pakai kalimat pendek.\n\n'
+      + 'LANGKAH 1, Evaluasi progres. ' + prog + '\n'
+      + 'Nilai kemajuanku secara jujur dalam 3-4 kalimat (kata, mendengarkan, bacaan, latihan), sebutkan satu kekuatan dan satu hal yang perlu ditingkatkan. Lalu tutup dengan ajakan "Ayo lanjut tantangan AI!" dan langsung mulai Langkah 2.\n\n'
+      + 'LANGKAH 2, Tantangan 1: buat kalimat bergilir. Kata dari deck Kata Berbintang-ku:\n' + list + '\n\n'
+      + (ws.length ? '' : 'Karena deck-ku masih kosong, pilih sendiri kata dasar ' + lang + ' yang mudah dan tampilkan daftarnya dulu.\n\n')
+      + 'Aturan: kita bergiliran membuat kalimat, satu kalimat per giliran. KAMU yang mulai: tulis satu kalimat contoh yang memakai satu kata dari daftar (cetak tebal kata itu), lalu tunggu giliranku. Aku membalas dengan satu kalimat yang memakai kata lain dari daftar. Setelah itu kamu beri giliranmu lagi dengan kata baru, dan begitu seterusnya bergantian, kira-kira 5 giliran untukku.\n'
+      + 'Jika kalimatku salah (tata bahasa, ejaan, pilihan kata, atau kata dipakai keliru), beri tahu aku: tunjukkan bagian yang salah, versi yang benar, dan alasannya dalam satu atau dua kalimat. Jika benar, cukup puji singkat. Setelah itu lanjut ke giliranmu. Jangan menulis kalimat untukku.\n\n'
+      + 'LANGKAH 3, Tantangan 2: mini cerita. Setelah Tantangan 1 selesai, langsung lanjut tanpa menunggu aku minta. Pilih 3-5 kata dari daftar (utamakan yang tadi kulupa atau salah) dan sebutkan. Minta aku menulis mini cerita 3-5 kalimat yang memakai kata-kata itu. Periksa tiap kalimatku seperti di atas: beri tahu kesalahanku beserta versi yang benar, dan hitung berapa kata yang terpakai dengan benar.\n\n'
+      + 'LANGKAH 4, Evaluasi hasil tantangan. Setelah mini cerita selesai, beri: (1) skor 0-10 untuk Tantangan 1 dan Tantangan 2 serta skor total, (2) kata yang kupakai dengan benar, (3) kesalahan yang paling sering kuulang, (4) kata yang masih lemah, (5) 3 langkah latihan konkret untuk besok.\n\n'
+      + 'Mulai sekarang dari Langkah 1.';
+    t.value = p; return p;
+  }
+  function showChalWords() {
+    const box = $('#chalWords'); if (!box) return;
+    const ws = chalWords;
+    box.textContent = ws.length ? ws.length + ' kata berbintang akan dikirim: ' + ws.map(x => x.w + (x.m ? ' = ' + x.m : '')).join(' · ')
+      : 'Belum ada kata berbintang. Beri bintang pada kata di pemutar video atau audio, lalu buka lagi halaman ini.';
+  }
+  loadWords().then(w => { chalWords = w; showChalWords(); buildPrompt(); });
+
+  async function copyPrompt() {
+    const p = buildPrompt(), m = $('#aiMsg');
+    try { await navigator.clipboard.writeText(p); m.textContent = 'Prompt tersalin. Tempel di percakapan.'; return true; }
+    catch (e) { const t = $('#aiPrompt'); t.focus(); t.select(); m.textContent = 'Salin otomatis gagal. Teks sudah dipilih, tekan Salin manual lalu tempel.'; return false; }
+  }
+  async function openAI(k) {
+    await copyPrompt();
+    const tg = aiTarget(k);
+    $('#aiMsg').textContent = 'Prompt disalin. Membuka ' + AI_NAMES[k] + '…, lalu tempel (paste) pesannya.';
+    if (tg.same) location.href = tg.url; else window.open(tg.url, '_blank', 'noopener');
+  }
+  $('#bRep').addEventListener('click', () => openAI('rep'));
+  $('#bSes').addEventListener('click', () => openAI('ses'));
+  $('#bPi').addEventListener('click', () => openAI('pi'));
+  $('#bCopy').addEventListener('click', copyPrompt);
+  buildPrompt();
 
   /* ---------- ringkasan di atas halaman ---------- */
   async function stats() {
