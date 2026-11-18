@@ -121,7 +121,7 @@ dialog h2{font:700 1.5rem/1.2 var(--font-display);margin:0 0 6px}
 <script src="pwa.js" defer></script>
 </head>
 <body>
-<header class="lf-hd"><a class="lf-back" href="./" aria-label="Kembali ke daftar latihan">←</a><a class="lf-brand" href="./"><span class="lf-logo" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#14162B" stroke-width="2" stroke-linecap="round"><path d="M3 12h18"/><circle cx="5" cy="12" r="2" fill="#fff"/><circle cx="12" cy="12" r="3.4" fill="#FF6B5E"/><circle cx="19" cy="12" r="2" fill="#fff"/></svg></span>Learning Fun</a></header>
+<header class="lf-hd"><a class="lf-back" href="./" aria-label="Kembali ke daftar latihan">←</a><a class="lf-brand" href="./"><span class="lf-logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="#fff" stroke="#14162B" stroke-width="2" stroke-linejoin="round"/></svg></span>Learning Fun</a></header>
 
 <main>
   <section class="hero">
@@ -203,6 +203,8 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
     deck: { t: 'Review kosakata', ic: '🔁', d: 'Ulas kartu deck kosakatamu (hafalan berjarak) sampai selesai.', where: n => 'Setelah pelajaran ' + n },
     quiz: { t: 'Kuis', ic: '🏆', d: 'Cocokkan kata dari semua pelajaran di unit ini dengan terjemahannya.', where: n => 'Setelah pelajaran ' + n }
   };
+  /* ikon kamus untuk node & dialog belajar tense (mengikuti warna teks lewat currentColor) */
+  const TENSE_IC = '<svg viewBox="0 0 459.319 459.319" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="display:block"><path d="M141.288,189.821h-23.685V145.28h23.528v-23.69h21.016v23.374h23.681v44.707h-23.681v0.151H141.288z M60.801,398.87 c0.012,1.1,0.03,1.921,0.042,2.459c0.006,0.331-0.053,0.638-0.071,0.963c0.739,18.224,15.755,32.817,34.146,32.817h303.76v-33.461 c0-6.68,5.421-12.105,12.105-12.105c6.679,0,12.105,5.426,12.105,12.105v45.565c0,6.686-5.427,12.105-12.105,12.105H93.091 c-0.629,0-1.235-0.089-1.847-0.183c-30.505-1.91-54.757-27.261-54.757-58.245c0-0.71,0.085-1.396,0.109-2.099 c-0.375-35.943,0-309.36,0.042-339.109c-0.047-0.423-0.127-0.827-0.127-1.259C36.511,26.205,62.719,0,94.938,0h19.343h293.535 h2.955c6.685,0,12.105,5.423,12.105,12.105v342.139c0,6.679-5.421,12.104-12.105,12.104c-0.071,0-0.13-0.023-0.201-0.023 c-0.887,0.213-1.82,0.354-2.772,0.354H94.918C76.736,366.674,61.859,380.948,60.801,398.87z M278.347,121.59h94.425v20.862h-23.685 v23.69h-23.525v23.685h-23.69v23.533h-23.536v49.882h120.792v-26.209h-94.584v-20.859h23.69V192.49h23.525v-23.69h23.689V145.28 h23.679V95.237h-120.78V121.59z M224.949,192.49h56.265v-26.353h-56.265V192.49z M91.41,263.229h26.2v-47.056h23.679v-0.15h44.54 v47.219h26.354v-120.79h-23.688v-23.841H164.81V95.237h-26.202v23.684h-23.685v23.69H91.389v120.618H91.41z"/></svg>';
   const stepsOf = l => ['learn', 'practice'];
   const stepDone = (l, k) => k === 'learn' ? !!S.done[l.slug] : !!(S.steps[l.slug] && S.steps[l.slug][k]);
   const complete = l => S.legacy.includes(l.slug) || stepsOf(l).every(k => stepDone(l, k));
@@ -266,7 +268,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
       un.seq.forEach(x => {
         const done = seqDone(j), st = done ? 'done' : j === cur ? 'cur' : 'lock', tip = j === cur ? '<span class="tip">Mulai</span>' : '';
         if (x.k === 'l') h += `<div class="nw"><button class="node ${st}" data-n="${j}" aria-label="Latihan ${x.i + 1}">▶${tip}</button></div>`;
-        else if (x.k === 't') h += `<div class="nw"><button class="node gate ${st}" data-n="${j}" aria-label="Belajar tenses ${esc(x.name)} dengan ChatGPT, unit ${u + 1}"><svg viewBox="0 0 24 24" width="40%" height="40%" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:calc(var(--nw)*.46);height:calc(var(--nw)*.46)"><path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M20 4v4.5h-4.5"/><path d="M12 8v4l2.8 1.8"/></svg>${tip}</button></div>`;
+        else if (x.k === 't') h += `<div class="nw"><button class="node gate ${st}" data-n="${j}" aria-label="Belajar tenses ${esc(x.name)} dengan ChatGPT, unit ${u + 1}">${TENSE_IC}${tip}</button></div>`;
         else h += `<div class="nw"><button class="node gate ${st}" data-n="${j}" aria-label="${GATES[x.g].t}, unit ${u + 1}">${GATES[x.g].ic}${tip}</button></div>`;
         j++;
       });
@@ -329,7 +331,7 @@ setVh();addEventListener('resize',setVh);addEventListener('orientationchange',()
   /* Belajar tense dengan ChatGPT: buka ChatGPT (prompt terisi otomatis), lalu tandai selesai */
   function openTense(t) {
     const r = gateRec(t), dn = seqDone(SEQ.indexOf(t)), pr = tensePrompt(t.name, t.u);
-    sheet(`<h2>🕒 Tenses ${t.u + 1} dari 12</h2><p class="meta">${esc(t.name)} · sebelum Latihan ${t.u * CFG.perUnit + 1}${dn ? ' · Selesai ✓' : ''}</p>
+    sheet(`<h2><span style="display:inline-block;width:1em;height:1em;vertical-align:-.14em;margin-right:6px">${TENSE_IC}</span>Tenses ${t.u + 1} dari 12</h2><p class="meta">${esc(t.name)} · sebelum Latihan ${t.u * CFG.perUnit + 1}${dn ? ' · Selesai ✓' : ''}</p>
       <div class="st${dn ? ' ok' : ''}"><b>Belajar ${esc(t.name)} dengan ChatGPT${dn ? ' ✓' : ''}</b>
         <span>Buka ChatGPT, baca penjelasannya, lalu kerjakan 5 soal latihan sampai paham.</span>
         <a class="btn${dn ? '' : ' pri'}" data-a="tgo" data-k="${esc(t.key)}" href="${esc(chatUrl(pr))}" target="_blank" rel="noopener">Buka ChatGPT</a>
