@@ -1,0 +1,95 @@
+name: Unzip pelajaran.zip ke data
+
+# Cara pakai: taruh pelajaran.zip di root repo (branch main). Action meng-unzip semua .json ke data/,
+# melewati index.json (data/index.json tidak disentuh), menghapus duplikat di data/, lalu menghapus pelajaran.zip.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pelajaran.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: unzip-pelajaran
+  cancel-in-progress: false
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unzip pelajaran.zip ke data/
+        run: |
+          if [ ! -f pelajaran.zip ]; then
+            echo "pelajaran.zip tidak ada di root."
+            exit 0
+          fi
+          mkdir -p data
+          tmp=$(mktemp -d)
+          unzip -q -o pelajaran.zip -x '__MACOSX/*' -d "$tmp"
+          find "$tmp" -type f -iname '*.json' -print0 | while IFS= read -r -d '' f; do
+            n=$(basename "$f")
+            # samakan dengan aturan index-builder: buang " (1)", ganti spasi/simbol dengan "-"
+            n=$(printf '%s' "$n" | sed -E 's/ *\([0-9]+\)(\.[Jj][Ss][Oo][Nn])$/\1/; s/[^A-Za-z0-9_.-]+/-/g; s/-+/-/g; s/^[-.]+//')
+            if [ "${n,,}" = "index.json" ]; then
+              echo "  dilewati: $n (index.json tidak disentuh)"
+              continue
+            fi
+            cp -f "$f" "data/$n"
+            echo "  data/$n"
+          done
+          rm -rf "$tmp"
+          git rm -q -f pelajaran.zip
+
+      - name: Hapus duplikat di data/
+        run: |
+          node - <<'EOF'
+          // Duplikat = isi file persis sama, atau videoId sama, atau audio sama (nama file boleh beda).
+          // Yang dipertahankan: file yang sudah ada di repo sebelum unzip; kalau seri, nama terpendek lalu urut abjad.
+          const fs = require('fs'), path = require('path'), crypto = require('crypto'), cp = require('child_process');
+          const DIR = 'data';
+          const SKIP = new Set(['index.json', 'card.json', 'language.json']);
+          const tracked = new Set(cp.execSync('git ls-tree -r --name-only HEAD ' + DIR, { encoding: 'utf8' }).split('\n').filter(Boolean));
+          const files = fs.readdirSync(DIR).filter((f) => /\.json$/i.test(f) && !SKIP.has(f.toLowerCase())).sort();
+          const parent = new Map(files.map((f) => [f, f]));
+          const find = (x) => { while (parent.get(x) !== x) { parent.set(x, parent.get(parent.get(x))); x = parent.get(x); } return x; };
+          const union = (a, b) => { a = find(a); b = find(b); if (a !== b) parent.set(b, a); };
+          const owner = new Map();
+          const claim = (key, f) => { if (owner.has(key)) union(owner.get(key), f); else owner.set(key, f); };
+          for (const f of files) {
+            const raw = fs.readFileSync(path.join(DIR, f));
+            claim('h:' + crypto.createHash('sha256').update(raw).digest('hex'), f);
+            let j = null;
+            try { j = JSON.parse(raw.toString('utf8')); } catch (e) { /* tidak valid: hanya dicek lewat isi */ }
+            if (j && typeof j === 'object') {
+              if (typeof j.videoId === 'string' && /^[\w-]{11}$/.test(j.videoId)) claim('v:' + j.videoId, f);
+              if (typeof j.audio === 'string' && j.audio.trim()) claim('a:' + j.audio.trim(), f);
+            }
+          }
+          const groups = new Map();
+          for (const f of files) { const r = find(f); (groups.get(r) || groups.set(r, []).get(r)).push(f); }
+          let removed = 0;
+          for (const g of groups.values()) {
+            if (g.length < 2) continue;
+            g.sort((a, b) => (tracked.has(DIR + '/' + b) - tracked.has(DIR + '/' + a)) || a.length - b.length || (a < b ? -1 : 1));
+            console.log('Duplikat -> dipertahankan: ' + g[0]);
+            for (const d of g.slice(1)) { fs.unlinkSync(path.join(DIR, d)); console.log('  dihapus: ' + d); removed++; }
+          }
+          console.log(removed ? removed + ' file duplikat dihapus.' : 'Tidak ada duplikat.');
+          EOF
+
+      - name: Commit hasil
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan."
+          else
+            git commit -m "Unzip pelajaran.zip ke data/"
+            git push
+          fi
