@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Grok keeps sending gibberish responses to users",
+  "slug": "grok-keeps-sending-gibberish-responses-to-users",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?resize=1200,804",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+    "episode": ""
+  },
+  "words": 317,
+  "lines": 12,
+  "duration": 106,
+  "text": "An unusual glitch has resulted in xAI’s Grok chatbot speaking gibberish to many users.\n\nAfter asking the model to generate a PDF, one user received the response: “match it without and your they and two for planets can practical and often cheese…” with similar nonsense continuing for several paragraphs.\n\nChecking source links, another user found a string of links to reinforcement learning research sites.\n\nAffected users who spoke to TechCrunch said they were using Grok Lite and noticed the issues as early as Wednesday morning. TechCrunch was unable to reproduce the issue in our own testing, and it is likely affecting only a small subset of users. xAI did not respond to a request for comment.\n\nStill, the result has been a lot of confused Grok users. The chatbot’s Reddit community has been overwhelmed with complaints. Refreshing the session often restores normal function, but some users reported that the gibberish responses continued even after multiple refreshes.\n\nThe bug appears to be limited to direct queries on Grok.com. The Grok account on X.com has been unaffected.\n\nResponding to unhappy users, the Grok account confirmed the issues on X:\n\n“That pure word salad is a rare temporary generation glitch. Official status at https://status.x.ai shows all Grok services fully operational with no incidents. Start a fresh chat or regenerate—it usually clears right away. Sorry about the gibberish,” the account wrote Thursday morning.\n\nxAI has seen significant staff turnover in recent months, losing most of its founding team and at least 50 researchers and engineers, according to a report from The Information in May. The company released its most recent foundation model in July, describing it as “an Opus-class model, but faster, more token-efficient and lower cost.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "An unusual glitch has resulted in xAI’s Grok chatbot speaking gibberish to many users.",
+      "heading": 0
+    },
+    {
+      "text": "After asking the model to generate a PDF, one user received the response: “match it without and your they and two for planets can practical and often cheese…” with similar nonsense continuing for several paragraphs.",
+      "heading": 0
+    },
+    {
+      "text": "Checking source links, another user found a string of links to reinforcement learning research sites.",
+      "heading": 0
+    },
+    {
+      "text": "Affected users who spoke to TechCrunch said they were using Grok Lite and noticed the issues as early as Wednesday morning. TechCrunch was unable to reproduce the issue in our own testing, and it is likely affecting only a small subset of users. xAI did not respond to a request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Still, the result has been a lot of confused Grok users. The chatbot’s Reddit community has been overwhelmed with complaints. Refreshing the session often restores normal function, but some users reported that the gibberish responses continued even after multiple refreshes.",
+      "heading": 0
+    },
+    {
+      "text": "The bug appears to be limited to direct queries on Grok.com. The Grok account on X.com has been unaffected.",
+      "heading": 0
+    },
+    {
+      "text": "Responding to unhappy users, the Grok account confirmed the issues on X:",
+      "heading": 0
+    },
+    {
+      "text": "“That pure word salad is a rare temporary generation glitch. Official status at https://status.x.ai shows all Grok services fully operational with no incidents. Start a fresh chat or regenerate—it usually clears right away. Sorry about the gibberish,” the account wrote Thursday morning.",
+      "heading": 0
+    },
+    {
+      "text": "xAI has seen significant staff turnover in recent months, losing most of its founding team and at least 50 researchers and engineers, according to a report from The Information in May. The company released its most recent foundation model in July, describing it as “an Opus-class model, but faster, more token-efficient and lower cost.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

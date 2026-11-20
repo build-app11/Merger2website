@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+  "slug": "cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/kitesurf.webp?resize=1200,640",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "episode": ""
+  },
+  "words": 429,
+  "lines": 13,
+  "duration": 143,
+  "text": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf, a cloud-hosted browser designed specifically for AI agents.\n\nAI software is evolving from chatbots that answer questions to agents that can complete tasks on users’ behalf. Browsers are a critical part of this transition, as they’ll need to navigate the web and use websites, as humans do.\n\nUnlike traditional web browsers built for humans, a browser built for AI agents doesn’t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement. A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted.\n\nWith Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software.\n\nCloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company’s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run, which lets developers programmatically control and interact with headless browser instances on Cloudflare’s network.\n\nFor developers, Cloudflare’s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down.\n\n“Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,” according to the company.\n\nThe browser itself was built from other technologies, including a modular rendering engine from Blitz; Firefox’s CSS parser, Stylo; and Boa JS, a Rust ECMAScript engine. Everything else runs inside Cloudflare Workers. Although still new, Cloudflare says Kitesurf already passes around 215,000+ web platform tests, and it’s adding hundreds more, passing tests every week.\n\nCloudflare also credited the open source Rust headless engine, Obscura, for inspiring it to develop Kitesurf, noting that the first proof of concept was a port of Obscura to Workers.\n\nThe company said the browser correctly renders pages like TodoMVC, a popular benchmark application for comparing JavaScript frameworks, along with Wikipedia, Hacker News, the Cloudflare Blog, and much of the Cloudflare dashboard.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf, a cloud-hosted browser designed specifically for AI agents.",
+      "heading": 0
+    },
+    {
+      "text": "AI software is evolving from chatbots that answer questions to agents that can complete tasks on users’ behalf. Browsers are a critical part of this transition, as they’ll need to navigate the web and use websites, as humans do.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike traditional web browsers built for humans, a browser built for AI agents doesn’t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement. A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted.",
+      "heading": 0
+    },
+    {
+      "text": "With Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software.",
+      "heading": 0
+    },
+    {
+      "text": "Cloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company’s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run, which lets developers programmatically control and interact with headless browser instances on Cloudflare’s network.",
+      "heading": 0
+    },
+    {
+      "text": "For developers, Cloudflare’s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down.",
+      "heading": 0
+    },
+    {
+      "text": "“Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,” according to the company.",
+      "heading": 0
+    },
+    {
+      "text": "The browser itself was built from other technologies, including a modular rendering engine from Blitz; Firefox’s CSS parser, Stylo; and Boa JS, a Rust ECMAScript engine. Everything else runs inside Cloudflare Workers. Although still new, Cloudflare says Kitesurf already passes around 215,000+ web platform tests, and it’s adding hundreds more, passing tests every week.",
+      "heading": 0
+    },
+    {
+      "text": "Cloudflare also credited the open source Rust headless engine, Obscura, for inspiring it to develop Kitesurf, noting that the first proof of concept was a port of Obscura to Workers.",
+      "heading": 0
+    },
+    {
+      "text": "The company said the browser correctly renders pages like TodoMVC, a popular benchmark application for comparing JavaScript frameworks, along with Wikipedia, Hacker News, the Cloudflare Blog, and much of the Cloudflare dashboard.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

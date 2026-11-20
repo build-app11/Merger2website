@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Google expands AI Search ads globally as core ad growth slows",
+  "slug": "google-expands-ai-search-ads-globally-as-core-ad-growth-slow",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+    "episode": ""
+  },
+  "words": 497,
+  "lines": 15,
+  "duration": 166,
+  "text": "Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows.\n\nThe announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year. But Search advertising growth continued to decelerate, and Alphabet shares fell 8% following the results.\n\nGoogle Search revenue grew 12% year over year in the third quarter, down from 17% growth in the second quarter and 19% in the first quarter. The slowdown puts added pressure on Google to turn its expanding AI features into a meaningful source of advertising revenue.\n\n“We are now scaling high-quality ads within AI overviews and AI mode to more users and queries,” Philipp Schindler, Google’s chief business officer, said during the call with investors. “This includes taking our monetization footprint global for the first time. Today, we’re announcing the expansion of ads in AI mode into international markets alongside multi-turn ads and AI mode in the U.S.”\n\nGoogle says early results suggest the formats are working. Click-through rates for sponsored product listings in AI Mode are already comparable to those for organic listings, according to Schindler. The company’s user research also indicates that people find the ads relevant.\n\nThe move builds on Google’s May announcement of new Gemini-powered ad formats, including conversational discovery ads that respond to users’ questions and sponsored recommendations integrated into AI-generated answers.\n\nGoogle CEO Sundar Pichai also said that Search queries grew at their fastest year-over-year rate in five years, though he did not disclose the exact growth rate. He credited AI features with changing how people use Search, including prompting longer and more complex queries.\n\nQueries in AI Mode are three times longer on average than traditional searches, Pichai said, while one in five AI Mode searches globally involves voice, images, or documents. Google has also surpassed 50 billion visual searches per month.\n\n“[Search] is bringing the benefits of AI to more people than any other product in the world,” Pichai told investors. “People are using our AI features more, searching in entirely new ways. Their queries are longer, personalized, and multimodal.”\n\nAlphabet’s Google Services division, which includes Search, generated $96.3 billion in revenue, up 11% year over year. Google Cloud revenue surged 103% to $30.7 billion.\n\nThe results follow a busy quarter for Google, including the release of Gemini 4 Argon, the growth of the Gemini app to 1 billion monthly users, and the launch of its Pixel 11 lineup.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows.",
+      "heading": 0
+    },
+    {
+      "text": "The announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year. But Search advertising growth continued to decelerate, and Alphabet shares fell 8% following the results.",
+      "heading": 0
+    },
+    {
+      "text": "Google Search revenue grew 12% year over year in the third quarter, down from 17% growth in the second quarter and 19% in the first quarter. The slowdown puts added pressure on Google to turn its expanding AI features into a meaningful source of advertising revenue.",
+      "heading": 0
+    },
+    {
+      "text": "“We are now scaling high-quality ads within AI overviews and AI mode to more users and queries,” Philipp Schindler, Google’s chief business officer, said during the call with investors. “This includes taking our monetization footprint global for the first time. Today, we’re announcing the expansion of ads in AI mode into international markets alongside multi-turn ads and AI mode in the U.S.”",
+      "heading": 0
+    },
+    {
+      "text": "Google says early results suggest the formats are working. Click-through rates for sponsored product listings in AI Mode are already comparable to those for organic listings, according to Schindler. The company’s user research also indicates that people find the ads relevant.",
+      "heading": 0
+    },
+    {
+      "text": "The move builds on Google’s May announcement of new Gemini-powered ad formats, including conversational discovery ads that respond to users’ questions and sponsored recommendations integrated into AI-generated answers.",
+      "heading": 0
+    },
+    {
+      "text": "Google CEO Sundar Pichai also said that Search queries grew at their fastest year-over-year rate in five years, though he did not disclose the exact growth rate. He credited AI features with changing how people use Search, including prompting longer and more complex queries.",
+      "heading": 0
+    },
+    {
+      "text": "Queries in AI Mode are three times longer on average than traditional searches, Pichai said, while one in five AI Mode searches globally involves voice, images, or documents. Google has also surpassed 50 billion visual searches per month.",
+      "heading": 0
+    },
+    {
+      "text": "“[Search] is bringing the benefits of AI to more people than any other product in the world,” Pichai told investors. “People are using our AI features more, searching in entirely new ways. Their queries are longer, personalized, and multimodal.”",
+      "heading": 0
+    },
+    {
+      "text": "Alphabet’s Google Services division, which includes Search, generated $96.3 billion in revenue, up 11% year over year. Google Cloud revenue surged 103% to $30.7 billion.",
+      "heading": 0
+    },
+    {
+      "text": "The results follow a busy quarter for Google, including the release of Gemini 4 Argon, the growth of the Gemini app to 1 billion monthly users, and the launch of its Pixel 11 lineup.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

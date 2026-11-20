@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+  "slug": "openai-launches-gpt-6-sol-and-luna-boasting-lower-cost-and-f",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    "episode": ""
+  },
+  "words": 415,
+  "lines": 12,
+  "duration": 138,
+  "text": "Earlier this month, OpenAI launched GPT-6 Astra, which it heralded as its most powerful and capable model yet, and the “world’s best model” for a variety of activities, including computer work and coding. Now, the lab is expanding the GPT-6 generation with updated versions of the smaller Sol and Luna models.\n\n“GPT-6 Astra introduced a new generation of intelligence; these models extend its benefits by making that intelligence more efficient and accessible,” the company writes.\n\nThe first models in the Sol and Luna series were introduced earlier this year, representing different tiers in OpenAI’s hierarchy of models. Sol is designed for complex tasks like coding, while OpenAI says Luna is more appropriate for clerical work — “high-volume tasks with a clear goal, like summarizing documents, extracting information, or answering quick questions.”\n\nOpenAI is also emphasizing big improvements in efficiency and affordability — most notably, via a substantial price drop for API access. The 6 series models will be available at half the cost of the 5.6 series of Sol and Luna, a price drop that OpenAI attributes to improvements in caching and inference.\n\nOpenAI also claims that its newest models are better at producing answers that are factually accurate, and notes that they have a lower error rate when it comes to coding.\n\n“On our internal factuality evaluation, which is based on de-identified real-world conversations where users flagged mistakes by our models, GPT-6 Sol makes about half as many mistakes as its predecessor, reaching Astra-level reliability at much lower cost,” the announcement reads.\n\nAs is typical with OpenAI’s new model releases, the company is claiming that its newest offerings outshine those of its primary competitor, Anthropic. The company repeatedly claims that GPT-6 Sol and Luna handle tasks substantially better than Anthropic’s top models — like Fable and Opus.\n\nNotably, Anthropic released a new version of Opus 5.5 just 90 minutes before OpenAI’s release, reflecting the intense competition between the two companies.\n\nThe new versions of Sol and Luna are now available in ChatGPT Work and Codex for most paid accounts, and in the ChatGPT API, while Luna will be available in the desktop app and for Free and Go users. OpenAI expects to roll out the models to ChatGPT (the app and website) gradually throughout the day.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Earlier this month, OpenAI launched GPT-6 Astra, which it heralded as its most powerful and capable model yet, and the “world’s best model” for a variety of activities, including computer work and coding. Now, the lab is expanding the GPT-6 generation with updated versions of the smaller Sol and Luna models.",
+      "heading": 0
+    },
+    {
+      "text": "“GPT-6 Astra introduced a new generation of intelligence; these models extend its benefits by making that intelligence more efficient and accessible,” the company writes.",
+      "heading": 0
+    },
+    {
+      "text": "The first models in the Sol and Luna series were introduced earlier this year, representing different tiers in OpenAI’s hierarchy of models. Sol is designed for complex tasks like coding, while OpenAI says Luna is more appropriate for clerical work — “high-volume tasks with a clear goal, like summarizing documents, extracting information, or answering quick questions.”",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI is also emphasizing big improvements in efficiency and affordability — most notably, via a substantial price drop for API access. The 6 series models will be available at half the cost of the 5.6 series of Sol and Luna, a price drop that OpenAI attributes to improvements in caching and inference.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also claims that its newest models are better at producing answers that are factually accurate, and notes that they have a lower error rate when it comes to coding.",
+      "heading": 0
+    },
+    {
+      "text": "“On our internal factuality evaluation, which is based on de-identified real-world conversations where users flagged mistakes by our models, GPT-6 Sol makes about half as many mistakes as its predecessor, reaching Astra-level reliability at much lower cost,” the announcement reads.",
+      "heading": 0
+    },
+    {
+      "text": "As is typical with OpenAI’s new model releases, the company is claiming that its newest offerings outshine those of its primary competitor, Anthropic. The company repeatedly claims that GPT-6 Sol and Luna handle tasks substantially better than Anthropic’s top models — like Fable and Opus.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, Anthropic released a new version of Opus 5.5 just 90 minutes before OpenAI’s release, reflecting the intense competition between the two companies.",
+      "heading": 0
+    },
+    {
+      "text": "The new versions of Sol and Luna are now available in ChatGPT Work and Codex for most paid accounts, and in the ChatGPT API, while Luna will be available in the desktop app and for Free and Go users. OpenAI expects to roll out the models to ChatGPT (the app and website) gradually throughout the day.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

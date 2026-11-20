@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+  "slug": "a-yc-startup-is-putting-1m-behind-5-unsolved-materials-scien",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+    "episode": ""
+  },
+  "words": 708,
+  "lines": 20,
+  "duration": 236,
+  "text": "Discovered Materials, a months-old San Francisco startup using AI models to find new substances for building advanced chips, announced a million-dollar challenge for AI models to solve five critical problems in materials science.\n\nWhile frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.\n\n“It’s more difficult to specify problems clearly in materials science because it’s not like math, where you have a very specific definition and can get to a yes or no,” said Advaith Sridhar, a co-founder of Discovered Materials, which was part of Y Combinator’s spring 2026 batch. “We came to this discussion [wondering], what are the grand challenges in this field? How do we know AI is making progress?”\n\nThough materials science doesn’t have an equivalent of the Millennium Prize Problems, Discovered Materials recruited an advisory group of academics at leading global universities to spell out five open problems. The company is offering a pool of prizes, worth $1 million in total, for solutions to the problems.\n\nA theory to explain cuprate superconductivity, or the ability of certain materials to have zero electrical resistance at ultra-low temperatures.\n\nA numerical method to predict the structures of interfaces between silicon and silicon dioxide, a material combination found in almost all semiconductors.\n\nA numerical method to map grain structure to thermal properties, enabling the design of better heat dissipation materials.\n\nA theory to predict why shining light on materials can change their behavior, particularly around superconductivity.\n\nA numerical method to improve density functional theory, a key technique used in materials science to model the structures of atoms and molecules.\n\n“Across materials science, there are phenomena we observe but cannot explain,” Felipe Jornada, a Stanford professor who helped develop the challenges, said in a statement. “Explaining these phenomena would improve our understanding of physics, and the answers would directly shape how we build electronics, store energy, and manufacture the materials of the future.”\n\nBefore announcing the challenges, Discovered Materials turned frontier lab models loose on them, giving AI agents internet access and other resources to work autonomously for days. The models spent several days on each problem without making much headway. Still, it’s easy to imagine OpenAI or Anthropic attempting to one-shot them with significantly more compute or a newer model.\n\n“It’s not particularly a concern to us whether we find it, or someone else finds it, or a professor finds it, or the frontier labs find it,” Sridhar said. “The reason we’re putting out these challenges is because we want them to serve as the goalposts. If you go and solve these challenges, we are deepening our understanding of materials and how things around us behave.”\n\nTracking efforts to solve the problems will show “whether the models are climbing in this domain,” he added.\n\nThe challenge also reflects the changing nature of scientific inquiry as AI proves capable of uncovering insights and techniques human researchers didn’t anticipate. With solutions apparently easier to find than ever, the questions become more important.\n\n“This is a new way of thinking about science, where we come up with the verification and the challenges first, and then we let somebody come up with the ideas that explain the problem,” Sridhar said. “Knowing what are the right questions to ask is not trivial and very difficult in this domain, so this is where the professors have really helped us shape what are the right questions we should be asking.”\n\nDiscovered Materials’ main focus is developing new materials for use in semiconductors; the startup partners with chip giants on research projects while also funding its own scientific efforts. When the company announced its seed round in August, Sridhar told TechCrunch that he hoped the company would generate a useful material within a year.\n\n“Those timelines have accelerated a little bit,” he says today. “I’m more confident now that we will be able to find these industrially useful materials in a timeline shorter than a year.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Discovered Materials, a months-old San Francisco startup using AI models to find new substances for building advanced chips, announced a million-dollar challenge for AI models to solve five critical problems in materials science.",
+      "heading": 0
+    },
+    {
+      "text": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s more difficult to specify problems clearly in materials science because it’s not like math, where you have a very specific definition and can get to a yes or no,” said Advaith Sridhar, a co-founder of Discovered Materials, which was part of Y Combinator’s spring 2026 batch. “We came to this discussion [wondering], what are the grand challenges in this field? How do we know AI is making progress?”",
+      "heading": 0
+    },
+    {
+      "text": "Though materials science doesn’t have an equivalent of the Millennium Prize Problems, Discovered Materials recruited an advisory group of academics at leading global universities to spell out five open problems. The company is offering a pool of prizes, worth $1 million in total, for solutions to the problems.",
+      "heading": 0
+    },
+    {
+      "text": "A theory to explain cuprate superconductivity, or the ability of certain materials to have zero electrical resistance at ultra-low temperatures.",
+      "heading": 0
+    },
+    {
+      "text": "A numerical method to predict the structures of interfaces between silicon and silicon dioxide, a material combination found in almost all semiconductors.",
+      "heading": 0
+    },
+    {
+      "text": "A numerical method to map grain structure to thermal properties, enabling the design of better heat dissipation materials.",
+      "heading": 0
+    },
+    {
+      "text": "A theory to predict why shining light on materials can change their behavior, particularly around superconductivity.",
+      "heading": 0
+    },
+    {
+      "text": "A numerical method to improve density functional theory, a key technique used in materials science to model the structures of atoms and molecules.",
+      "heading": 0
+    },
+    {
+      "text": "“Across materials science, there are phenomena we observe but cannot explain,” Felipe Jornada, a Stanford professor who helped develop the challenges, said in a statement. “Explaining these phenomena would improve our understanding of physics, and the answers would directly shape how we build electronics, store energy, and manufacture the materials of the future.”",
+      "heading": 0
+    },
+    {
+      "text": "Before announcing the challenges, Discovered Materials turned frontier lab models loose on them, giving AI agents internet access and other resources to work autonomously for days. The models spent several days on each problem without making much headway. Still, it’s easy to imagine OpenAI or Anthropic attempting to one-shot them with significantly more compute or a newer model.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s not particularly a concern to us whether we find it, or someone else finds it, or a professor finds it, or the frontier labs find it,” Sridhar said. “The reason we’re putting out these challenges is because we want them to serve as the goalposts. If you go and solve these challenges, we are deepening our understanding of materials and how things around us behave.”",
+      "heading": 0
+    },
+    {
+      "text": "Tracking efforts to solve the problems will show “whether the models are climbing in this domain,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "The challenge also reflects the changing nature of scientific inquiry as AI proves capable of uncovering insights and techniques human researchers didn’t anticipate. With solutions apparently easier to find than ever, the questions become more important.",
+      "heading": 0
+    },
+    {
+      "text": "“This is a new way of thinking about science, where we come up with the verification and the challenges first, and then we let somebody come up with the ideas that explain the problem,” Sridhar said. “Knowing what are the right questions to ask is not trivial and very difficult in this domain, so this is where the professors have really helped us shape what are the right questions we should be asking.”",
+      "heading": 0
+    },
+    {
+      "text": "Discovered Materials’ main focus is developing new materials for use in semiconductors; the startup partners with chip giants on research projects while also funding its own scientific efforts. When the company announced its seed round in August, Sridhar told TechCrunch that he hoped the company would generate a useful material within a year.",
+      "heading": 0
+    },
+    {
+      "text": "“Those timelines have accelerated a little bit,” he says today. “I’m more confident now that we will be able to find these industrially useful materials in a timeline shorter than a year.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

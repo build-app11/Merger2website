@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+  "slug": "google-cloud-races-to-catch-up-in-the-ai-deployment-wars-wit",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+    "episode": ""
+  },
+  "words": 690,
+  "lines": 16,
+  "duration": 230,
+  "text": "Google Cloud and Accenture are working together on a joint unit dedicated to sending engineers into enterprises to help them better adopt Google’s AI tools and services.\n\nThe new unit, dubbed Accenture Gemini Enterprise Business Group, is Google’s latest foray into the increasingly competitive world of “forward-deployed engineers,” or FDEs. Rivals in the AI race, including OpenAI, Anthropic, Microsoft, and Amazon, have all recently launched separate business units in a bet that implementing AI models can become its own trillion-dollar business.\n\nIt’s the kind of bet AI companies and hyperscalers increasingly need to make. Hyperscalers are committing hundreds of billions of dollars a year to GPUs, data centers, and power capacity even as the revenue directly attributable to AI remains a fraction of that investment.\n\nGoogle Cloud generated $24.8 billion in the second quarter, a big chunk of which was driven by enterprise AI. But the commitments behind that growth are enormous. Google Cloud’s parent company Alphabet reportedly accumulated $811 billion in purchase commitments and contractual obligations as of June 30.\n\nThis return on investment is not yet materializing in the way companies and investors need it to, so everything hinges on whether or not AI companies can create enough demand for their services. But that demand is not guaranteed, as enterprises themselves are struggling to see a true return on investment on their AI spending.\n\nIt’s conventionally held that enterprises have simply lacked the expertise to intelligently integrate AI tools and services into their workflows in a way that not only saves them money, but helps them make more of it in the long run. That’s where the FDEs come in as a steady, guiding hand that, ideally, possesses the perfect mental cocktail of business acumen and agentic AI prowess needed to change everything.\n\nAs part of its deal with Accenture, Google will train up to 1,000 of the consultancy firm’s FDEs to work with enterprises and build custom AI applications on the Gemini Enterprise platform. The organization will live under Accenture, according to a Google spokesperson.\n\nAccording to August data from Ramp, Google accounts for roughly 6% of enterprise AI spending among Ramp’s U.S. customers, compared to Anthropic’s 43.5% and OpenAI’s 39.7%. (A Google spokesperson pointed out that many of Ramp’s customers exclude the types of major enterprises that are signing large, strategic AI deals with Google Cloud, which go beyond just model API usage — like Oracle, Meta, Anthropic, and ServiceNow.) Google’s new unit with Accenture, which The Wall Street Journal first reported, is the latest of its aggressive expansions of its FDE model this year as it attempts to resolve enterprise deployment bottlenecks and catch up to rivals.\n\nEarlier this year, Google Cloud launched a $750 million partner ecosystem commitment that embedded Google’s own FDEs across multiple consultancies, including Capgemini, Cognizant, and Deloitte. The tech giant also struck a multi-year partnership with CVC Capital Partners to deploy FDEs directly into the investment firm’s portfolio companies.\n\nGoogle isn’t the only giant at risk of being outpaced by newer firms. Companies that are dedicated specifically to embedding engineers into businesses to build bespoke AI workflows — like Ode with Anthropic, or OpenAI’s The Deployment Co. — threaten big consultancy firms like Accenture as well. For the professional services giant, the Google tie-up adds to its own wave of FDE programs this year, which include a similar Microsoft FDE practice in March, an FDE initiative with ServiceNow in May, and a joint program with SAP in June.\n\nThis article has been updated with comments from Google.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Google Cloud and Accenture are working together on a joint unit dedicated to sending engineers into enterprises to help them better adopt Google’s AI tools and services.",
+      "heading": 0
+    },
+    {
+      "text": "The new unit, dubbed Accenture Gemini Enterprise Business Group, is Google’s latest foray into the increasingly competitive world of “forward-deployed engineers,” or FDEs. Rivals in the AI race, including OpenAI, Anthropic, Microsoft, and Amazon, have all recently launched separate business units in a bet that implementing AI models can become its own trillion-dollar business.",
+      "heading": 0
+    },
+    {
+      "text": "It’s the kind of bet AI companies and hyperscalers increasingly need to make. Hyperscalers are committing hundreds of billions of dollars a year to GPUs, data centers, and power capacity even as the revenue directly attributable to AI remains a fraction of that investment.",
+      "heading": 0
+    },
+    {
+      "text": "Google Cloud generated $24.8 billion in the second quarter, a big chunk of which was driven by enterprise AI. But the commitments behind that growth are enormous. Google Cloud’s parent company Alphabet reportedly accumulated $811 billion in purchase commitments and contractual obligations as of June 30.",
+      "heading": 0
+    },
+    {
+      "text": "This return on investment is not yet materializing in the way companies and investors need it to, so everything hinges on whether or not AI companies can create enough demand for their services. But that demand is not guaranteed, as enterprises themselves are struggling to see a true return on investment on their AI spending.",
+      "heading": 0
+    },
+    {
+      "text": "It’s conventionally held that enterprises have simply lacked the expertise to intelligently integrate AI tools and services into their workflows in a way that not only saves them money, but helps them make more of it in the long run. That’s where the FDEs come in as a steady, guiding hand that, ideally, possesses the perfect mental cocktail of business acumen and agentic AI prowess needed to change everything.",
+      "heading": 0
+    },
+    {
+      "text": "As part of its deal with Accenture, Google will train up to 1,000 of the consultancy firm’s FDEs to work with enterprises and build custom AI applications on the Gemini Enterprise platform. The organization will live under Accenture, according to a Google spokesperson.",
+      "heading": 0
+    },
+    {
+      "text": "According to August data from Ramp, Google accounts for roughly 6% of enterprise AI spending among Ramp’s U.S. customers, compared to Anthropic’s 43.5% and OpenAI’s 39.7%. (A Google spokesperson pointed out that many of Ramp’s customers exclude the types of major enterprises that are signing large, strategic AI deals with Google Cloud, which go beyond just model API usage — like Oracle, Meta, Anthropic, and ServiceNow.) Google’s new unit with Accenture, which The Wall Street Journal first reported, is the latest of its aggressive expansions of its FDE model this year as it attempts to resolve enterprise deployment bottlenecks and catch up to rivals.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this year, Google Cloud launched a $750 million partner ecosystem commitment that embedded Google’s own FDEs across multiple consultancies, including Capgemini, Cognizant, and Deloitte. The tech giant also struck a multi-year partnership with CVC Capital Partners to deploy FDEs directly into the investment firm’s portfolio companies.",
+      "heading": 0
+    },
+    {
+      "text": "Google isn’t the only giant at risk of being outpaced by newer firms. Companies that are dedicated specifically to embedding engineers into businesses to build bespoke AI workflows — like Ode with Anthropic, or OpenAI’s The Deployment Co. — threaten big consultancy firms like Accenture as well. For the professional services giant, the Google tie-up adds to its own wave of FDE programs this year, which include a similar Microsoft FDE practice in March, an FDE initiative with ServiceNow in May, and a joint program with SAP in June.",
+      "heading": 0
+    },
+    {
+      "text": "This article has been updated with comments from Google.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Google releases a new local-first Granola competitor",
+  "slug": "google-releases-a-new-local-first-granola-competitor",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+    "episode": ""
+  },
+  "words": 422,
+  "lines": 13,
+  "duration": 141,
+  "text": "Earlier in April, Google released an AI-powered dictation tool that worked with local models. Now, the same team has released a new competitor to the AI note-taker Granola and others, which it calls Google AI Edge Foresight.\n\nThe Mac app can work completely offline, utilizing the on-device EmbeddingGemma 2 model, with 740 million parameters, to capture meeting notes across apps, including those from in-person meetings.\n\nThe app is similar to the popular AI note-taker Granola because it has a split-screen view with the ability to write shorthand notes on one side and AI-generated notes on the other side.\n\nLike Granola, it also lets you take manual notes while transcribing the meeting. Plus, in Google’s app, you can view the transcript of the meeting or chat with the Gemma 4-powered assistant to get answers.\n\nIn addition, users can upload documents including PDFs, Google Docs, Microsoft Office formats, plain text, Markdown, and web bookmarks to build a knowledge base. Using your meeting notes and documents, the app can answer questions in real time if a point related to data in the knowledge base comes up.\n\nOn its FAQ page, the company specified that Google AI Edge Foresight is optimized for Apple Silicon and can completely work offline. This means you can work with your meeting notes when you are traveling or in a place without an internet connection.\n\nWhile Google’s earlier dictation app was an experimental one that didn’t make it to mainstream usage, its new meeting note-taker could be just to showcase the ability of its Gemma series of offline models.\n\nHowever, Google could very well release a consumer version of meeting note-taker that works across video calling apps through its Gemini apps while relying on its cloud models.\n\nThe meeting note-taker space is competitive and crowded. But that hasn’t stopped companies from creating their own tools. In the last few months, dictation company Wispr and scheduling company Calendly released their own note-takers. Meanwhile, productivity startup Superhuman (formerly Grammarly) acquired YC-backed note-taker Fathom last month.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Earlier in April, Google released an AI-powered dictation tool that worked with local models. Now, the same team has released a new competitor to the AI note-taker Granola and others, which it calls Google AI Edge Foresight.",
+      "heading": 0
+    },
+    {
+      "text": "The Mac app can work completely offline, utilizing the on-device EmbeddingGemma 2 model, with 740 million parameters, to capture meeting notes across apps, including those from in-person meetings.",
+      "heading": 0
+    },
+    {
+      "text": "The app is similar to the popular AI note-taker Granola because it has a split-screen view with the ability to write shorthand notes on one side and AI-generated notes on the other side.",
+      "heading": 0
+    },
+    {
+      "text": "Like Granola, it also lets you take manual notes while transcribing the meeting. Plus, in Google’s app, you can view the transcript of the meeting or chat with the Gemma 4-powered assistant to get answers.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, users can upload documents including PDFs, Google Docs, Microsoft Office formats, plain text, Markdown, and web bookmarks to build a knowledge base. Using your meeting notes and documents, the app can answer questions in real time if a point related to data in the knowledge base comes up.",
+      "heading": 0
+    },
+    {
+      "text": "On its FAQ page, the company specified that Google AI Edge Foresight is optimized for Apple Silicon and can completely work offline. This means you can work with your meeting notes when you are traveling or in a place without an internet connection.",
+      "heading": 0
+    },
+    {
+      "text": "While Google’s earlier dictation app was an experimental one that didn’t make it to mainstream usage, its new meeting note-taker could be just to showcase the ability of its Gemma series of offline models.",
+      "heading": 0
+    },
+    {
+      "text": "However, Google could very well release a consumer version of meeting note-taker that works across video calling apps through its Gemini apps while relying on its cloud models.",
+      "heading": 0
+    },
+    {
+      "text": "The meeting note-taker space is competitive and crowded. But that hasn’t stopped companies from creating their own tools. In the last few months, dictation company Wispr and scheduling company Calendly released their own note-takers. Meanwhile, productivity startup Superhuman (formerly Grammarly) acquired YC-backed note-taker Fathom last month.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

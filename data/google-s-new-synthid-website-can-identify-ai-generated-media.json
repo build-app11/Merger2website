@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Google’s new SynthID website can identify AI-generated media",
+  "slug": "google-s-new-synthid-website-can-identify-ai-generated-media",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/SynthID_Detector_Homepage_Web.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    "episode": ""
+  },
+  "words": 325,
+  "lines": 21,
+  "duration": 108,
+  "text": "Posted:\n\nIvan Mehta\n\nGoogle’s new SynthID website can identify AI-generated media\n\nGoogle on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.\n\nThe company made this tool available to select journalists, media professionals, and researchers for testing at Google I/O last year, and is now opening up access to the tool to everyone.\n\nThe site supports JPG, JPEG, PNG, BMP, WEBP, AVIF, HEIC, HEIF, TIFF, TIF, and GIF formats for images; MP4, MOV, and WEBM for videos; and WAV, MP3, OGG, FLAC, AAC, and M4A for audio.\n\nGoogle is using SynthID, which it introduced in 2023, to identify whether media is AI-generated. The company’s Nano Banana, Veo, and Lyria models, as well as tools with generation capabilities, like Gemini, Flow, ProducerAI, and Vids, all use SynthID to watermark any media they generate.\n\nOpenAI, Nvidia, and Kakao also support SynthID, and OpenAI maintains its own site for checking content. Apple is said to be adding support soon, too.\n\nGoogle has baked SynthID verification into the Gemini app and Google Chrome. The company said people currently make 1 million requests to verify content every day.\n\nMicrosoft and Meta have their own standards for watermarking and verifying content. However, these tools are not infallible, often failing to identify content created by their makers’ models.\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nLatest in Apps\n\nWant to see your live AI usage on your Mac’s icons? This clever new app lets you\n\nGoogle gives Gemini the ability to use your Mac for you\n\nMeta’s AI agent Muse is mixing up conversations and could be exposing private data, report says\n\nAisha Malik",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Google’s new SynthID website can identify AI-generated media",
+      "heading": 1
+    },
+    {
+      "text": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+      "heading": 0
+    },
+    {
+      "text": "The company made this tool available to select journalists, media professionals, and researchers for testing at Google I/O last year, and is now opening up access to the tool to everyone.",
+      "heading": 0
+    },
+    {
+      "text": "The site supports JPG, JPEG, PNG, BMP, WEBP, AVIF, HEIC, HEIF, TIFF, TIF, and GIF formats for images; MP4, MOV, and WEBM for videos; and WAV, MP3, OGG, FLAC, AAC, and M4A for audio.",
+      "heading": 0
+    },
+    {
+      "text": "Google is using SynthID, which it introduced in 2023, to identify whether media is AI-generated. The company’s Nano Banana, Veo, and Lyria models, as well as tools with generation capabilities, like Gemini, Flow, ProducerAI, and Vids, all use SynthID to watermark any media they generate.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI, Nvidia, and Kakao also support SynthID, and OpenAI maintains its own site for checking content. Apple is said to be adding support soon, too.",
+      "heading": 0
+    },
+    {
+      "text": "Google has baked SynthID verification into the Gemini app and Google Chrome. The company said people currently make 1 million requests to verify content every day.",
+      "heading": 0
+    },
+    {
+      "text": "Microsoft and Meta have their own standards for watermarking and verifying content. However, these tools are not infallible, often failing to identify content created by their makers’ models.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Apps",
+      "heading": 1
+    },
+    {
+      "text": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+      "heading": 0
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    }
+  ]
+}

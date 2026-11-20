@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+  "slug": "anthropic-releases-sonnet-5-5-which-it-calls-a-significantly",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+    "episode": ""
+  },
+  "words": 344,
+  "lines": 11,
+  "duration": 115,
+  "text": "As the AI model wars continue, Anthropic has released the newest version of Sonnet, the company’s mid-tier model, which it says will work much faster (and for significantly less) than its predecessor.\n\nThe lab describes Sonnet 5.5 as an ideal assistant for everyday tasks — including coding and creating office documents.\n\nSonnet 5, 5.5’s predecessor, was announced about three months ago. At the time, the model’s selling point was efficient agentic deployment — the ability to run agents at a lower cost than competitors.\n\nThe big selling point with 5.5, meanwhile, is speed. Anthropic claims that Sonnet 5.5 is 30% faster than its predecessor and that its rate of token burn is significantly slower.\n\nIn the Anthropic hierarchy of models, Sonnet is less powerful than the Opus model but can be more useful in certain circumstances because its agility. In particular, Anthropic’s benchmarks show Sonnet 5.5 performing better than Opus 5.5 on agentic coding, likely because of its ability to spawn multiple agents without exceeding cost limits.\n\nSonnet 5.5 is also said to have significant cyber capabilities, with the company claiming that it has “comparable” cyber capabilities to Opus 5. As a result, Anthropic says that 5.5 is the first Sonnet model that will be subject to the same cyber safeguards that apply to Fable and Opus.\n\nThe company also plans to release a new version of Haiku — its smallest model — in the coming weeks, although it didn’t give a firm date as to when that would happen.\n\nThe last year has seen a flurry of new model releases from the major AI labs. Just last week, OpenAI released a number of new models — including enhanced versions of Sol and Luna, its mid-tier and budget-friendly models. Meta also announced a new model, which it said would power an upcoming feature associated with its smart glasses.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "As the AI model wars continue, Anthropic has released the newest version of Sonnet, the company’s mid-tier model, which it says will work much faster (and for significantly less) than its predecessor.",
+      "heading": 0
+    },
+    {
+      "text": "The lab describes Sonnet 5.5 as an ideal assistant for everyday tasks — including coding and creating office documents.",
+      "heading": 0
+    },
+    {
+      "text": "Sonnet 5, 5.5’s predecessor, was announced about three months ago. At the time, the model’s selling point was efficient agentic deployment — the ability to run agents at a lower cost than competitors.",
+      "heading": 0
+    },
+    {
+      "text": "The big selling point with 5.5, meanwhile, is speed. Anthropic claims that Sonnet 5.5 is 30% faster than its predecessor and that its rate of token burn is significantly slower.",
+      "heading": 0
+    },
+    {
+      "text": "In the Anthropic hierarchy of models, Sonnet is less powerful than the Opus model but can be more useful in certain circumstances because its agility. In particular, Anthropic’s benchmarks show Sonnet 5.5 performing better than Opus 5.5 on agentic coding, likely because of its ability to spawn multiple agents without exceeding cost limits.",
+      "heading": 0
+    },
+    {
+      "text": "Sonnet 5.5 is also said to have significant cyber capabilities, with the company claiming that it has “comparable” cyber capabilities to Opus 5. As a result, Anthropic says that 5.5 is the first Sonnet model that will be subject to the same cyber safeguards that apply to Fable and Opus.",
+      "heading": 0
+    },
+    {
+      "text": "The company also plans to release a new version of Haiku — its smallest model — in the coming weeks, although it didn’t give a firm date as to when that would happen.",
+      "heading": 0
+    },
+    {
+      "text": "The last year has seen a flurry of new model releases from the major AI labs. Just last week, OpenAI released a number of new models — including enhanced versions of Sol and Luna, its mid-tier and budget-friendly models. Meta also announced a new model, which it said would power an upcoming feature associated with its smart glasses.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

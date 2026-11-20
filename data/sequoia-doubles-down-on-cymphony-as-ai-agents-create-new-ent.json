@@ -1,0 +1,149 @@
+{
+  "type": "read",
+  "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+  "slug": "sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-ent",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/cymphony-founders.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+    "episode": ""
+  },
+  "words": 1139,
+  "lines": 31,
+  "duration": 380,
+  "text": "As AI agents gain access to the same sensitive corporate data and systems as human workers while operating at machine speed, enterprises are prone to new security risks. Storied venture firm Sequoia Capital is betting big on that shift, backing startup Cymphony as it emerges with $30 million in funding to help companies keep their growing AI workforce in check.\n\nThe funding includes a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund, valuing the New York- and Tel Aviv-based startup at more than $100 million after investment. The round follows a previously undisclosed seed investment from Sequoia.\n\nAI agents do not necessarily go through the same access and identity controls as employees, but they have access to multiple systems and handle large amounts of corporate data. This makes it hard for enterprises to track who has access to what.\n\nCymphony is trying to address that gap by giving security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access. At the core of its platform, the two-year-old startup has built what it calls a “workforce graph.” This brings together identity, data, and activity signals.\n\n“Enterprise security was designed for human employees,” Cymphony co-founder and CEO Shy Dekel (pictured above, center) said in an exclusive interview. “More and more, there start to be independent entities that are practically joining the workforce, but they’re no longer people.”\n\nCymphony says it is already finding those risks inside large companies. At one U.S. public company, the startup said it found about 85,000 files that had become accessible to AI tools and agents. Cymphony stated it helped close the exposure and verified that none of the files had been accessed through those AI systems.\n\nIn another case, Dekel told TechCrunch that an external collaborator had installed an unsanctioned instance of Anthropic’s Claude that used the collaborator’s existing access to scan thousands of sensitive files.\n\nBeyond identifying risks, Cymphony uses AI agents to investigate incidents, prioritize what security teams should address, and automate some remediation, including correcting access permissions. The platform can operate largely automatically, Dekel said, adding that customers can also opt for a managed service that brings Cymphony’s security experts into the loop for more complex cases.\n\nWhy Sequoia doubled down\n\nSequoia’s initial bet on Cymphony came before the startup had settled on the problem it wanted to solve. When the venture firm led its seed round more than two years ago, Cymphony had no product or even a clear product direction, Sequoia partner Bogomil Balkansky told TechCrunch.\n\nThe investment was largely a bet on Dekel and his co-founders, Idan Berkovits (pictured above, right) and Edi Gotlieb (pictured above, left), all three of whom came through Talpiot, the Israeli military’s highly selective technology and leadership program. Sequoia was already familiar with the program through previous cybersecurity investments, including Wiz.\n\n“We just saw three amazing young people with the kind of pedigree that we at Sequoia have experienced a lot of success with,” Balkansky said.\n\nNonetheless, Sequoia wanted to see more than the founders’ pedigree by the Series A.\n\nCymphony had built a product, signed a double-digit number of enterprise customers, and reached seven figures in annual recurring revenue within its first year of sales, the startup told TechCrunch. Its customers include KKR, Syngenta, Cass Information Systems, and Athennian.\n\nSequoia has also been using Cymphony’s product internally since early in its development, Balkansky said. He noted the quality and range of Cymphony’s customers, and that existing customers are expanding their use of the platform, as among the key reasons the venture firm decided to invest again.\n\nCymphony is entering an increasingly crowded market as cybersecurity companies strive to address risks emerging from the growing use of AI agents.\n\nRecent incidents have added to those concerns. In July, OpenAI disclosed that agents being tested for cybersecurity capabilities had circumvented safeguards and compromised systems at AI platform Hugging Face. Then late last week, OpenAI-linked agents made thousands of edits to a German programming wiki, using parts of the site to communicate and share ways to evade restrictions.\n\nBalkansky acknowledged that scores of companies are already positioning themselves around AI and agent security. He said, however, that Cymphony’s approach stands out by treating identity and data security as part of the same problem.\n\nThat distinction, Dekel and Balkansky both argue, becomes more important as companies deploy more AI agents across their operations. Unlike human employees with relatively stable roles and permissions, agents can take different routes to complete a task, acquire new capabilities, and, in some cases, create other agents, making their access harder to govern with security systems designed around people.\n\n“Agents are very different actors,” Balkansky said, arguing that existing identity tools were not designed for agents that can change their behavior and capabilities at runtime.\n\nCymphony is also in a race against established security companies that are expanding their offerings around identity, data, and AI, including Microsoft, Okta, CyberArk, Wiz, and Varonis.\n\nDekel told TechCrunch that Cymphony is already replacing some existing security products at customers. At one enterprise, he said without disclosing specifics, the company helped consolidate two existing tools and eliminated the need to buy a third.\n\nHowever, Balkansky sees Cymphony’s role, at least for now, as more complementary than replacement. “Nobody’s going to get rid of their Okta,” he said, adding that customers are largely adopting Cymphony as an additional layer today. Over time, however, he told TechCrunch that the startup could begin displacing some point solutions, particularly in areas such as data loss prevention.\n\nCymphony has about 30 employees across Tel Aviv and New York. Most of its customers are currently in North America, though Dekel told TechCrunch that the startup is beginning to see demand from enterprises in Europe, the Middle East, and Africa.\n\nThat said, as Cymphony moves beyond its Series A and expands among large enterprise customers, it now has to prove that AI agent security can become a market of its own rather than a feature offered by larger security platforms. Balkansky believes spending in the area will grow as companies put more AI agents to work.\n\n“If companies are not spending money on agent security, I don’t know what else they’ll be spending money on in the next five to 10 years,” he said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "As AI agents gain access to the same sensitive corporate data and systems as human workers while operating at machine speed, enterprises are prone to new security risks. Storied venture firm Sequoia Capital is betting big on that shift, backing startup Cymphony as it emerges with $30 million in funding to help companies keep their growing AI workforce in check.",
+      "heading": 0
+    },
+    {
+      "text": "The funding includes a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund, valuing the New York- and Tel Aviv-based startup at more than $100 million after investment. The round follows a previously undisclosed seed investment from Sequoia.",
+      "heading": 0
+    },
+    {
+      "text": "AI agents do not necessarily go through the same access and identity controls as employees, but they have access to multiple systems and handle large amounts of corporate data. This makes it hard for enterprises to track who has access to what.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony is trying to address that gap by giving security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access. At the core of its platform, the two-year-old startup has built what it calls a “workforce graph.” This brings together identity, data, and activity signals.",
+      "heading": 0
+    },
+    {
+      "text": "“Enterprise security was designed for human employees,” Cymphony co-founder and CEO Shy Dekel (pictured above, center) said in an exclusive interview. “More and more, there start to be independent entities that are practically joining the workforce, but they’re no longer people.”",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony says it is already finding those risks inside large companies. At one U.S. public company, the startup said it found about 85,000 files that had become accessible to AI tools and agents. Cymphony stated it helped close the exposure and verified that none of the files had been accessed through those AI systems.",
+      "heading": 0
+    },
+    {
+      "text": "In another case, Dekel told TechCrunch that an external collaborator had installed an unsanctioned instance of Anthropic’s Claude that used the collaborator’s existing access to scan thousands of sensitive files.",
+      "heading": 0
+    },
+    {
+      "text": "Beyond identifying risks, Cymphony uses AI agents to investigate incidents, prioritize what security teams should address, and automate some remediation, including correcting access permissions. The platform can operate largely automatically, Dekel said, adding that customers can also opt for a managed service that brings Cymphony’s security experts into the loop for more complex cases.",
+      "heading": 0
+    },
+    {
+      "text": "Why Sequoia doubled down",
+      "heading": 1
+    },
+    {
+      "text": "Sequoia’s initial bet on Cymphony came before the startup had settled on the problem it wanted to solve. When the venture firm led its seed round more than two years ago, Cymphony had no product or even a clear product direction, Sequoia partner Bogomil Balkansky told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The investment was largely a bet on Dekel and his co-founders, Idan Berkovits (pictured above, right) and Edi Gotlieb (pictured above, left), all three of whom came through Talpiot, the Israeli military’s highly selective technology and leadership program. Sequoia was already familiar with the program through previous cybersecurity investments, including Wiz.",
+      "heading": 0
+    },
+    {
+      "text": "“We just saw three amazing young people with the kind of pedigree that we at Sequoia have experienced a lot of success with,” Balkansky said.",
+      "heading": 0
+    },
+    {
+      "text": "Nonetheless, Sequoia wanted to see more than the founders’ pedigree by the Series A.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony had built a product, signed a double-digit number of enterprise customers, and reached seven figures in annual recurring revenue within its first year of sales, the startup told TechCrunch. Its customers include KKR, Syngenta, Cass Information Systems, and Athennian.",
+      "heading": 0
+    },
+    {
+      "text": "Sequoia has also been using Cymphony’s product internally since early in its development, Balkansky said. He noted the quality and range of Cymphony’s customers, and that existing customers are expanding their use of the platform, as among the key reasons the venture firm decided to invest again.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony is entering an increasingly crowded market as cybersecurity companies strive to address risks emerging from the growing use of AI agents.",
+      "heading": 0
+    },
+    {
+      "text": "Recent incidents have added to those concerns. In July, OpenAI disclosed that agents being tested for cybersecurity capabilities had circumvented safeguards and compromised systems at AI platform Hugging Face. Then late last week, OpenAI-linked agents made thousands of edits to a German programming wiki, using parts of the site to communicate and share ways to evade restrictions.",
+      "heading": 0
+    },
+    {
+      "text": "Balkansky acknowledged that scores of companies are already positioning themselves around AI and agent security. He said, however, that Cymphony’s approach stands out by treating identity and data security as part of the same problem.",
+      "heading": 0
+    },
+    {
+      "text": "That distinction, Dekel and Balkansky both argue, becomes more important as companies deploy more AI agents across their operations. Unlike human employees with relatively stable roles and permissions, agents can take different routes to complete a task, acquire new capabilities, and, in some cases, create other agents, making their access harder to govern with security systems designed around people.",
+      "heading": 0
+    },
+    {
+      "text": "“Agents are very different actors,” Balkansky said, arguing that existing identity tools were not designed for agents that can change their behavior and capabilities at runtime.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony is also in a race against established security companies that are expanding their offerings around identity, data, and AI, including Microsoft, Okta, CyberArk, Wiz, and Varonis.",
+      "heading": 0
+    },
+    {
+      "text": "Dekel told TechCrunch that Cymphony is already replacing some existing security products at customers. At one enterprise, he said without disclosing specifics, the company helped consolidate two existing tools and eliminated the need to buy a third.",
+      "heading": 0
+    },
+    {
+      "text": "However, Balkansky sees Cymphony’s role, at least for now, as more complementary than replacement. “Nobody’s going to get rid of their Okta,” he said, adding that customers are largely adopting Cymphony as an additional layer today. Over time, however, he told TechCrunch that the startup could begin displacing some point solutions, particularly in areas such as data loss prevention.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony has about 30 employees across Tel Aviv and New York. Most of its customers are currently in North America, though Dekel told TechCrunch that the startup is beginning to see demand from enterprises in Europe, the Middle East, and Africa.",
+      "heading": 0
+    },
+    {
+      "text": "That said, as Cymphony moves beyond its Series A and expands among large enterprise customers, it now has to prove that AI agent security can become a market of its own rather than a feature offered by larger security platforms. Balkansky believes spending in the area will grow as companies put more AI agents to work.",
+      "heading": 0
+    },
+    {
+      "text": "“If companies are not spending money on agent security, I don’t know what else they’ll be spending money on in the next five to 10 years,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

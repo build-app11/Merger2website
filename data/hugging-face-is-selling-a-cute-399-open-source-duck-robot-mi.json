@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+  "slug": "hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/microduck-morning.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+    "episode": ""
+  },
+  "words": 550,
+  "lines": 18,
+  "duration": 183,
+  "text": "Hugging Face unveiled the Microduck on Thursday, a cute little duck-like robot that sells for $399 — and ships before Christmas.\n\nClem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.” The 25-centimeter-tall duck can waddle, pick things up with its beak, get back up when it falls, crouch, and even roller skate.\n\n“Welcome to the era of open-source affordable robots to democratize physical AI and world models!” Delangue said.\n\nraw footage pic.twitter.com/HUTKEb9bXT\n\nHugging Face is best known as a platform and community where developers go for open model weights. However, the company acquired French startup Pollen Robotics in April 2025 to build affordable, open source AI hardware. A couple of months later, the two launched Reachy Mini, a small desktop robot. Today, they sell the $499 Reachy Mini, which is powered by a Raspberry Pi computer, and the $399 Reachy Mini Lite, powered by a Mac or PC.\n\nThe new Microduck perceives the world with a camera, lidar sensors, and two IMUs (inertial measurement units that measure and report an object’s movement).\n\nPollen Robotics noted that the Microduck’s behaviors can be trained in simulation and directly deployed on the robot. Developers can then fine-tune the bot, retrain it, and redeploy it. The SDK (software development kit), simulation, and full RL training stack are available on GitHub.\n\nFor those who might find it concerning to have a robot with a camera in their bedrooms and private spaces, Delangue previously told TechCrunch that bots run by open source models are much better from a privacy standpoint than “a black box system” controlled by a few organizations, “especially if these organizations’ CEO is not the most stable person in the world.”\n\nWhile open source gives developers auditability and control, it doesn’t provide a guarantee that sensitive data remains private after consumers start installing software applications on top of the model. Those apps can access the bot’s cameras and microphones and, depending on how they’re built, send that data to external services.\n\nThe launch of the Microduck comes as Hugging Face is reportedly set to be acquired by Nvidia at a $13 billion valuation. Nvidia and Hugging Face have been partners for years, with Nvidia providing the startup’s infrastructure since at least 2023. Both companies have also been publicly aligned in promoting open source AI.\n\nHugging Face was recently in the headlines over a cybersecurity incident that occurred after OpenAI’s systems breached its sandbox during safety testing and hacked into the platform’s servers.\n\nTechCrunch has reached out to Hugging Face and Pollen Robotics for more information.\n\nCorrection: A previous version of this article misstated how much weight the Microduck could pick up with its beak.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Hugging Face unveiled the Microduck on Thursday, a cute little duck-like robot that sells for $399 — and ships before Christmas.",
+      "heading": 0
+    },
+    {
+      "text": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.” The 25-centimeter-tall duck can waddle, pick things up with its beak, get back up when it falls, crouch, and even roller skate.",
+      "heading": 0
+    },
+    {
+      "text": "“Welcome to the era of open-source affordable robots to democratize physical AI and world models!” Delangue said.",
+      "heading": 0
+    },
+    {
+      "text": "raw footage pic.twitter.com/HUTKEb9bXT",
+      "heading": 1
+    },
+    {
+      "text": "Hugging Face is best known as a platform and community where developers go for open model weights. However, the company acquired French startup Pollen Robotics in April 2025 to build affordable, open source AI hardware. A couple of months later, the two launched Reachy Mini, a small desktop robot. Today, they sell the $499 Reachy Mini, which is powered by a Raspberry Pi computer, and the $399 Reachy Mini Lite, powered by a Mac or PC.",
+      "heading": 0
+    },
+    {
+      "text": "The new Microduck perceives the world with a camera, lidar sensors, and two IMUs (inertial measurement units that measure and report an object’s movement).",
+      "heading": 0
+    },
+    {
+      "text": "Pollen Robotics noted that the Microduck’s behaviors can be trained in simulation and directly deployed on the robot. Developers can then fine-tune the bot, retrain it, and redeploy it. The SDK (software development kit), simulation, and full RL training stack are available on GitHub.",
+      "heading": 0
+    },
+    {
+      "text": "For those who might find it concerning to have a robot with a camera in their bedrooms and private spaces, Delangue previously told TechCrunch that bots run by open source models are much better from a privacy standpoint than “a black box system” controlled by a few organizations, “especially if these organizations’ CEO is not the most stable person in the world.”",
+      "heading": 0
+    },
+    {
+      "text": "While open source gives developers auditability and control, it doesn’t provide a guarantee that sensitive data remains private after consumers start installing software applications on top of the model. Those apps can access the bot’s cameras and microphones and, depending on how they’re built, send that data to external services.",
+      "heading": 0
+    },
+    {
+      "text": "The launch of the Microduck comes as Hugging Face is reportedly set to be acquired by Nvidia at a $13 billion valuation. Nvidia and Hugging Face have been partners for years, with Nvidia providing the startup’s infrastructure since at least 2023. Both companies have also been publicly aligned in promoting open source AI.",
+      "heading": 0
+    },
+    {
+      "text": "Hugging Face was recently in the headlines over a cybersecurity incident that occurred after OpenAI’s systems breached its sandbox during safety testing and hacked into the platform’s servers.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Hugging Face and Pollen Robotics for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Correction: A previous version of this article misstated how much weight the Microduck could pick up with its beak.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

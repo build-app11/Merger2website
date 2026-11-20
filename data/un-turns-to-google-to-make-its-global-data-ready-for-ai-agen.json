@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "UN turns to Google to make its global data ready for AI agents",
+  "slug": "un-turns-to-google-to-make-its-global-data-ready-for-ai-agen",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2196352264.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+    "episode": ""
+  },
+  "words": 826,
+  "lines": 21,
+  "duration": 275,
+  "text": "The United Nations on Thursday announced that it is working with Google to make its vast collection of global statistics easier for AI systems to access and use.\n\nCalled the UN System Data Commons, the new system is built on Google’s open source Data Commons platform and lets people search for statistics from across UN agencies using natural-language queries. It replaces the existing UNData portal, where users largely had to browse and search for statistics through a more traditional database interface. The new platform also supports the Model Context Protocol (MCP), a standard that allows AI systems to connect directly to external data sources.\n\nUsers increasingly turn to AI tools for answers, but many systems still struggle to reliably surface authoritative data. A UNICEF benchmark of six large language models across more than 133,000 responses to questions about global development indicators produced an average accuracy score of just 21.2%, João Pedro Azevedo, the agency’s chief statistician, told reporters in a virtual briefing.\n\nThe test covered OpenAI’s GPT-4o and GPT-4o-mini, Anthropic’s Claude Sonnet 4.5 and Haiku 4.5, and Google’s Gemini 2.5 Flash and Gemini 2.0 Flash, Azevedo told TechCrunch.\n\nAbout three in five responses did not provide a usable number at all, often because the models hedged their answers, Azevedo said. However, when the same questions were run again on the same model versions about two days later, models that provided a number both times returned the identical number only about half the time.\n\nThe study is a UNICEF working paper being prepared for journal submission and has not yet been peer-reviewed. The organization said it plans to release its methodology, code, and data alongside the paper.\n\nUNICEF has also seen a sharp rise this year in traffic from generative AI assistants to its data website, which receives more than 6 million visits a month and is among the agency’s most popular websites. Visits from users clicking links in ChatGPT answers to the site rose 67% year-over-year between January 1 and September 14, Azevedo told TechCrunch. Such referrals accounted for 6.4% of all sessions this year, while UNICEF estimates that AI assistants overall now account for about one in 10 visits.\n\nThe UN said 26 of its entities have committed to the Data Commons, with data from nearly 20 available at launch. Moreover, it aims to bring 80% of the UN system’s statistical datasets onto the platform by 2027.\n\n“We are orders of magnitude more advanced in scale, scope, and flexibility, connecting for the first time across so many agencies across the UN system,” said Shantanu Mukherjee, acting director of the UN Statistics Division. “And [we are] taking this moment to also make our data AI-ready.”\n\nGoogle.org provided $2 million in capacity-building funding and technical support to establish the platform’s core infrastructure. Prem Ramaswami, who leads Google’s Data Commons team, told TechCrunch that the system is hosted on a UN-governed instance and is intended to eventually be maintained, operated, and scaled independently by the UN.\n\n“We have taken a “train-the-trainer” approach throughout the rollout, and we have already seen the UN system team ramp up quickly,” Ramaswami said.\n\nGoogle launched Data Commons in 2018 as an effort to organize public datasets from different sources into a common framework. Last year, it added support for MCP, allowing AI agents to directly query Data Commons for statistics and their sources.\n\nThe UN’s platform also keeps track of where each statistic comes from, so people can trace data retrieved by an AI system back to the original UN source. Azevedo told reporters that it was important as more people rely on AI tools to find and interpret information.\n\nAlongside enabling AI agents to retrieve individual statistics, Google demonstrated how an AI system connected to the UN data through MCP could pull together multiple indicators and use them to generate dashboards, charts, and written analysis without a user having to manually find and combine the underlying datasets.\n\nIn one demonstration, Google asked an AI system to find the impact of the U.S. President’s Emergency Plan for AIDS Relief in Africa. The system identified relevant UN statistics on measures such as HIV infections, AIDS mortality, and life expectancy, and used them to produce an infographic.\n\nHowever, giving an AI system authoritative data does not necessarily make its conclusions authoritative. “Because models can misinterpret nuance, a human should always review the outputs before citing or publishing them,” Ramaswami said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "The United Nations on Thursday announced that it is working with Google to make its vast collection of global statistics easier for AI systems to access and use.",
+      "heading": 0
+    },
+    {
+      "text": "Called the UN System Data Commons, the new system is built on Google’s open source Data Commons platform and lets people search for statistics from across UN agencies using natural-language queries. It replaces the existing UNData portal, where users largely had to browse and search for statistics through a more traditional database interface. The new platform also supports the Model Context Protocol (MCP), a standard that allows AI systems to connect directly to external data sources.",
+      "heading": 0
+    },
+    {
+      "text": "Users increasingly turn to AI tools for answers, but many systems still struggle to reliably surface authoritative data. A UNICEF benchmark of six large language models across more than 133,000 responses to questions about global development indicators produced an average accuracy score of just 21.2%, João Pedro Azevedo, the agency’s chief statistician, told reporters in a virtual briefing.",
+      "heading": 0
+    },
+    {
+      "text": "The test covered OpenAI’s GPT-4o and GPT-4o-mini, Anthropic’s Claude Sonnet 4.5 and Haiku 4.5, and Google’s Gemini 2.5 Flash and Gemini 2.0 Flash, Azevedo told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "About three in five responses did not provide a usable number at all, often because the models hedged their answers, Azevedo said. However, when the same questions were run again on the same model versions about two days later, models that provided a number both times returned the identical number only about half the time.",
+      "heading": 0
+    },
+    {
+      "text": "The study is a UNICEF working paper being prepared for journal submission and has not yet been peer-reviewed. The organization said it plans to release its methodology, code, and data alongside the paper.",
+      "heading": 0
+    },
+    {
+      "text": "UNICEF has also seen a sharp rise this year in traffic from generative AI assistants to its data website, which receives more than 6 million visits a month and is among the agency’s most popular websites. Visits from users clicking links in ChatGPT answers to the site rose 67% year-over-year between January 1 and September 14, Azevedo told TechCrunch. Such referrals accounted for 6.4% of all sessions this year, while UNICEF estimates that AI assistants overall now account for about one in 10 visits.",
+      "heading": 0
+    },
+    {
+      "text": "The UN said 26 of its entities have committed to the Data Commons, with data from nearly 20 available at launch. Moreover, it aims to bring 80% of the UN system’s statistical datasets onto the platform by 2027.",
+      "heading": 0
+    },
+    {
+      "text": "“We are orders of magnitude more advanced in scale, scope, and flexibility, connecting for the first time across so many agencies across the UN system,” said Shantanu Mukherjee, acting director of the UN Statistics Division. “And [we are] taking this moment to also make our data AI-ready.”",
+      "heading": 0
+    },
+    {
+      "text": "Google.org provided $2 million in capacity-building funding and technical support to establish the platform’s core infrastructure. Prem Ramaswami, who leads Google’s Data Commons team, told TechCrunch that the system is hosted on a UN-governed instance and is intended to eventually be maintained, operated, and scaled independently by the UN.",
+      "heading": 0
+    },
+    {
+      "text": "“We have taken a “train-the-trainer” approach throughout the rollout, and we have already seen the UN system team ramp up quickly,” Ramaswami said.",
+      "heading": 0
+    },
+    {
+      "text": "Google launched Data Commons in 2018 as an effort to organize public datasets from different sources into a common framework. Last year, it added support for MCP, allowing AI agents to directly query Data Commons for statistics and their sources.",
+      "heading": 0
+    },
+    {
+      "text": "The UN’s platform also keeps track of where each statistic comes from, so people can trace data retrieved by an AI system back to the original UN source. Azevedo told reporters that it was important as more people rely on AI tools to find and interpret information.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside enabling AI agents to retrieve individual statistics, Google demonstrated how an AI system connected to the UN data through MCP could pull together multiple indicators and use them to generate dashboards, charts, and written analysis without a user having to manually find and combine the underlying datasets.",
+      "heading": 0
+    },
+    {
+      "text": "In one demonstration, Google asked an AI system to find the impact of the U.S. President’s Emergency Plan for AIDS Relief in Africa. The system identified relevant UN statistics on measures such as HIV infections, AIDS mortality, and life expectancy, and used them to produce an infographic.",
+      "heading": 0
+    },
+    {
+      "text": "However, giving an AI system authoritative data does not necessarily make its conclusions authoritative. “Because models can misinterpret nuance, a human should always review the outputs before citing or publishing them,” Ramaswami said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

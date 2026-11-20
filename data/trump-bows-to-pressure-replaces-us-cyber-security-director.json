@@ -1,0 +1,36 @@
+{
+  "type": "read",
+  "title": "Trump bows to pressure, replaces US cyber security director",
+  "slug": "trump-bows-to-pressure-replaces-us-cyber-security-director",
+  "category": "News",
+  "channel": "Al Jazeera",
+  "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795153683.jpg?resize=1620%2C1080&quality=80",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director?traffic_source=rss",
+    "episode": ""
+  },
+  "words": 48,
+  "lines": 3,
+  "duration": 60,
+  "text": "NewsFeed\n\nTrump bows to pressure, replaces US cyber security director\n\nPresident Trump has removed National Cyber Director Sean Cairncross and named a Defense Department official as an interim replacement. Cairncross’s departure comes amid major US technology outages, though officials say there is no evidence they were cyberattacks.",
+  "paragraphs": [
+    {
+      "text": "NewsFeed",
+      "heading": 1
+    },
+    {
+      "text": "Trump bows to pressure, replaces US cyber security director",
+      "heading": 1
+    },
+    {
+      "text": "President Trump has removed National Cyber Director Sean Cairncross and named a Defense Department official as an interim replacement. Cairncross’s departure comes amid major US technology outages, though officials say there is no evidence they were cyberattacks.",
+      "heading": 0
+    }
+  ]
+}

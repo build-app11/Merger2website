@@ -1,0 +1,108 @@
+{
+  "type": "read",
+  "title": "FAA pauses installation of new routers after ground stop",
+  "slug": "faa-pauses-installation-of-new-routers-after-ground-stop",
+  "category": "News",
+  "channel": "CNBC",
+  "image": "https://image.cnbcfm.com/api/v1/image/108551581-1794669969667-gettyimages-2304580986-US_GROUND_STOP.jpeg?v=1794872932&w=1920&h=1080",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
+    "episode": ""
+  },
+  "words": 579,
+  "lines": 21,
+  "duration": 193,
+  "text": "The FAA said it would pause work to install new routers after problems with the technology in recent days.\n\nTransportation Secretary Sean Duffy has said an overloaded router led the agency to issue a rare nationwide ground stop for more than four hours on Friday, but the cause of the tech problem is still unclear.\n\nDemocratic senators have asked the FAA, the Department of Transportation and the companies involved in the work for clarity on what went wrong.\n\nIn this article\n\nLHX\n\nThe Federal Aviation Administration said Tuesday it would pause the installation of new routers after problems with the technology led the agency to issue a rare nationwide ground stop on Friday.\n\nTens of thousands of flights were affected by the ground stop, which halted departing flights for more than four hours. It was the longest halt to U.S. flight departures since 9/11.\n\nTransportation Secretary Sean Duffy said Sunday that an overloaded router installed in southern Arkansas as part of an upgrade to a system overseen by L3Harris Technologies appeared to overwhelm systems that feed radar and other data for air traffic control.\n\nThe Wall Street Journal first reported the news about the pause.\n\nThe FAA and Department of Transportation have said L3Harris was working to convert the communications network from copper wires to fiber optic.\n\nDemocratic members of the Senate Committee on Commerce, Science and Transportation this week asked the FAA and the Department of Transportation for clarity on what went wrong.\n\n\"Identifying the device that failed does not establish why it failed,\" the senators wrote in a statement. \"Modernization cannot come at the expense of operational safety.\"\n\nThe agencies have said they are working to figure out the root cause of the issue and have reiterated that there is no indication of a cyberattack or outside threat.\n\nThe senators also asked for a briefing with the FAA, L3Harris and Juniper Networks, which is making the new devices, by Monday. They asked the companies to lay out why the operational systems lacked sufficient redundancy and answer other questions about what led to the outage.\n\nCNBC has reached out to L3Harris and Juniper Networks for comment.\n\nDuffy on Friday called for Congress to approve $50 billion in funding for upgrades to the aging U.S. air traffic control system, more than he has previously asked for. Democratic lawmakers pushed back on the request, citing unspent money from existing funding, which includes Congress' approval last year of $12.5 billion for airport and air traffic control improvements over five years.\n\nSenate Commerce Chair Ted Cruz, R-Texas, said Tuesday that he thinks there will be support for air traffic control modernization, but that the allocation should be specifically for safety upgrades.\n\n\"I don't think the full $50 billion will be funded,\" he said. \"Some of that is not safety related, but we just discussed there, and what I expressed is that the request needs to be focused on safety modernization.\"\n\nDuffy dismissed the idea that the router issue had to do with the introduction of artificial intelligence tools and said it was \"completely unfounded\" because the AI system is not in communication with the defective router. He added that the FBI is helping to investigate the root cause of the issue.\n\nAging equipment and a shortage of air traffic controllers have for years angered airline executives, who have complained about the cost of resulting disruptions.\n\n— CNBC's Phil LeBeau, Leslie Josephs and Justin Papp contributed to this report.",
+  "paragraphs": [
+    {
+      "text": "The FAA said it would pause work to install new routers after problems with the technology in recent days.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Secretary Sean Duffy has said an overloaded router led the agency to issue a rare nationwide ground stop for more than four hours on Friday, but the cause of the tech problem is still unclear.",
+      "heading": 0
+    },
+    {
+      "text": "Democratic senators have asked the FAA, the Department of Transportation and the companies involved in the work for clarity on what went wrong.",
+      "heading": 0
+    },
+    {
+      "text": "In this article",
+      "heading": 1
+    },
+    {
+      "text": "LHX",
+      "heading": 1
+    },
+    {
+      "text": "The Federal Aviation Administration said Tuesday it would pause the installation of new routers after problems with the technology led the agency to issue a rare nationwide ground stop on Friday.",
+      "heading": 0
+    },
+    {
+      "text": "Tens of thousands of flights were affected by the ground stop, which halted departing flights for more than four hours. It was the longest halt to U.S. flight departures since 9/11.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Secretary Sean Duffy said Sunday that an overloaded router installed in southern Arkansas as part of an upgrade to a system overseen by L3Harris Technologies appeared to overwhelm systems that feed radar and other data for air traffic control.",
+      "heading": 0
+    },
+    {
+      "text": "The Wall Street Journal first reported the news about the pause.",
+      "heading": 0
+    },
+    {
+      "text": "The FAA and Department of Transportation have said L3Harris was working to convert the communications network from copper wires to fiber optic.",
+      "heading": 0
+    },
+    {
+      "text": "Democratic members of the Senate Committee on Commerce, Science and Transportation this week asked the FAA and the Department of Transportation for clarity on what went wrong.",
+      "heading": 0
+    },
+    {
+      "text": "\"Identifying the device that failed does not establish why it failed,\" the senators wrote in a statement. \"Modernization cannot come at the expense of operational safety.\"",
+      "heading": 0
+    },
+    {
+      "text": "The agencies have said they are working to figure out the root cause of the issue and have reiterated that there is no indication of a cyberattack or outside threat.",
+      "heading": 0
+    },
+    {
+      "text": "The senators also asked for a briefing with the FAA, L3Harris and Juniper Networks, which is making the new devices, by Monday. They asked the companies to lay out why the operational systems lacked sufficient redundancy and answer other questions about what led to the outage.",
+      "heading": 0
+    },
+    {
+      "text": "CNBC has reached out to L3Harris and Juniper Networks for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Duffy on Friday called for Congress to approve $50 billion in funding for upgrades to the aging U.S. air traffic control system, more than he has previously asked for. Democratic lawmakers pushed back on the request, citing unspent money from existing funding, which includes Congress' approval last year of $12.5 billion for airport and air traffic control improvements over five years.",
+      "heading": 0
+    },
+    {
+      "text": "Senate Commerce Chair Ted Cruz, R-Texas, said Tuesday that he thinks there will be support for air traffic control modernization, but that the allocation should be specifically for safety upgrades.",
+      "heading": 0
+    },
+    {
+      "text": "\"I don't think the full $50 billion will be funded,\" he said. \"Some of that is not safety related, but we just discussed there, and what I expressed is that the request needs to be focused on safety modernization.\"",
+      "heading": 0
+    },
+    {
+      "text": "Duffy dismissed the idea that the router issue had to do with the introduction of artificial intelligence tools and said it was \"completely unfounded\" because the AI system is not in communication with the defective router. He added that the FBI is helping to investigate the root cause of the issue.",
+      "heading": 0
+    },
+    {
+      "text": "Aging equipment and a shortage of air traffic controllers have for years angered airline executives, who have complained about the cost of resulting disruptions.",
+      "heading": 0
+    },
+    {
+      "text": "— CNBC's Phil LeBeau, Leslie Josephs and Justin Papp contributed to this report.",
+      "heading": 0
+    }
+  ]
+}

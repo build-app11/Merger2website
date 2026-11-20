@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+  "slug": "coreweave-turns-to-customer-prepayments-shorter-contracts-to",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "episode": ""
+  },
+  "words": 694,
+  "lines": 21,
+  "duration": 231,
+  "text": "CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings, reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even pursuing short-term deals that could lead to higher prices.\n\nThe new strategies could help CoreWeave finance its growth more efficiently while squeezing more cash from existing infrastructure. But these bets only hold if today’s demand and pricing power continue.\n\nCoreWeave reported $3.66 billion in revenue, up 168% from the year prior, but it also posted a $709 million net loss and $846 million in quarterly interest expense.\n\n“We will not use the unsecured debt market to fund our business at current yields, nor do we need to,” CoreWeave CEO Michael Intrator said during Tuesday’s earnings call.\n\nInstead, CoreWeave’s plan is to rely on loans backed by specific customer contracts, drawing on funds as needed to finance most of the infrastructure it still has to build to deliver on its significant backlog of $132.5 billion.\n\nCoreWeave also said it expects about $9 billion in customer prepayments and deposits over the next three months, including more than $3 billion tied to signing new customer contracts for capacity it has already built, which requires no additional spending on hardware.\n\nRivals Nebius and IREN have also relied on hefty Microsoft prepayments to pay for computing capacity, signaling that the industry is moving toward asking Big Tech to pay up for their buildouts.\n\nUpfront payments could alleviate CoreWeave’s immediate borrowing needs, but they also commit the company to providing services at a price that might be less attractive down the road if compute demand continues to surge.\n\nCoreWeave is also looking to capitalize on that growing demand by signing more shorter-term contracts that can command much higher prices.\n\nThe company raised prices across its offerings by about 25% in July and by another 10% later in the quarter. Prices are still climbing this quarter, in a way that “more than offset[s] cost increases,” said Intrator.\n\n“We are also allocating more capacity to short-term opportunities, where the pricing justifies it, selling capacity at more than $40 million per megawatt annually, while pricing for new infrastructure on four- and five-year contracts is moving to $20 million to $25 million per megawatt,” the chief executive said.\n\nCoreWeave’s financing strategy now revolves around those opportunities. In August, the company closed a $2.6 billion loan, its first designed specifically for shorter-term customer contracts. Known as DDTL 5.5, it lets CoreWeave borrow in installments as it needs the money.\n\nWhile short-term deals let CoreWeave charge higher prices and change them more frequently, it’s a trade-off. Lenders give more weight to longer-term contracts, even if they’re priced lower, because they value predictable cash flow and consistency to repay the loan above all.\n\nEven though Wall Street reacted positively to CoreWeave’s earnings, bond investors are much less sanguine. Last month, yields on some of the company’s bonds hit above 15%, highlighting that investors are concerned about the debt needed to fund data center buildouts before those investments see a return.\n\nIn short, CoreWeave is finding new ways to expand without relying on unsecured debt. The strategy it has chosen could boost profits, but it also carries greater risk around contract renewals and pricing — and it just goes to show how dependent the AI infrastructure boom is on sustained, and as yet unproven, demand.\n\nTechCrunch has reached out to CoreWeave for more information about its loan facility.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings, reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even pursuing short-term deals that could lead to higher prices.",
+      "heading": 0
+    },
+    {
+      "text": "The new strategies could help CoreWeave finance its growth more efficiently while squeezing more cash from existing infrastructure. But these bets only hold if today’s demand and pricing power continue.",
+      "heading": 0
+    },
+    {
+      "text": "CoreWeave reported $3.66 billion in revenue, up 168% from the year prior, but it also posted a $709 million net loss and $846 million in quarterly interest expense.",
+      "heading": 0
+    },
+    {
+      "text": "“We will not use the unsecured debt market to fund our business at current yields, nor do we need to,” CoreWeave CEO Michael Intrator said during Tuesday’s earnings call.",
+      "heading": 0
+    },
+    {
+      "text": "Instead, CoreWeave’s plan is to rely on loans backed by specific customer contracts, drawing on funds as needed to finance most of the infrastructure it still has to build to deliver on its significant backlog of $132.5 billion.",
+      "heading": 0
+    },
+    {
+      "text": "CoreWeave also said it expects about $9 billion in customer prepayments and deposits over the next three months, including more than $3 billion tied to signing new customer contracts for capacity it has already built, which requires no additional spending on hardware.",
+      "heading": 0
+    },
+    {
+      "text": "Rivals Nebius and IREN have also relied on hefty Microsoft prepayments to pay for computing capacity, signaling that the industry is moving toward asking Big Tech to pay up for their buildouts.",
+      "heading": 0
+    },
+    {
+      "text": "Upfront payments could alleviate CoreWeave’s immediate borrowing needs, but they also commit the company to providing services at a price that might be less attractive down the road if compute demand continues to surge.",
+      "heading": 0
+    },
+    {
+      "text": "CoreWeave is also looking to capitalize on that growing demand by signing more shorter-term contracts that can command much higher prices.",
+      "heading": 0
+    },
+    {
+      "text": "The company raised prices across its offerings by about 25% in July and by another 10% later in the quarter. Prices are still climbing this quarter, in a way that “more than offset[s] cost increases,” said Intrator.",
+      "heading": 0
+    },
+    {
+      "text": "“We are also allocating more capacity to short-term opportunities, where the pricing justifies it, selling capacity at more than $40 million per megawatt annually, while pricing for new infrastructure on four- and five-year contracts is moving to $20 million to $25 million per megawatt,” the chief executive said.",
+      "heading": 0
+    },
+    {
+      "text": "CoreWeave’s financing strategy now revolves around those opportunities. In August, the company closed a $2.6 billion loan, its first designed specifically for shorter-term customer contracts. Known as DDTL 5.5, it lets CoreWeave borrow in installments as it needs the money.",
+      "heading": 0
+    },
+    {
+      "text": "While short-term deals let CoreWeave charge higher prices and change them more frequently, it’s a trade-off. Lenders give more weight to longer-term contracts, even if they’re priced lower, because they value predictable cash flow and consistency to repay the loan above all.",
+      "heading": 0
+    },
+    {
+      "text": "Even though Wall Street reacted positively to CoreWeave’s earnings, bond investors are much less sanguine. Last month, yields on some of the company’s bonds hit above 15%, highlighting that investors are concerned about the debt needed to fund data center buildouts before those investments see a return.",
+      "heading": 0
+    },
+    {
+      "text": "In short, CoreWeave is finding new ways to expand without relying on unsecured debt. The strategy it has chosen could boost profits, but it also carries greater risk around contract renewals and pricing — and it just goes to show how dependent the AI infrastructure boom is on sustained, and as yet unproven, demand.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to CoreWeave for more information about its loan facility.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

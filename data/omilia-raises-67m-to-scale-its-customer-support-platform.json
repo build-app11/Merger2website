@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Omilia raises $67M to scale its customer support platform",
+  "slug": "omilia-raises-67m-to-scale-its-customer-support-platform",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Self-Learning-Agents-Vertical.jpeg?resize=1200,789",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+    "episode": ""
+  },
+  "words": 603,
+  "lines": 16,
+  "duration": 201,
+  "text": "The customer support industry has seen a massive influx of startups like Sierra, Decagon, and Parloa trying to infuse AI into automating customer calls, chat, and messages so companies can handle more queries at scale.\n\nBut according to Athens-based Omilia, which has been working on automating voice calls and customer support since 2002, throwing AI at every process can be wasteful. The company’s CEO, Dimitris Vassos, says that a large proportion of incoming customer support queries involve basic information, such as account balances, and there’s little need to deploy large language models for such tasks.\n\n“We will use any available weapon to win the battle for customer service. Companies like Sierra, Decagon, etc. identify as generative AI companies. Their sole purpose is to deploy generative AI and limit themselves. You may have a bazooka, but if your enemy is near you, you need a knife. This is the reality of the contact center, where you need multiple tools,” he said.\n\nOmilia itself has expanded its operations to building self-learning agents that can work across different customer contact points. To build that out, the company has now raised a $67 million Series B led by Expedition Growth Capital.\n\nThis round is the company’s second time raising capital after it raised $20 million from Grafton Capital in 2020. Since then, it has managed to increase its annual recurring revenue by 10x to $60 million.\n\nVassos says Omilia’s key differentiation lies in having great unit economics for both itself and its customers, and thanks to this approach, it hasn’t needed large cash infusions as compared to its competitors.\n\n“In the next few years, we will see the companies that can offer real ROI prevail. We don’t mind that we’re not as sexy as ElevenLabs and Sierra on LinkedIn right now. We care about growing steadily and building the foundations for a billion-dollar revenue company in the next three years,” Vassos said.\n\nOmilia’s clients include Capital One, Discover, RBC, DWP, and PSEG, and Vassos said quick-service restaurants that have adopted voice-based ordering are now a big focus. The company already has Taco Bell as a client and has deployed its tech across more than 1,000 outlets. Vassos said that it is in talks with two more quick-service restaurants in the U.S.\n\nBut AI deployments can be quite hit or miss. In Taco Bell’s case, a snafu in its ordering system reportedly allowed a customer to order 18,000 cups of water last year.\n\nVassos maintains this incident never took place, and Omilia’s logs didn’t show it. We have reached out to Taco Bell to clarify, and we will update our story if we hear back.\n\nOmilia will use the fresh cash to open a new office in the U.S., a market that accounts for a significant chunk of its revenue. It will also bolster its go-to-market team and is hiring a chief revenue officer, chief marketing officer, and a VP of revenue operations.\n\nThe company has around 500 employees at the moment and expects its headcount to reach 600 by the end of the year.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "The customer support industry has seen a massive influx of startups like Sierra, Decagon, and Parloa trying to infuse AI into automating customer calls, chat, and messages so companies can handle more queries at scale.",
+      "heading": 0
+    },
+    {
+      "text": "But according to Athens-based Omilia, which has been working on automating voice calls and customer support since 2002, throwing AI at every process can be wasteful. The company’s CEO, Dimitris Vassos, says that a large proportion of incoming customer support queries involve basic information, such as account balances, and there’s little need to deploy large language models for such tasks.",
+      "heading": 0
+    },
+    {
+      "text": "“We will use any available weapon to win the battle for customer service. Companies like Sierra, Decagon, etc. identify as generative AI companies. Their sole purpose is to deploy generative AI and limit themselves. You may have a bazooka, but if your enemy is near you, you need a knife. This is the reality of the contact center, where you need multiple tools,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Omilia itself has expanded its operations to building self-learning agents that can work across different customer contact points. To build that out, the company has now raised a $67 million Series B led by Expedition Growth Capital.",
+      "heading": 0
+    },
+    {
+      "text": "This round is the company’s second time raising capital after it raised $20 million from Grafton Capital in 2020. Since then, it has managed to increase its annual recurring revenue by 10x to $60 million.",
+      "heading": 0
+    },
+    {
+      "text": "Vassos says Omilia’s key differentiation lies in having great unit economics for both itself and its customers, and thanks to this approach, it hasn’t needed large cash infusions as compared to its competitors.",
+      "heading": 0
+    },
+    {
+      "text": "“In the next few years, we will see the companies that can offer real ROI prevail. We don’t mind that we’re not as sexy as ElevenLabs and Sierra on LinkedIn right now. We care about growing steadily and building the foundations for a billion-dollar revenue company in the next three years,” Vassos said.",
+      "heading": 0
+    },
+    {
+      "text": "Omilia’s clients include Capital One, Discover, RBC, DWP, and PSEG, and Vassos said quick-service restaurants that have adopted voice-based ordering are now a big focus. The company already has Taco Bell as a client and has deployed its tech across more than 1,000 outlets. Vassos said that it is in talks with two more quick-service restaurants in the U.S.",
+      "heading": 0
+    },
+    {
+      "text": "But AI deployments can be quite hit or miss. In Taco Bell’s case, a snafu in its ordering system reportedly allowed a customer to order 18,000 cups of water last year.",
+      "heading": 0
+    },
+    {
+      "text": "Vassos maintains this incident never took place, and Omilia’s logs didn’t show it. We have reached out to Taco Bell to clarify, and we will update our story if we hear back.",
+      "heading": 0
+    },
+    {
+      "text": "Omilia will use the fresh cash to open a new office in the U.S., a market that accounts for a significant chunk of its revenue. It will also bolster its go-to-market team and is hiring a chief revenue officer, chief marketing officer, and a VP of revenue operations.",
+      "heading": 0
+    },
+    {
+      "text": "The company has around 500 employees at the moment and expects its headcount to reach 600 by the end of the year.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

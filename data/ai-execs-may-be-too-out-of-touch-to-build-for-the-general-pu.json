@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "AI execs may be too out of touch to build for the general public",
+  "slug": "ai-execs-may-be-too-out-of-touch-to-build-for-the-general-pu",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1172241499.jpg?resize=1200,728",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+    "episode": ""
+  },
+  "words": 925,
+  "lines": 19,
+  "duration": 308,
+  "text": "Former Yahoo CEO and early Google engineer Marissa Mayer is catching a lot of flak for how she uses AI. In an interview about her new app Dazzle, an AI assistant that learns from your camera roll, Mayer poses what she believes is an impressive flex for the product: It helped her come up with three bullet points about her 10-year-old daughter for a birthday presentation at school, describing her as “empathetic, creative, and an animal lover.”\n\nIt’s a vague description, like a generic horoscope — it could probably describe a lot of 10-year-olds.\n\nSome onlookers, like progressive activist Leah Greenberg, marveled that “the fact that Marissa Mayer would voluntarily disclose this to a reporter is a pretty good demonstration of how deeply the culture of Silicon Valley has diverged from the rest of humanity.”\n\nPerhaps Mayer drew so much backlash because we have repeatedly observed sheltered billionaires suggest that we outsource child-rearing — one of life’s greatest tests of patience, humility, and kindness — to a computer that is incapable of understanding human emotion.\n\nWe’ve been primed for this frustration. Last year, OpenAI CEO Sam Altman told Bored Ape owner and late night host Jimmy Fallon on national television, “I cannot imagine … figuring out how to raise a newborn without ChatGPT.” The public didn’t love that comment, either, but Altman wasn’t fazed by the negative feedback. A few months ago, he said on X that a “ cool use case ” of ChatGPT Work would be creating a podcast that talks about your kids’ upcoming birthdays or soccer games and “explain[s] your kids’ interests.” (He was brutally ratioed with comments like, “What if you just talked to your children?”)\n\nAfter publication, Mayer defended herself in a long X post. She claims she was not relying on Dazzle to explain her child to her, but rather, she was testing what her prototype could do — it resurfaced photos of “forgotten kindergarten projects,” like a “snake devenomer” or “sandcat playground,” illustrating her daughter’s creativity and care for animals.\n\nFair enough. But Mayer remarks in the same interview that people could also use her AI to outsource the mental load of “figuring out the theme for your child’s birthday party.” She says she’s used her app to plan a playdate for her daughter, book family activities on vacation, and decide what to be for Halloween. She even proposes that her AI assistant could coordinate plans with her husband’s AI assistant. When the reporter asks her if it’s depressing to imagine this “frictionless future … planned by AI,” Mayer replies, “I haven’t really thought that through.”\n\nThese leaders seem to write off the naysayers as part of a small, angry fringe group. Yet a Pew Research Center study reports that 50% of U.S. adults think that AI will reduce people’s ability to form meaningful relationships. Only 5% of respondents said AI would make it easier to build these connections.\n\nMeta CEO Mark Zuckerberg, however, joins his Silicon Valley kin in envisioning a world where our social needs are met via AI.\n\n“The average American I think has, it’s fewer than three friends, three people they’d consider friends, and the average person has demand for meaningfully more, I think it’s like 15 friends,” Zuckerberg said last year on a podcast. “The average person wants more connectivity, connection than they have.”\n\nZuckerberg predicts that it will become more socially acceptable to outsource our emotional needs to AI therapists or even AI romantic partners. “There are all these things that are better about physical connections when you can have them,” he added. “But the reality is that people … feel more alone a lot of the time than they would like.”\n\nZuckerberg goes on to explain how virtual-reality embodiments of AI avatars are only growing more realistic. Meta seems to be more keen on improving our relationships with these approximations of humans, rather than between the actual billions of humans who use its platforms each day.\n\nMaybe part of this stems from the culture of the tech industry, which prizes efficiency. People try to biohack their own bodies by optimizing their sleep schedules with health trackers or injecting unregulated “ peptide stacks ” to maximize their productivity.\n\nIf you’re building electric vehicles or computer chips, then sure, efficiency is a clear north star. But our relationships with other people are not a tech product that we’ve been challenged to ship with as little capital as possible. Human relationships are inherently messy, but our connections with one another can be what gives our lives meaning. When we delegate those interactions to computers, we surrender the difficult, yet fulfilling experience of being people.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Former Yahoo CEO and early Google engineer Marissa Mayer is catching a lot of flak for how she uses AI. In an interview about her new app Dazzle, an AI assistant that learns from your camera roll, Mayer poses what she believes is an impressive flex for the product: It helped her come up with three bullet points about her 10-year-old daughter for a birthday presentation at school, describing her as “empathetic, creative, and an animal lover.”",
+      "heading": 0
+    },
+    {
+      "text": "It’s a vague description, like a generic horoscope — it could probably describe a lot of 10-year-olds.",
+      "heading": 0
+    },
+    {
+      "text": "Some onlookers, like progressive activist Leah Greenberg, marveled that “the fact that Marissa Mayer would voluntarily disclose this to a reporter is a pretty good demonstration of how deeply the culture of Silicon Valley has diverged from the rest of humanity.”",
+      "heading": 0
+    },
+    {
+      "text": "Perhaps Mayer drew so much backlash because we have repeatedly observed sheltered billionaires suggest that we outsource child-rearing — one of life’s greatest tests of patience, humility, and kindness — to a computer that is incapable of understanding human emotion.",
+      "heading": 0
+    },
+    {
+      "text": "We’ve been primed for this frustration. Last year, OpenAI CEO Sam Altman told Bored Ape owner and late night host Jimmy Fallon on national television, “I cannot imagine … figuring out how to raise a newborn without ChatGPT.” The public didn’t love that comment, either, but Altman wasn’t fazed by the negative feedback. A few months ago, he said on X that a “ cool use case ” of ChatGPT Work would be creating a podcast that talks about your kids’ upcoming birthdays or soccer games and “explain[s] your kids’ interests.” (He was brutally ratioed with comments like, “What if you just talked to your children?”)",
+      "heading": 0
+    },
+    {
+      "text": "After publication, Mayer defended herself in a long X post. She claims she was not relying on Dazzle to explain her child to her, but rather, she was testing what her prototype could do — it resurfaced photos of “forgotten kindergarten projects,” like a “snake devenomer” or “sandcat playground,” illustrating her daughter’s creativity and care for animals.",
+      "heading": 0
+    },
+    {
+      "text": "Fair enough. But Mayer remarks in the same interview that people could also use her AI to outsource the mental load of “figuring out the theme for your child’s birthday party.” She says she’s used her app to plan a playdate for her daughter, book family activities on vacation, and decide what to be for Halloween. She even proposes that her AI assistant could coordinate plans with her husband’s AI assistant. When the reporter asks her if it’s depressing to imagine this “frictionless future … planned by AI,” Mayer replies, “I haven’t really thought that through.”",
+      "heading": 0
+    },
+    {
+      "text": "These leaders seem to write off the naysayers as part of a small, angry fringe group. Yet a Pew Research Center study reports that 50% of U.S. adults think that AI will reduce people’s ability to form meaningful relationships. Only 5% of respondents said AI would make it easier to build these connections.",
+      "heading": 0
+    },
+    {
+      "text": "Meta CEO Mark Zuckerberg, however, joins his Silicon Valley kin in envisioning a world where our social needs are met via AI.",
+      "heading": 0
+    },
+    {
+      "text": "“The average American I think has, it’s fewer than three friends, three people they’d consider friends, and the average person has demand for meaningfully more, I think it’s like 15 friends,” Zuckerberg said last year on a podcast. “The average person wants more connectivity, connection than they have.”",
+      "heading": 0
+    },
+    {
+      "text": "Zuckerberg predicts that it will become more socially acceptable to outsource our emotional needs to AI therapists or even AI romantic partners. “There are all these things that are better about physical connections when you can have them,” he added. “But the reality is that people … feel more alone a lot of the time than they would like.”",
+      "heading": 0
+    },
+    {
+      "text": "Zuckerberg goes on to explain how virtual-reality embodiments of AI avatars are only growing more realistic. Meta seems to be more keen on improving our relationships with these approximations of humans, rather than between the actual billions of humans who use its platforms each day.",
+      "heading": 0
+    },
+    {
+      "text": "Maybe part of this stems from the culture of the tech industry, which prizes efficiency. People try to biohack their own bodies by optimizing their sleep schedules with health trackers or injecting unregulated “ peptide stacks ” to maximize their productivity.",
+      "heading": 0
+    },
+    {
+      "text": "If you’re building electric vehicles or computer chips, then sure, efficiency is a clear north star. But our relationships with other people are not a tech product that we’ve been challenged to ship with as little capital as possible. Human relationships are inherently messy, but our connections with one another can be what gives our lives meaning. When we delegate those interactions to computers, we surrender the difficult, yet fulfilling experience of being people.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

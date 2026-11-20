@@ -1,0 +1,133 @@
+{
+  "type": "read",
+  "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
+  "slug": "shield-ai-waabi-and-general-motors-on-building-ai-when-failu",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_3-Urtasun-Michael-Taylor_16x9-Dark.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+    "episode": ""
+  },
+  "words": 997,
+  "lines": 27,
+  "duration": 332,
+  "text": "An AI chatbot can give you a bad answer. An AI system controlling an aircraft, vehicle, or robot can create an entirely different kind of problem. When artificial intelligence moves into the physical world, a mistake can ground an aircraft, cause a vehicle crash, or compromise a mission. So how do you know when an autonomous system is actually ready to leave the lab?\n\nAt TechCrunch Disrupt 2026, Shield AI’s chief technology officer Nathan Michael, Waabi founder and CEO Raquel Urtasun, and General Motors’ Director of Robotics Strategy Mikell Taylor will tackle that question on the Real World AI Stage in “ Building AI Systems When Failure Is Not an Option.”\n\nThe conversation will get into the work behind deploying AI where the stakes are high: creating a safety culture, testing and validating systems, navigating regulatory hurdles, and earning trust.\n\nBuilding AI for the physical world? Tomorrow is the last day to save up to $200 on your Disrupt pass. Secure your ticket by September 25 at 11:59 p.m. PT and hear from three leaders working where failure has real-world consequences. Prices will increase after September 25 at 11:59 p.m. PT.\n\nReady for the mission?\n\nAt Shield AI, Nathan Michael leads the development and deployment of Hivemind, the company’s platform-agnostic mission autonomy software. His background spans AI, control, perception, and multi-robot systems, including years at Carnegie Mellon University’s Robotics Institute, where he directed the Resilient Intelligent Systems Lab.\n\nThat expertise is being put to work on technology designed for some of AI’s highest-stakes environments. In February, Hivemind was selected as an autonomy provider for the U.S. Air Force’s Collaborative Combat Aircraft drone prototype program. A month later, Shield AI announced $1.5 billion in Series G funding at a $12.7 billion post-money valuation.\n\nAt Disrupt, Michael brings the perspective of an AI leader developing autonomous systems for environments where performance has to be matched by assurance.\n\nWhat does it take to trust AI with a mission? Secure your Disrupt pass before September 25 at 11:59 p.m. PT, and hear Nathan Michael’s perspective on developing autonomy for high-stakes environments.\n\nReady for the road?\n\nRaquel Urtasun has spent 25 years working in AI and autonomous vehicles. Before founding Waabi, she served as chief scientist and head of R&D at Uber ATG. She’s also a professor of computer science at the University of Toronto, co-founded the Vector Institute for AI, and has published more than 200 AI papers.\n\nNow Waabi is preparing to take its autonomous-driving technology much further. In January, the company raised $1 billion and announced a partnership with Uber to support the deployment of 25,000 or more Waabi Driver-powered robotaxis.\n\nTesting and validation are central to Waabi’s approach. Its Waabi World simulator trains, tests, and stress-tests the Waabi Driver in a virtual environment, and Urtasun has said the company’s autonomous trucks still need to be fully validated before driverless deployment.\n\nThat puts one of the session’s central questions squarely in Urtasun’s wheelhouse: How do you determine when an AI system is ready to operate without a human behind the wheel?\n\nWant to hear how autonomous-driving leaders approach testing, validation, and deployment? Secure your Disrupt pass by September 25 at 11:59 p.m. PT to save up to $200 — and get a second pass for 50% off select ticket types.\n\nReady to work alongside people?\n\nMikell Taylor has spent more than two decades building robots designed to do useful work. Today, she leads robotics strategy for General Motors ’ Autonomous Robotics Center. Previously, she led the Amazon Robotics team that developed Proteus, Amazon’s first autonomous mobile robot.\n\nHer robotics career started in a decidedly less industrial setting: She once built a robotic senior prom date. Since then, Taylor has worked on everything from autonomous underwater vehicles to industrial robotic systems, with a focus on robots that are practical, reliable, and able to work effectively around people.\n\nTaylor’s experience will shed light on a fundamental challenge facing real-world robotics: User experience and adoption need to be considered from the start, as part of both product design and deployment planning. That human element matters when AI-powered machines leave controlled demonstrations and enter workplaces where people have to depend on them.\n\nHow do you build autonomous systems people can work with — and trust? Register for Disrupt before September 25 at 11:59 p.m. PT to save up to $200 and to hear from leaders tackling those questions in the real world.\n\nLearn how to know when AI is ready at Disrupt\n\nAircraft. Autonomous vehicles. Industrial robots. The environments may be different, but all three put the same question in sharp focus: When the consequences of failure are real, what does it take to deploy with confidence?\n\nFor founders and technology leaders building autonomous systems, the session offers a chance to compare how leaders in defense, autonomous driving, and industrial robotics approach the decisions that stand between a promising system and one that’s ready for the real world.\n\nThis session is one of 200+ across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. Beyond the agenda, matchmaking, dealmaking, and networking create more opportunities to make the connections that can move a company forward.\n\nWhen failure isn’t an option, “almost ready” isn’t enough. These are the last two days to save up to $200 on your Disrupt pass. Secure your ticket by September 25 at 11:59 p.m. PT — and get a second pass for 50% off select ticket types.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "An AI chatbot can give you a bad answer. An AI system controlling an aircraft, vehicle, or robot can create an entirely different kind of problem. When artificial intelligence moves into the physical world, a mistake can ground an aircraft, cause a vehicle crash, or compromise a mission. So how do you know when an autonomous system is actually ready to leave the lab?",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, Shield AI’s chief technology officer Nathan Michael, Waabi founder and CEO Raquel Urtasun, and General Motors’ Director of Robotics Strategy Mikell Taylor will tackle that question on the Real World AI Stage in “ Building AI Systems When Failure Is Not an Option.”",
+      "heading": 0
+    },
+    {
+      "text": "The conversation will get into the work behind deploying AI where the stakes are high: creating a safety culture, testing and validating systems, navigating regulatory hurdles, and earning trust.",
+      "heading": 0
+    },
+    {
+      "text": "Building AI for the physical world? Tomorrow is the last day to save up to $200 on your Disrupt pass. Secure your ticket by September 25 at 11:59 p.m. PT and hear from three leaders working where failure has real-world consequences. Prices will increase after September 25 at 11:59 p.m. PT.",
+      "heading": 0
+    },
+    {
+      "text": "Ready for the mission?",
+      "heading": 0
+    },
+    {
+      "text": "At Shield AI, Nathan Michael leads the development and deployment of Hivemind, the company’s platform-agnostic mission autonomy software. His background spans AI, control, perception, and multi-robot systems, including years at Carnegie Mellon University’s Robotics Institute, where he directed the Resilient Intelligent Systems Lab.",
+      "heading": 0
+    },
+    {
+      "text": "That expertise is being put to work on technology designed for some of AI’s highest-stakes environments. In February, Hivemind was selected as an autonomy provider for the U.S. Air Force’s Collaborative Combat Aircraft drone prototype program. A month later, Shield AI announced $1.5 billion in Series G funding at a $12.7 billion post-money valuation.",
+      "heading": 0
+    },
+    {
+      "text": "At Disrupt, Michael brings the perspective of an AI leader developing autonomous systems for environments where performance has to be matched by assurance.",
+      "heading": 0
+    },
+    {
+      "text": "What does it take to trust AI with a mission? Secure your Disrupt pass before September 25 at 11:59 p.m. PT, and hear Nathan Michael’s perspective on developing autonomy for high-stakes environments.",
+      "heading": 0
+    },
+    {
+      "text": "Ready for the road?",
+      "heading": 0
+    },
+    {
+      "text": "Raquel Urtasun has spent 25 years working in AI and autonomous vehicles. Before founding Waabi, she served as chief scientist and head of R&D at Uber ATG. She’s also a professor of computer science at the University of Toronto, co-founded the Vector Institute for AI, and has published more than 200 AI papers.",
+      "heading": 0
+    },
+    {
+      "text": "Now Waabi is preparing to take its autonomous-driving technology much further. In January, the company raised $1 billion and announced a partnership with Uber to support the deployment of 25,000 or more Waabi Driver-powered robotaxis.",
+      "heading": 0
+    },
+    {
+      "text": "Testing and validation are central to Waabi’s approach. Its Waabi World simulator trains, tests, and stress-tests the Waabi Driver in a virtual environment, and Urtasun has said the company’s autonomous trucks still need to be fully validated before driverless deployment.",
+      "heading": 0
+    },
+    {
+      "text": "That puts one of the session’s central questions squarely in Urtasun’s wheelhouse: How do you determine when an AI system is ready to operate without a human behind the wheel?",
+      "heading": 0
+    },
+    {
+      "text": "Want to hear how autonomous-driving leaders approach testing, validation, and deployment? Secure your Disrupt pass by September 25 at 11:59 p.m. PT to save up to $200 — and get a second pass for 50% off select ticket types.",
+      "heading": 0
+    },
+    {
+      "text": "Ready to work alongside people?",
+      "heading": 0
+    },
+    {
+      "text": "Mikell Taylor has spent more than two decades building robots designed to do useful work. Today, she leads robotics strategy for General Motors ’ Autonomous Robotics Center. Previously, she led the Amazon Robotics team that developed Proteus, Amazon’s first autonomous mobile robot.",
+      "heading": 0
+    },
+    {
+      "text": "Her robotics career started in a decidedly less industrial setting: She once built a robotic senior prom date. Since then, Taylor has worked on everything from autonomous underwater vehicles to industrial robotic systems, with a focus on robots that are practical, reliable, and able to work effectively around people.",
+      "heading": 0
+    },
+    {
+      "text": "Taylor’s experience will shed light on a fundamental challenge facing real-world robotics: User experience and adoption need to be considered from the start, as part of both product design and deployment planning. That human element matters when AI-powered machines leave controlled demonstrations and enter workplaces where people have to depend on them.",
+      "heading": 0
+    },
+    {
+      "text": "How do you build autonomous systems people can work with — and trust? Register for Disrupt before September 25 at 11:59 p.m. PT to save up to $200 and to hear from leaders tackling those questions in the real world.",
+      "heading": 0
+    },
+    {
+      "text": "Learn how to know when AI is ready at Disrupt",
+      "heading": 1
+    },
+    {
+      "text": "Aircraft. Autonomous vehicles. Industrial robots. The environments may be different, but all three put the same question in sharp focus: When the consequences of failure are real, what does it take to deploy with confidence?",
+      "heading": 0
+    },
+    {
+      "text": "For founders and technology leaders building autonomous systems, the session offers a chance to compare how leaders in defense, autonomous driving, and industrial robotics approach the decisions that stand between a promising system and one that’s ready for the real world.",
+      "heading": 0
+    },
+    {
+      "text": "This session is one of 200+ across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. Beyond the agenda, matchmaking, dealmaking, and networking create more opportunities to make the connections that can move a company forward.",
+      "heading": 0
+    },
+    {
+      "text": "When failure isn’t an option, “almost ready” isn’t enough. These are the last two days to save up to $200 on your Disrupt pass. Secure your ticket by September 25 at 11:59 p.m. PT — and get a second pass for 50% off select ticket types.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

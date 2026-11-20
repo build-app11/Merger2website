@@ -1,0 +1,145 @@
+{
+  "type": "read",
+  "title": "Everything new coming to Meta’s AI agent Muse",
+  "slug": "everything-new-coming-to-meta-s-ai-agent-muse",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+    "episode": ""
+  },
+  "words": 966,
+  "lines": 30,
+  "duration": 322,
+  "text": "Meta’s personal AI agent Muse is only a few weeks old, and the social networking giant isn’t wasting any time building out what may be its biggest bet on consumer AI to date.\n\nCEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all in on Muse.\n\nThe Muse agent (the physical avatar is named Jolly, according to Zuckerberg) is designed to handle everyday tasks by connecting to users’ apps and services, including email and calendars. At Connect, Zuckerberg introduced a slew of new capabilities and integrations to make Muse more useful and more deeply woven into users’ daily lives. Muse will be everywhere, if the user chooses, including on their Meta AI glasses.\n\nMuse, which launched in early September, interacts across a user’s devices and digital accounts. The agent is powered by Muse Spark, Meta’s multimodal AI model built for agentic work. Meta has touted it as a more accessible agent than those offered by competitors — an AI helper that, from the jump, allows users to automate the busy work in their lives.\n\n“The centerpiece of our vision for what we’re building is Muse,” Zuckerberg said as he kicked off a keynote donning khakis and a black T-shirt with the words “BUILDING IS MY LOVE LANGUAGE” emblazoned across the front. “In the coming years, I expect that Muse is going to grow into the personal superintelligence that billions of people around the world are going to use to accomplish their goals and improve their lives.”\n\nZuckerberg also believes that Muse will make money for its users — and of course, eventually for Meta.\n\n“We’re standing behind this by making Muse free for a huge number of tokens, with the expectation that over time we will profit by taking a small fee from transactions,” he said.\n\nHere are the new features and capabilities that got our attention …\n\nMuse gets its own digital avatar\n\nOne of the more fun announcements made Wednesday is that Muse users will soon have the ability to conjure a distinct digital avatar for their particular agent and then video chat with it in real time. A new AI model, Muse Realtime Avatar, has been developed to power the particular feature, the company says.\n\nThe idea is that Meta’s previously faceless AI software will be given a face, body, and voice, making them significantly more personable. There’s certainly a hint of Metaverse-ishness to this feature, which was demoed onstage at Connect. Users will be able to have live conversations with this avatar, giving it tasks and asking it questions.\n\nMuse will soon be active in Meta smart glasses\n\nMuse will also be integrated with Meta’s smart glasses line, the company announced. This means that users will be able to communicate with their agent merely by speaking to their glasses. The agent activates via a wake word, the company said, adding that it will be able to guide users through a personalized workout, log meals, book an appointment, and help them buy products they see.\n\nMeta said Muse will work in the background and check back in when it’s done.\n\nIt’s not clear exactly when this feature will become available, although Meta says that it should launch sometime in “the coming months.”\n\nSoon, you’ll be able to let Muse run your Mac\n\nMeta says it is bringing Muse computer work to Mac. The company had previously talked about Muse coming to Mac, and spent more time on Wednesday providing a few new details. This means that users will be able to delegate tasks to the agent, and — much like other popular AI agents from OpenAI and Anthropic — Muse will be able to operate any app on a user’s desktop.\n\n“You can have it help you run your small business, or just get work done for you,” Meta’s chief AI officer Alexandr Wang said Wednesday during the keynote. “You can walk away from your computer and it keeps working for you on all the jobs you lined up.”\n\nMuse will get its own email address\n\nSince Muse will always be working in the background, it will naturally need its own email address. Wang announced it is developing that feature and will make it available “soon,” without providing a more precise timeline.\n\nUsers will also be able to add Muse to an email thread or forward emails from the agent to handle on their behalf.\n\nShopping partnerships and connectors galore\n\nMeta has locked in partnerships with companies like Stripe and Shopify, illustrating that the company sees Muse as an important tool for shopping.\n\nMuse can access the entire Shopify product catalog agentically and use Link by Stripe and now Shop Pay to buy almost anything on the internet, according to Wang, who noted that Meta has also added more support for payments with PayPal.\n\nThe company also announced a string of new partnerships with retailers, including Best Buy, Gap, Sephora, Walmart, and Wayfair. Muse will be able to connect with these retail apps as well as with Expedia and soon, Instacart. Other connectors include GitHub, Granola, and Notion.\n\nWang noted that the company wants Muse to connect with small business too. Meta recently opened its platform to allow developers to build their own “connectors.” The company received more than 1,500 applications in less than week, he said, adding “I think this could be a generational opportunity to start building for a new platform as it takes off, and the response so far has been really great.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nTransportation Editor\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Meta’s personal AI agent Muse is only a few weeks old, and the social networking giant isn’t wasting any time building out what may be its biggest bet on consumer AI to date.",
+      "heading": 0
+    },
+    {
+      "text": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all in on Muse.",
+      "heading": 0
+    },
+    {
+      "text": "The Muse agent (the physical avatar is named Jolly, according to Zuckerberg) is designed to handle everyday tasks by connecting to users’ apps and services, including email and calendars. At Connect, Zuckerberg introduced a slew of new capabilities and integrations to make Muse more useful and more deeply woven into users’ daily lives. Muse will be everywhere, if the user chooses, including on their Meta AI glasses.",
+      "heading": 0
+    },
+    {
+      "text": "Muse, which launched in early September, interacts across a user’s devices and digital accounts. The agent is powered by Muse Spark, Meta’s multimodal AI model built for agentic work. Meta has touted it as a more accessible agent than those offered by competitors — an AI helper that, from the jump, allows users to automate the busy work in their lives.",
+      "heading": 0
+    },
+    {
+      "text": "“The centerpiece of our vision for what we’re building is Muse,” Zuckerberg said as he kicked off a keynote donning khakis and a black T-shirt with the words “BUILDING IS MY LOVE LANGUAGE” emblazoned across the front. “In the coming years, I expect that Muse is going to grow into the personal superintelligence that billions of people around the world are going to use to accomplish their goals and improve their lives.”",
+      "heading": 0
+    },
+    {
+      "text": "Zuckerberg also believes that Muse will make money for its users — and of course, eventually for Meta.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re standing behind this by making Muse free for a huge number of tokens, with the expectation that over time we will profit by taking a small fee from transactions,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Here are the new features and capabilities that got our attention …",
+      "heading": 0
+    },
+    {
+      "text": "Muse gets its own digital avatar",
+      "heading": 1
+    },
+    {
+      "text": "One of the more fun announcements made Wednesday is that Muse users will soon have the ability to conjure a distinct digital avatar for their particular agent and then video chat with it in real time. A new AI model, Muse Realtime Avatar, has been developed to power the particular feature, the company says.",
+      "heading": 0
+    },
+    {
+      "text": "The idea is that Meta’s previously faceless AI software will be given a face, body, and voice, making them significantly more personable. There’s certainly a hint of Metaverse-ishness to this feature, which was demoed onstage at Connect. Users will be able to have live conversations with this avatar, giving it tasks and asking it questions.",
+      "heading": 0
+    },
+    {
+      "text": "Muse will soon be active in Meta smart glasses",
+      "heading": 1
+    },
+    {
+      "text": "Muse will also be integrated with Meta’s smart glasses line, the company announced. This means that users will be able to communicate with their agent merely by speaking to their glasses. The agent activates via a wake word, the company said, adding that it will be able to guide users through a personalized workout, log meals, book an appointment, and help them buy products they see.",
+      "heading": 0
+    },
+    {
+      "text": "Meta said Muse will work in the background and check back in when it’s done.",
+      "heading": 0
+    },
+    {
+      "text": "It’s not clear exactly when this feature will become available, although Meta says that it should launch sometime in “the coming months.”",
+      "heading": 0
+    },
+    {
+      "text": "Soon, you’ll be able to let Muse run your Mac",
+      "heading": 1
+    },
+    {
+      "text": "Meta says it is bringing Muse computer work to Mac. The company had previously talked about Muse coming to Mac, and spent more time on Wednesday providing a few new details. This means that users will be able to delegate tasks to the agent, and — much like other popular AI agents from OpenAI and Anthropic — Muse will be able to operate any app on a user’s desktop.",
+      "heading": 0
+    },
+    {
+      "text": "“You can have it help you run your small business, or just get work done for you,” Meta’s chief AI officer Alexandr Wang said Wednesday during the keynote. “You can walk away from your computer and it keeps working for you on all the jobs you lined up.”",
+      "heading": 0
+    },
+    {
+      "text": "Muse will get its own email address",
+      "heading": 1
+    },
+    {
+      "text": "Since Muse will always be working in the background, it will naturally need its own email address. Wang announced it is developing that feature and will make it available “soon,” without providing a more precise timeline.",
+      "heading": 0
+    },
+    {
+      "text": "Users will also be able to add Muse to an email thread or forward emails from the agent to handle on their behalf.",
+      "heading": 0
+    },
+    {
+      "text": "Shopping partnerships and connectors galore",
+      "heading": 1
+    },
+    {
+      "text": "Meta has locked in partnerships with companies like Stripe and Shopify, illustrating that the company sees Muse as an important tool for shopping.",
+      "heading": 0
+    },
+    {
+      "text": "Muse can access the entire Shopify product catalog agentically and use Link by Stripe and now Shop Pay to buy almost anything on the internet, according to Wang, who noted that Meta has also added more support for payments with PayPal.",
+      "heading": 0
+    },
+    {
+      "text": "The company also announced a string of new partnerships with retailers, including Best Buy, Gap, Sephora, Walmart, and Wayfair. Muse will be able to connect with these retail apps as well as with Expedia and soon, Instacart. Other connectors include GitHub, Granola, and Notion.",
+      "heading": 0
+    },
+    {
+      "text": "Wang noted that the company wants Muse to connect with small business too. Meta recently opened its platform to allow developers to build their own “connectors.” The company received more than 1,500 applications in less than week, he said, adding “I think this could be a generational opportunity to start building for a new platform as it takes off, and the response so far has been really great.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Editor",
+      "heading": 1
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

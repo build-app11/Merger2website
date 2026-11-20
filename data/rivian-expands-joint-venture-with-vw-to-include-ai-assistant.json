@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Rivian expands joint venture with VW to include AI assistant",
+  "slug": "rivian-expands-joint-venture-with-vw-to-include-ai-assistant",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/12/rivian-assisant-event.png?resize=1200,672",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+    "episode": ""
+  },
+  "words": 623,
+  "lines": 16,
+  "duration": 208,
+  "text": "The $5.8 billion joint venture between Rivian and Volkswagen Group is expanding to include AI assistants.\n\nRivian is now licensing elements of its AI voice assistant technology to Volkswagen Group as part of the broader joint venture, according to the company’s third-quarter investor presentation released Thursday.\n\nRivian didn’t disclose the licensing fees, payment terms, or which Volkswagen vehicles will use the technology. However, the AI assistant, which recently rolled out to Riv i an vehicles, could make its Volkswagen debut in the automaker’s low-cost EV called the ID EVERY1. The small four-door hatchback is slated to be the first VW vehicle to use Rivian’s software and electrical architecture under the joint venture established in 2024.\n\nThe joint venture between Rivian and VW Group has already expanded once before, at least financially. The companies initially announced a joint venture valued up to $5 billion, but within months VW upped its commitment to invest up to $5.8 billion in Rivian by 2027. The initial tie-up, formalized through an independent company that kicked off in November 2024, focused on bringing Rivian’s electrical architecture and software to Volkswagen’s next generation of vehicles.\n\nRivian described the expansion to include elements of its AI assistant technology as “a proof point for the extensibility of the platform we’ve built in-house.”\n\nRivian spent two years developing its AI assistant before showing it off last year. That development work continued longer than expected, with the assistant finally rolling out in May 2026 to its flagship R1S SUV, R1T pickup truck, and in October to its new midsize R2 SUV.\n\nRivian has big aspirations for its AI assistant, which allows drivers and passengers to interact with the vehicle and control certain functions. Rivian founder and CEO RJ Scaringe told TechCrunch onstage at Disrupt 2026 that the company has created its own in-house agentic framework that understands what action a person wants to take when they talk to the vehicle, and routes it to the right part of the car’s software. That capability could eventually allow Rivian vehicles to run AI agents created by other companies, including Anthropic.\n\nThe in-house AI assistant program also fits into Rivian’s push to become more vertically integrated — a strategy the company emphasized in its third-quarter earnings report.\n\n“Our relentless focus on vertical integration remains a core competitive differentiator, allowing Rivian to seamlessly unify our hardware and software architecture to deliver significant value to our customers,” the company noted in its investor presentation.\n\nThat strategy led to Rivian overhauling its flagship R1T truck and R1S SUV, changing everything from the battery pack and suspension system to the electrical architecture, sensor stack, and software user interface. Its new electric architecture system and compute platform slashed the amount of wiring used and reduced the total number of electronic control units, or computers, used to control the vehicle from 17 different ECUs to seven. That foundation, Rivian argued, would allow it to build vehicles that can handle the computing demands required for advanced software and automated driving.\n\nThat technology caught the attention (and money) of VW, which has struggled to offer customers a modern software-centric vehicle found in competitors like Tesla.\n\nRivian made that vertical-integration case repeatedly in its investor presentation, noting that because it controls the entire technology stack, including compute, sensors, displays, lighting, and sound, “it can roll out rapid, vehicle-wide OTA updates that go well beyond the basics.”\n\nThis article was updated to provide the two separate rollout dates for the AI assistant.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nTransportation Editor",
+  "paragraphs": [
+    {
+      "text": "The $5.8 billion joint venture between Rivian and Volkswagen Group is expanding to include AI assistants.",
+      "heading": 0
+    },
+    {
+      "text": "Rivian is now licensing elements of its AI voice assistant technology to Volkswagen Group as part of the broader joint venture, according to the company’s third-quarter investor presentation released Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "Rivian didn’t disclose the licensing fees, payment terms, or which Volkswagen vehicles will use the technology. However, the AI assistant, which recently rolled out to Riv i an vehicles, could make its Volkswagen debut in the automaker’s low-cost EV called the ID EVERY1. The small four-door hatchback is slated to be the first VW vehicle to use Rivian’s software and electrical architecture under the joint venture established in 2024.",
+      "heading": 0
+    },
+    {
+      "text": "The joint venture between Rivian and VW Group has already expanded once before, at least financially. The companies initially announced a joint venture valued up to $5 billion, but within months VW upped its commitment to invest up to $5.8 billion in Rivian by 2027. The initial tie-up, formalized through an independent company that kicked off in November 2024, focused on bringing Rivian’s electrical architecture and software to Volkswagen’s next generation of vehicles.",
+      "heading": 0
+    },
+    {
+      "text": "Rivian described the expansion to include elements of its AI assistant technology as “a proof point for the extensibility of the platform we’ve built in-house.”",
+      "heading": 0
+    },
+    {
+      "text": "Rivian spent two years developing its AI assistant before showing it off last year. That development work continued longer than expected, with the assistant finally rolling out in May 2026 to its flagship R1S SUV, R1T pickup truck, and in October to its new midsize R2 SUV.",
+      "heading": 0
+    },
+    {
+      "text": "Rivian has big aspirations for its AI assistant, which allows drivers and passengers to interact with the vehicle and control certain functions. Rivian founder and CEO RJ Scaringe told TechCrunch onstage at Disrupt 2026 that the company has created its own in-house agentic framework that understands what action a person wants to take when they talk to the vehicle, and routes it to the right part of the car’s software. That capability could eventually allow Rivian vehicles to run AI agents created by other companies, including Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "The in-house AI assistant program also fits into Rivian’s push to become more vertically integrated — a strategy the company emphasized in its third-quarter earnings report.",
+      "heading": 0
+    },
+    {
+      "text": "“Our relentless focus on vertical integration remains a core competitive differentiator, allowing Rivian to seamlessly unify our hardware and software architecture to deliver significant value to our customers,” the company noted in its investor presentation.",
+      "heading": 0
+    },
+    {
+      "text": "That strategy led to Rivian overhauling its flagship R1T truck and R1S SUV, changing everything from the battery pack and suspension system to the electrical architecture, sensor stack, and software user interface. Its new electric architecture system and compute platform slashed the amount of wiring used and reduced the total number of electronic control units, or computers, used to control the vehicle from 17 different ECUs to seven. That foundation, Rivian argued, would allow it to build vehicles that can handle the computing demands required for advanced software and automated driving.",
+      "heading": 0
+    },
+    {
+      "text": "That technology caught the attention (and money) of VW, which has struggled to offer customers a modern software-centric vehicle found in competitors like Tesla.",
+      "heading": 0
+    },
+    {
+      "text": "Rivian made that vertical-integration case repeatedly in its investor presentation, noting that because it controls the entire technology stack, including compute, sensors, displays, lighting, and sound, “it can roll out rapid, vehicle-wide OTA updates that go well beyond the basics.”",
+      "heading": 0
+    },
+    {
+      "text": "This article was updated to provide the two separate rollout dates for the AI assistant.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Editor",
+      "heading": 1
+    }
+  ]
+}

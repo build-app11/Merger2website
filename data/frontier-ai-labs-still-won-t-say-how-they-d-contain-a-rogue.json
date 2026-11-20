@@ -1,0 +1,181 @@
+{
+  "type": "read",
+  "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+  "slug": "frontier-ai-labs-still-won-t-say-how-they-d-contain-a-rogue",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2019/07/kill-switch-ransomware.jpg?resize=1200,638",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "episode": ""
+  },
+  "words": 1733,
+  "lines": 39,
+  "duration": 578,
+  "text": "Few of the top AI labs have published or demonstrated containment response plans, according to a recent study. A containment plan spells out what happens once an AI is caught trying to subvert human control — what access gets cut, and when the system gets shut down entirely.\n\nThat’s the finding from Guidelight AI Standards, an organization dedicated to promoting safe frontier AI development practices, which graded five leading labs on how prepared they are for exactly this scenario. OpenAI came out on top; Anthropic and Meta scored lowest. The findings matter as agentic AI takes on more autonomous roles inside companies’ own systems, and as regulators in California and New York begin requiring disclosure. For anyone building on or investing in these models, it’s a rare independent read on how seriously each lab treats operational risk versus how it talks about it.\n\nGuidelight’s assessment was based on publicly available plans from Anthropic, Google, OpenAI, Meta, and xAI, graded across a range of metrics, including how well each company logs and monitors what its AI systems are doing internally, whether it halts systems after a surge of flagged misbehavior, whether independent third parties audit its controls and publish findings, and what its exact plan is for containing a model that goes off the rails.\n\nConcern over whether AI companies can contain their increasingly capable and agentic models has grown in the wake of a series of high-profile cybersecurity incidents in which models from OpenAI, Anthropic, and Meta gained unintended access to the internet during safety evaluations and hacked into external systems.\n\nThe findings highlight differences in how AI companies are publicly approaching safety as they scale up agentic deployment into environments where AI systems can take serious actions at scale. While some AI companies have detailed how they test their models for dangerous capabilities before deployment, they’ve generally been less vocal about what happens when models already operating inside their systems misbehave.\n\n“I was surprised by how little the AI companies have said about how they would handle a very serious incident if their model did escape their control in some sense,” Steven Adler, Guidelight’s chief scientist and former OpenAI safety researcher, told TechCrunch.\n\nGuidelight defines a containment plan as a “pre-specified plan, triggered when the AI is detected trying to subvert control, which covers what permissions to revoke from the model, who the model may continue operating for, under what constraints, and when to take it fully offline.”\n\n“There’s good reason to think that the leading models at the frontier AI companies right now are misaligned in some sense,” Adler said. “Whenever the models are doing work on the company’s behalf, the company should have some scaffolding around it to be able to tell what that AI is doing, look for signs of misalignment, stop it from doing something very dangerous before it takes that action, and generally plan for what they would do in the event of a serious control incident where they have an emergency on their hands and need to figure out how to contain that loss of control incident.”\n\nTo date, most of the plans in place for managing catastrophic risk are still largely left up to the companies. Guidelight’s report says the best public evidence shows that companies have “few containment protocols ready for an emergency.”\n\nThere could, of course, be containment plans that companies have in place but haven’t shared publicly. A Google spokesperson told TechCrunch the Guidelight report doesn’t represent the full scope of the company’s AI safety and security measures. The company did not respond to TechCrunch’s question of whether Google has an internal containment response plan that has not been publicly disclosed.\n\nAn OpenAI spokesperson mirrored similar sentiments, saying Guidelight’s assessment doesn’t capture all of the company’s internal practices. “We have a process for requiring restricting permissions, pausing workloads, limiting deployment, or taking the model fully offline, and have applied it,” the spokesperson said.\n\nMeta declined to say whether it has an internal containment response plan, instead pointing TechCrunch toward an existing AI framework that outlines thresholds of risk and how it tests for loss of containment.\n\nLily Li, a privacy and AI lawyer and founder of Metaverse Law, told TechCrunch she believes companies might be hesitant to disclose the full scope of their containment policies and assessments on public-facing websites for legal, not just competitive, reasons.\n\n“The concern from a company perspective is that if you make the disclosures too specific, and you’re not living up to your promises, that could form the basis of an unfair and deceptive marketing claim and expose you to more liability going forward,” Li said.\n\nThe point of Guidelight’s study is largely to encourage companies to be more transparent about their safety plans. Regulators are starting to force the issue, too.\n\nCalifornia’s SB 53, which took effect this year, requires large frontier developers to publish frameworks explaining how they identify and respond to critical safety incidents and manage risks from models circumventing oversight mechanisms. New York’s RAISE Act, which has similar criteria, takes effect in January.\n\nLast month, representatives introduced the AI Kill Switch Act, a bipartisan federal bill that would require major AI developers to build and maintain technical mechanisms to shut down rogue AI models.\n\n“A kill switch is the bare minimum for today’s models,” said Connor Leahy, U.S. executive director of nonprofit ControlAI. “If the last few weeks revealed anything, it is that these companies don’t understand the systems they are building, and the models are growing to a point where they’re harder to rein in when they go rogue. Without a way to turn off the current dangerous systems, and with all the incentives to continue building more uncontrollable systems, we are heading in a very dangerous direction.”\n\nWithout a containment plan in place, Adler said, companies might be figuring out their responses to an emergency on the fly and “winging it in response to this much faster adversary.”\n\nGuidelight’s assessment measured whether each company implements six priority practices from its Control standard, based only on publicly available information — so a low score reflects a lack of public disclosure, not necessarily a lack of internal safeguards.\n\nThe companies with the lowest scores for publishing their containment plan were Meta and Anthropic — the latter perhaps more surprising than the former given Anthropic’s rhetoric on safety. Guidelight says Anthropic’s August Risk Report doesn’t mention “limiting the deployment of one of its models as one of the possible results of its process to investigate and respond to misalignment and control incidents.” Similarly, Guidelight was able to find no evidence that Meta has a containment response plan or has any plans to adopt one.\n\nAn Anthropic spokesperson said that if the company detected a model attempting to evade oversight or otherwise subvert human control, it would conduct a risk assessment focused on determining whether containment is the appropriate response.\n\nOpenAI scored the highest (3 out of 5) because it has on multiple occasions paused or ended workloads, including internal model deployment and training, after discovering safety incidents. It has also described what steps it would take before resuming workloads.\n\n“However, we have found no evidence that [OpenAI] has adopted a formal plan for when and how to respond to misalignment incidents in the future,” the report reads.\n\nAdler noted that OpenAI’s high score is a relatively recent development on the heels of the Hugging Face incident (in which an OpenAI model broke out of its testing sandbox and hacked into Hugging Face’s systems while trying to cheat on a cybersecurity evaluation). After that, the company shared more details about how it has cordoned off some of its misbehaving models.\n\nThat episode is just one example of AI systems acting against the goals of the company that built them. Consider a separate case involving Anthropic’s models, which essentially tried to talk the maintainers of an open source codebase into accepting code with vulnerabilities.\n\nAdler said such a circumstance could easily happen within an AI company’s internal systems. To prevent that, he suggests companies scan their AI system’s chain of thought — the model’s step-by-step reasoning — to look out for signs of deception, long-running plotting, or plans to introduce vulnerabilities into code that they can take advantage of later.\n\nThe methods Guidelight is advocating for are very straightforward to implement, Adler says, and in many cases, versions of them already exist. “It’s about making the decision inside of the company to care enough about this risk to slightly broaden the scope,” Adler said.\n\nOne of the main challenges is that researchers want to be able to operate flexibly within their AI systems, and introducing real-time, preventative monitoring could create friction. “Researchers basically do their thing, and if there’s an issue, someone else gets to clean it up afterward, and the researchers don’t have to change their workflow in the meantime,” he said.\n\nThe problem with “clean-up monitoring after the fact” is that it leads to researchers scrambling around to fix problems. And for some types of incidents, it might be too late. For example, an AI could turn off a company’s control system, which means researchers can no longer count on catching the misbehavior later.\n\nMany in the AI industry will complain that creating set plans to handle misbehavior is fundamentally difficult because AI moves too fast; today’s plans will be worthless tomorrow.\n\nAdler evokes the old adage that plans are worthless, but planning is indispensable.\n\n“We would be better off if companies have thought about it ahead of time, and I hope that they are, even if they haven’t talked about this publicly.”\n\nxAI did not respond in time to comment.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Few of the top AI labs have published or demonstrated containment response plans, according to a recent study. A containment plan spells out what happens once an AI is caught trying to subvert human control — what access gets cut, and when the system gets shut down entirely.",
+      "heading": 0
+    },
+    {
+      "text": "That’s the finding from Guidelight AI Standards, an organization dedicated to promoting safe frontier AI development practices, which graded five leading labs on how prepared they are for exactly this scenario. OpenAI came out on top; Anthropic and Meta scored lowest. The findings matter as agentic AI takes on more autonomous roles inside companies’ own systems, and as regulators in California and New York begin requiring disclosure. For anyone building on or investing in these models, it’s a rare independent read on how seriously each lab treats operational risk versus how it talks about it.",
+      "heading": 0
+    },
+    {
+      "text": "Guidelight’s assessment was based on publicly available plans from Anthropic, Google, OpenAI, Meta, and xAI, graded across a range of metrics, including how well each company logs and monitors what its AI systems are doing internally, whether it halts systems after a surge of flagged misbehavior, whether independent third parties audit its controls and publish findings, and what its exact plan is for containing a model that goes off the rails.",
+      "heading": 0
+    },
+    {
+      "text": "Concern over whether AI companies can contain their increasingly capable and agentic models has grown in the wake of a series of high-profile cybersecurity incidents in which models from OpenAI, Anthropic, and Meta gained unintended access to the internet during safety evaluations and hacked into external systems.",
+      "heading": 0
+    },
+    {
+      "text": "The findings highlight differences in how AI companies are publicly approaching safety as they scale up agentic deployment into environments where AI systems can take serious actions at scale. While some AI companies have detailed how they test their models for dangerous capabilities before deployment, they’ve generally been less vocal about what happens when models already operating inside their systems misbehave.",
+      "heading": 0
+    },
+    {
+      "text": "“I was surprised by how little the AI companies have said about how they would handle a very serious incident if their model did escape their control in some sense,” Steven Adler, Guidelight’s chief scientist and former OpenAI safety researcher, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Guidelight defines a containment plan as a “pre-specified plan, triggered when the AI is detected trying to subvert control, which covers what permissions to revoke from the model, who the model may continue operating for, under what constraints, and when to take it fully offline.”",
+      "heading": 0
+    },
+    {
+      "text": "“There’s good reason to think that the leading models at the frontier AI companies right now are misaligned in some sense,” Adler said. “Whenever the models are doing work on the company’s behalf, the company should have some scaffolding around it to be able to tell what that AI is doing, look for signs of misalignment, stop it from doing something very dangerous before it takes that action, and generally plan for what they would do in the event of a serious control incident where they have an emergency on their hands and need to figure out how to contain that loss of control incident.”",
+      "heading": 0
+    },
+    {
+      "text": "To date, most of the plans in place for managing catastrophic risk are still largely left up to the companies. Guidelight’s report says the best public evidence shows that companies have “few containment protocols ready for an emergency.”",
+      "heading": 0
+    },
+    {
+      "text": "There could, of course, be containment plans that companies have in place but haven’t shared publicly. A Google spokesperson told TechCrunch the Guidelight report doesn’t represent the full scope of the company’s AI safety and security measures. The company did not respond to TechCrunch’s question of whether Google has an internal containment response plan that has not been publicly disclosed.",
+      "heading": 0
+    },
+    {
+      "text": "An OpenAI spokesperson mirrored similar sentiments, saying Guidelight’s assessment doesn’t capture all of the company’s internal practices. “We have a process for requiring restricting permissions, pausing workloads, limiting deployment, or taking the model fully offline, and have applied it,” the spokesperson said.",
+      "heading": 0
+    },
+    {
+      "text": "Meta declined to say whether it has an internal containment response plan, instead pointing TechCrunch toward an existing AI framework that outlines thresholds of risk and how it tests for loss of containment.",
+      "heading": 0
+    },
+    {
+      "text": "Lily Li, a privacy and AI lawyer and founder of Metaverse Law, told TechCrunch she believes companies might be hesitant to disclose the full scope of their containment policies and assessments on public-facing websites for legal, not just competitive, reasons.",
+      "heading": 0
+    },
+    {
+      "text": "“The concern from a company perspective is that if you make the disclosures too specific, and you’re not living up to your promises, that could form the basis of an unfair and deceptive marketing claim and expose you to more liability going forward,” Li said.",
+      "heading": 0
+    },
+    {
+      "text": "The point of Guidelight’s study is largely to encourage companies to be more transparent about their safety plans. Regulators are starting to force the issue, too.",
+      "heading": 0
+    },
+    {
+      "text": "California’s SB 53, which took effect this year, requires large frontier developers to publish frameworks explaining how they identify and respond to critical safety incidents and manage risks from models circumventing oversight mechanisms. New York’s RAISE Act, which has similar criteria, takes effect in January.",
+      "heading": 0
+    },
+    {
+      "text": "Last month, representatives introduced the AI Kill Switch Act, a bipartisan federal bill that would require major AI developers to build and maintain technical mechanisms to shut down rogue AI models.",
+      "heading": 0
+    },
+    {
+      "text": "“A kill switch is the bare minimum for today’s models,” said Connor Leahy, U.S. executive director of nonprofit ControlAI. “If the last few weeks revealed anything, it is that these companies don’t understand the systems they are building, and the models are growing to a point where they’re harder to rein in when they go rogue. Without a way to turn off the current dangerous systems, and with all the incentives to continue building more uncontrollable systems, we are heading in a very dangerous direction.”",
+      "heading": 0
+    },
+    {
+      "text": "Without a containment plan in place, Adler said, companies might be figuring out their responses to an emergency on the fly and “winging it in response to this much faster adversary.”",
+      "heading": 0
+    },
+    {
+      "text": "Guidelight’s assessment measured whether each company implements six priority practices from its Control standard, based only on publicly available information — so a low score reflects a lack of public disclosure, not necessarily a lack of internal safeguards.",
+      "heading": 0
+    },
+    {
+      "text": "The companies with the lowest scores for publishing their containment plan were Meta and Anthropic — the latter perhaps more surprising than the former given Anthropic’s rhetoric on safety. Guidelight says Anthropic’s August Risk Report doesn’t mention “limiting the deployment of one of its models as one of the possible results of its process to investigate and respond to misalignment and control incidents.” Similarly, Guidelight was able to find no evidence that Meta has a containment response plan or has any plans to adopt one.",
+      "heading": 0
+    },
+    {
+      "text": "An Anthropic spokesperson said that if the company detected a model attempting to evade oversight or otherwise subvert human control, it would conduct a risk assessment focused on determining whether containment is the appropriate response.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI scored the highest (3 out of 5) because it has on multiple occasions paused or ended workloads, including internal model deployment and training, after discovering safety incidents. It has also described what steps it would take before resuming workloads.",
+      "heading": 0
+    },
+    {
+      "text": "“However, we have found no evidence that [OpenAI] has adopted a formal plan for when and how to respond to misalignment incidents in the future,” the report reads.",
+      "heading": 0
+    },
+    {
+      "text": "Adler noted that OpenAI’s high score is a relatively recent development on the heels of the Hugging Face incident (in which an OpenAI model broke out of its testing sandbox and hacked into Hugging Face’s systems while trying to cheat on a cybersecurity evaluation). After that, the company shared more details about how it has cordoned off some of its misbehaving models.",
+      "heading": 0
+    },
+    {
+      "text": "That episode is just one example of AI systems acting against the goals of the company that built them. Consider a separate case involving Anthropic’s models, which essentially tried to talk the maintainers of an open source codebase into accepting code with vulnerabilities.",
+      "heading": 0
+    },
+    {
+      "text": "Adler said such a circumstance could easily happen within an AI company’s internal systems. To prevent that, he suggests companies scan their AI system’s chain of thought — the model’s step-by-step reasoning — to look out for signs of deception, long-running plotting, or plans to introduce vulnerabilities into code that they can take advantage of later.",
+      "heading": 0
+    },
+    {
+      "text": "The methods Guidelight is advocating for are very straightforward to implement, Adler says, and in many cases, versions of them already exist. “It’s about making the decision inside of the company to care enough about this risk to slightly broaden the scope,” Adler said.",
+      "heading": 0
+    },
+    {
+      "text": "One of the main challenges is that researchers want to be able to operate flexibly within their AI systems, and introducing real-time, preventative monitoring could create friction. “Researchers basically do their thing, and if there’s an issue, someone else gets to clean it up afterward, and the researchers don’t have to change their workflow in the meantime,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The problem with “clean-up monitoring after the fact” is that it leads to researchers scrambling around to fix problems. And for some types of incidents, it might be too late. For example, an AI could turn off a company’s control system, which means researchers can no longer count on catching the misbehavior later.",
+      "heading": 0
+    },
+    {
+      "text": "Many in the AI industry will complain that creating set plans to handle misbehavior is fundamentally difficult because AI moves too fast; today’s plans will be worthless tomorrow.",
+      "heading": 0
+    },
+    {
+      "text": "Adler evokes the old adage that plans are worthless, but planning is indispensable.",
+      "heading": 0
+    },
+    {
+      "text": "“We would be better off if companies have thought about it ahead of time, and I hope that they are, even if they haven’t talked about this publicly.”",
+      "heading": 0
+    },
+    {
+      "text": "xAI did not respond in time to comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

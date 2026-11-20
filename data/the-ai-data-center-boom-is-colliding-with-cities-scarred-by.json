@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "The AI data center boom is colliding with cities scarred by big industry",
+  "slug": "the-ai-data-center-boom-is-colliding-with-cities-scarred-by",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/3-DSCF1625.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+    "episode": ""
+  },
+  "words": 1099,
+  "lines": 24,
+  "duration": 366,
+  "text": "Across the country, Americans are debating how their lives might change if new AI data centers are built in their backyards. Data center companies and their customers are promising new jobs and economic growth, but that pitch hasn’t won over a majority of Americans who oppose data center construction in their area, often over environmental and energy concerns.\n\nFor activist Shawmar Pitts, these concerns aren’t theoretical. He knows better than anyone what it’s like to live in the shadow of American industrialization.\n\nA lifelong resident of the Grays Ferry neighborhood in Southwest Philadelphia, Pitts grew up next to what was then the East Coast’s largest oil refinery, which shut down after an explosion in 2019. Though many of his friends and family suffered from chronic health conditions, he didn’t realize what might have caused these illnesses until he encountered the environmental justice group Philly Thrive, which was tabling in his neighborhood in 2018 about a proposed oil refinery expansion.\n\n“I read the information they had on the table about how living near the refinery affects you, and I’m looking at all the sicknesses on this paper, and I’m like, ‘My mother has this, my sister has that, my next-door neighbor suffers from this’ — every house, someone has something on that list,” Pitts told TechCrunch. “From that point, I was all the way in.”\n\nPitts, who is now the managing co-director of that same organization, is among those leading the charge for a data center moratorium in Philadelphia. While there have been no formal proposals for construction yet, city officials have identified two potential sites: one in Northeast Philadelphia and the other in Pitts’ Grays Ferry neighborhood.\n\nData center opposition from local residents isn’t unique to Philadelphia. Residents across the United States have pushed back against new data center construction, particularly those living in cities and towns with finite resources.\n\nBut the pushback has been particularly swift from people living in communities where big industry’s mark is still felt.\n\n“We don’t want data centers,” Philly Thrive board president Sonya Sanders said at a rally on Monday at Philadelphia’s City Hall. “We don’t want the pollution, we don’t want the noise, and we know they’re not going to bring us more jobs.”\n\nSanders’ husband, who was also a resident of Grays Ferry, died of a rare bone cancer in 2020. She said he didn’t smoke or drink, and she believes that emissions from the refinery caused his illness.\n\n“In my eyes, they killed him,” she said at the rally. “The pollution killed him. I believe he would be here today if he wasn’t silently murdered, because it was the pursuit of profit that killed him.”\n\nA Philadelphia data center may not have as severe an environmental impact as the now-defunct Philadelphia Energy Solutions refinery, which processed up to 335,000 barrels of crude oil daily. But the international race to dominate the AI industry has become so extreme that by 2035, BloombergNEF predicts that U.S. data centers will consume more natural gas than Germany and Japan combined. That’s almost double the firm’s projection from nine months ago.\n\nNatural gas burns a lot cleaner than other fossil fuels, like oil, but it’s far from harmless. Burning one cubic foot of natural gas releases the equivalent of 60 grams of carbon dioxide, and additional data center demand is expected to generate an extra 1 million metric tons of greenhouse gas pollution each day, which is about 12% of all present day U.S. greenhouse gas emissions. Harvard University researchers found in 2021 that fossil fuel air pollution is responsible for one in five deaths worldwide, a staggering figure that is bound to increase in the age of AI.\n\n“A typical data center planned in Pennsylvania has hundreds of diesel engines that spew air pollution, and even if they’re supposedly reserved for emergencies, the government has already said that the data center should use those rather than drawing from an overstressed electrical grid during some heat waves,” said Clean Air Council attorney Annie Fox at the rally. “We can expect that to get more frequent… Fossil fuel-hungry data centers will worsen climate change, making those heatwaves more frequent and severe.”\n\nConcerned citizens across the country do seem to be getting through to their officials. In New York, Governor Kathy Hochul signed an executive order that temporarily prevents the state from approving new permits for large projects.\n\n“Progress shouldn’t arrive with a higher utility bill, deleted water supply, or noise pollution,” Hochul said at a press conference. “These data centers can only be built, should only be built in places that want them.”\n\nData center moratoriums have also been approved in a number of U.S. cities, including Denver, Indianapolis, Asheville, Charlotte, and Reno. The purpose of these moratoriums is often to allow city officials to collect more information about the potential impacts of building data centers.\n\n“I’m worried about pollution,” Donna Greenberg, a Philadelphia resident who attended the rally, told TechCrunch. “I’m worried about surveillance and the fact that they’re going to have access to information they have no business knowing, and I’m concerned that they’re going to be using water and electricity that takes away from the people and the neighborhoods who need it.”\n\nMore than 100 people attended the kick-off rally for the No Data Centers in Philly campaign on Monday, chanting loudly in hopes that city council members would hear them from inside their offices at City Hall.\n\n“I just think that our community standing up and fighting back is tremendous,” Pitts said. “It takes a lot of effort and a lot of people.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Across the country, Americans are debating how their lives might change if new AI data centers are built in their backyards. Data center companies and their customers are promising new jobs and economic growth, but that pitch hasn’t won over a majority of Americans who oppose data center construction in their area, often over environmental and energy concerns.",
+      "heading": 0
+    },
+    {
+      "text": "For activist Shawmar Pitts, these concerns aren’t theoretical. He knows better than anyone what it’s like to live in the shadow of American industrialization.",
+      "heading": 0
+    },
+    {
+      "text": "A lifelong resident of the Grays Ferry neighborhood in Southwest Philadelphia, Pitts grew up next to what was then the East Coast’s largest oil refinery, which shut down after an explosion in 2019. Though many of his friends and family suffered from chronic health conditions, he didn’t realize what might have caused these illnesses until he encountered the environmental justice group Philly Thrive, which was tabling in his neighborhood in 2018 about a proposed oil refinery expansion.",
+      "heading": 0
+    },
+    {
+      "text": "“I read the information they had on the table about how living near the refinery affects you, and I’m looking at all the sicknesses on this paper, and I’m like, ‘My mother has this, my sister has that, my next-door neighbor suffers from this’ — every house, someone has something on that list,” Pitts told TechCrunch. “From that point, I was all the way in.”",
+      "heading": 0
+    },
+    {
+      "text": "Pitts, who is now the managing co-director of that same organization, is among those leading the charge for a data center moratorium in Philadelphia. While there have been no formal proposals for construction yet, city officials have identified two potential sites: one in Northeast Philadelphia and the other in Pitts’ Grays Ferry neighborhood.",
+      "heading": 0
+    },
+    {
+      "text": "Data center opposition from local residents isn’t unique to Philadelphia. Residents across the United States have pushed back against new data center construction, particularly those living in cities and towns with finite resources.",
+      "heading": 0
+    },
+    {
+      "text": "But the pushback has been particularly swift from people living in communities where big industry’s mark is still felt.",
+      "heading": 0
+    },
+    {
+      "text": "“We don’t want data centers,” Philly Thrive board president Sonya Sanders said at a rally on Monday at Philadelphia’s City Hall. “We don’t want the pollution, we don’t want the noise, and we know they’re not going to bring us more jobs.”",
+      "heading": 0
+    },
+    {
+      "text": "Sanders’ husband, who was also a resident of Grays Ferry, died of a rare bone cancer in 2020. She said he didn’t smoke or drink, and she believes that emissions from the refinery caused his illness.",
+      "heading": 0
+    },
+    {
+      "text": "“In my eyes, they killed him,” she said at the rally. “The pollution killed him. I believe he would be here today if he wasn’t silently murdered, because it was the pursuit of profit that killed him.”",
+      "heading": 0
+    },
+    {
+      "text": "A Philadelphia data center may not have as severe an environmental impact as the now-defunct Philadelphia Energy Solutions refinery, which processed up to 335,000 barrels of crude oil daily. But the international race to dominate the AI industry has become so extreme that by 2035, BloombergNEF predicts that U.S. data centers will consume more natural gas than Germany and Japan combined. That’s almost double the firm’s projection from nine months ago.",
+      "heading": 0
+    },
+    {
+      "text": "Natural gas burns a lot cleaner than other fossil fuels, like oil, but it’s far from harmless. Burning one cubic foot of natural gas releases the equivalent of 60 grams of carbon dioxide, and additional data center demand is expected to generate an extra 1 million metric tons of greenhouse gas pollution each day, which is about 12% of all present day U.S. greenhouse gas emissions. Harvard University researchers found in 2021 that fossil fuel air pollution is responsible for one in five deaths worldwide, a staggering figure that is bound to increase in the age of AI.",
+      "heading": 0
+    },
+    {
+      "text": "“A typical data center planned in Pennsylvania has hundreds of diesel engines that spew air pollution, and even if they’re supposedly reserved for emergencies, the government has already said that the data center should use those rather than drawing from an overstressed electrical grid during some heat waves,” said Clean Air Council attorney Annie Fox at the rally. “We can expect that to get more frequent… Fossil fuel-hungry data centers will worsen climate change, making those heatwaves more frequent and severe.”",
+      "heading": 0
+    },
+    {
+      "text": "Concerned citizens across the country do seem to be getting through to their officials. In New York, Governor Kathy Hochul signed an executive order that temporarily prevents the state from approving new permits for large projects.",
+      "heading": 0
+    },
+    {
+      "text": "“Progress shouldn’t arrive with a higher utility bill, deleted water supply, or noise pollution,” Hochul said at a press conference. “These data centers can only be built, should only be built in places that want them.”",
+      "heading": 0
+    },
+    {
+      "text": "Data center moratoriums have also been approved in a number of U.S. cities, including Denver, Indianapolis, Asheville, Charlotte, and Reno. The purpose of these moratoriums is often to allow city officials to collect more information about the potential impacts of building data centers.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m worried about pollution,” Donna Greenberg, a Philadelphia resident who attended the rally, told TechCrunch. “I’m worried about surveillance and the fact that they’re going to have access to information they have no business knowing, and I’m concerned that they’re going to be using water and electricity that takes away from the people and the neighborhoods who need it.”",
+      "heading": 0
+    },
+    {
+      "text": "More than 100 people attended the kick-off rally for the No Data Centers in Philly campaign on Monday, chanting loudly in hopes that city council members would hear them from inside their offices at City Hall.",
+      "heading": 0
+    },
+    {
+      "text": "“I just think that our community standing up and fighting back is tremendous,” Pitts said. “It takes a lot of effort and a lot of people.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

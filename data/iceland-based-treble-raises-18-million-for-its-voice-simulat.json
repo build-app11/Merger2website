@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+  "slug": "iceland-based-treble-raises-18-million-for-its-voice-simulat",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Treble-Physical-AI-PR-image_no-brand-1.jpeg?resize=1200,670",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+    "episode": ""
+  },
+  "words": 652,
+  "lines": 16,
+  "duration": 217,
+  "text": "Voice AI has emerged as one of the hottest sectors in AI, with investors pouring in billions of dollars to serve use cases ranging from automating customer support and sales calls to creating meeting notetakers and developing AI smart glasses that use voice as the primary interaction surface.\n\nMeanwhile, AI labs are quickly releasing models, and hardware makers are trying to create the best experience for consumers to interact with devices.\n\nAll of this new technology needs testing and a feedback loop for improvement. An Iceland-based startup, Treble, is positioning itself to be at the center of the voice AI industry by creating a simulation platform that can cater to model makers, robotics companies, and consumer hardware makers.\n\nThe company, founded in 2020 by acoustic engineers Finnur Pind and Jesper Pedersen, has raised $18 million in an extension of its Series A funding led by Paladin Capital Group, with participation from existing investors KOMPAS VC, Frumtak Ventures, EIC, and Omega ehf. It received an investment of $12 million in 2024, bringing its total raise to date to over $40 million. The startup counts Amazon and Logitech as customers.\n\nTreble has a few verticals related to simulation and data. For voice AI companies, it has a synthetic data generation platform that could be used for speech enhancement, noise suppression, and model training. It also evaluates voice AI models in different conditions to provide feedback to labs. Earlier this year, it partnered with Hugging Face to launch a benchmark for speech recognition models across different realistic conditions.\n\n“Audio AI is really a data challenge, and this is where the most opportunities to enable next-generation models and hardware lie. To date, pretty much all sound-related AI has been made from recordings and data scraped from the internet. We believe that accurate physics simulation can be an alternative way to create data for sound,” Pind told TechCrunch.\n\nThe startup also focuses on hardware design and testing from a voice perspective. For instance, it works with headphone and speaker companies for virtual prototyping to help them understand how their product might sound. It could also test how a smart speaker can understand commands based on the positioning of the speaker. Lately, Treble has ventured into providing simulation testing for smart glasses and AI devices.\n\nPind said that the company is excited to work on wearables that could enhance hearing for users.\n\n“I’m really excited about the next generation of these devices like headphones and smart glasses that can enable [a feature like] superhuman hearing. That’s an area where you can really just hear better in challenging acoustic environments. Maybe you are in a restaurant, and you only want to hear people within two meters of range, or you are in a seminar, and want to mute people around you,” he said.\n\nTreble aims to increase its focus in the physical AI space, including robotics, automotive, and drone companies, to enable sound-based functions for them through testing and simulation.\n\nFrancois Ruether, VP of Paladin Capital Group, told TechCrunch that Treble’s platform, which simulates different models and devices, stands out; the platform’s importance will increase as it gets involved in more areas.\n\n“Our thesis is that, as more products depend on understanding sound, this infrastructure becomes increasingly valuable across voice AI, wearables, robotics, and physical AI. Customers retain ownership of their models, products, and development workflows, while benefiting from a shared foundation of a simulation-native acoustic infrastructure layer,” Ruether said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Voice AI has emerged as one of the hottest sectors in AI, with investors pouring in billions of dollars to serve use cases ranging from automating customer support and sales calls to creating meeting notetakers and developing AI smart glasses that use voice as the primary interaction surface.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, AI labs are quickly releasing models, and hardware makers are trying to create the best experience for consumers to interact with devices.",
+      "heading": 0
+    },
+    {
+      "text": "All of this new technology needs testing and a feedback loop for improvement. An Iceland-based startup, Treble, is positioning itself to be at the center of the voice AI industry by creating a simulation platform that can cater to model makers, robotics companies, and consumer hardware makers.",
+      "heading": 0
+    },
+    {
+      "text": "The company, founded in 2020 by acoustic engineers Finnur Pind and Jesper Pedersen, has raised $18 million in an extension of its Series A funding led by Paladin Capital Group, with participation from existing investors KOMPAS VC, Frumtak Ventures, EIC, and Omega ehf. It received an investment of $12 million in 2024, bringing its total raise to date to over $40 million. The startup counts Amazon and Logitech as customers.",
+      "heading": 0
+    },
+    {
+      "text": "Treble has a few verticals related to simulation and data. For voice AI companies, it has a synthetic data generation platform that could be used for speech enhancement, noise suppression, and model training. It also evaluates voice AI models in different conditions to provide feedback to labs. Earlier this year, it partnered with Hugging Face to launch a benchmark for speech recognition models across different realistic conditions.",
+      "heading": 0
+    },
+    {
+      "text": "“Audio AI is really a data challenge, and this is where the most opportunities to enable next-generation models and hardware lie. To date, pretty much all sound-related AI has been made from recordings and data scraped from the internet. We believe that accurate physics simulation can be an alternative way to create data for sound,” Pind told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The startup also focuses on hardware design and testing from a voice perspective. For instance, it works with headphone and speaker companies for virtual prototyping to help them understand how their product might sound. It could also test how a smart speaker can understand commands based on the positioning of the speaker. Lately, Treble has ventured into providing simulation testing for smart glasses and AI devices.",
+      "heading": 0
+    },
+    {
+      "text": "Pind said that the company is excited to work on wearables that could enhance hearing for users.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m really excited about the next generation of these devices like headphones and smart glasses that can enable [a feature like] superhuman hearing. That’s an area where you can really just hear better in challenging acoustic environments. Maybe you are in a restaurant, and you only want to hear people within two meters of range, or you are in a seminar, and want to mute people around you,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Treble aims to increase its focus in the physical AI space, including robotics, automotive, and drone companies, to enable sound-based functions for them through testing and simulation.",
+      "heading": 0
+    },
+    {
+      "text": "Francois Ruether, VP of Paladin Capital Group, told TechCrunch that Treble’s platform, which simulates different models and devices, stands out; the platform’s importance will increase as it gets involved in more areas.",
+      "heading": 0
+    },
+    {
+      "text": "“Our thesis is that, as more products depend on understanding sound, this infrastructure becomes increasingly valuable across voice AI, wearables, robotics, and physical AI. Customers retain ownership of their models, products, and development workflows, while benefiting from a shared foundation of a simulation-native acoustic infrastructure layer,” Ruether said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

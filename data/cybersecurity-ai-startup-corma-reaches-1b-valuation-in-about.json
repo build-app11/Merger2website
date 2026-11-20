@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+  "slug": "cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "episode": ""
+  },
+  "words": 320,
+  "lines": 18,
+  "duration": 107,
+  "text": "Posted:\n\nJulie Bort\n\nCybersecurity AI startup Corma reaches $1B valuation in about 3 months\n\nThree months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.\n\nThe startup came out of stealth in August. Interest in its product skyrocketed after a series of security incidents sent chief information security officers scrambling on October 21 when a critical flaw was found in PHP, a popular web programming language. Another flaw was found in Node.js, the open source JavaScript runtime environment. Popular open source tool LiteLLM, a proxy for routing requests to multiple LLM providers, also disclosed a security incident. Other incidents were disclosed that day, too. The day showcased the kind of onslaught on security that AI has enabled.\n\nCorma isn’t the only company using AI to play defense. Other examples include Kevin Mandia’s new startup Armadin, as well as Anthropic, OpenAI, Microsoft, and other established players, and too many other startups to count. Still, it’s a young market and a necessary one. Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.\n\nTopics\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nLatest in Startups\n\nFormer Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories\n\nKate Park\n\nSpend management platform Payhawk announces $280M raise, 2B valuation\n\nDominic-Madori Davis\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "heading": 0
+    },
+    {
+      "text": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.",
+      "heading": 0
+    },
+    {
+      "text": "The startup came out of stealth in August. Interest in its product skyrocketed after a series of security incidents sent chief information security officers scrambling on October 21 when a critical flaw was found in PHP, a popular web programming language. Another flaw was found in Node.js, the open source JavaScript runtime environment. Popular open source tool LiteLLM, a proxy for routing requests to multiple LLM providers, also disclosed a security incident. Other incidents were disclosed that day, too. The day showcased the kind of onslaught on security that AI has enabled.",
+      "heading": 0
+    },
+    {
+      "text": "Corma isn’t the only company using AI to play defense. Other examples include Kevin Mandia’s new startup Armadin, as well as Anthropic, OpenAI, Microsoft, and other established players, and too many other startups to count. Still, it’s a young market and a necessary one. Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "heading": 0
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Startups",
+      "heading": 1
+    },
+    {
+      "text": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "heading": 0
+    },
+    {
+      "text": "Kate Park",
+      "heading": 1
+    },
+    {
+      "text": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "SpaceX’s AI business is beating expectations",
+  "slug": "spacex-s-ai-business-is-beating-expectations",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "episode": ""
+  },
+  "words": 674,
+  "lines": 18,
+  "duration": 225,
+  "text": "SpaceX’s data centers and Grok agents were more profitable than investors expected in the third quarter of the year, as the company leaves its roots as a space company behind to focus on artificial intelligence, which now makes up 52% of its income.\n\nCEO Elon Musk’s deep tech conglomerate reported $14.6 billion in third-quarter revenue on Tuesday, according to its regulatory filing.\n\nThat number was driven by growth in all segments, but especially its renamed “Super Intelligence” business line, which generated $7.5 billion in revenue from the recently acquired Cursor coding tool, Grok bot, and most importantly, the company’s burgeoning neocloud business, which now boasts 1.7 GW of compute. The AI business generated $431 million in profit, which would have been higher without $1.2 billion in one-time stock-based compensation expenses related to the Cursor acquisition.\n\nThe top-line revenue number was also boosted by about $1 billion in income related to the recovery of Bitcoin prices and unspecified related-party income that might be attributed to a SpaceX investment in another company.\n\nThe growing revenue is balanced against total capital expenditures of $19.6 billion, as SpaceX continues to build out a second data center project, Colossus II, and increase investment in Starship, the heavy-lift rocket it sees as vital to deploying a new generation of Starlink satellites and developing orbital data centers. CFO Bret Johnsen said the company would spend $35 billion to $40 billion on new capital investments in the fourth quarter.\n\nDuring a livestreamed discussion of the results with investors, Musk said he was spending four days a week in Memphis, Tennessee, the site of Colossus II, working to bring the data center online.\n\n“People are starting to realize [that] the constraint on deployment of super intelligence is more in power and cooling and infrastructure than it is in chips,” Musk argued, saying that he had tasked a team of SpaceX engineers to solve that problem. “This is a bit like the New York Yankees playing in Little League. It’s not fair, but the net result is being able to deploy power cooling infrastructure at a rate that is vastly faster than any anyone else.”\n\nIn one example, Musk noted that manufacturers of turbines to power data centers are facing 12- to 18-month delays in obtaining the metals that blades and vanes required for those machines. Now, SpaceX is using the metal casting capabilities developed for SpaceX to make those components and obtain turbines more quickly.\n\nMusk also said that the next test flight of the Starship rocket, expected in November, would see SpaceX attempt to recover both the first-stage booster and the second stage. Recovering both segments of the vehicle would be a “massive technology milestone,” Musk said, but the true milestone will be reflying both stages.\n\nSpaceX also saw growth in subscribers to its Starlink space internet network, reaching 13.6 million consumers, with Musk predicting that the growth of AI agents would lead to more demand for connectivity.\n\nDespite those capital expenditures, the company’s revenue boost was substantial enough to push it back into profitability. SpaceX reported net income of $4.4 billion, a turnaround from the $1 billion loss in the same quarter last year. It will still have some catching up to do if it wants to remain profitable for the year, however. In the first nine months of the year, SpaceX still had a net income loss of $413 million.\n\nMusk took a particularly bullish stance on the company’s Super Intelligence business segment, predicting that SpaceX’s annual recurring revenue by the end of 2027 will be “somewhere between $500 billion and $1 trillion.”\n\nMore concretely, Johnsen forecast total revenue for the first quarter of 2027 in the range of $33 billion to $37 billion.\n\nThis is a developing story. TechCrunch will update.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nTransportation Editor",
+  "paragraphs": [
+    {
+      "text": "SpaceX’s data centers and Grok agents were more profitable than investors expected in the third quarter of the year, as the company leaves its roots as a space company behind to focus on artificial intelligence, which now makes up 52% of its income.",
+      "heading": 0
+    },
+    {
+      "text": "CEO Elon Musk’s deep tech conglomerate reported $14.6 billion in third-quarter revenue on Tuesday, according to its regulatory filing.",
+      "heading": 0
+    },
+    {
+      "text": "That number was driven by growth in all segments, but especially its renamed “Super Intelligence” business line, which generated $7.5 billion in revenue from the recently acquired Cursor coding tool, Grok bot, and most importantly, the company’s burgeoning neocloud business, which now boasts 1.7 GW of compute. The AI business generated $431 million in profit, which would have been higher without $1.2 billion in one-time stock-based compensation expenses related to the Cursor acquisition.",
+      "heading": 0
+    },
+    {
+      "text": "The top-line revenue number was also boosted by about $1 billion in income related to the recovery of Bitcoin prices and unspecified related-party income that might be attributed to a SpaceX investment in another company.",
+      "heading": 0
+    },
+    {
+      "text": "The growing revenue is balanced against total capital expenditures of $19.6 billion, as SpaceX continues to build out a second data center project, Colossus II, and increase investment in Starship, the heavy-lift rocket it sees as vital to deploying a new generation of Starlink satellites and developing orbital data centers. CFO Bret Johnsen said the company would spend $35 billion to $40 billion on new capital investments in the fourth quarter.",
+      "heading": 0
+    },
+    {
+      "text": "During a livestreamed discussion of the results with investors, Musk said he was spending four days a week in Memphis, Tennessee, the site of Colossus II, working to bring the data center online.",
+      "heading": 0
+    },
+    {
+      "text": "“People are starting to realize [that] the constraint on deployment of super intelligence is more in power and cooling and infrastructure than it is in chips,” Musk argued, saying that he had tasked a team of SpaceX engineers to solve that problem. “This is a bit like the New York Yankees playing in Little League. It’s not fair, but the net result is being able to deploy power cooling infrastructure at a rate that is vastly faster than any anyone else.”",
+      "heading": 0
+    },
+    {
+      "text": "In one example, Musk noted that manufacturers of turbines to power data centers are facing 12- to 18-month delays in obtaining the metals that blades and vanes required for those machines. Now, SpaceX is using the metal casting capabilities developed for SpaceX to make those components and obtain turbines more quickly.",
+      "heading": 0
+    },
+    {
+      "text": "Musk also said that the next test flight of the Starship rocket, expected in November, would see SpaceX attempt to recover both the first-stage booster and the second stage. Recovering both segments of the vehicle would be a “massive technology milestone,” Musk said, but the true milestone will be reflying both stages.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX also saw growth in subscribers to its Starlink space internet network, reaching 13.6 million consumers, with Musk predicting that the growth of AI agents would lead to more demand for connectivity.",
+      "heading": 0
+    },
+    {
+      "text": "Despite those capital expenditures, the company’s revenue boost was substantial enough to push it back into profitability. SpaceX reported net income of $4.4 billion, a turnaround from the $1 billion loss in the same quarter last year. It will still have some catching up to do if it wants to remain profitable for the year, however. In the first nine months of the year, SpaceX still had a net income loss of $413 million.",
+      "heading": 0
+    },
+    {
+      "text": "Musk took a particularly bullish stance on the company’s Super Intelligence business segment, predicting that SpaceX’s annual recurring revenue by the end of 2027 will be “somewhere between $500 billion and $1 trillion.”",
+      "heading": 0
+    },
+    {
+      "text": "More concretely, Johnsen forecast total revenue for the first quarter of 2027 in the range of $33 billion to $37 billion.",
+      "heading": 0
+    },
+    {
+      "text": "This is a developing story. TechCrunch will update.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Transportation Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+  "slug": "popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+    "episode": ""
+  },
+  "words": 416,
+  "lines": 11,
+  "duration": 139,
+  "text": "Arena, which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday.\n\nThis comes after the company said it reached $100 million in annualized run-rate revenue in June.\n\nThe round was led by Lightspeed Venture Partners and Khosla Ventures, with Salesforce Ventures, 01 Advisors, Dell Technologies Capital, Endeavor Catalyst, a16z, Felicis, and others joining in. Arena previously announced a $150 million Series A in January at a $1.7 billion post-money valuation. At the time, its annualized revenue was $30 million, it said. So that means its valuation has nearly doubled in about 10 months.\n\nArena provides a crowdsourced platform that is free for consumers to use. People enter prompts or request vibe-coded projects and then rate which model does it better. Arena claims it has tens of millions of monthly visitors.\n\nIn September of last year, it introduced its commercial product, AI Evaluations, a service that provides model labs and enterprises with detailed performance analytics based on its community feedback. The timing proved impeccable. This year, AI labs realized that their models were gaming benchmarking tests, finding ways to rack up good scores without truly earning them. At the same time, enterprises wanted help determining which model works best for their own internal needs rather than relying only on standardized benchmarks.\n\n“AI is advancing faster than our ability to evaluate it, and static benchmarks break down once models recognize they’re being tested,” the company said in its funding announcement. “The world needs a neutral third party to measure how safe and aligned AI actually is once it’s in the hands of real people. Arena is stepping into that role today,” it added.\n\nTo that end, Arena has also added a new category to its leaderboard: alignment. This is where it ranks models based on issues like unauthorized action (taking actions it wasn’t asked to take); false attribution (wrongly crediting statements or facts to the wrong source); and what it calls “deceptive completion” (lying about completing tasks that it didn’t do).\n\nCurrently, a slate of OpenAI’s models are at the top of its preliminary alignment leaderboard, with Claude Opus 5.5 and Claude Fable in sixth and ninth place, respectively.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Arena, which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "This comes after the company said it reached $100 million in annualized run-rate revenue in June.",
+      "heading": 0
+    },
+    {
+      "text": "The round was led by Lightspeed Venture Partners and Khosla Ventures, with Salesforce Ventures, 01 Advisors, Dell Technologies Capital, Endeavor Catalyst, a16z, Felicis, and others joining in. Arena previously announced a $150 million Series A in January at a $1.7 billion post-money valuation. At the time, its annualized revenue was $30 million, it said. So that means its valuation has nearly doubled in about 10 months.",
+      "heading": 0
+    },
+    {
+      "text": "Arena provides a crowdsourced platform that is free for consumers to use. People enter prompts or request vibe-coded projects and then rate which model does it better. Arena claims it has tens of millions of monthly visitors.",
+      "heading": 0
+    },
+    {
+      "text": "In September of last year, it introduced its commercial product, AI Evaluations, a service that provides model labs and enterprises with detailed performance analytics based on its community feedback. The timing proved impeccable. This year, AI labs realized that their models were gaming benchmarking tests, finding ways to rack up good scores without truly earning them. At the same time, enterprises wanted help determining which model works best for their own internal needs rather than relying only on standardized benchmarks.",
+      "heading": 0
+    },
+    {
+      "text": "“AI is advancing faster than our ability to evaluate it, and static benchmarks break down once models recognize they’re being tested,” the company said in its funding announcement. “The world needs a neutral third party to measure how safe and aligned AI actually is once it’s in the hands of real people. Arena is stepping into that role today,” it added.",
+      "heading": 0
+    },
+    {
+      "text": "To that end, Arena has also added a new category to its leaderboard: alignment. This is where it ranks models based on issues like unauthorized action (taking actions it wasn’t asked to take); false attribution (wrongly crediting statements or facts to the wrong source); and what it calls “deceptive completion” (lying about completing tasks that it didn’t do).",
+      "heading": 0
+    },
+    {
+      "text": "Currently, a slate of OpenAI’s models are at the top of its preliminary alignment leaderboard, with Claude Opus 5.5 and Claude Fable in sixth and ninth place, respectively.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

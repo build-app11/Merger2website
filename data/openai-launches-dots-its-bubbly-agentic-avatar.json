@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "OpenAI launches dots, its bubbly agentic avatar",
+  "slug": "openai-launches-dots-its-bubbly-agentic-avatar",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-1.16.22-PM.jpg?w=988",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+    "episode": ""
+  },
+  "words": 340,
+  "lines": 12,
+  "duration": 113,
+  "text": "At OpenAI’s DevDay event on Tuesday, the company announced the launch of dots, a new personal agentic assistant powered by GPT-6 Astra. The company describes dots as “remarkably capable, always-on agents built to handle everything.”\n\nUnlike Codex or ChatGPT, dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.\n\n“Today, you can start with your primary dot, give it a name, and make it your own,” OpenAI said in its announcement post. “Over time, we envision teams of Dots working together on your behalf.”\n\nDots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets. Users can launch dots from Codex or ChatGPT.\n\nIn its announcement, OpenAI envisions a variety of ways dots could be put to work. In one scenario, a software developer deploys a dedicated dot to monitor customer feedback, implementing bug fixes and requested features as necessary. In another, a scientist employs a dot to rerun analysis and investigate unexpected results as experimental data becomes available.\n\nUsers can message dots through Slack, Teams, and other organizational platforms, with text message support coming soon.\n\nOpenAI also envisions “specialist dots” that take on specific responsibilities. Individual dots can be provisioned with specific identities, credentials, and tools through existing systems. OpenAI is already working with Microsoft to integrate into the company’s Agent 365 security controls.\n\nMuch of this functionality was already possible through Codex and similar agentic harnesses — but dots bundles together those features in a new package with a focus on independent agentic actions.\n\nThe branding also presents a bubbly, cartoonish persona, similar to Meta’s recently released Muse agent. The dots look like … well, dots. The little floating cartoons are a makeover for OpenAI’s software and are the latest example of a company attempting to make AI more relatable.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "At OpenAI’s DevDay event on Tuesday, the company announced the launch of dots, a new personal agentic assistant powered by GPT-6 Astra. The company describes dots as “remarkably capable, always-on agents built to handle everything.”",
+      "heading": 0
+    },
+    {
+      "text": "Unlike Codex or ChatGPT, dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "heading": 0
+    },
+    {
+      "text": "“Today, you can start with your primary dot, give it a name, and make it your own,” OpenAI said in its announcement post. “Over time, we envision teams of Dots working together on your behalf.”",
+      "heading": 0
+    },
+    {
+      "text": "Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets. Users can launch dots from Codex or ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "In its announcement, OpenAI envisions a variety of ways dots could be put to work. In one scenario, a software developer deploys a dedicated dot to monitor customer feedback, implementing bug fixes and requested features as necessary. In another, a scientist employs a dot to rerun analysis and investigate unexpected results as experimental data becomes available.",
+      "heading": 0
+    },
+    {
+      "text": "Users can message dots through Slack, Teams, and other organizational platforms, with text message support coming soon.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also envisions “specialist dots” that take on specific responsibilities. Individual dots can be provisioned with specific identities, credentials, and tools through existing systems. OpenAI is already working with Microsoft to integrate into the company’s Agent 365 security controls.",
+      "heading": 0
+    },
+    {
+      "text": "Much of this functionality was already possible through Codex and similar agentic harnesses — but dots bundles together those features in a new package with a focus on independent agentic actions.",
+      "heading": 0
+    },
+    {
+      "text": "The branding also presents a bubbly, cartoonish persona, similar to Meta’s recently released Muse agent. The dots look like … well, dots. The little floating cartoons are a makeover for OpenAI’s software and are the latest example of a company attempting to make AI more relatable.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

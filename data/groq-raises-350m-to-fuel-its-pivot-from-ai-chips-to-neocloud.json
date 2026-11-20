@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+  "slug": "groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-529313685.jpg?resize=1200,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+    "episode": ""
+  },
+  "words": 539,
+  "lines": 15,
+  "duration": 180,
+  "text": "Startup Groq has raised $350 million as it continues to pivot from an AI chipmaker to a neocloud company that provides powerful GPUs and AI infrastructure services.\n\nThe new capital, led by investment firm Disruptive with planned participation from Nvidia, values the company at $3.5 billion. That’s down from the $6.9 billion Groq was valued at last September, just a few months before Nvidia hired the startup’s founder and CEO, Jonathan Ross, and other top talent as part of a $20 billion licensing deal that the company paid out to investors.\n\nA spokesperson for the company told TechCrunch that despite the difference in valuation, the company doesn’t see it as a down round, but rather as establishing a new valuation for the “post-Nvidia-licensing-deal version of Groq.”\n\nGroq was focused on building its own chips, dubbed LPUs (language processing units), to compete with Nvidia on inference — the type of compute needed to run AI workloads in real time. After it lost its star team, Groq shifted from being a pure AI chipmaker into a cloud and data center provider that operates Nvidia systems.\n\nIn June, Groq raised a $650 million round to kick off its pivot. Groq intends to scale from 54 megawatts to more than 200 megawatts in 2027.\n\nToday, Groq operates 13 data centers across North America, Europe, the Middle East, and Asia Pacific, serving more than 6 million developers, enterprises, and AI-native companies. Groq says the fresh funds will support “those seeking usage of medium and larger sized clusters of Nvidia accelerated computing for training and inference.”\n\n“We are building Groq into the world’s leading AI inference cloud,” Alex Davis, Groq’s chairman and CEO of Disruptive, said in a statement. “Inference will without a doubt become the largest and most critical layer of AI infrastructure.”\n\nWhile inference is in high demand as enterprises scale AI workloads, it’s an open question whether neoclouds will be a profitable enough business to provide returns on their considerable investment in the long term. CoreWeave reported strong second-quarter revenue growth and recently landed major contracts, including with Meta and Anthropic. However, investors remained concerned about the company’s high capital expenditures, heavy reliance on debt, and exposure to rapidly depreciating hardware, and its ability to turn growth into free cash flow.\n\nGroq’s financials are still private for now, but its pivot puts the company directly inside Nvidia’s AI infrastructure ecosystem. That’s not exactly a unique relationship among neoclouds today. Nvidia supplies the GPUs powering clouds from CoreWeave, Lambda, and Nebius, while also investing billions into some of those companies as they race to build more capacity.\n\nTechCrunch has reached out to Groq for more information.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Startup Groq has raised $350 million as it continues to pivot from an AI chipmaker to a neocloud company that provides powerful GPUs and AI infrastructure services.",
+      "heading": 0
+    },
+    {
+      "text": "The new capital, led by investment firm Disruptive with planned participation from Nvidia, values the company at $3.5 billion. That’s down from the $6.9 billion Groq was valued at last September, just a few months before Nvidia hired the startup’s founder and CEO, Jonathan Ross, and other top talent as part of a $20 billion licensing deal that the company paid out to investors.",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson for the company told TechCrunch that despite the difference in valuation, the company doesn’t see it as a down round, but rather as establishing a new valuation for the “post-Nvidia-licensing-deal version of Groq.”",
+      "heading": 0
+    },
+    {
+      "text": "Groq was focused on building its own chips, dubbed LPUs (language processing units), to compete with Nvidia on inference — the type of compute needed to run AI workloads in real time. After it lost its star team, Groq shifted from being a pure AI chipmaker into a cloud and data center provider that operates Nvidia systems.",
+      "heading": 0
+    },
+    {
+      "text": "In June, Groq raised a $650 million round to kick off its pivot. Groq intends to scale from 54 megawatts to more than 200 megawatts in 2027.",
+      "heading": 0
+    },
+    {
+      "text": "Today, Groq operates 13 data centers across North America, Europe, the Middle East, and Asia Pacific, serving more than 6 million developers, enterprises, and AI-native companies. Groq says the fresh funds will support “those seeking usage of medium and larger sized clusters of Nvidia accelerated computing for training and inference.”",
+      "heading": 0
+    },
+    {
+      "text": "“We are building Groq into the world’s leading AI inference cloud,” Alex Davis, Groq’s chairman and CEO of Disruptive, said in a statement. “Inference will without a doubt become the largest and most critical layer of AI infrastructure.”",
+      "heading": 0
+    },
+    {
+      "text": "While inference is in high demand as enterprises scale AI workloads, it’s an open question whether neoclouds will be a profitable enough business to provide returns on their considerable investment in the long term. CoreWeave reported strong second-quarter revenue growth and recently landed major contracts, including with Meta and Anthropic. However, investors remained concerned about the company’s high capital expenditures, heavy reliance on debt, and exposure to rapidly depreciating hardware, and its ability to turn growth into free cash flow.",
+      "heading": 0
+    },
+    {
+      "text": "Groq’s financials are still private for now, but its pivot puts the company directly inside Nvidia’s AI infrastructure ecosystem. That’s not exactly a unique relationship among neoclouds today. Nvidia supplies the GPUs powering clouds from CoreWeave, Lambda, and Nebius, while also investing billions into some of those companies as they race to build more capacity.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Groq for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

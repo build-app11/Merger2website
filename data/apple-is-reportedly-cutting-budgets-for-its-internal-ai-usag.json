@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Apple is reportedly cutting budgets for its internal AI usage",
+  "slug": "apple-is-reportedly-cutting-budgets-for-its-internal-ai-usag",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "episode": ""
+  },
+  "words": 266,
+  "lines": 17,
+  "duration": 89,
+  "text": "Posted:\n\nLucas Ropek\n\nApple is reportedly cutting budgets for its internal AI usage\n\nApple is cutting the daily amount its engineering teams can spend on AI, Bloomberg reported Wednesday. It’s a big change for a company that has worked to integrate the technology into its engineering processes.\n\nIn October, Apple lowered the daily AI spending cap for its engineering teams, decreasing it from $300 to $200, the outlet reported. And more cuts are in the works, with some allowances falling to $100 a day, sources tell Bloomberg. Outside engineering, Apple is reportedly weighing a daily limit as low as $25 a day.\n\nTechCrunch has reached out to Apple for comment.\n\nEarlier this year, a tsunami of tokenmaxxing took hold, with companies pushing staff to use AI as much as possible in the name of vaguely defined efficiency gains. The frenzy was short-lived, however, as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.\n\nConcerns persist about an apparent gap between what AI costs to build and run and the (often unclear) productivity gains the technology is supposed to generate.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nPalmer Luckey doesn’t deny that he’s a prepper\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Apple is reportedly cutting budgets for its internal AI usage",
+      "heading": 1
+    },
+    {
+      "text": "Apple is cutting the daily amount its engineering teams can spend on AI, Bloomberg reported Wednesday. It’s a big change for a company that has worked to integrate the technology into its engineering processes.",
+      "heading": 0
+    },
+    {
+      "text": "In October, Apple lowered the daily AI spending cap for its engineering teams, decreasing it from $300 to $200, the outlet reported. And more cuts are in the works, with some allowances falling to $100 a day, sources tell Bloomberg. Outside engineering, Apple is reportedly weighing a daily limit as low as $25 a day.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Apple for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this year, a tsunami of tokenmaxxing took hold, with companies pushing staff to use AI as much as possible in the name of vaguely defined efficiency gains. The frenzy was short-lived, however, as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+      "heading": 0
+    },
+    {
+      "text": "Concerns persist about an apparent gap between what AI costs to build and run and the (often unclear) productivity gains the technology is supposed to generate.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Palmer Luckey doesn’t deny that he’s a prepper",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

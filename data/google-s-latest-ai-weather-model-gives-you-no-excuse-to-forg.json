@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+  "slug": "google-s-latest-ai-weather-model-gives-you-no-excuse-to-forg",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/2-Figure-How-WeatherNext-3-works.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+    "episode": ""
+  },
+  "words": 899,
+  "lines": 20,
+  "duration": 300,
+  "text": "Scientists at Google DeepMind and Google Research released a new artificial intelligence model for weather forecasting today that sees our changing atmosphere more clearly and predicts its behavior more often.\n\nWeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques, and Google says it will start feeding into weather information users see in search, Google Maps, and Gemini, as well as being available to users and researchers on Google’s cloud platforms.\n\n“This is going to be the first time that some of the core variables feed and power a lot of the Google products,” Samier Merchant, a Google senior staff engineer, told TechCrunch.\n\nThe new model has already proven to be the most accurate among leading contenders tested on Operational WeatherBench, a utility for comparing AI forecasts built by the startup Brightband. It looks at metrics like temperature, windspeed, and humidity.\n\nAs well as beating out other deep-learning models built by Google, Microsoft, Nvidia, and the European Center for Medium-Range Weather Forecasting (ECMWF), it also beats traditional forecasts from the U.S. National Weather service and the ECMWF.\n\nMost weather forecasts come from government-owned supercomputers laboriously churning through mathematical equations written to describe the physics of weather; while these systems have become remarkably accurate, they are expensive and comparatively slow. After the ECMWF released more than half a century of weather data produced by these systems in 2018, deep learning researchers began training models that could make predictions far more quickly and with comparable accuracy to government tools.\n\n“Weather is chaotic, and so small differences really start to perturb massively…Machine learning targets the problem we are really solving, which is approximate noisy physics from incomplete information and finite compute, and so it learns patterns from a lot of data,” said Ferran Alet, a staff research scientist manager at DeepMind.\n\nSince then, model-makers have pushed on the key weaknesses of AI forecasting models: They tend to forecast over a wider area — 15 to 25 square km — than is truly useful, they’re not always great with rain, and they still depend on the formatted datasets produced by government agencies.\n\nWeatherNext 3 takes on all three challenges. On key variables, researchers told TechCrunch, it can predict down to a resolution of 5 km. Its evaluations on rain are 60% improved over WeatherNext 2, and it can now produce hourly forecasts, instead of the standard prediction every six hours.\n\nThose improvements are the result of specific choices made by the designers. WeatherNext 3 is a larger model, with 2.4 times more parameters than its predecessor, tailoring the targets for the decoder heads to give more useful answers. While most weather forecasts output as metrics averaged across a 3D grid, DeepMind researchers have already won plaudits by tuning their model to also visualize cyclone paths.\n\nThis time around, the designers also trained the model to target its forecasts to specific weather data stations. This is important not only for offering more granular predictions, but also for being able to evaluate its work against specific, ground-truth data.\n\n“The idea, with a lot of AI applications, is to try to run tasks as end-to-end as possible,” Daniel Rothenberg, an atmospheric scientist at Brightband, said. “Adding a capability where this model is now also predicting, say, what Denver’s airport’s weather station is going to measure on an hourly basis, just connects that forecasting task closer to the core.”\n\nThe model is able to forecast more frequently because it can ingest weather satellite data collected in real time on an hourly basis. Feeding AI models on raw empirical observations, rather than the analysis produced by weather supercomputers, promises a more accurate forecast, but it is still technically challenging to get models to work with unformatted data.\n\nGoogle says WeatherNext 3 is the “first” AI model to directly incorporate raw observations for a high-resolution global forecast, but the AI weather startup WindBorne says its model, WeatherMesh 6, has been incorporating raw observations from its fleet of weather balloons and other sources since late 2025. Asked about that, Google pointed out that its forecasts are higher resolution across the globe. Regardless, both models still rely on national weather datasets to perform forecasts, so more work will be required for true direct data assimilation.\n\nWhile LLMs get the bulk of the attention, the transformer revolution in meteorology has been just as important. European and U.S. weather agencies are already using AI models in their forecast products, and their speed and low cost promise to bring economic impact to poorer regions where the expense of high-quality sensors and supercomputers has put accurate forecasts out of reach.\n\nBill Gates recently cited AI-powered weather forecasting as a crucial benefit of the technology, with better forecasts improving crop yields in developing countries. Alet, the DeepMind researcher, said that higher-resolution forecasts of wind, rain, and cloud cover will be useful to make renewable energy projects more dependable.\n\n“At the end of the day, I think Google is about providing useful information to the user, and a lot of what users are looking for has to do with the weather in some way or another,” Alet said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Scientists at Google DeepMind and Google Research released a new artificial intelligence model for weather forecasting today that sees our changing atmosphere more clearly and predicts its behavior more often.",
+      "heading": 0
+    },
+    {
+      "text": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques, and Google says it will start feeding into weather information users see in search, Google Maps, and Gemini, as well as being available to users and researchers on Google’s cloud platforms.",
+      "heading": 0
+    },
+    {
+      "text": "“This is going to be the first time that some of the core variables feed and power a lot of the Google products,” Samier Merchant, a Google senior staff engineer, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The new model has already proven to be the most accurate among leading contenders tested on Operational WeatherBench, a utility for comparing AI forecasts built by the startup Brightband. It looks at metrics like temperature, windspeed, and humidity.",
+      "heading": 0
+    },
+    {
+      "text": "As well as beating out other deep-learning models built by Google, Microsoft, Nvidia, and the European Center for Medium-Range Weather Forecasting (ECMWF), it also beats traditional forecasts from the U.S. National Weather service and the ECMWF.",
+      "heading": 0
+    },
+    {
+      "text": "Most weather forecasts come from government-owned supercomputers laboriously churning through mathematical equations written to describe the physics of weather; while these systems have become remarkably accurate, they are expensive and comparatively slow. After the ECMWF released more than half a century of weather data produced by these systems in 2018, deep learning researchers began training models that could make predictions far more quickly and with comparable accuracy to government tools.",
+      "heading": 0
+    },
+    {
+      "text": "“Weather is chaotic, and so small differences really start to perturb massively…Machine learning targets the problem we are really solving, which is approximate noisy physics from incomplete information and finite compute, and so it learns patterns from a lot of data,” said Ferran Alet, a staff research scientist manager at DeepMind.",
+      "heading": 0
+    },
+    {
+      "text": "Since then, model-makers have pushed on the key weaknesses of AI forecasting models: They tend to forecast over a wider area — 15 to 25 square km — than is truly useful, they’re not always great with rain, and they still depend on the formatted datasets produced by government agencies.",
+      "heading": 0
+    },
+    {
+      "text": "WeatherNext 3 takes on all three challenges. On key variables, researchers told TechCrunch, it can predict down to a resolution of 5 km. Its evaluations on rain are 60% improved over WeatherNext 2, and it can now produce hourly forecasts, instead of the standard prediction every six hours.",
+      "heading": 0
+    },
+    {
+      "text": "Those improvements are the result of specific choices made by the designers. WeatherNext 3 is a larger model, with 2.4 times more parameters than its predecessor, tailoring the targets for the decoder heads to give more useful answers. While most weather forecasts output as metrics averaged across a 3D grid, DeepMind researchers have already won plaudits by tuning their model to also visualize cyclone paths.",
+      "heading": 0
+    },
+    {
+      "text": "This time around, the designers also trained the model to target its forecasts to specific weather data stations. This is important not only for offering more granular predictions, but also for being able to evaluate its work against specific, ground-truth data.",
+      "heading": 0
+    },
+    {
+      "text": "“The idea, with a lot of AI applications, is to try to run tasks as end-to-end as possible,” Daniel Rothenberg, an atmospheric scientist at Brightband, said. “Adding a capability where this model is now also predicting, say, what Denver’s airport’s weather station is going to measure on an hourly basis, just connects that forecasting task closer to the core.”",
+      "heading": 0
+    },
+    {
+      "text": "The model is able to forecast more frequently because it can ingest weather satellite data collected in real time on an hourly basis. Feeding AI models on raw empirical observations, rather than the analysis produced by weather supercomputers, promises a more accurate forecast, but it is still technically challenging to get models to work with unformatted data.",
+      "heading": 0
+    },
+    {
+      "text": "Google says WeatherNext 3 is the “first” AI model to directly incorporate raw observations for a high-resolution global forecast, but the AI weather startup WindBorne says its model, WeatherMesh 6, has been incorporating raw observations from its fleet of weather balloons and other sources since late 2025. Asked about that, Google pointed out that its forecasts are higher resolution across the globe. Regardless, both models still rely on national weather datasets to perform forecasts, so more work will be required for true direct data assimilation.",
+      "heading": 0
+    },
+    {
+      "text": "While LLMs get the bulk of the attention, the transformer revolution in meteorology has been just as important. European and U.S. weather agencies are already using AI models in their forecast products, and their speed and low cost promise to bring economic impact to poorer regions where the expense of high-quality sensors and supercomputers has put accurate forecasts out of reach.",
+      "heading": 0
+    },
+    {
+      "text": "Bill Gates recently cited AI-powered weather forecasting as a crucial benefit of the technology, with better forecasts improving crop yields in developing countries. Alet, the DeepMind researcher, said that higher-resolution forecasts of wind, rain, and cloud cover will be useful to make renewable energy projects more dependable.",
+      "heading": 0
+    },
+    {
+      "text": "“At the end of the day, I think Google is about providing useful information to the user, and a lot of what users are looking for has to do with the weather in some way or another,” Alet said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+  "slug": "wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictati",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/Wispr-Flow-Android-hero.jpg?resize=1200,718",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+    "episode": ""
+  },
+  "words": 412,
+  "lines": 12,
+  "duration": 137,
+  "text": "Wispr, a startup known for its AI dictation tool, raised $280 million in Series B funding, led by Menlo Ventures, at a $2 billion valuation, the company announced on Monday. The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.\n\nWith this latest round, the company has raised $361 million to date. Its last round was less than 10 months ago.\n\nThe new capital comes at a time when there is increased competition in the dictation space from apps like Willow, Monologue, Aqua, and Superwhisper, among others. In addition, several developers are creating free or lower-priced tools for prosumers.\n\nExisting investors, including Notable Capital, NEA, Neo Ventures, 8VC, and MVP Ventures, doubled down in the latest round. The company also gained new investors such as Acrew, Forerunner, Goodwater, Peak XV, Together Fund, and PLUS Capital.\n\nAlongside the funding news, Wispr announced it’s launching a new model to improve the quality of speech understanding. For the last few weeks, several users have complained about a quality dip in Wispr Flow’s dictation output. The company said its new model, called Canto, will reduce error rates from 30% to less than 10%.\n\nSince last November, Wispr has released its dictation app on Android and has scaled its go-to-market teams in regions like India and the U.K.\n\nIt’s also partnering with hardware makers, like the Oasis ring, to let customers dictate on their devices without speaking loudly. Separately, with its meeting notetaker, it’s taking on others in the space like Granola, Fireflies, and Read AI. While Wispr’s notetaker can display summaries and action items, there is scope for it to integrate with other tools and make updates or create documents or email drafts.\n\nLast month, the startup announced Wispr Interface Labs under Ariya Rastrow, who was one of the people to work on Amazon Alexa in its early days. With this lab, Wispr aims to explore new interfaces for human-computer interaction.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Wispr, a startup known for its AI dictation tool, raised $280 million in Series B funding, led by Menlo Ventures, at a $2 billion valuation, the company announced on Monday. The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "heading": 0
+    },
+    {
+      "text": "With this latest round, the company has raised $361 million to date. Its last round was less than 10 months ago.",
+      "heading": 0
+    },
+    {
+      "text": "The new capital comes at a time when there is increased competition in the dictation space from apps like Willow, Monologue, Aqua, and Superwhisper, among others. In addition, several developers are creating free or lower-priced tools for prosumers.",
+      "heading": 0
+    },
+    {
+      "text": "Existing investors, including Notable Capital, NEA, Neo Ventures, 8VC, and MVP Ventures, doubled down in the latest round. The company also gained new investors such as Acrew, Forerunner, Goodwater, Peak XV, Together Fund, and PLUS Capital.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside the funding news, Wispr announced it’s launching a new model to improve the quality of speech understanding. For the last few weeks, several users have complained about a quality dip in Wispr Flow’s dictation output. The company said its new model, called Canto, will reduce error rates from 30% to less than 10%.",
+      "heading": 0
+    },
+    {
+      "text": "Since last November, Wispr has released its dictation app on Android and has scaled its go-to-market teams in regions like India and the U.K.",
+      "heading": 0
+    },
+    {
+      "text": "It’s also partnering with hardware makers, like the Oasis ring, to let customers dictate on their devices without speaking loudly. Separately, with its meeting notetaker, it’s taking on others in the space like Granola, Fireflies, and Read AI. While Wispr’s notetaker can display summaries and action items, there is scope for it to integrate with other tools and make updates or create documents or email drafts.",
+      "heading": 0
+    },
+    {
+      "text": "Last month, the startup announced Wispr Interface Labs under Ariya Rastrow, who was one of the people to work on Amazon Alexa in its early days. With this lab, Wispr aims to explore new interfaces for human-computer interaction.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

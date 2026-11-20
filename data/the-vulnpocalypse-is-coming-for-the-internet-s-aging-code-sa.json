@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+  "slug": "the-vulnpocalypse-is-coming-for-the-internet-s-aging-code-sa",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2162704124.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+    "episode": ""
+  },
+  "words": 384,
+  "lines": 24,
+  "duration": 128,
+  "text": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO\n\nThe PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the bugs, this is only the beginning, as AI changes how quickly novel vulnerabilities can be uncovered and exploited.\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Tomer Schwartz, CTO of Exposure Management & AppSec at Google-owned Wiz, who was part of the scramble — alongside OpenAI, research group Calif, and the PHP team — to fix the bugs. On the show, Schwartz and Bellan get into what the race looked like from the inside, how early-stage startups can build with security in mind, and why patching by hand won’t scale.\n\nListen to the full episode to hear more about:\n\nWhy Tomer says Wiz couldn’t have found these bugs without AI, and how custom tooling tested dozens of ideas over a weekend.\n\nHow a bug was able to sit in plain sight for more than a decade, and what changed to make it exploitable.\n\nWhy leaks are almost baked into coordinated disclosure, and how Wiz planned for it.\n\nWho’s still unpatched and whether small business owners running WordPress sites need to worry.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "heading": 0
+    },
+    {
+      "text": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the bugs, this is only the beginning, as AI changes how quickly novel vulnerabilities can be uncovered and exploited.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Tomer Schwartz, CTO of Exposure Management & AppSec at Google-owned Wiz, who was part of the scramble — alongside OpenAI, research group Calif, and the PHP team — to fix the bugs. On the show, Schwartz and Bellan get into what the race looked like from the inside, how early-stage startups can build with security in mind, and why patching by hand won’t scale.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "Why Tomer says Wiz couldn’t have found these bugs without AI, and how custom tooling tested dozens of ideas over a weekend.",
+      "heading": 0
+    },
+    {
+      "text": "How a bug was able to sit in plain sight for more than a decade, and what changed to make it exploitable.",
+      "heading": 0
+    },
+    {
+      "text": "Why leaks are almost baked into coordinated disclosure, and how Wiz planned for it.",
+      "heading": 0
+    },
+    {
+      "text": "Who’s still unpatched and whether small business owners running WordPress sites need to worry.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

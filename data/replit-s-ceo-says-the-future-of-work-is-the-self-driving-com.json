@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+  "slug": "replit-s-ceo-says-the-future-of-work-is-the-self-driving-com",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300415994.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+    "episode": ""
+  },
+  "words": 540,
+  "lines": 15,
+  "duration": 180,
+  "text": "Replit CEO and co-founder Amjad Masad has seen how AI is impacting the workplace firsthand, with businesses adopting his company’s AI coding tools to develop and launch their own software. At TechCrunch Disrupt in San Francisco on Thursday, Masad shared what Replit has learned about what that means for the future of work in the AI age, including how humans will still play key roles as AI agents come to work alongside them.\n\nHe described his vision of a “self-driving company,” referring not to robotaxi makers, but how agents will come to do much of the grunt work at companies while people become more valued for their judgment and taste.\n\n“The reality is, all of our jobs — perhaps everyone in this audience, especially — changed over the past year,” he said, addressing the audience at Disrupt. “But a big part of America and the world, they still don’t know that that change is coming, and it’s going to be surprising to a lot of people,” Masad said.\n\nHe said Replit’s team had been reflecting on how AI technology impacted their own workplace over the past year, particularly after AI agents became more reliable sometime earlier this year.\n\n“Our company entirely changed how we operate, and I would say the closest analogy is a ‘self-driving company’,” Masad said. “The company is sort of self-improving, so a lot of the work that’s going on is driven by agents.”\n\nIllustrating the shift, Masad said that when support tickets come in at Replit, they’re first examined by an agent, which performs the initial triaging by looking at GitHub issues, the codebase, and Linear tickets. By the time the support request reaches a person, they have all the additional information that helps them decide how best to proceed.\n\nAnd when that support person decides to submit a patch to apply a fix, it’s just a click to deploy another agent.\n\n“You have an entire loop where agents did most of the work, but crucially, there’s human judgment in the middle, and we don’t think that’s going away anytime soon. You need human judgment; you need taste,” Masad explained.\n\nThe end result is that instead of taking jobs from people, agents are changing what people work on.\n\n“We’re spending a lot more time figuring out what to work on,” Masad continued. “I go around the company, I see a lot more discussions, a lot more whiteboarding. We spend a lot more time on architecture, how to build things. And so I think the future of work — the self-driving company idea — is really trying to discover what AI transformation means.”\n\nHe also noted that when Replit talks with other businesses, the conversations are more about how AI can help people become more productive and happier at work. (The latter because the AI agents make work less boring and more creative, he said.)\n\n“There’s a positive vision of the world that Silicon Valley is not really putting out, and we’re hoping to do that,” Masad added.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Replit CEO and co-founder Amjad Masad has seen how AI is impacting the workplace firsthand, with businesses adopting his company’s AI coding tools to develop and launch their own software. At TechCrunch Disrupt in San Francisco on Thursday, Masad shared what Replit has learned about what that means for the future of work in the AI age, including how humans will still play key roles as AI agents come to work alongside them.",
+      "heading": 0
+    },
+    {
+      "text": "He described his vision of a “self-driving company,” referring not to robotaxi makers, but how agents will come to do much of the grunt work at companies while people become more valued for their judgment and taste.",
+      "heading": 0
+    },
+    {
+      "text": "“The reality is, all of our jobs — perhaps everyone in this audience, especially — changed over the past year,” he said, addressing the audience at Disrupt. “But a big part of America and the world, they still don’t know that that change is coming, and it’s going to be surprising to a lot of people,” Masad said.",
+      "heading": 0
+    },
+    {
+      "text": "He said Replit’s team had been reflecting on how AI technology impacted their own workplace over the past year, particularly after AI agents became more reliable sometime earlier this year.",
+      "heading": 0
+    },
+    {
+      "text": "“Our company entirely changed how we operate, and I would say the closest analogy is a ‘self-driving company’,” Masad said. “The company is sort of self-improving, so a lot of the work that’s going on is driven by agents.”",
+      "heading": 0
+    },
+    {
+      "text": "Illustrating the shift, Masad said that when support tickets come in at Replit, they’re first examined by an agent, which performs the initial triaging by looking at GitHub issues, the codebase, and Linear tickets. By the time the support request reaches a person, they have all the additional information that helps them decide how best to proceed.",
+      "heading": 0
+    },
+    {
+      "text": "And when that support person decides to submit a patch to apply a fix, it’s just a click to deploy another agent.",
+      "heading": 0
+    },
+    {
+      "text": "“You have an entire loop where agents did most of the work, but crucially, there’s human judgment in the middle, and we don’t think that’s going away anytime soon. You need human judgment; you need taste,” Masad explained.",
+      "heading": 0
+    },
+    {
+      "text": "The end result is that instead of taking jobs from people, agents are changing what people work on.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re spending a lot more time figuring out what to work on,” Masad continued. “I go around the company, I see a lot more discussions, a lot more whiteboarding. We spend a lot more time on architecture, how to build things. And so I think the future of work — the self-driving company idea — is really trying to discover what AI transformation means.”",
+      "heading": 0
+    },
+    {
+      "text": "He also noted that when Replit talks with other businesses, the conversations are more about how AI can help people become more productive and happier at work. (The latter because the AI agents make work less boring and more creative, he said.)",
+      "heading": 0
+    },
+    {
+      "text": "“There’s a positive vision of the world that Silicon Valley is not really putting out, and we’re hoping to do that,” Masad added.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

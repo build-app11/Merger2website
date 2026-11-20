@@ -1,0 +1,65 @@
+{
+  "type": "read",
+  "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+  "slug": "microsoft-just-shared-azure-s-actual-revenue-in-dollars-33-2",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+    "episode": ""
+  },
+  "words": 359,
+  "lines": 10,
+  "duration": 120,
+  "text": "Microsoft has never disclosed Azure’s quarterly revenue in dollars. It has typically only shared a growth percentage or described revenue dollar milestones in vague ways. But on Wednesday, when it posted another record-breaking quarter, it reported that Azure brought in a healthy $33.2 billion in revenue for the July-September quarter, up 48% from a year earlier.\n\nThe disclosure lets investors line up Azure’s performance more directly against Amazon Web Services and Google Cloud, whose parent companies already report cloud revenue in dollars every quarter.\n\nAlphabet, which also reported earnings on Wednesday, said Google Cloud brought in $30.7 billion in the same quarter, putting Azure slightly ahead. But Google Cloud, which also includes Google’s Workspace subscriptions, roughly doubled its revenue from a year earlier, growing about twice as fast as Azure, according to TechCrunch’s calculations.\n\nAzure, where businesses rent computing power to run applications, SaaS, and to build and run AI models, is now Microsoft’s largest and fastest-growing product line by the company’s own figures. It accounted for roughly 36% of Microsoft’s $92.3 billion in quarterly revenue.\n\nAzure’s revenue was also about $850 million more than the $32.3 billion analysts expected. Azure’s 48% growth rate also topped the 44% to 45% that Microsoft CFO Amy Hood forecast on the company’s July earnings call.\n\nAzure sits inside Agents and Infra, one of two new business segments Microsoft introduced this quarter. Microsoft previously reported three segments, Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The new Agents and Infra segment, which groups Azure with Microsoft 365’s cloud business, brought in $76.8 billion, up 25% from a year earlier.\n\nAmazon reports its earnings on Thursday. Analysts also expect its cloud, Amazon Web Services, to grow. It’s been the largest cloud since the beginning of time and no one expects Microsoft to best it right now. But with all of them reporting actual dollars, the race is on.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow",
+  "paragraphs": [
+    {
+      "text": "Microsoft has never disclosed Azure’s quarterly revenue in dollars. It has typically only shared a growth percentage or described revenue dollar milestones in vague ways. But on Wednesday, when it posted another record-breaking quarter, it reported that Azure brought in a healthy $33.2 billion in revenue for the July-September quarter, up 48% from a year earlier.",
+      "heading": 0
+    },
+    {
+      "text": "The disclosure lets investors line up Azure’s performance more directly against Amazon Web Services and Google Cloud, whose parent companies already report cloud revenue in dollars every quarter.",
+      "heading": 0
+    },
+    {
+      "text": "Alphabet, which also reported earnings on Wednesday, said Google Cloud brought in $30.7 billion in the same quarter, putting Azure slightly ahead. But Google Cloud, which also includes Google’s Workspace subscriptions, roughly doubled its revenue from a year earlier, growing about twice as fast as Azure, according to TechCrunch’s calculations.",
+      "heading": 0
+    },
+    {
+      "text": "Azure, where businesses rent computing power to run applications, SaaS, and to build and run AI models, is now Microsoft’s largest and fastest-growing product line by the company’s own figures. It accounted for roughly 36% of Microsoft’s $92.3 billion in quarterly revenue.",
+      "heading": 0
+    },
+    {
+      "text": "Azure’s revenue was also about $850 million more than the $32.3 billion analysts expected. Azure’s 48% growth rate also topped the 44% to 45% that Microsoft CFO Amy Hood forecast on the company’s July earnings call.",
+      "heading": 0
+    },
+    {
+      "text": "Azure sits inside Agents and Infra, one of two new business segments Microsoft introduced this quarter. Microsoft previously reported three segments, Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The new Agents and Infra segment, which groups Azure with Microsoft 365’s cloud business, brought in $76.8 billion, up 25% from a year earlier.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon reports its earnings on Thursday. Analysts also expect its cloud, Amazon Web Services, to grow. It’s been the largest cloud since the beginning of time and no one expects Microsoft to best it right now. But with all of them reporting actual dollars, the race is on.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    }
+  ]
+}

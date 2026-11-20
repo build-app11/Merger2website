@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Meta is losing its longtime head of infrastructure",
+  "slug": "meta-is-losing-its-longtime-head-of-infrastructure",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+    "episode": ""
+  },
+  "words": 343,
+  "lines": 18,
+  "duration": 114,
+  "text": "Posted:\n\nLucas Ropek\n\nMeta is losing its longtime head of infrastructure\n\nA key figure in Meta’s growth into a social media and tech industry powerhouse is leaving the company.\n\nSantosh Janardhan, the company’s longtime head of infrastructure and co-head of engineering, will be stepping down, Meta told TechCrunch. He will be replaced by Dave Brown, who joined the company as vice president of infrastructure earlier this year, the company added. Previous to coming aboard at Meta, Brown spent 19 years at Amazon, where he focused on compute, cloud, and AI, his LinkedIn shows.\n\nIt sounds like Janardhan will remain at Meta for a little bit, although he is expected to leave next year. “Santosh will stay on for transition and he is moving into an advisory role on Meta Compute,” said a Meta representative.\n\nJanardhan, who originally joined the company in 2009, helped the firm grow into the massive internet presence that it is today. Bloomberg originally reported Janardhan’s departure, citing an internal memo that had recently been circulated. It’s unclear why Janardhan is stepping down from the role. The memo did not specify the reasons for his departure and Meta didn’t immediately respond to a request for clarity on the issue. However, Janardhan’s memo apparently cited the need to “pass the baton.”\n\nIn recent years, the company’s investment in infrastructure has exploded as it seeks to keep up with its competitors in the AI race. Earlier this year, Janardhan was tasked with leading Meta Compute, the company initiative to scale its data center investments and strategy.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Meta is losing its longtime head of infrastructure",
+      "heading": 1
+    },
+    {
+      "text": "A key figure in Meta’s growth into a social media and tech industry powerhouse is leaving the company.",
+      "heading": 0
+    },
+    {
+      "text": "Santosh Janardhan, the company’s longtime head of infrastructure and co-head of engineering, will be stepping down, Meta told TechCrunch. He will be replaced by Dave Brown, who joined the company as vice president of infrastructure earlier this year, the company added. Previous to coming aboard at Meta, Brown spent 19 years at Amazon, where he focused on compute, cloud, and AI, his LinkedIn shows.",
+      "heading": 0
+    },
+    {
+      "text": "It sounds like Janardhan will remain at Meta for a little bit, although he is expected to leave next year. “Santosh will stay on for transition and he is moving into an advisory role on Meta Compute,” said a Meta representative.",
+      "heading": 0
+    },
+    {
+      "text": "Janardhan, who originally joined the company in 2009, helped the firm grow into the massive internet presence that it is today. Bloomberg originally reported Janardhan’s departure, citing an internal memo that had recently been circulated. It’s unclear why Janardhan is stepping down from the role. The memo did not specify the reasons for his departure and Meta didn’t immediately respond to a request for clarity on the issue. However, Janardhan’s memo apparently cited the need to “pass the baton.”",
+      "heading": 0
+    },
+    {
+      "text": "In recent years, the company’s investment in infrastructure has exploded as it seeks to keep up with its competitors in the AI race. Earlier this year, Janardhan was tasked with leading Meta Compute, the company initiative to scale its data center investments and strategy.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

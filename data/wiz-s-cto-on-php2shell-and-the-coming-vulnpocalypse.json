@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+  "slug": "wiz-s-cto-on-php2shell-and-the-coming-vulnpocalypse",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/tomer-wiz.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+    "episode": ""
+  },
+  "words": 225,
+  "lines": 13,
+  "duration": 75,
+  "text": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’\n\nLoading the player…\n\nThe PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the bugs, this is only the beginning, as AI changes how quickly novel vulnerabilities can be uncovered and exploited.\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Tomer Schwartz, CTO of Exposure Management & AppSec at Google-owned Wiz, who was part of the scramble — alongside OpenAI, research group Calif, and the PHP team — to fix the bugs. On the show, Schwartz and Bellan get into what the race looked like from the inside, how early-stage startups can build with security in mind, and why patching by hand won’t scale.\n\nTopics\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nLucas Ropek\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nAmazon CTO Werner Vogels on fighting misinformation, tech addiction, and small nuclear reactors\n\nFrederic Lardinois",
+  "paragraphs": [
+    {
+      "text": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "heading": 1
+    },
+    {
+      "text": "Loading the player…",
+      "heading": 1
+    },
+    {
+      "text": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the bugs, this is only the beginning, as AI changes how quickly novel vulnerabilities can be uncovered and exploited.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Tomer Schwartz, CTO of Exposure Management & AppSec at Google-owned Wiz, who was part of the scramble — alongside OpenAI, research group Calif, and the PHP team — to fix the bugs. On the show, Schwartz and Bellan get into what the race looked like from the inside, how early-stage startups can build with security in mind, and why patching by hand won’t scale.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Amazon CTO Werner Vogels on fighting misinformation, tech addiction, and small nuclear reactors",
+      "heading": 0
+    },
+    {
+      "text": "Frederic Lardinois",
+      "heading": 1
+    }
+  ]
+}

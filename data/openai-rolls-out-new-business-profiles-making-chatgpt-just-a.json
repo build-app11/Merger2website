@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+  "slug": "openai-rolls-out-new-business-profiles-making-chatgpt-just-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-8.46.19-AM.png?resize=1200,677",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+    "episode": ""
+  },
+  "words": 419,
+  "lines": 11,
+  "duration": 140,
+  "text": "In an effort to make ChatGPT an even better consumer discovery engine, OpenAI is launching a host of new features designed to help companies control how users interact with their businesses.\n\nOn Tuesday, the company rolled out a Business Hub that will serve as a place where companies can create business profiles that — in a feature that greatly resembles the kind of profiles that Google and other search engines already offer — allow enterprises to verify and update information about their products and services. The feature is currently in beta.\n\nEligible companies will also be able to create and launch a specialized business agent, which gives ChatGPT users the ability to ask questions about the business and its products.\n\n“As people turn to AI to discover products, compare options and make decisions, ChatGPT has become the platform for people and businesses to connect through AI,” the company said on Tuesday. “Today’s announcement is an early step in bringing businesses more deeply into ChatGPT.”\n\nIn a move that calls to mind Google Analytics, the Business Hub will also give users access to limited business insights. These insights will reveal how ChatGPT users interact with their products — including profile views, business mentions, website clicks, and other metrics.\n\nBusinesses will have to verify their profiles through a formal process, although the company did not share specifics of what that process would entail. Benji Shomair, OpenAI’s VP of Monetization, told journalists on Monday that there are “multiple verification methods that we use for different types of business in different markets.”\n\nOpenAI previously tried to position ChatGPT as an e-commerce hub by which users could buy products directly. This effort — which used a commission fee system — was viewed as a potentially huge source of revenue and a way to make ChatGPT a more direct Amazon competitor. However, that project ultimately failed to take off and, in March, the company retired the effort, which had even included a “checkout cart” feature.\n\nWith the integration of business profiles and intelligence, ChatGPT seems to be attempting to become more like Google, which — since the advent of the internet — has been the place where web users go to understand the companies they want to shop at. It remains to be seen whether this initiative will bear better results than the one that sought to make ChatGPT a direct e-commerce hub.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "In an effort to make ChatGPT an even better consumer discovery engine, OpenAI is launching a host of new features designed to help companies control how users interact with their businesses.",
+      "heading": 0
+    },
+    {
+      "text": "On Tuesday, the company rolled out a Business Hub that will serve as a place where companies can create business profiles that — in a feature that greatly resembles the kind of profiles that Google and other search engines already offer — allow enterprises to verify and update information about their products and services. The feature is currently in beta.",
+      "heading": 0
+    },
+    {
+      "text": "Eligible companies will also be able to create and launch a specialized business agent, which gives ChatGPT users the ability to ask questions about the business and its products.",
+      "heading": 0
+    },
+    {
+      "text": "“As people turn to AI to discover products, compare options and make decisions, ChatGPT has become the platform for people and businesses to connect through AI,” the company said on Tuesday. “Today’s announcement is an early step in bringing businesses more deeply into ChatGPT.”",
+      "heading": 0
+    },
+    {
+      "text": "In a move that calls to mind Google Analytics, the Business Hub will also give users access to limited business insights. These insights will reveal how ChatGPT users interact with their products — including profile views, business mentions, website clicks, and other metrics.",
+      "heading": 0
+    },
+    {
+      "text": "Businesses will have to verify their profiles through a formal process, although the company did not share specifics of what that process would entail. Benji Shomair, OpenAI’s VP of Monetization, told journalists on Monday that there are “multiple verification methods that we use for different types of business in different markets.”",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI previously tried to position ChatGPT as an e-commerce hub by which users could buy products directly. This effort — which used a commission fee system — was viewed as a potentially huge source of revenue and a way to make ChatGPT a more direct Amazon competitor. However, that project ultimately failed to take off and, in March, the company retired the effort, which had even included a “checkout cart” feature.",
+      "heading": 0
+    },
+    {
+      "text": "With the integration of business profiles and intelligence, ChatGPT seems to be attempting to become more like Google, which — since the advent of the internet — has been the place where web users go to understand the companies they want to shop at. It remains to be seen whether this initiative will bear better results than the one that sought to make ChatGPT a direct e-commerce hub.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

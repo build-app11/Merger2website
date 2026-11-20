@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
+  "slug": "sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-o",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "episode": ""
+  },
+  "words": 354,
+  "lines": 21,
+  "duration": 118,
+  "text": "Posted:\n\nKirsten Korosec\n\nSony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft\n\nSony Music Publishing, Warner Chappell, and numerous other music publishers have sued Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the AI lab conducted a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works.”\n\nThe lawsuit, which was filed late Friday in the U.S. District Court for the Northern District of California, was first reported by Music Business Worldwide. The publishers accuse Anthropic of “blatant theft” by using thousands of copyrighted works to train its AI model Claude.\n\n“We disagree with the publishers’ claims and we intend to defend ourselves robustly in court,” an Anthropic spokesperson wrote in an emailed statement sent to TechCrunch.\n\nThis isn’t the first intellectual property lawsuit Anthropic has faced. Some of the same lawyers behind this lawsuit also represent Concord Music Group and Universal Music Group in a case filed in January and led the Bartz v. Anthropic case, in which a group of authors accused Anthropic of using copyrighted works to train products like Claude. Anthropic was ordered to pay $1.5 billion in the landmark Bartz case after a judge ruled that while it was legal for the AI lab to use copyrighted works, it was not legal to acquire that content through piracy.\n\nWhile the cases make similar arguments, there are key differences. This latest lawsuit is particularly broad and builds off the other cases, including by accusing Anthropic of “flagrant piracy” through illegal torrenting to obtain millions of copies of books, including those that contain lyrics and sheet music.\n\nArticle was updated to include Anthropic’s comment.\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
+      "heading": 0
+    },
+    {
+      "text": "Sony Music Publishing, Warner Chappell, and numerous other music publishers have sued Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the AI lab conducted a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works.”",
+      "heading": 0
+    },
+    {
+      "text": "The lawsuit, which was filed late Friday in the U.S. District Court for the Northern District of California, was first reported by Music Business Worldwide. The publishers accuse Anthropic of “blatant theft” by using thousands of copyrighted works to train its AI model Claude.",
+      "heading": 0
+    },
+    {
+      "text": "“We disagree with the publishers’ claims and we intend to defend ourselves robustly in court,” an Anthropic spokesperson wrote in an emailed statement sent to TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "This isn’t the first intellectual property lawsuit Anthropic has faced. Some of the same lawyers behind this lawsuit also represent Concord Music Group and Universal Music Group in a case filed in January and led the Bartz v. Anthropic case, in which a group of authors accused Anthropic of using copyrighted works to train products like Claude. Anthropic was ordered to pay $1.5 billion in the landmark Bartz case after a judge ruled that while it was legal for the AI lab to use copyrighted works, it was not legal to acquire that content through piracy.",
+      "heading": 0
+    },
+    {
+      "text": "While the cases make similar arguments, there are key differences. This latest lawsuit is particularly broad and builds off the other cases, including by accusing Anthropic of “flagrant piracy” through illegal torrenting to obtain millions of copies of books, including those that contain lyrics and sheet music.",
+      "heading": 0
+    },
+    {
+      "text": "Article was updated to include Anthropic’s comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

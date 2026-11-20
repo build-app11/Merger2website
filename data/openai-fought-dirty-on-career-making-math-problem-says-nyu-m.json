@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+  "slug": "openai-fought-dirty-on-career-making-math-problem-says-nyu-m",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+    "episode": ""
+  },
+  "words": 953,
+  "lines": 19,
+  "duration": 318,
+  "text": "NYU mathematics professor Tristan Buckmaster announced three proofs on Tuesday with a preliminary finding on one of the major unsolved problems in theoretical mathematics. The findings, made in collaboration with Anthropic mathematician Levent Alpöge and using both Codex and Claude AI models, are significant in themselves — but they’re also accompanied by an unusual controversy surrounding OpenAI’s attempts to solve the same problem.\n\n“There is another part of this story,” Buckmaster wrote in his statement announcing the proofs, “and one that, honestly, I very much wish I did not have to be concerned with.” According to the statement, a parallel effort by OpenAI built on their work before it became public, leading to a tangle of academic rivalries and conflicting claims.\n\nShortly after the Buckmaster’s statement, OpenAI published a full proof of the Navier–Stokes existence and smoothness problem, which Buckmaster’s findings had taken steps towards. According to OpenAI, the proof was discovered by an unreleased next-generation model, which has tackled a range of different unsolved problems over the past week. All told, the week-long effort consumed 300 billion output tokens — $22.5 million worth of compute, if charged at current Astra rates.\n\nThe Navier-Stokes existence and smoothness problem is one of the seven Millennium Prize problems — a set of major unsolved math problems, each carrying a $1 million bounty from Clay Mathematics Institute for the first person or group to provide a solution. The Navier-Stokes equations are widely used in fluid mechanics but poorly understood in theoretical terms. A solution would represent a significant advance in the collective understanding of mathematical physics.\n\nWhile Buckmaster and Alpöge were finalizing their own results, they learned that “information about our progress had been passed to OpenAI.” When they contacted OpenAI, they were told that OpenAI had already achieved a full proof of the central problem. But when they asked follow-up questions about when OpenAI had begun its research into the problem and how much human input was involved, the answers became more evasive.\n\n“It emerged that an entire team had been working on the problem,” Buckmaster said, “and that an insane amount of compute had been used…. Eventually, it was agreed that [the first prompt] had been sent in the past few days, after information about our work had reached OpenAI.”\n\nIf true, that would suggest the OpenAI team had become convinced that Buckmaster and Alpöge’s approach was the right one, and decided to use its material advantage in computing resources to reach a formal proof first.\n\nOpenAI’s post confirms much of this timeline, specifically saying that the latest effort began on September 1, inspired by rumors that two Millennium Prize problem had been solved. Additionally, the post confirms the ongoing conversations with Buckmaster and Alpöge.\n\nAlthough the problem is widely pursued among mathematicians, the specific tactic taken by Buckmaster and his collaborator is far less common. As a result, Buckmaster found it suspicious that OpenAI ended up taking the same approach at the same time.\n\n“The route to the Clay problem through a smooth force, options c and d in Fefferman’s statement of the problem, is the route Luis and Diego opened and the one Levent and I had quietly chosen to attack,” Buckmaster wrote. “Almost nobody else I know of was working on it,” he continued. “It is not the direction one arrives at in a few days by giving a model the problem statement.”\n\nWhile Alpöge is employed by Anthropic, he was not conducting this research on the company’s behalf. As a result, the duo used a mix of models, relying primarily on OpenAI’s Codex in their work. Even so, Alpöge’s affiliation with a rival lab seems to have been a sore point for OpenAI, and Buckmaster alleges that OpenAI mathematician Sébastien Bubeck asked him to remove Alpöge’s credit as part of a proposed compromise.\n\nWhen Buckmaster pushed to make the dispute public, he says that Bubeck replied: “Why would you ruin your career?” Buckmaster says that when he pushed back, Bubeck followed up with: “If you don’t want me to be nice, then I don’t have to be nice.”\n\nBuckmaster also raised concerns that, because he used Codex extensively in assembling the project, information from his work could have informed OpenAI’s own efforts to solve the problem. OpenAI reserves the right to train models on Codex interactions, although users are able to opt-out. If the OpenAI team used a model trained on Buckmaster’s own Codex interactions, it’s plausible that it could have regurgitated his work when faced with a similar problem.\n\nIn its own post, OpenAI downplayed the possibility that regurgitation could have been involved. “We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem,” the post reads. “While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models⁠. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).”\n\nRegardless, the issue is likely to reignite the ongoing debate about AI’s role in mathematical research, and OpenAI’s specific incentives. For his part, Buckmaster seems to believe the best answer is to get as much information about the research out into the public eye.\n\nUpdate 2:35p.m. ET: Incorporated details from OpenAI’s release of the Navier-Stokes result.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "NYU mathematics professor Tristan Buckmaster announced three proofs on Tuesday with a preliminary finding on one of the major unsolved problems in theoretical mathematics. The findings, made in collaboration with Anthropic mathematician Levent Alpöge and using both Codex and Claude AI models, are significant in themselves — but they’re also accompanied by an unusual controversy surrounding OpenAI’s attempts to solve the same problem.",
+      "heading": 0
+    },
+    {
+      "text": "“There is another part of this story,” Buckmaster wrote in his statement announcing the proofs, “and one that, honestly, I very much wish I did not have to be concerned with.” According to the statement, a parallel effort by OpenAI built on their work before it became public, leading to a tangle of academic rivalries and conflicting claims.",
+      "heading": 0
+    },
+    {
+      "text": "Shortly after the Buckmaster’s statement, OpenAI published a full proof of the Navier–Stokes existence and smoothness problem, which Buckmaster’s findings had taken steps towards. According to OpenAI, the proof was discovered by an unreleased next-generation model, which has tackled a range of different unsolved problems over the past week. All told, the week-long effort consumed 300 billion output tokens — $22.5 million worth of compute, if charged at current Astra rates.",
+      "heading": 0
+    },
+    {
+      "text": "The Navier-Stokes existence and smoothness problem is one of the seven Millennium Prize problems — a set of major unsolved math problems, each carrying a $1 million bounty from Clay Mathematics Institute for the first person or group to provide a solution. The Navier-Stokes equations are widely used in fluid mechanics but poorly understood in theoretical terms. A solution would represent a significant advance in the collective understanding of mathematical physics.",
+      "heading": 0
+    },
+    {
+      "text": "While Buckmaster and Alpöge were finalizing their own results, they learned that “information about our progress had been passed to OpenAI.” When they contacted OpenAI, they were told that OpenAI had already achieved a full proof of the central problem. But when they asked follow-up questions about when OpenAI had begun its research into the problem and how much human input was involved, the answers became more evasive.",
+      "heading": 0
+    },
+    {
+      "text": "“It emerged that an entire team had been working on the problem,” Buckmaster said, “and that an insane amount of compute had been used…. Eventually, it was agreed that [the first prompt] had been sent in the past few days, after information about our work had reached OpenAI.”",
+      "heading": 0
+    },
+    {
+      "text": "If true, that would suggest the OpenAI team had become convinced that Buckmaster and Alpöge’s approach was the right one, and decided to use its material advantage in computing resources to reach a formal proof first.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI’s post confirms much of this timeline, specifically saying that the latest effort began on September 1, inspired by rumors that two Millennium Prize problem had been solved. Additionally, the post confirms the ongoing conversations with Buckmaster and Alpöge.",
+      "heading": 0
+    },
+    {
+      "text": "Although the problem is widely pursued among mathematicians, the specific tactic taken by Buckmaster and his collaborator is far less common. As a result, Buckmaster found it suspicious that OpenAI ended up taking the same approach at the same time.",
+      "heading": 0
+    },
+    {
+      "text": "“The route to the Clay problem through a smooth force, options c and d in Fefferman’s statement of the problem, is the route Luis and Diego opened and the one Levent and I had quietly chosen to attack,” Buckmaster wrote. “Almost nobody else I know of was working on it,” he continued. “It is not the direction one arrives at in a few days by giving a model the problem statement.”",
+      "heading": 0
+    },
+    {
+      "text": "While Alpöge is employed by Anthropic, he was not conducting this research on the company’s behalf. As a result, the duo used a mix of models, relying primarily on OpenAI’s Codex in their work. Even so, Alpöge’s affiliation with a rival lab seems to have been a sore point for OpenAI, and Buckmaster alleges that OpenAI mathematician Sébastien Bubeck asked him to remove Alpöge’s credit as part of a proposed compromise.",
+      "heading": 0
+    },
+    {
+      "text": "When Buckmaster pushed to make the dispute public, he says that Bubeck replied: “Why would you ruin your career?” Buckmaster says that when he pushed back, Bubeck followed up with: “If you don’t want me to be nice, then I don’t have to be nice.”",
+      "heading": 0
+    },
+    {
+      "text": "Buckmaster also raised concerns that, because he used Codex extensively in assembling the project, information from his work could have informed OpenAI’s own efforts to solve the problem. OpenAI reserves the right to train models on Codex interactions, although users are able to opt-out. If the OpenAI team used a model trained on Buckmaster’s own Codex interactions, it’s plausible that it could have regurgitated his work when faced with a similar problem.",
+      "heading": 0
+    },
+    {
+      "text": "In its own post, OpenAI downplayed the possibility that regurgitation could have been involved. “We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem,” the post reads. “While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models⁠. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).”",
+      "heading": 0
+    },
+    {
+      "text": "Regardless, the issue is likely to reignite the ongoing debate about AI’s role in mathematical research, and OpenAI’s specific incentives. For his part, Buckmaster seems to believe the best answer is to get as much information about the research out into the public eye.",
+      "heading": 0
+    },
+    {
+      "text": "Update 2:35p.m. ET: Incorporated details from OpenAI’s release of the Navier-Stokes result.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

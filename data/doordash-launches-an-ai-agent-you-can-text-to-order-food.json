@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "DoorDash launches an AI agent you can text to order food",
+  "slug": "doordash-launches-an-ai-agent-you-can-text-to-order-food",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-30-at-11.47.10-AM.png?w=982",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+    "episode": ""
+  },
+  "words": 302,
+  "lines": 19,
+  "duration": 101,
+  "text": "Posted:\n\nAisha Malik\n\nDoorDash launches an AI agent you can text to order food\n\nDoorDash announced on Wednesday that it’s launching a text-to-order AI agent that lets users place orders through Apple Messages. The new tool allows users to send prompts like “order my usual,” and the agent will understand that they mean their Friday night order.\n\nDoorDash says users can also ask for a specific dish and request a local recommendation. The agent will then search local spots and suggest a cart based on the prompt, and even text photos of the food it recommends. When ordering for a group, DoorDash says the agent can handle mixed dietary preferences and different quantities in one order.\n\nBy launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub. The launch also comes amid a growing push to adopt personal AI agents that can handle tasks without requiring users to navigate apps or websites themselves.\n\nDoorDash is opening up a waitlist for users in the U.S. to try out the new feature.\n\nIn addition to the new AI agent, DoorDash announced that it will begin testing its delivery drones with select restaurants in Northern California.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nLatest in Apps\n\nWant to see your live AI usage on your Mac’s icons? This clever new app lets you\n\nGoogle gives Gemini the ability to use your Mac for you\n\nMeta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    },
+    {
+      "text": "DoorDash launches an AI agent you can text to order food",
+      "heading": 0
+    },
+    {
+      "text": "DoorDash announced on Wednesday that it’s launching a text-to-order AI agent that lets users place orders through Apple Messages. The new tool allows users to send prompts like “order my usual,” and the agent will understand that they mean their Friday night order.",
+      "heading": 0
+    },
+    {
+      "text": "DoorDash says users can also ask for a specific dish and request a local recommendation. The agent will then search local spots and suggest a cart based on the prompt, and even text photos of the food it recommends. When ordering for a group, DoorDash says the agent can handle mixed dietary preferences and different quantities in one order.",
+      "heading": 0
+    },
+    {
+      "text": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub. The launch also comes amid a growing push to adopt personal AI agents that can handle tasks without requiring users to navigate apps or websites themselves.",
+      "heading": 0
+    },
+    {
+      "text": "DoorDash is opening up a waitlist for users in the U.S. to try out the new feature.",
+      "heading": 0
+    },
+    {
+      "text": "In addition to the new AI agent, DoorDash announced that it will begin testing its delivery drones with select restaurants in Northern California.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Apps",
+      "heading": 1
+    },
+    {
+      "text": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+      "heading": 0
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "heading": 0
+    }
+  ]
+}

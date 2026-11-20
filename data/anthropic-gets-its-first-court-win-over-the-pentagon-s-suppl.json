@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+  "slug": "anthropic-gets-its-first-court-win-over-the-pentagon-s-suppl",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "episode": ""
+  },
+  "words": 521,
+  "lines": 16,
+  "duration": 174,
+  "text": "A federal judge in California ruled on Thursday evening that the Trump administration’s designation of Anthropic as a supply-chain risk was illegal.\n\nU.S. District Judge Rita Lin said in her ruling that Defense Secretary Pete Hegseth’s labeling of Anthropic as a risk to national security signified “unlawful retaliation” in violation of the First Amendment, and said the decision was “arbitrary and capricious.” Lin also said Anthropic was denied due process, as required under the Fifth Amendment.\n\nEarlier this year, Hegseth and President Donald Trump labeled Anthropic a supply-chain risk and ordered all federal agencies, even those outside of defense, to stop working with the Claude maker.\n\nThe dispute stemmed from Anthropic setting hard lines on certain safety guardrails that would allow the Pentagon to use its models for fully autonomous weapons and mass surveillance of American citizens. The Pentagon denied that it would use Anthropic models for anything but lawful purposes, and alleged that Anthropic could try to control the military’s use of the models it bought and paid for.\n\nIn her ruling, Lin said that the government’s “words and deeds confirm that the challenged actions were based on a desire to make a public example out of Anthropic for its ‘arrogance’ in criticizing the government.”\n\nShe pointed out the disconnect between the supply-chain label and other actions from the government, like Hegseth’s proposition to apply the Defense Production Act to Anthropic, “which would mean the company was essential to national security rather than a threat to it.” She also pointed to the Department of Defense continuing to pursue a contract with the company, and the government collaborating with the company’s new model, Mythos, for cybersecurity.\n\nLin also said it’s clear that Anthropic “undisputedly lacks” any backdoor access to its technology once it hands it over to the DOD.\n\n“Though the Department of War is undisputedly free to select the AI vendor of its choice, the evidence demonstrates that the broad measures imposed on Anthropic were illegal and baseless,” Lin wrote. “The empty invocation of national security is not a blank check to punish and retaliate against government critics,” she added.\n\n“We welcome the court’s ruling that this supply chain risk designation was unlawful,” an Anthropic spokesperson said in a statement shared with TechCrunch. “We remain focused on working productively with the government to harness AI for our national security so all Americans benefit from this technology.”\n\nAnthropic filed two complaints against the DOD in March in California and Washington, D.C. The D.C. suit is still ongoing.\n\nTechCrunch has reached out to the DOD for comment.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "A federal judge in California ruled on Thursday evening that the Trump administration’s designation of Anthropic as a supply-chain risk was illegal.",
+      "heading": 0
+    },
+    {
+      "text": "U.S. District Judge Rita Lin said in her ruling that Defense Secretary Pete Hegseth’s labeling of Anthropic as a risk to national security signified “unlawful retaliation” in violation of the First Amendment, and said the decision was “arbitrary and capricious.” Lin also said Anthropic was denied due process, as required under the Fifth Amendment.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this year, Hegseth and President Donald Trump labeled Anthropic a supply-chain risk and ordered all federal agencies, even those outside of defense, to stop working with the Claude maker.",
+      "heading": 0
+    },
+    {
+      "text": "The dispute stemmed from Anthropic setting hard lines on certain safety guardrails that would allow the Pentagon to use its models for fully autonomous weapons and mass surveillance of American citizens. The Pentagon denied that it would use Anthropic models for anything but lawful purposes, and alleged that Anthropic could try to control the military’s use of the models it bought and paid for.",
+      "heading": 0
+    },
+    {
+      "text": "In her ruling, Lin said that the government’s “words and deeds confirm that the challenged actions were based on a desire to make a public example out of Anthropic for its ‘arrogance’ in criticizing the government.”",
+      "heading": 0
+    },
+    {
+      "text": "She pointed out the disconnect between the supply-chain label and other actions from the government, like Hegseth’s proposition to apply the Defense Production Act to Anthropic, “which would mean the company was essential to national security rather than a threat to it.” She also pointed to the Department of Defense continuing to pursue a contract with the company, and the government collaborating with the company’s new model, Mythos, for cybersecurity.",
+      "heading": 0
+    },
+    {
+      "text": "Lin also said it’s clear that Anthropic “undisputedly lacks” any backdoor access to its technology once it hands it over to the DOD.",
+      "heading": 0
+    },
+    {
+      "text": "“Though the Department of War is undisputedly free to select the AI vendor of its choice, the evidence demonstrates that the broad measures imposed on Anthropic were illegal and baseless,” Lin wrote. “The empty invocation of national security is not a blank check to punish and retaliate against government critics,” she added.",
+      "heading": 0
+    },
+    {
+      "text": "“We welcome the court’s ruling that this supply chain risk designation was unlawful,” an Anthropic spokesperson said in a statement shared with TechCrunch. “We remain focused on working productively with the government to harness AI for our national security so all Americans benefit from this technology.”",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic filed two complaints against the DOD in March in California and Washington, D.C. The D.C. suit is still ongoing.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to the DOD for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

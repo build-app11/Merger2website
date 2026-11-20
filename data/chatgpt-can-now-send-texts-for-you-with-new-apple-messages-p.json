@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+  "slug": "chatgpt-can-now-send-texts-for-you-with-new-apple-messages-p",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1831275897.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+    "episode": ""
+  },
+  "words": 416,
+  "lines": 12,
+  "duration": 139,
+  "text": "If you’ve ever wanted to share all of your digital conversations with OpenAI, we have good news for you: The AI lab has just launched an Apple Messages plug-in for ChatGPT, allowing interested users to connect their Messages inbox with the chatbot.\n\nThe benefits of doing this, OpenAI argues, are numerous. Users can use the plug-in to sort, analyze, or edit their messages directly from ChatGPT. The plug-in also works with Codex and ChatGPT Work, so users can use it professionally, not just personally.\n\nA brief commercial advertising the new plug-in shows a user asking the chatbot to suggest follow-up messages to their contacts based on the messages received the previous day.\n\nYou can also ask ChatGPT to delete messages for you, draft and send messages on your behalf, or search for information buried deep in your message history.\n\nAs with most things related to AI, this new feature raises some privacy questions. OpenAI has specified some permissions protections but the overall privacy framework remains somewhat unclear.\n\nWhen reached for comment by TechCrunch on Thursday, OpenAI explained that ChatGPT does not create a full index of a user’s messages. The company further stated that the Messages plugin runs locally on a user’s device and that, for ChatGPT to read a user’s messages, the user must make a specific request for it to do so. To set the plugin up, users must also enable Full Disk Access, which should give the app the ability to read and write files on a user’s device.\n\nOpenAI explained in a subsequent email that ChatGPT desktop stores conversations by default on a user’s computer. The company also said that content from messages is stored locally on a user’s computer and is not saved to the company’s servers. If for whatever reason a person might choose to save a conversation in the cloud, the data retention policy is similar to the rest of the content saved there, it said.\n\nWhen it comes to message sending, OpenAI encourages users to keep an eye on what ChatGPT is doing and discourages turning on persistent approval, warning that doing so “removes your final chance to review a message before ChatGPT sends it as you,” the company writes.\n\nThis post has been updated with additional context from OpenAI.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "If you’ve ever wanted to share all of your digital conversations with OpenAI, we have good news for you: The AI lab has just launched an Apple Messages plug-in for ChatGPT, allowing interested users to connect their Messages inbox with the chatbot.",
+      "heading": 0
+    },
+    {
+      "text": "The benefits of doing this, OpenAI argues, are numerous. Users can use the plug-in to sort, analyze, or edit their messages directly from ChatGPT. The plug-in also works with Codex and ChatGPT Work, so users can use it professionally, not just personally.",
+      "heading": 0
+    },
+    {
+      "text": "A brief commercial advertising the new plug-in shows a user asking the chatbot to suggest follow-up messages to their contacts based on the messages received the previous day.",
+      "heading": 0
+    },
+    {
+      "text": "You can also ask ChatGPT to delete messages for you, draft and send messages on your behalf, or search for information buried deep in your message history.",
+      "heading": 0
+    },
+    {
+      "text": "As with most things related to AI, this new feature raises some privacy questions. OpenAI has specified some permissions protections but the overall privacy framework remains somewhat unclear.",
+      "heading": 0
+    },
+    {
+      "text": "When reached for comment by TechCrunch on Thursday, OpenAI explained that ChatGPT does not create a full index of a user’s messages. The company further stated that the Messages plugin runs locally on a user’s device and that, for ChatGPT to read a user’s messages, the user must make a specific request for it to do so. To set the plugin up, users must also enable Full Disk Access, which should give the app the ability to read and write files on a user’s device.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI explained in a subsequent email that ChatGPT desktop stores conversations by default on a user’s computer. The company also said that content from messages is stored locally on a user’s computer and is not saved to the company’s servers. If for whatever reason a person might choose to save a conversation in the cloud, the data retention policy is similar to the rest of the content saved there, it said.",
+      "heading": 0
+    },
+    {
+      "text": "When it comes to message sending, OpenAI encourages users to keep an eye on what ChatGPT is doing and discourages turning on persistent approval, warning that doing so “removes your final chance to review a message before ChatGPT sends it as you,” the company writes.",
+      "heading": 0
+    },
+    {
+      "text": "This post has been updated with additional context from OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

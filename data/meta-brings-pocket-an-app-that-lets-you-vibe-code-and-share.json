@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+  "slug": "meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/pocket-image.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+    "episode": ""
+  },
+  "words": 405,
+  "lines": 12,
+  "duration": 135,
+  "text": "Meta’s experimental vibe-coding gaming app, Pocket, is now rolling out to everyone in the U.S. The app, which arrived quietly last month in the test market of Brazil, allows people to generate small, interactive games using AI prompts, which are published to a scrollable feed.\n\nBased on Meta’s acqui-hire of the team at the vibe-coded gaming platform Gizmo earlier this year, these interactive experiences and games — or “gizmos” as Meta calls them — respond to touch and the tilt of your phone, play sound effects, and can include clips of your favorite songs.\n\nThey can also use photos from your camera roll or access your camera. The resulting games can then be shared on your profile, where others can save them, remix them into other creations, or simply repost them.\n\nThe app is the latest example of Meta’s push to make AI-creation tools mainstream, following its earlier efforts that included making AI-generated images with its Meta AI app and creating AI videos with an experimental app called Vibes.\n\nPocket now joins these and several other stand-alone mobile applications from Meta in recent months. CEO Mark Zuckerberg has credited the increased output to AI-enabled software development, which makes it faster for the company to test and ship new ideas.\n\n“Earlier this year, we shipped Instagram Instants. We also just launched Forum, a stand-alone Groups app, and Seller, a stand-alone Marketplace app. I expect it to become a lot easier to ship new apps,” he told analysts on July’s earnings call. “So we are planning to build out more ideas and use our recommendation systems to scale them.”\n\nIn addition to Instants, Forum, and the Seller app, Meta has shipped an experiment involving AI bedtime stories, and this week, a Meta AI app for Mac.\n\nWith the launch of Pocket, Meta is shutting down the original app acquired from Atma Sciences.\n\nIt's bittersweet to shut down Gizmo, a labor of love by so many people for the last couple years, but I'm excited for Pocket and what's next. Starting a company is something I wanted to do for a long time, and it was way more fun than I imagined. I owe everything to my… https://t.co/5KwjsgyAtb\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Meta’s experimental vibe-coding gaming app, Pocket, is now rolling out to everyone in the U.S. The app, which arrived quietly last month in the test market of Brazil, allows people to generate small, interactive games using AI prompts, which are published to a scrollable feed.",
+      "heading": 0
+    },
+    {
+      "text": "Based on Meta’s acqui-hire of the team at the vibe-coded gaming platform Gizmo earlier this year, these interactive experiences and games — or “gizmos” as Meta calls them — respond to touch and the tilt of your phone, play sound effects, and can include clips of your favorite songs.",
+      "heading": 0
+    },
+    {
+      "text": "They can also use photos from your camera roll or access your camera. The resulting games can then be shared on your profile, where others can save them, remix them into other creations, or simply repost them.",
+      "heading": 0
+    },
+    {
+      "text": "The app is the latest example of Meta’s push to make AI-creation tools mainstream, following its earlier efforts that included making AI-generated images with its Meta AI app and creating AI videos with an experimental app called Vibes.",
+      "heading": 0
+    },
+    {
+      "text": "Pocket now joins these and several other stand-alone mobile applications from Meta in recent months. CEO Mark Zuckerberg has credited the increased output to AI-enabled software development, which makes it faster for the company to test and ship new ideas.",
+      "heading": 0
+    },
+    {
+      "text": "“Earlier this year, we shipped Instagram Instants. We also just launched Forum, a stand-alone Groups app, and Seller, a stand-alone Marketplace app. I expect it to become a lot easier to ship new apps,” he told analysts on July’s earnings call. “So we are planning to build out more ideas and use our recommendation systems to scale them.”",
+      "heading": 0
+    },
+    {
+      "text": "In addition to Instants, Forum, and the Seller app, Meta has shipped an experiment involving AI bedtime stories, and this week, a Meta AI app for Mac.",
+      "heading": 0
+    },
+    {
+      "text": "With the launch of Pocket, Meta is shutting down the original app acquired from Atma Sciences.",
+      "heading": 0
+    },
+    {
+      "text": "It's bittersweet to shut down Gizmo, a labor of love by so many people for the last couple years, but I'm excited for Pocket and what's next. Starting a company is something I wanted to do for a long time, and it was way more fun than I imagined. I owe everything to my… https://t.co/5KwjsgyAtb",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

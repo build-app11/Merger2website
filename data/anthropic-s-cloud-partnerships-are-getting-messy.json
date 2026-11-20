@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Anthropic’s cloud partnerships are getting messy",
+  "slug": "anthropic-s-cloud-partnerships-are-getting-messy",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+    "episode": ""
+  },
+  "words": 325,
+  "lines": 23,
+  "duration": 108,
+  "text": "Posted:\n\nRebecca Bellan\n\nAnthropic’s cloud partnerships are getting messy\n\nAnthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which increasingly see the Claude maker as a competitor rather than a customer, according to an S-1 filing leaked to The Wall Street Journal.\n\nThe leaked filing provides more color to the numbers Reuters and the Financial Times reported in late September, including that Anthropic believes it could spend more than $750 billion on cloud contracts, some of which include deals still in negotiation.\n\nAnd still, that is not enough. Anthropic is leasing its own data centers and working with third-party data center operators. But the firm worries those operators have a “limited operating history,” which could make them less reliable than the hyperscalers.\n\nAnthropic’s enormous spend comes on the back of an $80.7 billion net loss in the first half of the year. The company reported $16.3 billion in revenue during that same time period, with only two customers accounting for about a fifth of sales, according to the WSJ report.\n\nBuilding on previously reported catastrophic risk disclosures, the filing also warns that Anthropic could be held liable for damages caused by harmful AI behavior to a tune that would exceed available insurance coverage.\n\nLast week, the company told prospective investors that third-quarter revenue alone has now reached $16.8 billion, up 45% from the previous quarter. Anthropic is reportedly targeting a November IPO.\n\nAnthropic did not immediately respond to TechCrunch’s request for comment.\n\nTopics\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in AI\n\nMeta’s new Muse Charm device may cost $300\n\nLucas Ropek\n\nThese tech outages are giving Y2K, AI agent style\n\nDominic-Madori Davis\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s cloud partnerships are getting messy",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which increasingly see the Claude maker as a competitor rather than a customer, according to an S-1 filing leaked to The Wall Street Journal.",
+      "heading": 0
+    },
+    {
+      "text": "The leaked filing provides more color to the numbers Reuters and the Financial Times reported in late September, including that Anthropic believes it could spend more than $750 billion on cloud contracts, some of which include deals still in negotiation.",
+      "heading": 0
+    },
+    {
+      "text": "And still, that is not enough. Anthropic is leasing its own data centers and working with third-party data center operators. But the firm worries those operators have a “limited operating history,” which could make them less reliable than the hyperscalers.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s enormous spend comes on the back of an $80.7 billion net loss in the first half of the year. The company reported $16.3 billion in revenue during that same time period, with only two customers accounting for about a fifth of sales, according to the WSJ report.",
+      "heading": 0
+    },
+    {
+      "text": "Building on previously reported catastrophic risk disclosures, the filing also warns that Anthropic could be held liable for damages caused by harmful AI behavior to a tune that would exceed available insurance coverage.",
+      "heading": 0
+    },
+    {
+      "text": "Last week, the company told prospective investors that third-quarter revenue alone has now reached $16.8 billion, up 45% from the previous quarter. Anthropic is reportedly targeting a November IPO.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic did not immediately respond to TechCrunch’s request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    }
+  ]
+}

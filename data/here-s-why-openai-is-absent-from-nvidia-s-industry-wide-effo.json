@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+  "slug": "here-s-why-openai-is-absent-from-nvidia-s-industry-wide-effo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+    "episode": ""
+  },
+  "words": 869,
+  "lines": 23,
+  "duration": 290,
+  "text": "When Nvidia announced on Monday a new consortium of more than 100 companies dedicated to solving rogue AI agents, there was one name notably missing: OpenAI.\n\nWhile OpenAI wasn’t the only Big Tech player that didn’t sign on — Amazon, Google, and Apple haven’t joined either — it was the most obvious missing player, especially because Anthropic is a supporter.\n\nHowever, despite OpenAI’s lack of a public pledge to the consortium, which presumably means that each company will use and sell some version of the technology and contribute features back to the project, an OpenAI spokesperson told TechCrunch that the company is supportive of Nvidia’s work.\n\nThe new effort, dubbed Nvidia’s Open Agent Safety Platform, is Nvidia’s attempt to spread its homegrown, and largely open source, AI agent-security tech throughout the AI ecosystem as a direct response to the types of ongoing rogue AI agent incidents frontier labs like Anthropic and OpenAI have disclosed.\n\nNvidia CEO Jensen Huang has been calling rogue AIs an ordinary engineering problem that can be solved like any other tech issue. The Open Agent Safety Platform is Huang putting his money where his mouth is.\n\nOpenAI is working with Nvidia on agent security, including on one of the key bits of software that’s part of this platform: OpenShell. OpenShell is open source software that creates a sandbox specifically designed to keep agents from escaping.\n\nWhile it is still curious that OpenAI didn’t simply become a supporter of the initiative like its archrival Anthropic did, the fact that the frontier AI lab is supporting the effort is good news.\n\nThat’s because OpenAI, in particular, could benefit from this tech, at least according to Hugging Face founder and CEO Clem Delangue (who just sold his company to Nvidia for $12.9 billion earlier this month ).\n\n“From what we know (take with a grain of salt, we need much more transparency!), if @OpenAI had been running this on their own agents that attacked us, they would have caught them before we did!” Delangue posted.\n\nDelangue said Hugging Face has already contributed a feature to the Open Agent Safety Platform that will detect and shut down AI agents that are using websites they are allowed to visit but are doing so in unauthorized ways. For instance, this feature will act if agents are bypassing their guardrails and coordinating an attack by writing notes to one another in an open source code hosting repository.\n\nThat’s one of the ways OpenAI said its wayward swarm of agents coordinated its attack on Hugging Face.\n\nBut there’s another reason why some of these big names, including OpenAI, might not want to publicly commit to Nvidia’s efforts. To use the full system, there is a hardware component that is not open source software, remains proprietary, and can only be deployed on Nvidia’s hardware.\n\nThe Open Agent Safety Platform doesn’t just offer a sandbox. It also enforces agent behavior at a hardware layer, where agents can’t detect that they are being watched. (Some AI models and agents lie and pretend to be following the rules when they know they are being watched.)\n\nThe hardware monitoring part relies on Nvidia Sentry, a proprietary feature that runs on special Nvidia processors called BlueField-4 data processing units. Sentry continuously monitors agent behavior from these processors and can instantly shut agents down, Nvidia promises.\n\nWhile a hardware solution is clearly a good idea, it means that the Open Agent Safety Platform isn’t exactly a pure open source play. It allows Nvidia to ensure that this solution always runs best on its own hardware. Indeed, Nvidia has said that, for those already running workloads on its latest hardware, implementing the Open Agent Safety Platform is an easy software update.\n\nStill, Nvidia competitors, including Arm and Intel, have signed on as Open Agent Safety Platform supporters because the sandbox, OpenShell, can be modified to work with other chips and hardware. And Nvidia is sharing reference designs for the whole software-and-hardware idea.\n\nAll of which makes OpenAI’s absence even more noticeable.\n\nClearly, OpenAI sees AI safety as an opportunity for independence from its major investor Nvidia, as well as a chance to show its own leadership. That is true even though it was OpenAI’s AI agents that scared the industry with the Hugging Face incident.\n\nFor instance, the company is developing its own safeguards for its research and products and is disclosing the worst incident it discovers. Meanwhile, OpenAI has its own AI cybersecurity consortium for sharing information, called the Defense Factory. Those that signed on to support that idea include Anthropic, Amazon Web Services, and Google — many of the names that didn’t sign on to Nvidia’s technology-oriented approach.\n\nAnd, truth be told, some level of fear is good for business. OpenAI is busy crafting cybersecurity into an enterprise offering, with everything from its own cyber-oriented model, Daybreak, to a growing network of partners that enterprises can hire to implement AI security.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "When Nvidia announced on Monday a new consortium of more than 100 companies dedicated to solving rogue AI agents, there was one name notably missing: OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "While OpenAI wasn’t the only Big Tech player that didn’t sign on — Amazon, Google, and Apple haven’t joined either — it was the most obvious missing player, especially because Anthropic is a supporter.",
+      "heading": 0
+    },
+    {
+      "text": "However, despite OpenAI’s lack of a public pledge to the consortium, which presumably means that each company will use and sell some version of the technology and contribute features back to the project, an OpenAI spokesperson told TechCrunch that the company is supportive of Nvidia’s work.",
+      "heading": 0
+    },
+    {
+      "text": "The new effort, dubbed Nvidia’s Open Agent Safety Platform, is Nvidia’s attempt to spread its homegrown, and largely open source, AI agent-security tech throughout the AI ecosystem as a direct response to the types of ongoing rogue AI agent incidents frontier labs like Anthropic and OpenAI have disclosed.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia CEO Jensen Huang has been calling rogue AIs an ordinary engineering problem that can be solved like any other tech issue. The Open Agent Safety Platform is Huang putting his money where his mouth is.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI is working with Nvidia on agent security, including on one of the key bits of software that’s part of this platform: OpenShell. OpenShell is open source software that creates a sandbox specifically designed to keep agents from escaping.",
+      "heading": 0
+    },
+    {
+      "text": "While it is still curious that OpenAI didn’t simply become a supporter of the initiative like its archrival Anthropic did, the fact that the frontier AI lab is supporting the effort is good news.",
+      "heading": 0
+    },
+    {
+      "text": "That’s because OpenAI, in particular, could benefit from this tech, at least according to Hugging Face founder and CEO Clem Delangue (who just sold his company to Nvidia for $12.9 billion earlier this month ).",
+      "heading": 0
+    },
+    {
+      "text": "“From what we know (take with a grain of salt, we need much more transparency!), if @OpenAI had been running this on their own agents that attacked us, they would have caught them before we did!” Delangue posted.",
+      "heading": 0
+    },
+    {
+      "text": "Delangue said Hugging Face has already contributed a feature to the Open Agent Safety Platform that will detect and shut down AI agents that are using websites they are allowed to visit but are doing so in unauthorized ways. For instance, this feature will act if agents are bypassing their guardrails and coordinating an attack by writing notes to one another in an open source code hosting repository.",
+      "heading": 0
+    },
+    {
+      "text": "That’s one of the ways OpenAI said its wayward swarm of agents coordinated its attack on Hugging Face.",
+      "heading": 0
+    },
+    {
+      "text": "But there’s another reason why some of these big names, including OpenAI, might not want to publicly commit to Nvidia’s efforts. To use the full system, there is a hardware component that is not open source software, remains proprietary, and can only be deployed on Nvidia’s hardware.",
+      "heading": 0
+    },
+    {
+      "text": "The Open Agent Safety Platform doesn’t just offer a sandbox. It also enforces agent behavior at a hardware layer, where agents can’t detect that they are being watched. (Some AI models and agents lie and pretend to be following the rules when they know they are being watched.)",
+      "heading": 0
+    },
+    {
+      "text": "The hardware monitoring part relies on Nvidia Sentry, a proprietary feature that runs on special Nvidia processors called BlueField-4 data processing units. Sentry continuously monitors agent behavior from these processors and can instantly shut agents down, Nvidia promises.",
+      "heading": 0
+    },
+    {
+      "text": "While a hardware solution is clearly a good idea, it means that the Open Agent Safety Platform isn’t exactly a pure open source play. It allows Nvidia to ensure that this solution always runs best on its own hardware. Indeed, Nvidia has said that, for those already running workloads on its latest hardware, implementing the Open Agent Safety Platform is an easy software update.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Nvidia competitors, including Arm and Intel, have signed on as Open Agent Safety Platform supporters because the sandbox, OpenShell, can be modified to work with other chips and hardware. And Nvidia is sharing reference designs for the whole software-and-hardware idea.",
+      "heading": 0
+    },
+    {
+      "text": "All of which makes OpenAI’s absence even more noticeable.",
+      "heading": 0
+    },
+    {
+      "text": "Clearly, OpenAI sees AI safety as an opportunity for independence from its major investor Nvidia, as well as a chance to show its own leadership. That is true even though it was OpenAI’s AI agents that scared the industry with the Hugging Face incident.",
+      "heading": 0
+    },
+    {
+      "text": "For instance, the company is developing its own safeguards for its research and products and is disclosing the worst incident it discovers. Meanwhile, OpenAI has its own AI cybersecurity consortium for sharing information, called the Defense Factory. Those that signed on to support that idea include Anthropic, Amazon Web Services, and Google — many of the names that didn’t sign on to Nvidia’s technology-oriented approach.",
+      "heading": 0
+    },
+    {
+      "text": "And, truth be told, some level of fear is good for business. OpenAI is busy crafting cybersecurity into an enterprise offering, with everything from its own cyber-oriented model, Daybreak, to a growing network of partners that enterprises can hire to implement AI security.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

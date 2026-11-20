@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "AI-powered app maker Wabi pivots to a messaging experience",
+  "slug": "ai-powered-app-maker-wabi-pivots-to-a-messaging-experience",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+    "episode": ""
+  },
+  "words": 562,
+  "lines": 14,
+  "duration": 187,
+  "text": "Wabi, the AI startup that allowed anyone to use prompts to build apps, is undergoing a slight pivot as demand for AI agents, like Meta’s Muse and Instinct, takes off. The company announced this week that it is now becoming an AI messenger of sorts — but one that’s still capable of making apps to help you get things done.\n\nThe startup’s founder, Eugenia Kuyda, who previously founded the AI companion startup Replika, described Wabi 2.0 as a “personal agent that does stuff for you and builds the interface you need in the moment.”\n\nIntroducing Wabi 2.0: a new kind of messenger that makes apps and gets things done for you and your friends. We’re building the OS for the agentic era – software that adapts to your life, gets things done, and makes more room for the people and things that matter. Invite-only… pic.twitter.com/x9UlzrJSXs\n\nIt’s a similar value proposition to that offered by the original version of Wabi — but one that users will interact with in a different way. Instead of positioning itself up against other vibe-coding tools, Wabi 2.0 aims to compete more directly with AI agents that combine both conversations and productivity tasks in a single interface.\n\nIt also comes as companies like OpenAI and others are thinking about how apps will work inside their more generalized chatbot user interfaces; for instance, OpenAI today announced at its DevDay event an update to ChatGPT’s plug-ins, which will allow apps to offer interactive experiences within ChatGPT, and where the app’s name gets pinned in a more visible spot on ChatGPT’s sidebar.\n\nIn a post on X, Kuyda explained how Wabi’s new experience will make more sense for consumers, who want to do more than just type to an agent.\n\n“The more you use a chat-only agent, the worse the experience gets. Your history and ongoing tasks end up buried in one endless scroll. People don’t just want to type-type-type; they want to tap-tap-tap, scroll, and look. They love what agents can do, but they also like software,” she wrote. “The most powerful agent will be the one that combines both.”\n\nThe idea is that as a user asks the agent to perform a task, it could create a user interface on demand to help complete whatever the request may be. For instance, Kuyda suggested users could build things like a calorie tracker, a weightlifting log, and a weight tracker, which would be accessible in her thread about health-related topics.\n\nIn another thread focused on family, users could create a calendar of the kids’ activities, a language learning app, an app that keeps up with local kid-friendly events, and other things that relate to parenting, household management, or the kids’ interests.\n\n“So far, personal agents have been one person, one chat, a stream of one-off tasks. We think the future is your agent, your apps, and your people in one place, running the parts of life that matter most, together,” wrote Kuyda.\n\nThe new Wabi 2.0 app is currently available only by invite code, which is being doled out on X.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Wabi, the AI startup that allowed anyone to use prompts to build apps, is undergoing a slight pivot as demand for AI agents, like Meta’s Muse and Instinct, takes off. The company announced this week that it is now becoming an AI messenger of sorts — but one that’s still capable of making apps to help you get things done.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s founder, Eugenia Kuyda, who previously founded the AI companion startup Replika, described Wabi 2.0 as a “personal agent that does stuff for you and builds the interface you need in the moment.”",
+      "heading": 0
+    },
+    {
+      "text": "Introducing Wabi 2.0: a new kind of messenger that makes apps and gets things done for you and your friends. We’re building the OS for the agentic era – software that adapts to your life, gets things done, and makes more room for the people and things that matter. Invite-only… pic.twitter.com/x9UlzrJSXs",
+      "heading": 0
+    },
+    {
+      "text": "It’s a similar value proposition to that offered by the original version of Wabi — but one that users will interact with in a different way. Instead of positioning itself up against other vibe-coding tools, Wabi 2.0 aims to compete more directly with AI agents that combine both conversations and productivity tasks in a single interface.",
+      "heading": 0
+    },
+    {
+      "text": "It also comes as companies like OpenAI and others are thinking about how apps will work inside their more generalized chatbot user interfaces; for instance, OpenAI today announced at its DevDay event an update to ChatGPT’s plug-ins, which will allow apps to offer interactive experiences within ChatGPT, and where the app’s name gets pinned in a more visible spot on ChatGPT’s sidebar.",
+      "heading": 0
+    },
+    {
+      "text": "In a post on X, Kuyda explained how Wabi’s new experience will make more sense for consumers, who want to do more than just type to an agent.",
+      "heading": 0
+    },
+    {
+      "text": "“The more you use a chat-only agent, the worse the experience gets. Your history and ongoing tasks end up buried in one endless scroll. People don’t just want to type-type-type; they want to tap-tap-tap, scroll, and look. They love what agents can do, but they also like software,” she wrote. “The most powerful agent will be the one that combines both.”",
+      "heading": 0
+    },
+    {
+      "text": "The idea is that as a user asks the agent to perform a task, it could create a user interface on demand to help complete whatever the request may be. For instance, Kuyda suggested users could build things like a calorie tracker, a weightlifting log, and a weight tracker, which would be accessible in her thread about health-related topics.",
+      "heading": 0
+    },
+    {
+      "text": "In another thread focused on family, users could create a calendar of the kids’ activities, a language learning app, an app that keeps up with local kid-friendly events, and other things that relate to parenting, household management, or the kids’ interests.",
+      "heading": 0
+    },
+    {
+      "text": "“So far, personal agents have been one person, one chat, a stream of one-off tasks. We think the future is your agent, your apps, and your people in one place, running the parts of life that matter most, together,” wrote Kuyda.",
+      "heading": 0
+    },
+    {
+      "text": "The new Wabi 2.0 app is currently available only by invite code, which is being doled out on X.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

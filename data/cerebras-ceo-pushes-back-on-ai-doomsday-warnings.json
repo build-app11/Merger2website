@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Cerebras CEO pushes back on AI doomsday warnings",
+  "slug": "cerebras-ceo-pushes-back-on-ai-doomsday-warnings",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588036288_a416e1cb00_k.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+    "episode": ""
+  },
+  "words": 533,
+  "lines": 15,
+  "duration": 178,
+  "text": "Cerebras Systems CEO and co-founder Andrew Feldman thinks the AI doomer narrative isn’t doing the industry any favors. At TechCrunch Disrupt 2026, the AI chipmaker exec quipped that “some of the leaders in the AI world maybe shouldn’t be allowed to talk in public.”\n\nHe’s referencing the negativity now spreading around the dangers of AI, from models breaking containment to AI insiders debating the percentage chance that AI may kill all of humanity by the end of the decade. The argument has become so mainstream that Anthropic CEO Dario Amodei was recently parodied in a skit on “Saturday Night Live,” where the fictional character summed up the discourse, saying, “We do not condone what we are doing.”\n\nFeldman, however, thinks the promise and potential that go hand in hand with AI developments are getting overlooked. He thinks AI leaders should spend more time telling people that AI could lead to a world where your grandkids will “never meet anybody who dies of cancer,” for instance, even if they have concerns about AI risks.\n\nClearly, Feldman has a vested interest in AI being successful, as the company’s customers include big names working with the technology, like OpenAI, Block, Figma, pharmaceutical giant GSK, and Lovable.\n\nHowever, he’s pragmatic about weighing the trade-offs between risk and reward.\n\n“I don’t think there are powerful technologies that don’t come with the challenge of ‘what happens when powerful technologies are in the hands of bad people?’ I think you can’t make one and not have the other,” Feldman said during his interview at Disrupt.\n\n“I think what we have to say is that this technology is powerful,” he added. “We have to be thoughtful about it. We have to regulate it reasonably,” he added.\n\nThe chipmaker CEO also suggested that some of the negativity around AI has to do with how the data center industry has approached the new buildouts created by AI demand.\n\n“As an industry, we weren’t super good for the past few years at working with local communities, particularly in the U.S. We — the industry — didn’t do what others have done in the power industry in oil and gas. They didn’t work with the community. They didn’t engage the community as they should have, and that was a problem,” Feldman said.\n\nHe compared the NIMBY-ism — “not in my backyard!” — of what’s going on in the U.S. with other countries, naming Brazil, Canada, Finland, Iceland, Norway, Mexico, and Sweden as markets where they’re encouraging companies to build data centers.\n\nFeldman also wasn’t concerned that efficiency improvements would create less demand for his chips, or those from other companies competing with Nvidia, as Cerebras is.\n\n“We can do our job as hardware vendors to make our compute more efficient, and then the model makers can do improved work in making their models more efficient to achieve the same goals. All of this has to come together to make meaningful strides forward,” he noted.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Cerebras Systems CEO and co-founder Andrew Feldman thinks the AI doomer narrative isn’t doing the industry any favors. At TechCrunch Disrupt 2026, the AI chipmaker exec quipped that “some of the leaders in the AI world maybe shouldn’t be allowed to talk in public.”",
+      "heading": 0
+    },
+    {
+      "text": "He’s referencing the negativity now spreading around the dangers of AI, from models breaking containment to AI insiders debating the percentage chance that AI may kill all of humanity by the end of the decade. The argument has become so mainstream that Anthropic CEO Dario Amodei was recently parodied in a skit on “Saturday Night Live,” where the fictional character summed up the discourse, saying, “We do not condone what we are doing.”",
+      "heading": 0
+    },
+    {
+      "text": "Feldman, however, thinks the promise and potential that go hand in hand with AI developments are getting overlooked. He thinks AI leaders should spend more time telling people that AI could lead to a world where your grandkids will “never meet anybody who dies of cancer,” for instance, even if they have concerns about AI risks.",
+      "heading": 0
+    },
+    {
+      "text": "Clearly, Feldman has a vested interest in AI being successful, as the company’s customers include big names working with the technology, like OpenAI, Block, Figma, pharmaceutical giant GSK, and Lovable.",
+      "heading": 0
+    },
+    {
+      "text": "However, he’s pragmatic about weighing the trade-offs between risk and reward.",
+      "heading": 0
+    },
+    {
+      "text": "“I don’t think there are powerful technologies that don’t come with the challenge of ‘what happens when powerful technologies are in the hands of bad people?’ I think you can’t make one and not have the other,” Feldman said during his interview at Disrupt.",
+      "heading": 0
+    },
+    {
+      "text": "“I think what we have to say is that this technology is powerful,” he added. “We have to be thoughtful about it. We have to regulate it reasonably,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "The chipmaker CEO also suggested that some of the negativity around AI has to do with how the data center industry has approached the new buildouts created by AI demand.",
+      "heading": 0
+    },
+    {
+      "text": "“As an industry, we weren’t super good for the past few years at working with local communities, particularly in the U.S. We — the industry — didn’t do what others have done in the power industry in oil and gas. They didn’t work with the community. They didn’t engage the community as they should have, and that was a problem,” Feldman said.",
+      "heading": 0
+    },
+    {
+      "text": "He compared the NIMBY-ism — “not in my backyard!” — of what’s going on in the U.S. with other countries, naming Brazil, Canada, Finland, Iceland, Norway, Mexico, and Sweden as markets where they’re encouraging companies to build data centers.",
+      "heading": 0
+    },
+    {
+      "text": "Feldman also wasn’t concerned that efficiency improvements would create less demand for his chips, or those from other companies competing with Nvidia, as Cerebras is.",
+      "heading": 0
+    },
+    {
+      "text": "“We can do our job as hardware vendors to make our compute more efficient, and then the model makers can do improved work in making their models more efficient to achieve the same goals. All of this has to come together to make meaningful strides forward,” he noted.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

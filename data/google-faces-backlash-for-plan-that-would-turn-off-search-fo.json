@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+  "slug": "google-faces-backlash-for-plan-that-would-turn-off-search-fo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/03/students-typing-on-laptops-GettyImages_1513744777.jpeg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+    "episode": ""
+  },
+  "words": 759,
+  "lines": 19,
+  "duration": 253,
+  "text": "Google was met with swift backlash on Tuesday after it announced that schools using Google’s K-12 software will not be able to use Search unless they opt in to using AI tools.\n\nChris Phillips, vice president for education at Google, told The New York Times that “Search and AI are deeply integrated,” so if a student’s school doesn’t opt in to using AI tools like Gemini, then students “will not have access to search, and they’ll see a message from their school that indicates it’s not available.”\n\nEven as Google made this announcement on a busy Election Day, several left-leaning politicians took time to speak up about their concerns.\n\nSenator Bernie Sanders (I-VT) accused Google in an X post of “extortion,” writing that “Google is threatening schools: if you stop your students from using AI, we will cut off your access to Google Search.” Senator Richard Blumenthal (D-CT) said on X that Google is “more concerned with forcing Gemini into schools than enabling students to succeed.”\n\nPresident Trump claimed that AI oligarchs could regulate themselves because they “love our country.” Now, Google is threatening schools: if you stop your students from using AI, we will cut off your access to Google Search. That’s not love. That’s extortion. PAUSE AI NOW.\n\nLina Khan, the former Federal Trade Commission chair and staunch advocate against monopolies, also condemned Google’s decision as anticompetitive.\n\n“This highlights the danger of allowing an unregulated monopolist to control an essential service,” she wrote. “Multiple courts have found Google liable for violating antitrust laws, and this latest move shows it remains unchastened.”\n\nNew York City mayor Zohran Mamdani accused Google of being a monopoly, commenting, “No corporation should have the power to dictate how we teach our children.”\n\nGoogle is using its search monopoly to coerce schools into adopting AI. This highlights the danger of allowing an unregulated monopolist to control an essential service. Multiple courts have found Google liable for violating antitrust laws, and this latest move shows it remains… https://t.co/eajJN9yfQF\n\nWhile Search is a necessary tool for information gathering, educators worry that its built-in AI overviews could dissuade students from finding answers themselves. For millions of students required to use Chromebooks and Google education tools, using a different search engine isn’t a simple fix.\n\nGoogle says that it’s working on a “Guided Learning” tool for student accounts in Search, which is supposed to walk students through the process of solving a problem or finding information, rather than just handing them the answer. If a student is struggling with a math problem, for example, the feature may prompt them to refresh their memory about the rules for dividing exponents, instead of spitting out a number.\n\nIn response to the backlash, Google pointed out in a post on X that it had listened to educators by turning off access to AI products by default and noted that schools could turn on Gemini, Gemini Notebook, and Search individually.\n\nWe want to clarify what we announced today about our education services. Today’s announcements give schools more choice, not less. Here’s what we announced: – Gemini, Gemini Notebook, and Search will be OFF 🔴 by default. This is based on K-12 schools asking for more control…\n\n“We know there’s concern about students using AI to shortcut schoolwork, and schools have told us they want control,” Google wrote in its statement. “That’s exactly why we are making these changes today to address the feedback we’ve heard from educators in recent months. And we’ll continue to engage deeply with educators to ensure we are giving schools more choice, more controls, and improved Search for learning.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Google was met with swift backlash on Tuesday after it announced that schools using Google’s K-12 software will not be able to use Search unless they opt in to using AI tools.",
+      "heading": 0
+    },
+    {
+      "text": "Chris Phillips, vice president for education at Google, told The New York Times that “Search and AI are deeply integrated,” so if a student’s school doesn’t opt in to using AI tools like Gemini, then students “will not have access to search, and they’ll see a message from their school that indicates it’s not available.”",
+      "heading": 0
+    },
+    {
+      "text": "Even as Google made this announcement on a busy Election Day, several left-leaning politicians took time to speak up about their concerns.",
+      "heading": 0
+    },
+    {
+      "text": "Senator Bernie Sanders (I-VT) accused Google in an X post of “extortion,” writing that “Google is threatening schools: if you stop your students from using AI, we will cut off your access to Google Search.” Senator Richard Blumenthal (D-CT) said on X that Google is “more concerned with forcing Gemini into schools than enabling students to succeed.”",
+      "heading": 0
+    },
+    {
+      "text": "President Trump claimed that AI oligarchs could regulate themselves because they “love our country.” Now, Google is threatening schools: if you stop your students from using AI, we will cut off your access to Google Search. That’s not love. That’s extortion. PAUSE AI NOW.",
+      "heading": 0
+    },
+    {
+      "text": "Lina Khan, the former Federal Trade Commission chair and staunch advocate against monopolies, also condemned Google’s decision as anticompetitive.",
+      "heading": 0
+    },
+    {
+      "text": "“This highlights the danger of allowing an unregulated monopolist to control an essential service,” she wrote. “Multiple courts have found Google liable for violating antitrust laws, and this latest move shows it remains unchastened.”",
+      "heading": 0
+    },
+    {
+      "text": "New York City mayor Zohran Mamdani accused Google of being a monopoly, commenting, “No corporation should have the power to dictate how we teach our children.”",
+      "heading": 0
+    },
+    {
+      "text": "Google is using its search monopoly to coerce schools into adopting AI. This highlights the danger of allowing an unregulated monopolist to control an essential service. Multiple courts have found Google liable for violating antitrust laws, and this latest move shows it remains… https://t.co/eajJN9yfQF",
+      "heading": 0
+    },
+    {
+      "text": "While Search is a necessary tool for information gathering, educators worry that its built-in AI overviews could dissuade students from finding answers themselves. For millions of students required to use Chromebooks and Google education tools, using a different search engine isn’t a simple fix.",
+      "heading": 0
+    },
+    {
+      "text": "Google says that it’s working on a “Guided Learning” tool for student accounts in Search, which is supposed to walk students through the process of solving a problem or finding information, rather than just handing them the answer. If a student is struggling with a math problem, for example, the feature may prompt them to refresh their memory about the rules for dividing exponents, instead of spitting out a number.",
+      "heading": 0
+    },
+    {
+      "text": "In response to the backlash, Google pointed out in a post on X that it had listened to educators by turning off access to AI products by default and noted that schools could turn on Gemini, Gemini Notebook, and Search individually.",
+      "heading": 0
+    },
+    {
+      "text": "We want to clarify what we announced today about our education services. Today’s announcements give schools more choice, not less. Here’s what we announced: – Gemini, Gemini Notebook, and Search will be OFF 🔴 by default. This is based on K-12 schools asking for more control…",
+      "heading": 0
+    },
+    {
+      "text": "“We know there’s concern about students using AI to shortcut schoolwork, and schools have told us they want control,” Google wrote in its statement. “That’s exactly why we are making these changes today to address the feedback we’ve heard from educators in recent months. And we’ll continue to engage deeply with educators to ensure we are giving schools more choice, more controls, and improved Search for learning.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

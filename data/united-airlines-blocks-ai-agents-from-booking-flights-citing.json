@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+  "slug": "united-airlines-blocks-ai-agents-from-booking-flights-citing",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/united-airlines-2231866642.jpg?resize=1200,801",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+    "episode": ""
+  },
+  "words": 335,
+  "lines": 20,
+  "duration": 112,
+  "text": "Posted:\n\nZack Whittaker\n\nUnited Airlines blocks AI agents from booking flights, citing cybersecurity risks\n\nUnited Airlines said it will restrict access to AI agents seeking to book flights and manage reservations on their users’ behalf, citing a risk to cybersecurity and undermining federal regulations.\n\nThe airline is the latest American corporate giant to prevent customers from using AI agents and autonomous assistants to access their systems. The move comes as airlines and banks are struggling to differentiate between real customers and AI systems operating on their behalf, such as when users share their logins with their AI assistants. Sharing passwords with apps and assistants can create security risks if those credentials get leaked or exposed.\n\nUnited warns that “sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles.”\n\nThe airline also warns of a risk of violating federal aviation rules, such as requiring that a human completes flight check-ins to acknowledge that their bags do not contain banned substances.\n\n“As a result, United is taking steps to restrict access — directly within our digital platforms and indirectly via travel agencies and aggregators — to prohibit use by unauthorized, third-party personal AI agents or assistants,” the airline said in a statement. “This work includes updates to our booking, ticketing and distribution policies.”\n\nThe airline’s move follows a warning from banks, including Bank of America, which last week urged customers not to share their passwords with their AI assistants.\n\nTopics\n\nUK government forced to disclose secret Apple backdoor order\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nBritish hackers face prison for GTA 6 data breach and crypto thefts\n\nLatest in Security\n\nThese tech outages are giving Y2K, AI agent style\n\nDominic-Madori Davis\n\nUK government forced to disclose secret Apple backdoor order\n\nPalmer Luckey doesn’t deny that he’s a prepper\n\nLucas Ropek",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Zack Whittaker",
+      "heading": 1
+    },
+    {
+      "text": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "heading": 0
+    },
+    {
+      "text": "United Airlines said it will restrict access to AI agents seeking to book flights and manage reservations on their users’ behalf, citing a risk to cybersecurity and undermining federal regulations.",
+      "heading": 0
+    },
+    {
+      "text": "The airline is the latest American corporate giant to prevent customers from using AI agents and autonomous assistants to access their systems. The move comes as airlines and banks are struggling to differentiate between real customers and AI systems operating on their behalf, such as when users share their logins with their AI assistants. Sharing passwords with apps and assistants can create security risks if those credentials get leaked or exposed.",
+      "heading": 0
+    },
+    {
+      "text": "United warns that “sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles.”",
+      "heading": 0
+    },
+    {
+      "text": "The airline also warns of a risk of violating federal aviation rules, such as requiring that a human completes flight check-ins to acknowledge that their bags do not contain banned substances.",
+      "heading": 0
+    },
+    {
+      "text": "“As a result, United is taking steps to restrict access — directly within our digital platforms and indirectly via travel agencies and aggregators — to prohibit use by unauthorized, third-party personal AI agents or assistants,” the airline said in a statement. “This work includes updates to our booking, ticketing and distribution policies.”",
+      "heading": 0
+    },
+    {
+      "text": "The airline’s move follows a warning from banks, including Bank of America, which last week urged customers not to share their passwords with their AI assistants.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "UK government forced to disclose secret Apple backdoor order",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "British hackers face prison for GTA 6 data breach and crypto thefts",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Security",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "UK government forced to disclose secret Apple backdoor order",
+      "heading": 1
+    },
+    {
+      "text": "Palmer Luckey doesn’t deny that he’s a prepper",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    }
+  ]
+}

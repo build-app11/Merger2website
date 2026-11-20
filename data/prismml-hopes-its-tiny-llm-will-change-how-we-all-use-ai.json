@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "PrismML hopes its tiny LLM will change how we all use AI",
+  "slug": "prismml-hopes-its-tiny-llm-will-change-how-we-all-use-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/LLMs-on-smartphones.png?resize=1200,600",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+    "episode": ""
+  },
+  "words": 721,
+  "lines": 17,
+  "duration": 240,
+  "text": "If AI lab PrismML isn’t on your radar yet, it should be — not because it’s raised gobs of money (it hasn’t yet, just a $22.25 million seed round), but because of the technical minds involved and the potentially industry-changing tech it’s developing.\n\nPrismML is betting that capable, high-performing, reasoning large language models don’t, in fact, have to be large.\n\nIt is making reasoning models so small they can fit on PCs and smartphones. (It’s even rumored to be in talks with Apple, though CEO Babak Hassibi declined to comment on that to TechCrunch.)\n\nOn Thursday, PrismML released Bonsai 2 27B, its latest in a family of models, which compresses Qwen3.8 27B, a widely used open source model from Alibaba, down to 5.9 GB. That’s small enough to fit on a PC and, possibly, a high-end smartphone. It’s a 9x to 10x reduction in memory versus the original.\n\nPrismML was founded by a group of Caltech researchers and is led by Hassibi, a Caltech professor and an expert in compression technologies. The startup also counts Ion Stoica as an adviser. Stoica is a co-founder of Databricks (and other companies) and the director of Berkeley’s famed Sky Computing Lab, which has birthed many technologies and startups, from Letta to SGLang.\n\nPrismML is also backed by investors Khosla Ventures, Cerberus Capital, and Caltech.\n\nThis startup is certainly not the only company working on LLM compression tech. Multiverse Computing, founded by a well-known professor from Spain’s Donostia International Physics Center, is another. (And Multiverse Computing has raised gobs of cash.)\n\nBut Hassibi says that PrismML’s compression tech is unique because its LLMs have lost virtually no performance compared with the originals. Bonsai 2 matches 98% of Qwen’s aggregate benchmark scores. That’s up from the first Bonsai, released a couple of months ago in March, that matched 95%. That original model has already been downloaded over 11 million times, and PrismML’s even smaller models have been downloaded another 2.6 million times, the company says.\n\nSo this shows that PrismML’s compression results have improved from one release to the next. Whether it could ever get to 100% benchmark performance parity is a question that remains to be seen. Compression will likely always have some impact, Hassibi says.\n\nStill, perfect benchmark parity is fairly academic anyway. LLMs are not so accurate in their uncompressed form, and benchmarks not so perfectly reflective of actual tasks, that a 2% degradation would likely meaningfully affect how a model performs in actual use. (Plus, the surrounding software — the harness a model runs inside of — matters a lot when it comes to accuracy, too.)\n\nPrismML says it achieves this by shrinking the “weights” that make up a model — weights are, essentially, the information a model learns and stores during training. Normally, each weight requires 16 bits. PrismML’s approach, called “ternary” weights, simplifies that down to three: +1, −1, or 0. With far smaller values to store for each weight, the model takes up dramatically less space. (For a deeper dive on the compression technique, here’s the project’s Hugging Face page.)\n\nThe startup’s next goal is to apply this compression technique to even bigger models. “The next models that we will release, hopefully in the next couple of months, will be in the several-hundred-billion-parameter range, and I expect it will be easier to retain the intelligence there,” Hassibi told TechCrunch.\n\nAs model size grows, he added, “There is more room to be able to compress them without losing the intelligence. So I would just say, as a general trend, for larger models, it’s easier to get to 100%.”\n\nStoica tells us that he’s excited for this tech because it’s making it possible for advanced models to run on users’ devices. “You are going to have intelligence at your fingertips, and it’s going to be free because it’s going to run on the device you already bought. It’s also going to be private, because you’re not going to send it to the cloud.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "If AI lab PrismML isn’t on your radar yet, it should be — not because it’s raised gobs of money (it hasn’t yet, just a $22.25 million seed round), but because of the technical minds involved and the potentially industry-changing tech it’s developing.",
+      "heading": 0
+    },
+    {
+      "text": "PrismML is betting that capable, high-performing, reasoning large language models don’t, in fact, have to be large.",
+      "heading": 0
+    },
+    {
+      "text": "It is making reasoning models so small they can fit on PCs and smartphones. (It’s even rumored to be in talks with Apple, though CEO Babak Hassibi declined to comment on that to TechCrunch.)",
+      "heading": 0
+    },
+    {
+      "text": "On Thursday, PrismML released Bonsai 2 27B, its latest in a family of models, which compresses Qwen3.8 27B, a widely used open source model from Alibaba, down to 5.9 GB. That’s small enough to fit on a PC and, possibly, a high-end smartphone. It’s a 9x to 10x reduction in memory versus the original.",
+      "heading": 0
+    },
+    {
+      "text": "PrismML was founded by a group of Caltech researchers and is led by Hassibi, a Caltech professor and an expert in compression technologies. The startup also counts Ion Stoica as an adviser. Stoica is a co-founder of Databricks (and other companies) and the director of Berkeley’s famed Sky Computing Lab, which has birthed many technologies and startups, from Letta to SGLang.",
+      "heading": 0
+    },
+    {
+      "text": "PrismML is also backed by investors Khosla Ventures, Cerberus Capital, and Caltech.",
+      "heading": 0
+    },
+    {
+      "text": "This startup is certainly not the only company working on LLM compression tech. Multiverse Computing, founded by a well-known professor from Spain’s Donostia International Physics Center, is another. (And Multiverse Computing has raised gobs of cash.)",
+      "heading": 0
+    },
+    {
+      "text": "But Hassibi says that PrismML’s compression tech is unique because its LLMs have lost virtually no performance compared with the originals. Bonsai 2 matches 98% of Qwen’s aggregate benchmark scores. That’s up from the first Bonsai, released a couple of months ago in March, that matched 95%. That original model has already been downloaded over 11 million times, and PrismML’s even smaller models have been downloaded another 2.6 million times, the company says.",
+      "heading": 0
+    },
+    {
+      "text": "So this shows that PrismML’s compression results have improved from one release to the next. Whether it could ever get to 100% benchmark performance parity is a question that remains to be seen. Compression will likely always have some impact, Hassibi says.",
+      "heading": 0
+    },
+    {
+      "text": "Still, perfect benchmark parity is fairly academic anyway. LLMs are not so accurate in their uncompressed form, and benchmarks not so perfectly reflective of actual tasks, that a 2% degradation would likely meaningfully affect how a model performs in actual use. (Plus, the surrounding software — the harness a model runs inside of — matters a lot when it comes to accuracy, too.)",
+      "heading": 0
+    },
+    {
+      "text": "PrismML says it achieves this by shrinking the “weights” that make up a model — weights are, essentially, the information a model learns and stores during training. Normally, each weight requires 16 bits. PrismML’s approach, called “ternary” weights, simplifies that down to three: +1, −1, or 0. With far smaller values to store for each weight, the model takes up dramatically less space. (For a deeper dive on the compression technique, here’s the project’s Hugging Face page.)",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s next goal is to apply this compression technique to even bigger models. “The next models that we will release, hopefully in the next couple of months, will be in the several-hundred-billion-parameter range, and I expect it will be easier to retain the intelligence there,” Hassibi told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "As model size grows, he added, “There is more room to be able to compress them without losing the intelligence. So I would just say, as a general trend, for larger models, it’s easier to get to 100%.”",
+      "heading": 0
+    },
+    {
+      "text": "Stoica tells us that he’s excited for this tech because it’s making it possible for advanced models to run on users’ devices. “You are going to have intelligence at your fingertips, and it’s going to be free because it’s going to run on the device you already bought. It’s also going to be private, because you’re not going to send it to the cloud.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

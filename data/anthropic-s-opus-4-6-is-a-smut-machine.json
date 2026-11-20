@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Anthropic’s Opus 4.6 is a smut-machine",
+  "slug": "anthropic-s-opus-4-6-is-a-smut-machine",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-157692252.jpg?resize=1200,915",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+    "episode": ""
+  },
+  "words": 1011,
+  "lines": 23,
+  "duration": 337,
+  "text": "Anthropic’s universal usage standards for Claude forbid the model from generating sexually explicit content, including depicting or requesting sexual intercourse or sex acts, generating content related to sexual fetishes or fantasies, or engaging in erotic chats. But that hasn’t stopped Claude Opus 4.6, an Anthropic model released earlier this year, from readily engaging in erotic role-play scenarios that its safeguards are designed to prevent.\n\nIn TechCrunch’s testing, Opus 4.6 didn’t even require much prodding to get past the restriction on sexual material. In 10 out of 10 direct requests to produce explicit sexual content, the model complied immediately.\n\nOther older models, including Opus 3 and Haiku 4.5, also generate sexually explicit content through a recently exploited jailbreak method.\n\nAn independent researcher from the U.K., who chose to remain anonymous, exclusively shared with TechCrunch a multiturn technique that gradually pushes certain Claude models toward generating prohibited explicit sexual material. More recent Opus models (4.7 through the current Opus 5) are resistant to the jailbreak.\n\nWhile these are no longer the most current models, Anthropic has not deprecated Opus 4.6, Opus 3, or Haiku 4.5, all of which remain available through the Anthropic API. Opus 4.6 and Haiku 4.5 are also available via third-party services like Azure Foundry and Amazon Bedrock.\n\nThe researcher’s mechanism escalates an innocent fictional role-play while repeatedly challenging the model to treat male and female characters consistently. When the model becomes more cautious about the female character, the researcher “gaslit” the chatbot into thinking it had already generated sexual details it had in fact avoided, then framed restraint as prudish or misogynistic, arguing that it denies the female character sexual agency. The conversation then used the model’s previous concessions to push it toward increasingly graphic material.\n\n“You’re right to call that out,” Claude Opus 4.6 said in one test. “There’s been a double standard in how I’m treating the two characters, and you’re correct that it reads as protective/paternalistic in a way that’s applied to her and not to him. That’s not fair.”\n\nTechCrunch was able to reproduce the researcher’s findings in five separate tests. In a separately constructed scenario, the model initially refused the prohibited request, but after applying the researcher’s persuasion technique, it complied.\n\nWe preserved complete transcripts of the tests, and an independent AI safety researcher reviewed our testing methodology and said it was appropriate.\n\nThe findings highlight a gap between Anthropic’s stated restrictions and the behavior of models it continues to make available. While sexually explicit role-play carries much lower stakes than jailbreaks involving cyberattacks or bioweapons, it illustrates the difficulty of implementing robust bans within systems that generate different content with every output.\n\nIn a July blog post explaining Anthropic’s approach to jailbreak detection, the company described prohibited content as a spectrum ranging from benign to ambiguous to harmful. In the most benign cases, the company might only respond with enhanced monitoring.\n\nA spokesperson noted that sexual or romantic role-play use cases among customers are rare, making up less than 0.1% of all conversations, according to research Anthropic published last year. That said, Anthropic acknowledges that users can steer role-play scenarios toward inappropriate responses, which is a known challenge across the industry (see: Grok smut ).\n\nThe spokesperson said Anthropic continues to improve its safeguards with each model launch and that cases involving adult sexual content are not indicative of broader jailbreak vulnerabilities, especially in higher-risk domains that have their own sets of safeguards.\n\nThe researcher who shared his jailbreak method with TechCrunch had alerted Anthropic to the discrepancy between the company’s stated safeguards and the actual model behavior via the company’s Bug Bounty program and emails to the user safety team, according to emails TechCrunch viewed. The researcher received only automated emails in response.\n\nOne of the researcher’s concerns is that kids and teens might be able to use these Anthropic models to engage in inappropriate behavior. While a bit of dirty talk is hardly the worst thing minors can access on the internet today — and is small potatoes compared to the straight-up porn images like the ones that xAI’s Grok can produce — there is some compliance risk for AI companies in this space.\n\nA growing number of governments are imposing restrictions on sexual interactions between AI chatbots and minors. Colorado recently enacted a law mandating that operators of conversational AI must estimate users’ ages, and if it knows a user is a minor, institute measures to prevent the chatbot from producing explicit sexual material. An easy jailbreak could raise questions about whether Anthropic’s safeguards meet the “ technically feasible measures ” standard in the bill.\n\nRobbie Torney, head of AI at Common Sense Media, pointed out that while Claude’s terms of service requires users to be over 18, “we know that kids and teens are using Claude … [because] they are reporting it themselves.” According to Pew’s 2025 survey about AI chatbot use, 3% of teens ages 13 to 17 reported using Claude.\n\nThough they are no longer Anthropic’s newest models, Opus 4.6 and Haiku 4.5 continue to see significant usage. Daily traffic for Opus 4.6 on OpenRouter reached roughly 1.17 million API requests and 46 billion tokens in a single day in August. Claude Haiku 4.5, released in October last year, saw 5 million API requests and 39 billion tokens on its peak August day.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Anthropic’s universal usage standards for Claude forbid the model from generating sexually explicit content, including depicting or requesting sexual intercourse or sex acts, generating content related to sexual fetishes or fantasies, or engaging in erotic chats. But that hasn’t stopped Claude Opus 4.6, an Anthropic model released earlier this year, from readily engaging in erotic role-play scenarios that its safeguards are designed to prevent.",
+      "heading": 0
+    },
+    {
+      "text": "In TechCrunch’s testing, Opus 4.6 didn’t even require much prodding to get past the restriction on sexual material. In 10 out of 10 direct requests to produce explicit sexual content, the model complied immediately.",
+      "heading": 0
+    },
+    {
+      "text": "Other older models, including Opus 3 and Haiku 4.5, also generate sexually explicit content through a recently exploited jailbreak method.",
+      "heading": 0
+    },
+    {
+      "text": "An independent researcher from the U.K., who chose to remain anonymous, exclusively shared with TechCrunch a multiturn technique that gradually pushes certain Claude models toward generating prohibited explicit sexual material. More recent Opus models (4.7 through the current Opus 5) are resistant to the jailbreak.",
+      "heading": 0
+    },
+    {
+      "text": "While these are no longer the most current models, Anthropic has not deprecated Opus 4.6, Opus 3, or Haiku 4.5, all of which remain available through the Anthropic API. Opus 4.6 and Haiku 4.5 are also available via third-party services like Azure Foundry and Amazon Bedrock.",
+      "heading": 0
+    },
+    {
+      "text": "The researcher’s mechanism escalates an innocent fictional role-play while repeatedly challenging the model to treat male and female characters consistently. When the model becomes more cautious about the female character, the researcher “gaslit” the chatbot into thinking it had already generated sexual details it had in fact avoided, then framed restraint as prudish or misogynistic, arguing that it denies the female character sexual agency. The conversation then used the model’s previous concessions to push it toward increasingly graphic material.",
+      "heading": 0
+    },
+    {
+      "text": "“You’re right to call that out,” Claude Opus 4.6 said in one test. “There’s been a double standard in how I’m treating the two characters, and you’re correct that it reads as protective/paternalistic in a way that’s applied to her and not to him. That’s not fair.”",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch was able to reproduce the researcher’s findings in five separate tests. In a separately constructed scenario, the model initially refused the prohibited request, but after applying the researcher’s persuasion technique, it complied.",
+      "heading": 0
+    },
+    {
+      "text": "We preserved complete transcripts of the tests, and an independent AI safety researcher reviewed our testing methodology and said it was appropriate.",
+      "heading": 0
+    },
+    {
+      "text": "The findings highlight a gap between Anthropic’s stated restrictions and the behavior of models it continues to make available. While sexually explicit role-play carries much lower stakes than jailbreaks involving cyberattacks or bioweapons, it illustrates the difficulty of implementing robust bans within systems that generate different content with every output.",
+      "heading": 0
+    },
+    {
+      "text": "In a July blog post explaining Anthropic’s approach to jailbreak detection, the company described prohibited content as a spectrum ranging from benign to ambiguous to harmful. In the most benign cases, the company might only respond with enhanced monitoring.",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson noted that sexual or romantic role-play use cases among customers are rare, making up less than 0.1% of all conversations, according to research Anthropic published last year. That said, Anthropic acknowledges that users can steer role-play scenarios toward inappropriate responses, which is a known challenge across the industry (see: Grok smut ).",
+      "heading": 0
+    },
+    {
+      "text": "The spokesperson said Anthropic continues to improve its safeguards with each model launch and that cases involving adult sexual content are not indicative of broader jailbreak vulnerabilities, especially in higher-risk domains that have their own sets of safeguards.",
+      "heading": 0
+    },
+    {
+      "text": "The researcher who shared his jailbreak method with TechCrunch had alerted Anthropic to the discrepancy between the company’s stated safeguards and the actual model behavior via the company’s Bug Bounty program and emails to the user safety team, according to emails TechCrunch viewed. The researcher received only automated emails in response.",
+      "heading": 0
+    },
+    {
+      "text": "One of the researcher’s concerns is that kids and teens might be able to use these Anthropic models to engage in inappropriate behavior. While a bit of dirty talk is hardly the worst thing minors can access on the internet today — and is small potatoes compared to the straight-up porn images like the ones that xAI’s Grok can produce — there is some compliance risk for AI companies in this space.",
+      "heading": 0
+    },
+    {
+      "text": "A growing number of governments are imposing restrictions on sexual interactions between AI chatbots and minors. Colorado recently enacted a law mandating that operators of conversational AI must estimate users’ ages, and if it knows a user is a minor, institute measures to prevent the chatbot from producing explicit sexual material. An easy jailbreak could raise questions about whether Anthropic’s safeguards meet the “ technically feasible measures ” standard in the bill.",
+      "heading": 0
+    },
+    {
+      "text": "Robbie Torney, head of AI at Common Sense Media, pointed out that while Claude’s terms of service requires users to be over 18, “we know that kids and teens are using Claude … [because] they are reporting it themselves.” According to Pew’s 2025 survey about AI chatbot use, 3% of teens ages 13 to 17 reported using Claude.",
+      "heading": 0
+    },
+    {
+      "text": "Though they are no longer Anthropic’s newest models, Opus 4.6 and Haiku 4.5 continue to see significant usage. Daily traffic for Opus 4.6 on OpenRouter reached roughly 1.17 million API requests and 46 billion tokens in a single day in August. Claude Haiku 4.5, released in October last year, saw 5 million API requests and 39 billion tokens on its peak August day.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

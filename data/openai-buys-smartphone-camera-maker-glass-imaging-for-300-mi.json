@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+  "slug": "openai-buys-smartphone-camera-maker-glass-imaging-for-300-mi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1252369470.jpg?resize=1200,802",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+    "episode": ""
+  },
+  "words": 309,
+  "lines": 18,
+  "duration": 103,
+  "text": "Posted:\n\nAmanda Silberling\n\nOpenAI buys smartphone camera maker Glass Imaging for $300 million, report says\n\nOpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, according to a report from The Wall Street Journal. The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors.\n\nGlass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode. This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras. Rather than using AI to edit a photo after it’s been taken, Glass Imaging uses neural networks to learn about individual camera systems — like the different cameras on various smartphone models — to yield better images from the moment the shutter clicks.\n\nOpenAI did not immediately respond to a request for comment. The ChatGPT maker is rumored to be working on its own hardware, like smartphones, earbuds, and AI companion devices.\n\nIn 2025, OpenAI CEO Sam Altman and famed Apple designer Jony Ive revealed that they had been working together on a device startup called io, when OpenAI bought Ive’s company for $6.5 billion.\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, according to a report from The Wall Street Journal. The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors.",
+      "heading": 0
+    },
+    {
+      "text": "Glass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode. This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras. Rather than using AI to edit a photo after it’s been taken, Glass Imaging uses neural networks to learn about individual camera systems — like the different cameras on various smartphone models — to yield better images from the moment the shutter clicks.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI did not immediately respond to a request for comment. The ChatGPT maker is rumored to be working on its own hardware, like smartphones, earbuds, and AI companion devices.",
+      "heading": 0
+    },
+    {
+      "text": "In 2025, OpenAI CEO Sam Altman and famed Apple designer Jony Ive revealed that they had been working together on a device startup called io, when OpenAI bought Ive’s company for $6.5 billion.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+  "slug": "meeting-note-taker-circleback-adds-a-free-tier-to-attract-mo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-31-at-11.18.37-AM.jpeg?resize=1200,735",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+    "episode": ""
+  },
+  "words": 496,
+  "lines": 15,
+  "duration": 165,
+  "text": "The meeting note-taker market is a crowded space. Just in the last few weeks, dictation app Wispr launched its own note-taker and scheduling app, and Calendly added a similar tool to its stack. Dedicated meeting note-takers like Granola, Read AI, and Fireflies have raised millions of dollars in funding.\n\nLikely in reaction to the intensifying competition, Y Combinator-backed Circleback is introducing a free subscription tier to allow users to get a taste of its product. The new plan lets users transcribe an unlimited number of meetings, though they can only access their history for the last 30 days (Granola added a similar tier a few months ago).\n\nThe free plan lets users record meetings, access mobile and Apple Watch apps, use AI to query transcripts, and integrate the app with Linear and Slack. If customers want all integrations, unlimited meeting history, and full API and MCP access, the subscription plans start at $15 per month (paid annually). Prior to this change, Circleback didn’t have any free tier, and its plans started at $20.83 per month.\n\nFounded in 2023 by Ali Haghani and Kevin Jacyna, Circleback raised $2.5 million in 2024. The company says it has been profitable since then, and has been clocking annual recurring revenue of over $1 million per employee with a team of eight people, which roughly translates to ARR of about $8 million.\n\nHaghani said due to the previously limited trial period, the company saw a big drop-off in users, which is why it is introducing a free plan.\n\n“If we just open the gates and allow more people to use the product, that’s gonna bring Circleback in front of more people. Then we’re very good at making the product good and monetizing those users,” he said.\n\nThe company says it doesn’t spend on Google Ads or Meta Ads, and this free tier will serve as marketing expenses.\n\nHaghani said the company is not immediately looking to raise funds despite interest, as it doesn’t see any bottlenecks in its growth trajectory.\n\n“We are consistently competing and winning customers against much bigger companies, both in terms of number of people and funding raised. And I feel like there is now more of an appetite [to win],” he said.\n\nHe noted that the moment the company realizes that money can solve a problem it is having, the startup would be open to fundraising.\n\nThe story has been updated to reflect updated pricing and to clarify per-employee ARR instead of run rate.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "The meeting note-taker market is a crowded space. Just in the last few weeks, dictation app Wispr launched its own note-taker and scheduling app, and Calendly added a similar tool to its stack. Dedicated meeting note-takers like Granola, Read AI, and Fireflies have raised millions of dollars in funding.",
+      "heading": 0
+    },
+    {
+      "text": "Likely in reaction to the intensifying competition, Y Combinator-backed Circleback is introducing a free subscription tier to allow users to get a taste of its product. The new plan lets users transcribe an unlimited number of meetings, though they can only access their history for the last 30 days (Granola added a similar tier a few months ago).",
+      "heading": 0
+    },
+    {
+      "text": "The free plan lets users record meetings, access mobile and Apple Watch apps, use AI to query transcripts, and integrate the app with Linear and Slack. If customers want all integrations, unlimited meeting history, and full API and MCP access, the subscription plans start at $15 per month (paid annually). Prior to this change, Circleback didn’t have any free tier, and its plans started at $20.83 per month.",
+      "heading": 0
+    },
+    {
+      "text": "Founded in 2023 by Ali Haghani and Kevin Jacyna, Circleback raised $2.5 million in 2024. The company says it has been profitable since then, and has been clocking annual recurring revenue of over $1 million per employee with a team of eight people, which roughly translates to ARR of about $8 million.",
+      "heading": 0
+    },
+    {
+      "text": "Haghani said due to the previously limited trial period, the company saw a big drop-off in users, which is why it is introducing a free plan.",
+      "heading": 0
+    },
+    {
+      "text": "“If we just open the gates and allow more people to use the product, that’s gonna bring Circleback in front of more people. Then we’re very good at making the product good and monetizing those users,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The company says it doesn’t spend on Google Ads or Meta Ads, and this free tier will serve as marketing expenses.",
+      "heading": 0
+    },
+    {
+      "text": "Haghani said the company is not immediately looking to raise funds despite interest, as it doesn’t see any bottlenecks in its growth trajectory.",
+      "heading": 0
+    },
+    {
+      "text": "“We are consistently competing and winning customers against much bigger companies, both in terms of number of people and funding raised. And I feel like there is now more of an appetite [to win],” he said.",
+      "heading": 0
+    },
+    {
+      "text": "He noted that the moment the company realizes that money can solve a problem it is having, the startup would be open to fundraising.",
+      "heading": 0
+    },
+    {
+      "text": "The story has been updated to reflect updated pricing and to clarify per-employee ARR instead of run rate.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

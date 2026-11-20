@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "The hinge for Apple’s new foldable phone was built with AI",
+  "slug": "the-hinge-for-apple-s-new-foldable-phone-was-built-with-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-2.14.55-PM.jpg?resize=1200,687",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+    "episode": ""
+  },
+  "words": 359,
+  "lines": 19,
+  "duration": 120,
+  "text": "Posted:\n\nLucas Ropek\n\nThe hinge for Apple’s new foldable phone was built with AI\n\nDuo, Apple’s long-awaited foldable phone announced at the company’s Surprise and Shine event on Wednesday, contains a number of surprises, including a critical hinge that was designed and built with the help of AI and 3D printing.\n\nThe new phone represents Apple’s first entry into the foldable phone genre — a category of devices that has seen significant consumer enthusiasm but whose form factors haven’t always lived up to the hype. As you might expect from a product that, by design, undergoes twice as much wear as a traditional device, most foldables suffer significant degradation and don’t have the durability of other smartphones.\n\nApple claims that it has integrated innovative protections into the Duo’s design to keep the phone from falling prey to the typical wear and tear associated with foldables. That includes the hinge, according to Johny Srouji, the company’s chief hardware officer.\n\n“During manufacturing, we use AI algorithms to precisely match each individual hinge with its best-fit housing to ensure perfect alignment, and a confocal laser progressively scans the topology of every single unit and 3D prints up to 25 micro layers of a custom photopolymer to eliminate residual waviness,” Srouji said during Wednesday’s event.\n\nSrouji also shared that Apple gave the foldable phone “a custom nano-texture finish that significantly reduces glare and reflections,” as well as a multilayer lamination strategy designed to increase the device’s durability. Of course, it remains to be seen whether those protections will be enough to keep the Duo in peak physical condition in the long run.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nElon Musk says SpaceX has a plan to eliminate cell phone dead zones\n\nKirsten Korosec\n\nAt Nasdaq opening bell, Anthropic CEO recommits to pacing AI development\n\nSarah Perez\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "The hinge for Apple’s new foldable phone was built with AI",
+      "heading": 0
+    },
+    {
+      "text": "Duo, Apple’s long-awaited foldable phone announced at the company’s Surprise and Shine event on Wednesday, contains a number of surprises, including a critical hinge that was designed and built with the help of AI and 3D printing.",
+      "heading": 0
+    },
+    {
+      "text": "The new phone represents Apple’s first entry into the foldable phone genre — a category of devices that has seen significant consumer enthusiasm but whose form factors haven’t always lived up to the hype. As you might expect from a product that, by design, undergoes twice as much wear as a traditional device, most foldables suffer significant degradation and don’t have the durability of other smartphones.",
+      "heading": 0
+    },
+    {
+      "text": "Apple claims that it has integrated innovative protections into the Duo’s design to keep the phone from falling prey to the typical wear and tear associated with foldables. That includes the hinge, according to Johny Srouji, the company’s chief hardware officer.",
+      "heading": 0
+    },
+    {
+      "text": "“During manufacturing, we use AI algorithms to precisely match each individual hinge with its best-fit housing to ensure perfect alignment, and a confocal laser progressively scans the topology of every single unit and 3D prints up to 25 micro layers of a custom photopolymer to eliminate residual waviness,” Srouji said during Wednesday’s event.",
+      "heading": 0
+    },
+    {
+      "text": "Srouji also shared that Apple gave the foldable phone “a custom nano-texture finish that significantly reduces glare and reflections,” as well as a multilayer lamination strategy designed to increase the device’s durability. Of course, it remains to be seen whether those protections will be enough to keep the Duo in peak physical condition in the long run.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

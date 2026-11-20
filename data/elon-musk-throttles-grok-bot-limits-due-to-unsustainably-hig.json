@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+  "slug": "elon-musk-throttles-grok-bot-limits-due-to-unsustainably-hig",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "episode": ""
+  },
+  "words": 324,
+  "lines": 20,
+  "duration": 108,
+  "text": "Posted:\n\nAmanda Silberling\n\nElon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs\n\nOver Halloween weekend, some Grok Bot users awoke to something especially spooky: Their weekly usage limits were unexpectedly maxed out, even if they hadn’t been using SpaceX’s agentic AI overnight. Some users reported on X that their usage jumped from as low as 50% to 100%.\n\nSpaceX CEO Elon Musk confirmed in an X post on Sunday that this was not a glitch.\n\n“The cost of serving Grok Bot was unsustainably high relative to revenue,” he wrote in a reply to a question from a user. He has not addressed the issue on his main feed but has continued boasting that Grok Bot can help you buy gifts for your family.\n\nThe cost of serving Grok Bot was unsustainably high relative to revenue\n\nGrok Bot has been positioned as a success story for the newly public SpaceX, which said in a filing last month that AI now makes up 52% of company income. Its renamed “Super Intelligence” division actually turned a profit of $431 million, which is a rarity in the AI industry. Its profit would’ve been higher if not for $1.2 billion of one-time costs related to its acquisition of Cursor. Musk recently referred to Grok Bot as having “the fastest growth of a product that I’ve ever seen in my life.”\n\nMusk has not yet shared how subscribers’ usage limits will be impacted moving forward.\n\nTopics\n\nElon Musk says SpaceX has a plan to eliminate cell phone dead zones\n\nKirsten Korosec\n\nElon Musk says: ‘I’m not MAGA’\n\nLucas Ropek\n\nElon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "heading": 0
+    },
+    {
+      "text": "Over Halloween weekend, some Grok Bot users awoke to something especially spooky: Their weekly usage limits were unexpectedly maxed out, even if they hadn’t been using SpaceX’s agentic AI overnight. Some users reported on X that their usage jumped from as low as 50% to 100%.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX CEO Elon Musk confirmed in an X post on Sunday that this was not a glitch.",
+      "heading": 0
+    },
+    {
+      "text": "“The cost of serving Grok Bot was unsustainably high relative to revenue,” he wrote in a reply to a question from a user. He has not addressed the issue on his main feed but has continued boasting that Grok Bot can help you buy gifts for your family.",
+      "heading": 0
+    },
+    {
+      "text": "The cost of serving Grok Bot was unsustainably high relative to revenue",
+      "heading": 0
+    },
+    {
+      "text": "Grok Bot has been positioned as a success story for the newly public SpaceX, which said in a filing last month that AI now makes up 52% of company income. Its renamed “Super Intelligence” division actually turned a profit of $431 million, which is a rarity in the AI industry. Its profit would’ve been higher if not for $1.2 billion of one-time costs related to its acquisition of Cursor. Musk recently referred to Grok Bot as having “the fastest growth of a product that I’ve ever seen in my life.”",
+      "heading": 0
+    },
+    {
+      "text": "Musk has not yet shared how subscribers’ usage limits will be impacted moving forward.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says: ‘I’m not MAGA’",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

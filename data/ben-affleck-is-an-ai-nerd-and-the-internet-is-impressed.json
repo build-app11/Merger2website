@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+  "slug": "ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/ben-affleck-GettyImages-2297443537.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+    "episode": ""
+  },
+  "words": 864,
+  "lines": 18,
+  "duration": 288,
+  "text": "They cast the wrong lead in “Good Will Hunting,” apparently, because it’s Ben Affleck who is the secret genius, as it turns out. The actor who earlier this year sold his AI filmmaking startup to Netflix for a reported $587 million has gone viral this week for demonstrating his understanding of AI technology, neural networks, machine learning, and the like, across multiple video clips of his recent interviews.\n\nHe can even write a little Python, he says.\n\nThe movie star delved into his interest in technology most recently on an episode of GQ’s “One More Question” series this week, where he humbly started with “I’ve always been kind of into computers since I was young,” before nerding out on the development of AI as it relates to filmmaking, while using AI terminology like machine learning, neural networks, transformers, tensors, GPUs, inference, and more.\n\nIn a clip that’s making the rounds, Affleck explains to the impressed interviewer, Zach Baron, that he got into the space when analog film moved to digital. As he spoke, he kept defining terms so the interviewer could understand what he was talking about.\n\n“I became more interested in that aspect of it, and the visual effects workflow for many years has included machine learning,” Affleck began. “So I can write, like, pretty shitty Python scripts and stuff like that. Because with convolutional neural networks — which were the sort of precursors to what the transformer can do — which is just much more computation simultaneously — you would do things like, look at what’s called a tensor — which is just the numerical translation of a visual image, in numbers like the batch number, the frame number, the red, green, and blue values of each pixel in each frame, and how many? It’s just that simple, right?”\n\nNo, Ben Affleck, it is not just that simple, which is why this video is going viral.\n\nThe actor then went into how neural networks were used to identify patterns and do edge detection or feature extraction, which he described as “identifying patterns enough to know — like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.”\n\nHe also admitted he used his status as a Hollywood star to get a peek at emerging AI technology, at times. OpenAI was among those he visited, Affleck said in a separate clip, which ultimately led him to understand how he could get more directly involved in the AI space.\n\nAs the interviewer continued, Affleck explained how AI can help with filmmaking while not replacing it, leading to the development and sale of his own startup in this space. (He claims the $587 million figure is “not right,” noting that he didn’t own the whole company.)\n\n“I gambled on this notion that in order to do this in an ethical way and in a way that could take this technology and actually make it work hand in glove with artists in this community where there are very fixed, long-standing relationships around likeness and so forth, we had to create our own dataset,” he said. “So I raised the money. I shot for about eight months with a lot of cameras and a lot of equipment, and created a dataset that would serve as late-stage training for open models to do discrete tasks, sort of where the training code, the inference code, were related to one another and geared toward actual specific tasks that would generate value,” Affleck said.\n\nIn a separate clip, also going viral, Affleck spoke to Bloomberg’s Lucas Shaw at the Screentime 2026 conference in LA, where he talked about how he fine-tuned AI models by taking open source models, unfreezing the weights, then teaching them to meet certain cinematic standards. In the process, the filmmaker retains their proprietary work, while benefiting from the learning they create by training their own unique model for the movie they’re making.\n\nBen Affleck (Hollywood star & Artists Equity CEO) talks about how he fine-tunes open video models by unfreezing weights and trained only the last cinematic layer so a film crew can hit real production standards. for context, Ben Affleck founded InterPositive in 2022, a 16-person… pic.twitter.com/xIOvD0xMyt\n\nThe actor used the technique himself in his movie “Animals,” where AI aided in the post-production process.\n\nAt one point, he also weighed in on the concerns around AI and its world-ending potential. His worries, however, were much more rational.\n\n“When I worry about AI, I worry about my kids in school. I worry about the 30% rise in the number of A’s given out at colleges over the last three years. I worry about learned helplessness. I worry about responsible use. I don’t worry about Skynet, and I don’t think that it’s going to take over [the movie] business in any meaningful way. I think it’s going to be additive,” Affleck said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "They cast the wrong lead in “Good Will Hunting,” apparently, because it’s Ben Affleck who is the secret genius, as it turns out. The actor who earlier this year sold his AI filmmaking startup to Netflix for a reported $587 million has gone viral this week for demonstrating his understanding of AI technology, neural networks, machine learning, and the like, across multiple video clips of his recent interviews.",
+      "heading": 0
+    },
+    {
+      "text": "He can even write a little Python, he says.",
+      "heading": 0
+    },
+    {
+      "text": "The movie star delved into his interest in technology most recently on an episode of GQ’s “One More Question” series this week, where he humbly started with “I’ve always been kind of into computers since I was young,” before nerding out on the development of AI as it relates to filmmaking, while using AI terminology like machine learning, neural networks, transformers, tensors, GPUs, inference, and more.",
+      "heading": 0
+    },
+    {
+      "text": "In a clip that’s making the rounds, Affleck explains to the impressed interviewer, Zach Baron, that he got into the space when analog film moved to digital. As he spoke, he kept defining terms so the interviewer could understand what he was talking about.",
+      "heading": 0
+    },
+    {
+      "text": "“I became more interested in that aspect of it, and the visual effects workflow for many years has included machine learning,” Affleck began. “So I can write, like, pretty shitty Python scripts and stuff like that. Because with convolutional neural networks — which were the sort of precursors to what the transformer can do — which is just much more computation simultaneously — you would do things like, look at what’s called a tensor — which is just the numerical translation of a visual image, in numbers like the batch number, the frame number, the red, green, and blue values of each pixel in each frame, and how many? It’s just that simple, right?”",
+      "heading": 0
+    },
+    {
+      "text": "No, Ben Affleck, it is not just that simple, which is why this video is going viral.",
+      "heading": 0
+    },
+    {
+      "text": "The actor then went into how neural networks were used to identify patterns and do edge detection or feature extraction, which he described as “identifying patterns enough to know — like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.”",
+      "heading": 0
+    },
+    {
+      "text": "He also admitted he used his status as a Hollywood star to get a peek at emerging AI technology, at times. OpenAI was among those he visited, Affleck said in a separate clip, which ultimately led him to understand how he could get more directly involved in the AI space.",
+      "heading": 0
+    },
+    {
+      "text": "As the interviewer continued, Affleck explained how AI can help with filmmaking while not replacing it, leading to the development and sale of his own startup in this space. (He claims the $587 million figure is “not right,” noting that he didn’t own the whole company.)",
+      "heading": 0
+    },
+    {
+      "text": "“I gambled on this notion that in order to do this in an ethical way and in a way that could take this technology and actually make it work hand in glove with artists in this community where there are very fixed, long-standing relationships around likeness and so forth, we had to create our own dataset,” he said. “So I raised the money. I shot for about eight months with a lot of cameras and a lot of equipment, and created a dataset that would serve as late-stage training for open models to do discrete tasks, sort of where the training code, the inference code, were related to one another and geared toward actual specific tasks that would generate value,” Affleck said.",
+      "heading": 0
+    },
+    {
+      "text": "In a separate clip, also going viral, Affleck spoke to Bloomberg’s Lucas Shaw at the Screentime 2026 conference in LA, where he talked about how he fine-tuned AI models by taking open source models, unfreezing the weights, then teaching them to meet certain cinematic standards. In the process, the filmmaker retains their proprietary work, while benefiting from the learning they create by training their own unique model for the movie they’re making.",
+      "heading": 0
+    },
+    {
+      "text": "Ben Affleck (Hollywood star & Artists Equity CEO) talks about how he fine-tunes open video models by unfreezing weights and trained only the last cinematic layer so a film crew can hit real production standards. for context, Ben Affleck founded InterPositive in 2022, a 16-person… pic.twitter.com/xIOvD0xMyt",
+      "heading": 0
+    },
+    {
+      "text": "The actor used the technique himself in his movie “Animals,” where AI aided in the post-production process.",
+      "heading": 0
+    },
+    {
+      "text": "At one point, he also weighed in on the concerns around AI and its world-ending potential. His worries, however, were much more rational.",
+      "heading": 0
+    },
+    {
+      "text": "“When I worry about AI, I worry about my kids in school. I worry about the 30% rise in the number of A’s given out at colleges over the last three years. I worry about learned helplessness. I worry about responsible use. I don’t worry about Skynet, and I don’t think that it’s going to take over [the movie] business in any meaningful way. I think it’s going to be additive,” Affleck said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

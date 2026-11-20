@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+  "slug": "inherent-founded-by-deepmind-alumni-says-its-ai-teammate-jus",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/inherent-labs-cofounders-credit-Anna-Gordon.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "episode": ""
+  },
+  "words": 931,
+  "lines": 22,
+  "duration": 310,
+  "text": "Inherent, a London AI lab founded by Google DeepMind alumni, says its AI agent just outperformed much larger models from Anthropic and OpenAI using a fraction of the size.\n\nOf all the startups launched by Google DeepMind alumni, Inherent has gotten relatively little attention. But while better-funded rivals have yet to show the world anything concrete, the London-based team is starting to share what it’s been building.\n\nJust weeks after emerging from stealth with a $50 million seed round, the British startup says its newly released AI agent, Faraday, has outperformed larger, better-known models at a specific task: independently reproducing the findings of published scientific papers without being told the answer in advance.\n\nThat may sound like a mere party trick given Inherent’s much loftier goal — building AI that can discover new scientific knowledge and not just verify old results. But paper replication is a standard training exercise for human scientists, too, co-founder and chief scientist Edward Hughes said. “Many PhD students actually start by doing this.”\n\nBeating other AI systems at the task wasn’t the point, Hughes told TechCrunch; how they got there was. “What was most interesting to us about this was not so much the result of beating those frontier agents — which of course we liked — but was actually the way we went about building this.”\n\nHere’s the part that should catch an investor’s eye: Measured against Anthropic’s Claude Opus 4.8 and OpenAI’s GPT-5.5 — both much larger, frontier-scale systems — Faraday runs on a comparatively tiny model called Qwen 3.6 that has just 27 billion parameters. (Roughly speaking, “parameters” is a proxy for a model’s size and, typically, its training costs, as well.) Inherent’s bar for success was also higher than simply accuracy. Beyond replicating results, it wanted Faraday to demonstrate “research taste” — an instinct for what experiments are worth running and how to design them well.\n\nTeaching something as intangible as taste is hard, which is where reinforcement learning comes in. It’s a training method that rewards an AI system for good outcomes rather than spelling out rules for it to follow. Rather than training its agents primarily on the study of how science itself is conducted, Inherent leans on this reward-based approach, betting it will generalize better to its longer-term goal of agents capable of contributing across many scientific fields.\n\n“We’re always guided by that north star of building an AI scientist agent and imbuing our agents with taste,” Hughes said. That focus has also shaped what Inherent chooses not to build. Rather than developing its own coding tool, it had Faraday use OpenAI’s GPT-5.5 Codex instead, much the way human scientists lean on existing software rather than building everything themselves, according to the company.\n\nInherent is also trying to avoid building agents that simply tell users what they want to hear. Instead, Hughes said, the goal is modeled on his favorite kind of teammate — the kind who comes back and says: “I got curious about this, and I went off and I did these experiments. What do you think of these results?”\n\nThat collaborative instinct extends to how Inherent operates as a company. Its dozen employees all work in person out of an office in King’s Cross — the once-rundown London neighborhood that Google DeepMind’s presence helped turn into one of the world’s top AI hubs. “We believe that London is the place to be,” Hughes said.\n\nHughes is bullish on London’s density of AI talent, but he has also added his voice to calls to end “garden leave” — the practice, common in the U.K., of barring departing employees from joining or starting a rival company for months after they resign. It’s a restriction American researchers generally don’t face, giving U.S. startups a head start on hiring talent who’ve left a prior role. “This is a personal view rather than a company view, but I was affected by the garden leave problem,” he told TechCrunch.\n\nHughes eventually got around that constraint and started Inherent alongside two other DeepMind alumni and a fourth co-founder. The startup isn’t slowing down either. It plans to grow its headcount to “about 20 to 25” by the end of the year. Given its ambitions in world models as well, and with Demis Hassabis’ new role leaving some DeepMind staff unsettled, Inherent’s hiring push could make it an appealing landing spot for DeepMind employees weighing a move.\n\nPictured from left to right: Inherent co-founders Louis Kirsch, Kaloyan Aleksiev, Tantum Collins, and Edward Hughes.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nFreelance Reporter\n\nAnna Heim is a writer and editorial consultant.\n\nYou can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.\n\nAs a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.\n\nAs of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.\n\nAnna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.\n\nA former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+  "paragraphs": [
+    {
+      "text": "Inherent, a London AI lab founded by Google DeepMind alumni, says its AI agent just outperformed much larger models from Anthropic and OpenAI using a fraction of the size.",
+      "heading": 0
+    },
+    {
+      "text": "Of all the startups launched by Google DeepMind alumni, Inherent has gotten relatively little attention. But while better-funded rivals have yet to show the world anything concrete, the London-based team is starting to share what it’s been building.",
+      "heading": 0
+    },
+    {
+      "text": "Just weeks after emerging from stealth with a $50 million seed round, the British startup says its newly released AI agent, Faraday, has outperformed larger, better-known models at a specific task: independently reproducing the findings of published scientific papers without being told the answer in advance.",
+      "heading": 0
+    },
+    {
+      "text": "That may sound like a mere party trick given Inherent’s much loftier goal — building AI that can discover new scientific knowledge and not just verify old results. But paper replication is a standard training exercise for human scientists, too, co-founder and chief scientist Edward Hughes said. “Many PhD students actually start by doing this.”",
+      "heading": 0
+    },
+    {
+      "text": "Beating other AI systems at the task wasn’t the point, Hughes told TechCrunch; how they got there was. “What was most interesting to us about this was not so much the result of beating those frontier agents — which of course we liked — but was actually the way we went about building this.”",
+      "heading": 0
+    },
+    {
+      "text": "Here’s the part that should catch an investor’s eye: Measured against Anthropic’s Claude Opus 4.8 and OpenAI’s GPT-5.5 — both much larger, frontier-scale systems — Faraday runs on a comparatively tiny model called Qwen 3.6 that has just 27 billion parameters. (Roughly speaking, “parameters” is a proxy for a model’s size and, typically, its training costs, as well.) Inherent’s bar for success was also higher than simply accuracy. Beyond replicating results, it wanted Faraday to demonstrate “research taste” — an instinct for what experiments are worth running and how to design them well.",
+      "heading": 0
+    },
+    {
+      "text": "Teaching something as intangible as taste is hard, which is where reinforcement learning comes in. It’s a training method that rewards an AI system for good outcomes rather than spelling out rules for it to follow. Rather than training its agents primarily on the study of how science itself is conducted, Inherent leans on this reward-based approach, betting it will generalize better to its longer-term goal of agents capable of contributing across many scientific fields.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re always guided by that north star of building an AI scientist agent and imbuing our agents with taste,” Hughes said. That focus has also shaped what Inherent chooses not to build. Rather than developing its own coding tool, it had Faraday use OpenAI’s GPT-5.5 Codex instead, much the way human scientists lean on existing software rather than building everything themselves, according to the company.",
+      "heading": 0
+    },
+    {
+      "text": "Inherent is also trying to avoid building agents that simply tell users what they want to hear. Instead, Hughes said, the goal is modeled on his favorite kind of teammate — the kind who comes back and says: “I got curious about this, and I went off and I did these experiments. What do you think of these results?”",
+      "heading": 0
+    },
+    {
+      "text": "That collaborative instinct extends to how Inherent operates as a company. Its dozen employees all work in person out of an office in King’s Cross — the once-rundown London neighborhood that Google DeepMind’s presence helped turn into one of the world’s top AI hubs. “We believe that London is the place to be,” Hughes said.",
+      "heading": 0
+    },
+    {
+      "text": "Hughes is bullish on London’s density of AI talent, but he has also added his voice to calls to end “garden leave” — the practice, common in the U.K., of barring departing employees from joining or starting a rival company for months after they resign. It’s a restriction American researchers generally don’t face, giving U.S. startups a head start on hiring talent who’ve left a prior role. “This is a personal view rather than a company view, but I was affected by the garden leave problem,” he told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Hughes eventually got around that constraint and started Inherent alongside two other DeepMind alumni and a fourth co-founder. The startup isn’t slowing down either. It plans to grow its headcount to “about 20 to 25” by the end of the year. Given its ambitions in world models as well, and with Demis Hassabis’ new role leaving some DeepMind staff unsettled, Inherent’s hiring push could make it an appealing landing spot for DeepMind employees weighing a move.",
+      "heading": 0
+    },
+    {
+      "text": "Pictured from left to right: Inherent co-founders Louis Kirsch, Kaloyan Aleksiev, Tantum Collins, and Edward Hughes.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Freelance Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Anna Heim is a writer and editorial consultant.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.",
+      "heading": 0
+    },
+    {
+      "text": "As a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.",
+      "heading": 0
+    },
+    {
+      "text": "As of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.",
+      "heading": 0
+    },
+    {
+      "text": "Anna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.",
+      "heading": 0
+    },
+    {
+      "text": "A former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+      "heading": 0
+    }
+  ]
+}

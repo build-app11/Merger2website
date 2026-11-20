@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Nvidia partners with data center developer Cloverleaf",
+  "slug": "nvidia-partners-with-data-center-developer-cloverleaf",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+    "episode": ""
+  },
+  "words": 275,
+  "lines": 17,
+  "duration": 92,
+  "text": "Posted:\n\nLucas Ropek\n\nNvidia partners with data center developer Cloverleaf\n\nNvidia is doing everything it can to keep fueling the AI buildout that has underpinned its own good fortunes. On Friday, it announced a partnership with Cloverleaf Infrastructure, a company that lays the groundwork for data centers.\n\nCloverleaf was founded in 2024 and raised $300 million that year. It acts as a kind of middleman between utility companies and data centers, providing power sources and other kinds of pivotal infrastructure for site development.\n\nWhile the companies didn’t disclose terms, the Wall Street Journal reports that Nvidia’s investment in Cloverleaf will likely add up to several hundred million dollars. Reuters reports that the chipmaker now owns a minority stake in the company. TechCrunch reached out to Nvidia for more information.\n\nThe deal is part of Nvidia’s ongoing push to use its immense profits to keep the AI flywheel spinning. Nvidia is increasingly playing a more direct role in financing and developing the AI data centers that turn around and buy its AI systems. Earlier this week, the company also announced that it would invest $1.5 billion into SB Energy, an OpenAI-linked data center project based in Ohio.\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nJulie Bort\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia partners with data center developer Cloverleaf",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia is doing everything it can to keep fueling the AI buildout that has underpinned its own good fortunes. On Friday, it announced a partnership with Cloverleaf Infrastructure, a company that lays the groundwork for data centers.",
+      "heading": 0
+    },
+    {
+      "text": "Cloverleaf was founded in 2024 and raised $300 million that year. It acts as a kind of middleman between utility companies and data centers, providing power sources and other kinds of pivotal infrastructure for site development.",
+      "heading": 0
+    },
+    {
+      "text": "While the companies didn’t disclose terms, the Wall Street Journal reports that Nvidia’s investment in Cloverleaf will likely add up to several hundred million dollars. Reuters reports that the chipmaker now owns a minority stake in the company. TechCrunch reached out to Nvidia for more information.",
+      "heading": 0
+    },
+    {
+      "text": "The deal is part of Nvidia’s ongoing push to use its immense profits to keep the AI flywheel spinning. Nvidia is increasingly playing a more direct role in financing and developing the AI data centers that turn around and buy its AI systems. Earlier this week, the company also announced that it would invest $1.5 billion into SB Energy, an OpenAI-linked data center project based in Ohio.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+  "slug": "microsoft-s-new-ai-code-of-conduct-tells-models-not-to-hack",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1244789707.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+    "episode": ""
+  },
+  "words": 406,
+  "lines": 12,
+  "duration": 135,
+  "text": "As the AI world shifts its focus to safety and alignment, Microsoft has released a new AI code of conduct meant to guide AI models away from dangerous behavior.\n\nThe document is more low level than Anthropic CEO Dario Amodei’s recent call for pacing the frontier, instead focusing on the values and red lines that guide model training within Microsoft AI. Still, the result is a comprehensive guide as to how Microsoft approaches AI safety and how those ideas are implemented in practice.\n\nThe document begins with the prediction that, in the next decade, superintelligent AI systems will surpass human performance in most tasks. “Containing, controlling, and aligning such a powerful force is one of the greatest challenges humanity has ever faced,” the code of conduct states. “We must therefore be completely clear about why we are inventing these systems and how we intend to control them.”\n\nThe code of conduct also lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.\n\nUnder Microsoft’s system, each model has an overarching code of conduct that overrides the preferences of individual users or any specific tasks. That includes “absolute constraints” forbidding cyberattacks, nuclear weapons, or deepfake production. It also includes broader provisions against a general loss of human control.\n\n“ MAI Models will not use adaptive, deceptive, self-reinforcing, collusion, or other mechanisms to evade or defeat human oversight so that they can no longer be reliably directed, modified, or shut down by authorized people or systems,” the document reads.\n\nThe release comes amid an unprecedented focus on AI safety, driven by a string of rogue-agent incidents, as well as the abrupt resignation of an Anthropic employee, who cited the growing risk that AI would cause human extinction.\n\nTogether with Anthropic, OpenAI, and xAI, Microsoft has broadly embraced a general approach of pacing the frontier, with particular support for embedded evaluators in AI labs.\n\n“We welcome the research, focus, and deliberate pacing needed to get alignment right as the design goal,” Microsoft CEO Satya Nadella wrote online. “We also welcome ideas like ’embedded evaluators’ and the broader efforts to develop the mechanisms to make this more than just talk.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "As the AI world shifts its focus to safety and alignment, Microsoft has released a new AI code of conduct meant to guide AI models away from dangerous behavior.",
+      "heading": 0
+    },
+    {
+      "text": "The document is more low level than Anthropic CEO Dario Amodei’s recent call for pacing the frontier, instead focusing on the values and red lines that guide model training within Microsoft AI. Still, the result is a comprehensive guide as to how Microsoft approaches AI safety and how those ideas are implemented in practice.",
+      "heading": 0
+    },
+    {
+      "text": "The document begins with the prediction that, in the next decade, superintelligent AI systems will surpass human performance in most tasks. “Containing, controlling, and aligning such a powerful force is one of the greatest challenges humanity has ever faced,” the code of conduct states. “We must therefore be completely clear about why we are inventing these systems and how we intend to control them.”",
+      "heading": 0
+    },
+    {
+      "text": "The code of conduct also lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+      "heading": 0
+    },
+    {
+      "text": "Under Microsoft’s system, each model has an overarching code of conduct that overrides the preferences of individual users or any specific tasks. That includes “absolute constraints” forbidding cyberattacks, nuclear weapons, or deepfake production. It also includes broader provisions against a general loss of human control.",
+      "heading": 0
+    },
+    {
+      "text": "“ MAI Models will not use adaptive, deceptive, self-reinforcing, collusion, or other mechanisms to evade or defeat human oversight so that they can no longer be reliably directed, modified, or shut down by authorized people or systems,” the document reads.",
+      "heading": 0
+    },
+    {
+      "text": "The release comes amid an unprecedented focus on AI safety, driven by a string of rogue-agent incidents, as well as the abrupt resignation of an Anthropic employee, who cited the growing risk that AI would cause human extinction.",
+      "heading": 0
+    },
+    {
+      "text": "Together with Anthropic, OpenAI, and xAI, Microsoft has broadly embraced a general approach of pacing the frontier, with particular support for embedded evaluators in AI labs.",
+      "heading": 0
+    },
+    {
+      "text": "“We welcome the research, focus, and deliberate pacing needed to get alignment right as the design goal,” Microsoft CEO Satya Nadella wrote online. “We also welcome ideas like ’embedded evaluators’ and the broader efforts to develop the mechanisms to make this more than just talk.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

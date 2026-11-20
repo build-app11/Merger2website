@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+  "slug": "cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scali",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_Andrew-Feldman_1-Speaker-16x9-Dark.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+    "episode": ""
+  },
+  "words": 756,
+  "lines": 21,
+  "duration": 252,
+  "text": "AI models keep getting more capable. But every leap forward demands more compute, energy, and infrastructure. How far can that continue?\n\nCerebras Systems has spent the past decade challenging a basic assumption behind AI computing: that increasingly powerful AI must depend on conventional chip architectures. The company built its approach around wafer-scale computing and today provides AI compute through on-premise systems and its cloud platform.\n\nAt TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will take the Disrupt Stage for “ Can AI Keep Scaling? ” He’ll explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.\n\nWant to understand what could determine how far AI can scale? Secure your Disrupt ticket to hear from a founder solving the AI scale challenge. Bring a co-founder, colleague, or peer at 50% off.\n\nCerebras challenges the conventional AI chip\n\nAndrew Feldman co-founded Cerebras in 2015 after years of building companies around computing infrastructure. Before Cerebras, he co-founded and led energy-efficient microserver startup SeaMicro, which AMD acquired in 2012. Earlier, he held leadership roles at Force10 Networks and Riverstone Networks.\n\nAt Cerebras, Feldman and his co-founders took on a problem long considered impractical: bringing wafer-scale computing to market. Rather than cutting a silicon wafer into individual chips, Cerebras developed a processor built on the wafer itself, an architecture designed specifically for demanding AI workloads.\n\nNow Cerebras is scaling that approach as demand for AI compute grows. The company raised $5.5 billion in its May IPO and signed a multiyear agreement with OpenAI to deploy 750 megawatts of Cerebras systems from 2026 through 2028. In August, Cerebras introduced CS-4, the latest generation of its wafer-scale AI infrastructure.\n\nCan approaches like Cerebras’ deliver the compute increasingly powerful AI demands — and can the infrastructure behind them keep up? Secure your Disrupt pass, get a second at 50% off, and hear from an entrepreneur who has spent more than a decade betting on a different way to build AI hardware.\n\nScaling AI means scaling the infrastructure behind it\n\nMore powerful processors alone don’t solve the scaling problem. Those systems need data centers, electricity, cooling, and manufacturing capacity.\n\nCerebras is already confronting that challenge. In August, the company reported more than 600 megawatts of data center capacity live or under contract for delivery by the end of 2027 and said it was increasing manufacturing capacity more than tenfold during 2026. It also plans to bring its first European data center capacity online this year and expand to 200 megawatts there by the end of 2027.\n\nScaling AI isn’t solely about designing a faster processor. It requires enough physical infrastructure to put that compute to work.\n\nFor founders, investors, and technology leaders making decisions around AI infrastructure, Feldman can put those constraints into context: where compute demand is heading, what it takes to support it, and where today’s hardware could hit its limits. Register for Disrupt to hear what Cerebras’ experience can tell us about the next phase of AI scale. Bring a co-worker, colleague, or peer at 50% off.\n\nLearn what happens when today’s hardware reaches its limits at Disrupt\n\nCerebras pursued wafer-scale computing long before today’s AI infrastructure boom and is now scaling its computing and manufacturing capacity as demand for AI accelerates.\n\nAt Disrupt, Feldman will explore what growing demand for compute, energy, and infrastructure means for AI’s future and what could happen if conventional hardware can no longer keep pace. For anyone building, funding, or deploying AI, it’s a chance to hear from a founder testing a different approach to one of the industry’s biggest constraints.\n\nHis session is one of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. Beyond the agenda, matchmaking, dealmaking, and networking create opportunities to connect with the founders, investors, and builders shaping what comes next.\n\nRegister for Disrupt to learn how long AI can keep scaling — and what must change for it to continue. Lean in on this session with your co-founder, partner, or peer at 50% off.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "AI models keep getting more capable. But every leap forward demands more compute, energy, and infrastructure. How far can that continue?",
+      "heading": 0
+    },
+    {
+      "text": "Cerebras Systems has spent the past decade challenging a basic assumption behind AI computing: that increasingly powerful AI must depend on conventional chip architectures. The company built its approach around wafer-scale computing and today provides AI compute through on-premise systems and its cloud platform.",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will take the Disrupt Stage for “ Can AI Keep Scaling? ” He’ll explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.",
+      "heading": 0
+    },
+    {
+      "text": "Want to understand what could determine how far AI can scale? Secure your Disrupt ticket to hear from a founder solving the AI scale challenge. Bring a co-founder, colleague, or peer at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "Cerebras challenges the conventional AI chip",
+      "heading": 1
+    },
+    {
+      "text": "Andrew Feldman co-founded Cerebras in 2015 after years of building companies around computing infrastructure. Before Cerebras, he co-founded and led energy-efficient microserver startup SeaMicro, which AMD acquired in 2012. Earlier, he held leadership roles at Force10 Networks and Riverstone Networks.",
+      "heading": 0
+    },
+    {
+      "text": "At Cerebras, Feldman and his co-founders took on a problem long considered impractical: bringing wafer-scale computing to market. Rather than cutting a silicon wafer into individual chips, Cerebras developed a processor built on the wafer itself, an architecture designed specifically for demanding AI workloads.",
+      "heading": 0
+    },
+    {
+      "text": "Now Cerebras is scaling that approach as demand for AI compute grows. The company raised $5.5 billion in its May IPO and signed a multiyear agreement with OpenAI to deploy 750 megawatts of Cerebras systems from 2026 through 2028. In August, Cerebras introduced CS-4, the latest generation of its wafer-scale AI infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "Can approaches like Cerebras’ deliver the compute increasingly powerful AI demands — and can the infrastructure behind them keep up? Secure your Disrupt pass, get a second at 50% off, and hear from an entrepreneur who has spent more than a decade betting on a different way to build AI hardware.",
+      "heading": 0
+    },
+    {
+      "text": "Scaling AI means scaling the infrastructure behind it",
+      "heading": 1
+    },
+    {
+      "text": "More powerful processors alone don’t solve the scaling problem. Those systems need data centers, electricity, cooling, and manufacturing capacity.",
+      "heading": 0
+    },
+    {
+      "text": "Cerebras is already confronting that challenge. In August, the company reported more than 600 megawatts of data center capacity live or under contract for delivery by the end of 2027 and said it was increasing manufacturing capacity more than tenfold during 2026. It also plans to bring its first European data center capacity online this year and expand to 200 megawatts there by the end of 2027.",
+      "heading": 0
+    },
+    {
+      "text": "Scaling AI isn’t solely about designing a faster processor. It requires enough physical infrastructure to put that compute to work.",
+      "heading": 0
+    },
+    {
+      "text": "For founders, investors, and technology leaders making decisions around AI infrastructure, Feldman can put those constraints into context: where compute demand is heading, what it takes to support it, and where today’s hardware could hit its limits. Register for Disrupt to hear what Cerebras’ experience can tell us about the next phase of AI scale. Bring a co-worker, colleague, or peer at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "Learn what happens when today’s hardware reaches its limits at Disrupt",
+      "heading": 0
+    },
+    {
+      "text": "Cerebras pursued wafer-scale computing long before today’s AI infrastructure boom and is now scaling its computing and manufacturing capacity as demand for AI accelerates.",
+      "heading": 0
+    },
+    {
+      "text": "At Disrupt, Feldman will explore what growing demand for compute, energy, and infrastructure means for AI’s future and what could happen if conventional hardware can no longer keep pace. For anyone building, funding, or deploying AI, it’s a chance to hear from a founder testing a different approach to one of the industry’s biggest constraints.",
+      "heading": 0
+    },
+    {
+      "text": "His session is one of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. Beyond the agenda, matchmaking, dealmaking, and networking create opportunities to connect with the founders, investors, and builders shaping what comes next.",
+      "heading": 0
+    },
+    {
+      "text": "Register for Disrupt to learn how long AI can keep scaling — and what must change for it to continue. Lean in on this session with your co-founder, partner, or peer at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

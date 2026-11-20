@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+  "slug": "amazon-responds-to-data-center-backlash-says-it-no-longer-us",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+    "episode": ""
+  },
+  "words": 764,
+  "lines": 18,
+  "duration": 255,
+  "text": "Amazon Web Services CEO Matt Garman said the company has stopped using nondisclosure agreements (NDAs) in its dealings with government agencies as it seeks approval to build new data centers.\n\nGarman’s statement is just one sentence in a longer blog post in which he tried to push back against widespread suspicion of data centers, and to make the case that they’re actually good for communities.\n\nNDAs are a significant piece of the broader data center backlash. For example, environmental activist Erin Brockovich recently said that the number one complaint she’s heard about data centers is transparency, with these projects following a common pattern: “projects announced after permits are already secured, developers who don’t return calls, local officials who signed NDAs before their neighbors knew a project was being considered.”\n\nAs a result of that backlash, New York announced a one-year moratorium on permits for large data centers, and, according to Garman, there are more than 100 data center moratoriums currently being considered across the United States.\n\n“If these measures are enacted, the U.S. could be writing its own losing ticket to this race, and the consequences would last generations,” Garman claimed. “As a country, we can’t afford to find ourselves in that position.”\n\nGarman also attempted to puncture what he said are four big myths around data centers: that they consume too much water, that they increase electricity costs, that they emit an enormous amount of pollution, and that they don’t provide any benefits to their communities.\n\nPointing to an Amazon report about its own water usage, Garman said that “direct data center water consumption” only accounts for 0.5% of all industrial water usage in the United States, “orders of magnitude less than golf courses, almond farming, and many other industries.”\n\nNvidia recently said its new cooling system eliminates “pretty much all water usage” inside the data center, but those claims — like Amazon’s — seem to ignore the broader water usage involved in electricity generation and chip manufacturing. Scientists have also said they need to study data centers’ water and energy usage independently, since there are no federal or state requirements around how tech companies report this data.\n\nAs for electricity rates, Garman said they’ve only gone up in some states with large numbers of data centers, while they’ve gone down or at least grown more slowly in others. And he argued, “In instances where energy rates are going up, it’s primarily because the grid is old and hasn’t been invested in and expanded before the demand arrived.”\n\nOn the other hand, an independent watchdog said recently data centers were the main culprit behind a 76% year-over-year price increase on America’s largest electrical grid.\n\nWhen it comes to pollution — an issue that the NAACP is currently suing Elon Musk’s SpaceX/xAI over — Garman complained that critics focus on the maximum amount of pollution allowed under data center permits. For example, a planned Amazon data center in Texas is permitted to release 33 million tons of carbon dioxide per year, which is more than any other power plant in the United States.\n\n“The truth is data center generators almost never run,” Garman said. “They’re idle 99.9% of the time (they run roughly 10 hours per year, mostly for required maintenance testing).”\n\nAs for the community benefits, this is where Garman wrote, “We no longer use nondisclosure agreements with the government agencies we work with on our projects.” Plus, he said, “Over the past three years, Amazon has contributed more than $1 billion to communities across the U.S. in which we have a meaningful data center presence.”\n\nWill this be enough to quell community suspicion? Perhaps not — Anthropic CEO Dario Amodei recently argued that the AI backlash is “fundamentally a crisis of trust, ” where people assume governments and tech companies are always “cooking up some new way to screw them over.” Similarly, writer Jasmine Sun noted that when data center opponents are presented with the tech companies’ arguments, their response is usually, “I don’t believe them.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Amazon Web Services CEO Matt Garman said the company has stopped using nondisclosure agreements (NDAs) in its dealings with government agencies as it seeks approval to build new data centers.",
+      "heading": 0
+    },
+    {
+      "text": "Garman’s statement is just one sentence in a longer blog post in which he tried to push back against widespread suspicion of data centers, and to make the case that they’re actually good for communities.",
+      "heading": 0
+    },
+    {
+      "text": "NDAs are a significant piece of the broader data center backlash. For example, environmental activist Erin Brockovich recently said that the number one complaint she’s heard about data centers is transparency, with these projects following a common pattern: “projects announced after permits are already secured, developers who don’t return calls, local officials who signed NDAs before their neighbors knew a project was being considered.”",
+      "heading": 0
+    },
+    {
+      "text": "As a result of that backlash, New York announced a one-year moratorium on permits for large data centers, and, according to Garman, there are more than 100 data center moratoriums currently being considered across the United States.",
+      "heading": 0
+    },
+    {
+      "text": "“If these measures are enacted, the U.S. could be writing its own losing ticket to this race, and the consequences would last generations,” Garman claimed. “As a country, we can’t afford to find ourselves in that position.”",
+      "heading": 0
+    },
+    {
+      "text": "Garman also attempted to puncture what he said are four big myths around data centers: that they consume too much water, that they increase electricity costs, that they emit an enormous amount of pollution, and that they don’t provide any benefits to their communities.",
+      "heading": 0
+    },
+    {
+      "text": "Pointing to an Amazon report about its own water usage, Garman said that “direct data center water consumption” only accounts for 0.5% of all industrial water usage in the United States, “orders of magnitude less than golf courses, almond farming, and many other industries.”",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia recently said its new cooling system eliminates “pretty much all water usage” inside the data center, but those claims — like Amazon’s — seem to ignore the broader water usage involved in electricity generation and chip manufacturing. Scientists have also said they need to study data centers’ water and energy usage independently, since there are no federal or state requirements around how tech companies report this data.",
+      "heading": 0
+    },
+    {
+      "text": "As for electricity rates, Garman said they’ve only gone up in some states with large numbers of data centers, while they’ve gone down or at least grown more slowly in others. And he argued, “In instances where energy rates are going up, it’s primarily because the grid is old and hasn’t been invested in and expanded before the demand arrived.”",
+      "heading": 0
+    },
+    {
+      "text": "On the other hand, an independent watchdog said recently data centers were the main culprit behind a 76% year-over-year price increase on America’s largest electrical grid.",
+      "heading": 0
+    },
+    {
+      "text": "When it comes to pollution — an issue that the NAACP is currently suing Elon Musk’s SpaceX/xAI over — Garman complained that critics focus on the maximum amount of pollution allowed under data center permits. For example, a planned Amazon data center in Texas is permitted to release 33 million tons of carbon dioxide per year, which is more than any other power plant in the United States.",
+      "heading": 0
+    },
+    {
+      "text": "“The truth is data center generators almost never run,” Garman said. “They’re idle 99.9% of the time (they run roughly 10 hours per year, mostly for required maintenance testing).”",
+      "heading": 0
+    },
+    {
+      "text": "As for the community benefits, this is where Garman wrote, “We no longer use nondisclosure agreements with the government agencies we work with on our projects.” Plus, he said, “Over the past three years, Amazon has contributed more than $1 billion to communities across the U.S. in which we have a meaningful data center presence.”",
+      "heading": 0
+    },
+    {
+      "text": "Will this be enough to quell community suspicion? Perhaps not — Anthropic CEO Dario Amodei recently argued that the AI backlash is “fundamentally a crisis of trust, ” where people assume governments and tech companies are always “cooking up some new way to screw them over.” Similarly, writer Jasmine Sun noted that when data center opponents are presented with the tech companies’ arguments, their response is usually, “I don’t believe them.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Mirror Particle is building a ‘world model’ of human behavior",
+  "slug": "mirror-particle-is-building-a-world-model-of-human-behavior",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+    "episode": ""
+  },
+  "words": 935,
+  "lines": 23,
+  "duration": 312,
+  "text": "Startups that promise to predict how humans will behave are having a moment. Over the past year, Simile raised $200 million at a $2 billion valuation; Aaru raised $88 million at a $1 billion valuation; and Humans&, an AI startup that announced a massive $480 million seed round in January at a $4.48 billion valuation, launched Persimmon to model human behavior.\n\nThe status quo for human behavior prediction today relies heavily on large language models (LLMs) that are prompted or fine-tuned to role-play as a target demographic. But two-year-old, San Francisco-based Mirror Particle thinks that approach is fundamentally broken.\n\n“It’s like bringing a super soaker to Niagara Falls,” says Abhivyakti Ahuja, co-founder and CEO of Mirror Particle, which provides brands with an AI engine that predicts consumer behavior and the reasons behind it. “LLMs have been trained on hundreds of billions of data points. How much can you influence its behavior by [fine-tuning] with such a small amount of data? It’s still stuck in the past.”\n\nAhuja doesn’t think LLMs see the world the way a human does. “LLMs are modeling written language, but humans are made of visual perception, spatial reasoning, social intelligence.” Relying on them, she says, means getting insights based on what humans don’t notice, which is beside the point when trying to predict human behavior.\n\nMirror Particle is taking another approach: building a foundation model, or as Ahuja describes it, a world model built from scratch that simulates why humans do what they do and how human behavior changes over time.\n\n“We don’t want to capture the static person,” Ahuja said. “We want to capture the changing person. That means capturing the longitudinal data on how people are changing, what triggers are changing them and to what degree.” If they aren’t changing, she added, “that’s also a signal.”\n\nMirror Particle has already raised an angel round and says it’s close to closing its first venture round. The company is also competing next week in Startup Battlefield 200, TechCrunch’s renowned startup competition taking place at TechCrunch Disrupt 2026 in San Francisco on October 13-15.\n\nThe startup relies on a proprietary combination of data that includes its clients’ customer data, current events, pop culture, social media, and more to model a demographic segment, thinking of it as a system that evolves over time and tracking how motivations shift as it moves through experiences. Much of the focus is on “revealed behavior” — what people actually do rather than self-reported survey answers.\n\nLike its rivals, Mirror Particle’s initial go-to-market strategy focuses on where budgets already exist for these kinds of insights: market research and brand and product strategy. Mirror might, for instance, help a beauty brand not just write better ad copy for makeup that would appeal to Gen Z, but also determine if that demographic even wants that product.\n\n“What if [the target demographic] doesn’t want eyeshadow palettes?” Ahuja said. “Maybe blush is a better option to go for if you want to sell a product to this market.”\n\nMirror Particle’s prediction engine also provides customers with the “why” behind current or future behavior — the motivations, constraints, and additional context that justify its recommendation, helping brands make smarter decisions.\n\nIn one early pilot, a well-known pet food brand wanted to know what imagery to put on the packaging to boost sales. Chicken? Beef? Vegetables? Mirror’s technology found that the brand was asking the wrong question. The imagery didn’t matter. The problem was that the brand was so recognizable that it was considered mass market and cheap, and sales would plateau until it addressed that perception issue.\n\n“The way we see our model evolving is like how a baby learns about the world,” Ahuja said, noting that babies move from vision to language to body awareness to social intelligence.\n\nThat fundamental interest in modeling the human brain comes from Ahuja’s background studying neuroscience and computer science. Originally from India, she ended up studying at the University of Toronto, where she became inspired by AI pioneer Geoffrey Hinton’s contributions to neural networks.\n\nAfter school, Ahuja ended up at Amazon Robotics building robots that build other robots. That’s where she met her co-founders, Will Song and Thomson Yen. Song has spent a chunk of his career building sales personalization engines, and Yen focused on using deep learning to learn about how AI agents understand human behavior.\n\nThe startup’s long-term vision is to be the “general layer for anticipating human behavior” and moving from broader population-level analyses to individual-level insights.\n\n“We just need a better model of humans if we’re going to work alongside AI and with each other,” Ahuja said.\n\nCheck out Mirror Particle and many other innovative startups that have been vetted by TechCrunch’s editorial team next week at Disrupt in downtown San Francisco. The winner of this year’s Startup Battlefield will be decided by our slate of VC judges on the afternoon of Thursday, October 15.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Startups that promise to predict how humans will behave are having a moment. Over the past year, Simile raised $200 million at a $2 billion valuation; Aaru raised $88 million at a $1 billion valuation; and Humans&, an AI startup that announced a massive $480 million seed round in January at a $4.48 billion valuation, launched Persimmon to model human behavior.",
+      "heading": 0
+    },
+    {
+      "text": "The status quo for human behavior prediction today relies heavily on large language models (LLMs) that are prompted or fine-tuned to role-play as a target demographic. But two-year-old, San Francisco-based Mirror Particle thinks that approach is fundamentally broken.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s like bringing a super soaker to Niagara Falls,” says Abhivyakti Ahuja, co-founder and CEO of Mirror Particle, which provides brands with an AI engine that predicts consumer behavior and the reasons behind it. “LLMs have been trained on hundreds of billions of data points. How much can you influence its behavior by [fine-tuning] with such a small amount of data? It’s still stuck in the past.”",
+      "heading": 0
+    },
+    {
+      "text": "Ahuja doesn’t think LLMs see the world the way a human does. “LLMs are modeling written language, but humans are made of visual perception, spatial reasoning, social intelligence.” Relying on them, she says, means getting insights based on what humans don’t notice, which is beside the point when trying to predict human behavior.",
+      "heading": 0
+    },
+    {
+      "text": "Mirror Particle is taking another approach: building a foundation model, or as Ahuja describes it, a world model built from scratch that simulates why humans do what they do and how human behavior changes over time.",
+      "heading": 0
+    },
+    {
+      "text": "“We don’t want to capture the static person,” Ahuja said. “We want to capture the changing person. That means capturing the longitudinal data on how people are changing, what triggers are changing them and to what degree.” If they aren’t changing, she added, “that’s also a signal.”",
+      "heading": 0
+    },
+    {
+      "text": "Mirror Particle has already raised an angel round and says it’s close to closing its first venture round. The company is also competing next week in Startup Battlefield 200, TechCrunch’s renowned startup competition taking place at TechCrunch Disrupt 2026 in San Francisco on October 13-15.",
+      "heading": 0
+    },
+    {
+      "text": "The startup relies on a proprietary combination of data that includes its clients’ customer data, current events, pop culture, social media, and more to model a demographic segment, thinking of it as a system that evolves over time and tracking how motivations shift as it moves through experiences. Much of the focus is on “revealed behavior” — what people actually do rather than self-reported survey answers.",
+      "heading": 0
+    },
+    {
+      "text": "Like its rivals, Mirror Particle’s initial go-to-market strategy focuses on where budgets already exist for these kinds of insights: market research and brand and product strategy. Mirror might, for instance, help a beauty brand not just write better ad copy for makeup that would appeal to Gen Z, but also determine if that demographic even wants that product.",
+      "heading": 0
+    },
+    {
+      "text": "“What if [the target demographic] doesn’t want eyeshadow palettes?” Ahuja said. “Maybe blush is a better option to go for if you want to sell a product to this market.”",
+      "heading": 0
+    },
+    {
+      "text": "Mirror Particle’s prediction engine also provides customers with the “why” behind current or future behavior — the motivations, constraints, and additional context that justify its recommendation, helping brands make smarter decisions.",
+      "heading": 0
+    },
+    {
+      "text": "In one early pilot, a well-known pet food brand wanted to know what imagery to put on the packaging to boost sales. Chicken? Beef? Vegetables? Mirror’s technology found that the brand was asking the wrong question. The imagery didn’t matter. The problem was that the brand was so recognizable that it was considered mass market and cheap, and sales would plateau until it addressed that perception issue.",
+      "heading": 0
+    },
+    {
+      "text": "“The way we see our model evolving is like how a baby learns about the world,” Ahuja said, noting that babies move from vision to language to body awareness to social intelligence.",
+      "heading": 0
+    },
+    {
+      "text": "That fundamental interest in modeling the human brain comes from Ahuja’s background studying neuroscience and computer science. Originally from India, she ended up studying at the University of Toronto, where she became inspired by AI pioneer Geoffrey Hinton’s contributions to neural networks.",
+      "heading": 0
+    },
+    {
+      "text": "After school, Ahuja ended up at Amazon Robotics building robots that build other robots. That’s where she met her co-founders, Will Song and Thomson Yen. Song has spent a chunk of his career building sales personalization engines, and Yen focused on using deep learning to learn about how AI agents understand human behavior.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s long-term vision is to be the “general layer for anticipating human behavior” and moving from broader population-level analyses to individual-level insights.",
+      "heading": 0
+    },
+    {
+      "text": "“We just need a better model of humans if we’re going to work alongside AI and with each other,” Ahuja said.",
+      "heading": 0
+    },
+    {
+      "text": "Check out Mirror Particle and many other innovative startups that have been vetted by TechCrunch’s editorial team next week at Disrupt in downtown San Francisco. The winner of this year’s Startup Battlefield will be decided by our slate of VC judges on the afternoon of Thursday, October 15.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

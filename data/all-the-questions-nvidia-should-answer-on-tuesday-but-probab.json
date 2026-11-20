@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+  "slug": "all-the-questions-nvidia-should-answer-on-tuesday-but-probab",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-1147839035.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "episode": ""
+  },
+  "words": 741,
+  "lines": 19,
+  "duration": 247,
+  "text": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results.\n\nFor the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced founder Jensen Huang.\n\nHuang was forced to resign last week after he admitted to having an affair with an exec of a customer, Alice Huang, a woman alleged to be a Chinese spy, and he was accused of having two more affairs with Nvidia employees.\n\nNow, the company is facing questions about its restricted chips allegedly being smuggled into China, especially by Huang’s mistress’ company. Nvidia promised to conduct an internal investigation. Meanwhile, Huang was commanded to answer questions to Congress in a closed-door joint session with three Republican-led committees. Plus, top Democrats have also vowed to investigate the company.\n\nGiven the turmoil Nvidia is in, there are a number of questions that Kress should answer.\n\nHuang’s role now and going forward. Huang ran Nvidia with an iron fist, having some 60 direct reports and his fingers in everything. No one knows the company better than him.\n\nAn internet petition signed by 180,000 and growing is calling for the board to reinstate him. Huang may also have been mounting an attempt to return, Financial Times reported. However, CNBC is reporting, citing unnamed sources, that the company is not in talks to reinstate Huang.\n\nSo, we’ll be looking for language from the interim CEO about Huang’s ongoing involvement with the company, its search for a new CEO, and any talks to bring him back.\n\nChina and Singapore. As Huang vehemently argued in favor of easing export restrictions for Nvidia chips to China, Huang said that he’s seen no evidence that its powerful semiconductors were being diverted from legit buyers to China.\n\nBut in October 2025, The New York Times reported that the U.S. was investigating Huang’s mistress’ company, Megaspeed, over allegations it was doing just that. Nvidia at the time vouched to CNBC that Megaspeed was legally using the chips for its cloud. However, Nvidia recently told The Wall Street Journal that it had voluntarily blocked Megaspeed from receiving more chips way back in June 2025.\n\nLast year, Nvidia said that Singapore, the region where Megaspeed is located, was one of its fastest-growing, accounting for 22% of its total revenue for its second quarter of that year. After the investigation into Megaspeed came to light, Nvidia changed how it reported revenue. It now reports based on a company’s headquarters, instead of its shipping address. That completely hid sales to Singapore and Megaspeed’s impact.\n\nSo we’re listening to what Kress says about the future of sales to the China region and the cloud business in Singapore that was once 20% of sales. We’re especially listening for what she says about Nvidia keeping track of where its restricted chips wind up.\n\nChina sales policy. Huang’s argument was, essentially, that the U.S. can’t stop China from developing advanced AI models, so the West is better off selling them less powerful Nvidia chips and keeping them dependent, he said on the Dwarkesh Podcast last summer. Notably, that’s a position that would make Nvidia a lot of money.\n\nThe China hawks counter that selling an adversary any powerful chips at all will help them, and U.S. companies shouldn’t do that. So we’re listening for any indications that Kress is reversing Nvidia’s goals with China.\n\nBankrolling the AI build-out. The expectation is that Kress, the CFO who reportedly had unsuccessfully tried to push back against Huang’s extreme AI dealmaking, will be conservative on such deals going forward. We’ll be listening for what she says about the impacts of existing deals on the books. (Will she subtly try to throw Huang under the bus for those controversial deals?) We’ll also be listening for her future plans.\n\nGovernance. With the ousting of Huang and more fallout sure still to come, has the board learned its lesson about too much power in the hands of one person? We’ll be listening for information about how Nvidia might restructure itself.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results.",
+      "heading": 0
+    },
+    {
+      "text": "For the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced founder Jensen Huang.",
+      "heading": 0
+    },
+    {
+      "text": "Huang was forced to resign last week after he admitted to having an affair with an exec of a customer, Alice Huang, a woman alleged to be a Chinese spy, and he was accused of having two more affairs with Nvidia employees.",
+      "heading": 0
+    },
+    {
+      "text": "Now, the company is facing questions about its restricted chips allegedly being smuggled into China, especially by Huang’s mistress’ company. Nvidia promised to conduct an internal investigation. Meanwhile, Huang was commanded to answer questions to Congress in a closed-door joint session with three Republican-led committees. Plus, top Democrats have also vowed to investigate the company.",
+      "heading": 0
+    },
+    {
+      "text": "Given the turmoil Nvidia is in, there are a number of questions that Kress should answer.",
+      "heading": 0
+    },
+    {
+      "text": "Huang’s role now and going forward. Huang ran Nvidia with an iron fist, having some 60 direct reports and his fingers in everything. No one knows the company better than him.",
+      "heading": 0
+    },
+    {
+      "text": "An internet petition signed by 180,000 and growing is calling for the board to reinstate him. Huang may also have been mounting an attempt to return, Financial Times reported. However, CNBC is reporting, citing unnamed sources, that the company is not in talks to reinstate Huang.",
+      "heading": 0
+    },
+    {
+      "text": "So, we’ll be looking for language from the interim CEO about Huang’s ongoing involvement with the company, its search for a new CEO, and any talks to bring him back.",
+      "heading": 0
+    },
+    {
+      "text": "China and Singapore. As Huang vehemently argued in favor of easing export restrictions for Nvidia chips to China, Huang said that he’s seen no evidence that its powerful semiconductors were being diverted from legit buyers to China.",
+      "heading": 0
+    },
+    {
+      "text": "But in October 2025, The New York Times reported that the U.S. was investigating Huang’s mistress’ company, Megaspeed, over allegations it was doing just that. Nvidia at the time vouched to CNBC that Megaspeed was legally using the chips for its cloud. However, Nvidia recently told The Wall Street Journal that it had voluntarily blocked Megaspeed from receiving more chips way back in June 2025.",
+      "heading": 0
+    },
+    {
+      "text": "Last year, Nvidia said that Singapore, the region where Megaspeed is located, was one of its fastest-growing, accounting for 22% of its total revenue for its second quarter of that year. After the investigation into Megaspeed came to light, Nvidia changed how it reported revenue. It now reports based on a company’s headquarters, instead of its shipping address. That completely hid sales to Singapore and Megaspeed’s impact.",
+      "heading": 0
+    },
+    {
+      "text": "So we’re listening to what Kress says about the future of sales to the China region and the cloud business in Singapore that was once 20% of sales. We’re especially listening for what she says about Nvidia keeping track of where its restricted chips wind up.",
+      "heading": 0
+    },
+    {
+      "text": "China sales policy. Huang’s argument was, essentially, that the U.S. can’t stop China from developing advanced AI models, so the West is better off selling them less powerful Nvidia chips and keeping them dependent, he said on the Dwarkesh Podcast last summer. Notably, that’s a position that would make Nvidia a lot of money.",
+      "heading": 0
+    },
+    {
+      "text": "The China hawks counter that selling an adversary any powerful chips at all will help them, and U.S. companies shouldn’t do that. So we’re listening for any indications that Kress is reversing Nvidia’s goals with China.",
+      "heading": 0
+    },
+    {
+      "text": "Bankrolling the AI build-out. The expectation is that Kress, the CFO who reportedly had unsuccessfully tried to push back against Huang’s extreme AI dealmaking, will be conservative on such deals going forward. We’ll be listening for what she says about the impacts of existing deals on the books. (Will she subtly try to throw Huang under the bus for those controversial deals?) We’ll also be listening for her future plans.",
+      "heading": 0
+    },
+    {
+      "text": "Governance. With the ousting of Huang and more fallout sure still to come, has the board learned its lesson about too much power in the hands of one person? We’ll be listening for information about how Nvidia might restructure itself.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

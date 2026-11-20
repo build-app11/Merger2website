@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+  "slug": "openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/tim-cook-sam-altman-GettyImages-2233062347.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+    "episode": ""
+  },
+  "words": 1021,
+  "lines": 21,
+  "duration": 340,
+  "text": "Edelson PC, the law firm that filed seven lawsuits against OpenAI in April on behalf of victims and families connected to the Tumbler Ridge mass shooting, is filing 30 additional complaints this week. The new plaintiffs include teachers, a principal, and students who were in the building during the attack but not physically shot.\n\nThe new filings also, for the first time, accuse OpenAI of aiding and abetting the mass shooting, rather than just negligently failing to prevent it. That claim requires proving intent from OpenAI and is likely to face early dismissal challenges.\n\nThe complaints come as OpenAI continues to deal with the fallout of another high-profile safety incident after one of the company’s AI models escaped its sandbox during cybersecurity evaluations and hacked into the servers of Hugging Face, a company that hosts open source AI models and datasets. OpenAI has also faced several lawsuits alleging that ChatGPT’s design contributed to users’ suicides, violent acts, and severe mental health crises.\n\nThe fresh wave of lawsuits filed in a California court on Tuesday are tied to a school shooting that occurred in Tumbler Ridge, British Columbia, Canada on February 10. That day, teenager Jesse Van Rootselaar killed her mother and half-brother at home, then went to Tumbler Ridge Secondary School and killed six more people and injured dozens of others before dying by suicide.\n\nThe Wall Street Journal reported that OpenAI staff had been alarmed by Van Rootselaar’s use of ChatGPT, including conversations around gun violence and advice for how to plan an attack. OpenAI employees reportedly urged leaders to alert Canadian law enforcement about Van Rootselaar’s potential for real-world violence, but leaders decided not to contact the authorities. Instead the company deactivated Van Rootselaar’s account, but she was able to make another one shortly after.\n\nOpenAI has justified its actions, claiming Van Rootselaar’s activity didn’t meet the company’s internal bar for an “imminent and credible risk” of serious physical harm to others required to engage with law enforcement.\n\n“That judgment is not infallible, but it is always rooted in looking out for this balance for people,” Jason Kwon, OpenAI’s chief strategy officer who oversees the team of human reviewers and the company’s legal department, said in a statement shared with TechCrunch.\n\nThe new set of complaints specifically name OpenAI Chief Global Affairs Officer Chris Lehane as the person who told staff to stand down and not contact the authorities, though the complaints offer no direct evidence that he was personally involved, and OpenAI has denied his involvement.\n\nLehane is a well-known political operator and PR spin master with particular expertise in damage control, having worked in that capacity on behalf of the Clinton administration, at Airbnb, and now at OpenAI. The plaintiffs allege that his background contributes to a culture at OpenAI that prioritizes public relations and damage control over safety.\n\n“The Intelligence and Investigations Team—the only team inside OpenAI responsible for identifying ChatGPT users who pose a threat of real-world violence—was placed under [Lehane’s] control,” reads one of the complaints, shared with TechCrunch. “As a result, the decision whether to alert law enforcement to a user planning a mass attack was not made by the trained threat-assessment professionals who urged OpenAI to contact the [Canadian police]. It was made, on information and belief, by Lehane himself, or by someone in his chain of command, and ratified by Sam Altman.”\n\n“On information and belief” is a legal term meaning the plaintiffs believe a claim to be true based on secondhand information, even though they can’t yet prove it directly. TechCrunch was unable to confirm whether Lehane indeed has the authority to override recommendations from the intelligence and investigations team, or whether he was involved in this specific case at all. Notably, Lehane is not listed as a defendant in the complaints, though, as in the previous seven complaints, OpenAI CEO Sam Altman is.\n\n“We are not laying out all of our evidence at this point,” Jay Edelson, the lead lawyer on the cases, told TechCrunch, noting that Lehane and Altman will be “critical witnesses” alongside the safety team. “We can tell you that we are basing this in part on the org chart, but also our broader investigation, which includes what we have learned about how Lehane operates within the company.”\n\n“It is absolutely false to say Chris Lehane was involved with our original referral decision, or that our investigators report to him in any way,” Kwon said. “It’s also completely untrue to say that the people at the center of these challenging decisions do not prioritize safety, or that there are ‘political’ or ‘public relations’ factors at play.”\n\nThe fresh complaints also seek to rebut OpenAI’s previous defense that it did not alert Canadian authorities to Van Rootselaar’s conversations with ChatGPT due to “imminence” and “privacy” justifications. The complaints point to an incident in November 2025, during which OpenAI locked down its San Francisco offices following an alleged threat from an activist.\n\n“Although OpenAI acknowledged there was ‘no indication of active threat activity’—and thus no indication of an ‘imminent’ attack—the company… immediately locked down its offices, warned employees, distributed the suspect’s name and photograph, and notified the San Francisco Police Department,” a complaint reads.\n\n“When its own people were at risk, no ‘privacy’ interest stopped OpenAI from notifying the police or circulating the man’s name and photograph to thousands of employees. Nor did it wait for the attack to become imminent because it recognized that waiting would jeopardize employee safety.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Edelson PC, the law firm that filed seven lawsuits against OpenAI in April on behalf of victims and families connected to the Tumbler Ridge mass shooting, is filing 30 additional complaints this week. The new plaintiffs include teachers, a principal, and students who were in the building during the attack but not physically shot.",
+      "heading": 0
+    },
+    {
+      "text": "The new filings also, for the first time, accuse OpenAI of aiding and abetting the mass shooting, rather than just negligently failing to prevent it. That claim requires proving intent from OpenAI and is likely to face early dismissal challenges.",
+      "heading": 0
+    },
+    {
+      "text": "The complaints come as OpenAI continues to deal with the fallout of another high-profile safety incident after one of the company’s AI models escaped its sandbox during cybersecurity evaluations and hacked into the servers of Hugging Face, a company that hosts open source AI models and datasets. OpenAI has also faced several lawsuits alleging that ChatGPT’s design contributed to users’ suicides, violent acts, and severe mental health crises.",
+      "heading": 0
+    },
+    {
+      "text": "The fresh wave of lawsuits filed in a California court on Tuesday are tied to a school shooting that occurred in Tumbler Ridge, British Columbia, Canada on February 10. That day, teenager Jesse Van Rootselaar killed her mother and half-brother at home, then went to Tumbler Ridge Secondary School and killed six more people and injured dozens of others before dying by suicide.",
+      "heading": 0
+    },
+    {
+      "text": "The Wall Street Journal reported that OpenAI staff had been alarmed by Van Rootselaar’s use of ChatGPT, including conversations around gun violence and advice for how to plan an attack. OpenAI employees reportedly urged leaders to alert Canadian law enforcement about Van Rootselaar’s potential for real-world violence, but leaders decided not to contact the authorities. Instead the company deactivated Van Rootselaar’s account, but she was able to make another one shortly after.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has justified its actions, claiming Van Rootselaar’s activity didn’t meet the company’s internal bar for an “imminent and credible risk” of serious physical harm to others required to engage with law enforcement.",
+      "heading": 0
+    },
+    {
+      "text": "“That judgment is not infallible, but it is always rooted in looking out for this balance for people,” Jason Kwon, OpenAI’s chief strategy officer who oversees the team of human reviewers and the company’s legal department, said in a statement shared with TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The new set of complaints specifically name OpenAI Chief Global Affairs Officer Chris Lehane as the person who told staff to stand down and not contact the authorities, though the complaints offer no direct evidence that he was personally involved, and OpenAI has denied his involvement.",
+      "heading": 0
+    },
+    {
+      "text": "Lehane is a well-known political operator and PR spin master with particular expertise in damage control, having worked in that capacity on behalf of the Clinton administration, at Airbnb, and now at OpenAI. The plaintiffs allege that his background contributes to a culture at OpenAI that prioritizes public relations and damage control over safety.",
+      "heading": 0
+    },
+    {
+      "text": "“The Intelligence and Investigations Team—the only team inside OpenAI responsible for identifying ChatGPT users who pose a threat of real-world violence—was placed under [Lehane’s] control,” reads one of the complaints, shared with TechCrunch. “As a result, the decision whether to alert law enforcement to a user planning a mass attack was not made by the trained threat-assessment professionals who urged OpenAI to contact the [Canadian police]. It was made, on information and belief, by Lehane himself, or by someone in his chain of command, and ratified by Sam Altman.”",
+      "heading": 0
+    },
+    {
+      "text": "“On information and belief” is a legal term meaning the plaintiffs believe a claim to be true based on secondhand information, even though they can’t yet prove it directly. TechCrunch was unable to confirm whether Lehane indeed has the authority to override recommendations from the intelligence and investigations team, or whether he was involved in this specific case at all. Notably, Lehane is not listed as a defendant in the complaints, though, as in the previous seven complaints, OpenAI CEO Sam Altman is.",
+      "heading": 0
+    },
+    {
+      "text": "“We are not laying out all of our evidence at this point,” Jay Edelson, the lead lawyer on the cases, told TechCrunch, noting that Lehane and Altman will be “critical witnesses” alongside the safety team. “We can tell you that we are basing this in part on the org chart, but also our broader investigation, which includes what we have learned about how Lehane operates within the company.”",
+      "heading": 0
+    },
+    {
+      "text": "“It is absolutely false to say Chris Lehane was involved with our original referral decision, or that our investigators report to him in any way,” Kwon said. “It’s also completely untrue to say that the people at the center of these challenging decisions do not prioritize safety, or that there are ‘political’ or ‘public relations’ factors at play.”",
+      "heading": 0
+    },
+    {
+      "text": "The fresh complaints also seek to rebut OpenAI’s previous defense that it did not alert Canadian authorities to Van Rootselaar’s conversations with ChatGPT due to “imminence” and “privacy” justifications. The complaints point to an incident in November 2025, during which OpenAI locked down its San Francisco offices following an alleged threat from an activist.",
+      "heading": 0
+    },
+    {
+      "text": "“Although OpenAI acknowledged there was ‘no indication of active threat activity’—and thus no indication of an ‘imminent’ attack—the company… immediately locked down its offices, warned employees, distributed the suspect’s name and photograph, and notified the San Francisco Police Department,” a complaint reads.",
+      "heading": 0
+    },
+    {
+      "text": "“When its own people were at risk, no ‘privacy’ interest stopped OpenAI from notifying the police or circulating the man’s name and photograph to thousands of employees. Nor did it wait for the attack to become imminent because it recognized that waiting would jeopardize employee safety.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

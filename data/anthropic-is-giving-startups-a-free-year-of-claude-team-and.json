@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+  "slug": "anthropic-is-giving-startups-a-free-year-of-claude-team-and",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+    "episode": ""
+  },
+  "words": 282,
+  "lines": 20,
+  "duration": 94,
+  "text": "Posted:\n\nRussell Brandom\n\nAnthropic is giving startups a free year of Claude Team and $1,000 in credits\n\nOn Tuesday, Anthropic announced an expansion of its Claude for Startups program, offering subsidized access to its AI models and a variety of other benefits to qualifying companies.\n\nThe new version of the program, which launched as part of Anthropic’s SF Tech Week event, provides a free year of Claude Team, Anthropic’s paid plan for groups, with up to five premium seats, as well as $1,000 in API credits for building with Claude. Companies will also get access to Claude Marketplace, which lets them build plug-ins for the service. Companies can also book virtual office hours with Anthropic’s Applied AI team.\n\n“We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone,” Anthropic said in an announcement. “That makes partnering closely with founders and developers central to our mission.”\n\nCompanies are eligible if they were founded in the last five years or received funding in the last two years. Interested companies can apply through the Claude for Startups program page.\n\nTopics\n\nAt Nasdaq opening bell, Anthropic CEO recommits to pacing AI development\n\nSarah Perez\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Russell Brandom",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "heading": 0
+    },
+    {
+      "text": "On Tuesday, Anthropic announced an expansion of its Claude for Startups program, offering subsidized access to its AI models and a variety of other benefits to qualifying companies.",
+      "heading": 0
+    },
+    {
+      "text": "The new version of the program, which launched as part of Anthropic’s SF Tech Week event, provides a free year of Claude Team, Anthropic’s paid plan for groups, with up to five premium seats, as well as $1,000 in API credits for building with Claude. Companies will also get access to Claude Marketplace, which lets them build plug-ins for the service. Companies can also book virtual office hours with Anthropic’s Applied AI team.",
+      "heading": 0
+    },
+    {
+      "text": "“We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone,” Anthropic said in an announcement. “That makes partnering closely with founders and developers central to our mission.”",
+      "heading": 0
+    },
+    {
+      "text": "Companies are eligible if they were founded in the last five years or received funding in the last two years. Interested companies can apply through the Claude for Startups program page.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

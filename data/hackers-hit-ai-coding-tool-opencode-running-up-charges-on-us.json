@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+  "slug": "hackers-hit-ai-coding-tool-opencode-running-up-charges-on-us",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/cyberatttack.jpg?w=612",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+    "episode": ""
+  },
+  "words": 824,
+  "lines": 21,
+  "duration": 275,
+  "text": "OpenCode, an open source AI coding agent that has been gaining ground among developers as an alternative to Claude Code and Cursor, said Saturday that attackers broke into an older system overnight, affecting 1.4% of users of its online platform, OpenCode Console, where some users store the API keys, or digital passwords, they use to access AI services.\n\nAs the OpenCode team struggled to keep pace with the attack, the scramble to respond highlighted a growing problem: Companies without vetted access to AI models with fewer safety restrictions have a hard time defending against large-scale, AI-driven cyberattacks.\n\n“We had a security breach last night related to a large-scale distillation attack that impacted 1.4% of OpenCode Console users,” the company wrote on X. “We have notified them all this morning via email.” Users who did not receive an email were not impacted, the company said.\n\nWhile the company didn’t specify how the distillation attack occurred, leaked API keys can help users in countries with restricted access to American models generate the high volume of outputs needed for that process. Some skeptics called the framing an overstretch, arguing that the incident was a straightforward breach whose use for distillation remains unproven.\n\nOvernight, developers began posting spending alerts and unauthorized charges on Reddit and X: “I saw my Open AI, Anthropic, and Google AI spend alerts all fire off before going to bed wondering what was going on,” a developer wrote.\n\nOther users reported charges in the hundreds of dollars on individual accounts; a few described totals above $1,000.\n\nAnthropic and Google both blocked the API keys they believed were exposed, while OpenAI said it worked with OpenCode to restore access and refund its API customers for credits used in the attack. OpenCode said refunds for unauthorized charges are underway.\n\nThe exposed keys were confined to Console, where some users had them in workspaces. The open source app and command-line tool were not affected, according to co-founder Dax Raad. “Note this is the OpenCode Console, not OpenCode itself, those keys never come to us,” he wrote on X.\n\nEven as users and AI companies moved to disable the exposed keys, the OpenCode team was still under pressure. Raad said attackers had been trying to break into its systems nonstop for 48 hours, requiring the team to keep AI defensive agents running around the clock. AI models that the OpenCode team turned to for analysis helped for a while, but started refusing to work when the malicious code they were asked to examine activated safety filters.\n\n“[T]hat was a bit frustrating,” he wrote on X.\n\nOpenCode later received access to OpenAI’s Daybreak Blue program, which gives vetted users AI models that are less likely to refuse requests for defensive security work. Raad said the access improved the team’s ability to investigate the attack.\n\nOpenCode isn’t the first company to hit this wall. In July, AI platform Hugging Face said commercial AI models blocked its attempts to analyze activity logs from an intrusion by autonomous AI agents, which OpenAI later revealed were its own models running with safeguards lowered during a test. In a section of its blog post titled “The asymmetry problem,” Hugging Face wrote that guardrails “cannot distinguish an incident responder from an attacker.”\n\nSecurity researchers have raised similar complaints, saying the restrictions are inconsistent and have pushed some toward foreign open-weight models, which anyone can download and run.\n\nThe weekend episode drew a response from David Sacks, co-chair of the President’s Council of Advisors on Science and Technology.\n\n“OpenCode (and earlier Hugging Face) hit the same wall mid-attack: frontier models refused to analyze the very exploits needed for defense because the payloads tripped safety filters. The guardrails backfired,” he wrote on X.\n\nThe breach occurred the same night OpenCode made GLM-5.3-Flash free for users. The broader GLM-5.3 family has drawn attention from researchers who study open-weight models and note that its cybersecurity capabilities approached levels previously associated with restricted-access models like Anthropic’s Claude Mythos Preview.\n\nOpenCode has not detailed how attackers gained access to the older system, how keys were stored, or the full extent of any misuse. It has told affected users to revoke and replace their keys directly with each provider. The company said the incident remains ongoing.\n\nThe breach lands amid a run of AI-enabled cyber incidents. Earlier this month, cybersecurity firm CrowdStrike said a China-based hacker likely used an AI penetration-testing agent, which probes computer systems for weaknesses, and Claude in attacks on South Korean banks. Last week, India’s cybersecurity agency warned that AI agents, including some being tested by AI companies, had reached Indian organizations’ systems without authorization.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow",
+  "paragraphs": [
+    {
+      "text": "OpenCode, an open source AI coding agent that has been gaining ground among developers as an alternative to Claude Code and Cursor, said Saturday that attackers broke into an older system overnight, affecting 1.4% of users of its online platform, OpenCode Console, where some users store the API keys, or digital passwords, they use to access AI services.",
+      "heading": 0
+    },
+    {
+      "text": "As the OpenCode team struggled to keep pace with the attack, the scramble to respond highlighted a growing problem: Companies without vetted access to AI models with fewer safety restrictions have a hard time defending against large-scale, AI-driven cyberattacks.",
+      "heading": 0
+    },
+    {
+      "text": "“We had a security breach last night related to a large-scale distillation attack that impacted 1.4% of OpenCode Console users,” the company wrote on X. “We have notified them all this morning via email.” Users who did not receive an email were not impacted, the company said.",
+      "heading": 0
+    },
+    {
+      "text": "While the company didn’t specify how the distillation attack occurred, leaked API keys can help users in countries with restricted access to American models generate the high volume of outputs needed for that process. Some skeptics called the framing an overstretch, arguing that the incident was a straightforward breach whose use for distillation remains unproven.",
+      "heading": 0
+    },
+    {
+      "text": "Overnight, developers began posting spending alerts and unauthorized charges on Reddit and X: “I saw my Open AI, Anthropic, and Google AI spend alerts all fire off before going to bed wondering what was going on,” a developer wrote.",
+      "heading": 0
+    },
+    {
+      "text": "Other users reported charges in the hundreds of dollars on individual accounts; a few described totals above $1,000.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic and Google both blocked the API keys they believed were exposed, while OpenAI said it worked with OpenCode to restore access and refund its API customers for credits used in the attack. OpenCode said refunds for unauthorized charges are underway.",
+      "heading": 0
+    },
+    {
+      "text": "The exposed keys were confined to Console, where some users had them in workspaces. The open source app and command-line tool were not affected, according to co-founder Dax Raad. “Note this is the OpenCode Console, not OpenCode itself, those keys never come to us,” he wrote on X.",
+      "heading": 0
+    },
+    {
+      "text": "Even as users and AI companies moved to disable the exposed keys, the OpenCode team was still under pressure. Raad said attackers had been trying to break into its systems nonstop for 48 hours, requiring the team to keep AI defensive agents running around the clock. AI models that the OpenCode team turned to for analysis helped for a while, but started refusing to work when the malicious code they were asked to examine activated safety filters.",
+      "heading": 0
+    },
+    {
+      "text": "“[T]hat was a bit frustrating,” he wrote on X.",
+      "heading": 0
+    },
+    {
+      "text": "OpenCode later received access to OpenAI’s Daybreak Blue program, which gives vetted users AI models that are less likely to refuse requests for defensive security work. Raad said the access improved the team’s ability to investigate the attack.",
+      "heading": 0
+    },
+    {
+      "text": "OpenCode isn’t the first company to hit this wall. In July, AI platform Hugging Face said commercial AI models blocked its attempts to analyze activity logs from an intrusion by autonomous AI agents, which OpenAI later revealed were its own models running with safeguards lowered during a test. In a section of its blog post titled “The asymmetry problem,” Hugging Face wrote that guardrails “cannot distinguish an incident responder from an attacker.”",
+      "heading": 0
+    },
+    {
+      "text": "Security researchers have raised similar complaints, saying the restrictions are inconsistent and have pushed some toward foreign open-weight models, which anyone can download and run.",
+      "heading": 0
+    },
+    {
+      "text": "The weekend episode drew a response from David Sacks, co-chair of the President’s Council of Advisors on Science and Technology.",
+      "heading": 0
+    },
+    {
+      "text": "“OpenCode (and earlier Hugging Face) hit the same wall mid-attack: frontier models refused to analyze the very exploits needed for defense because the payloads tripped safety filters. The guardrails backfired,” he wrote on X.",
+      "heading": 0
+    },
+    {
+      "text": "The breach occurred the same night OpenCode made GLM-5.3-Flash free for users. The broader GLM-5.3 family has drawn attention from researchers who study open-weight models and note that its cybersecurity capabilities approached levels previously associated with restricted-access models like Anthropic’s Claude Mythos Preview.",
+      "heading": 0
+    },
+    {
+      "text": "OpenCode has not detailed how attackers gained access to the older system, how keys were stored, or the full extent of any misuse. It has told affected users to revoke and replace their keys directly with each provider. The company said the incident remains ongoing.",
+      "heading": 0
+    },
+    {
+      "text": "The breach lands amid a run of AI-enabled cyber incidents. Earlier this month, cybersecurity firm CrowdStrike said a China-based hacker likely used an AI penetration-testing agent, which probes computer systems for weaknesses, and Claude in attacks on South Korean banks. Last week, India’s cybersecurity agency warned that AI agents, including some being tested by AI companies, had reached Indian organizations’ systems without authorization.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "read",
+  "title": "Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+  "slug": "palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5",
+  "category": "News",
+  "channel": "The Wall Street Journal",
+  "image": "https://images.wsj.net/im-03253455/social",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f",
+    "episode": ""
+  },
+  "words": 213,
+  "lines": 9,
+  "duration": 71,
+  "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by\nour Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact\nDow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\n\nhttps://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611\n\nPalo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion\n\nStartup was founded last year by former OpenAI researchers and specializes in customizing open-weight AI models\n\nBy\n\nPalo Alto Networks PANW 6.42 % increase; up pointing triangle has agreed to acquire Applied Compute, a San Francisco-based artificial-intelligence startup founded by former OpenAI researchers, in an all-stock deal valued at $4.5 billion, executives told The Wall Street Journal.\n\nApplied Compute helps companies train and run custom AI models using proprietary data. It specializes in open-weight AI models, which allow users to download and modify the numerical values, called weights, that govern the models’ behavior. Palo Alto Networks, a cybersecurity company, could use Applied Compute’s offerings to help businesses deploy those models more securely.\n\nCopyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8\n\nVideos",
+  "paragraphs": [
+    {
+      "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.",
+      "heading": 0
+    },
+    {
+      "text": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611",
+      "heading": 1
+    },
+    {
+      "text": "Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+      "heading": 0
+    },
+    {
+      "text": "Startup was founded last year by former OpenAI researchers and specializes in customizing open-weight AI models",
+      "heading": 0
+    },
+    {
+      "text": "By",
+      "heading": 1
+    },
+    {
+      "text": "Palo Alto Networks PANW 6.42 % increase; up pointing triangle has agreed to acquire Applied Compute, a San Francisco-based artificial-intelligence startup founded by former OpenAI researchers, in an all-stock deal valued at $4.5 billion, executives told The Wall Street Journal.",
+      "heading": 0
+    },
+    {
+      "text": "Applied Compute helps companies train and run custom AI models using proprietary data. It specializes in open-weight AI models, which allow users to download and modify the numerical values, called weights, that govern the models’ behavior. Palo Alto Networks, a cybersecurity company, could use Applied Compute’s offerings to help businesses deploy those models more securely.",
+      "heading": 0
+    },
+    {
+      "text": "Copyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+      "heading": 0
+    },
+    {
+      "text": "Videos",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+  "slug": "dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-infr",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/03/GettyImages-1211180751.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+    "episode": ""
+  },
+  "words": 464,
+  "lines": 14,
+  "duration": 155,
+  "text": "Dropbox is making a big push into AI infrastructure with a $350 million acquisition of cloud technology company Tigris Data, marking what appears to be its largest acquisition to date.\n\nAnnounced Thursday, the deal is expected to strengthen Dropbox’s AI infrastructure capabilities and support the development of DBX Agent Cloud, a new storage platform aimed at businesses and developers building AI models and agents.\n\nDropbox told TechCrunch via email that the transaction is expected to close in the fourth quarter of 2026. The company also said it currently has no plans to reduce headcount as part of the acquisition. The company already cut 9% of its global workforce last month, WSJ reported.\n\nDBX Agent Cloud will initially offer object storage as a stand-alone product, allowing businesses to purchase storage independently and use it with existing tools and applications built for Amazon S3 (Simple Storage Service), which is a cloud storage service that enables businesses to store and retrieve large volumes of data.\n\nBeyond its infrastructure ambitions, Dropbox is also bringing more AI capabilities to its core product. Users will be able to ask AI to perform supported tasks using their files, choose between different AI models, and connect their Dropbox content to third-party tools, including ChatGPT, Claude, and Muse.\n\nThe company also plans to expand DBX Agent Cloud with additional capabilities designed to help AI systems work with different types of content, including documents, images, audio, and video. Other planned additions include filesystem features that will allow AI agents to manage files and maintain continuity across tasks and sessions.\n\nDropbox says the updated experience has already reached more than 70,000 teams. The initial rollout is available to eligible Standard and Advanced customers in the U.S., U.K., and Australia, with broader availability planned for 2027.\n\nTigris Data was founded by former Uber engineers who helped develop the ride-hailing company’s storage infrastructure. The company provides cloud storage technology that helps businesses store and access data across different regions. Its platform automatically positions data closer to the users and computing resources that need it, helping reduce access times and improve performance.\n\nTigris Data raised $25 million in a Series A funding round last year.\n\nWhile the Tigris deal appears to be Dropbox’s largest acquisition, it is not the company’s first move to expand its AI capabilities through M&A. Dropbox has previously acquired several AI-focused companies, including Reclaim.ai, Promoted.ai, and Mobius Labs.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Dropbox is making a big push into AI infrastructure with a $350 million acquisition of cloud technology company Tigris Data, marking what appears to be its largest acquisition to date.",
+      "heading": 0
+    },
+    {
+      "text": "Announced Thursday, the deal is expected to strengthen Dropbox’s AI infrastructure capabilities and support the development of DBX Agent Cloud, a new storage platform aimed at businesses and developers building AI models and agents.",
+      "heading": 0
+    },
+    {
+      "text": "Dropbox told TechCrunch via email that the transaction is expected to close in the fourth quarter of 2026. The company also said it currently has no plans to reduce headcount as part of the acquisition. The company already cut 9% of its global workforce last month, WSJ reported.",
+      "heading": 0
+    },
+    {
+      "text": "DBX Agent Cloud will initially offer object storage as a stand-alone product, allowing businesses to purchase storage independently and use it with existing tools and applications built for Amazon S3 (Simple Storage Service), which is a cloud storage service that enables businesses to store and retrieve large volumes of data.",
+      "heading": 0
+    },
+    {
+      "text": "Beyond its infrastructure ambitions, Dropbox is also bringing more AI capabilities to its core product. Users will be able to ask AI to perform supported tasks using their files, choose between different AI models, and connect their Dropbox content to third-party tools, including ChatGPT, Claude, and Muse.",
+      "heading": 0
+    },
+    {
+      "text": "The company also plans to expand DBX Agent Cloud with additional capabilities designed to help AI systems work with different types of content, including documents, images, audio, and video. Other planned additions include filesystem features that will allow AI agents to manage files and maintain continuity across tasks and sessions.",
+      "heading": 0
+    },
+    {
+      "text": "Dropbox says the updated experience has already reached more than 70,000 teams. The initial rollout is available to eligible Standard and Advanced customers in the U.S., U.K., and Australia, with broader availability planned for 2027.",
+      "heading": 0
+    },
+    {
+      "text": "Tigris Data was founded by former Uber engineers who helped develop the ride-hailing company’s storage infrastructure. The company provides cloud storage technology that helps businesses store and access data across different regions. Its platform automatically positions data closer to the users and computing resources that need it, helping reduce access times and improve performance.",
+      "heading": 0
+    },
+    {
+      "text": "Tigris Data raised $25 million in a Series A funding round last year.",
+      "heading": 0
+    },
+    {
+      "text": "While the Tigris deal appears to be Dropbox’s largest acquisition, it is not the company’s first move to expand its AI capabilities through M&A. Dropbox has previously acquired several AI-focused companies, including Reclaim.ai, Promoted.ai, and Mobius Labs.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+  "slug": "cognition-ceo-denies-report-that-spacex-tried-to-acquire-the",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Scott-Wu-of-Cognition.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+    "episode": ""
+  },
+  "words": 665,
+  "lines": 20,
+  "duration": 222,
+  "text": "Elon Musk’s SpaceX attempted to acquire AI coding startup Cognition as it works to catch up to OpenAI, Anthropic, and Google in the AI race, Bloomberg reported Wednesday, citing sources familiar with the matter.\n\nCognition CEO Scott Wu disputed the report soon after it published, writing on X that the story was inaccurate and that Cognition “ is not for sale,” adding that the two companies haven’t been in talks.\n\nThe report comes a few days after SpaceX’s $60 billion acquisition of Cursor, another AI coding startup, whose deal closed last week.\n\nSpaceX acquired Musk’s AI company, xAI, earlier this year. It then went public in a blockbuster IPO in June, with its market capitalization rising to nearly $2.3 trillion at its peak.\n\nSpaceX has sold investors on its AI ambitions, which include eventually building data centers in space. But the xAI business remains relatively early-stage and has fallen behind competitors.\n\nIt’s also had to contend with its chatbot Grok’s penchant for controversy, including last year’s “MechaHitler” incident and this year’s nonconsensual sexual imagery scandals, as it tries to win over enterprise customers.\n\nLast week, Musk told SpaceX’s employees that in about “four or five years, AI will be 99% of the value” of the company, but achieving that feat will require SpaceX to pull in much more revenue from AI.\n\nAI-assisted coding has emerged as one of the clearest ways to monetize the technology. Anthropic’s meteoric growth, fueled in large part by Claude Code, is proof of that. Bringing Cursor into the fold was part of that equation, and the companies were already working together before the acquisition closed. This month, Cursor and SpaceX jointly released Grok 4.6, a new model that scores higher on benchmarks for coding and complex multi-step agentic tasks.\n\nAdding Cognition and its coding agent Devin — along with an enterprise customer base that includes Mercedes-Benz, Citi, and Goldman Sachs — would have given SpaceX another way to deepen its push into AI coding and compete for enterprise customers.\n\nBloomberg reports that the deal talks are no longer active, but that the companies are still discussing working together — potentially with Cognition using SpaceX’s computing capacity, which the company is selling to other AI players like Anthropic until it needs that capacity for itself. Wu didn’t address this specific claim in his denial.\n\nCognition remains one of the largest independent AI software coding startups that hasn’t yet been gobbled up by a major AI model maker. The company in late May raised a $1 billion round at a $25 billion post-money valuation, and Bloomberg reports it’s now in early talks for a new round of funding at a $40 billion valuation.\n\nCognition made headlines last year when it acquired the remaining assets of competitor Windsurf after Google DeepMind acqui-hired the startup’s CEO and top research in a $2.4 billion deal for talent and licensing rights.\n\nAfter the merger, Cognition laid off 30 employees and offered buyouts to the remaining 200 Windsurf employees. Those who decided to stay faced strict operational expectations, like a more than 80-hour workweek and six days in the office.\n\nThat sort of wartime work ethic wouldn’t be out of place in a Musk company. Musk has said he works up to 120 hours a week and often sleeps on office or factory floors.\n\nSpaceX and Cognition did not respond to requests for comment.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Elon Musk’s SpaceX attempted to acquire AI coding startup Cognition as it works to catch up to OpenAI, Anthropic, and Google in the AI race, Bloomberg reported Wednesday, citing sources familiar with the matter.",
+      "heading": 0
+    },
+    {
+      "text": "Cognition CEO Scott Wu disputed the report soon after it published, writing on X that the story was inaccurate and that Cognition “ is not for sale,” adding that the two companies haven’t been in talks.",
+      "heading": 0
+    },
+    {
+      "text": "The report comes a few days after SpaceX’s $60 billion acquisition of Cursor, another AI coding startup, whose deal closed last week.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX acquired Musk’s AI company, xAI, earlier this year. It then went public in a blockbuster IPO in June, with its market capitalization rising to nearly $2.3 trillion at its peak.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX has sold investors on its AI ambitions, which include eventually building data centers in space. But the xAI business remains relatively early-stage and has fallen behind competitors.",
+      "heading": 0
+    },
+    {
+      "text": "It’s also had to contend with its chatbot Grok’s penchant for controversy, including last year’s “MechaHitler” incident and this year’s nonconsensual sexual imagery scandals, as it tries to win over enterprise customers.",
+      "heading": 0
+    },
+    {
+      "text": "Last week, Musk told SpaceX’s employees that in about “four or five years, AI will be 99% of the value” of the company, but achieving that feat will require SpaceX to pull in much more revenue from AI.",
+      "heading": 0
+    },
+    {
+      "text": "AI-assisted coding has emerged as one of the clearest ways to monetize the technology. Anthropic’s meteoric growth, fueled in large part by Claude Code, is proof of that. Bringing Cursor into the fold was part of that equation, and the companies were already working together before the acquisition closed. This month, Cursor and SpaceX jointly released Grok 4.6, a new model that scores higher on benchmarks for coding and complex multi-step agentic tasks.",
+      "heading": 0
+    },
+    {
+      "text": "Adding Cognition and its coding agent Devin — along with an enterprise customer base that includes Mercedes-Benz, Citi, and Goldman Sachs — would have given SpaceX another way to deepen its push into AI coding and compete for enterprise customers.",
+      "heading": 0
+    },
+    {
+      "text": "Bloomberg reports that the deal talks are no longer active, but that the companies are still discussing working together — potentially with Cognition using SpaceX’s computing capacity, which the company is selling to other AI players like Anthropic until it needs that capacity for itself. Wu didn’t address this specific claim in his denial.",
+      "heading": 0
+    },
+    {
+      "text": "Cognition remains one of the largest independent AI software coding startups that hasn’t yet been gobbled up by a major AI model maker. The company in late May raised a $1 billion round at a $25 billion post-money valuation, and Bloomberg reports it’s now in early talks for a new round of funding at a $40 billion valuation.",
+      "heading": 0
+    },
+    {
+      "text": "Cognition made headlines last year when it acquired the remaining assets of competitor Windsurf after Google DeepMind acqui-hired the startup’s CEO and top research in a $2.4 billion deal for talent and licensing rights.",
+      "heading": 0
+    },
+    {
+      "text": "After the merger, Cognition laid off 30 employees and offered buyouts to the remaining 200 Windsurf employees. Those who decided to stay faced strict operational expectations, like a more than 80-hour workweek and six days in the office.",
+      "heading": 0
+    },
+    {
+      "text": "That sort of wartime work ethic wouldn’t be out of place in a Musk company. Musk has said he works up to 120 hours a week and often sleeps on office or factory floors.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX and Cognition did not respond to requests for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

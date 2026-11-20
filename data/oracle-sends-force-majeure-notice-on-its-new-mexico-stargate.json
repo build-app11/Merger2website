@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+  "slug": "oracle-sends-force-majeure-notice-on-its-new-mexico-stargate",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+    "episode": ""
+  },
+  "words": 410,
+  "lines": 12,
+  "duration": 137,
+  "text": "Oracle has sent a force majeure notice to the developer of Project Jupiter, a Stargate data center campus in New Mexico, Bloomberg first reported Thursday.\n\nForce majeure clauses, common in energy and commodities contracts, excuse a party from contractual obligations when events outside its control get in the way. Oracle is not seeking to exit as the campus’s main tenant, according to Bloomberg’s sources. Instead, the notice would allow the company to delay payments should the facility miss its 2028 target to come online.\n\nThe notice also comes as AI data center construction faces growing scrutiny nationally, and as developers take on steep costs to build capacity for customers like OpenAI.\n\nOracle maintains that it does not expect a delay. “Project Jupiter remains on our planned schedule,” Oracle said in a statement to CNBC. “We are fully committed to New Mexico and confident in our path forward.”\n\nBlue Owl Capital, whose unit received the notice, said in its own statement to CNBC that “this notice does not change the financial commitments to this multi-year project.”\n\nNeither Oracle nor Blue Owl immediately responded to TechCrunch’s requests for comment.\n\nStill, the notice follows a string of setbacks at the site, many of them tied to its energy supply. The campus, designed to handle 2.45 gigawatts, is meant to run on gas-powered fuel cells from Bloom Energy, which makes a reliable gas supply central to its timeline.\n\nAn Energy Transfer pipeline intended to deliver gas to the site has also been delayed nearly six months, to February 1, 2027, after regulators repeatedly denied permits for the line. In August, Bloomberg reported that the pipeline’s route had been changed following those rejections. A separate air-quality permit for the fuel cell system that would power the campus is also pending. The state’s environment department faces a November 23 deadline to decide.\n\nProject Jupiter is one of the flagship sites of Stargate, the AI infrastructure initiative Oracle, OpenAI, and SoftBank announced with President Donald Trump early in his second term. The campus has drawn opposition from residents and environmental groups and has become a political flashpoint ahead of the midterm elections. Oracle has responded with a public outreach campaign in the state aimed at winning over the project’s critics, according to Bloomberg.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow",
+  "paragraphs": [
+    {
+      "text": "Oracle has sent a force majeure notice to the developer of Project Jupiter, a Stargate data center campus in New Mexico, Bloomberg first reported Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "Force majeure clauses, common in energy and commodities contracts, excuse a party from contractual obligations when events outside its control get in the way. Oracle is not seeking to exit as the campus’s main tenant, according to Bloomberg’s sources. Instead, the notice would allow the company to delay payments should the facility miss its 2028 target to come online.",
+      "heading": 0
+    },
+    {
+      "text": "The notice also comes as AI data center construction faces growing scrutiny nationally, and as developers take on steep costs to build capacity for customers like OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "Oracle maintains that it does not expect a delay. “Project Jupiter remains on our planned schedule,” Oracle said in a statement to CNBC. “We are fully committed to New Mexico and confident in our path forward.”",
+      "heading": 0
+    },
+    {
+      "text": "Blue Owl Capital, whose unit received the notice, said in its own statement to CNBC that “this notice does not change the financial commitments to this multi-year project.”",
+      "heading": 0
+    },
+    {
+      "text": "Neither Oracle nor Blue Owl immediately responded to TechCrunch’s requests for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Still, the notice follows a string of setbacks at the site, many of them tied to its energy supply. The campus, designed to handle 2.45 gigawatts, is meant to run on gas-powered fuel cells from Bloom Energy, which makes a reliable gas supply central to its timeline.",
+      "heading": 0
+    },
+    {
+      "text": "An Energy Transfer pipeline intended to deliver gas to the site has also been delayed nearly six months, to February 1, 2027, after regulators repeatedly denied permits for the line. In August, Bloomberg reported that the pipeline’s route had been changed following those rejections. A separate air-quality permit for the fuel cell system that would power the campus is also pending. The state’s environment department faces a November 23 deadline to decide.",
+      "heading": 0
+    },
+    {
+      "text": "Project Jupiter is one of the flagship sites of Stargate, the AI infrastructure initiative Oracle, OpenAI, and SoftBank announced with President Donald Trump early in his second term. The campus has drawn opposition from residents and environmental groups and has become a political flashpoint ahead of the midterm elections. Oracle has responded with a public outreach campaign in the state aimed at winning over the project’s critics, according to Bloomberg.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    }
+  ]
+}

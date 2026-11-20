@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "ChatGPT now lets you lock your chats",
+  "slug": "chatgpt-now-lets-you-lock-your-chats",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+    "episode": ""
+  },
+  "words": 467,
+  "lines": 15,
+  "duration": 156,
+  "text": "OpenAI announced on Tuesday that users can now lock ChatGPT conversations to keep sensitive chats private when others may have access to their screen or device. Users can secure their locked chats with a four-digit PIN, or use Face ID or Touch ID on supported devices.\n\nUnlike the app’s Temporary Chats, which provide a separate session that doesn’t appear in chat history, users can return to Locked Chats at any time.\n\nThe company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.\n\nThe addition of locked chats adds a new layer of privacy to ChatGPT, as the app is increasingly used for personal conversations. Of course, while locking a chat can limit access, it doesn’t address concerns about how sensitive information is stored or handled.\n\nOpenAI notes that locking a chat doesn’t create end-to-end encryption or a separate encrypted vault, change how long it retains the chat, remove information that ChatGPT remembered before a chat was locked, or change the “Improve the model for everyone” setting.\n\nOnce users lock a chat, it moves to a dedicated “Locked Chats” section, where it’s kept separate from regular chat history, pinned conversations, and chat search results.\n\nWith Memory enabled, Locked Chats has its own separate memory shared across conversations within the section. New messages sent after locking a chat can update that memory but don’t update regular Memory. That means new information from locked chats won’t leak into regular chats.\n\nOpenAI says resetting a PIN permanently deletes all locked chats, files, and other content protected by the previous PIN.\n\nAdditionally, the Locked Chats option isn’t available for temporary chats, archived chats, group chats, chats created from a shared link, chats with scheduled tasks, and chats with meeting recordings.\n\nLocked Chats will be available to users on ChatGPT Free, Go, Plus, Pro, Business, Enterprise, and Edu plans. The company notes that the feature is not available on ChatGPT for Healthcare. The feature is starting to roll out on Tuesday, so it may not be live yet for all users.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Reporter\n\nAisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.\n\nYou can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+  "paragraphs": [
+    {
+      "text": "OpenAI announced on Tuesday that users can now lock ChatGPT conversations to keep sensitive chats private when others may have access to their screen or device. Users can secure their locked chats with a four-digit PIN, or use Face ID or Touch ID on supported devices.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike the app’s Temporary Chats, which provide a separate session that doesn’t appear in chat history, users can return to Locked Chats at any time.",
+      "heading": 0
+    },
+    {
+      "text": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+      "heading": 0
+    },
+    {
+      "text": "The addition of locked chats adds a new layer of privacy to ChatGPT, as the app is increasingly used for personal conversations. Of course, while locking a chat can limit access, it doesn’t address concerns about how sensitive information is stored or handled.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI notes that locking a chat doesn’t create end-to-end encryption or a separate encrypted vault, change how long it retains the chat, remove information that ChatGPT remembered before a chat was locked, or change the “Improve the model for everyone” setting.",
+      "heading": 0
+    },
+    {
+      "text": "Once users lock a chat, it moves to a dedicated “Locked Chats” section, where it’s kept separate from regular chat history, pinned conversations, and chat search results.",
+      "heading": 0
+    },
+    {
+      "text": "With Memory enabled, Locked Chats has its own separate memory shared across conversations within the section. New messages sent after locking a chat can update that memory but don’t update regular Memory. That means new information from locked chats won’t leak into regular chats.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says resetting a PIN permanently deletes all locked chats, files, and other content protected by the previous PIN.",
+      "heading": 0
+    },
+    {
+      "text": "Additionally, the Locked Chats option isn’t available for temporary chats, archived chats, group chats, chats created from a shared link, chats with scheduled tasks, and chats with meeting recordings.",
+      "heading": 0
+    },
+    {
+      "text": "Locked Chats will be available to users on ChatGPT Free, Go, Plus, Pro, Business, Enterprise, and Edu plans. The company notes that the feature is not available on ChatGPT for Healthcare. The feature is starting to roll out on Tuesday, so it may not be live yet for all users.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "ChatGPT mobile app gets voice-based agentic features",
+  "slug": "chatgpt-mobile-app-gets-voice-based-agentic-features",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+    "episode": ""
+  },
+  "words": 321,
+  "lines": 21,
+  "duration": 107,
+  "text": "Posted:\n\nIvan Mehta\n\nChatGPT mobile app gets voice-based agentic features\n\nOpenAI announced on Wednesday that it is bringing voice-based agentic features to mobile, allowing users to trigger workflows like drafting documents or summarizing emails.\n\nPlus and Pro users will be able to use the Work tab on their phone to create a document, draft an email, or summarize Slack messages, for instance. These subscribers can do things like build sites, create presentations, use the cloud browser, and also access other areas like finances in ChatGPT. Free and Go users, meanwhile, will get to work with plugins and connected apps.\n\nOpenAI said ChatGPT’s voice conversations will have richer text output. Plus, users will be able to switch between text and voice easily. They can also start working on a conversation on the go and resume it on desktop.\n\nThe feature arrives as an increasing number of users are turning to voice to issue commands to AI assistants for complex tasks.\n\nIn July, OpenAI launched its new conversational model GPT-Live, and later the company i ntegrated it with the desktop app to let users use their voice to complete tasks in the Work tab or build apps in the Codex tab. The new rollout brings similar capabilities to the mobile app.\n\nRecently, Anthropic made the handoff between mobile and desktop easier and also merged its Cowork and Chat interface. But OpenAI is still keeping chat and workspaces separate.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "ChatGPT mobile app gets voice-based agentic features",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI announced on Wednesday that it is bringing voice-based agentic features to mobile, allowing users to trigger workflows like drafting documents or summarizing emails.",
+      "heading": 0
+    },
+    {
+      "text": "Plus and Pro users will be able to use the Work tab on their phone to create a document, draft an email, or summarize Slack messages, for instance. These subscribers can do things like build sites, create presentations, use the cloud browser, and also access other areas like finances in ChatGPT. Free and Go users, meanwhile, will get to work with plugins and connected apps.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI said ChatGPT’s voice conversations will have richer text output. Plus, users will be able to switch between text and voice easily. They can also start working on a conversation on the go and resume it on desktop.",
+      "heading": 0
+    },
+    {
+      "text": "The feature arrives as an increasing number of users are turning to voice to issue commands to AI assistants for complex tasks.",
+      "heading": 0
+    },
+    {
+      "text": "In July, OpenAI launched its new conversational model GPT-Live, and later the company i ntegrated it with the desktop app to let users use their voice to complete tasks in the Work tab or build apps in the Codex tab. The new rollout brings similar capabilities to the mobile app.",
+      "heading": 0
+    },
+    {
+      "text": "Recently, Anthropic made the handoff between mobile and desktop easier and also merged its Cowork and Chat interface. But OpenAI is still keeping chat and workspaces separate.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

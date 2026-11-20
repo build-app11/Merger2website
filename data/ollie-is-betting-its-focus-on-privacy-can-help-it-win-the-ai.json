@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+  "slug": "ollie-is-betting-its-focus-on-privacy-can-help-it-win-the-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+    "episode": ""
+  },
+  "words": 975,
+  "lines": 24,
+  "duration": 325,
+  "text": "For an AI assistant to become truly useful, it first has to know a lot about you. Ollie, a personal assistant for everyday life, is betting that doesn’t mean you have to hand over all your data and sacrifice your privacy in the process.\n\nWhile some enterprise-focused AI assistants have data privacy protections in place, Ollie is among the first mainstream, family-focused AI to achieve SOC 2 compliance — a framework that allows a company to demonstrate, through an independent audit, that it has formal controls in place to protect customer data and operate its systems securely.\n\nAchieving this was an important milestone for Ollie’s team, as it signals to potential users that the assistant isn’t trying to scoop up your personal data for other purposes, like AI training.\n\n“We fundamentally think that trust and privacy are absolutely imperative, and that’s why our business model is a subscription, because we want our users to know that Ollie works for you,” explained Ollie co-founder and CEO Bill Lennon in an interview with TechCrunch. “We’re not sharing your data with anyone,” he stressed.\n\nThere are many personal AI assistants positioning themselves as consumer-friendly solutions focused on integrating with users’ daily lives via text messages, which is why Ollie’s privacy angle could prove a significant differentiator.\n\nToday, Ollie competes with other existing text-based assistants like Poke (acquired by Cognition), Fambot, Ohai, Folk, Saner.ai, and Tomo. There are also a number of assistants focused more on work, calendar management, and email, like Town, Lindy, and Reclaim.ai. And of course, there’s Instinct, the AI assistant that just landed $350 million in funding at a $2.5 billion valuation before it even launched.\n\nTo say the space is heating up is putting it mildly, in other words.\n\nBy comparison, San Diego-based Ollie has raised a much more modest $7.5 million seed round, largely from Khosla Ventures, along with AI House.\n\nDespite the utility these assistants provide, consumers who turn to these tools are wrestling with how much privacy and personal data they want to give up in the process. Instinct, for example, came under fire for its overly broad Terms of Service and privacy policy that granted it a “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models. Yikes.\n\nLennon is taking a different approach with Ollie. Currently, this family assistant connects to calendars and email to organize family schedules and keep its users updated about their days. It also offers tools that can help you plan meals, shop for groceries, track to-dos, book appointments, and pay bills via group chats. Later, it may help manage household budgets, too.\n\nYet, all this access requires trust, which Ollie claims is its value-add compared to its rivals. “We’re not sharing your data with anyone. This is super sensitive, and that is necessary to win the trust of the users,” Lennon said.\n\nIn addition to the data protections provided by SOC 2 compliance, Ollie doesn’t request usernames or passwords to complete its tasks. When Ollie needs to log in to a website on the user’s behalf, it does so using its own browser in the cloud, and sends the user a link to a remote session in the browser. The process is similar when the assistant needs to make a payment or purchase on the user’s behalf.\n\nWhile this method offers security, the downside is that users always have to log in to complete certain tasks. Still, that’s something Lennon believes technology will improve upon in time.\n\n“This is… new territory. I think in the future, we will do some form of hard tokenization, in a secure way, so you’re not going to have to re-enter [your information] every time,” he said. “That’s frontier stuff… we want to find the right user experience that balances convenience and trust.”\n\nBuilding that trust will be important before users trust Ollie to access more sensitive materials, like their bank accounts, even if that’s through a connector like Plaid.\n\nLennon, who has a PhD in AI, also has a background in fintech, having previously sold his startup Groundwork, a neobank for nonprofits, in 2021. That experience could help as Ollie moves further into money management.\n\nStill, it’s not yet clear if people even want any of this assistance.\n\nLennon is hopeful, though, saying that Ollie’s retention curves are consistent with the leading AI subscriptions in terms of paid subscribers. (He didn’t share how many users or paid customers are now using Ollie, saying the space is too competitive.)\n\nThese systems can also be hit-or-miss at times. Despite the hype around Instinct, one of my first tests with it was to price out hotels then book one, and it quoted me all the wrong rates. Ollie, meanwhile, experienced an infrastructure outage with its text provider when I was testing it, and it stopped responding.\n\nWe asked the founder how Ollie is handling such problems, given that most consumers only give a new app or technology one shot. If it’s broken, they simply move on.\n\nLennon agreed this is an issue with AI overall. “This is the challenge with LLMs, in general — because they’re stochastic [i.e., involve probability], they’re inherently unreliable,” he said. “We have to essentially build the harness — the agent harness — in a defensive way to catch and prevent those things… It’s almost like there’s just 1,000 cuts that you’ve got to solve first.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "For an AI assistant to become truly useful, it first has to know a lot about you. Ollie, a personal assistant for everyday life, is betting that doesn’t mean you have to hand over all your data and sacrifice your privacy in the process.",
+      "heading": 0
+    },
+    {
+      "text": "While some enterprise-focused AI assistants have data privacy protections in place, Ollie is among the first mainstream, family-focused AI to achieve SOC 2 compliance — a framework that allows a company to demonstrate, through an independent audit, that it has formal controls in place to protect customer data and operate its systems securely.",
+      "heading": 0
+    },
+    {
+      "text": "Achieving this was an important milestone for Ollie’s team, as it signals to potential users that the assistant isn’t trying to scoop up your personal data for other purposes, like AI training.",
+      "heading": 0
+    },
+    {
+      "text": "“We fundamentally think that trust and privacy are absolutely imperative, and that’s why our business model is a subscription, because we want our users to know that Ollie works for you,” explained Ollie co-founder and CEO Bill Lennon in an interview with TechCrunch. “We’re not sharing your data with anyone,” he stressed.",
+      "heading": 0
+    },
+    {
+      "text": "There are many personal AI assistants positioning themselves as consumer-friendly solutions focused on integrating with users’ daily lives via text messages, which is why Ollie’s privacy angle could prove a significant differentiator.",
+      "heading": 0
+    },
+    {
+      "text": "Today, Ollie competes with other existing text-based assistants like Poke (acquired by Cognition), Fambot, Ohai, Folk, Saner.ai, and Tomo. There are also a number of assistants focused more on work, calendar management, and email, like Town, Lindy, and Reclaim.ai. And of course, there’s Instinct, the AI assistant that just landed $350 million in funding at a $2.5 billion valuation before it even launched.",
+      "heading": 0
+    },
+    {
+      "text": "To say the space is heating up is putting it mildly, in other words.",
+      "heading": 0
+    },
+    {
+      "text": "By comparison, San Diego-based Ollie has raised a much more modest $7.5 million seed round, largely from Khosla Ventures, along with AI House.",
+      "heading": 0
+    },
+    {
+      "text": "Despite the utility these assistants provide, consumers who turn to these tools are wrestling with how much privacy and personal data they want to give up in the process. Instinct, for example, came under fire for its overly broad Terms of Service and privacy policy that granted it a “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models. Yikes.",
+      "heading": 0
+    },
+    {
+      "text": "Lennon is taking a different approach with Ollie. Currently, this family assistant connects to calendars and email to organize family schedules and keep its users updated about their days. It also offers tools that can help you plan meals, shop for groceries, track to-dos, book appointments, and pay bills via group chats. Later, it may help manage household budgets, too.",
+      "heading": 0
+    },
+    {
+      "text": "Yet, all this access requires trust, which Ollie claims is its value-add compared to its rivals. “We’re not sharing your data with anyone. This is super sensitive, and that is necessary to win the trust of the users,” Lennon said.",
+      "heading": 0
+    },
+    {
+      "text": "In addition to the data protections provided by SOC 2 compliance, Ollie doesn’t request usernames or passwords to complete its tasks. When Ollie needs to log in to a website on the user’s behalf, it does so using its own browser in the cloud, and sends the user a link to a remote session in the browser. The process is similar when the assistant needs to make a payment or purchase on the user’s behalf.",
+      "heading": 0
+    },
+    {
+      "text": "While this method offers security, the downside is that users always have to log in to complete certain tasks. Still, that’s something Lennon believes technology will improve upon in time.",
+      "heading": 0
+    },
+    {
+      "text": "“This is… new territory. I think in the future, we will do some form of hard tokenization, in a secure way, so you’re not going to have to re-enter [your information] every time,” he said. “That’s frontier stuff… we want to find the right user experience that balances convenience and trust.”",
+      "heading": 0
+    },
+    {
+      "text": "Building that trust will be important before users trust Ollie to access more sensitive materials, like their bank accounts, even if that’s through a connector like Plaid.",
+      "heading": 0
+    },
+    {
+      "text": "Lennon, who has a PhD in AI, also has a background in fintech, having previously sold his startup Groundwork, a neobank for nonprofits, in 2021. That experience could help as Ollie moves further into money management.",
+      "heading": 0
+    },
+    {
+      "text": "Still, it’s not yet clear if people even want any of this assistance.",
+      "heading": 0
+    },
+    {
+      "text": "Lennon is hopeful, though, saying that Ollie’s retention curves are consistent with the leading AI subscriptions in terms of paid subscribers. (He didn’t share how many users or paid customers are now using Ollie, saying the space is too competitive.)",
+      "heading": 0
+    },
+    {
+      "text": "These systems can also be hit-or-miss at times. Despite the hype around Instinct, one of my first tests with it was to price out hotels then book one, and it quoted me all the wrong rates. Ollie, meanwhile, experienced an infrastructure outage with its text provider when I was testing it, and it stopped responding.",
+      "heading": 0
+    },
+    {
+      "text": "We asked the founder how Ollie is handling such problems, given that most consumers only give a new app or technology one shot. If it’s broken, they simply move on.",
+      "heading": 0
+    },
+    {
+      "text": "Lennon agreed this is an issue with AI overall. “This is the challenge with LLMs, in general — because they’re stochastic [i.e., involve probability], they’re inherently unreliable,” he said. “We have to essentially build the harness — the agent harness — in a defensive way to catch and prevent those things… It’s almost like there’s just 1,000 cuts that you’ve got to solve first.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+  "slug": "openai-seeks-to-one-up-anthropic-with-new-customer-privacy-p",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2236544149.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+    "episode": ""
+  },
+  "words": 650,
+  "lines": 13,
+  "duration": 217,
+  "text": "As AI models have become more powerful, the potential for those models to be misused has grown — as has a clamor for new guardrails that can stop such abuse from happening. AI companies must now walk a delicate tight rope between respecting their enterprise customers’ privacy while also watching usage for possible issues.\n\nSensing an opportunity to one-up its rival Anthropic, OpenAI just announced a privacy-centric safety approach to monitoring for misuse. The company is previewing a new service to select customers that it calls Private Safety Processing. This is an automated system that watches for potential abuse while simultaneously retaining none of the customer’s data.\n\nThis system clearly runs counter to Anthropic’s recently announced data-retention policy. The policy, which has aggravated some customers, enables the AI lab to keep user data (all of their sessions — and the conversations therein) for a period of 30 days, when it comes to “covered models.” Those models include all Mythos-class models and “future models with similar capabilities,” the company says.\n\nThis policy, which was announced in July, was designed for the purposes of safety, allowing the lab to sift and analyze potential impropriety. However, it has deeply concerned some enterprises that handle large amounts of sensitive data and don’t want it harbored (or inspected) by the AI lab.\n\nOpenAI — like most other AI companies — already afford customers a relative level of privacy by adhering to a policy known as Zero Data Retention. ZDR uses agents within the OpenAI API to monitor for abuse on a per session basis. In this way, customer data isn’t retained by the company but companies are still able to scan for bad activity without the need for human intervention. It’s worth noting that Anthropic also largely abides by ZDR — except when it comes to “covered models,” like Fable.\n\nOpenAI says that Private Safety Processing is a new technology that widens ZDR’s scope. It describes it as a form of long-horizon safety monitoring that assesses the inputs and outputs of multiple conversations — not just one. Again, the monitoring is conducted by an agent, which, if triggered, catches interactions and analyzes them across sessions for signs of potential misuse.\n\nThe new tech helps OpenAI detect malicious use of AI that takes place over multiple sessions, a spokesperson told TechCrunch. A bad actor — hypothetically someone trying to engineer malware for a cyberattack — may spread out their requests to avoid detection. Private Safety Processing can analyze those multiple conversations for signs of abuse without human review of a user’s conversations.\n\nIn the case where the system is triggered, it may send a “narrowly defined signal” to OpenAI that warns of a specific type of activity, the company says. Based on that signal, OpenAI can then decide whether “enforcement is necessary,” it says. If so, OpenAI will reach out to the customer for more context or to work with them on the issue and a customer may choose to share data with OpenAI at their discretion, the spokesperson said.\n\nBy contrast, Anthropic notes that human review of customer data can occur, but only “through a controlled access path” that involves “a small set of approved reviewers.” Every one of those review sessions is “recorded in a tamper-proof log that reviewers cannot suppress or modify,” the company says.\n\nThe corporate competition between OpenAI and Anthropic is tense at the moment, with both companies looking for any opportunity to gain an advantage on the other. A recent report showed that OpenAI’s Q2 grew more slowly than Anthropic. Anthropic’s annualized revenue run rate is now reportedly $65 billion. Anthropic investors have said it could IPO at $2 trillion, while OpenAI is also working on its IPO.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "As AI models have become more powerful, the potential for those models to be misused has grown — as has a clamor for new guardrails that can stop such abuse from happening. AI companies must now walk a delicate tight rope between respecting their enterprise customers’ privacy while also watching usage for possible issues.",
+      "heading": 0
+    },
+    {
+      "text": "Sensing an opportunity to one-up its rival Anthropic, OpenAI just announced a privacy-centric safety approach to monitoring for misuse. The company is previewing a new service to select customers that it calls Private Safety Processing. This is an automated system that watches for potential abuse while simultaneously retaining none of the customer’s data.",
+      "heading": 0
+    },
+    {
+      "text": "This system clearly runs counter to Anthropic’s recently announced data-retention policy. The policy, which has aggravated some customers, enables the AI lab to keep user data (all of their sessions — and the conversations therein) for a period of 30 days, when it comes to “covered models.” Those models include all Mythos-class models and “future models with similar capabilities,” the company says.",
+      "heading": 0
+    },
+    {
+      "text": "This policy, which was announced in July, was designed for the purposes of safety, allowing the lab to sift and analyze potential impropriety. However, it has deeply concerned some enterprises that handle large amounts of sensitive data and don’t want it harbored (or inspected) by the AI lab.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI — like most other AI companies — already afford customers a relative level of privacy by adhering to a policy known as Zero Data Retention. ZDR uses agents within the OpenAI API to monitor for abuse on a per session basis. In this way, customer data isn’t retained by the company but companies are still able to scan for bad activity without the need for human intervention. It’s worth noting that Anthropic also largely abides by ZDR — except when it comes to “covered models,” like Fable.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says that Private Safety Processing is a new technology that widens ZDR’s scope. It describes it as a form of long-horizon safety monitoring that assesses the inputs and outputs of multiple conversations — not just one. Again, the monitoring is conducted by an agent, which, if triggered, catches interactions and analyzes them across sessions for signs of potential misuse.",
+      "heading": 0
+    },
+    {
+      "text": "The new tech helps OpenAI detect malicious use of AI that takes place over multiple sessions, a spokesperson told TechCrunch. A bad actor — hypothetically someone trying to engineer malware for a cyberattack — may spread out their requests to avoid detection. Private Safety Processing can analyze those multiple conversations for signs of abuse without human review of a user’s conversations.",
+      "heading": 0
+    },
+    {
+      "text": "In the case where the system is triggered, it may send a “narrowly defined signal” to OpenAI that warns of a specific type of activity, the company says. Based on that signal, OpenAI can then decide whether “enforcement is necessary,” it says. If so, OpenAI will reach out to the customer for more context or to work with them on the issue and a customer may choose to share data with OpenAI at their discretion, the spokesperson said.",
+      "heading": 0
+    },
+    {
+      "text": "By contrast, Anthropic notes that human review of customer data can occur, but only “through a controlled access path” that involves “a small set of approved reviewers.” Every one of those review sessions is “recorded in a tamper-proof log that reviewers cannot suppress or modify,” the company says.",
+      "heading": 0
+    },
+    {
+      "text": "The corporate competition between OpenAI and Anthropic is tense at the moment, with both companies looking for any opportunity to gain an advantage on the other. A recent report showed that OpenAI’s Q2 grew more slowly than Anthropic. Anthropic’s annualized revenue run rate is now reportedly $65 billion. Anthropic investors have said it could IPO at $2 trillion, while OpenAI is also working on its IPO.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

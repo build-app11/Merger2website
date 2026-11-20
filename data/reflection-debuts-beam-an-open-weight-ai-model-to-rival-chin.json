@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+  "slug": "reflection-debuts-beam-an-open-weight-ai-model-to-rival-chin",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+    "episode": ""
+  },
+  "words": 648,
+  "lines": 16,
+  "duration": 216,
+  "text": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model. The two-year-old, Brooklyn-based startup claims Beam matches the performance of leading Chinese open models on advanced reasoning benchmarks at dramatically lower costs, a claim that could heat up the race to build a Western answer to DeepSeek, Qwen, and Z.ai.\n\nReflection’s announcement confirms reporting from Axios over the weekend that the startup was close to a launch. The company shared new details in a lengthy blog post Monday, which described Beam as a text-only mixture-of-experts model trained on high-compute reinforcement learning to be effective at reasoning, coding, and agentic tasks at “a fraction of the token cost and inference time compute” of rivals.\n\nBeam is a 501-billion-parameter model with 23 billion active parameters. It was pretrained on 23.8 trillion tokens and has a 1 million token context window. To compare, Z.ai’s GLM-5.2 has roughly 744 billion total parameters with 40 billion active.\n\nReflection’s performance claims haven’t been independently verified, but on advanced reasoning benchmarks, the company says Beam scores on par with Z.ai’s GLM-5.2 and outperforms today’s leading Western open models while using “3-4x less inference compute.” Reflection calls it a “workhorse model” for enterprises, the public sector, and developers.\n\nReflection is positioning itself against closed labs like Anthropic and OpenAI, against popular open models from Chinese developers, and against Western players like Mistral, Meta, and Cohere. Its most direct U.S. rival might be Inkling, the open model from Mira Murati’s Thinking Machines Lab released in July. Reflection’s own benchmarks show that Beam outscores Inkling on four coding tests where both report results, but Inkling is a multimodal model and Beam is text-only.\n\nReflection was founded in 2024 by two former Google DeepMind researchers and has raised roughly $4.7 billion from backers, including Nvidia, Sequoia Capital, and Lightspeed Venture Partners, per PitchBook. Its last round valued the company at a $25 billion pre-money valuation.\n\nThe startup has also been locking up compute — a key ingredient needed to train frontier models capable of luring customers away from Anthropic’s and OpenAI’s closed models, as well as the cheaper open-weight models from Chinese labs. This summer, Reflection signed deals collectively worth more than $7 billion with SpaceX and Nebius to secure access to Nvidia’s GB300 chips through 2029.\n\nReflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data. Nvidia CEO Jensen Huang, whose company backs Reflection, has long championed the “AI factory” idea and pushed to strengthen the open AI ecosystem — a vision that would also benefit Nvidia, whose GPUs would power those systems.\n\nAxios reported that hedge funds and trading firms are among those eager to build such systems. Reflection has already begun testing the concept of a sovereign AI factory partnership with Shinsegae Group in South Korea.\n\nReflection says it will release Beam’s weights and full technical details this month, with distribution through hyperscalers and neoclouds and integrations across open source libraries at launch.\n\nReflection did not respond in time to TechCrunch’s requests for more information.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model. The two-year-old, Brooklyn-based startup claims Beam matches the performance of leading Chinese open models on advanced reasoning benchmarks at dramatically lower costs, a claim that could heat up the race to build a Western answer to DeepSeek, Qwen, and Z.ai.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection’s announcement confirms reporting from Axios over the weekend that the startup was close to a launch. The company shared new details in a lengthy blog post Monday, which described Beam as a text-only mixture-of-experts model trained on high-compute reinforcement learning to be effective at reasoning, coding, and agentic tasks at “a fraction of the token cost and inference time compute” of rivals.",
+      "heading": 0
+    },
+    {
+      "text": "Beam is a 501-billion-parameter model with 23 billion active parameters. It was pretrained on 23.8 trillion tokens and has a 1 million token context window. To compare, Z.ai’s GLM-5.2 has roughly 744 billion total parameters with 40 billion active.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection’s performance claims haven’t been independently verified, but on advanced reasoning benchmarks, the company says Beam scores on par with Z.ai’s GLM-5.2 and outperforms today’s leading Western open models while using “3-4x less inference compute.” Reflection calls it a “workhorse model” for enterprises, the public sector, and developers.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection is positioning itself against closed labs like Anthropic and OpenAI, against popular open models from Chinese developers, and against Western players like Mistral, Meta, and Cohere. Its most direct U.S. rival might be Inkling, the open model from Mira Murati’s Thinking Machines Lab released in July. Reflection’s own benchmarks show that Beam outscores Inkling on four coding tests where both report results, but Inkling is a multimodal model and Beam is text-only.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection was founded in 2024 by two former Google DeepMind researchers and has raised roughly $4.7 billion from backers, including Nvidia, Sequoia Capital, and Lightspeed Venture Partners, per PitchBook. Its last round valued the company at a $25 billion pre-money valuation.",
+      "heading": 0
+    },
+    {
+      "text": "The startup has also been locking up compute — a key ingredient needed to train frontier models capable of luring customers away from Anthropic’s and OpenAI’s closed models, as well as the cheaper open-weight models from Chinese labs. This summer, Reflection signed deals collectively worth more than $7 billion with SpaceX and Nebius to secure access to Nvidia’s GB300 chips through 2029.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data. Nvidia CEO Jensen Huang, whose company backs Reflection, has long championed the “AI factory” idea and pushed to strengthen the open AI ecosystem — a vision that would also benefit Nvidia, whose GPUs would power those systems.",
+      "heading": 0
+    },
+    {
+      "text": "Axios reported that hedge funds and trading firms are among those eager to build such systems. Reflection has already begun testing the concept of a sovereign AI factory partnership with Shinsegae Group in South Korea.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection says it will release Beam’s weights and full technical details this month, with distribution through hyperscalers and neoclouds and integrations across open source libraries at launch.",
+      "heading": 0
+    },
+    {
+      "text": "Reflection did not respond in time to TechCrunch’s requests for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

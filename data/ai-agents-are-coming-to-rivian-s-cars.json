@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "AI agents are coming to Rivian’s cars",
+  "slug": "ai-agents-are-coming-to-rivian-s-cars",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+    "episode": ""
+  },
+  "words": 742,
+  "lines": 17,
+  "duration": 247,
+  "text": "Rivian recently rolled out an AI assistant that lets drivers and passengers interact with the company’s electric vehicles just by talking to them. But the carmaker’s founder and CEO, RJ Scaringe, said at TechCrunch Disrupt this week that, in the future, Rivian’s cars will be able to run AI agents made by other companies like Anthropic.\n\n“That’s where it becomes magical,” Scaringe said onstage.\n\nScaringe didn’t say when Rivian would implement this, and the company declined to offer more details, pointing instead to the “AI & Autonomy Day” event it’s hosting in December.\n\nBut it’s not hard to imagine how Rivian might integrate something like Claude, OpenAI’s Dots, or Meta’s Muse assistant into its software. The company has developed its in-car software from the ground up, instead of leaning on Apple CarPlay or Android Auto, and built a lot of its own applications, like navigation (though it has worked to integrate popular in-car apps like Apple Music).\n\nRivian says it has created its own in-house agentic framework that understands what action a person wants to take when they talk to the vehicle, and routes it to the right part of the car’s software. Most of the time, that involves what you’d expect: asking the car to turn down the temperature, activate the seat warmers, or summarize the news.\n\n“Think of it as like a traffic light. So if you ask the vehicle something, it decides what model it’s going to use. It can use a local model that’s running on the edge and the vehicle. If it’s a more complex question, it can go up to the cloud. And then even for that, we have different models that we use,” Scaringe said.\n\nAs of May of this year, the agent could access external apps like Google Calendar. And Scaringe said at Disrupt the next step would be to add products from the frontier AI companies, though making them work in the car won’t be easy.\n\n“There’s a lot of plumbing behind the scenes we have to do to make sure that that works, and it’s not just within Rivian. That’s also a lot of coordination with the labs to make sure they enable that plumbing,” he said, adding that putting this kind of software near safety-critical systems means Rivian has to be extremely careful.\n\n“You wouldn’t want an agent to determine, ‘hey, it’s time to apply the brakes, or time to steer the vehicle.’ So anything that’s vehicle-level controls are not being handed to an agent,” he said.\n\nInstead, he thinks the implementation will look more like an extension of how people currently use these agentic apps. That would mean Rivian would have to find a way to connect the vehicle to all of the context that apps like Muse collect on their users.\n\nFor example, Scaringe said, a driver could ask the Rivian assistant to turn on the ventilated seats before going deeper. “And then simultaneously say, ‘We were talking yesterday about this meal. I’m planning to have guests over on Friday. Can you help me think through what we’re going to make?’,” he said. The car could then pull the driver’s context from a conversation they had with the assistant on another device.\n\nOf course, Rivian wouldn’t be the first American car company to add AI agents to a car’s software. Earlier this year, Tesla added a feature that let users talk to both SpaceX’s Grok chatbot and also its Grok Bot assistant.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSr. Reporter, Transportation\n\nSean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.\n\nYou can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Rivian recently rolled out an AI assistant that lets drivers and passengers interact with the company’s electric vehicles just by talking to them. But the carmaker’s founder and CEO, RJ Scaringe, said at TechCrunch Disrupt this week that, in the future, Rivian’s cars will be able to run AI agents made by other companies like Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "“That’s where it becomes magical,” Scaringe said onstage.",
+      "heading": 0
+    },
+    {
+      "text": "Scaringe didn’t say when Rivian would implement this, and the company declined to offer more details, pointing instead to the “AI & Autonomy Day” event it’s hosting in December.",
+      "heading": 0
+    },
+    {
+      "text": "But it’s not hard to imagine how Rivian might integrate something like Claude, OpenAI’s Dots, or Meta’s Muse assistant into its software. The company has developed its in-car software from the ground up, instead of leaning on Apple CarPlay or Android Auto, and built a lot of its own applications, like navigation (though it has worked to integrate popular in-car apps like Apple Music).",
+      "heading": 0
+    },
+    {
+      "text": "Rivian says it has created its own in-house agentic framework that understands what action a person wants to take when they talk to the vehicle, and routes it to the right part of the car’s software. Most of the time, that involves what you’d expect: asking the car to turn down the temperature, activate the seat warmers, or summarize the news.",
+      "heading": 0
+    },
+    {
+      "text": "“Think of it as like a traffic light. So if you ask the vehicle something, it decides what model it’s going to use. It can use a local model that’s running on the edge and the vehicle. If it’s a more complex question, it can go up to the cloud. And then even for that, we have different models that we use,” Scaringe said.",
+      "heading": 0
+    },
+    {
+      "text": "As of May of this year, the agent could access external apps like Google Calendar. And Scaringe said at Disrupt the next step would be to add products from the frontier AI companies, though making them work in the car won’t be easy.",
+      "heading": 0
+    },
+    {
+      "text": "“There’s a lot of plumbing behind the scenes we have to do to make sure that that works, and it’s not just within Rivian. That’s also a lot of coordination with the labs to make sure they enable that plumbing,” he said, adding that putting this kind of software near safety-critical systems means Rivian has to be extremely careful.",
+      "heading": 0
+    },
+    {
+      "text": "“You wouldn’t want an agent to determine, ‘hey, it’s time to apply the brakes, or time to steer the vehicle.’ So anything that’s vehicle-level controls are not being handed to an agent,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Instead, he thinks the implementation will look more like an extension of how people currently use these agentic apps. That would mean Rivian would have to find a way to connect the vehicle to all of the context that apps like Muse collect on their users.",
+      "heading": 0
+    },
+    {
+      "text": "For example, Scaringe said, a driver could ask the Rivian assistant to turn on the ventilated seats before going deeper. “And then simultaneously say, ‘We were talking yesterday about this meal. I’m planning to have guests over on Friday. Can you help me think through what we’re going to make?’,” he said. The car could then pull the driver’s context from a conversation they had with the assistant on another device.",
+      "heading": 0
+    },
+    {
+      "text": "Of course, Rivian wouldn’t be the first American car company to add AI agents to a car’s software. Earlier this year, Tesla added a feature that let users talk to both SpaceX’s Grok chatbot and also its Grok Bot assistant.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Sr. Reporter, Transportation",
+      "heading": 1
+    },
+    {
+      "text": "Sean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.",
+      "heading": 0
+    }
+  ]
+}

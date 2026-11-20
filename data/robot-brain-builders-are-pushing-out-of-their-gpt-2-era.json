@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Robot brain builders are pushing out of their GPT-2 era",
+  "slug": "robot-brain-builders-are-pushing-out-of-their-gpt-2-era",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+    "episode": ""
+  },
+  "words": 1222,
+  "lines": 24,
+  "duration": 407,
+  "text": "Physical AI is one of the hottest sectors in venture investing, with companies raising billions to apply the tools that gave large language models to robotics.\n\nThat excitement helped deliver a big IPO for Unitree, China’s leading robot maker, which saw the company valued at $66 billion after its arrival on China’s equivalent of the Nasdaq. This week, however, the bottom fell out, and the company lost nearly half of its value. Analysts point to one obvious issue: While the robots’ physical capabilities are improving, they still lack the know-how to actually do value-creating work.\n\nAt last week’s Actuate conference, a gathering of developers building AI brains for robots, the excitement was clear. The event has tripled in size since it kicked off in 2023, and had 1,500 attendees, according to the organizer, Foxglove, a company that helps physical AI model builders manage and visualize their data.\n\nThe risk was also evident: A sign on a booth for Avala, another physical AI infrastructure player, promised to solve “the robotics data crisis.”\n\nThat crisis is the lack of high-quality training data for AI models. Attempts to build generalized robots that can do any task are still far off, and using end-to-end learning for specific tasks still hasn’t delivered products with reliable, commercial performance. For developers, the answer is to better mimic the advances of the frontier AI labs — find or create more diverse datasets, mess with different training regimes, and figure out better reinforcement learning scenarios.\n\nHarry Mellsop, a founder of Antioch, a startup building simulation tools for model builders, suggests physical AI is in its “GPT-2 era,” the OpenAI model that pre-dated the arrival of ChatGPT. More data and compute will be needed to get over the hump, particularly GPUs optimized for ray tracing, which are used to create high-fidelity simulations.\n\nThe furthest ahead are autonomous vehicles, in part because of the ability to collect relevant data from cars driven by people, and in part because the main task is to avoid contact, not manipulate the physical environment. Much of the tooling for model-building comes from autonomous vehicle companies; Foxglove, for example, was founded by former employees at Cruise, General Motor’s erstwhile self-driving effort.\n\nAnd now those car companies are increasingly betting that their investments in ML tooling will allow them to compete with dedicated humanoid makers. Tesla is already trying this with its Optimus robot, and now both AV-focused Wayve and rideshare giant Uber have launched robotics labs focused on humanoid form factors as R&D efforts.\n\n“I think you need to start in vehicles…manipulation robotics is like self-driving five years ago,” Alex Kendall, the CEO of Wayve, told TechCrunch. “The data infrastructure, the simulation, ML ops infrastructure, will probably be shared, but the specific world model for the simulator will be a different post-training. There’s going to be a lot more commonality than not, but then there’s going to need to be some differences for different embodiments.”\n\nKendall argues that it’s too early to commit to any one hardware platform — advances in sensors and other components are coming quickly, and a truly general model should be more agnostic.\n\nThéophile Gervet, the president and a cofounder of Genesis AI, a vertically integrated humanoid robotics company that raised a $105 million seed round this year, disagreed, telling TechCrunch “we’re too early in this wave for a brain strategy to work; our take is there’s lots of opportunities to co-design hardware and AI.”\n\nGervet also touched on another hot topic in the sector: How specifically to focus your physical AI business. Robotics companies that are targeting specific tasks are getting their robots out in the field — Gritt is building solar farms, Agility is deploying robots in industrial settings, and Bedrock is operating excavators autonomously. Meanwhile, general-purpose humanoids aren’t getting out of the labs.\n\n“No customer cares about the general-purpose robot that works at 80% success rate,” Gervet said of the dilemma. “We see a lot of other players go general, but there is no value provided because there’s no vertical focus. … but then, if you’re building [for a narrow] vertical on top of GPT-2, you’re going to get crushed by the company building on GPT-4.”\n\nThe temptation to invest in a specific vertical, however, is tempting because it provides not just revenue but also real-world deployment data. While task-specific data might not have enough diversity to push general-purpose models forward, it is important for making a robot that adds value. Bedrock CTO Kevin Peterson noted that his company was just starting with excavation as a way to understand the challenges of “manipulation in the wild,” but plans to develop an intelligence layer that stretches across a series of construction machines.\n\nManaging all that data is a challenge, especially because of the density of visual and lidar data. Foxglove announced a new product this week, built on top of Nvidia’s Cosmos open-weight world model, which allows engineers to search that data with sophisticated natural language queries to build out evaluations and simulations. The goal is faster triage and debugging so model builders can iterate faster.\n\nSo what will be the fabled ChatGPT moment for physical AI that Sam Altman recently said is just a few years away? Kendall points out that the largest robot deployment in the world is still consumer vacuum bots. For him, a ChatGPT moment would be something that excites consumers, not investors, who seem to be plenty excited already.\n\n“One example of that would be when you get eyes-off autonomy for less than $1,000 [worth of hardware] in a car,” Kendall says; not coincidentally, his company is licensing models to car makers in an effort to produce just that. And that business, which he sees as a multibillion-dollar opportunity, will allow them to build a truly general embodied AI model.\n\nFor Gervet, the moment when physical AI becomes real is “manipulation that just works out of the box. You can talk to a robot in natural language and have it do any basic task for manipulation, like say pushing, pulling, closing a laptop, cleaning up a table, whatever you want to do, and it works to some level of reliability, let’s say 80% plus out of the box — that’s roughly your ChatGPT experience.”\n\nAdrian Macneil, Foxglove’s CEO, looks at the question a bit differently.\n\n“There will not be a ChatGPT moment for robotics,” he told TechCrunch. “The thing that made ChatGPT a moment in time was the distribution — they went from zero to like a million active users in like a week… distribution in the real world is way harder than that, right? I would be very excited for the Apple II moment in robotics or the IBM PC moment in robotics. When can I buy like a home robot that is gonna start doing some useful and fun stuff?”\n\nCorrection: This article originally reported that Théophile Gervet is the CEO of Genesis AI; he is the president and a cofounder.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Physical AI is one of the hottest sectors in venture investing, with companies raising billions to apply the tools that gave large language models to robotics.",
+      "heading": 0
+    },
+    {
+      "text": "That excitement helped deliver a big IPO for Unitree, China’s leading robot maker, which saw the company valued at $66 billion after its arrival on China’s equivalent of the Nasdaq. This week, however, the bottom fell out, and the company lost nearly half of its value. Analysts point to one obvious issue: While the robots’ physical capabilities are improving, they still lack the know-how to actually do value-creating work.",
+      "heading": 0
+    },
+    {
+      "text": "At last week’s Actuate conference, a gathering of developers building AI brains for robots, the excitement was clear. The event has tripled in size since it kicked off in 2023, and had 1,500 attendees, according to the organizer, Foxglove, a company that helps physical AI model builders manage and visualize their data.",
+      "heading": 0
+    },
+    {
+      "text": "The risk was also evident: A sign on a booth for Avala, another physical AI infrastructure player, promised to solve “the robotics data crisis.”",
+      "heading": 0
+    },
+    {
+      "text": "That crisis is the lack of high-quality training data for AI models. Attempts to build generalized robots that can do any task are still far off, and using end-to-end learning for specific tasks still hasn’t delivered products with reliable, commercial performance. For developers, the answer is to better mimic the advances of the frontier AI labs — find or create more diverse datasets, mess with different training regimes, and figure out better reinforcement learning scenarios.",
+      "heading": 0
+    },
+    {
+      "text": "Harry Mellsop, a founder of Antioch, a startup building simulation tools for model builders, suggests physical AI is in its “GPT-2 era,” the OpenAI model that pre-dated the arrival of ChatGPT. More data and compute will be needed to get over the hump, particularly GPUs optimized for ray tracing, which are used to create high-fidelity simulations.",
+      "heading": 0
+    },
+    {
+      "text": "The furthest ahead are autonomous vehicles, in part because of the ability to collect relevant data from cars driven by people, and in part because the main task is to avoid contact, not manipulate the physical environment. Much of the tooling for model-building comes from autonomous vehicle companies; Foxglove, for example, was founded by former employees at Cruise, General Motor’s erstwhile self-driving effort.",
+      "heading": 0
+    },
+    {
+      "text": "And now those car companies are increasingly betting that their investments in ML tooling will allow them to compete with dedicated humanoid makers. Tesla is already trying this with its Optimus robot, and now both AV-focused Wayve and rideshare giant Uber have launched robotics labs focused on humanoid form factors as R&D efforts.",
+      "heading": 0
+    },
+    {
+      "text": "“I think you need to start in vehicles…manipulation robotics is like self-driving five years ago,” Alex Kendall, the CEO of Wayve, told TechCrunch. “The data infrastructure, the simulation, ML ops infrastructure, will probably be shared, but the specific world model for the simulator will be a different post-training. There’s going to be a lot more commonality than not, but then there’s going to need to be some differences for different embodiments.”",
+      "heading": 0
+    },
+    {
+      "text": "Kendall argues that it’s too early to commit to any one hardware platform — advances in sensors and other components are coming quickly, and a truly general model should be more agnostic.",
+      "heading": 0
+    },
+    {
+      "text": "Théophile Gervet, the president and a cofounder of Genesis AI, a vertically integrated humanoid robotics company that raised a $105 million seed round this year, disagreed, telling TechCrunch “we’re too early in this wave for a brain strategy to work; our take is there’s lots of opportunities to co-design hardware and AI.”",
+      "heading": 0
+    },
+    {
+      "text": "Gervet also touched on another hot topic in the sector: How specifically to focus your physical AI business. Robotics companies that are targeting specific tasks are getting their robots out in the field — Gritt is building solar farms, Agility is deploying robots in industrial settings, and Bedrock is operating excavators autonomously. Meanwhile, general-purpose humanoids aren’t getting out of the labs.",
+      "heading": 0
+    },
+    {
+      "text": "“No customer cares about the general-purpose robot that works at 80% success rate,” Gervet said of the dilemma. “We see a lot of other players go general, but there is no value provided because there’s no vertical focus. … but then, if you’re building [for a narrow] vertical on top of GPT-2, you’re going to get crushed by the company building on GPT-4.”",
+      "heading": 0
+    },
+    {
+      "text": "The temptation to invest in a specific vertical, however, is tempting because it provides not just revenue but also real-world deployment data. While task-specific data might not have enough diversity to push general-purpose models forward, it is important for making a robot that adds value. Bedrock CTO Kevin Peterson noted that his company was just starting with excavation as a way to understand the challenges of “manipulation in the wild,” but plans to develop an intelligence layer that stretches across a series of construction machines.",
+      "heading": 0
+    },
+    {
+      "text": "Managing all that data is a challenge, especially because of the density of visual and lidar data. Foxglove announced a new product this week, built on top of Nvidia’s Cosmos open-weight world model, which allows engineers to search that data with sophisticated natural language queries to build out evaluations and simulations. The goal is faster triage and debugging so model builders can iterate faster.",
+      "heading": 0
+    },
+    {
+      "text": "So what will be the fabled ChatGPT moment for physical AI that Sam Altman recently said is just a few years away? Kendall points out that the largest robot deployment in the world is still consumer vacuum bots. For him, a ChatGPT moment would be something that excites consumers, not investors, who seem to be plenty excited already.",
+      "heading": 0
+    },
+    {
+      "text": "“One example of that would be when you get eyes-off autonomy for less than $1,000 [worth of hardware] in a car,” Kendall says; not coincidentally, his company is licensing models to car makers in an effort to produce just that. And that business, which he sees as a multibillion-dollar opportunity, will allow them to build a truly general embodied AI model.",
+      "heading": 0
+    },
+    {
+      "text": "For Gervet, the moment when physical AI becomes real is “manipulation that just works out of the box. You can talk to a robot in natural language and have it do any basic task for manipulation, like say pushing, pulling, closing a laptop, cleaning up a table, whatever you want to do, and it works to some level of reliability, let’s say 80% plus out of the box — that’s roughly your ChatGPT experience.”",
+      "heading": 0
+    },
+    {
+      "text": "Adrian Macneil, Foxglove’s CEO, looks at the question a bit differently.",
+      "heading": 0
+    },
+    {
+      "text": "“There will not be a ChatGPT moment for robotics,” he told TechCrunch. “The thing that made ChatGPT a moment in time was the distribution — they went from zero to like a million active users in like a week… distribution in the real world is way harder than that, right? I would be very excited for the Apple II moment in robotics or the IBM PC moment in robotics. When can I buy like a home robot that is gonna start doing some useful and fun stuff?”",
+      "heading": 0
+    },
+    {
+      "text": "Correction: This article originally reported that Théophile Gervet is the CEO of Genesis AI; he is the president and a cofounder.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

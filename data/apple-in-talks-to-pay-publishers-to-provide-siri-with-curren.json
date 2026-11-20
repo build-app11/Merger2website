@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+  "slug": "apple-in-talks-to-pay-publishers-to-provide-siri-with-curren",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+    "episode": ""
+  },
+  "words": 241,
+  "lines": 18,
+  "duration": 80,
+  "text": "Posted:\n\nAisha Malik\n\nApple in talks to pay publishers to provide Siri with current news: report\n\nApple is in talks to pay publishers to use their content to power the upcoming Siri AI, according to a new report from The Wall Street Journal. The tech giant has reached out to publishers in recent months about using their content to provide Siri with access to current news and information.\n\nApple has proposed a variable compensation model that would pay publishers when their content is used, rather than through a fixed licensing fee. This marks a departure from the standard industry practice of guaranteed fees, which are generally tied to broad access to content, rather than a pay-as-you-go model. Apple has considered a nine-figure budget for the payments, the report says.\n\nApple did not immediately respond to TechCrunch’s request for comment.\n\nThe discussions come as Apple has been working to significantly enhance Siri, years after promising users a smarter and more capable AI assistant.\n\nSiri AI is expected to roll out later this year.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nUK government forced to disclose secret Apple backdoor order\n\nZack Whittaker\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    },
+    {
+      "text": "Apple in talks to pay publishers to provide Siri with current news: report",
+      "heading": 0
+    },
+    {
+      "text": "Apple is in talks to pay publishers to use their content to power the upcoming Siri AI, according to a new report from The Wall Street Journal. The tech giant has reached out to publishers in recent months about using their content to provide Siri with access to current news and information.",
+      "heading": 0
+    },
+    {
+      "text": "Apple has proposed a variable compensation model that would pay publishers when their content is used, rather than through a fixed licensing fee. This marks a departure from the standard industry practice of guaranteed fees, which are generally tied to broad access to content, rather than a pay-as-you-go model. Apple has considered a nine-figure budget for the payments, the report says.",
+      "heading": 0
+    },
+    {
+      "text": "Apple did not immediately respond to TechCrunch’s request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "The discussions come as Apple has been working to significantly enhance Siri, years after promising users a smarter and more capable AI assistant.",
+      "heading": 0
+    },
+    {
+      "text": "Siri AI is expected to roll out later this year.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "UK government forced to disclose secret Apple backdoor order",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

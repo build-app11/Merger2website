@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "ScrollEd wants to turn textbooks into TikTok",
+  "slug": "scrolled-wants-to-turn-textbooks-into-tiktok",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Socrates-as-Tik-Tok-feed.png?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+    "episode": ""
+  },
+  "words": 627,
+  "lines": 18,
+  "duration": 209,
+  "text": "Society has spent a lot of time bemoaning our digitally addled minds and goldfish-like attention spans, pointing the finger of blame at doomscrolling as the reason we can’t just sit down and read a book or study for exams. But what if the solution isn’t to stop scrolling, but to rethink what we’re scrolling through?\n\nThat’s the bet startup ScrollEd is making. The Palo Alto-based startup is pitching in the TechCrunch Disrupt Startup Battlefield 200 competition with the novel idea that if students won’t open a textbook, the textbook should open itself up to them — as a scroll.\n\nScrollEd has built an app that allows the user to turn any text file — including dry PDFs or text books — into a feed that feels a lot like Instagram Reels or TikTok. As you scroll, the content shows up as AI-generated video, audio, text, or even interactive quizzes. Swiping up surfaces a new topic, while swiping sideways lets you go deeper into the one you’re on, with a quiz waiting for you at the end.\n\n“The younger generation is increasingly going short form, vertical feed only (especially the 18 year olds we’ve spoken to!), and this poses challenges for any kind of media that requires depth,” Utsav Gupta, ScrollEd’s co-founder, told TechCrunch in an email. “We want to meet them where they are…We just have to be deliberate about how we use it and choose not to maximize engagement on the platform.”\n\n“A short video can make you curious; following that curiosity can mean searching for another explanation or leaving the app,” Gupta continued. “We wanted going deeper to be as easy as moving to the next video.”\n\nGupta bootstrapped ScrollEd this year alongside his co-founder and wife Rebecca Neff after the two both noticed feeling dissatisfied after doomscrolling before bed. Both are students — Gupta studies AI and human purpose at Stanford, and Neff studies computer science at the University of Pennsylvania.\n\nThe startup is targeting educational institutions, corporate training programs, and individuals who “just want something better to scroll on,” according to Gupta.\n\nScrollEd is following a freemium model, combining a free consumer feed with a paid ScrollEd Pro subscription and annual institutional licenses. Institutions pay to deliver educational material through the platform, in exchange for reports about engagement, lesson progress, and other data.\n\nIn the coming months, ScrollEd intends to focus on its consumer launch, building its lesson library and source-checking workflow, and developing pilots for institutions. (The company will launch its consumer business at Disrupt, in fact. “We’re hoping to ‘disrupt’ social media and short form!” Gupta joked.)\n\nThe startup is also building infrastructure that will one day allow educators to assess individual learners and adapt to their needs.\n\n“The ambition is a social network that’s better for you,” Gupta said.\n\nCheck out ScrollEd and the other smart startups that TC’s editorial team has vetted and you’ll want to check out at TechCrunch Disrupt, coming up October 13-15 in downtown San Francisco. You can find many more details, and tickets, right here.\n\nCorrection: An earlier version of this post included an erroneous link; the correct website for ScrollEd is Scrolled.org. TechCrunch regrets the error.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Society has spent a lot of time bemoaning our digitally addled minds and goldfish-like attention spans, pointing the finger of blame at doomscrolling as the reason we can’t just sit down and read a book or study for exams. But what if the solution isn’t to stop scrolling, but to rethink what we’re scrolling through?",
+      "heading": 0
+    },
+    {
+      "text": "That’s the bet startup ScrollEd is making. The Palo Alto-based startup is pitching in the TechCrunch Disrupt Startup Battlefield 200 competition with the novel idea that if students won’t open a textbook, the textbook should open itself up to them — as a scroll.",
+      "heading": 0
+    },
+    {
+      "text": "ScrollEd has built an app that allows the user to turn any text file — including dry PDFs or text books — into a feed that feels a lot like Instagram Reels or TikTok. As you scroll, the content shows up as AI-generated video, audio, text, or even interactive quizzes. Swiping up surfaces a new topic, while swiping sideways lets you go deeper into the one you’re on, with a quiz waiting for you at the end.",
+      "heading": 0
+    },
+    {
+      "text": "“The younger generation is increasingly going short form, vertical feed only (especially the 18 year olds we’ve spoken to!), and this poses challenges for any kind of media that requires depth,” Utsav Gupta, ScrollEd’s co-founder, told TechCrunch in an email. “We want to meet them where they are…We just have to be deliberate about how we use it and choose not to maximize engagement on the platform.”",
+      "heading": 0
+    },
+    {
+      "text": "“A short video can make you curious; following that curiosity can mean searching for another explanation or leaving the app,” Gupta continued. “We wanted going deeper to be as easy as moving to the next video.”",
+      "heading": 0
+    },
+    {
+      "text": "Gupta bootstrapped ScrollEd this year alongside his co-founder and wife Rebecca Neff after the two both noticed feeling dissatisfied after doomscrolling before bed. Both are students — Gupta studies AI and human purpose at Stanford, and Neff studies computer science at the University of Pennsylvania.",
+      "heading": 0
+    },
+    {
+      "text": "The startup is targeting educational institutions, corporate training programs, and individuals who “just want something better to scroll on,” according to Gupta.",
+      "heading": 0
+    },
+    {
+      "text": "ScrollEd is following a freemium model, combining a free consumer feed with a paid ScrollEd Pro subscription and annual institutional licenses. Institutions pay to deliver educational material through the platform, in exchange for reports about engagement, lesson progress, and other data.",
+      "heading": 0
+    },
+    {
+      "text": "In the coming months, ScrollEd intends to focus on its consumer launch, building its lesson library and source-checking workflow, and developing pilots for institutions. (The company will launch its consumer business at Disrupt, in fact. “We’re hoping to ‘disrupt’ social media and short form!” Gupta joked.)",
+      "heading": 0
+    },
+    {
+      "text": "The startup is also building infrastructure that will one day allow educators to assess individual learners and adapt to their needs.",
+      "heading": 0
+    },
+    {
+      "text": "“The ambition is a social network that’s better for you,” Gupta said.",
+      "heading": 0
+    },
+    {
+      "text": "Check out ScrollEd and the other smart startups that TC’s editorial team has vetted and you’ll want to check out at TechCrunch Disrupt, coming up October 13-15 in downtown San Francisco. You can find many more details, and tickets, right here.",
+      "heading": 0
+    },
+    {
+      "text": "Correction: An earlier version of this post included an erroneous link; the correct website for ScrollEd is Scrolled.org. TechCrunch regrets the error.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

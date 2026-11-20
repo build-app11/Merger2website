@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+  "slug": "physical-ai-is-more-than-robots-says-the-nvidia-veteran-now",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Amulya-Vishwanath-Techable-VC.jpg?resize=960,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "episode": ""
+  },
+  "words": 406,
+  "lines": 25,
+  "duration": 135,
+  "text": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.\n\nThis view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.)\n\nOn this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC. They also talked about what she’s learned as one of the first women executives to spin out of Nvidia and launch her own early-stage firm investing in physical AI across robotics, materials science, and life sciences.\n\nListen to the full episode to hear more about:\n\nWhy Vishwanath defines physical AI as more than robots: “a molecule, a material, a medicine,” or a machine on a factory line.\n\nWhat she means by “conscious automation.”\n\nWhy the best opportunities solve big problems like family-run factories that can’t find workers to surgeons facing burnout.\n\nWhy she wants founders to see their VC as their moat, and how years at NVIDIA built the network she now uses for due diligence and customer introductions.\n\nWhere she thinks the U.S. and China each have the edge, and why humanoids should be good for more than dancing.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nSenior Reporter, Venture\n\nDominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.\n\nYou can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.",
+      "heading": 0
+    },
+    {
+      "text": "This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.)",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC. They also talked about what she’s learned as one of the first women executives to spin out of Nvidia and launch her own early-stage firm investing in physical AI across robotics, materials science, and life sciences.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "Why Vishwanath defines physical AI as more than robots: “a molecule, a material, a medicine,” or a machine on a factory line.",
+      "heading": 0
+    },
+    {
+      "text": "What she means by “conscious automation.”",
+      "heading": 1
+    },
+    {
+      "text": "Why the best opportunities solve big problems like family-run factories that can’t find workers to surgeons facing burnout.",
+      "heading": 0
+    },
+    {
+      "text": "Why she wants founders to see their VC as their moat, and how years at NVIDIA built the network she now uses for due diligence and customer introductions.",
+      "heading": 0
+    },
+    {
+      "text": "Where she thinks the U.S. and China each have the edge, and why humanoids should be good for more than dancing.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

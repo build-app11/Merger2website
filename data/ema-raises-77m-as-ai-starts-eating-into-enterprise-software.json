@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+  "slug": "ema-raises-77m-as-ai-starts-eating-into-enterprise-software",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/Screenshot-2026-02-08-at-12.27.26-PM.png?resize=1200,671",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+    "episode": ""
+  },
+  "words": 878,
+  "lines": 24,
+  "duration": 293,
+  "text": "Ema, a startup that uses teams of AI agents to automate corporate processes across HR, IT, and finance, has raised $77 million in a new funding round as it aims to take on more of the work traditionally handled by enterprise software and IT services.\n\nThe Series B round was led by Bengaluru-based venture firm Creaegis, with existing investors Accel, Section 32, and Prosus increasing their stakes. The financing brings the startup’s total funding to $140 million and more than quadruples its valuation from its last funding round in 2024. (Ema declined to disclose its latest valuation.) The round consisted entirely of primary equity, with no debt or secondary transactions, the startup confirmed to TechCrunch.\n\nThe funding comes as AI is beginning to compete for dollars that businesses have traditionally spent on enterprise software and IT services. Startups, major AI labs, and established software companies are now fighting to capture that spending.\n\nFounded in 2023 by former Google and Coinbase executive Surojit Chatterjee and ex-Okta executive Souvik Sen, both based in the Bay Area, Ema is looking to expand its position in that market. The startup deploys its technology, which it calls “AI employees” — systems that coordinate multiple AI agents. These help carry out multi-step business processes across a company’s existing applications, rather than handling a single task at a time.\n\nChatterjee sees that model eventually reducing companies’ reliance on traditional software products, including those sold as software-as-a-service (SaaS). Ema first “wraps” around an enterprise’s existing applications, he said, before customers can reduce their dependence on some of those products — and, in some cases, replace them altogether.\n\n“Many of our customers are already on the way to replace [large SaaS applications] completely, removing dependency on them, because they are mostly becoming like a database,” Chatterjee said.\n\nBenefiting from AI labs’ push\n\nIn recent months, major AI companies have also pushed deeper into the enterprise market where Ema operates. Anthropic has expanded efforts to bring Claude into companies’ core operations, including financial and legal work. Similarly, OpenAI has established teams of forward-deployed engineers who work alongside customers to put AI into production.\n\nChatterjee, however, does not see the frontier AI labs as direct competitors. He told TechCrunch that Ema’s software can draw on more than 150 models, including frontier and open source models, while the startup focuses on the domain knowledge, integrations, and orchestration needed to automate business processes end-to-end.\n\n“Progress in frontier models is actually very beneficial to us,” Chatterjee stated.\n\nEma’s approach is already gaining traction. The startup has more than 50 active enterprise deals, as well as over 1 million active enterprise users, and has handled more than 5 million actions and queries. Its customers include NTT DATA, Hitachi, ADP, PwC, Google, KPMG, Wipro, and Microsoft.\n\nOver the past two years, Ema said its revenue has grown 50-fold, while revenue bookings have surpassed $150 million. Chatterjee said the bookings figure includes the total value of multiyear contracts, including two- and three-year deals, rather than representing annual recurring revenue. He, however, declined to disclose the startup’s current annualized revenue run rate.\n\nChatterjee told TechCrunch that more than 90% of Ema’s customers have expanded beyond their initial use case, with some deploying the technology across dozens of workflows. The startup’s net dollar retention rate is around 180%, he said, meaning existing customers are spending substantially more with Ema over time.\n\nEma is also looking beyond the software itself. AI, Chatterjee said, can take over some of the implementation, integration, and consulting work that companies have traditionally paid IT services firms to perform around enterprise software.\n\n“A lot of the services companies are working with us,” Chatterjee said. “They are also dramatically changing or disrupting their own business models because they understand the human-forward model may not be the best model going forward.”\n\nDespite taking on work traditionally handled by software and services providers, Chatterjee said Ema has maintained gross margins of close to 80%. The startup, he noted, requires less human support as its AI systems learn from deployments, helping improve margins over time.\n\nEma also does not charge customers based on software seats or the number of AI tokens they consume. Instead, Chatterjee said, its pricing is tied to the completion of tasks and business outcomes.\n\nMuch of Ema’s new capital will go toward expanding its go-to-market operations, particularly sales and marketing, after spending its first years largely building the product, Chatterjee said. The Mountain View-headquartered startup has grown to nearly 200 employees and has its offices in Bengaluru, London, and Vancouver.\n\nEma has so far focused primarily on customers in the U.S. and Europe. However, it now plans to expand into new markets over the next year, particularly across Asia-Pacific, South America, and parts of the Middle East.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Ema, a startup that uses teams of AI agents to automate corporate processes across HR, IT, and finance, has raised $77 million in a new funding round as it aims to take on more of the work traditionally handled by enterprise software and IT services.",
+      "heading": 0
+    },
+    {
+      "text": "The Series B round was led by Bengaluru-based venture firm Creaegis, with existing investors Accel, Section 32, and Prosus increasing their stakes. The financing brings the startup’s total funding to $140 million and more than quadruples its valuation from its last funding round in 2024. (Ema declined to disclose its latest valuation.) The round consisted entirely of primary equity, with no debt or secondary transactions, the startup confirmed to TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The funding comes as AI is beginning to compete for dollars that businesses have traditionally spent on enterprise software and IT services. Startups, major AI labs, and established software companies are now fighting to capture that spending.",
+      "heading": 0
+    },
+    {
+      "text": "Founded in 2023 by former Google and Coinbase executive Surojit Chatterjee and ex-Okta executive Souvik Sen, both based in the Bay Area, Ema is looking to expand its position in that market. The startup deploys its technology, which it calls “AI employees” — systems that coordinate multiple AI agents. These help carry out multi-step business processes across a company’s existing applications, rather than handling a single task at a time.",
+      "heading": 0
+    },
+    {
+      "text": "Chatterjee sees that model eventually reducing companies’ reliance on traditional software products, including those sold as software-as-a-service (SaaS). Ema first “wraps” around an enterprise’s existing applications, he said, before customers can reduce their dependence on some of those products — and, in some cases, replace them altogether.",
+      "heading": 0
+    },
+    {
+      "text": "“Many of our customers are already on the way to replace [large SaaS applications] completely, removing dependency on them, because they are mostly becoming like a database,” Chatterjee said.",
+      "heading": 0
+    },
+    {
+      "text": "Benefiting from AI labs’ push",
+      "heading": 1
+    },
+    {
+      "text": "In recent months, major AI companies have also pushed deeper into the enterprise market where Ema operates. Anthropic has expanded efforts to bring Claude into companies’ core operations, including financial and legal work. Similarly, OpenAI has established teams of forward-deployed engineers who work alongside customers to put AI into production.",
+      "heading": 0
+    },
+    {
+      "text": "Chatterjee, however, does not see the frontier AI labs as direct competitors. He told TechCrunch that Ema’s software can draw on more than 150 models, including frontier and open source models, while the startup focuses on the domain knowledge, integrations, and orchestration needed to automate business processes end-to-end.",
+      "heading": 0
+    },
+    {
+      "text": "“Progress in frontier models is actually very beneficial to us,” Chatterjee stated.",
+      "heading": 0
+    },
+    {
+      "text": "Ema’s approach is already gaining traction. The startup has more than 50 active enterprise deals, as well as over 1 million active enterprise users, and has handled more than 5 million actions and queries. Its customers include NTT DATA, Hitachi, ADP, PwC, Google, KPMG, Wipro, and Microsoft.",
+      "heading": 0
+    },
+    {
+      "text": "Over the past two years, Ema said its revenue has grown 50-fold, while revenue bookings have surpassed $150 million. Chatterjee said the bookings figure includes the total value of multiyear contracts, including two- and three-year deals, rather than representing annual recurring revenue. He, however, declined to disclose the startup’s current annualized revenue run rate.",
+      "heading": 0
+    },
+    {
+      "text": "Chatterjee told TechCrunch that more than 90% of Ema’s customers have expanded beyond their initial use case, with some deploying the technology across dozens of workflows. The startup’s net dollar retention rate is around 180%, he said, meaning existing customers are spending substantially more with Ema over time.",
+      "heading": 0
+    },
+    {
+      "text": "Ema is also looking beyond the software itself. AI, Chatterjee said, can take over some of the implementation, integration, and consulting work that companies have traditionally paid IT services firms to perform around enterprise software.",
+      "heading": 0
+    },
+    {
+      "text": "“A lot of the services companies are working with us,” Chatterjee said. “They are also dramatically changing or disrupting their own business models because they understand the human-forward model may not be the best model going forward.”",
+      "heading": 0
+    },
+    {
+      "text": "Despite taking on work traditionally handled by software and services providers, Chatterjee said Ema has maintained gross margins of close to 80%. The startup, he noted, requires less human support as its AI systems learn from deployments, helping improve margins over time.",
+      "heading": 0
+    },
+    {
+      "text": "Ema also does not charge customers based on software seats or the number of AI tokens they consume. Instead, Chatterjee said, its pricing is tied to the completion of tasks and business outcomes.",
+      "heading": 0
+    },
+    {
+      "text": "Much of Ema’s new capital will go toward expanding its go-to-market operations, particularly sales and marketing, after spending its first years largely building the product, Chatterjee said. The Mountain View-headquartered startup has grown to nearly 200 employees and has its offices in Bengaluru, London, and Vancouver.",
+      "heading": 0
+    },
+    {
+      "text": "Ema has so far focused primarily on customers in the U.S. and Europe. However, it now plans to expand into new markets over the next year, particularly across Asia-Pacific, South America, and parts of the Middle East.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

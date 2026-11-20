@@ -1,0 +1,44 @@
+{
+  "type": "read",
+  "title": "Why has Waymo pulled all its driverless cars from US freeways?",
+  "slug": "why-has-waymo-pulled-all-its-driverless-cars-from-us-freeway",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1cf8/live/3bc03860-e3a8-11f1-ae87-b7d1078e8448.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 91,
+  "lines": 5,
+  "duration": 60,
+  "text": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.\n\nCalifornia's Department of Motor Vehicles said a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. Waymo has now restricted freeway operations in all other US markets while it reviews the performance of its vehicles.\n\nWaymo currently operates in 15 US cities, though only offered driverless freeway rides in a handful of cities, including San Francisco and Los Angeles.\n\nSubsection US & Canada\n\nPublished 1 day ago",
+  "paragraphs": [
+    {
+      "text": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.",
+      "heading": 0
+    },
+    {
+      "text": "California's Department of Motor Vehicles said a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. Waymo has now restricted freeway operations in all other US markets while it reviews the performance of its vehicles.",
+      "heading": 0
+    },
+    {
+      "text": "Waymo currently operates in 15 US cities, though only offered driverless freeway rides in a handful of cities, including San Francisco and Los Angeles.",
+      "heading": 0
+    },
+    {
+      "text": "Subsection US & Canada",
+      "heading": 1
+    },
+    {
+      "text": "Published 1 day ago",
+      "heading": 1
+    }
+  ]
+}

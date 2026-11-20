@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+  "slug": "fashion-app-daydream-uses-apple-intelligence-to-help-you-sho",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Frame-10.png?resize=1200,900",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+    "episode": ""
+  },
+  "words": 624,
+  "lines": 17,
+  "duration": 208,
+  "text": "Daydream, an AI-powered fashion discovery app, launched two new features on Monday to let iPhone users turn saved outfit photos into shoppable results and search for clothing and accessories through Siri, without opening the app.\n\nThe new features were built using Apple’s iOS 27 developer tools, which officially rolled out today. To use either feature, you’ll need an iPhone running iOS 27 with Siri AI enabled, along with the Daydream app installed. The app is free to download on iOS devices.\n\nThe first feature uses Apple’s image-context capabilities, letting users shop from images already saved in their Photos app. Daydream analyzes the outfit in the image, identifies its individual pieces, and automatically surfaces shoppable matches and similar styles from Daydream’s catalog of roughly 3 million products.\n\nThat means a screenshot of an outfit found on Instagram or Pinterest could become the starting point for a shopping search. Daydream can break down the image into relevant items, such as a sweater, pants, shoes, or accessories, and match them with products available through its collection. If the exact item in the photo is still available, Daydream can match the image back to the retailer selling it. If it’s no longer available, the app will instead surface similar options.\n\nIt can also handle requests for variations on what appears in an image. “I like this sweater but want it in red,” for example, is the kind of request Daydream can understand, Julie Bornstein, co-founder and CEO of Daydream, explained to TechCrunch.\n\nThe second feature is a Siri-powered natural-language search function. Users can make requests by voice or text through Siri without having to open Daydream’s app.\n\nA user could say, “Hey, Siri, search Daydream for a cool blazer for my board meeting on Monday,” and Daydream then provides results personalized to them.\n\nBornstein adds that the experience can be more tailored if users have set up Daydream’s “Style Passport,” which asks for details such as their sizes, preferred brands, personal style, and budget.\n\nThe company joins a growing number of AI shopping tools designed to rethink product discovery, such as big names like Google and Amazon, as well as some smaller players like Onton and Alta. But Bornstein believes that Daydream’s latest features offer something special that a lot of these other tools just can’t match.\n\n“Most visual search tools don’t have the fashion category expertise, so they return results that don’t feel accurate, from brands that aren’t credible, or they link you to nonshoppable images,” she said.\n\nThe launch fits into Daydream’s broader bet on AI-powered fashion shopping. The company sees these new features as more than stand-alone shopping tools. Its longer-term ambition is to build a shopping agent.\n\n“This is one step toward the bigger vision, [which is] a shopping agent that understands someone’s style well enough to work across every surface in their life, not just on one surface,” Bornstein said. “Expect us to keep going deeper into on-device intelligence and further into the everyday moments where people are already discovering things they want.”\n\nDaydream’s app launched last year and touts that it has more than 1.5 million shoppers browsing products from more than 325 retailers and 10,000 brands. Its retail lineup includes brands such as Anthropologie, Dolce & Gabbana, Uniqlo, J.Crew, Reformation, Gucci, and Nordstrom.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Daydream, an AI-powered fashion discovery app, launched two new features on Monday to let iPhone users turn saved outfit photos into shoppable results and search for clothing and accessories through Siri, without opening the app.",
+      "heading": 0
+    },
+    {
+      "text": "The new features were built using Apple’s iOS 27 developer tools, which officially rolled out today. To use either feature, you’ll need an iPhone running iOS 27 with Siri AI enabled, along with the Daydream app installed. The app is free to download on iOS devices.",
+      "heading": 0
+    },
+    {
+      "text": "The first feature uses Apple’s image-context capabilities, letting users shop from images already saved in their Photos app. Daydream analyzes the outfit in the image, identifies its individual pieces, and automatically surfaces shoppable matches and similar styles from Daydream’s catalog of roughly 3 million products.",
+      "heading": 0
+    },
+    {
+      "text": "That means a screenshot of an outfit found on Instagram or Pinterest could become the starting point for a shopping search. Daydream can break down the image into relevant items, such as a sweater, pants, shoes, or accessories, and match them with products available through its collection. If the exact item in the photo is still available, Daydream can match the image back to the retailer selling it. If it’s no longer available, the app will instead surface similar options.",
+      "heading": 0
+    },
+    {
+      "text": "It can also handle requests for variations on what appears in an image. “I like this sweater but want it in red,” for example, is the kind of request Daydream can understand, Julie Bornstein, co-founder and CEO of Daydream, explained to TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The second feature is a Siri-powered natural-language search function. Users can make requests by voice or text through Siri without having to open Daydream’s app.",
+      "heading": 0
+    },
+    {
+      "text": "A user could say, “Hey, Siri, search Daydream for a cool blazer for my board meeting on Monday,” and Daydream then provides results personalized to them.",
+      "heading": 0
+    },
+    {
+      "text": "Bornstein adds that the experience can be more tailored if users have set up Daydream’s “Style Passport,” which asks for details such as their sizes, preferred brands, personal style, and budget.",
+      "heading": 0
+    },
+    {
+      "text": "The company joins a growing number of AI shopping tools designed to rethink product discovery, such as big names like Google and Amazon, as well as some smaller players like Onton and Alta. But Bornstein believes that Daydream’s latest features offer something special that a lot of these other tools just can’t match.",
+      "heading": 0
+    },
+    {
+      "text": "“Most visual search tools don’t have the fashion category expertise, so they return results that don’t feel accurate, from brands that aren’t credible, or they link you to nonshoppable images,” she said.",
+      "heading": 0
+    },
+    {
+      "text": "The launch fits into Daydream’s broader bet on AI-powered fashion shopping. The company sees these new features as more than stand-alone shopping tools. Its longer-term ambition is to build a shopping agent.",
+      "heading": 0
+    },
+    {
+      "text": "“This is one step toward the bigger vision, [which is] a shopping agent that understands someone’s style well enough to work across every surface in their life, not just on one surface,” Bornstein said. “Expect us to keep going deeper into on-device intelligence and further into the everyday moments where people are already discovering things they want.”",
+      "heading": 0
+    },
+    {
+      "text": "Daydream’s app launched last year and touts that it has more than 1.5 million shoppers browsing products from more than 325 retailers and 10,000 brands. Its retail lineup includes brands such as Anthropologie, Dolce & Gabbana, Uniqlo, J.Crew, Reformation, Gucci, and Nordstrom.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

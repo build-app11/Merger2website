@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+  "slug": "mistral-s-new-1t-model-aims-to-leapfrog-closed-and-open-riva",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2264771189.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+    "episode": ""
+  },
+  "words": 546,
+  "lines": 17,
+  "duration": 182,
+  "text": "The race between open and closed AI is on, and Europe is still in the mix. On Tuesday, French AI lab Mistral AI released Mistral Large 4 (ML4), a new large multimodal model aiming to leapfrog both American and Chinese rivals — following what French president Macron described as “a third way in AI.”\n\nAmid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both. Nicknamed Le Chonk in reference to its 1 trillion parameters, ML4 is definitely not small; but is not an open-weight model yet. For the time being, it can only be accessed via a public guardrail endpoint, but Mistral plans to make its weights available in just three weeks, after safety testing is complete.\n\n“In the meantime, we’ll work with trusted partners and governments to make sure that the open source weights can be used to defend, but not to [perform] malicious attacks,” Mistral VP Science Pierre Stock told TechCrunch.\n\nSecurity concerns have been mounting in recent months, particularly among Mistral’s core audience — enterprises and institutions. At the same time, an open-weight model is easier to audit, Stock said.\n\nAnother important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said.\n\nWith benchmark results still pending, Mistral hopes ML4 will be best in class among open-weight models, especially outside of China, but not only, Stock said. Thanks to focused training, it could also outperform closed models in specific areas that are key to its customers, and where multimodal capabilities can add value.\n\nAccording to Stock, ML4’s optimized use cases include cybersecurity and finance, but also chip design, which is core to two of Mistral’s main backers — Dutch giant ASML, which led its Series C, and Samsung, which led its Series D last month at a €21 billion valuation (about $24.39 billion).\n\nAt the time, the company tried to convey that its decision to host Chinese models wasn’t a pivot into becoming a mere inference provider. With Le Chonk in its corner, the company believes it should still be considered a frontier lab as well.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nFreelance Reporter\n\nAnna Heim is a writer and editorial consultant.\n\nYou can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.\n\nAs a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.\n\nAs of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.\n\nAnna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.\n\nA former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+  "paragraphs": [
+    {
+      "text": "The race between open and closed AI is on, and Europe is still in the mix. On Tuesday, French AI lab Mistral AI released Mistral Large 4 (ML4), a new large multimodal model aiming to leapfrog both American and Chinese rivals — following what French president Macron described as “a third way in AI.”",
+      "heading": 0
+    },
+    {
+      "text": "Amid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both. Nicknamed Le Chonk in reference to its 1 trillion parameters, ML4 is definitely not small; but is not an open-weight model yet. For the time being, it can only be accessed via a public guardrail endpoint, but Mistral plans to make its weights available in just three weeks, after safety testing is complete.",
+      "heading": 0
+    },
+    {
+      "text": "“In the meantime, we’ll work with trusted partners and governments to make sure that the open source weights can be used to defend, but not to [perform] malicious attacks,” Mistral VP Science Pierre Stock told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Security concerns have been mounting in recent months, particularly among Mistral’s core audience — enterprises and institutions. At the same time, an open-weight model is easier to audit, Stock said.",
+      "heading": 0
+    },
+    {
+      "text": "Another important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said.",
+      "heading": 0
+    },
+    {
+      "text": "With benchmark results still pending, Mistral hopes ML4 will be best in class among open-weight models, especially outside of China, but not only, Stock said. Thanks to focused training, it could also outperform closed models in specific areas that are key to its customers, and where multimodal capabilities can add value.",
+      "heading": 0
+    },
+    {
+      "text": "According to Stock, ML4’s optimized use cases include cybersecurity and finance, but also chip design, which is core to two of Mistral’s main backers — Dutch giant ASML, which led its Series C, and Samsung, which led its Series D last month at a €21 billion valuation (about $24.39 billion).",
+      "heading": 0
+    },
+    {
+      "text": "At the time, the company tried to convey that its decision to host Chinese models wasn’t a pivot into becoming a mere inference provider. With Le Chonk in its corner, the company believes it should still be considered a frontier lab as well.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Freelance Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Anna Heim is a writer and editorial consultant.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.",
+      "heading": 0
+    },
+    {
+      "text": "As a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.",
+      "heading": 0
+    },
+    {
+      "text": "As of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.",
+      "heading": 0
+    },
+    {
+      "text": "Anna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.",
+      "heading": 0
+    },
+    {
+      "text": "A former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+      "heading": 0
+    }
+  ]
+}

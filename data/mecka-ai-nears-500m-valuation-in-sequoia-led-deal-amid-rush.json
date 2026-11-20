@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+  "slug": "mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+    "episode": ""
+  },
+  "words": 456,
+  "lines": 15,
+  "duration": 152,
+  "text": "Mecka AI, a startup that collects and analyzes human motion data to train humanoid robots and other robotics, is nearing a new round led by Sequoia Capital at a valuation of about $500 million, according to two people with knowledge of the deal.\n\nThe new financing comes just three months after Mecka announced that it raised $60 million in a round led by Framework Ventures that included participation from Menlo Ventures, SV Angel, and Kindred Ventures.\n\nTechCrunch has not learned the precise size of the new round. The terms of the deal are not final and could still change.\n\nMecka AI didn’t respond to a request for comment. Sequoia declined to comment.\n\nMecka AI was co-founded in 2024 by four entrepreneurs, including Canadians Josh Gao and Mogen Cheng, who previously built a restaurant fintech startup, and Jason Chong, who joined Coinbase after it acquired his crypto exchange. Duy Nguyen, the only non-Canadian on the team, focuses on operations at Mecka.\n\nThe four co-founders don’t have backgrounds in robotics. But they did recognize that there was a dearth of physical-world data and realized that capturing real-world interactions was the primary bottleneck holding back general-purpose robots, including humanoids.\n\nMecka, which derives its name from “mecha,” a fictional giant robot controlled by humans, set out to do for robotics what Scale AI, Mercor, Surge, and other human data companies have done for LLMs. The startup pays people to record themselves performing everyday tasks — like making coffee or fixing cars — using body sensors and smartphones.\n\nAs of early June, Mecka was projecting that it would end 2026 at an annual run rate of $100 million, Gao told Fortune when the startup announced its previous fundraise.\n\nWhile Mecka AI hasn’t publicly disclosed its customer list, many robotics companies and AI labs rely on real-world data captured through this “egocentric” approach, alongside other physical data collection methods like teleoperation, to build their models.\n\nOther startups collecting real-world data for robot training include XDOF, which TechCrunch reported last week was nearing a new round at a $1.2 billion valuation, as well as human-data platforms expanding beyond LLMs, such as Scale AI and Micro1.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Mecka AI, a startup that collects and analyzes human motion data to train humanoid robots and other robotics, is nearing a new round led by Sequoia Capital at a valuation of about $500 million, according to two people with knowledge of the deal.",
+      "heading": 0
+    },
+    {
+      "text": "The new financing comes just three months after Mecka announced that it raised $60 million in a round led by Framework Ventures that included participation from Menlo Ventures, SV Angel, and Kindred Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has not learned the precise size of the new round. The terms of the deal are not final and could still change.",
+      "heading": 0
+    },
+    {
+      "text": "Mecka AI didn’t respond to a request for comment. Sequoia declined to comment.",
+      "heading": 0
+    },
+    {
+      "text": "Mecka AI was co-founded in 2024 by four entrepreneurs, including Canadians Josh Gao and Mogen Cheng, who previously built a restaurant fintech startup, and Jason Chong, who joined Coinbase after it acquired his crypto exchange. Duy Nguyen, the only non-Canadian on the team, focuses on operations at Mecka.",
+      "heading": 0
+    },
+    {
+      "text": "The four co-founders don’t have backgrounds in robotics. But they did recognize that there was a dearth of physical-world data and realized that capturing real-world interactions was the primary bottleneck holding back general-purpose robots, including humanoids.",
+      "heading": 0
+    },
+    {
+      "text": "Mecka, which derives its name from “mecha,” a fictional giant robot controlled by humans, set out to do for robotics what Scale AI, Mercor, Surge, and other human data companies have done for LLMs. The startup pays people to record themselves performing everyday tasks — like making coffee or fixing cars — using body sensors and smartphones.",
+      "heading": 0
+    },
+    {
+      "text": "As of early June, Mecka was projecting that it would end 2026 at an annual run rate of $100 million, Gao told Fortune when the startup announced its previous fundraise.",
+      "heading": 0
+    },
+    {
+      "text": "While Mecka AI hasn’t publicly disclosed its customer list, many robotics companies and AI labs rely on real-world data captured through this “egocentric” approach, alongside other physical data collection methods like teleoperation, to build their models.",
+      "heading": 0
+    },
+    {
+      "text": "Other startups collecting real-world data for robot training include XDOF, which TechCrunch reported last week was nearing a new round at a $1.2 billion valuation, as well as human-data platforms expanding beyond LLMs, such as Scale AI and Micro1.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+  "slug": "binance-now-lets-ai-agents-trade-but-keeping-them-in-check-i",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/07/gettyimages-1239052293-594x594-1.jpg?w=594",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+    "episode": ""
+  },
+  "words": 806,
+  "lines": 20,
+  "duration": 269,
+  "text": "Binance, the world’s largest crypto exchange with more than 300 million registered users, on Thursday launched a platform that lets AI agents analyze markets and execute trades on users’ behalf, bringing autonomous AI directly into the business of managing real money.\n\nCalled Agent OS, the platform lets developers connect AI applications and agents to Binance’s financial infrastructure. It brings the exchange’s existing tools and services such as Binance APIs, Binance Wallet Agentic Hub, Binance x402 transaction verification and payment facilitator API, and Binance Skill Hub, along with newly introduced support for its Model Context Protocol (MCP). The platform also works with tools, including OpenAI’s ChatGPT and Codex, Anthropic’s Claude Code, and Cursor, allowing users to authorize agents to access market data, view account information, and execute trades.\n\nHowever, as the AI race moves away from chatbots that answer questions to agents capable of taking action, Binance is putting much of the responsibility for keeping them in check on users, who ultimately have to decide what agents can access and trade and set limits on what they can do.\n\n“Instead of total freedom, we put the power in users’ hands to give them the granular access control of what they can do through the agent,” said Jeff Li, vice president of product at Binance, in an interview. “We put [the control] at the account level to protect the users’ funds.”\n\nBinance does that primarily through dedicated “subaccounts,” which users can assign to agents and configure for specific activities, such as spot or futures trading. Withdrawals from those subaccounts are blocked by default, Li told TechCrunch, creating a sandbox around an agent’s activity.\n\nUsers can also choose whether an AI agent must seek approval for every order or can execute trades autonomously once its permissions are configured, a Binance representative said. Binance does not impose a separate cap on how much an AI agent can trade or lose, so the amount a user transfers into the subaccount effectively serves as the limit.\n\nAsked whether Binance can see what leads an agent to make a particular trade, Li said the reasoning happens outside its systems, either on the user’s computer or within their chosen AI application. “We really cannot see the reasoning of what the user’s action is,” he said.\n\nThat means Binance can monitor an agent’s resulting trading activity but has limited visibility into whether a decision was influenced by faulty information or manipulation.\n\nLi again pointed to the subaccount as the main line of defense when asked what would happen if an agent was manipulated through a prompt-injection attack or otherwise compromised. Binance also said its existing security, risk-control, and anti-money-laundering policies for subaccount APIs apply to Agent OS at launch.\n\nTrading is one of the first use cases Binance is targeting. Nonetheless, Li said agents could monitor markets, conduct research and risk analysis, react to signals, and autonomously place orders or execute strategies such as arbitrage.\n\nAgent OS is also designed to connect agents to payments and on-chain activity. Through Binance’s x402 integration, agents can send and settle payments, while its Agentic Wallet allows them to interact with tokens and decentralized-finance protocols.\n\nUnlike exchange trading, where Binance does not impose a separate cap on how much an agent can trade or lose within its subaccount, Agentic Wallet transactions carry Binance-set daily limits. Regular swaps are capped at $50,000 a day, DeFi transactions have a default $100,000 daily limit, and x402 payments are limited to $20 a day, according to the company.\n\nLi said Agent OS was Binance’s “first step” toward giving developers a platform to build AI-powered applications that can act across crypto and traditional markets.\n\nBinance is not alone in opening its infrastructure to AI agents. Rival crypto exchanges have been moving in the same direction, using MCP and other developer tools to give AI applications direct access to market data and trading systems.\n\nIn March, Kraken launched an open source command-line tool with a built-in MCP server that allows AI agents to execute actions, including spot and futures trades. Coinbase followed in June with Coinbase for Agents, which connects AI agents directly to users’ accounts and allows them to trade, make payments, and execute other financial workflows within user-set limits. Similarly, OKX enabled agentic trading on its platform by bringing an open source MCP toolkit earlier this year.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Binance, the world’s largest crypto exchange with more than 300 million registered users, on Thursday launched a platform that lets AI agents analyze markets and execute trades on users’ behalf, bringing autonomous AI directly into the business of managing real money.",
+      "heading": 0
+    },
+    {
+      "text": "Called Agent OS, the platform lets developers connect AI applications and agents to Binance’s financial infrastructure. It brings the exchange’s existing tools and services such as Binance APIs, Binance Wallet Agentic Hub, Binance x402 transaction verification and payment facilitator API, and Binance Skill Hub, along with newly introduced support for its Model Context Protocol (MCP). The platform also works with tools, including OpenAI’s ChatGPT and Codex, Anthropic’s Claude Code, and Cursor, allowing users to authorize agents to access market data, view account information, and execute trades.",
+      "heading": 0
+    },
+    {
+      "text": "However, as the AI race moves away from chatbots that answer questions to agents capable of taking action, Binance is putting much of the responsibility for keeping them in check on users, who ultimately have to decide what agents can access and trade and set limits on what they can do.",
+      "heading": 0
+    },
+    {
+      "text": "“Instead of total freedom, we put the power in users’ hands to give them the granular access control of what they can do through the agent,” said Jeff Li, vice president of product at Binance, in an interview. “We put [the control] at the account level to protect the users’ funds.”",
+      "heading": 0
+    },
+    {
+      "text": "Binance does that primarily through dedicated “subaccounts,” which users can assign to agents and configure for specific activities, such as spot or futures trading. Withdrawals from those subaccounts are blocked by default, Li told TechCrunch, creating a sandbox around an agent’s activity.",
+      "heading": 0
+    },
+    {
+      "text": "Users can also choose whether an AI agent must seek approval for every order or can execute trades autonomously once its permissions are configured, a Binance representative said. Binance does not impose a separate cap on how much an AI agent can trade or lose, so the amount a user transfers into the subaccount effectively serves as the limit.",
+      "heading": 0
+    },
+    {
+      "text": "Asked whether Binance can see what leads an agent to make a particular trade, Li said the reasoning happens outside its systems, either on the user’s computer or within their chosen AI application. “We really cannot see the reasoning of what the user’s action is,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "That means Binance can monitor an agent’s resulting trading activity but has limited visibility into whether a decision was influenced by faulty information or manipulation.",
+      "heading": 0
+    },
+    {
+      "text": "Li again pointed to the subaccount as the main line of defense when asked what would happen if an agent was manipulated through a prompt-injection attack or otherwise compromised. Binance also said its existing security, risk-control, and anti-money-laundering policies for subaccount APIs apply to Agent OS at launch.",
+      "heading": 0
+    },
+    {
+      "text": "Trading is one of the first use cases Binance is targeting. Nonetheless, Li said agents could monitor markets, conduct research and risk analysis, react to signals, and autonomously place orders or execute strategies such as arbitrage.",
+      "heading": 0
+    },
+    {
+      "text": "Agent OS is also designed to connect agents to payments and on-chain activity. Through Binance’s x402 integration, agents can send and settle payments, while its Agentic Wallet allows them to interact with tokens and decentralized-finance protocols.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike exchange trading, where Binance does not impose a separate cap on how much an agent can trade or lose within its subaccount, Agentic Wallet transactions carry Binance-set daily limits. Regular swaps are capped at $50,000 a day, DeFi transactions have a default $100,000 daily limit, and x402 payments are limited to $20 a day, according to the company.",
+      "heading": 0
+    },
+    {
+      "text": "Li said Agent OS was Binance’s “first step” toward giving developers a platform to build AI-powered applications that can act across crypto and traditional markets.",
+      "heading": 0
+    },
+    {
+      "text": "Binance is not alone in opening its infrastructure to AI agents. Rival crypto exchanges have been moving in the same direction, using MCP and other developer tools to give AI applications direct access to market data and trading systems.",
+      "heading": 0
+    },
+    {
+      "text": "In March, Kraken launched an open source command-line tool with a built-in MCP server that allows AI agents to execute actions, including spot and futures trades. Coinbase followed in June with Coinbase for Agents, which connects AI agents directly to users’ accounts and allows them to trade, make payments, and execute other financial workflows within user-set limits. Similarly, OKX enabled agentic trading on its platform by bringing an open source MCP toolkit earlier this year.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

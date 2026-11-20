@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "California state AG sues OpenAI over rogue agent incidents",
+  "slug": "california-state-ag-sues-openai-over-rogue-agent-incidents",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "episode": ""
+  },
+  "words": 560,
+  "lines": 16,
+  "duration": 187,
+  "text": "OpenAI is facing a new lawsuit from the California Attorney General’s office, alleging that the company’s training practices and lax security pose an ongoing danger to the public.\n\nAt the center of the case is the July 2026 Hugging Face compromise, in which a pre-release model within OpenAI compromised both companies’ security systems to complete a training benchmark. In its official report on the incident, OpenAI called it “an outlier scenario involving a rare and unexpected confluence of events.”\n\nThe California lawsuit represents one of the first attempts by a government regulator to hold an AI lab legally accountable for a rogue agent incident, with significant implications for both OpenAI’s competitors and its clients.\n\nThe complaint centers on the Hugging Face incident, but also cites similar incidents involving RubyGems, DseWiki, the Wikimedia Foundation, and Australian government websites as evidence that the underlying behavior is ongoing.\n\nThe complaint also alleges that dozens of similar incidents have occurred without public disclosure.\n\n“OpenAI has recently sent notices to dozens of additional third parties whose websites or internal systems have been infiltrated by OpenAI agents,” the complaint reads. “In some cases, OpenAI agents were able to access sensitive personally identifiable information, such as employee records containing names, birth dates, addresses, and more. The vast majority of these incidents have not been disclosed or discussed publicly by either OpenAI or by the affected third parties.”\n\nThe central allegation is that OpenAI’s ongoing testing practices constitute a public nuisance because the lack of safety controls present an ongoing risk to the public. A secondary claim alleges unfair competition stemming from the marketing of an unsafe product. If the lawsuit succeeds, OpenAI could face an injunction “to abate the ongoing public nuisance,” leaving broad discretion in the hands of the court.\n\nIt’s the first regulatory case targeting OpenAI specifically over rogue agent incidents, although public endangerment claims have been considered by other states. In June, the Florida attorney general sued the company over allegedly harmful effects on users, particularly children and teenagers. In August, the Alabama attorney general launched a probe into deceptive practices related to the breach, but no case has been filed.\n\nIn a statement to the press, California Attorney General Rob Bonta presented the case as an effort to maintain public safety in the face of a powerful new technology.\n\n“OpenAI’s actions escalated real-word cybersecurity risks, threatening the safety, health, and well-being of society. The company knowingly tested a dangerous product without proper oversight or safety procedures and misled the public about it,” Bonta said in the statement. “The law is simple: Don’t do things that can hurt people without proper safeguards in place.”\n\nIn a statement, OpenAI emphasized the company’s extensive effort to investigate the Hugging Face incident and improve its systems in the aftermath.\n\n“This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab,” OpenAI said. “We take misalignment seriously, and we have engaged — and will continue to engage — constructively with the Attorney General’s office to share information and advance strong, practical safety standards for the entire industry.”\n\nUpdated 12:23 p.m. PT: Added OpenAI statement.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "OpenAI is facing a new lawsuit from the California Attorney General’s office, alleging that the company’s training practices and lax security pose an ongoing danger to the public.",
+      "heading": 0
+    },
+    {
+      "text": "At the center of the case is the July 2026 Hugging Face compromise, in which a pre-release model within OpenAI compromised both companies’ security systems to complete a training benchmark. In its official report on the incident, OpenAI called it “an outlier scenario involving a rare and unexpected confluence of events.”",
+      "heading": 0
+    },
+    {
+      "text": "The California lawsuit represents one of the first attempts by a government regulator to hold an AI lab legally accountable for a rogue agent incident, with significant implications for both OpenAI’s competitors and its clients.",
+      "heading": 0
+    },
+    {
+      "text": "The complaint centers on the Hugging Face incident, but also cites similar incidents involving RubyGems, DseWiki, the Wikimedia Foundation, and Australian government websites as evidence that the underlying behavior is ongoing.",
+      "heading": 0
+    },
+    {
+      "text": "The complaint also alleges that dozens of similar incidents have occurred without public disclosure.",
+      "heading": 0
+    },
+    {
+      "text": "“OpenAI has recently sent notices to dozens of additional third parties whose websites or internal systems have been infiltrated by OpenAI agents,” the complaint reads. “In some cases, OpenAI agents were able to access sensitive personally identifiable information, such as employee records containing names, birth dates, addresses, and more. The vast majority of these incidents have not been disclosed or discussed publicly by either OpenAI or by the affected third parties.”",
+      "heading": 0
+    },
+    {
+      "text": "The central allegation is that OpenAI’s ongoing testing practices constitute a public nuisance because the lack of safety controls present an ongoing risk to the public. A secondary claim alleges unfair competition stemming from the marketing of an unsafe product. If the lawsuit succeeds, OpenAI could face an injunction “to abate the ongoing public nuisance,” leaving broad discretion in the hands of the court.",
+      "heading": 0
+    },
+    {
+      "text": "It’s the first regulatory case targeting OpenAI specifically over rogue agent incidents, although public endangerment claims have been considered by other states. In June, the Florida attorney general sued the company over allegedly harmful effects on users, particularly children and teenagers. In August, the Alabama attorney general launched a probe into deceptive practices related to the breach, but no case has been filed.",
+      "heading": 0
+    },
+    {
+      "text": "In a statement to the press, California Attorney General Rob Bonta presented the case as an effort to maintain public safety in the face of a powerful new technology.",
+      "heading": 0
+    },
+    {
+      "text": "“OpenAI’s actions escalated real-word cybersecurity risks, threatening the safety, health, and well-being of society. The company knowingly tested a dangerous product without proper oversight or safety procedures and misled the public about it,” Bonta said in the statement. “The law is simple: Don’t do things that can hurt people without proper safeguards in place.”",
+      "heading": 0
+    },
+    {
+      "text": "In a statement, OpenAI emphasized the company’s extensive effort to investigate the Hugging Face incident and improve its systems in the aftermath.",
+      "heading": 0
+    },
+    {
+      "text": "“This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab,” OpenAI said. “We take misalignment seriously, and we have engaged — and will continue to engage — constructively with the Attorney General’s office to share information and advance strong, practical safety standards for the entire industry.”",
+      "heading": 0
+    },
+    {
+      "text": "Updated 12:23 p.m. PT: Added OpenAI statement.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Meta AI’s new Mac app wants you to talk to your apps",
+  "slug": "meta-ai-s-new-mac-app-wants-you-to-talk-to-your-apps",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+    "episode": ""
+  },
+  "words": 324,
+  "lines": 20,
+  "duration": 108,
+  "text": "Posted:\n\nIvan Mehta\n\nMeta AI’s new Mac app wants you to talk to your apps\n\nMeta today announced a new Mac app for Meta AI with built-in system-wide dictation. The app can also look at the current screen and answer your questions based on the context using its Muse Spark model.\n\nThe company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue. Last month, Google also updated its Gemini app for Mac to enable a system-wide dictation feature.\n\nThe Mac app release is part of a Meta AI update for business owners. The company said that merchants can connect their Instagram and Facebook accounts, Meta ad campaigns, and Google Workspace (Gmail, Docs, Sheets, and Slides) accounts to Meta AI and get insights by querying the AI assistant.\n\nMeta AI can provide users with information about campaign performance and audience engagement metrics to understand what posts have worked well. It added that users can also access intelligence on competitors based on publicly available data.\n\nWith the new Meta AI integration with business tools, the AI assistant can create proposal decks, draft documents, and spreadsheets.\n\nMeta has increasingly focused on making its AI tools available to businesses for automated customer support and inquiries across its apps, including WhatsApp and Instagram. During the company’s Q2 2026 earnings call, CEO Mark Zuckerberg said that there is a big opportunity to sell agents to businesses and automate work on their behalf.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nSuperhuman pushes its Go assistant everywhere\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Meta AI’s new Mac app wants you to talk to your apps",
+      "heading": 0
+    },
+    {
+      "text": "Meta today announced a new Mac app for Meta AI with built-in system-wide dictation. The app can also look at the current screen and answer your questions based on the context using its Muse Spark model.",
+      "heading": 0
+    },
+    {
+      "text": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue. Last month, Google also updated its Gemini app for Mac to enable a system-wide dictation feature.",
+      "heading": 0
+    },
+    {
+      "text": "The Mac app release is part of a Meta AI update for business owners. The company said that merchants can connect their Instagram and Facebook accounts, Meta ad campaigns, and Google Workspace (Gmail, Docs, Sheets, and Slides) accounts to Meta AI and get insights by querying the AI assistant.",
+      "heading": 0
+    },
+    {
+      "text": "Meta AI can provide users with information about campaign performance and audience engagement metrics to understand what posts have worked well. It added that users can also access intelligence on competitors based on publicly available data.",
+      "heading": 0
+    },
+    {
+      "text": "With the new Meta AI integration with business tools, the AI assistant can create proposal decks, draft documents, and spreadsheets.",
+      "heading": 0
+    },
+    {
+      "text": "Meta has increasingly focused on making its AI tools available to businesses for automated customer support and inquiries across its apps, including WhatsApp and Instagram. During the company’s Q2 2026 earnings call, CEO Mark Zuckerberg said that there is a big opportunity to sell agents to businesses and automate work on their behalf.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+  "slug": "php-armageddon-openai-google-s-wiz-find-ancient-holes-panick",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-460689215.jpg?resize=1200,801",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+    "episode": ""
+  },
+  "words": 562,
+  "lines": 14,
+  "duration": 187,
+  "text": "The U.S. National Security Agency’s sent out an alarming warning on Wednesday that two critical holes had been found in PHP, with patches already issued by the PHP Foundation.\n\nPHP is a server-side programming language so widely used for web applications that it powers roughly 70% of the websites on the internet; by some accounts, that’s more than 33 million sites. It is also used by popular content management systems like WordPress.\n\nThe NSA warned that these holes are so severe that if a website can’t be patched immediately, it should be pulled off the web until it can be. The holes allow attackers to infiltrate the server’s file system or a database that may be used by the web app.\n\nInterestingly, these holes have been tucked away in all versions of PHP since version 5, which was released in 2004. Websites not running relatively current versions of PHP will have some updating work to do, as PHP 8.1 and older versions are no longer supported. The recommendation is to update the web server to the current version of PHP, which is 8.5.12.\n\nSo how did two such ubiquitous, decades-old flaws that affect nearly every website on the internet suddenly come to light? AI, naturally, particularly via OpenAI and Google’s Wiz.\n\nSecurity testing company Calif was engaged in OpenAI’s “Patch the Planet” initiative to find flaws in open source software. Using GPT‑5.6 Sol, it found one of the flaws, OpenAI disclosed in a blog post. Separately, the Wiz team also used AI, namely its Wiz Atlas security AI agent, Gemini 4 Argon, and GPT-5.6 Sol to find multiple vulnerabilities in PHP.\n\nBoth OpenAI and Wiz followed responsible security research practices and worked with PHP on patches before publicly disclosing the flaws. Then they all worked together to flesh out what they found, and test the patches, drawing in a host of others to help.\n\nWiz thanked Automattic, Akamai, AWS, Cloudflare, Fastly, Imperva, Microsoft, and Vercel. (While WordPress sites use PHP, WordPress has issued a statement saying that the flaw isn’t WordPress specific, and sites running its CMS must patch their servers and work with their web-hosting companies to ensure their sites are protected.)\n\nOpenAI says that these flaws were found by researchers before hackers discovered them. So there were no reports of exploits in the wild. This is also in part because, before AI, these flaws were too hard for hackers to exploit. “With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts,” Wiz warned in its blog about the flaws.\n\nIn other words, this is the kind of security issue that was found and prevented because of AI, but is also a high risk only because of AI.\n\nNow that the issue has been disclosed, hackers are fully in the know. The race is on for the internet to patch tens millions of websites before hackers can attack the unpatched ones. Hence the NSA’s guidance that if you can’t patch your PHP website right away, you’re better off pulling it offline until you can.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "The U.S. National Security Agency’s sent out an alarming warning on Wednesday that two critical holes had been found in PHP, with patches already issued by the PHP Foundation.",
+      "heading": 0
+    },
+    {
+      "text": "PHP is a server-side programming language so widely used for web applications that it powers roughly 70% of the websites on the internet; by some accounts, that’s more than 33 million sites. It is also used by popular content management systems like WordPress.",
+      "heading": 0
+    },
+    {
+      "text": "The NSA warned that these holes are so severe that if a website can’t be patched immediately, it should be pulled off the web until it can be. The holes allow attackers to infiltrate the server’s file system or a database that may be used by the web app.",
+      "heading": 0
+    },
+    {
+      "text": "Interestingly, these holes have been tucked away in all versions of PHP since version 5, which was released in 2004. Websites not running relatively current versions of PHP will have some updating work to do, as PHP 8.1 and older versions are no longer supported. The recommendation is to update the web server to the current version of PHP, which is 8.5.12.",
+      "heading": 0
+    },
+    {
+      "text": "So how did two such ubiquitous, decades-old flaws that affect nearly every website on the internet suddenly come to light? AI, naturally, particularly via OpenAI and Google’s Wiz.",
+      "heading": 0
+    },
+    {
+      "text": "Security testing company Calif was engaged in OpenAI’s “Patch the Planet” initiative to find flaws in open source software. Using GPT‑5.6 Sol, it found one of the flaws, OpenAI disclosed in a blog post. Separately, the Wiz team also used AI, namely its Wiz Atlas security AI agent, Gemini 4 Argon, and GPT-5.6 Sol to find multiple vulnerabilities in PHP.",
+      "heading": 0
+    },
+    {
+      "text": "Both OpenAI and Wiz followed responsible security research practices and worked with PHP on patches before publicly disclosing the flaws. Then they all worked together to flesh out what they found, and test the patches, drawing in a host of others to help.",
+      "heading": 0
+    },
+    {
+      "text": "Wiz thanked Automattic, Akamai, AWS, Cloudflare, Fastly, Imperva, Microsoft, and Vercel. (While WordPress sites use PHP, WordPress has issued a statement saying that the flaw isn’t WordPress specific, and sites running its CMS must patch their servers and work with their web-hosting companies to ensure their sites are protected.)",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says that these flaws were found by researchers before hackers discovered them. So there were no reports of exploits in the wild. This is also in part because, before AI, these flaws were too hard for hackers to exploit. “With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts,” Wiz warned in its blog about the flaws.",
+      "heading": 0
+    },
+    {
+      "text": "In other words, this is the kind of security issue that was found and prevented because of AI, but is also a high risk only because of AI.",
+      "heading": 0
+    },
+    {
+      "text": "Now that the issue has been disclosed, hackers are fully in the know. The race is on for the internet to patch tens millions of websites before hackers can attack the unpatched ones. Hence the NSA’s guidance that if you can’t patch your PHP website right away, you’re better off pulling it offline until you can.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

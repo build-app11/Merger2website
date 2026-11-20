@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+  "slug": "asian-governments-react-to-nvidia-ceo-jensen-huang-s-exit",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "episode": ""
+  },
+  "words": 701,
+  "lines": 20,
+  "duration": 234,
+  "text": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.\n\nOn Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed.\n\nNvidia’s influence extends far beyond the United States. The chip giant has built close ties with companies worldwide, particularly in Asia, where many of its key partners play important roles in the global AI industry.\n\nChina\n\nChina’s foreign ministry rejected allegations on November 10 that a Chinese businesswoman linked to former Nvidia CEO Jensen Huang was a spy, calling them groundless and a smear against Beijing. On Friday, a spokesperson reiterated opposition to export controls that disrupt global supply chains and stated the ministry was not aware of reports linking restricted Nvidia chips to a Shanghai data center associated with Alice Huang.\n\nHuang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters. Many of these chips are subject to U.S. export controls, making them difficult for Chinese companies to obtain.\n\nSingapore\n\nIn Singapore, authorities seized the passport of Alice Huang, former CEO of Singapore-based cloud computing company Megaspeed, in June 2025 as part of an investigation into possible false declarations regarding server purchases, according to the Ministry of Home Affairs.\n\nThe Singapore ministry said police took her passport to ensure she remained available for questioning, as she was not based in Singapore. The investigation examined whether servers shipped from Singapore to Malaysia were later sent to other countries without proper declaration.\n\nIn February 2026, police found insufficient evidence to establish that Alice Huang had committed offenses related to the suspected false declarations, according to the ministry. However, authorities said she had knowingly provided inaccurate information about her role at Megaspeed. She was issued a warning and barred from reentering Singapore. Her passport was returned that month. Singapore also said it received limited assistance from U.S. authorities despite repeated requests for information about U.S. server maker Supermicro. Singapore’s Ministry of Home Affairs said its investigation into Megaspeed and six other individuals remains ongoing. The ministry did not identify the six individuals or specify their alleged roles in the case.\n\nSouth Korea\n\nSouth Korea has close ties to Nvidia, with major chipmakers Samsung Electronics and SK Hynix playing important roles in supplying memory chips used in its AI processors. Following Huang’s exit, South Korea’s Science Ministry said Nvidia had reaffirmed its plan to supply 260,000 advanced GPUs to the country and to continue joint AI projects. Apart from that, South Korea’s government AI strategy council held an emergency meeting on Friday to assess the potential impact of Huang’s departure on the country’s AI industry, per a local media report.\n\nTaiwan\n\nTaiwan’s economy minister Kung Ming-hsin said Huang’s departure was unlikely to significantly change the growth of the global AI industry, according to local media. Meanwhile, Taipei’s city government said Nvidia’s planned overseas headquarters in the city remained on track despite the leadership change. The company has met its contractual obligations so far, and officials said they would continue to support the project.\n\nJapan\n\nIn Japan, the Industry Ministry said the government would closely monitor Nvidia following Huang’s resignation, describing the chipmaker as an important player in Japan’s AI semiconductor industry, Newsweek reported. Deputy chief cabinet secretary Masanao Ozaki said it was too early to assess the impact on the global AI industry, while stressing Japan’s commitment to ensuring a stable supply of semiconductors.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Asia\n\nKate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+  "paragraphs": [
+    {
+      "text": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "heading": 0
+    },
+    {
+      "text": "On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s influence extends far beyond the United States. The chip giant has built close ties with companies worldwide, particularly in Asia, where many of its key partners play important roles in the global AI industry.",
+      "heading": 0
+    },
+    {
+      "text": "China",
+      "heading": 1
+    },
+    {
+      "text": "China’s foreign ministry rejected allegations on November 10 that a Chinese businesswoman linked to former Nvidia CEO Jensen Huang was a spy, calling them groundless and a smear against Beijing. On Friday, a spokesperson reiterated opposition to export controls that disrupt global supply chains and stated the ministry was not aware of reports linking restricted Nvidia chips to a Shanghai data center associated with Alice Huang.",
+      "heading": 0
+    },
+    {
+      "text": "Huang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters. Many of these chips are subject to U.S. export controls, making them difficult for Chinese companies to obtain.",
+      "heading": 0
+    },
+    {
+      "text": "Singapore",
+      "heading": 1
+    },
+    {
+      "text": "In Singapore, authorities seized the passport of Alice Huang, former CEO of Singapore-based cloud computing company Megaspeed, in June 2025 as part of an investigation into possible false declarations regarding server purchases, according to the Ministry of Home Affairs.",
+      "heading": 0
+    },
+    {
+      "text": "The Singapore ministry said police took her passport to ensure she remained available for questioning, as she was not based in Singapore. The investigation examined whether servers shipped from Singapore to Malaysia were later sent to other countries without proper declaration.",
+      "heading": 0
+    },
+    {
+      "text": "In February 2026, police found insufficient evidence to establish that Alice Huang had committed offenses related to the suspected false declarations, according to the ministry. However, authorities said she had knowingly provided inaccurate information about her role at Megaspeed. She was issued a warning and barred from reentering Singapore. Her passport was returned that month. Singapore also said it received limited assistance from U.S. authorities despite repeated requests for information about U.S. server maker Supermicro. Singapore’s Ministry of Home Affairs said its investigation into Megaspeed and six other individuals remains ongoing. The ministry did not identify the six individuals or specify their alleged roles in the case.",
+      "heading": 0
+    },
+    {
+      "text": "South Korea",
+      "heading": 1
+    },
+    {
+      "text": "South Korea has close ties to Nvidia, with major chipmakers Samsung Electronics and SK Hynix playing important roles in supplying memory chips used in its AI processors. Following Huang’s exit, South Korea’s Science Ministry said Nvidia had reaffirmed its plan to supply 260,000 advanced GPUs to the country and to continue joint AI projects. Apart from that, South Korea’s government AI strategy council held an emergency meeting on Friday to assess the potential impact of Huang’s departure on the country’s AI industry, per a local media report.",
+      "heading": 0
+    },
+    {
+      "text": "Taiwan",
+      "heading": 1
+    },
+    {
+      "text": "Taiwan’s economy minister Kung Ming-hsin said Huang’s departure was unlikely to significantly change the growth of the global AI industry, according to local media. Meanwhile, Taipei’s city government said Nvidia’s planned overseas headquarters in the city remained on track despite the leadership change. The company has met its contractual obligations so far, and officials said they would continue to support the project.",
+      "heading": 0
+    },
+    {
+      "text": "Japan",
+      "heading": 1
+    },
+    {
+      "text": "In Japan, the Industry Ministry said the government would closely monitor Nvidia following Huang’s resignation, describing the chipmaker as an important player in Japan’s AI semiconductor industry, Newsweek reported. Deputy chief cabinet secretary Masanao Ozaki said it was too early to assess the impact on the global AI industry, while stressing Japan’s commitment to ensuring a stable supply of semiconductors.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Asia",
+      "heading": 1
+    },
+    {
+      "text": "Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+      "heading": 0
+    }
+  ]
+}

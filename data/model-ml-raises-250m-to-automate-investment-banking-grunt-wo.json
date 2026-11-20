@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Model ML raises $250M to automate investment banking grunt work",
+  "slug": "model-ml-raises-250m-to-automate-investment-banking-grunt-wo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+    "episode": ""
+  },
+  "words": 305,
+  "lines": 17,
+  "duration": 102,
+  "text": "Posted:\n\nMarina Temkin\n\nModel ML raises $250M to automate investment banking grunt work\n\nModel ML, a London-based startup that uses AI to automate work traditionally performed by junior bankers and consultants, including building financial models, preparing pitch decks, and writing due diligence reports, has raised $250 million in Series B funding at a $1.5 billion valuation. The new round, which comes a year after its $75 million Series A round was announced, was co-led by General Atlantic and earlier backer QED Investors.\n\nBrothers Chaz and Arnie Englander co-founded the three-year-old startup after previously co-founding two other companies, including Fat Llama, a peer-to-peer rental marketplace acquired by Swedish rival Hygglo for $41.5 million in 2022.\n\nModel ML develops AI agents that integrate with clients’ systems, data, and tools, including Excel and PowerPoint. The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.\n\nOther startups automating the routine, repetitive tasks for investment bankers and management consultants include Hebbia and Rogo, which raised $160 million at a $2 billion valuation in April.\n\nAnthropic and OpenAI have also built tools for financial professionals, but Model ML says it runs on open source models and that doing so allows it to operate at about 2% of the cost of frontier models while delivering faster results.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic prices IPO at $83 a share, above projected range\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Model ML raises $250M to automate investment banking grunt work",
+      "heading": 1
+    },
+    {
+      "text": "Model ML, a London-based startup that uses AI to automate work traditionally performed by junior bankers and consultants, including building financial models, preparing pitch decks, and writing due diligence reports, has raised $250 million in Series B funding at a $1.5 billion valuation. The new round, which comes a year after its $75 million Series A round was announced, was co-led by General Atlantic and earlier backer QED Investors.",
+      "heading": 0
+    },
+    {
+      "text": "Brothers Chaz and Arnie Englander co-founded the three-year-old startup after previously co-founding two other companies, including Fat Llama, a peer-to-peer rental marketplace acquired by Swedish rival Hygglo for $41.5 million in 2022.",
+      "heading": 0
+    },
+    {
+      "text": "Model ML develops AI agents that integrate with clients’ systems, data, and tools, including Excel and PowerPoint. The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "heading": 0
+    },
+    {
+      "text": "Other startups automating the routine, repetitive tasks for investment bankers and management consultants include Hebbia and Rogo, which raised $160 million at a $2 billion valuation in April.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic and OpenAI have also built tools for financial professionals, but Model ML says it runs on open source models and that doing so allows it to operate at about 2% of the cost of frontier models while delivering faster results.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+  "slug": "openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-e",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/holdings_all_team.jpg?resize=1200,407",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "episode": ""
+  },
+  "words": 610,
+  "lines": 16,
+  "duration": 203,
+  "text": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.\n\nThrive Holdings is akin to a private equity firm for AI, buying traditional businesses like accounting firms and implementing AI into their workflows. So far, Thrive has focused on accounting and information technology, but part of Wednesday’s raise will go toward expanding a new vertical in physical assets. Key to that strategy is Thrive’s close relationship with OpenAI.\n\nThe New York Times was first to report the news.\n\nThe firm is a spinout of Thrive Capital, one of OpenAI’s major investors. In December 2025, OpenAI took an ownership stake in Thrive Holdings. Part of the deal involved OpenAI sending employees to work with Thrive’s companies to accelerate AI adoption.\n\nThat hands-on model of AI implementation has become a business in its own right, and may help explain investor enthusiasm behind Thrive’s latest fundraise. OpenAI and Anthropic have both partnered with large private equity firms to launch The Deployment Company and Ode with Anthropic, respectively — billion-dollar ventures that are building teams of elite engineers who embed themselves into enterprises and implement AI solutions into workflows.\n\nThe raise comes off the back of proven success for Thrive’s companies, which has surpassed 70 businesses on Thrive Holdings’ platforms. The company has focused on two pillars to date: Current, its accounting arm with more than 50 firms and more than 2,000 professionals, and Shield, its information technology arm with around 20 companies on the platform.\n\nCurrent’s self-improving tax agents, dubbed TaxAI, processed more than 7,000 tax returns at 98% accuracy, lowering tax prep times at participating firms by over 30%, according to Thrive. Meanwhile, Shield’s AI products have sped up help desk resolution times by 36x, and the platform has doubled the number of custom AI agents deployed in the last month.\n\nPart of Wednesday’s fundraise will help Thrive launch a third platform focused on regulatory services for the built environment, described by a spokesperson as: “the work required to get physical assets approved, built, certified, and kept in operation.”\n\n“The U.S. needs to build and modernize more critical infrastructure, but projects are often constrained by local, technical, and regulatory complexity,” Anuj Mehndiratta, a founding member of Thrive Holdings, told TechCrunch. “This applies across data centers, manufacturing, healthcare, power, water, transportation, and other physical infrastructure.”\n\nThat sort of complexity is where Thrive, well, thrives — large, fragmented, mission-critical, and operationally complex. While Mehndiratta says AI won’t replace field work, local judgement, or professional sign-off, it can help ease manual workflows like research, reporting, permit preparation, inspection documentation, and compliance tracking.\n\n“We think AI partnered with a lot of the experts and practitioners at these businesses can really help compress [regulatory bottlenecks], keep the safety standards high, but also be able to do it with less of a burden to the actual building of that and help it do it more efficiently, lower cost and do it faster,” Kareem Zaki, a founding member of Thrive Holdings, said in a statement emailed to TechCrunch.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+      "heading": 0
+    },
+    {
+      "text": "Thrive Holdings is akin to a private equity firm for AI, buying traditional businesses like accounting firms and implementing AI into their workflows. So far, Thrive has focused on accounting and information technology, but part of Wednesday’s raise will go toward expanding a new vertical in physical assets. Key to that strategy is Thrive’s close relationship with OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "The New York Times was first to report the news.",
+      "heading": 0
+    },
+    {
+      "text": "The firm is a spinout of Thrive Capital, one of OpenAI’s major investors. In December 2025, OpenAI took an ownership stake in Thrive Holdings. Part of the deal involved OpenAI sending employees to work with Thrive’s companies to accelerate AI adoption.",
+      "heading": 0
+    },
+    {
+      "text": "That hands-on model of AI implementation has become a business in its own right, and may help explain investor enthusiasm behind Thrive’s latest fundraise. OpenAI and Anthropic have both partnered with large private equity firms to launch The Deployment Company and Ode with Anthropic, respectively — billion-dollar ventures that are building teams of elite engineers who embed themselves into enterprises and implement AI solutions into workflows.",
+      "heading": 0
+    },
+    {
+      "text": "The raise comes off the back of proven success for Thrive’s companies, which has surpassed 70 businesses on Thrive Holdings’ platforms. The company has focused on two pillars to date: Current, its accounting arm with more than 50 firms and more than 2,000 professionals, and Shield, its information technology arm with around 20 companies on the platform.",
+      "heading": 0
+    },
+    {
+      "text": "Current’s self-improving tax agents, dubbed TaxAI, processed more than 7,000 tax returns at 98% accuracy, lowering tax prep times at participating firms by over 30%, according to Thrive. Meanwhile, Shield’s AI products have sped up help desk resolution times by 36x, and the platform has doubled the number of custom AI agents deployed in the last month.",
+      "heading": 0
+    },
+    {
+      "text": "Part of Wednesday’s fundraise will help Thrive launch a third platform focused on regulatory services for the built environment, described by a spokesperson as: “the work required to get physical assets approved, built, certified, and kept in operation.”",
+      "heading": 0
+    },
+    {
+      "text": "“The U.S. needs to build and modernize more critical infrastructure, but projects are often constrained by local, technical, and regulatory complexity,” Anuj Mehndiratta, a founding member of Thrive Holdings, told TechCrunch. “This applies across data centers, manufacturing, healthcare, power, water, transportation, and other physical infrastructure.”",
+      "heading": 0
+    },
+    {
+      "text": "That sort of complexity is where Thrive, well, thrives — large, fragmented, mission-critical, and operationally complex. While Mehndiratta says AI won’t replace field work, local judgement, or professional sign-off, it can help ease manual workflows like research, reporting, permit preparation, inspection documentation, and compliance tracking.",
+      "heading": 0
+    },
+    {
+      "text": "“We think AI partnered with a lot of the experts and practitioners at these businesses can really help compress [regulatory bottlenecks], keep the safety standards high, but also be able to do it with less of a burden to the actual building of that and help it do it more efficiently, lower cost and do it faster,” Kareem Zaki, a founding member of Thrive Holdings, said in a statement emailed to TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "Crusoe reportedly raises $3B at a $30B valuation",
+  "slug": "crusoe-reportedly-raises-3b-at-a-30b-valuation",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2245923419.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+    "episode": ""
+  },
+  "words": 257,
+  "lines": 22,
+  "duration": 86,
+  "text": "Posted:\n\nMarina Temkin\n\nCrusoe reportedly raises $3B at a $30B valuation\n\nData center developer Crusoe, which counts Meta, Microsoft, and OpenAI as its customers, has raised a new $3 billion round at a $30 billion valuation, Bloomberg reported.\n\nThe deal is being co-led by Atreides Management and Valor Equity Partners, and includes participation from Mubadala Capital, the asset management subsidiary of Abu Dhabi’s sovereign wealth fund Mubadala.\n\nThe company recently signed a massive $13 billion, five-year cloud contract to supply quantitative trading firm Jane Street with GPUs and AI infrastructure, Bloomberg reported.\n\nThe fresh fundraise comes 10 months after Crusoe raised a $1.38 billion round at a $10 billion valuation last October.\n\nLaunched in 2018 as a crypto mining operation powered by flared natural gas, Crusoe has since pivoted into a major AI infrastructure and cloud provider that is best known for developing hyperscale data center campuses for clients like Oracle and OpenAI.\n\nThe company recently met with investment bankers, including Goldman Sachs and Morgan Stanley, to discuss a potential near-term IPO, Axios reported last month.\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic prices IPO at $83 a share, above projected range\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nLatest in Venture\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nSpend management platform Payhawk announces $280M raise, 2B valuation\n\nDominic-Madori Davis",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Crusoe reportedly raises $3B at a $30B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Data center developer Crusoe, which counts Meta, Microsoft, and OpenAI as its customers, has raised a new $3 billion round at a $30 billion valuation, Bloomberg reported.",
+      "heading": 0
+    },
+    {
+      "text": "The deal is being co-led by Atreides Management and Valor Equity Partners, and includes participation from Mubadala Capital, the asset management subsidiary of Abu Dhabi’s sovereign wealth fund Mubadala.",
+      "heading": 0
+    },
+    {
+      "text": "The company recently signed a massive $13 billion, five-year cloud contract to supply quantitative trading firm Jane Street with GPUs and AI infrastructure, Bloomberg reported.",
+      "heading": 0
+    },
+    {
+      "text": "The fresh fundraise comes 10 months after Crusoe raised a $1.38 billion round at a $10 billion valuation last October.",
+      "heading": 0
+    },
+    {
+      "text": "Launched in 2018 as a crypto mining operation powered by flared natural gas, Crusoe has since pivoted into a major AI infrastructure and cloud provider that is best known for developing hyperscale data center campuses for clients like Oracle and OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "The company recently met with investment bankers, including Goldman Sachs and Morgan Stanley, to discuss a potential near-term IPO, Axios reported last month.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Venture",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+  "slug": "us-data-centers-could-consume-more-natural-gas-than-germany",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/04/GettyImages-462843546.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+    "episode": ""
+  },
+  "words": 522,
+  "lines": 16,
+  "duration": 174,
+  "text": "The AI race has grown so frenzied that, by 2035, U.S. data centers are projected to consume more natural gas than Germany and Japan combined.\n\nOver the next decade, data centers are expected to be the second-strongest driver of natural gas demand growth after LNG exports. The facilities could consume about 18 billion cubic feet per day, according to a new report from BloombergNEF, nearly double the amount the organization predicted just nine months ago.\n\nThe new forecast takes into account that not all announced data center projects will be completed.\n\nData centers that produce power onsite have grabbed headlines in recent months, with Meta, Microsoft, Google, and Amazon all announcing plans for new natural gas power plants that will bypass the grid. Projects such as these will consume 2.9 billion to 3.4 billion cubic feet per day by 2035. That’s about as much as all data centers consume today, including natural gas used to generate power for the grid.\n\nBut onsite-powered data centers could represent just a fraction of overall demand growth, according to BloombergNEF.\n\nBy the middle of the next decade, grid-connected data centers are predicted to drive an additional 15 billion cubic feet per day of natural gas consumption by the power sector. To put that in context, that’s five times more demand growth through 2035 than from all other grid-connected sectors combined.\n\nIf that stunning demand growth materializes, it could nudge natural gas prices higher.\n\nMuch of today’s data center buildout relies on stable natural gas prices, which have prevailed in recent years. But analysts at Noreva think that might be a false hope. The combined impact of the data center boom and rising LNG exports could cause prices to soar. Even if tech companies’ balance sheets can bear such a surge, utility ratepayers might not be able to.\n\nThen there’s the climate impact.\n\nBurning one cubic foot of natural gas releases the equivalent of 60 grams of carbon dioxide into the atmosphere, including extraction, processing, and distribution, according to the IEA. The additional demand from data centers will generate 1 million metric tons more greenhouse gas pollution daily. That’s about 12% of total U.S. greenhouse gas emissions today.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "The AI race has grown so frenzied that, by 2035, U.S. data centers are projected to consume more natural gas than Germany and Japan combined.",
+      "heading": 0
+    },
+    {
+      "text": "Over the next decade, data centers are expected to be the second-strongest driver of natural gas demand growth after LNG exports. The facilities could consume about 18 billion cubic feet per day, according to a new report from BloombergNEF, nearly double the amount the organization predicted just nine months ago.",
+      "heading": 0
+    },
+    {
+      "text": "The new forecast takes into account that not all announced data center projects will be completed.",
+      "heading": 0
+    },
+    {
+      "text": "Data centers that produce power onsite have grabbed headlines in recent months, with Meta, Microsoft, Google, and Amazon all announcing plans for new natural gas power plants that will bypass the grid. Projects such as these will consume 2.9 billion to 3.4 billion cubic feet per day by 2035. That’s about as much as all data centers consume today, including natural gas used to generate power for the grid.",
+      "heading": 0
+    },
+    {
+      "text": "But onsite-powered data centers could represent just a fraction of overall demand growth, according to BloombergNEF.",
+      "heading": 0
+    },
+    {
+      "text": "By the middle of the next decade, grid-connected data centers are predicted to drive an additional 15 billion cubic feet per day of natural gas consumption by the power sector. To put that in context, that’s five times more demand growth through 2035 than from all other grid-connected sectors combined.",
+      "heading": 0
+    },
+    {
+      "text": "If that stunning demand growth materializes, it could nudge natural gas prices higher.",
+      "heading": 0
+    },
+    {
+      "text": "Much of today’s data center buildout relies on stable natural gas prices, which have prevailed in recent years. But analysts at Noreva think that might be a false hope. The combined impact of the data center boom and rising LNG exports could cause prices to soar. Even if tech companies’ balance sheets can bear such a surge, utility ratepayers might not be able to.",
+      "heading": 0
+    },
+    {
+      "text": "Then there’s the climate impact.",
+      "heading": 0
+    },
+    {
+      "text": "Burning one cubic foot of natural gas releases the equivalent of 60 grams of carbon dioxide into the atmosphere, including extraction, processing, and distribution, according to the IEA. The additional demand from data centers will generate 1 million metric tons more greenhouse gas pollution daily. That’s about 12% of total U.S. greenhouse gas emissions today.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

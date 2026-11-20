@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+  "slug": "fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-ne",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+    "episode": ""
+  },
+  "words": 774,
+  "lines": 21,
+  "duration": 258,
+  "text": "The FBI is warning that hackers are relying on autonomous AI hacking tools to launch cyberattacks across the U.S. and globally. The campaigns include a widespread hack of customers of American IT company ConnectWise and across South Korea’s financial industry.\n\nIn its latest flash cybersecurity advisory, the FBI says hackers have targeted several industries in recent months, including financial services, government, tech, defense, phone and internet companies, and law firms, using open source tools like Artex to carry out autonomous-driven cyberattacks.\n\nArtex is one of several open source AI-powered penetration testing platforms, a category of software built to probe a network’s defenses. Hackers can connect Artex to hosted frontier large language models (LLMs) like those from Anthropic and OpenAI, as well as to open source models and non-U.S. models. The FBI says Artex intrusions can be “noisy,” meaning they generate reams of traffic and data that may trigger a targeted company’s defensive alerts. But the tools allow hackers to move at speeds that make it far more difficult for human defenders to keep up.\n\nIn some cases, Artex-linked attacks can move from targeting a system to active compromise “in under three hours.”\n\nThe FBI’s warning comes as AI-powered hacks are escalating, particularly by finding easy-to-find security flaws and breaking into companies with relative ease.\n\nOftentimes, Artex will rely on rapidly scanning a victim’s network to look for signs of weakness, and then exploit simple security bugs, such as weak protections and exposed or stolen passwords to gain a foothold. From there, Artex allows the hacker to spread across the network for databases, mailboxes, and other sensitive information.\n\nThe FBI’s advisory noted that Artex has been used in several cyberattacks since the tool’s first public debut in July. Artex was used to hack a number of South Korean financial institutions, blamed in large part on weak cybersecurity defenses and lacking protections, such as multi-factor authentication. The attacks allowed hackers to steal the personal data of at least 68,000 people.\n\nThe FBI confirmed earlier findings from Microsoft that hackers also used Artex to break into IT management giant ConnectWise and gain access to the Microsoft 365 cloud environments of at least 2,250 of its customers.\n\nThe hackers, who Microsoft says are likely Chinese, used the tool to steal data from affected ConnectWise customers.\n\nA spokesperson for ConnectWise told TechCrunch that the company does not have the visibility to confirm the number of affected environments as cited by the FBI.\n\nCybersecurity company Barracuda also disclosed that it was breached as part of an Artex-linked attack by financially motivated criminals, in which the tool found an exposed credential belonging to a third-party service that Barracuda had not revoked when it ended work with the vendor. That access allowed the hackers to access stores of credentials used by Barracuda to collect data from its customers’ systems. Barracuda said it couldn’t rule out access, as its logs were not detailed enough, and chose to “assume the worst” and changed all of its customer credentials.\n\n“Defenders who rely on spotting malicious activity and then responding to it will often arrive after the attacker has finished,” wrote Barracuda’s chief information security officer, Arve Kjoelen.\n\nA spokesperson for Barracuda told TechCrunch that the company “directly notified and advised a minority of XDR customers to revoke and recreate integration credentials,” but did not specify how many customers.\n\nAfter Artex was used in cyberattacks, the tool’s developer made the software closed-source to prevent further attacks. But the FBI says the previous open source version continues to circulate and remains “widely accessible” for use in cyberattacks.\n\nIt’s not only companies and targeted victims that have been compromised as a result of weakened security exploited by AI tools; the tools themselves have been exposed as well, potentially allowing outsiders to access powerful hacking capabilities. Last week, researchers found hundreds of publicly exposed Artex systems online, which had been placed on the internet without a password, likely by mistake or misconfiguration — including the Artex system that was used to target South Korea.\n\nUpdated with response from Barracuda, and with additional comment from ConnectWise.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSecurity Editor\n\nZack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.\n\nHe can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+  "paragraphs": [
+    {
+      "text": "The FBI is warning that hackers are relying on autonomous AI hacking tools to launch cyberattacks across the U.S. and globally. The campaigns include a widespread hack of customers of American IT company ConnectWise and across South Korea’s financial industry.",
+      "heading": 0
+    },
+    {
+      "text": "In its latest flash cybersecurity advisory, the FBI says hackers have targeted several industries in recent months, including financial services, government, tech, defense, phone and internet companies, and law firms, using open source tools like Artex to carry out autonomous-driven cyberattacks.",
+      "heading": 0
+    },
+    {
+      "text": "Artex is one of several open source AI-powered penetration testing platforms, a category of software built to probe a network’s defenses. Hackers can connect Artex to hosted frontier large language models (LLMs) like those from Anthropic and OpenAI, as well as to open source models and non-U.S. models. The FBI says Artex intrusions can be “noisy,” meaning they generate reams of traffic and data that may trigger a targeted company’s defensive alerts. But the tools allow hackers to move at speeds that make it far more difficult for human defenders to keep up.",
+      "heading": 0
+    },
+    {
+      "text": "In some cases, Artex-linked attacks can move from targeting a system to active compromise “in under three hours.”",
+      "heading": 0
+    },
+    {
+      "text": "The FBI’s warning comes as AI-powered hacks are escalating, particularly by finding easy-to-find security flaws and breaking into companies with relative ease.",
+      "heading": 0
+    },
+    {
+      "text": "Oftentimes, Artex will rely on rapidly scanning a victim’s network to look for signs of weakness, and then exploit simple security bugs, such as weak protections and exposed or stolen passwords to gain a foothold. From there, Artex allows the hacker to spread across the network for databases, mailboxes, and other sensitive information.",
+      "heading": 0
+    },
+    {
+      "text": "The FBI’s advisory noted that Artex has been used in several cyberattacks since the tool’s first public debut in July. Artex was used to hack a number of South Korean financial institutions, blamed in large part on weak cybersecurity defenses and lacking protections, such as multi-factor authentication. The attacks allowed hackers to steal the personal data of at least 68,000 people.",
+      "heading": 0
+    },
+    {
+      "text": "The FBI confirmed earlier findings from Microsoft that hackers also used Artex to break into IT management giant ConnectWise and gain access to the Microsoft 365 cloud environments of at least 2,250 of its customers.",
+      "heading": 0
+    },
+    {
+      "text": "The hackers, who Microsoft says are likely Chinese, used the tool to steal data from affected ConnectWise customers.",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson for ConnectWise told TechCrunch that the company does not have the visibility to confirm the number of affected environments as cited by the FBI.",
+      "heading": 0
+    },
+    {
+      "text": "Cybersecurity company Barracuda also disclosed that it was breached as part of an Artex-linked attack by financially motivated criminals, in which the tool found an exposed credential belonging to a third-party service that Barracuda had not revoked when it ended work with the vendor. That access allowed the hackers to access stores of credentials used by Barracuda to collect data from its customers’ systems. Barracuda said it couldn’t rule out access, as its logs were not detailed enough, and chose to “assume the worst” and changed all of its customer credentials.",
+      "heading": 0
+    },
+    {
+      "text": "“Defenders who rely on spotting malicious activity and then responding to it will often arrive after the attacker has finished,” wrote Barracuda’s chief information security officer, Arve Kjoelen.",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson for Barracuda told TechCrunch that the company “directly notified and advised a minority of XDR customers to revoke and recreate integration credentials,” but did not specify how many customers.",
+      "heading": 0
+    },
+    {
+      "text": "After Artex was used in cyberattacks, the tool’s developer made the software closed-source to prevent further attacks. But the FBI says the previous open source version continues to circulate and remains “widely accessible” for use in cyberattacks.",
+      "heading": 0
+    },
+    {
+      "text": "It’s not only companies and targeted victims that have been compromised as a result of weakened security exploited by AI tools; the tools themselves have been exposed as well, potentially allowing outsiders to access powerful hacking capabilities. Last week, researchers found hundreds of publicly exposed Artex systems online, which had been placed on the internet without a password, likely by mistake or misconfiguration — including the Artex system that was used to target South Korea.",
+      "heading": 0
+    },
+    {
+      "text": "Updated with response from Barracuda, and with additional comment from ConnectWise.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Security Editor",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.",
+      "heading": 0
+    },
+    {
+      "text": "He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
+  "slug": "sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chip",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/SK-Hynix.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+    "episode": ""
+  },
+  "words": 455,
+  "lines": 14,
+  "duration": 152,
+  "text": "South Korean memory chip giant SK Hynix is in discussions with Intel to manufacture RAM chips in the U.S. for the first time, Reuters reported, citing anonymous sources.\n\nThe companies have reportedly discussed various options, one of which would have SK Hynix leasing space at Intel’s planned factory in Ohio to manufacture the chips. The chipmakers are also said to be considering a joint venture that could include cloud-service providers.\n\nSK Hynix told TechCrunch on Wednesday that nothing has been finalized yet. “SK Hynix is exploring various options to strengthen its global competitiveness, but no specific plans or arrangements have been finalized at this time,” the Korean semiconductor company said in a statement. “No decisions have been made regarding the two scenarios mentioned in the article.”\n\nThe Korean chip giant, which has benefited massively from skyrocketing demand for high-bandwidth memory RAM chips used in data centers for AI applications, is already building a $3.8 billion advanced packaging and research facility for AI chips in West Lafayette, Indiana, with mass production expected to begin in 2029. The factory will use DRAM wafers made in South Korea and package them into HBM chips.\n\nIt remains unclear what types of memory chips the company would produce in Ohio if the deal goes through.\n\nAs a global chip shortage worsens, the Trump administration is seeking to expand production on American soil. The White House said in January that it could impose broader tariffs on semiconductor imports while offering tariff relief to companies investing in domestic manufacturing.\n\nSK Group Chairman Chey Tae-won signaled support for U.S. chip production in July, saying the company should build factories in the U.S., if feasible, alongside those in South Korea’s Honam region. That month, the chipmaker listed its American depository receipts on the Nasdaq, broadening its access to American investors.\n\nThe potential deal with Intel could face scrutiny at home. Seoul holds that the decision would be up to SK Hynix, but any plan involving strategically important chip technology could trigger a government review under a law designed to prevent sensitive technology from being transferred overseas, according to Reuters.\n\nIntel and SK Hynix have done business before: In 2020, Intel sold its NAND flash-memory business to SK Hynix for $9 billion.\n\nIntel did not immediately respond to TechCrunch’s request for comment outside regular business hours.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Asia\n\nKate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+  "paragraphs": [
+    {
+      "text": "South Korean memory chip giant SK Hynix is in discussions with Intel to manufacture RAM chips in the U.S. for the first time, Reuters reported, citing anonymous sources.",
+      "heading": 0
+    },
+    {
+      "text": "The companies have reportedly discussed various options, one of which would have SK Hynix leasing space at Intel’s planned factory in Ohio to manufacture the chips. The chipmakers are also said to be considering a joint venture that could include cloud-service providers.",
+      "heading": 0
+    },
+    {
+      "text": "SK Hynix told TechCrunch on Wednesday that nothing has been finalized yet. “SK Hynix is exploring various options to strengthen its global competitiveness, but no specific plans or arrangements have been finalized at this time,” the Korean semiconductor company said in a statement. “No decisions have been made regarding the two scenarios mentioned in the article.”",
+      "heading": 0
+    },
+    {
+      "text": "The Korean chip giant, which has benefited massively from skyrocketing demand for high-bandwidth memory RAM chips used in data centers for AI applications, is already building a $3.8 billion advanced packaging and research facility for AI chips in West Lafayette, Indiana, with mass production expected to begin in 2029. The factory will use DRAM wafers made in South Korea and package them into HBM chips.",
+      "heading": 0
+    },
+    {
+      "text": "It remains unclear what types of memory chips the company would produce in Ohio if the deal goes through.",
+      "heading": 0
+    },
+    {
+      "text": "As a global chip shortage worsens, the Trump administration is seeking to expand production on American soil. The White House said in January that it could impose broader tariffs on semiconductor imports while offering tariff relief to companies investing in domestic manufacturing.",
+      "heading": 0
+    },
+    {
+      "text": "SK Group Chairman Chey Tae-won signaled support for U.S. chip production in July, saying the company should build factories in the U.S., if feasible, alongside those in South Korea’s Honam region. That month, the chipmaker listed its American depository receipts on the Nasdaq, broadening its access to American investors.",
+      "heading": 0
+    },
+    {
+      "text": "The potential deal with Intel could face scrutiny at home. Seoul holds that the decision would be up to SK Hynix, but any plan involving strategically important chip technology could trigger a government review under a law designed to prevent sensitive technology from being transferred overseas, according to Reuters.",
+      "heading": 0
+    },
+    {
+      "text": "Intel and SK Hynix have done business before: In 2020, Intel sold its NAND flash-memory business to SK Hynix for $9 billion.",
+      "heading": 0
+    },
+    {
+      "text": "Intel did not immediately respond to TechCrunch’s request for comment outside regular business hours.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Asia",
+      "heading": 1
+    },
+    {
+      "text": "Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+      "heading": 0
+    }
+  ]
+}

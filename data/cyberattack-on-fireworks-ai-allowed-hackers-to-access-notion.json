@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+  "slug": "cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+    "episode": ""
+  },
+  "words": 396,
+  "lines": 13,
+  "duration": 132,
+  "text": "A cyberattack at Fireworks AI has exposed some of its customers’ data, the company has confirmed. Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data.\n\nThe company said in its latest security advisory that the cybercriminals took Fireworks’ customers’ billing information and some datasets. Fireworks touts tens of thousands of customers worldwide using its platform, including legal tech company Harvey and AI company Cursor.\n\nAt least one confirmed affected customer is online document editor and notetaker Notion, which said in a disclosure that the breach affected around 1% of its own customers.\n\nNotion said that Fireworks alerted the company to a security incident and later confirmed that the hackers had stolen some Notion customer data. On November 3, Notion said it disconnected its systems from Fireworks, deleted the data stored in its systems, and stopped all connectivity between the two.\n\nNotion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature. The company said that the transcripts include “any input to or output from the model that was written to the chat,” but added that much of the data was unattributable and could not be determined from which customer it was obtained.\n\nThe breach at Fireworks AI shows how tech companies are reliant on other tech providers for their own offerings, and how cyberattacks can, as a result, spill over into other customers.\n\nFireworks said that it believes the hackers are financially motivated and that their goals are focused on selling tokens from breaching access to large language models, or LLMs. These schemes rely on selling to unauthorized third parties, who can burn through AI model usage without using their own resources.\n\nThis is the second breach affecting Fireworks in as many months, following a security incident in October.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSecurity Editor\n\nZack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.\n\nHe can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+  "paragraphs": [
+    {
+      "text": "A cyberattack at Fireworks AI has exposed some of its customers’ data, the company has confirmed. Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data.",
+      "heading": 0
+    },
+    {
+      "text": "The company said in its latest security advisory that the cybercriminals took Fireworks’ customers’ billing information and some datasets. Fireworks touts tens of thousands of customers worldwide using its platform, including legal tech company Harvey and AI company Cursor.",
+      "heading": 0
+    },
+    {
+      "text": "At least one confirmed affected customer is online document editor and notetaker Notion, which said in a disclosure that the breach affected around 1% of its own customers.",
+      "heading": 0
+    },
+    {
+      "text": "Notion said that Fireworks alerted the company to a security incident and later confirmed that the hackers had stolen some Notion customer data. On November 3, Notion said it disconnected its systems from Fireworks, deleted the data stored in its systems, and stopped all connectivity between the two.",
+      "heading": 0
+    },
+    {
+      "text": "Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature. The company said that the transcripts include “any input to or output from the model that was written to the chat,” but added that much of the data was unattributable and could not be determined from which customer it was obtained.",
+      "heading": 0
+    },
+    {
+      "text": "The breach at Fireworks AI shows how tech companies are reliant on other tech providers for their own offerings, and how cyberattacks can, as a result, spill over into other customers.",
+      "heading": 0
+    },
+    {
+      "text": "Fireworks said that it believes the hackers are financially motivated and that their goals are focused on selling tokens from breaching access to large language models, or LLMs. These schemes rely on selling to unauthorized third parties, who can burn through AI model usage without using their own resources.",
+      "heading": 0
+    },
+    {
+      "text": "This is the second breach affecting Fireworks in as many months, following a security incident in October.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Security Editor",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.",
+      "heading": 0
+    },
+    {
+      "text": "He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+      "heading": 0
+    }
+  ]
+}

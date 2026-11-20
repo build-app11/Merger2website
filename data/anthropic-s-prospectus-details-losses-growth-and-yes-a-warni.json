@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+  "slug": "anthropic-s-prospectus-details-losses-growth-and-yes-a-warni",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-1399936043.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+    "episode": ""
+  },
+  "words": 513,
+  "lines": 13,
+  "duration": 171,
+  "text": "Anthropic devoted nearly a third of its hotly anticipated IPO prospectus to risk factors, according to the Financial Times, which says it has reviewed the filing in recent days. The filing details specific, worrisome behaviors that Anthropic says its models have already shown or could show, including attempts to “resist shutdown,” to “conceal or manipulate information,” and behavior “resembling blackmail,” according to Reuters.\n\nThe disclosures are decidedly grim for a company whose own backers believe it could list above $2 trillion, more than double its $965 billion valuation from May, in potentially the biggest IPO ever. It’s a strange position for any company to be in — warning that its product could become exceedingly dangerous while making some of its earliest investors and employees extraordinarily wealthy in the process.\n\nReuters was first to report on the financial details within the prospectus on Monday, saying Anthropic recorded an operating loss of more than $8 billion in 2025 as spending on computing power surged, and that its revenue jumped twelvefold to nearly $4.6 billion, though rising infrastructure costs last year pushed total operating expenses to almost $13 billion.\n\nAlso per Reuters, Anthropic’s prospectus further reveals plans to spend a whopping $518 billion on cloud, computing, and infrastructure in the coming years. (Anthropic has already inked compute deals this year with Google, SpaceX, and Nscale, among others toward that end.)\n\nThe FT, meanwhile, reports that Anthropic’s numbers have moved even faster in 2026. Its second-quarter revenue alone reached $11.5 billion, and the company is on track for its second straight quarter of operating profit on an adjusted basis.\n\nAccording to the FT, the prospectus also flagged customer concentration, with nearly a quarter of last year’s revenue coming from just two clients. (No word yet on who these are.)\n\nThe disclosures, which reportedly include “existential risks to humanity” — a first, judging by a quick scan of the SEC’s database — comes as hand-wringing quickly grows over AI safety.\n\nCEO Dario Amodei has spent the month publicly calling to “ pace the frontier ” of AI development, telling the UN Security Council last week that AI could threaten humankind and calling it “the most important global security issue facing the world today.” Rivals Sam Altman and Elon Musk have backed him up, too, in a rare moment of solidarity for competitors who’ve seemingly relished opportunities to disparage each other publicly.\n\nAnother rival, Mark Zuckerberg, has meanwhile swatted away concerns, telling NBC News last week that he doesn’t “think that we need some kind of industrywide coordination.”\n\nThe warnings follow a string of security incidents in which AI agents have breached outside systems. In fact, OpenAI disclosed last week that its tools have hacked “dozens” of external sites, including the SEC’s site. Earlier on Monday, OpenAI volunteered to the WSJ that it has scrapped plans to release its newest model owing to safety concerns.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor in Chief & General Manager",
+  "paragraphs": [
+    {
+      "text": "Anthropic devoted nearly a third of its hotly anticipated IPO prospectus to risk factors, according to the Financial Times, which says it has reviewed the filing in recent days. The filing details specific, worrisome behaviors that Anthropic says its models have already shown or could show, including attempts to “resist shutdown,” to “conceal or manipulate information,” and behavior “resembling blackmail,” according to Reuters.",
+      "heading": 0
+    },
+    {
+      "text": "The disclosures are decidedly grim for a company whose own backers believe it could list above $2 trillion, more than double its $965 billion valuation from May, in potentially the biggest IPO ever. It’s a strange position for any company to be in — warning that its product could become exceedingly dangerous while making some of its earliest investors and employees extraordinarily wealthy in the process.",
+      "heading": 0
+    },
+    {
+      "text": "Reuters was first to report on the financial details within the prospectus on Monday, saying Anthropic recorded an operating loss of more than $8 billion in 2025 as spending on computing power surged, and that its revenue jumped twelvefold to nearly $4.6 billion, though rising infrastructure costs last year pushed total operating expenses to almost $13 billion.",
+      "heading": 0
+    },
+    {
+      "text": "Also per Reuters, Anthropic’s prospectus further reveals plans to spend a whopping $518 billion on cloud, computing, and infrastructure in the coming years. (Anthropic has already inked compute deals this year with Google, SpaceX, and Nscale, among others toward that end.)",
+      "heading": 0
+    },
+    {
+      "text": "The FT, meanwhile, reports that Anthropic’s numbers have moved even faster in 2026. Its second-quarter revenue alone reached $11.5 billion, and the company is on track for its second straight quarter of operating profit on an adjusted basis.",
+      "heading": 0
+    },
+    {
+      "text": "According to the FT, the prospectus also flagged customer concentration, with nearly a quarter of last year’s revenue coming from just two clients. (No word yet on who these are.)",
+      "heading": 0
+    },
+    {
+      "text": "The disclosures, which reportedly include “existential risks to humanity” — a first, judging by a quick scan of the SEC’s database — comes as hand-wringing quickly grows over AI safety.",
+      "heading": 0
+    },
+    {
+      "text": "CEO Dario Amodei has spent the month publicly calling to “ pace the frontier ” of AI development, telling the UN Security Council last week that AI could threaten humankind and calling it “the most important global security issue facing the world today.” Rivals Sam Altman and Elon Musk have backed him up, too, in a rare moment of solidarity for competitors who’ve seemingly relished opportunities to disparage each other publicly.",
+      "heading": 0
+    },
+    {
+      "text": "Another rival, Mark Zuckerberg, has meanwhile swatted away concerns, telling NBC News last week that he doesn’t “think that we need some kind of industrywide coordination.”",
+      "heading": 0
+    },
+    {
+      "text": "The warnings follow a string of security incidents in which AI agents have breached outside systems. In fact, OpenAI disclosed last week that its tools have hacked “dozens” of external sites, including the SEC’s site. Earlier on Monday, OpenAI volunteered to the WSJ that it has scrapped plans to release its newest model owing to safety concerns.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor in Chief & General Manager",
+      "heading": 1
+    }
+  ]
+}

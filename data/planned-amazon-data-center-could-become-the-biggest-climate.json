@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Planned Amazon data center could become the biggest climate polluter in the US",
+  "slug": "planned-amazon-data-center-could-become-the-biggest-climate",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-692150220.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+    "episode": ""
+  },
+  "words": 294,
+  "lines": 19,
+  "duration": 98,
+  "text": "Posted:\n\nAnthony Ha\n\nPlanned Amazon data center could become the biggest climate polluter in the US\n\nAs part of a planned data center in Pecos County, Texas, Amazon is investing in an on-site power plant that could become the largest source of climate pollution in the United States, according to The New York Times.\n\nThe NYT says the plant would burn natural gas and is permitted to release 33 million tons of carbon dioxide per year — more than any other power plant in the U.S.\n\nIn a statement, an Amazon spokesperson confirmed that the data center will “be powered by new on-site generation that won’t raise electricity costs for Texas families.” (Data centers face growing political opposition for a number of reasons, including their effect on electricity costs.)\n\nAI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040. And that could get worse as Amazon and tech companies back the development of huge natural gas plants to support their power-hungry data centers.\n\nThe Amazon spokesperson said, “The world looks different now than when we co-founded the climate pledge,” while also claiming, “Our commitment hasn’t changed.”\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Planned Amazon data center could become the biggest climate polluter in the US",
+      "heading": 0
+    },
+    {
+      "text": "As part of a planned data center in Pecos County, Texas, Amazon is investing in an on-site power plant that could become the largest source of climate pollution in the United States, according to The New York Times.",
+      "heading": 0
+    },
+    {
+      "text": "The NYT says the plant would burn natural gas and is permitted to release 33 million tons of carbon dioxide per year — more than any other power plant in the U.S.",
+      "heading": 0
+    },
+    {
+      "text": "In a statement, an Amazon spokesperson confirmed that the data center will “be powered by new on-site generation that won’t raise electricity costs for Texas families.” (Data centers face growing political opposition for a number of reasons, including their effect on electricity costs.)",
+      "heading": 0
+    },
+    {
+      "text": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040. And that could get worse as Amazon and tech companies back the development of huge natural gas plants to support their power-hungry data centers.",
+      "heading": 0
+    },
+    {
+      "text": "The Amazon spokesperson said, “The world looks different now than when we co-founded the climate pledge,” while also claiming, “Our commitment hasn’t changed.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

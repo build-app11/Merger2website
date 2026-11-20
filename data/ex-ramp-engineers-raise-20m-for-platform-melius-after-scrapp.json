@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+  "slug": "ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Melius.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+    "episode": ""
+  },
+  "words": 553,
+  "lines": 19,
+  "duration": 184,
+  "text": "Melius, an AI platform for generating ad campaigns, images, and videos, announced on Tuesday that it raised a total of $25 million in funding, including a $20 million Series A led by CRV and a $5 million seed round led by General Catalyst.\n\nWhile the startup claims to have hit more than $1 million in annualized revenue within two months of coming out of stealth in July, co-founder Joowon Kim (pictured on right) admits that Melius didn’t hit it out of the park initially.\n\nWhen the New York-based company first launched over a year ago, Kim and his co-founders, Young Kim (pictured on left) and Arnav Ramu (pictured center) set out to build an AI-powered performance marketing tool. The three knew each other from working as engineers at Ramp, the corporate spending and finance software company.\n\nMore than six months after building the product, the co-founders decided their original idea didn’t “have legs,” Joowon Kim told TechCrunch.\n\nInstead of helping marketers manage and optimize ad spend, the team chose to focus on what it saw as a much larger opportunity: building the tools that generate the creative assets and campaigns themselves.\n\n“We scrapped the entire codebase; we burned all of it,” Kim said. Melius quickly went to work on an entirely new product. Nearly a year after its initial launch, it revealed a platform that it describes as an “agents lab for creative work.”\n\nMelius is far from the only startup helping ad agencies, marketers, and brands generate creative assets and campaigns with AI. Competitors include rapidly growing Higgsfield, which was valued at $5.4 billion in August, as well as other small startups, including Krea and Flora AI.\n\nKim isn’t concerned about the competition.\n\nHe acknowledged that Higgsfield, a three-year-old company that has hit over $700 million in annualized revenue, “is growing like mad,” but according to Kim, the size of the market is so large that it can support multiple competitors.\n\n“There are a lot of players, which is pretty exciting,” he told TechCrunch. “That means there are customers to be won and there is demand in this space.”\n\nAs for why former Ramp engineers are building an ad-generation product, Kim, who describes himself as a social media influencer, says he has been passionate about making short videos since elementary school and once dreamed of becoming a famous YouTuber.\n\n“I tried my best to make vlogs,” he said. “My dad was great at using FinalCut Pro, but I wasn’t.”\n\nThose early vlogs never quite took off, but his fascination with making digital media remained.\n\nNow, with Melius, he’s building the tool he always wanted: a platform where anyone, including seasoned creative directors, can turn their ideas into reality using plain language.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Melius, an AI platform for generating ad campaigns, images, and videos, announced on Tuesday that it raised a total of $25 million in funding, including a $20 million Series A led by CRV and a $5 million seed round led by General Catalyst.",
+      "heading": 0
+    },
+    {
+      "text": "While the startup claims to have hit more than $1 million in annualized revenue within two months of coming out of stealth in July, co-founder Joowon Kim (pictured on right) admits that Melius didn’t hit it out of the park initially.",
+      "heading": 0
+    },
+    {
+      "text": "When the New York-based company first launched over a year ago, Kim and his co-founders, Young Kim (pictured on left) and Arnav Ramu (pictured center) set out to build an AI-powered performance marketing tool. The three knew each other from working as engineers at Ramp, the corporate spending and finance software company.",
+      "heading": 0
+    },
+    {
+      "text": "More than six months after building the product, the co-founders decided their original idea didn’t “have legs,” Joowon Kim told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Instead of helping marketers manage and optimize ad spend, the team chose to focus on what it saw as a much larger opportunity: building the tools that generate the creative assets and campaigns themselves.",
+      "heading": 0
+    },
+    {
+      "text": "“We scrapped the entire codebase; we burned all of it,” Kim said. Melius quickly went to work on an entirely new product. Nearly a year after its initial launch, it revealed a platform that it describes as an “agents lab for creative work.”",
+      "heading": 0
+    },
+    {
+      "text": "Melius is far from the only startup helping ad agencies, marketers, and brands generate creative assets and campaigns with AI. Competitors include rapidly growing Higgsfield, which was valued at $5.4 billion in August, as well as other small startups, including Krea and Flora AI.",
+      "heading": 0
+    },
+    {
+      "text": "Kim isn’t concerned about the competition.",
+      "heading": 0
+    },
+    {
+      "text": "He acknowledged that Higgsfield, a three-year-old company that has hit over $700 million in annualized revenue, “is growing like mad,” but according to Kim, the size of the market is so large that it can support multiple competitors.",
+      "heading": 0
+    },
+    {
+      "text": "“There are a lot of players, which is pretty exciting,” he told TechCrunch. “That means there are customers to be won and there is demand in this space.”",
+      "heading": 0
+    },
+    {
+      "text": "As for why former Ramp engineers are building an ad-generation product, Kim, who describes himself as a social media influencer, says he has been passionate about making short videos since elementary school and once dreamed of becoming a famous YouTuber.",
+      "heading": 0
+    },
+    {
+      "text": "“I tried my best to make vlogs,” he said. “My dad was great at using FinalCut Pro, but I wasn’t.”",
+      "heading": 0
+    },
+    {
+      "text": "Those early vlogs never quite took off, but his fascination with making digital media remained.",
+      "heading": 0
+    },
+    {
+      "text": "Now, with Melius, he’s building the tool he always wanted: a platform where anyone, including seasoned creative directors, can turn their ideas into reality using plain language.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

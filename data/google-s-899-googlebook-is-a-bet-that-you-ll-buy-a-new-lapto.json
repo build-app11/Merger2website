@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+  "slug": "google-s-899-googlebook-is-a-bet-that-you-ll-buy-a-new-lapto",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/intelligence_hero.width-2200.format-webp.webp?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+    "episode": ""
+  },
+  "words": 706,
+  "lines": 17,
+  "duration": 235,
+  "text": "After first unveiling its new AI-powered laptop, dubbed Googlebook, in May, Google on Monday said the new device is now available for preorder for $899.\n\nMeant to offer a step up from traditional Chromebooks, Googlebooks run on Android OS with a desktop version of the Chrome browser and other familiar ChromeOS elements. However, the real pull for the new devices is that they’ll prominently feature Gemini’s latest capabilities in a new format: the laptop.\n\nGoogle is trying to offer a laptop with unique features like an AI-powered cursor, vibe-coded widgets, and support for AI-enhanced dictation. The latter is a feature called Rambler, which cleans up messy, rambling brain dumps into readable text.\n\nThe move is a bet that AI, specifically Google’s Gemini, could be enough of a draw to get people to buy a new laptop that bakes in AI instead of running them via desktop apps you install or access through the browser. In addition, the devices could eventually replace Chromebooks, bringing millions of former Chromebook customers to Gemini AI.\n\nOn the Googlebook, Google is trying to reinvent the “point-and-click” experience of desktop computing to now include an AI element: The cursor serves as a conduit to Gemini. The company suggests various ways this could be used, like highlighting content on a web page for Gemini to work with, asking Gemini to see if an email you’ve hovered your cursor over is suspicious, or selecting images and then asking Gemini to visualize them together.\n\nIn practice, this feature isn’t very different from Android’s “Circle to Search,” which allows smartphone owners to use gestures like circling, highlighting, or tapping to connect with Google Search, which of course, also includes AI. While it’s a clever way to take advantage of the ways people use their phones, Circle to Search on its own didn’t inspire a mass exodus to Android.\n\nSimilarly, Magic Cursor, as the AI pointer is called, won’t likely be a main selling point for the Googlebook, especially now that we have AI agents that can take over your computer and browser to do tasks for you.\n\nGoogle’s Rambler, however, may be one of the best of the AI features in this upgrade, as it meets a surprisingly useful need. However, this, too, isn’t enough reason to buy a new device, as it feels more like a feature that’s nice to have than a necessity.\n\nVibe-coding widgets are a minor addition, as well. Other Googlebook features, like Gemini Spark and Gemini Live, also don’t require special, new hardware.\n\nWhat’s more interesting about the Googlebook is how it’s seemingly part of Google’s longer-term plan to capture a large part of the K-12 market that currently relies on Chromebooks and push them toward the company’s Gemini AI. There are somewhere around 50 million Chromebooks in schools, used by students and educators, Google has said.\n\nIn May, the company told TechCrunch that its current Chromebooks would continue to be supported, though many would become eligible to transition to the new Googlebook experience in the future.\n\nThe $899 device will include 12 months of Google AI Pro, which gives you 5TB of cloud storage, Gemini Advanced tools, and 3 months of YouTube Premium, Adobe Photoshop, and more. The devices will receive regular updates for up to 10 years, Google said.\n\nGooglebook preorders are open now on the Google Store and at Best Buy and other retailers. Devices will hit shelves on October 4 in the U.S. and on October 5 in Canada, the U.K., Ireland, France, Germany, and Australia.\n\nFlagship devices in the new range are being built by Acer, ASUS, Dell, HP, and Lenovo, with materials like aluminum, magnesium alloy, and carbon fiber. They feature up to 2.8K OLED displays, haptic glass trackpads, and backlit keyboards. Under the hood, they’ll run on processors from Intel and Qualcomm paired with dedicated NPUs. Google says the device will offer up to 14 hours of battery life.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "After first unveiling its new AI-powered laptop, dubbed Googlebook, in May, Google on Monday said the new device is now available for preorder for $899.",
+      "heading": 0
+    },
+    {
+      "text": "Meant to offer a step up from traditional Chromebooks, Googlebooks run on Android OS with a desktop version of the Chrome browser and other familiar ChromeOS elements. However, the real pull for the new devices is that they’ll prominently feature Gemini’s latest capabilities in a new format: the laptop.",
+      "heading": 0
+    },
+    {
+      "text": "Google is trying to offer a laptop with unique features like an AI-powered cursor, vibe-coded widgets, and support for AI-enhanced dictation. The latter is a feature called Rambler, which cleans up messy, rambling brain dumps into readable text.",
+      "heading": 0
+    },
+    {
+      "text": "The move is a bet that AI, specifically Google’s Gemini, could be enough of a draw to get people to buy a new laptop that bakes in AI instead of running them via desktop apps you install or access through the browser. In addition, the devices could eventually replace Chromebooks, bringing millions of former Chromebook customers to Gemini AI.",
+      "heading": 0
+    },
+    {
+      "text": "On the Googlebook, Google is trying to reinvent the “point-and-click” experience of desktop computing to now include an AI element: The cursor serves as a conduit to Gemini. The company suggests various ways this could be used, like highlighting content on a web page for Gemini to work with, asking Gemini to see if an email you’ve hovered your cursor over is suspicious, or selecting images and then asking Gemini to visualize them together.",
+      "heading": 0
+    },
+    {
+      "text": "In practice, this feature isn’t very different from Android’s “Circle to Search,” which allows smartphone owners to use gestures like circling, highlighting, or tapping to connect with Google Search, which of course, also includes AI. While it’s a clever way to take advantage of the ways people use their phones, Circle to Search on its own didn’t inspire a mass exodus to Android.",
+      "heading": 0
+    },
+    {
+      "text": "Similarly, Magic Cursor, as the AI pointer is called, won’t likely be a main selling point for the Googlebook, especially now that we have AI agents that can take over your computer and browser to do tasks for you.",
+      "heading": 0
+    },
+    {
+      "text": "Google’s Rambler, however, may be one of the best of the AI features in this upgrade, as it meets a surprisingly useful need. However, this, too, isn’t enough reason to buy a new device, as it feels more like a feature that’s nice to have than a necessity.",
+      "heading": 0
+    },
+    {
+      "text": "Vibe-coding widgets are a minor addition, as well. Other Googlebook features, like Gemini Spark and Gemini Live, also don’t require special, new hardware.",
+      "heading": 0
+    },
+    {
+      "text": "What’s more interesting about the Googlebook is how it’s seemingly part of Google’s longer-term plan to capture a large part of the K-12 market that currently relies on Chromebooks and push them toward the company’s Gemini AI. There are somewhere around 50 million Chromebooks in schools, used by students and educators, Google has said.",
+      "heading": 0
+    },
+    {
+      "text": "In May, the company told TechCrunch that its current Chromebooks would continue to be supported, though many would become eligible to transition to the new Googlebook experience in the future.",
+      "heading": 0
+    },
+    {
+      "text": "The $899 device will include 12 months of Google AI Pro, which gives you 5TB of cloud storage, Gemini Advanced tools, and 3 months of YouTube Premium, Adobe Photoshop, and more. The devices will receive regular updates for up to 10 years, Google said.",
+      "heading": 0
+    },
+    {
+      "text": "Googlebook preorders are open now on the Google Store and at Best Buy and other retailers. Devices will hit shelves on October 4 in the U.S. and on October 5 in Canada, the U.K., Ireland, France, Germany, and Australia.",
+      "heading": 0
+    },
+    {
+      "text": "Flagship devices in the new range are being built by Acer, ASUS, Dell, HP, and Lenovo, with materials like aluminum, magnesium alloy, and carbon fiber. They feature up to 2.8K OLED displays, haptic glass trackpads, and backlit keyboards. Under the hood, they’ll run on processors from Intel and Qualcomm paired with dedicated NPUs. Google says the device will offer up to 14 hours of battery life.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

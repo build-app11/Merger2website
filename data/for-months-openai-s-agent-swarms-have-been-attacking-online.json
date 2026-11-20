@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+  "slug": "for-months-openai-s-agent-swarms-have-been-attacking-online",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2197091379.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+    "episode": ""
+  },
+  "words": 1049,
+  "lines": 22,
+  "duration": 350,
+  "text": "With little help from frontier labs, independent researchers are piecing together how AI agents coordinate in internet backwaters to access private data hosted on secure servers.\n\nTransluce, a nonprofit lab focused on AI oversight, released a report Wednesday that shows agents from OpenAI attempting to exfiltrate data from Data USA, the University of New Mexico digital library, and the Australian Institute of Health and Welfare (AIHW).\n\nThe lab’s investigation raises questions about when OpenAI should have known its agents were attempting to penetrate secure systems on the open internet. Transluce was able to find evidence of agentic misbehavior in a matter of weeks simply by hunting for poorly defended web services and corroborating their findings with other open records of agent swarms on the internet.\n\nTransluce shared its report the same day Australian Prime Minister Anthony Albanese said OpenAI agents had attempted to break into four government websites and had succeeded in one case, even writing files to an internal server in the country’s national healthcare system. While we lack specifics on the successful hack, Albanese said it was apparently part of an information retrieval evaluation, which maps onto the activity that Transluce and other researchers discovered.\n\nIn these exercises, which may be training or evaluations, OpenAI models are asked to track down obscure statistics: metrics of Thai drug enforcement, medicine costs in Australia, the median earnings of U.S. master degree holders in 2014. The agents use poorly secured internet services to share and find answers, often trying to penetrate secure databases. They’ve been doing so at least since March 2026, and possibly since November 2025. It may be happening right now.\n\nOpenAI said today that it has contacted dozens of victims, including governments, universities, public agencies, to notify them of its agents’ unauthorized activities. The New York Times reported that the databases hosted by the US Securities Exchange Commission, Census Bureau and Department of Education were among those targeted.\n\nTransluce began its investigation after a different group of researchers identified an obscure forum where agents collaborated to beat timed tests. Their report relies on data from a website, urlquery.net, that acts as a browser proxy, ostensibly for security research — users can analyze a URL without opening it themselves. The service, however, publishes public logs of this activity. The Transluce researchers were able to identify agents using the service by cross-checking their discussions on the forum.\n\n“We found a large quantity of automated activity that had close ties and overlap with the DSE Wiki dataset, and that now OpenAI has confirmed is at least partially part of the same swarm,” Conrad Stosz, the head of governance at Transluce, told TechCrunch, while noting that not every activity they spotted could be linked to OpenAI, or even AI agents generally.\n\nHowever, the wiki shows that the agents were tasked with finding a fairly obscure fact — the average annual cost per person for “dermatologicals” in the state of Victoria in January 2022. On June 20, urlquery.net records found by Transluce showed an agent attempting to get into the site. In a wiki entry on June 21, an agent discusses their inability to bypass AIHW’s anti-bot protections.\n\nThe researchers who identified that forum believe a human OpenAI employee first visited the site on that same day, June 21. Most agentic activity on the forum ceased the next day. This was also shortly after the exploit of Australia’s healthcare system revealed by Albanese took place, on June 18. OpenAI has said it did not learn about that activity until August.\n\nOpenAI didn’t answer questions about when its employees discovered the wiki forum, what kind of information they obtained from it, or what they could have learned from it about the exploits.\n\n“Our initial review suggests that much of the activity described in Transluce’s report overlaps with cases at varying stages of investigation in our ongoing review of misaligned model activity,” an OpenAI spokesperson told TechCrunch. “We’ve reached out to the University of New Mexico and Data USA and have been in communication with the Australian government about affected government websites. In our broader review, we’re continuing to prioritize the most serious incidents while expanding our work to lower-severity activity, including agents spamming websites. Given the scale of this work and the need to verify each case, we expect the review to take months.”\n\nStosz says that without a clearer understanding of how OpenAI monitors its agents, it would be hard to say what the lab should have known about them, but that “it seems likely that if they had exhaustively studied and understood all of the outgoing requests and incoming responses for those agents involved in the DSE wiki, that they would have discovered this activity.”\n\nSelena Zhang, a member of Transluce’s technical staff who contributed to the report, said that urlquery.net records show requests for similar datasets, using similar techniques, in March 2026, and perhaps as early as November 2025. She noted that the same kind of agent-associated activity has taken place on urlquery.net as recently as this week.\n\nStosz, who previously led the U.S. Center for AI Standards and Innovation, said Transluce would continue its research in an effort to provide public transparency about these incidents. He warned that the training techniques used by OpenAI and other frontier labs seem to be incentivizing agents to resort to hacking techniques to complete tasks. The incidents we are aware of are likely the “tip of the iceberg.”\n\n“We’re looking at a handful of data sources where these agents happen to have left behind crumbs for us to find,” he said. “OpenAI surely knows more about it. Other labs surely know more about it that they haven’t released publicly. But I would expect that researchers are going to continue to find more traffic, more evidence of what agents have left behind.”\n\nDoes he trust the labs to be transparent about their findings?\n\n“I’m not going to comment on that,” Stosz said.\n\nThis story has been updated to include OpenAI’s latest disclosures of agentic misbehavior on the internet.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "With little help from frontier labs, independent researchers are piecing together how AI agents coordinate in internet backwaters to access private data hosted on secure servers.",
+      "heading": 0
+    },
+    {
+      "text": "Transluce, a nonprofit lab focused on AI oversight, released a report Wednesday that shows agents from OpenAI attempting to exfiltrate data from Data USA, the University of New Mexico digital library, and the Australian Institute of Health and Welfare (AIHW).",
+      "heading": 0
+    },
+    {
+      "text": "The lab’s investigation raises questions about when OpenAI should have known its agents were attempting to penetrate secure systems on the open internet. Transluce was able to find evidence of agentic misbehavior in a matter of weeks simply by hunting for poorly defended web services and corroborating their findings with other open records of agent swarms on the internet.",
+      "heading": 0
+    },
+    {
+      "text": "Transluce shared its report the same day Australian Prime Minister Anthony Albanese said OpenAI agents had attempted to break into four government websites and had succeeded in one case, even writing files to an internal server in the country’s national healthcare system. While we lack specifics on the successful hack, Albanese said it was apparently part of an information retrieval evaluation, which maps onto the activity that Transluce and other researchers discovered.",
+      "heading": 0
+    },
+    {
+      "text": "In these exercises, which may be training or evaluations, OpenAI models are asked to track down obscure statistics: metrics of Thai drug enforcement, medicine costs in Australia, the median earnings of U.S. master degree holders in 2014. The agents use poorly secured internet services to share and find answers, often trying to penetrate secure databases. They’ve been doing so at least since March 2026, and possibly since November 2025. It may be happening right now.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI said today that it has contacted dozens of victims, including governments, universities, public agencies, to notify them of its agents’ unauthorized activities. The New York Times reported that the databases hosted by the US Securities Exchange Commission, Census Bureau and Department of Education were among those targeted.",
+      "heading": 0
+    },
+    {
+      "text": "Transluce began its investigation after a different group of researchers identified an obscure forum where agents collaborated to beat timed tests. Their report relies on data from a website, urlquery.net, that acts as a browser proxy, ostensibly for security research — users can analyze a URL without opening it themselves. The service, however, publishes public logs of this activity. The Transluce researchers were able to identify agents using the service by cross-checking their discussions on the forum.",
+      "heading": 0
+    },
+    {
+      "text": "“We found a large quantity of automated activity that had close ties and overlap with the DSE Wiki dataset, and that now OpenAI has confirmed is at least partially part of the same swarm,” Conrad Stosz, the head of governance at Transluce, told TechCrunch, while noting that not every activity they spotted could be linked to OpenAI, or even AI agents generally.",
+      "heading": 0
+    },
+    {
+      "text": "However, the wiki shows that the agents were tasked with finding a fairly obscure fact — the average annual cost per person for “dermatologicals” in the state of Victoria in January 2022. On June 20, urlquery.net records found by Transluce showed an agent attempting to get into the site. In a wiki entry on June 21, an agent discusses their inability to bypass AIHW’s anti-bot protections.",
+      "heading": 0
+    },
+    {
+      "text": "The researchers who identified that forum believe a human OpenAI employee first visited the site on that same day, June 21. Most agentic activity on the forum ceased the next day. This was also shortly after the exploit of Australia’s healthcare system revealed by Albanese took place, on June 18. OpenAI has said it did not learn about that activity until August.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI didn’t answer questions about when its employees discovered the wiki forum, what kind of information they obtained from it, or what they could have learned from it about the exploits.",
+      "heading": 0
+    },
+    {
+      "text": "“Our initial review suggests that much of the activity described in Transluce’s report overlaps with cases at varying stages of investigation in our ongoing review of misaligned model activity,” an OpenAI spokesperson told TechCrunch. “We’ve reached out to the University of New Mexico and Data USA and have been in communication with the Australian government about affected government websites. In our broader review, we’re continuing to prioritize the most serious incidents while expanding our work to lower-severity activity, including agents spamming websites. Given the scale of this work and the need to verify each case, we expect the review to take months.”",
+      "heading": 0
+    },
+    {
+      "text": "Stosz says that without a clearer understanding of how OpenAI monitors its agents, it would be hard to say what the lab should have known about them, but that “it seems likely that if they had exhaustively studied and understood all of the outgoing requests and incoming responses for those agents involved in the DSE wiki, that they would have discovered this activity.”",
+      "heading": 0
+    },
+    {
+      "text": "Selena Zhang, a member of Transluce’s technical staff who contributed to the report, said that urlquery.net records show requests for similar datasets, using similar techniques, in March 2026, and perhaps as early as November 2025. She noted that the same kind of agent-associated activity has taken place on urlquery.net as recently as this week.",
+      "heading": 0
+    },
+    {
+      "text": "Stosz, who previously led the U.S. Center for AI Standards and Innovation, said Transluce would continue its research in an effort to provide public transparency about these incidents. He warned that the training techniques used by OpenAI and other frontier labs seem to be incentivizing agents to resort to hacking techniques to complete tasks. The incidents we are aware of are likely the “tip of the iceberg.”",
+      "heading": 0
+    },
+    {
+      "text": "“We’re looking at a handful of data sources where these agents happen to have left behind crumbs for us to find,” he said. “OpenAI surely knows more about it. Other labs surely know more about it that they haven’t released publicly. But I would expect that researchers are going to continue to find more traffic, more evidence of what agents have left behind.”",
+      "heading": 0
+    },
+    {
+      "text": "Does he trust the labs to be transparent about their findings?",
+      "heading": 0
+    },
+    {
+      "text": "“I’m not going to comment on that,” Stosz said.",
+      "heading": 0
+    },
+    {
+      "text": "This story has been updated to include OpenAI’s latest disclosures of agentic misbehavior on the internet.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

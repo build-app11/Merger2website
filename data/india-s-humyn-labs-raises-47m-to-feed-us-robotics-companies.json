@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+  "slug": "india-s-humyn-labs-raises-47m-to-feed-us-robotics-companies",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/humyn-labs-co-founders_164602.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+    "episode": ""
+  },
+  "words": 683,
+  "lines": 18,
+  "duration": 228,
+  "text": "As demand grows for real-world data to train robots, India’s Humyn Labs has raised $47 million in Series A financing to help U.S. AI and robotics companies build models that can operate in physical environments.\n\nThe funding comprises $26 million in equity led by Accel, with participation from Prosus Ventures, BeeGlobal, Bajaj Finance’s Finserv Intelligence and Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, and Jump Trading. It also includes $21 million in venture debt led by Lighthouse Canton, with participation from Trifecta Capital.\n\nCompanies around the world are trying to build robots capable of performing everyday human tasks, but getting enough quality data to train them remains difficult. Startups, including Mecka AI, XDOF, and MicroAGI, are already tackling the problem by collecting real-world data for robotics training. Bengaluru-based Humyn Labs aims to compete with them.\n\nHumyn Labs has developed its own two-camera hardware to record people performing everyday tasks. It then uses its software to process and label the footage, which means tagging what happens in each clip so AI can learn from it. The startup collects data across over 20 countries in Latin America and Asia, with Brazil, India, and South Korea serving as its main hubs, co-founder Manish Agarwal (pictured above, right) said in an interview.\n\nAgarwal, the former CEO of Indian gaming company Nazara Technologies, founded Humyn Labs in February with Ishank Gupta (pictured above, left), a former executive at the brewing giant AB InBev. The duo previously founded Kratos Studios, now known as KGeN. KGeN has a network of contributors across emerging markets, and that network helps Humyn Labs collect data in people’s homes, the founders told TechCrunch.\n\nCollecting footage of human activity is only part of the challenge, Agarwal said. He added that Humyn Labs also uses software to track hand movements, interactions with objects, and other details, turning raw recordings into data that AI models can learn from.\n\n“Scale, diversity, and quality are important aspects, and they need to work in tandem,” Agarwal said.\n\nHumyn Labs says it has 12 paying customers, including frontier AI labs, robotics companies, and developers of world models. About 90% of its revenue comes from the U.S., Gupta said, though he declined to name specific customers.\n\nThe startup generated $10 million in revenue between April and October and has another $20 million in signed contracts, Agarwal told TechCrunch, adding that a further $20 million in deals has yet to be finalized.\n\nThat growth has also increased Humyn Labs’ need for working capital, Agarwal said, explaining the $21 million venture debt component. The startup pays workers and data collection partners daily or weekly but typically waits 30 to 60 days to receive payments from its AI lab customers. Borrowing helps bridge that gap and is less dilutive than selling more equity, he said.\n\nOver the last few months, India has emerged as a hub for collecting training data for so-called physical AI, with startups, including Human Archive and BuildAI, tapping into the country’s large workforce to record people performing everyday tasks. However, the practice has also raised questions about privacy and consent, particularly when people are recorded inside their homes.\n\nAgarwal said Humyn Labs collects data from people doing their usual work or household chores instead of asking them to perform staged activities. The startup works with local partners to identify collection sites and oversee the process. “The worker is a worker who is incentivized, but he needs to be monitored and supervised for the right input,” he stated.\n\nHumyn Labs currently has 51 full-time employees, most based in Bengaluru, plus a network of local partners across the countries where it collects data, Agarwal said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "As demand grows for real-world data to train robots, India’s Humyn Labs has raised $47 million in Series A financing to help U.S. AI and robotics companies build models that can operate in physical environments.",
+      "heading": 0
+    },
+    {
+      "text": "The funding comprises $26 million in equity led by Accel, with participation from Prosus Ventures, BeeGlobal, Bajaj Finance’s Finserv Intelligence and Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, and Jump Trading. It also includes $21 million in venture debt led by Lighthouse Canton, with participation from Trifecta Capital.",
+      "heading": 0
+    },
+    {
+      "text": "Companies around the world are trying to build robots capable of performing everyday human tasks, but getting enough quality data to train them remains difficult. Startups, including Mecka AI, XDOF, and MicroAGI, are already tackling the problem by collecting real-world data for robotics training. Bengaluru-based Humyn Labs aims to compete with them.",
+      "heading": 0
+    },
+    {
+      "text": "Humyn Labs has developed its own two-camera hardware to record people performing everyday tasks. It then uses its software to process and label the footage, which means tagging what happens in each clip so AI can learn from it. The startup collects data across over 20 countries in Latin America and Asia, with Brazil, India, and South Korea serving as its main hubs, co-founder Manish Agarwal (pictured above, right) said in an interview.",
+      "heading": 0
+    },
+    {
+      "text": "Agarwal, the former CEO of Indian gaming company Nazara Technologies, founded Humyn Labs in February with Ishank Gupta (pictured above, left), a former executive at the brewing giant AB InBev. The duo previously founded Kratos Studios, now known as KGeN. KGeN has a network of contributors across emerging markets, and that network helps Humyn Labs collect data in people’s homes, the founders told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Collecting footage of human activity is only part of the challenge, Agarwal said. He added that Humyn Labs also uses software to track hand movements, interactions with objects, and other details, turning raw recordings into data that AI models can learn from.",
+      "heading": 0
+    },
+    {
+      "text": "“Scale, diversity, and quality are important aspects, and they need to work in tandem,” Agarwal said.",
+      "heading": 0
+    },
+    {
+      "text": "Humyn Labs says it has 12 paying customers, including frontier AI labs, robotics companies, and developers of world models. About 90% of its revenue comes from the U.S., Gupta said, though he declined to name specific customers.",
+      "heading": 0
+    },
+    {
+      "text": "The startup generated $10 million in revenue between April and October and has another $20 million in signed contracts, Agarwal told TechCrunch, adding that a further $20 million in deals has yet to be finalized.",
+      "heading": 0
+    },
+    {
+      "text": "That growth has also increased Humyn Labs’ need for working capital, Agarwal said, explaining the $21 million venture debt component. The startup pays workers and data collection partners daily or weekly but typically waits 30 to 60 days to receive payments from its AI lab customers. Borrowing helps bridge that gap and is less dilutive than selling more equity, he said.",
+      "heading": 0
+    },
+    {
+      "text": "Over the last few months, India has emerged as a hub for collecting training data for so-called physical AI, with startups, including Human Archive and BuildAI, tapping into the country’s large workforce to record people performing everyday tasks. However, the practice has also raised questions about privacy and consent, particularly when people are recorded inside their homes.",
+      "heading": 0
+    },
+    {
+      "text": "Agarwal said Humyn Labs collects data from people doing their usual work or household chores instead of asking them to perform staged activities. The startup works with local partners to identify collection sites and oversee the process. “The worker is a worker who is incentivized, but he needs to be monitored and supervised for the right input,” he stated.",
+      "heading": 0
+    },
+    {
+      "text": "Humyn Labs currently has 51 full-time employees, most based in Bengaluru, plus a network of local partners across the countries where it collects data, Agarwal said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

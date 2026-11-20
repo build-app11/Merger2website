@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Hark releases an AI personal assistant with a focus on privacy",
+  "slug": "hark-releases-an-ai-personal-assistant-with-a-focus-on-priva",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Hark-Panels.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+    "episode": ""
+  },
+  "words": 833,
+  "lines": 20,
+  "duration": 278,
+  "text": "From Muse to Instinct to Dots, tech firms are hunting for the user experience that will make an AI personal assistant a must-have product.\n\nHark, a startup founded less than a year ago by serial founder Brett Adcock, is throwing its hat in the ring today with the wide release of Hark Pro. Users can access the service for free, with a subscription tier for heavy users.\n\nThe company sees its mission as building a user interface for AI, not creating AGI or curing cancer. The foundation is a model trained specifically for computer use, and that’s what Hark Pro does — it uses your computer for you.\n\nThat’s perhaps a less ambitious claim than some frontier labs are making, but a little humility goes a long way in winning over users. And rather than an app, Hark’s goal is to create an operating system for the AI computers of our future.\n\nHark Pro is a full-screen experience with a kind of homepage, featuring a central chat dialog and a feed populated by prompts for actions you might need it to take and visualizations the company calls “panels” that offer mini-dashboards for things you’re interested in. The background is a piece of custom imagery tailored to the weather and time where you are.\n\nLike other AI assistants, users configure it to access their digital life — email, calendar, hard drive, credit cards, etc. Then, it can take on digital tasks as well as fielding classic chatbot questions.\n\nAbidur Chowdhury, a former Apple staffer who leads design at Hark, demoed the product for me. It proactively asked him about expenses he needed to approve, emails he needed to respond to, a meeting with this reporter, and, of course, pointed out that he needed to book a flight for a trip and offered to take care of it. (“I know the flight thing is put to death,” he admits, grinning.)\n\nThat does get at the challenge with these apps: One of the harder things for users is actually coming up with useful tasks they are capable of accomplishing. Chowdhury says he was impressed when the AI assistant recently recognized that one of his colleagues needed to renew their car registration at the California DMV, and handled it through the agency’s website.\n\nOne notable UX choice that Hark makes is showing the user how the agent navigates the web in a small window, an action most AI assistants perform without it surfacing in the app, which Chowdhury says is intended to build trust with users that the agent is doing the right thing.\n\nThat matters because part of Hark’s pitch is that they are not Meta or OpenAI — “we’re not here to like sell you ads and steal your data,” Chowdhury says. To truly leverage these models, users will need to share their entire digital lives. Beyond very real cybersecurity concerns, will users be comfortable with a company like Meta having its products create detailed profiles of their friends and family?\n\nAsked about that kind of profiling, Chowdhury says that “we are doing work to understand you, and be helpful for what you need, but it’s really like task-related — it’s really about how Hark can help take something off your plate and be useful.”\n\nWhat sets Hark Pro apart from its competitors, Chowdhury says, is its effort to fully subsitute for your computer, but also his belief that it just works better.\n\n“Please compare it to the others, be critical,” he says. “It might not be faster than Muse, but it will give you a better result, and it will work end-to-end instead of asking you to take over at a point.”\n\nOne open question is what kind of model best suits the AI personal assistant. Hark’s is explicitly trained for computer use, which makes it faster and cheaper at those tasks, but it’s not clear how much it is trading away the broader knowledge and capability of a frontier LLM.\n\nThis software is only half the promise of Hark; Chowdhury made his name designing devices at Apple and Hark promises to release an AI-native device to support its software in 2027.\n\nThey’re still cagey about the form it will take, with Chowdhury bemoaning the “creep factor” of wearable cameras. “I will give you this: The first product that we’re building is a product that’s never ever existed before,” he says. We’ll have to wait and see if this is mere hype and Hark puts out some retread tech instead of a truly novel product.\n\n“It’s so hilarious to me that you have AI now, you have a chatbot, and you type stuff in with a keyboard,” Chowdhury says. “Fifty years later and the future of computing is still a terminal.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "From Muse to Instinct to Dots, tech firms are hunting for the user experience that will make an AI personal assistant a must-have product.",
+      "heading": 0
+    },
+    {
+      "text": "Hark, a startup founded less than a year ago by serial founder Brett Adcock, is throwing its hat in the ring today with the wide release of Hark Pro. Users can access the service for free, with a subscription tier for heavy users.",
+      "heading": 0
+    },
+    {
+      "text": "The company sees its mission as building a user interface for AI, not creating AGI or curing cancer. The foundation is a model trained specifically for computer use, and that’s what Hark Pro does — it uses your computer for you.",
+      "heading": 0
+    },
+    {
+      "text": "That’s perhaps a less ambitious claim than some frontier labs are making, but a little humility goes a long way in winning over users. And rather than an app, Hark’s goal is to create an operating system for the AI computers of our future.",
+      "heading": 0
+    },
+    {
+      "text": "Hark Pro is a full-screen experience with a kind of homepage, featuring a central chat dialog and a feed populated by prompts for actions you might need it to take and visualizations the company calls “panels” that offer mini-dashboards for things you’re interested in. The background is a piece of custom imagery tailored to the weather and time where you are.",
+      "heading": 0
+    },
+    {
+      "text": "Like other AI assistants, users configure it to access their digital life — email, calendar, hard drive, credit cards, etc. Then, it can take on digital tasks as well as fielding classic chatbot questions.",
+      "heading": 0
+    },
+    {
+      "text": "Abidur Chowdhury, a former Apple staffer who leads design at Hark, demoed the product for me. It proactively asked him about expenses he needed to approve, emails he needed to respond to, a meeting with this reporter, and, of course, pointed out that he needed to book a flight for a trip and offered to take care of it. (“I know the flight thing is put to death,” he admits, grinning.)",
+      "heading": 0
+    },
+    {
+      "text": "That does get at the challenge with these apps: One of the harder things for users is actually coming up with useful tasks they are capable of accomplishing. Chowdhury says he was impressed when the AI assistant recently recognized that one of his colleagues needed to renew their car registration at the California DMV, and handled it through the agency’s website.",
+      "heading": 0
+    },
+    {
+      "text": "One notable UX choice that Hark makes is showing the user how the agent navigates the web in a small window, an action most AI assistants perform without it surfacing in the app, which Chowdhury says is intended to build trust with users that the agent is doing the right thing.",
+      "heading": 0
+    },
+    {
+      "text": "That matters because part of Hark’s pitch is that they are not Meta or OpenAI — “we’re not here to like sell you ads and steal your data,” Chowdhury says. To truly leverage these models, users will need to share their entire digital lives. Beyond very real cybersecurity concerns, will users be comfortable with a company like Meta having its products create detailed profiles of their friends and family?",
+      "heading": 0
+    },
+    {
+      "text": "Asked about that kind of profiling, Chowdhury says that “we are doing work to understand you, and be helpful for what you need, but it’s really like task-related — it’s really about how Hark can help take something off your plate and be useful.”",
+      "heading": 0
+    },
+    {
+      "text": "What sets Hark Pro apart from its competitors, Chowdhury says, is its effort to fully subsitute for your computer, but also his belief that it just works better.",
+      "heading": 0
+    },
+    {
+      "text": "“Please compare it to the others, be critical,” he says. “It might not be faster than Muse, but it will give you a better result, and it will work end-to-end instead of asking you to take over at a point.”",
+      "heading": 0
+    },
+    {
+      "text": "One open question is what kind of model best suits the AI personal assistant. Hark’s is explicitly trained for computer use, which makes it faster and cheaper at those tasks, but it’s not clear how much it is trading away the broader knowledge and capability of a frontier LLM.",
+      "heading": 0
+    },
+    {
+      "text": "This software is only half the promise of Hark; Chowdhury made his name designing devices at Apple and Hark promises to release an AI-native device to support its software in 2027.",
+      "heading": 0
+    },
+    {
+      "text": "They’re still cagey about the form it will take, with Chowdhury bemoaning the “creep factor” of wearable cameras. “I will give you this: The first product that we’re building is a product that’s never ever existed before,” he says. We’ll have to wait and see if this is mere hype and Hark puts out some retread tech instead of a truly novel product.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s so hilarious to me that you have AI now, you have a chatbot, and you type stuff in with a keyboard,” Chowdhury says. “Fifty years later and the future of computing is still a terminal.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

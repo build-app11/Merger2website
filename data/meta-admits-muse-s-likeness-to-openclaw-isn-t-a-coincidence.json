@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+  "slug": "meta-admits-muse-s-likeness-to-openclaw-isn-t-a-coincidence",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+    "episode": ""
+  },
+  "words": 606,
+  "lines": 16,
+  "duration": 202,
+  "text": "Early adopters of Meta’s Muse have been speculating that the reason the AI works so well is because it’s OpenClaw under the hood, wrapped in a more consumer-friendly package. Meta now says those comparisons aren’t entirely off-base. According to an X post by Nat Friedman, head of product at Meta’s Superintelligence Labs (MSL), Muse was “definitely heavily inspired as a product by OpenClaw.”\n\nHowever, he clarified that Muse itself was “built from scratch.”\n\nFriedman, the former GitHub CEO who joined Meta last year alongside Meta’s Chief AI Officer Alexandr Wang, said that the team at Meta had fallen in love with OpenClaw and wanted Muse to be “something like OpenClaw” that could be scaled to billions of people.\n\nBecause OpenClaw is an open source project, it wouldn’t be surprising that Meta looked to it for inspiration, especially given its breakout success, which prompted OpenAI to snatch up its creator earlier this year. However, it speaks to Meta’s well-known playbook that involves taking promising products, then copying their best features — something it did most notoriously with Snapchat’s invention of the stories format.\n\nFriedman’s statement on X was made in response to a post that had gone viral among the AI crowd, where Ansh Nanda, an AI app co-founder, claimed that “Muse is LITERALLY OpenClaw for normies.”\n\nNanda’s X post had included a conversation with Muse, where the AI agent said that the similarity between its own system files and those belonging to OpenClaw was not just “a coincidence” but rather “a match.”\n\nSoon, this thread (and X more broadly) began blowing up as others shared their own comparisons and findings. For instance, one person pointed out that Muse also had a SOUL.md file, the plain text configuration file (written in a simple formatting language called Markdown) that defines an AI agent’s personality, communication style and tone, values, behavioral boundaries, and expertise.\n\nA third noted that the files weren’t just named the same between the two assistants; their content was almost entirely the same.\n\nFollowing his X post, Friedman also responded to a question about why Muse had copied the exact file names that made up the AI agent’s workspace and had “nearly identical content” for the SOUL.md file. Instead of disputing these claims, Friedman simply replied that “we thought that Peter [Steinberger, OpenClaw’s creator] got those things exactly right.”\n\n“We built Muse from scratch, but it is definitely heavily inspired as a product by OpenClaw. After I used OpenClaw in January, I bought hundreds of Mac minis for the MSL team, and lots of us fell in love with using OpenClaw (and other personal agents), Friedman said on X. (TechCrunch has corrected Friedman’s punctuation for readability.)\n\n“@steipete [Peter Steinberger] is a genius, and his harness was pioneering from the jump. I think a lot of people were inspired by it. Our goal with Muse was to build something like OpenClaw that we could make safe and secure and easy to use and scale to billions of people,” he wrote.\n\nThe Muse app has been something of a hit so far, having recently hit No. 1 on the U.S. App Store. Data indicates that it’s now outpacing ChatGPT’s launch when the platforms and market availability are compared directly.\n\nReached for comment, a Meta spokesperson pointed to Friedman’s statement, saying the company had nothing more to add beyond that.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Early adopters of Meta’s Muse have been speculating that the reason the AI works so well is because it’s OpenClaw under the hood, wrapped in a more consumer-friendly package. Meta now says those comparisons aren’t entirely off-base. According to an X post by Nat Friedman, head of product at Meta’s Superintelligence Labs (MSL), Muse was “definitely heavily inspired as a product by OpenClaw.”",
+      "heading": 0
+    },
+    {
+      "text": "However, he clarified that Muse itself was “built from scratch.”",
+      "heading": 1
+    },
+    {
+      "text": "Friedman, the former GitHub CEO who joined Meta last year alongside Meta’s Chief AI Officer Alexandr Wang, said that the team at Meta had fallen in love with OpenClaw and wanted Muse to be “something like OpenClaw” that could be scaled to billions of people.",
+      "heading": 0
+    },
+    {
+      "text": "Because OpenClaw is an open source project, it wouldn’t be surprising that Meta looked to it for inspiration, especially given its breakout success, which prompted OpenAI to snatch up its creator earlier this year. However, it speaks to Meta’s well-known playbook that involves taking promising products, then copying their best features — something it did most notoriously with Snapchat’s invention of the stories format.",
+      "heading": 0
+    },
+    {
+      "text": "Friedman’s statement on X was made in response to a post that had gone viral among the AI crowd, where Ansh Nanda, an AI app co-founder, claimed that “Muse is LITERALLY OpenClaw for normies.”",
+      "heading": 0
+    },
+    {
+      "text": "Nanda’s X post had included a conversation with Muse, where the AI agent said that the similarity between its own system files and those belonging to OpenClaw was not just “a coincidence” but rather “a match.”",
+      "heading": 0
+    },
+    {
+      "text": "Soon, this thread (and X more broadly) began blowing up as others shared their own comparisons and findings. For instance, one person pointed out that Muse also had a SOUL.md file, the plain text configuration file (written in a simple formatting language called Markdown) that defines an AI agent’s personality, communication style and tone, values, behavioral boundaries, and expertise.",
+      "heading": 0
+    },
+    {
+      "text": "A third noted that the files weren’t just named the same between the two assistants; their content was almost entirely the same.",
+      "heading": 0
+    },
+    {
+      "text": "Following his X post, Friedman also responded to a question about why Muse had copied the exact file names that made up the AI agent’s workspace and had “nearly identical content” for the SOUL.md file. Instead of disputing these claims, Friedman simply replied that “we thought that Peter [Steinberger, OpenClaw’s creator] got those things exactly right.”",
+      "heading": 0
+    },
+    {
+      "text": "“We built Muse from scratch, but it is definitely heavily inspired as a product by OpenClaw. After I used OpenClaw in January, I bought hundreds of Mac minis for the MSL team, and lots of us fell in love with using OpenClaw (and other personal agents), Friedman said on X. (TechCrunch has corrected Friedman’s punctuation for readability.)",
+      "heading": 0
+    },
+    {
+      "text": "“@steipete [Peter Steinberger] is a genius, and his harness was pioneering from the jump. I think a lot of people were inspired by it. Our goal with Muse was to build something like OpenClaw that we could make safe and secure and easy to use and scale to billions of people,” he wrote.",
+      "heading": 0
+    },
+    {
+      "text": "The Muse app has been something of a hit so far, having recently hit No. 1 on the U.S. App Store. Data indicates that it’s now outpacing ChatGPT’s launch when the platforms and market availability are compared directly.",
+      "heading": 0
+    },
+    {
+      "text": "Reached for comment, a Meta spokesperson pointed to Friedman’s statement, saying the company had nothing more to add beyond that.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+  "slug": "spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1241146892.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+    "episode": ""
+  },
+  "words": 438,
+  "lines": 12,
+  "duration": 146,
+  "text": "SpaceX has ramped up purchases of Tesla Megapack, spending $295 million on the battery storage devices in the second quarter and $329 million so far this year, according to the company’s earnings report released on Tuesday.\n\nThe purchase illustrates just how interconnected Elon Musk’s universe of companies are. Musk, who is the CEO and largest shareholder of SpaceX, also runs Tesla. Musk’s artificial intelligence business xAI acquired his social media platform, X, in 2025. Earlier this year, SpaceX gobbled up xAI.\n\nThe industrial-scale batteries are likely being deployed at the company’s xAI data centers. Before xAI merged with SpaceX, the AI company bought $430 million worth of Megapacks for its data centers. In the first quarter of this year, xAI had purchased only $34 million worth of the equipment. SpaceX also reported that as of December 2025, it had acquired $131 million worth of Tesla Cybertrucks at manufacturer’s suggested retail price, according to its regulatory filing.\n\nThough xAI has leaned heavily on natural gas to power its data centers — including dozens of unpermitted turbines at a site in Mississippi not far from the Colossus data center project — large batteries like the Megapack are still a critical part of data centers.\n\nIn addition to providing substantial backup power that can be tapped in a second or less, batteries can provide extra power to GPUs when they demand it. AI data centers don’t draw power consistently. Rather, their power demand ramps up and down depending on the demands of training AI models and running inference.\n\nSuch peaks can incur significant charges from a local utility or overwhelm on-site generators. Batteries help smooth out those peaks, lowering costs while ensuring that the data center can operate consistently.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "SpaceX has ramped up purchases of Tesla Megapack, spending $295 million on the battery storage devices in the second quarter and $329 million so far this year, according to the company’s earnings report released on Tuesday.",
+      "heading": 0
+    },
+    {
+      "text": "The purchase illustrates just how interconnected Elon Musk’s universe of companies are. Musk, who is the CEO and largest shareholder of SpaceX, also runs Tesla. Musk’s artificial intelligence business xAI acquired his social media platform, X, in 2025. Earlier this year, SpaceX gobbled up xAI.",
+      "heading": 0
+    },
+    {
+      "text": "The industrial-scale batteries are likely being deployed at the company’s xAI data centers. Before xAI merged with SpaceX, the AI company bought $430 million worth of Megapacks for its data centers. In the first quarter of this year, xAI had purchased only $34 million worth of the equipment. SpaceX also reported that as of December 2025, it had acquired $131 million worth of Tesla Cybertrucks at manufacturer’s suggested retail price, according to its regulatory filing.",
+      "heading": 0
+    },
+    {
+      "text": "Though xAI has leaned heavily on natural gas to power its data centers — including dozens of unpermitted turbines at a site in Mississippi not far from the Colossus data center project — large batteries like the Megapack are still a critical part of data centers.",
+      "heading": 0
+    },
+    {
+      "text": "In addition to providing substantial backup power that can be tapped in a second or less, batteries can provide extra power to GPUs when they demand it. AI data centers don’t draw power consistently. Rather, their power demand ramps up and down depending on the demands of training AI models and running inference.",
+      "heading": 0
+    },
+    {
+      "text": "Such peaks can incur significant charges from a local utility or overwhelm on-site generators. Batteries help smooth out those peaks, lowering costs while ensuring that the data center can operate consistently.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

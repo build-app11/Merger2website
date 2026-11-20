@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+  "slug": "palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-de",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305757563-Medium.jpeg?w=594",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+    "episode": ""
+  },
+  "words": 413,
+  "lines": 13,
+  "duration": 138,
+  "text": "AI-powered cyberattacks are moving faster than outdated technology systems can defend against them, Palmer Luckey warned at The New York Times DealBook Summit on Wednesday. Addressing the recent spate of tech outages, the Oculus founder and Anduril Industries co-founder argued that older systems are struggling to keep pace with the new hacking capabilities enabled by AI and warned it was time to quicken the pace of securing our defenses.\n\n“We’re seeing the natural effects of a lot of these advanced AI tools allowing for the creation of various exploits,” he said.\n\nWhile government officials largely attributed the latest set of technical issues to companies rushing to patch their systems to protect against the new vulnerabilities AI has discovered, Luckey focused on the underlying security challenges facing organizations using outdated technology.\n\nLuckey explained that U.S. adversaries are currently exploiting the mismatch between new attack capabilities and our defense capabilities. These attacks are being carried out for both strategic and financial reasons, and North Korea was particularly involved, he added.\n\nThe interviewer, Andrew Ross Sorkin, noted that U.S. Vice President J.D. Vance had canceled his appearance at the Times’ conference this week because of the recent tech outages, saying he now had to attend meetings about the matter.\n\nGiven the situation, Sorkin asked Luckey how worried we should be about all this.\n\n“It depends on how well prepared you are,” was Luckey’s answer. (He then ominously warned, “You guys are going to find out what’s going on soon enough.”)\n\nThe tech executive argued that AI could ultimately give defenders the upper hand, but they’d have to move more quickly.\n\n“In the long run, the advantages are going to accrue to the side that is most effectively using AI for defense,” Luckey said. “With the people who say that everything can be hacked — they are right, for now. That actually may be the case with certain new techniques that are coming along. But as of right now, there’s a mismatch between the attackers who are very fast-moving and using technology and old, outdated systems that are not able to adopt technology as quickly as it is developed,” Luckey continued.\n\n“And I think … people are going to have to pick up the pace,” he said. “It’s time to start running.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "AI-powered cyberattacks are moving faster than outdated technology systems can defend against them, Palmer Luckey warned at The New York Times DealBook Summit on Wednesday. Addressing the recent spate of tech outages, the Oculus founder and Anduril Industries co-founder argued that older systems are struggling to keep pace with the new hacking capabilities enabled by AI and warned it was time to quicken the pace of securing our defenses.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re seeing the natural effects of a lot of these advanced AI tools allowing for the creation of various exploits,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "While government officials largely attributed the latest set of technical issues to companies rushing to patch their systems to protect against the new vulnerabilities AI has discovered, Luckey focused on the underlying security challenges facing organizations using outdated technology.",
+      "heading": 0
+    },
+    {
+      "text": "Luckey explained that U.S. adversaries are currently exploiting the mismatch between new attack capabilities and our defense capabilities. These attacks are being carried out for both strategic and financial reasons, and North Korea was particularly involved, he added.",
+      "heading": 0
+    },
+    {
+      "text": "The interviewer, Andrew Ross Sorkin, noted that U.S. Vice President J.D. Vance had canceled his appearance at the Times’ conference this week because of the recent tech outages, saying he now had to attend meetings about the matter.",
+      "heading": 0
+    },
+    {
+      "text": "Given the situation, Sorkin asked Luckey how worried we should be about all this.",
+      "heading": 0
+    },
+    {
+      "text": "“It depends on how well prepared you are,” was Luckey’s answer. (He then ominously warned, “You guys are going to find out what’s going on soon enough.”)",
+      "heading": 0
+    },
+    {
+      "text": "The tech executive argued that AI could ultimately give defenders the upper hand, but they’d have to move more quickly.",
+      "heading": 0
+    },
+    {
+      "text": "“In the long run, the advantages are going to accrue to the side that is most effectively using AI for defense,” Luckey said. “With the people who say that everything can be hacked — they are right, for now. That actually may be the case with certain new techniques that are coming along. But as of right now, there’s a mismatch between the attackers who are very fast-moving and using technology and old, outdated systems that are not able to adopt technology as quickly as it is developed,” Luckey continued.",
+      "heading": 0
+    },
+    {
+      "text": "“And I think … people are going to have to pick up the pace,” he said. “It’s time to start running.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

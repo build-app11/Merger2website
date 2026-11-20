@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+  "slug": "meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-o",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-figure.png?resize=1200,671",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+    "episode": ""
+  },
+  "words": 666,
+  "lines": 17,
+  "duration": 222,
+  "text": "Muse’s traction is surging, fueled by Meta’s promotion of the AI app at its annual Meta Connect developer conference this week and strong early reviews that praised its polished design and highly capable AI model under the hood.\n\nAt the start of the week, Muse had surpassed 2.5 million downloads since its September 8 launch. Now the app has amassed more than 3.4 million downloads, according to the most recent estimates from market intelligence firm Sensor Tower.\n\nThe install numbers are only current as of the firm’s Thursday estimates, which can lag behind real-world adoption.\n\nThat means they don’t even capture the full impact of the big push Muse received at Meta Connect, where the social network company announced a range of upcoming features for the new AI app, including video chat with the Muse avatar, support for computer use on the Mac, a dedicated email address, more partners and connectors, and plans for smart glasses integrations.\n\nEstimates from other market intelligence firms show Muse with similarly strong traction, though their numbers vary quite a bit. Apptopia, for example, puts Muse’s total number of downloads to date at 4.3 million. (Muse is currently only available in the U.S. and Canada). It estimates that 2.6 million of those were on iOS alone.\n\nMeanwhile, another firm, Appfigures, says it sees Muse installs at roughly 2.3 million as of Thursday, almost evenly split between iOS and Android.\n\nSensor Tower also has visibility into daily active users for the Muse app following the Meta Connect conference. It found that figure climbed 27% on Wednesday after the event wrapped.\n\nBefore the conference, Muse was already off to a strong start. Sensor Tower said the app reached an estimated 2.8 million downloads in its first two weeks on the app stores. During that time (September 8 to September 17), the Muse app averaged 55% day-over-day growth in downloads. For comparison, ChatGPT averaged 24% day-over-day download growth in its first 10 days after launch. Download growth for Claude and Grok, meanwhile, declined during their respective launches.\n\nOn Friday, September 18, Muse climbed to the top of the U.S. App Store and has retained its ranking ever since. It also reached the top spot on the Google Play Store on September 19 and remains there today.\n\nWhile much of Muse’s traction so far is organic, the app is also benefiting from the same cross-platform promotion that helped one of Meta’s latest social apps, Instagram Threads, top 500 million monthly active users — that is, Meta is marketing the app to existing Facebook and Instagram users.\n\nHowever, as Meta’s Head of Threads, Connor Hayes, recently told Business Insider, Meta’s approach to marketing Muse differs from its approach with Threads. While Threads also deals in user-generated content that Meta can match to users’ interests when running its cross-promotions, the trick with Muse is to build promotional units that can showcase something the AI agent can do for the user, based on Meta’s understanding of what would be useful or helpful to them specifically.\n\nSensor Tower’s data indicates that Meta rolled out house ads promoting Muse on September 9, a day after its launch. Within 10 days, Muse received the majority of house advertising promotions across Meta’s properties, ahead of promotions for Facebook, Instagram, and WhatsApp. Meta has also begun advertising Muse on mobile ad networks and other social networks, including Reddit, TikTok, and YouTube.\n\nBy Tuesday, September 22, Muse ranked among the top 10 brands by advertising spend, Sensor Tower said.\n\nStill, Muse’s growth can’t be chalked up to Meta’s marketing efforts alone, as ads promoting the app only account for 6% of the ad impressions from launch through September 19.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Muse’s traction is surging, fueled by Meta’s promotion of the AI app at its annual Meta Connect developer conference this week and strong early reviews that praised its polished design and highly capable AI model under the hood.",
+      "heading": 0
+    },
+    {
+      "text": "At the start of the week, Muse had surpassed 2.5 million downloads since its September 8 launch. Now the app has amassed more than 3.4 million downloads, according to the most recent estimates from market intelligence firm Sensor Tower.",
+      "heading": 0
+    },
+    {
+      "text": "The install numbers are only current as of the firm’s Thursday estimates, which can lag behind real-world adoption.",
+      "heading": 0
+    },
+    {
+      "text": "That means they don’t even capture the full impact of the big push Muse received at Meta Connect, where the social network company announced a range of upcoming features for the new AI app, including video chat with the Muse avatar, support for computer use on the Mac, a dedicated email address, more partners and connectors, and plans for smart glasses integrations.",
+      "heading": 0
+    },
+    {
+      "text": "Estimates from other market intelligence firms show Muse with similarly strong traction, though their numbers vary quite a bit. Apptopia, for example, puts Muse’s total number of downloads to date at 4.3 million. (Muse is currently only available in the U.S. and Canada). It estimates that 2.6 million of those were on iOS alone.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, another firm, Appfigures, says it sees Muse installs at roughly 2.3 million as of Thursday, almost evenly split between iOS and Android.",
+      "heading": 0
+    },
+    {
+      "text": "Sensor Tower also has visibility into daily active users for the Muse app following the Meta Connect conference. It found that figure climbed 27% on Wednesday after the event wrapped.",
+      "heading": 0
+    },
+    {
+      "text": "Before the conference, Muse was already off to a strong start. Sensor Tower said the app reached an estimated 2.8 million downloads in its first two weeks on the app stores. During that time (September 8 to September 17), the Muse app averaged 55% day-over-day growth in downloads. For comparison, ChatGPT averaged 24% day-over-day download growth in its first 10 days after launch. Download growth for Claude and Grok, meanwhile, declined during their respective launches.",
+      "heading": 0
+    },
+    {
+      "text": "On Friday, September 18, Muse climbed to the top of the U.S. App Store and has retained its ranking ever since. It also reached the top spot on the Google Play Store on September 19 and remains there today.",
+      "heading": 0
+    },
+    {
+      "text": "While much of Muse’s traction so far is organic, the app is also benefiting from the same cross-platform promotion that helped one of Meta’s latest social apps, Instagram Threads, top 500 million monthly active users — that is, Meta is marketing the app to existing Facebook and Instagram users.",
+      "heading": 0
+    },
+    {
+      "text": "However, as Meta’s Head of Threads, Connor Hayes, recently told Business Insider, Meta’s approach to marketing Muse differs from its approach with Threads. While Threads also deals in user-generated content that Meta can match to users’ interests when running its cross-promotions, the trick with Muse is to build promotional units that can showcase something the AI agent can do for the user, based on Meta’s understanding of what would be useful or helpful to them specifically.",
+      "heading": 0
+    },
+    {
+      "text": "Sensor Tower’s data indicates that Meta rolled out house ads promoting Muse on September 9, a day after its launch. Within 10 days, Muse received the majority of house advertising promotions across Meta’s properties, ahead of promotions for Facebook, Instagram, and WhatsApp. Meta has also begun advertising Muse on mobile ad networks and other social networks, including Reddit, TikTok, and YouTube.",
+      "heading": 0
+    },
+    {
+      "text": "By Tuesday, September 22, Muse ranked among the top 10 brands by advertising spend, Sensor Tower said.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Muse’s growth can’t be chalked up to Meta’s marketing efforts alone, as ads promoting the app only account for 6% of the ad impressions from launch through September 19.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

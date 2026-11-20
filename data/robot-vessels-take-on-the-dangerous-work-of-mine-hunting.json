@@ -1,0 +1,196 @@
+{
+  "type": "read",
+  "title": "Robot vessels take on the dangerous work of mine hunting",
+  "slug": "robot-vessels-take-on-the-dangerous-work-of-mine-hunting",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 928,
+  "lines": 43,
+  "duration": 309,
+  "text": "Published 11 November 2026\n\nTraversing the Strait of Hormuz remains one of the most dangerous trips a vessel can take.\n\nDespite assistance from the US Navy, ships are still being attacked.\n\n\"To transit the Strait of Hormuz you need agreement between the captain and the crew to take the risk. You need war risk insurance. And the captain has to make the final decision,\" says Steve Cameron, a former merchant navy officer and maritime consultant.\n\nMissiles and drones are a threat from the air, but under the surface mines may also be lurking.\n\n\"If you're a captain, you'd like to see evidence mines aren't present,\" Cameron adds.\n\nModern mines rest on the seabed and detonate when they detect an acoustic or magnetic signal, triggering a pressure wave that will break the keel of a passing vessel.\n\nOthers can rise through shallow waters or float, or be powered towards a target.\n\nThe technology itself is not difficult or costly, but the mere threat can stop a tanker fleet from sailing.\n\nIan McFarlane of French defence group Thales is a naval architect who knows mine warfare well. \"Mines are a very cheap way of waging a naval war, as the Royal Navy is acutely aware,\" he says.\n\nFinding sea mines has traditionally been the job of specialist mine-hunting vessels, with crews of around 80 sailors.\n\nTo keep humans out of harm's way, an increasing amount of the work is done by systems that are autonomous and monitored from the shore.\n\nThey might only need 20 personnel, working in shifts on land. With the recruitment and retention challenges facing Nato navies these highly-portable robot systems are very attractive.\n\nSuch tech has been under development for 20 years.\n\nDuring the 2003 Iraq war the US Navy poked around the seabed looking for mines with a torpedo-shaped robot called the Remus 100.\n\nPinging around with sonar these little machines operated down to around 100ft depth and spared divers a difficult and dangerous task.\n\nThe latest conflict in the Gulf is testing much more capable systems.\n\nThe US military is sparing with details about their mine-hunting craft, but we have seen glimpses of them.\n\nIranian forces hauled an uncrewed US autonomous sub, external out of the waters of the Strait of Hormuz in early September.\n\nThe Pentagon claimed this robot, an Extra Large Uncrewed Underwater Vehicle (XLUUV) from US autonomous defence tech venture Anduril, was a malfunctioning older device with no classified equipment on-board.\n\nWhatever its mission, no sailors were imperilled. That, says William Lupton, a naval analyst with Shephard Group, \"was a drop in the ocean compared to having prisoners taken\", and part of the point of uncrewed vessels.\n\nWhat if an uncrewed vessel is captured? Nato navies are reluctant to go into details, but computer drives can be wiped or destroyed remotely by various means. This may have taken place inside the humming circuit boards of the XLUUV seized by Iran.\n\nSuch autonomous tech is being embraced by forces around the world.\n\nCooperation between Thales, the Royal Navy, and France's Marine Nationale has produced a robot motor launch.\n\nThe Thales Uncrewed Surface Vehicle (USV) is packed with sensors programmed to detect mines via sonar that was developed for the oil and gas industries.\n\nIt tows a 5m long rectangular box, similar to a large torpedo, that takes a hi-resolution look at the seabed and creates a 3D picture refined by AI. The latest mines are designed to blend into their surroundings and the software spots anything that looks like a mine.\n\nAutonomous systems are cheaper than conventional minehunters, plus they can be deployed, along with containerised control centres, by air.\n\nSteve Prest, associate fellow at the RUSI defence think tank, introduced uncrewed mine hunting into the Royal Navy and was its first fleet robotics officer, a title he acquired in 2014.\n\n\"There is a bunch of ways to look for a mine using robot boats or robot subs, and while you can't prove the negative, that no mines are there, you can reduce the risk.\"\n\nHe says US robot minehunters can either blow up a mine or just mark the spot as somewhere to avoid.\n\n\"We'll see more use of autonomy but also the missions and capability will expand. And AI will be analysing data from those vessels on the spot as opposed to data being analysed when a drone returns.\"\n\nThe Royal Navy recently announced its concept of a hybrid navy - mixing drones with conventional warships. But Prest thinks for this vision to succeed the fleet must operate as one distributed force, sharing data in what he terms a cognitive architecture.\n\nThe robot only makes a real difference as part of this scheme and it's a mistake to focus on individual uncrewed assets. \"Uncrewed or autonomous vessels are not the operating system. They are applications running on it.\"\n\nWhile robots are on the rise, people are what really matter in the Strait.\n\nNeil Roberts speaks for insurers at Lloyd's of London on marine matters and says the psychological impact of the mine threat is inescapable, as is the uncertainty around just how many mines, if any, are out there.\n\n\"The US says it has cleared the Omani route and believes the mine threat is being managed, with shipments running at about 75% of pre-conflict levels.\"\n\nFear of the unknown is the most potent aspect of the sea mine threat and robots are now the weapon of choice to confront that fear.\n\nInternational Business\n\nTechnology of Business\n\nShipping industry\n\nRoyal Navy\n\nBritish Armed Forces\n\nRobotics",
+  "paragraphs": [
+    {
+      "text": "Published 11 November 2026",
+      "heading": 1
+    },
+    {
+      "text": "Traversing the Strait of Hormuz remains one of the most dangerous trips a vessel can take.",
+      "heading": 0
+    },
+    {
+      "text": "Despite assistance from the US Navy, ships are still being attacked.",
+      "heading": 0
+    },
+    {
+      "text": "\"To transit the Strait of Hormuz you need agreement between the captain and the crew to take the risk. You need war risk insurance. And the captain has to make the final decision,\" says Steve Cameron, a former merchant navy officer and maritime consultant.",
+      "heading": 0
+    },
+    {
+      "text": "Missiles and drones are a threat from the air, but under the surface mines may also be lurking.",
+      "heading": 0
+    },
+    {
+      "text": "\"If you're a captain, you'd like to see evidence mines aren't present,\" Cameron adds.",
+      "heading": 0
+    },
+    {
+      "text": "Modern mines rest on the seabed and detonate when they detect an acoustic or magnetic signal, triggering a pressure wave that will break the keel of a passing vessel.",
+      "heading": 0
+    },
+    {
+      "text": "Others can rise through shallow waters or float, or be powered towards a target.",
+      "heading": 0
+    },
+    {
+      "text": "The technology itself is not difficult or costly, but the mere threat can stop a tanker fleet from sailing.",
+      "heading": 0
+    },
+    {
+      "text": "Ian McFarlane of French defence group Thales is a naval architect who knows mine warfare well. \"Mines are a very cheap way of waging a naval war, as the Royal Navy is acutely aware,\" he says.",
+      "heading": 0
+    },
+    {
+      "text": "Finding sea mines has traditionally been the job of specialist mine-hunting vessels, with crews of around 80 sailors.",
+      "heading": 0
+    },
+    {
+      "text": "To keep humans out of harm's way, an increasing amount of the work is done by systems that are autonomous and monitored from the shore.",
+      "heading": 0
+    },
+    {
+      "text": "They might only need 20 personnel, working in shifts on land. With the recruitment and retention challenges facing Nato navies these highly-portable robot systems are very attractive.",
+      "heading": 0
+    },
+    {
+      "text": "Such tech has been under development for 20 years.",
+      "heading": 0
+    },
+    {
+      "text": "During the 2003 Iraq war the US Navy poked around the seabed looking for mines with a torpedo-shaped robot called the Remus 100.",
+      "heading": 0
+    },
+    {
+      "text": "Pinging around with sonar these little machines operated down to around 100ft depth and spared divers a difficult and dangerous task.",
+      "heading": 0
+    },
+    {
+      "text": "The latest conflict in the Gulf is testing much more capable systems.",
+      "heading": 0
+    },
+    {
+      "text": "The US military is sparing with details about their mine-hunting craft, but we have seen glimpses of them.",
+      "heading": 0
+    },
+    {
+      "text": "Iranian forces hauled an uncrewed US autonomous sub, external out of the waters of the Strait of Hormuz in early September.",
+      "heading": 0
+    },
+    {
+      "text": "The Pentagon claimed this robot, an Extra Large Uncrewed Underwater Vehicle (XLUUV) from US autonomous defence tech venture Anduril, was a malfunctioning older device with no classified equipment on-board.",
+      "heading": 0
+    },
+    {
+      "text": "Whatever its mission, no sailors were imperilled. That, says William Lupton, a naval analyst with Shephard Group, \"was a drop in the ocean compared to having prisoners taken\", and part of the point of uncrewed vessels.",
+      "heading": 0
+    },
+    {
+      "text": "What if an uncrewed vessel is captured? Nato navies are reluctant to go into details, but computer drives can be wiped or destroyed remotely by various means. This may have taken place inside the humming circuit boards of the XLUUV seized by Iran.",
+      "heading": 0
+    },
+    {
+      "text": "Such autonomous tech is being embraced by forces around the world.",
+      "heading": 0
+    },
+    {
+      "text": "Cooperation between Thales, the Royal Navy, and France's Marine Nationale has produced a robot motor launch.",
+      "heading": 0
+    },
+    {
+      "text": "The Thales Uncrewed Surface Vehicle (USV) is packed with sensors programmed to detect mines via sonar that was developed for the oil and gas industries.",
+      "heading": 0
+    },
+    {
+      "text": "It tows a 5m long rectangular box, similar to a large torpedo, that takes a hi-resolution look at the seabed and creates a 3D picture refined by AI. The latest mines are designed to blend into their surroundings and the software spots anything that looks like a mine.",
+      "heading": 0
+    },
+    {
+      "text": "Autonomous systems are cheaper than conventional minehunters, plus they can be deployed, along with containerised control centres, by air.",
+      "heading": 0
+    },
+    {
+      "text": "Steve Prest, associate fellow at the RUSI defence think tank, introduced uncrewed mine hunting into the Royal Navy and was its first fleet robotics officer, a title he acquired in 2014.",
+      "heading": 0
+    },
+    {
+      "text": "\"There is a bunch of ways to look for a mine using robot boats or robot subs, and while you can't prove the negative, that no mines are there, you can reduce the risk.\"",
+      "heading": 0
+    },
+    {
+      "text": "He says US robot minehunters can either blow up a mine or just mark the spot as somewhere to avoid.",
+      "heading": 0
+    },
+    {
+      "text": "\"We'll see more use of autonomy but also the missions and capability will expand. And AI will be analysing data from those vessels on the spot as opposed to data being analysed when a drone returns.\"",
+      "heading": 0
+    },
+    {
+      "text": "The Royal Navy recently announced its concept of a hybrid navy - mixing drones with conventional warships. But Prest thinks for this vision to succeed the fleet must operate as one distributed force, sharing data in what he terms a cognitive architecture.",
+      "heading": 0
+    },
+    {
+      "text": "The robot only makes a real difference as part of this scheme and it's a mistake to focus on individual uncrewed assets. \"Uncrewed or autonomous vessels are not the operating system. They are applications running on it.\"",
+      "heading": 0
+    },
+    {
+      "text": "While robots are on the rise, people are what really matter in the Strait.",
+      "heading": 0
+    },
+    {
+      "text": "Neil Roberts speaks for insurers at Lloyd's of London on marine matters and says the psychological impact of the mine threat is inescapable, as is the uncertainty around just how many mines, if any, are out there.",
+      "heading": 0
+    },
+    {
+      "text": "\"The US says it has cleared the Omani route and believes the mine threat is being managed, with shipments running at about 75% of pre-conflict levels.\"",
+      "heading": 0
+    },
+    {
+      "text": "Fear of the unknown is the most potent aspect of the sea mine threat and robots are now the weapon of choice to confront that fear.",
+      "heading": 0
+    },
+    {
+      "text": "International Business",
+      "heading": 1
+    },
+    {
+      "text": "Technology of Business",
+      "heading": 1
+    },
+    {
+      "text": "Shipping industry",
+      "heading": 1
+    },
+    {
+      "text": "Royal Navy",
+      "heading": 1
+    },
+    {
+      "text": "British Armed Forces",
+      "heading": 1
+    },
+    {
+      "text": "Robotics",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+  "slug": "openai-says-apple-s-own-security-practices-undermine-its-tra",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+    "episode": ""
+  },
+  "words": 496,
+  "lines": 12,
+  "duration": 165,
+  "text": "OpenAI’s motion to dismiss Apple’s trade secrets lawsuit, along with newly filed exhibits, reveals the company’s legal defense strategy. Rather than focusing on whether former Apple employees working at OpenAI had accessed certain information, the AI company argues that Apple’s own security practices and offboarding procedures weaken its claim that the information qualifies as legally protected “trade secrets.”\n\nApple’s complaint, filed in July, accuses OpenAI of orchestrating a scheme to obtain confidential hardware information from former Apple engineers. This week, Apple asked the court to expedite discovery, saying its internal investigation indicates some additional former employees may have participated in, or witnessed, the alleged theft of trade secrets.\n\nIn its motion, OpenAI argues that Apple allowed employees to use personal iCloud accounts for work and failed to properly revoke access after they left the company. It also submitted text message records showing that an Apple manager remained logged into the personal iCloud account of defendant and former Apple engineer Chang Liu after he left the company to transfer files, and later asked him for help with technical questions about Apple projects.\n\nOpenAI also accuses Apple of omitting the consequences of its own “inexplicable information-management practices” from its original complaint, noting that the company failed to properly secure its systems when employees departed, creating confusion and unwanted access issues that Apple now characterizes as theft.\n\nWhile this may sound a bit like a “the door was unlocked, so it wasn’t really stealing!” defense, this argument is meant to strengthen OpenAI’s argument that former Apple employees were simply trying to assist their prior colleagues. It could also help push the narrative that these weren’t truly trade secrets if they weren’t secured as such.\n\nOpenAI argues Apple hasn’t specified which “trade secrets” or confidential components were allegedly stolen, referring to them instead as “generic categories of the product-development process—such as component manufacturing, product testing, vendor and supplier relationships, and distribution channels.”\n\nOpenAI’s filing posits that Apple is using this lawsuit to slow down its competitor from innovating in AI-powered hardware, rather than focusing on its own product plans.\n\n“OpenAI has no use, need or desire for Apple’s trade secrets,” the motion argues. “OpenAI is building something entirely new and different from anything at Apple. OpenAI does have an interest in hiring the best engineers, inventors, developers and creators—many of whom have decided to leave Apple and to come to OpenAI, attracted by the innovative and exciting work the company is doing. Apple might not like that,” it reads.\n\n“…Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its shortcomings in the market for talent and retaining its employees, and its failures to integrate AI into its products,” the motion says.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "OpenAI’s motion to dismiss Apple’s trade secrets lawsuit, along with newly filed exhibits, reveals the company’s legal defense strategy. Rather than focusing on whether former Apple employees working at OpenAI had accessed certain information, the AI company argues that Apple’s own security practices and offboarding procedures weaken its claim that the information qualifies as legally protected “trade secrets.”",
+      "heading": 0
+    },
+    {
+      "text": "Apple’s complaint, filed in July, accuses OpenAI of orchestrating a scheme to obtain confidential hardware information from former Apple engineers. This week, Apple asked the court to expedite discovery, saying its internal investigation indicates some additional former employees may have participated in, or witnessed, the alleged theft of trade secrets.",
+      "heading": 0
+    },
+    {
+      "text": "In its motion, OpenAI argues that Apple allowed employees to use personal iCloud accounts for work and failed to properly revoke access after they left the company. It also submitted text message records showing that an Apple manager remained logged into the personal iCloud account of defendant and former Apple engineer Chang Liu after he left the company to transfer files, and later asked him for help with technical questions about Apple projects.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also accuses Apple of omitting the consequences of its own “inexplicable information-management practices” from its original complaint, noting that the company failed to properly secure its systems when employees departed, creating confusion and unwanted access issues that Apple now characterizes as theft.",
+      "heading": 0
+    },
+    {
+      "text": "While this may sound a bit like a “the door was unlocked, so it wasn’t really stealing!” defense, this argument is meant to strengthen OpenAI’s argument that former Apple employees were simply trying to assist their prior colleagues. It could also help push the narrative that these weren’t truly trade secrets if they weren’t secured as such.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI argues Apple hasn’t specified which “trade secrets” or confidential components were allegedly stolen, referring to them instead as “generic categories of the product-development process—such as component manufacturing, product testing, vendor and supplier relationships, and distribution channels.”",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI’s filing posits that Apple is using this lawsuit to slow down its competitor from innovating in AI-powered hardware, rather than focusing on its own product plans.",
+      "heading": 0
+    },
+    {
+      "text": "“OpenAI has no use, need or desire for Apple’s trade secrets,” the motion argues. “OpenAI is building something entirely new and different from anything at Apple. OpenAI does have an interest in hiring the best engineers, inventors, developers and creators—many of whom have decided to leave Apple and to come to OpenAI, attracted by the innovative and exciting work the company is doing. Apple might not like that,” it reads.",
+      "heading": 0
+    },
+    {
+      "text": "“…Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its shortcomings in the market for talent and retaining its employees, and its failures to integrate AI into its products,” the motion says.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

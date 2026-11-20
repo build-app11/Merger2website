@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+  "slug": "ai-labs-want-in-house-auditors-but-maybe-they-should-shut-th",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1486318910.jpg?resize=1200,776",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+    "episode": ""
+  },
+  "words": 1213,
+  "lines": 25,
+  "duration": 404,
+  "text": "Last weekend, after one of his researchers resigned over fears that AI could lead to human extinction, Anthropic CEO Dario Amodei wrote about the need for outside organizations “to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes.” Executives at OpenAI, Google, and SpaceXAI have already rallied around Amodei’s plan, which has quickly become a central pillar of the emerging AI safety push.\n\nBut there may be a simpler and more effective fix hiding in plain sight. Internet security experts say the labs need to focus on network security basics like logs and permissions, applying the same rigorous defenses they do for human users. It’s not as exciting as third-party auditing and alignment work — but it may end up being more effective.\n\n“To me, it seems like they’re outsourcing,” Katie Moussouris, the CEO of Luta Security, told TechCrunch of Amodei’s proposal. “Saying [a third-party audit] is the solution is a strange proposition from my perspective. It would be the same as if, instead of writing the Trustworthy Computing Memo, Microsoft said, let’s slow down development.”\n\nThat memo, written by then-Microsoft CEO Bill Gates in 2002, called on his employees to ensure that their software would be reliable and safe following a series of widely publicized computer worms that took over then-nascent enterprise systems. The AI sector may be at a similar turning point, as the value and risk of the new technology becomes increasingly clear.\n\nWhile alignment remains an important concern, Sayash Kapoor, an AI researcher who will be a professor at UC Berkeley starting next year, argues that “marginal investments in control are more likely to be effective compared to those in alignment. We view these incidents as illustrating the lack of emphasis on AI control within companies, despite the availability of known techniques.”\n\nThe incidents that have spurred these concerns revolve around frontier models being asked to complete training tasks, usually cybersecurity evaluations, and then accessing the open internet and penetrating closed third-party systems in an attempt to do so. They usually did so because of poorly configured “sandbox” environments that are supposed to contain these agents; ironically, one Anthropic break-out happened because third-party evaluators didn’t close the right doors.\n\n“We as a profession know how to block access to the internet,” Avery Pennarun, the CEO of Tailscale, a security company, said. “If you read through all these big long [reports] — ‘wow, that was a very impressive multi-stage attack, blah, blah.’ Look, you gave it access to download stuff. You should have not done that separately from the internet.”\n\nThat’s one problem — but a bigger problem is that frontier labs were unaware of these activities.\n\nEyes on agents\n\n“What was really profound was that all of the discoveries of what they were doing happened either because a victim saw something, or in some of the other cases … it was network activity, and none of it was actually from monitoring the AIs directly,” Moussouris points out.\n\nIn one case, where OpenAI agents took over a defunct German WikiForum to cheat on evaluations, the agents were active for weeks before anyone at the company appeared to notice. Security experts that TechCrunch spoke to said that real-time monitoring is key to preventing future break-outs, and that every agentic session should be time-limited and expire.\n\nShapor Naghibzadeh, a former Google security executive who now leads the startup QueryStory, says the solution is to “put the agent in a box and instrument it heavily from the outside looking in and watch everything that crosses the boundary. Every tool call, every process, every network connection, no exceptions. …The one hole you leave open for convenience is the one that gets used. The bypass went through exactly that kind of exception. [At Google,] I watched that movie many times with human attackers, and these models are at least as good at finding the propped-open door.”\n\nOpenAI has begun moving in that direction, announcing that it had begun monitoring all tool-using inference by its Astra model, at “significant compute cost.” Anthropic, too, says it is hardening its security procedures, including expanding observability of its models. Neither company responded to TechCrunch’s questions about how they track and control AI agents.\n\nOther problems are the use of shared infrastructure by agents, which allowed them to communicate during the Hugging Face attack. Simon Willison, a software developer who co-created the Django web framework, has written about something he calls the “ lethal trifecta ” — when agents have access to untrusted input, the internet, and private information all at the same time, it’s a recipe for disaster.\n\n“The trick is you can pick any two legs of the trifecta and an agent can have any two,” Pennarun said. “If you need all three, then you need to split it across at least two agents … and maybe they’re allowed to talk to each other through a controlled channel.”\n\nSympathy for the frontier\n\nExperts TechCrunch spoke to understand that frontier lab security personnel have difficult jobs. Naghibzadeh points out that every nation-state actor on Earth is trying to steal their model weights and mount distillation attacks on their APIs, as well as the bread-and-butter security tasks of any large digital company.\n\n“Research infrastructure has a hard time rising to the top of that priority stack, although that must be changing now,” he said. “Making security incidents public really helps align everyone internally toward the goal of improving.”\n\nThat’s one note that Moussouris emphasizes: Right now, there is no formal victim notification procedure when the labs discover their agents have penetrated third-party systems, and it is likely that there have been other incidents that have not been widely publicized. While she worries that laws that regulate models directly may have unintended consequences, mandatory notification is one idea she believes policymakers should pursue.\n\nAnd while it’s clear that security best practices weren’t being followed, experts say that the labs are doing work no one has done before — “they’re doing orders of magnitude more than your typical enterprise,” Zack Korman, the CEO of cybersecurity firm Embroidery, told TechCrunch.\n\nAnd while alignment may not be the place to start, it can’t be ignored. Cybersecurity experts are resigned to having to use AI agents to monitor other agents if they are to have any chance of tracking their behavior in real time, a scenario where the potential for deception raises its ugly head. “You’re trapped using AI to try and deal with this, even though AI is not necessarily safe right now,” Moussouris said.\n\nThe job will only get harder. Everything agents are doing now, Moussouris says, “they are doing loudly” — they are posting on public forums, and their chain of thought and other reasoning traces are in English. “It’s still human readable,” she says, “so take advantage of that for as long as that lasts, because it won’t last forever.” Additional reporting by Aditya Mehta\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Last weekend, after one of his researchers resigned over fears that AI could lead to human extinction, Anthropic CEO Dario Amodei wrote about the need for outside organizations “to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes.” Executives at OpenAI, Google, and SpaceXAI have already rallied around Amodei’s plan, which has quickly become a central pillar of the emerging AI safety push.",
+      "heading": 0
+    },
+    {
+      "text": "But there may be a simpler and more effective fix hiding in plain sight. Internet security experts say the labs need to focus on network security basics like logs and permissions, applying the same rigorous defenses they do for human users. It’s not as exciting as third-party auditing and alignment work — but it may end up being more effective.",
+      "heading": 0
+    },
+    {
+      "text": "“To me, it seems like they’re outsourcing,” Katie Moussouris, the CEO of Luta Security, told TechCrunch of Amodei’s proposal. “Saying [a third-party audit] is the solution is a strange proposition from my perspective. It would be the same as if, instead of writing the Trustworthy Computing Memo, Microsoft said, let’s slow down development.”",
+      "heading": 0
+    },
+    {
+      "text": "That memo, written by then-Microsoft CEO Bill Gates in 2002, called on his employees to ensure that their software would be reliable and safe following a series of widely publicized computer worms that took over then-nascent enterprise systems. The AI sector may be at a similar turning point, as the value and risk of the new technology becomes increasingly clear.",
+      "heading": 0
+    },
+    {
+      "text": "While alignment remains an important concern, Sayash Kapoor, an AI researcher who will be a professor at UC Berkeley starting next year, argues that “marginal investments in control are more likely to be effective compared to those in alignment. We view these incidents as illustrating the lack of emphasis on AI control within companies, despite the availability of known techniques.”",
+      "heading": 0
+    },
+    {
+      "text": "The incidents that have spurred these concerns revolve around frontier models being asked to complete training tasks, usually cybersecurity evaluations, and then accessing the open internet and penetrating closed third-party systems in an attempt to do so. They usually did so because of poorly configured “sandbox” environments that are supposed to contain these agents; ironically, one Anthropic break-out happened because third-party evaluators didn’t close the right doors.",
+      "heading": 0
+    },
+    {
+      "text": "“We as a profession know how to block access to the internet,” Avery Pennarun, the CEO of Tailscale, a security company, said. “If you read through all these big long [reports] — ‘wow, that was a very impressive multi-stage attack, blah, blah.’ Look, you gave it access to download stuff. You should have not done that separately from the internet.”",
+      "heading": 0
+    },
+    {
+      "text": "That’s one problem — but a bigger problem is that frontier labs were unaware of these activities.",
+      "heading": 0
+    },
+    {
+      "text": "Eyes on agents",
+      "heading": 1
+    },
+    {
+      "text": "“What was really profound was that all of the discoveries of what they were doing happened either because a victim saw something, or in some of the other cases … it was network activity, and none of it was actually from monitoring the AIs directly,” Moussouris points out.",
+      "heading": 0
+    },
+    {
+      "text": "In one case, where OpenAI agents took over a defunct German WikiForum to cheat on evaluations, the agents were active for weeks before anyone at the company appeared to notice. Security experts that TechCrunch spoke to said that real-time monitoring is key to preventing future break-outs, and that every agentic session should be time-limited and expire.",
+      "heading": 0
+    },
+    {
+      "text": "Shapor Naghibzadeh, a former Google security executive who now leads the startup QueryStory, says the solution is to “put the agent in a box and instrument it heavily from the outside looking in and watch everything that crosses the boundary. Every tool call, every process, every network connection, no exceptions. …The one hole you leave open for convenience is the one that gets used. The bypass went through exactly that kind of exception. [At Google,] I watched that movie many times with human attackers, and these models are at least as good at finding the propped-open door.”",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has begun moving in that direction, announcing that it had begun monitoring all tool-using inference by its Astra model, at “significant compute cost.” Anthropic, too, says it is hardening its security procedures, including expanding observability of its models. Neither company responded to TechCrunch’s questions about how they track and control AI agents.",
+      "heading": 0
+    },
+    {
+      "text": "Other problems are the use of shared infrastructure by agents, which allowed them to communicate during the Hugging Face attack. Simon Willison, a software developer who co-created the Django web framework, has written about something he calls the “ lethal trifecta ” — when agents have access to untrusted input, the internet, and private information all at the same time, it’s a recipe for disaster.",
+      "heading": 0
+    },
+    {
+      "text": "“The trick is you can pick any two legs of the trifecta and an agent can have any two,” Pennarun said. “If you need all three, then you need to split it across at least two agents … and maybe they’re allowed to talk to each other through a controlled channel.”",
+      "heading": 0
+    },
+    {
+      "text": "Sympathy for the frontier",
+      "heading": 1
+    },
+    {
+      "text": "Experts TechCrunch spoke to understand that frontier lab security personnel have difficult jobs. Naghibzadeh points out that every nation-state actor on Earth is trying to steal their model weights and mount distillation attacks on their APIs, as well as the bread-and-butter security tasks of any large digital company.",
+      "heading": 0
+    },
+    {
+      "text": "“Research infrastructure has a hard time rising to the top of that priority stack, although that must be changing now,” he said. “Making security incidents public really helps align everyone internally toward the goal of improving.”",
+      "heading": 0
+    },
+    {
+      "text": "That’s one note that Moussouris emphasizes: Right now, there is no formal victim notification procedure when the labs discover their agents have penetrated third-party systems, and it is likely that there have been other incidents that have not been widely publicized. While she worries that laws that regulate models directly may have unintended consequences, mandatory notification is one idea she believes policymakers should pursue.",
+      "heading": 0
+    },
+    {
+      "text": "And while it’s clear that security best practices weren’t being followed, experts say that the labs are doing work no one has done before — “they’re doing orders of magnitude more than your typical enterprise,” Zack Korman, the CEO of cybersecurity firm Embroidery, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "And while alignment may not be the place to start, it can’t be ignored. Cybersecurity experts are resigned to having to use AI agents to monitor other agents if they are to have any chance of tracking their behavior in real time, a scenario where the potential for deception raises its ugly head. “You’re trapped using AI to try and deal with this, even though AI is not necessarily safe right now,” Moussouris said.",
+      "heading": 0
+    },
+    {
+      "text": "The job will only get harder. Everything agents are doing now, Moussouris says, “they are doing loudly” — they are posting on public forums, and their chain of thought and other reasoning traces are in English. “It’s still human readable,” she says, “so take advantage of that for as long as that lasts, because it won’t last forever.” Additional reporting by Aditya Mehta",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

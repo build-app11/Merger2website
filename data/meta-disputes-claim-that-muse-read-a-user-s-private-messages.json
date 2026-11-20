@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+  "slug": "meta-disputes-claim-that-muse-read-a-user-s-private-messages",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+    "episode": ""
+  },
+  "words": 688,
+  "lines": 16,
+  "duration": 229,
+  "text": "Meta is fighting back against a journalist’s claim that its AI agent Muse read the user’s private messages without permission. Following an earlier report from Inc. columnist Jason Aten that detailed the issue, Meta VP of Communications Andy Stone pushed back, making it clear that the company does not believe its product did this without the user’s consent.\n\n“The Messages integration in the Muse app for Mac is entirely opt-in,” Stone wrote on X in response to the claims made by the piece. “You have to enable both Full Disk Access and the Messages connector for Muse to be able to read your Messages content. It can’t read your Messages unless you do this.”\n\nDespite Meta’s denial, many people are still suspicious that Meta isn’t being truthful.\n\nThat’s not surprising, given the tech giant’s years of mishandling consumer data, which has led to lawsuits, FTC violations, and fines. Just days ago, for instance, a New Mexico jury determined the tech giant had misled users about its data practices in a case that resulted from the 2018 Cambridge Analytica data breach scandal.\n\nWhether users can trust Muse will be a deciding factor in whether or not Meta wins the consumer AI market. Although its app is faring well now, and remains No. 1 on the App Store, Meta’s reputation may not recover if more reports like this emerge, true or not. If anything, the company should be engaging with the journalist directly to determine how this could have possibly happened, instead of just denying that it did.\n\nStone’s official statement from Meta follows a more technical reply from Meta Superintelligence Labs executive David Singleton, who responded directly to Aten on Threads, explaining that the set of permissions a user must grant to let Muse read their messages on the Mac involves “three separate steps of application-level permissions and built-in macOS system-level protections.” He said these “can’t be circumvented even if the Muse application had a bug.”\n\nThe steps involve explicitly choosing to grant Muse Full Disk Access, which would then allow the user to choose what level of access Muse is being granted to the Messages app (i.e., None, Read only, or Read). If Full Disk Access is not enabled, these options are grayed out.\n\nIn addition, when allowing Full Disk Access, the dialog invokes the macOS Settings user interface, where the user has to again manually confirm that they intend to take this action. Doing this triggers a full restart of the Muse app, Singleton wrote, which makes it even less likely that such a choice could be made accidentally without the user’s knowledge.\n\nHowever, Aten’s report claimed that when Muse read his messages, Full Disk Access was off. He also said that when he asked Muse to explain how this occurred, the AI said that it was syncing his “device notifications.” That means, Aten believes, that Muse was passing along the text of his incoming banner notifications on the Mac to the AI agent.\n\nSingleton disputed this, too, saying that the AI was confused and gave an incorrect explanation of what happened. He then pointed to Meta’s page about Muse’s security architecture and bug bounty process.\n\nIn short, the company’s response is essentially that what Aten said happened did not and could not have happened.\n\nThis is not the only incident where Muse has allegedly overstepped and won’t likely be the last. Another user, YouTuber Matt Robb, recently said that Muse mishandled a task in which he was selling things on Facebook Marketplace, leading to his address being shared and a buyer showing up when he wasn’t even home. Meta looked into this one, it was a complicated issue. The user said they did allow Muse a permission that had allowed this to happen.\n\nUpdated after publication to note that the user admitted some fault in the Marketplace issue.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Meta is fighting back against a journalist’s claim that its AI agent Muse read the user’s private messages without permission. Following an earlier report from Inc. columnist Jason Aten that detailed the issue, Meta VP of Communications Andy Stone pushed back, making it clear that the company does not believe its product did this without the user’s consent.",
+      "heading": 0
+    },
+    {
+      "text": "“The Messages integration in the Muse app for Mac is entirely opt-in,” Stone wrote on X in response to the claims made by the piece. “You have to enable both Full Disk Access and the Messages connector for Muse to be able to read your Messages content. It can’t read your Messages unless you do this.”",
+      "heading": 0
+    },
+    {
+      "text": "Despite Meta’s denial, many people are still suspicious that Meta isn’t being truthful.",
+      "heading": 0
+    },
+    {
+      "text": "That’s not surprising, given the tech giant’s years of mishandling consumer data, which has led to lawsuits, FTC violations, and fines. Just days ago, for instance, a New Mexico jury determined the tech giant had misled users about its data practices in a case that resulted from the 2018 Cambridge Analytica data breach scandal.",
+      "heading": 0
+    },
+    {
+      "text": "Whether users can trust Muse will be a deciding factor in whether or not Meta wins the consumer AI market. Although its app is faring well now, and remains No. 1 on the App Store, Meta’s reputation may not recover if more reports like this emerge, true or not. If anything, the company should be engaging with the journalist directly to determine how this could have possibly happened, instead of just denying that it did.",
+      "heading": 0
+    },
+    {
+      "text": "Stone’s official statement from Meta follows a more technical reply from Meta Superintelligence Labs executive David Singleton, who responded directly to Aten on Threads, explaining that the set of permissions a user must grant to let Muse read their messages on the Mac involves “three separate steps of application-level permissions and built-in macOS system-level protections.” He said these “can’t be circumvented even if the Muse application had a bug.”",
+      "heading": 0
+    },
+    {
+      "text": "The steps involve explicitly choosing to grant Muse Full Disk Access, which would then allow the user to choose what level of access Muse is being granted to the Messages app (i.e., None, Read only, or Read). If Full Disk Access is not enabled, these options are grayed out.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, when allowing Full Disk Access, the dialog invokes the macOS Settings user interface, where the user has to again manually confirm that they intend to take this action. Doing this triggers a full restart of the Muse app, Singleton wrote, which makes it even less likely that such a choice could be made accidentally without the user’s knowledge.",
+      "heading": 0
+    },
+    {
+      "text": "However, Aten’s report claimed that when Muse read his messages, Full Disk Access was off. He also said that when he asked Muse to explain how this occurred, the AI said that it was syncing his “device notifications.” That means, Aten believes, that Muse was passing along the text of his incoming banner notifications on the Mac to the AI agent.",
+      "heading": 0
+    },
+    {
+      "text": "Singleton disputed this, too, saying that the AI was confused and gave an incorrect explanation of what happened. He then pointed to Meta’s page about Muse’s security architecture and bug bounty process.",
+      "heading": 0
+    },
+    {
+      "text": "In short, the company’s response is essentially that what Aten said happened did not and could not have happened.",
+      "heading": 0
+    },
+    {
+      "text": "This is not the only incident where Muse has allegedly overstepped and won’t likely be the last. Another user, YouTuber Matt Robb, recently said that Muse mishandled a task in which he was selling things on Facebook Marketplace, leading to his address being shared and a buyer showing up when he wasn’t even home. Meta looked into this one, it was a complicated issue. The user said they did allow Muse a permission that had allowed this to happen.",
+      "heading": 0
+    },
+    {
+      "text": "Updated after publication to note that the user admitted some fault in the Marketplace issue.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

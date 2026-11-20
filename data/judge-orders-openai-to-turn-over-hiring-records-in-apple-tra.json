@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+  "slug": "judge-orders-openai-to-turn-over-hiring-records-in-apple-tra",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+    "episode": ""
+  },
+  "words": 434,
+  "lines": 14,
+  "duration": 145,
+  "text": "A judge has ruled that Apple will gain expedited access to OpenAI’s hiring materials in the trade secrets-focused lawsuit the iPhone maker filed against OpenAI in July.\n\nSpecifically, the court will allow Apple to view documents associated with OpenAI’s interviews with former Apple employees who applied for roles within its consumer hardware and robotics groups ahead of the rumored launch of OpenAI’s first hardware device.\n\nThese documents could include interview checklists, guides, instructions, manuals, and scripts, as well as technical presentations and records showing that interview discussions had included references to Apple technology or components.\n\nThe court gave OpenAI five days to turn over materials it has already collected and 14 days for any other materials related to this request, agreeing with Apple that these documents should be expedited.\n\nThe case comes as OpenAI develops a consumer hardware device that could one day potentially rival the iPhone — or smartphones more generally — if the AI device becomes a central part of consumers’ lives and how they engage with software and services.\n\nIn its lawsuit, Apple accused OpenAI of a pattern of theft, which includes direct complaints about former employees using Apple laptops to download confidential material and files that contained information about unannounced technologies, features, and products, including technical specifications, engineering presentations, and proprietary project data.\n\nApple also said that former Apple employees at OpenAI coached others considering leaving Apple for OpenAI on what information to bring to their interviews, among other allegations.\n\nU.S. District Judge Edward Davila didn’t greenlight all of Apple’s requests for expedited access to OpenAI documents and messages relevant to the case. But he did rule that Apple could access the interview materials, alongside private LINE messages (from a messaging app) between individuals named in the case, including OpenAI employees Chang Liu and Alyssa Peng.\n\nThe judge also approved depositions for Liu and Peng, along with a third individual, OpenAI’s chief hardware officer, Tang Yew Tan. All three are former Apple employees.\n\nHowever, the judge denied Apple’s request to expedite its access to OpenAI’s research and development in specific areas, like metal finishes and power management. He also denied several of Apple’s broader discovery requests, like access to OpenAI’s hardware research or information about what its former employees created while working at OpenAI.\n\nThat denial isn’t final, though; the judge left the door open for Apple to narrow its requests and try again.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "A judge has ruled that Apple will gain expedited access to OpenAI’s hiring materials in the trade secrets-focused lawsuit the iPhone maker filed against OpenAI in July.",
+      "heading": 0
+    },
+    {
+      "text": "Specifically, the court will allow Apple to view documents associated with OpenAI’s interviews with former Apple employees who applied for roles within its consumer hardware and robotics groups ahead of the rumored launch of OpenAI’s first hardware device.",
+      "heading": 0
+    },
+    {
+      "text": "These documents could include interview checklists, guides, instructions, manuals, and scripts, as well as technical presentations and records showing that interview discussions had included references to Apple technology or components.",
+      "heading": 0
+    },
+    {
+      "text": "The court gave OpenAI five days to turn over materials it has already collected and 14 days for any other materials related to this request, agreeing with Apple that these documents should be expedited.",
+      "heading": 0
+    },
+    {
+      "text": "The case comes as OpenAI develops a consumer hardware device that could one day potentially rival the iPhone — or smartphones more generally — if the AI device becomes a central part of consumers’ lives and how they engage with software and services.",
+      "heading": 0
+    },
+    {
+      "text": "In its lawsuit, Apple accused OpenAI of a pattern of theft, which includes direct complaints about former employees using Apple laptops to download confidential material and files that contained information about unannounced technologies, features, and products, including technical specifications, engineering presentations, and proprietary project data.",
+      "heading": 0
+    },
+    {
+      "text": "Apple also said that former Apple employees at OpenAI coached others considering leaving Apple for OpenAI on what information to bring to their interviews, among other allegations.",
+      "heading": 0
+    },
+    {
+      "text": "U.S. District Judge Edward Davila didn’t greenlight all of Apple’s requests for expedited access to OpenAI documents and messages relevant to the case. But he did rule that Apple could access the interview materials, alongside private LINE messages (from a messaging app) between individuals named in the case, including OpenAI employees Chang Liu and Alyssa Peng.",
+      "heading": 0
+    },
+    {
+      "text": "The judge also approved depositions for Liu and Peng, along with a third individual, OpenAI’s chief hardware officer, Tang Yew Tan. All three are former Apple employees.",
+      "heading": 0
+    },
+    {
+      "text": "However, the judge denied Apple’s request to expedite its access to OpenAI’s research and development in specific areas, like metal finishes and power management. He also denied several of Apple’s broader discovery requests, like access to OpenAI’s hardware research or information about what its former employees created while working at OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "That denial isn’t final, though; the judge left the door open for Apple to narrow its requests and try again.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

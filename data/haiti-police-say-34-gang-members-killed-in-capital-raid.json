@@ -1,0 +1,36 @@
+{
+  "type": "read",
+  "title": "Haiti police say 34 gang members killed in capital raid",
+  "slug": "haiti-police-say-34-gang-members-killed-in-capital-raid",
+  "category": "News",
+  "channel": "Al Jazeera",
+  "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/wide-thumb-haiti-1911-1795134593.png?resize=1920%2C1080&quality=80",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+    "episode": ""
+  },
+  "words": 59,
+  "lines": 3,
+  "duration": 60,
+  "text": "NewsFeed\n\nHaiti police say 34 gang members killed in capital raid\n\nHaitian police say at least 34 gang members were killed in an operation in Martissant, a neighbourhood in the capital, Port-au-Prince. Haiti has cracked down on gangs since El Salvador sent roughly 2,500 troops in October to assist the government’s fight to reclaim control.",
+  "paragraphs": [
+    {
+      "text": "NewsFeed",
+      "heading": 1
+    },
+    {
+      "text": "Haiti police say 34 gang members killed in capital raid",
+      "heading": 1
+    },
+    {
+      "text": "Haitian police say at least 34 gang members were killed in an operation in Martissant, a neighbourhood in the capital, Port-au-Prince. Haiti has cracked down on gangs since El Salvador sent roughly 2,500 troops in October to assist the government’s fight to reclaim control.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+  "slug": "with-720m-round-britain-s-fractile-gets-a-leg-up-in-the-race",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "episode": ""
+  },
+  "words": 470,
+  "lines": 16,
+  "duration": 157,
+  "text": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. has a greater stake in the hardware that will underpin its future economy,” its government stated.\n\nAlongside the likes of Axelera, Etched, and OLIX, this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips. Such chips are one of several avenues being explored to reduce the cost of inference — aka using increasingly demanding AI models in production.\n\nHowever, Fractile seeks to go beyond hardware with a full-stack approach that also includes a machine learning compiler to maximize the speed at which LLMs will get executed on its chips.\n\nAs a result, the company frames itself as a frontier AI company, and its latest round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners, and Redpoint was priced accordingly. According to the British government, the valuation was “over £5 billion” — quite possibly $7 billion, a figure reported both by the Financial Times and a Reuters source.\n\nStill, Fractile’s main differentiator will arguably be its hardware design. After a pivot, its approach now revolves on DRAM, the most common type of RAM, but stacked on top of each chip in such a way that it is hoping will bypass the usual trade-off between memory and capacity.\n\nThis trade-off has become more problematic with the rise of agentic AI, as companies seek to perform longer chains of tasks with large models without compromising on speed. As compute struggles to keep up, hopes are high for AI chips, despite their limited availability to date.\n\nIn a LinkedIn post, Fractile CEO Walter Goodwin wrote that “there is still a lot of work ahead” for the company, and that the new funding will enable the startup to “ship [its] first chips and systems next year.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nFreelance Reporter\n\nAnna Heim is a writer and editorial consultant.\n\nYou can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.\n\nAs a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.\n\nAs of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.\n\nAnna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.\n\nA former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+  "paragraphs": [
+    {
+      "text": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. has a greater stake in the hardware that will underpin its future economy,” its government stated.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside the likes of Axelera, Etched, and OLIX, this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips. Such chips are one of several avenues being explored to reduce the cost of inference — aka using increasingly demanding AI models in production.",
+      "heading": 0
+    },
+    {
+      "text": "However, Fractile seeks to go beyond hardware with a full-stack approach that also includes a machine learning compiler to maximize the speed at which LLMs will get executed on its chips.",
+      "heading": 0
+    },
+    {
+      "text": "As a result, the company frames itself as a frontier AI company, and its latest round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners, and Redpoint was priced accordingly. According to the British government, the valuation was “over £5 billion” — quite possibly $7 billion, a figure reported both by the Financial Times and a Reuters source.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Fractile’s main differentiator will arguably be its hardware design. After a pivot, its approach now revolves on DRAM, the most common type of RAM, but stacked on top of each chip in such a way that it is hoping will bypass the usual trade-off between memory and capacity.",
+      "heading": 0
+    },
+    {
+      "text": "This trade-off has become more problematic with the rise of agentic AI, as companies seek to perform longer chains of tasks with large models without compromising on speed. As compute struggles to keep up, hopes are high for AI chips, despite their limited availability to date.",
+      "heading": 0
+    },
+    {
+      "text": "In a LinkedIn post, Fractile CEO Walter Goodwin wrote that “there is still a lot of work ahead” for the company, and that the new funding will enable the startup to “ship [its] first chips and systems next year.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Freelance Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Anna Heim is a writer and editorial consultant.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anna by emailing annatechcrunch [at] gmail.com.",
+      "heading": 0
+    },
+    {
+      "text": "As a freelance reporter at TechCrunch since 2021, she has covered a large range of startup-related topics including AI, fintech & insurtech, SaaS & pricing, and global venture capital trends.",
+      "heading": 0
+    },
+    {
+      "text": "As of May 2025, her reporting for TechCrunch focuses on Europe’s most interesting startup stories.",
+      "heading": 0
+    },
+    {
+      "text": "Anna has moderated panels and conducted onstage interviews at industry events of all sizes, including major tech conferences such as TechCrunch Disrupt, 4YFN, South Summit, TNW Conference, VivaTech, and many more.",
+      "heading": 0
+    },
+    {
+      "text": "A former LATAM & Media Editor at The Next Web, startup founder and Sciences Po Paris alum, she’s fluent in multiple languages, including French, English, Spanish and Brazilian Portuguese.",
+      "heading": 0
+    }
+  ]
+}

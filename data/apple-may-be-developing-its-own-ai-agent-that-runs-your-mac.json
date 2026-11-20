@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Apple may be developing its own AI agent that runs your Mac",
+  "slug": "apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+    "episode": ""
+  },
+  "words": 394,
+  "lines": 12,
+  "duration": 131,
+  "text": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things.\n\nThe news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering manager to oversee the creation of an “AI agent that can use a computer.”\n\n“Imagine an AI agent that can use a computer the way a capable person does,” the posting says. “It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step. It does all this privately and with the polish people expect from Apple.”\n\nThe posting additionally notes that the agents should be able to move “fluidly between tools” and “carry out multi-step tasks across apps, browsers, command lines, code, and APIs.”\n\nTechCrunch reached out to Apple for more information but did not receive a response.\n\nAgents capable of computer work have become one of the hottest commodities in the tech industry over the past year. Major labs like Anthropic and OpenAI have launched such services, while other major tech brands — like Meta, which recently launched its Muse agent line — have also moved into the space. It makes sense that Apple — which is trying to expand its AI offerings in the new John Ternus era — would want to follow suit.\n\nBloomberg additionally notes that, at the same time that Apple is working on its own digital assistant, the company is making it significantly harder for third-party agents to gain total control over its computers.\n\nThe outlet notes that the version of its upcoming macOS 27.3 will deploy warnings discouraging users from granting full access to third-party agents. In October, Apple issued a notification to developers stating that the company planned to “introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.”\n\nBloomberg writes that while the iPhone maker “has eyed introducing the service as soon as the end of next year,” progress on its in-house agent “remains in the early stages.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things.",
+      "heading": 0
+    },
+    {
+      "text": "The news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering manager to oversee the creation of an “AI agent that can use a computer.”",
+      "heading": 0
+    },
+    {
+      "text": "“Imagine an AI agent that can use a computer the way a capable person does,” the posting says. “It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step. It does all this privately and with the polish people expect from Apple.”",
+      "heading": 0
+    },
+    {
+      "text": "The posting additionally notes that the agents should be able to move “fluidly between tools” and “carry out multi-step tasks across apps, browsers, command lines, code, and APIs.”",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch reached out to Apple for more information but did not receive a response.",
+      "heading": 0
+    },
+    {
+      "text": "Agents capable of computer work have become one of the hottest commodities in the tech industry over the past year. Major labs like Anthropic and OpenAI have launched such services, while other major tech brands — like Meta, which recently launched its Muse agent line — have also moved into the space. It makes sense that Apple — which is trying to expand its AI offerings in the new John Ternus era — would want to follow suit.",
+      "heading": 0
+    },
+    {
+      "text": "Bloomberg additionally notes that, at the same time that Apple is working on its own digital assistant, the company is making it significantly harder for third-party agents to gain total control over its computers.",
+      "heading": 0
+    },
+    {
+      "text": "The outlet notes that the version of its upcoming macOS 27.3 will deploy warnings discouraging users from granting full access to third-party agents. In October, Apple issued a notification to developers stating that the company planned to “introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.”",
+      "heading": 0
+    },
+    {
+      "text": "Bloomberg writes that while the iPhone maker “has eyed introducing the service as soon as the end of next year,” progress on its in-house agent “remains in the early stages.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

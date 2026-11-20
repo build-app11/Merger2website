@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+  "slug": "apple-discloses-deal-to-hire-team-and-license-tech-from-pers",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/01/apple-podcasts-1.jpg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "episode": ""
+  },
+  "words": 434,
+  "lines": 12,
+  "duration": 145,
+  "text": "Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal.\n\nAs first reported in MacRumors, Apple disclosed to the European Commission that it has agreed to make employment offers to “certain employees of Huxe AI,” and to “receive a non-exclusive license to Huxe’s intellectual property rights.”\n\nReverse acqui-hires emerged in recent years as a way for larger companies to hire key team members and license technology from startups without acquiring the startups outright — presumably allowing them to build up AI talent and tech without drawing as much antitrust scrutiny. (Confusingly, these deals have both been referred to as “reverse acqui-hires” and as plain old “acqui-hires.” )\n\nIn the case of Huxe, the startup was founded by developers who’d previously worked on the AI-generated podcast features in NotebookLM (recently renamed Gemini Notebook ). But Huxe announced on May 21 that it was shutting down, with the team posting on the Huxe website that the company would be removing its app from the Apple and Google stores, halting service, and deleting user data.\n\n“The team is moving on to new things, and we won’t be continuing development of the product,” the company said. It also thanked its users, saying, “The fact that you used it, told friends about it, sent us your suggestions and your ideas, made it feel like we built it together.”\n\nOn June 9, shortly after Huxe’s announcement, Apple notified the European Commission of its deal.\n\nThe filing does not say who received employment offers or if they accepted. Nor does it disclose anything about Apple’s plans.\n\nPossibly related: Huxe’s shutdown announcement came just a day after Spotify unveiled AI-powered podcast-generation features of its own, so Apple could be hoping to add similar functionality to its Podcasts app. Tech executives seem enamored with the idea that personalized audio can replace regular podcasts (and maybe even parent-child interaction?), though it’s not clear how many normal listeners agree.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal.",
+      "heading": 0
+    },
+    {
+      "text": "As first reported in MacRumors, Apple disclosed to the European Commission that it has agreed to make employment offers to “certain employees of Huxe AI,” and to “receive a non-exclusive license to Huxe’s intellectual property rights.”",
+      "heading": 0
+    },
+    {
+      "text": "Reverse acqui-hires emerged in recent years as a way for larger companies to hire key team members and license technology from startups without acquiring the startups outright — presumably allowing them to build up AI talent and tech without drawing as much antitrust scrutiny. (Confusingly, these deals have both been referred to as “reverse acqui-hires” and as plain old “acqui-hires.” )",
+      "heading": 0
+    },
+    {
+      "text": "In the case of Huxe, the startup was founded by developers who’d previously worked on the AI-generated podcast features in NotebookLM (recently renamed Gemini Notebook ). But Huxe announced on May 21 that it was shutting down, with the team posting on the Huxe website that the company would be removing its app from the Apple and Google stores, halting service, and deleting user data.",
+      "heading": 0
+    },
+    {
+      "text": "“The team is moving on to new things, and we won’t be continuing development of the product,” the company said. It also thanked its users, saying, “The fact that you used it, told friends about it, sent us your suggestions and your ideas, made it feel like we built it together.”",
+      "heading": 0
+    },
+    {
+      "text": "On June 9, shortly after Huxe’s announcement, Apple notified the European Commission of its deal.",
+      "heading": 0
+    },
+    {
+      "text": "The filing does not say who received employment offers or if they accepted. Nor does it disclose anything about Apple’s plans.",
+      "heading": 0
+    },
+    {
+      "text": "Possibly related: Huxe’s shutdown announcement came just a day after Spotify unveiled AI-powered podcast-generation features of its own, so Apple could be hoping to add similar functionality to its Podcasts app. Tech executives seem enamored with the idea that personalized audio can replace regular podcasts (and maybe even parent-child interaction?), though it’s not clear how many normal listeners agree.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

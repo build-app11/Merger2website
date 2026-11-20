@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+  "slug": "a-vinyl-bar-in-shibuya-is-a-startup-from-a-former-spotify-le",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/VBIS-white_bg-red_hand-horizontal.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+    "episode": ""
+  },
+  "words": 694,
+  "lines": 16,
+  "duration": 231,
+  "text": "As AI rages on, new startups are creating tools for people to create music using generative AI prompts in the style of any artist they want. A Vinyl Bar in Shibuya, a startup that sounds more like an indie band name, is focused on releasing a series of small apps that let you play around with sounds and vocals.\n\nThe company has raised a $5.5 million pre-seed round from Mantis VC, SV Angel, BoxGroup, Quiet Capital, Remarkable Ventures, Common Metal, Gold House, Liquid 2 Ventures, Breakers VC, Collaborative Fund, Systemic Ventures, and former Spotify chief content and advertising business officer, Dawn Ostroff, who joined the company as an advisor.\n\nThe startup is built by Máuhan M. Zonoozy, who was the former head of innovation at Spotify. Prior to that, he founded a video clipping and remixing startup called Bubbl, which was acquired by Cricket Media.\n\nZonoozy, who left Spotify in 2024, said that he always wanted to go back to building something of his own. He thought that while streaming solved the access problem, most of the interaction with music was still around consumption.\n\n“I think when I looked at emergent behaviors and younger audiences, like everyone’s growing up playing with culture through games, through filters, through creation tools. And I just felt like there was an opportunity to empower people to do something similar with music,” he told TechCrunch.\n\nThe startup releases these experiments like “singles” that are part of an album. The common theme between all of these apps or websites is interacting with different elements to create music or modify sound. For instance, Speed Surfer is a Chrome extension that changes the speed and filter of sound playing in your browser window.\n\nUsersound is a website where you can create an “audio” username with each letter representing a note. Stacks is a stem player where you can create mixes by turning bars on or off in a 3×3 grid. Drops is about placing plaques in a pattern to deflect marbles falling down, which creates musical notes. Sampler is a website that turns YouTube videos into music samplers based on beats of different parts of the songs.\n\nThe company’s more ambitious product is an iOS app called bop. This lets you place musical instruments and effects in a grid to create different mixes of a base song. You can also adjust tempo and add one-time effects. Once you create these mixes, you can easily export them to TikTok or Instagram. A Vinyl Bar in Shibuya is also working on a multiplayer version, which would let users remix songs with others. The company recently added a prompt-based feature to create a sound.\n\nZonoozy said that it is making an informed choice not to infuse AI into every part of these apps. He is open to using AI to build these products and to make infrastructure solid, though.\n\n“AI is obviously extraordinarily powerful, but I think we just don’t necessarily believe that the future of music is simply generation, like song generation via AI. And I think if AI starts to make that content more abundant, it actually makes taste and human perspective and interaction and participation even more important and even more valuable. And we’re just trying to make sure it doesn’t make it even rarer,” he said.\n\nThis year, the company aims to release a “musical sandbox mixer” product that would let users play around with different elements of music-making, including being able to create instruments.\n\nThe story title was changed because, at the time of testing last month, there were no prompt-based features in the startup’s apps. The company added prompt-based features more recently to its apps.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "As AI rages on, new startups are creating tools for people to create music using generative AI prompts in the style of any artist they want. A Vinyl Bar in Shibuya, a startup that sounds more like an indie band name, is focused on releasing a series of small apps that let you play around with sounds and vocals.",
+      "heading": 0
+    },
+    {
+      "text": "The company has raised a $5.5 million pre-seed round from Mantis VC, SV Angel, BoxGroup, Quiet Capital, Remarkable Ventures, Common Metal, Gold House, Liquid 2 Ventures, Breakers VC, Collaborative Fund, Systemic Ventures, and former Spotify chief content and advertising business officer, Dawn Ostroff, who joined the company as an advisor.",
+      "heading": 0
+    },
+    {
+      "text": "The startup is built by Máuhan M. Zonoozy, who was the former head of innovation at Spotify. Prior to that, he founded a video clipping and remixing startup called Bubbl, which was acquired by Cricket Media.",
+      "heading": 0
+    },
+    {
+      "text": "Zonoozy, who left Spotify in 2024, said that he always wanted to go back to building something of his own. He thought that while streaming solved the access problem, most of the interaction with music was still around consumption.",
+      "heading": 0
+    },
+    {
+      "text": "“I think when I looked at emergent behaviors and younger audiences, like everyone’s growing up playing with culture through games, through filters, through creation tools. And I just felt like there was an opportunity to empower people to do something similar with music,” he told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The startup releases these experiments like “singles” that are part of an album. The common theme between all of these apps or websites is interacting with different elements to create music or modify sound. For instance, Speed Surfer is a Chrome extension that changes the speed and filter of sound playing in your browser window.",
+      "heading": 0
+    },
+    {
+      "text": "Usersound is a website where you can create an “audio” username with each letter representing a note. Stacks is a stem player where you can create mixes by turning bars on or off in a 3×3 grid. Drops is about placing plaques in a pattern to deflect marbles falling down, which creates musical notes. Sampler is a website that turns YouTube videos into music samplers based on beats of different parts of the songs.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s more ambitious product is an iOS app called bop. This lets you place musical instruments and effects in a grid to create different mixes of a base song. You can also adjust tempo and add one-time effects. Once you create these mixes, you can easily export them to TikTok or Instagram. A Vinyl Bar in Shibuya is also working on a multiplayer version, which would let users remix songs with others. The company recently added a prompt-based feature to create a sound.",
+      "heading": 0
+    },
+    {
+      "text": "Zonoozy said that it is making an informed choice not to infuse AI into every part of these apps. He is open to using AI to build these products and to make infrastructure solid, though.",
+      "heading": 0
+    },
+    {
+      "text": "“AI is obviously extraordinarily powerful, but I think we just don’t necessarily believe that the future of music is simply generation, like song generation via AI. And I think if AI starts to make that content more abundant, it actually makes taste and human perspective and interaction and participation even more important and even more valuable. And we’re just trying to make sure it doesn’t make it even rarer,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "This year, the company aims to release a “musical sandbox mixer” product that would let users play around with different elements of music-making, including being able to create instruments.",
+      "heading": 0
+    },
+    {
+      "text": "The story title was changed because, at the time of testing last month, there were no prompt-based features in the startup’s apps. The company added prompt-based features more recently to its apps.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

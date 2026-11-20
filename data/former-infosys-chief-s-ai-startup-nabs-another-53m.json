@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Former Infosys chief’s AI startup nabs another $53M",
+  "slug": "former-infosys-chief-s-ai-startup-nabs-another-53m",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/vishal-sikka.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+    "episode": ""
+  },
+  "words": 912,
+  "lines": 24,
+  "duration": 304,
+  "text": "Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months ago, has expanded its seed funding by another $53 million. This new investment round was closed just five weeks after the initial $32 million seed round was closed, the company tells TechCrunch.\n\nThe fresh investment, led by Temasek’s early-stage investment platform Xora, takes Hang Ten’s total funding to $85 million. Mayfield, which led the startup’s earlier investment, also participated. Other investors include Aramco Ventures, Intel CEO Lip-Bu Tan, Micron CEO Sanjay Mehrotra, and Yahoo co-founder Jerry Yang, who is also on its board.\n\nFounded in May, Hang Ten is betting that AI can fundamentally reshape how large companies build and maintain software. The startup advises companies — typically with over $10 billion in annual revenue — on AI strategy and also helps build and modernize software.\n\n“The build part itself has basically become close to zero marginal cost, close to zero time,” Sikka (pictured above) told TechCrunch. He argued that AI is shifting the focus of software development from writing code to defining requirements and validating whether systems perform as intended.\n\nThe thesis appears to be resonating with customers. Within 25 days of the first meeting with one customer, Hang Ten signed a multimillion-dollar contract to build a mission-critical software system, Sikka said, adding that he had never seen enterprise deals move that quickly.\n\nHang Ten is now working with a mix of existing customers and late-stage prospects spanning 21 major enterprises, Sikka said, with some prospects in the proposal or contract-negotiation stage. The startup has secured multiple seven-figure contracts and is pursuing eight-figure deals. Moreover, its customers span the U.S., Europe, the Middle East, and Asia, and include Fresenius Kabi, Saudi Aramco, and Siemens Energy.\n\nThe early customer wins prompted Xora to approach Hang Ten about investing, Sikka said, adding that Xora saw an opportunity to introduce the startup to other companies in Temasek’s portfolio. Sikka declined to disclose Hang Ten’s valuation but said the second round of seed funding was a bump up.\n\nWith the fresh capital, Hang Ten plans to expand its engineering, consulting, and sales teams. The Palo Alto-headquartered startup currently has about 20 to 25 employees across the U.S., the Middle East, and Australia, and expects to hire in Europe and India, Sikka said.\n\nHang Ten enters a crowded market in which AI model developers such as OpenAI and Anthropic are expanding their enterprise offerings, while traditional consulting firms are racing to embed generative AI into their own services.\n\n“Enterprises still need trusted partners who are independent of the underlying platform and who work with and solely in the interest of the enterprise,” Sikka said. “There will always be room for companies like us.”\n\nHang Ten says its edge lies not in building another AI model, but in adapting AI to the complex software development processes of large enterprises. Co-founder and chief design officer Sanjay Rajagopalan told TechCrunch the startup’s engineers rely on an in-house framework, Hobie, that packages reusable AI “skills” for regulated industries and complex enterprise software projects.\n\n“We are actually delivering production software,” Rajagopalan said. “It’s not like we are doing some kind of PoC.”\n\nHang Ten’s approach is already putting it in competition with traditional systems integrators. Many of the startup’s engagements, Sikka said, are replacing incumbent providers, though more than half of its current opportunities involve new projects that companies had previously put off, rather than work taken from existing vendors.\n\nRajagopalan noted that Hang Ten can use teams of about two to four people for some projects that might previously have required about 30, although customers or independent third parties still handle final quality checks and certification. The startup promises customers a 10-fold improvement in cost, speed, or a combination of the two, he said.\n\nEven in four months of its debut, Hang Ten has received serious acquisition offers from “very big companies,” Sikka told TechCrunch. He, however, declined to identify the prospective buyers. The startup, he said, has turned them down for now as it focuses on expanding the business.\n\nBefore founding Hang Ten, Sikka co-founded enterprise AI startup VianAI in 2019 after leaving Infosys in 2017. It raised $50 million in seed funding and later raised $140 million in a 2021 round led by SoftBank Vision Fund 2.\n\nSikka departed that startup in April, according to his LinkedIn profile. He told TechCrunch that VianAI is “going through a transaction,” declining to provide further details.\n\nAs for how startups like Hang Ten could disrupt services providers like Infosys, Sikka noted, “We are fortunate that we don’t have the burden of legacy that we have to transform.”\n\nThe startup takes its name from “hang ten,” the surfing maneuver in which a surfer rides with all 10 toes over the front of the board. For Sikka, it reflects the startup’s ambition to help enterprises ride the ongoing AI wave, what he called “probably the biggest wave of our lives.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months ago, has expanded its seed funding by another $53 million. This new investment round was closed just five weeks after the initial $32 million seed round was closed, the company tells TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The fresh investment, led by Temasek’s early-stage investment platform Xora, takes Hang Ten’s total funding to $85 million. Mayfield, which led the startup’s earlier investment, also participated. Other investors include Aramco Ventures, Intel CEO Lip-Bu Tan, Micron CEO Sanjay Mehrotra, and Yahoo co-founder Jerry Yang, who is also on its board.",
+      "heading": 0
+    },
+    {
+      "text": "Founded in May, Hang Ten is betting that AI can fundamentally reshape how large companies build and maintain software. The startup advises companies — typically with over $10 billion in annual revenue — on AI strategy and also helps build and modernize software.",
+      "heading": 0
+    },
+    {
+      "text": "“The build part itself has basically become close to zero marginal cost, close to zero time,” Sikka (pictured above) told TechCrunch. He argued that AI is shifting the focus of software development from writing code to defining requirements and validating whether systems perform as intended.",
+      "heading": 0
+    },
+    {
+      "text": "The thesis appears to be resonating with customers. Within 25 days of the first meeting with one customer, Hang Ten signed a multimillion-dollar contract to build a mission-critical software system, Sikka said, adding that he had never seen enterprise deals move that quickly.",
+      "heading": 0
+    },
+    {
+      "text": "Hang Ten is now working with a mix of existing customers and late-stage prospects spanning 21 major enterprises, Sikka said, with some prospects in the proposal or contract-negotiation stage. The startup has secured multiple seven-figure contracts and is pursuing eight-figure deals. Moreover, its customers span the U.S., Europe, the Middle East, and Asia, and include Fresenius Kabi, Saudi Aramco, and Siemens Energy.",
+      "heading": 0
+    },
+    {
+      "text": "The early customer wins prompted Xora to approach Hang Ten about investing, Sikka said, adding that Xora saw an opportunity to introduce the startup to other companies in Temasek’s portfolio. Sikka declined to disclose Hang Ten’s valuation but said the second round of seed funding was a bump up.",
+      "heading": 0
+    },
+    {
+      "text": "With the fresh capital, Hang Ten plans to expand its engineering, consulting, and sales teams. The Palo Alto-headquartered startup currently has about 20 to 25 employees across the U.S., the Middle East, and Australia, and expects to hire in Europe and India, Sikka said.",
+      "heading": 0
+    },
+    {
+      "text": "Hang Ten enters a crowded market in which AI model developers such as OpenAI and Anthropic are expanding their enterprise offerings, while traditional consulting firms are racing to embed generative AI into their own services.",
+      "heading": 0
+    },
+    {
+      "text": "“Enterprises still need trusted partners who are independent of the underlying platform and who work with and solely in the interest of the enterprise,” Sikka said. “There will always be room for companies like us.”",
+      "heading": 0
+    },
+    {
+      "text": "Hang Ten says its edge lies not in building another AI model, but in adapting AI to the complex software development processes of large enterprises. Co-founder and chief design officer Sanjay Rajagopalan told TechCrunch the startup’s engineers rely on an in-house framework, Hobie, that packages reusable AI “skills” for regulated industries and complex enterprise software projects.",
+      "heading": 0
+    },
+    {
+      "text": "“We are actually delivering production software,” Rajagopalan said. “It’s not like we are doing some kind of PoC.”",
+      "heading": 0
+    },
+    {
+      "text": "Hang Ten’s approach is already putting it in competition with traditional systems integrators. Many of the startup’s engagements, Sikka said, are replacing incumbent providers, though more than half of its current opportunities involve new projects that companies had previously put off, rather than work taken from existing vendors.",
+      "heading": 0
+    },
+    {
+      "text": "Rajagopalan noted that Hang Ten can use teams of about two to four people for some projects that might previously have required about 30, although customers or independent third parties still handle final quality checks and certification. The startup promises customers a 10-fold improvement in cost, speed, or a combination of the two, he said.",
+      "heading": 0
+    },
+    {
+      "text": "Even in four months of its debut, Hang Ten has received serious acquisition offers from “very big companies,” Sikka told TechCrunch. He, however, declined to identify the prospective buyers. The startup, he said, has turned them down for now as it focuses on expanding the business.",
+      "heading": 0
+    },
+    {
+      "text": "Before founding Hang Ten, Sikka co-founded enterprise AI startup VianAI in 2019 after leaving Infosys in 2017. It raised $50 million in seed funding and later raised $140 million in a 2021 round led by SoftBank Vision Fund 2.",
+      "heading": 0
+    },
+    {
+      "text": "Sikka departed that startup in April, according to his LinkedIn profile. He told TechCrunch that VianAI is “going through a transaction,” declining to provide further details.",
+      "heading": 0
+    },
+    {
+      "text": "As for how startups like Hang Ten could disrupt services providers like Infosys, Sikka noted, “We are fortunate that we don’t have the burden of legacy that we have to transform.”",
+      "heading": 0
+    },
+    {
+      "text": "The startup takes its name from “hang ten,” the surfing maneuver in which a surfer rides with all 10 toes over the front of the board. For Sikka, it reflects the startup’s ambition to help enterprises ride the ongoing AI wave, what he called “probably the biggest wave of our lives.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

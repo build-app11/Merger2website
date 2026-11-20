@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+  "slug": "controlai-s-connor-leahy-on-why-superintelligence-is-not-a-w",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/55324827324_597f58ba10_k.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+    "episode": ""
+  },
+  "words": 409,
+  "lines": 24,
+  "duration": 136,
+  "text": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’\n\nAI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do?\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of nonprofit ControlAI, which is pushing for a far more radical approach to AI safety: stopping companies from developing superintelligence altogether. Leahy explains why he thinks the risks have become too great to manage through alignment and containment alone, and how what sounded far-fetched six months ago is now being backed by a wave of new legislation.\n\nListen to the full episode to hear more about:\n\nHis take on the Sanders-Casar “Ban Superintelligence Act,” the parallel legislation in the U.K. that Control AI advised on, and why he thinks the U.S. bill may go further than necessary.\n\nHow he views frontier AI labs less as companies simply chasing returns and more as political actors, and what that means for the trillions of dollars being poured into data center buildouts.\n\nWhy Leahy thinks the real point of no return is when AI can build better AI, creating a potentially runaway cycle of self-improvement\n\nThe case for international “trust but verify” agreements, and why Leahy thinks it isn’t actually in China’s interest to build superintelligence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "heading": 0
+    },
+    {
+      "text": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do?",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of nonprofit ControlAI, which is pushing for a far more radical approach to AI safety: stopping companies from developing superintelligence altogether. Leahy explains why he thinks the risks have become too great to manage through alignment and containment alone, and how what sounded far-fetched six months ago is now being backed by a wave of new legislation.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "His take on the Sanders-Casar “Ban Superintelligence Act,” the parallel legislation in the U.K. that Control AI advised on, and why he thinks the U.S. bill may go further than necessary.",
+      "heading": 0
+    },
+    {
+      "text": "How he views frontier AI labs less as companies simply chasing returns and more as political actors, and what that means for the trillions of dollars being poured into data center buildouts.",
+      "heading": 0
+    },
+    {
+      "text": "Why Leahy thinks the real point of no return is when AI can build better AI, creating a potentially runaway cycle of self-improvement",
+      "heading": 0
+    },
+    {
+      "text": "The case for international “trust but verify” agreements, and why Leahy thinks it isn’t actually in China’s interest to build superintelligence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+  "slug": "does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2239280474.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+    "episode": ""
+  },
+  "words": 175,
+  "lines": 11,
+  "duration": 60,
+  "text": "Does Mark Zuckerberg really believe AI is ‘for everyone’?\n\nLoading the player…\n\nMeta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s hosts point out, the vision comes with some asterisks.\n\nOn this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Rebecca Bellan take a look at Glimmer, Zuckerberg’s 6,500-word manifesto, and more of the week’s headlines, from the true cost of the AI industry’s energy needs to a $250M acquisition gone very wrong.\n\nTopics\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz",
+  "paragraphs": [
+    {
+      "text": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "heading": 0
+    },
+    {
+      "text": "Loading the player…",
+      "heading": 1
+    },
+    {
+      "text": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s hosts point out, the vision comes with some asterisks.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Rebecca Bellan take a look at Glimmer, Zuckerberg’s 6,500-word manifesto, and more of the week’s headlines, from the true cost of the AI industry’s energy needs to a $250M acquisition gone very wrong.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    }
+  ]
+}

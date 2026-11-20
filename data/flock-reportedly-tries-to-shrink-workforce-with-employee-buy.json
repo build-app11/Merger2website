@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+  "slug": "flock-reportedly-tries-to-shrink-workforce-with-employee-buy",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/flock-protest.jpg?resize=1131,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+    "episode": ""
+  },
+  "words": 288,
+  "lines": 19,
+  "duration": 96,
+  "text": "Posted:\n\nAnthony Ha\n\nFlock reportedly tries to shrink workforce with employee buyouts\n\nEmbattled surveillance technology company Flock Safety unveiled a “generous” severance package for voluntary employee departures on Friday, according to a report in Wired.\n\nFlock reportedly expects a significant portion of its 1,500-person workforce to express interest in the buyouts, and said it will grant them to a majority of those who are interested. The company’s internal announcement described these packages as the “most generous” it has ever offered.\n\nBy letting employees depart voluntarily, Flock can say goodbye to team members demoralized by the ongoing backlash over the company’s license plate recognition technology. Wired also reports that without buyouts, the company would “almost certainly” need to lay off some staff.\n\nIn August, The Washington Post identified 46 cases where police officers have been accused of misusing Flock technology, including cases where they allegedly stalked their wives, girlfriends, or exes. Florida and Texas both said they will stop using the startup’s technology, and an anti-surveillance advocacy group identified 90 cities that dropped Flock in August alone — a fourfold increase from the previous month.\n\nTechCrunch has reached out to Flock for comment. The startup’s CEO Garrett Langley recently told the All-In podcast that the “biggest damage” caused by the backlash has been to “internal morale.”\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling\n\nFormer Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories\n\nKate Park\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "heading": 1
+    },
+    {
+      "text": "Embattled surveillance technology company Flock Safety unveiled a “generous” severance package for voluntary employee departures on Friday, according to a report in Wired.",
+      "heading": 0
+    },
+    {
+      "text": "Flock reportedly expects a significant portion of its 1,500-person workforce to express interest in the buyouts, and said it will grant them to a majority of those who are interested. The company’s internal announcement described these packages as the “most generous” it has ever offered.",
+      "heading": 0
+    },
+    {
+      "text": "By letting employees depart voluntarily, Flock can say goodbye to team members demoralized by the ongoing backlash over the company’s license plate recognition technology. Wired also reports that without buyouts, the company would “almost certainly” need to lay off some staff.",
+      "heading": 0
+    },
+    {
+      "text": "In August, The Washington Post identified 46 cases where police officers have been accused of misusing Flock technology, including cases where they allegedly stalked their wives, girlfriends, or exes. Florida and Texas both said they will stop using the startup’s technology, and an anti-surveillance advocacy group identified 90 cities that dropped Flock in August alone — a fourfold increase from the previous month.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Flock for comment. The startup’s CEO Garrett Langley recently told the All-In podcast that the “biggest damage” caused by the backlash has been to “internal morale.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "heading": 0
+    },
+    {
+      "text": "Kate Park",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

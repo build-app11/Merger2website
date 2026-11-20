@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+  "slug": "amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-r",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Fire-TV-Alexa-2.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+    "episode": ""
+  },
+  "words": 379,
+  "lines": 12,
+  "duration": 126,
+  "text": "AI is coming to your TV, whether you want it or not.\n\nOn Wednesday, Amazon said its AI assistant, Alexa+, will be rolled out to all compatible Fire TV devices in the U.S. for free, whether or not the customer has a Prime subscription. The update brings conversational search, smart home controls, and AI-powered recommendations, the company says.\n\nPreviously, Alexa+ cost $19.99 per month for anyone who didn’t have an Amazon Prime membership, and was initially made available to the new Fire TV devices the company announced last fall.\n\nNow, Amazon says that everyone will be upgraded to Alexa+ automatically. They won’t need to download an app or sign up for a subscription. Compatible devices include all the current-generation Amazon Fire TV Sticks, the Fire TV Cube, Amazon Ember smart TVs, and other smart TVs that have Alexa+ built in, including Hisense and Panasonic.\n\nThe move follows an industrywide push to make AI services available on more consumer electronic devices, often through non-optional upgrades like this. Google, for instance, rolled out Gemini to its Google TV platform earlier this year, replacing simple search features with AI-powered conversational modes. Roku upgraded its voice assistant to AI last year, too.\n\nThe companies point to metrics like time spent with the features to suggest positive consumer adoption trends. For instance, Amazon says that Alexa+ customers now have nearly twice as many conversations on Fire TV as they did with the original Alexa, which apparently suggests that customers with Alexa+ are no longer using their TV only as a lean-back source of entertainment, and are instead engaging with the AI, too.\n\nWhether or not that’s a good thing is debatable.\n\nAmazon says that with Alexa+, users don’t have to ask for shows by title, but can instead ask for suggestions based on other factors such as theme, age, or popularity — for example, “a top-rated thriller” or “a historical drama with a strong female lead.”\n\nThe AI bot can also help customers manage and control their smart home, including displaying their Ring camera feeds on the TV.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "AI is coming to your TV, whether you want it or not.",
+      "heading": 0
+    },
+    {
+      "text": "On Wednesday, Amazon said its AI assistant, Alexa+, will be rolled out to all compatible Fire TV devices in the U.S. for free, whether or not the customer has a Prime subscription. The update brings conversational search, smart home controls, and AI-powered recommendations, the company says.",
+      "heading": 0
+    },
+    {
+      "text": "Previously, Alexa+ cost $19.99 per month for anyone who didn’t have an Amazon Prime membership, and was initially made available to the new Fire TV devices the company announced last fall.",
+      "heading": 0
+    },
+    {
+      "text": "Now, Amazon says that everyone will be upgraded to Alexa+ automatically. They won’t need to download an app or sign up for a subscription. Compatible devices include all the current-generation Amazon Fire TV Sticks, the Fire TV Cube, Amazon Ember smart TVs, and other smart TVs that have Alexa+ built in, including Hisense and Panasonic.",
+      "heading": 0
+    },
+    {
+      "text": "The move follows an industrywide push to make AI services available on more consumer electronic devices, often through non-optional upgrades like this. Google, for instance, rolled out Gemini to its Google TV platform earlier this year, replacing simple search features with AI-powered conversational modes. Roku upgraded its voice assistant to AI last year, too.",
+      "heading": 0
+    },
+    {
+      "text": "The companies point to metrics like time spent with the features to suggest positive consumer adoption trends. For instance, Amazon says that Alexa+ customers now have nearly twice as many conversations on Fire TV as they did with the original Alexa, which apparently suggests that customers with Alexa+ are no longer using their TV only as a lean-back source of entertainment, and are instead engaging with the AI, too.",
+      "heading": 0
+    },
+    {
+      "text": "Whether or not that’s a good thing is debatable.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon says that with Alexa+, users don’t have to ask for shows by title, but can instead ask for suggestions based on other factors such as theme, age, or popularity — for example, “a top-rated thriller” or “a historical drama with a strong female lead.”",
+      "heading": 0
+    },
+    {
+      "text": "The AI bot can also help customers manage and control their smart home, including displaying their Ring camera feeds on the TV.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

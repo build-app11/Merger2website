@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+  "slug": "why-sandbar-thinks-it-s-voice-enabled-ring-can-avoid-the-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/11/Sandbar_stream_ring-feat.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+    "episode": ""
+  },
+  "words": 382,
+  "lines": 24,
+  "duration": 127,
+  "text": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way.\n\nOne of the companies chasing that bet is Sandbar, the startup behind the private voice ring Stream, which has raised $36 million to date, including a $23 million Series A led by Adjacent and Kindred Ventures.\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Sandbar co-founder and CEO Mina Fahmi about why he thinks so many voice hardware devices before Stream struggled to break through, and why he’s betting that keeping the human firmly in control is what it’ll take to get wearable tech right.\n\nListen to the full episode to hear more about:\n\nWhy Fahmi designed Stream to be push-to-talk instead of always-on, and what he thinks “social acceptability” means for wearable AI.\n\nHow Fahmi’s time at CTRL-labs, the neural interface startup Meta acquired in 2019, shaped his thinking on human-driven input.\n\nWhy Sandbar chose the “gruelingly painful” path of building fully custom hardware instead of reskinning an off-the-shelf device.\n\nWhat Fahmi thinks it’ll take for voice wearables to break out of tech-enthusiast circles and into the mainstream.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way.",
+      "heading": 0
+    },
+    {
+      "text": "One of the companies chasing that bet is Sandbar, the startup behind the private voice ring Stream, which has raised $36 million to date, including a $23 million Series A led by Adjacent and Kindred Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan talks with Sandbar co-founder and CEO Mina Fahmi about why he thinks so many voice hardware devices before Stream struggled to break through, and why he’s betting that keeping the human firmly in control is what it’ll take to get wearable tech right.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "Why Fahmi designed Stream to be push-to-talk instead of always-on, and what he thinks “social acceptability” means for wearable AI.",
+      "heading": 0
+    },
+    {
+      "text": "How Fahmi’s time at CTRL-labs, the neural interface startup Meta acquired in 2019, shaped his thinking on human-driven input.",
+      "heading": 0
+    },
+    {
+      "text": "Why Sandbar chose the “gruelingly painful” path of building fully custom hardware instead of reskinning an off-the-shelf device.",
+      "heading": 0
+    },
+    {
+      "text": "What Fahmi thinks it’ll take for voice wearables to break out of tech-enthusiast circles and into the mainstream.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

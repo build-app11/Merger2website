@@ -1,0 +1,61 @@
+{
+  "type": "read",
+  "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
+  "slug": "amazon-alexa-can-now-alert-you-when-something-new-might-temp",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/update-me-when.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+    "episode": ""
+  },
+  "words": 348,
+  "lines": 9,
+  "duration": 116,
+  "text": "Amazon continues to experiment with how AI can be used to improve the shopping experience, resulting in Tuesday’s launch of a new feature within its Alexa for Shopping AI assistant called “Update Me When.” This latest addition can send consumers personalized notifications when something new or relevant happens that could lead to a purchase.\n\nFor instance, Amazon suggests people could use the feature to track when a favorite brand launches a new product line, when a new season of a favorite TV show drops, when an artist they like announces a concert tour, when an author they read releases a new book, when a tech company releases a new product, and more.\n\nThe launch is one of several AI-powered shopping features that Amazon highlighted on Tuesday, many of which point to a broader shift in the company’s AI strategy. Historically, Alexa has mainly answered product questions when shoppers ask directly. Now it can help anticipate when something might prompt a user to make a purchase — before the shopper even thinks to ask.\n\nWhile initially, consumers have to configure these alerts directly, it’s not hard to imagine a future where Amazon automatically generates alerts or may suggest alerts for shoppers to subscribe to as they browse favorite products.\n\nAmong the other Alexa for Shopping features, the most useful of these is the existing price-tracking feature that lets you ask the assistant to alert you when a product reaches a particular price or a certain discount percentage. The feature can even automatically buy the item for you if it meets these conditions, if you prefer.\n\nThe retailer has also been using Alexa to source personalized deals and create shopping guides, build carts with items from past purchases, track a product’s pricing history, and see AI overviews when searching for products or on the product detail pages, transcribe handwritten lists to add items to a cart, compare items, and more.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Amazon continues to experiment with how AI can be used to improve the shopping experience, resulting in Tuesday’s launch of a new feature within its Alexa for Shopping AI assistant called “Update Me When.” This latest addition can send consumers personalized notifications when something new or relevant happens that could lead to a purchase.",
+      "heading": 0
+    },
+    {
+      "text": "For instance, Amazon suggests people could use the feature to track when a favorite brand launches a new product line, when a new season of a favorite TV show drops, when an artist they like announces a concert tour, when an author they read releases a new book, when a tech company releases a new product, and more.",
+      "heading": 0
+    },
+    {
+      "text": "The launch is one of several AI-powered shopping features that Amazon highlighted on Tuesday, many of which point to a broader shift in the company’s AI strategy. Historically, Alexa has mainly answered product questions when shoppers ask directly. Now it can help anticipate when something might prompt a user to make a purchase — before the shopper even thinks to ask.",
+      "heading": 0
+    },
+    {
+      "text": "While initially, consumers have to configure these alerts directly, it’s not hard to imagine a future where Amazon automatically generates alerts or may suggest alerts for shoppers to subscribe to as they browse favorite products.",
+      "heading": 0
+    },
+    {
+      "text": "Among the other Alexa for Shopping features, the most useful of these is the existing price-tracking feature that lets you ask the assistant to alert you when a product reaches a particular price or a certain discount percentage. The feature can even automatically buy the item for you if it meets these conditions, if you prefer.",
+      "heading": 0
+    },
+    {
+      "text": "The retailer has also been using Alexa to source personalized deals and create shopping guides, build carts with items from past purchases, track a product’s pricing history, and see AI overviews when searching for products or on the product detail pages, transcribe handwritten lists to add items to a cart, compare items, and more.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

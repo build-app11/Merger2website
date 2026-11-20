@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+  "slug": "researchers-are-tracking-a-chinese-ai-agent-fleet",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "episode": ""
+  },
+  "words": 366,
+  "lines": 21,
+  "duration": 122,
+  "text": "Posted:\n\nRussell Brandom\n\nResearchers are tracking a Chinese AI ‘agent fleet’\n\nA new fleet of AI agents is making its presence felt on the internet. On Sunday, a group of independent researchers posted preliminary findings about the agents, observing that they seem to be running on Tencent’s infrastructure and targeting Alibaba’s map service, Amap.\n\nResearchers, however, resisted the term “swarm,” noting that there seems to be little coordination between their different queries. “‘Agent fleet,’ not ‘swarm:’” one researcher wrote in the preliminary report, “many parallel agents on the same kind of task, with no sign of communication between them.”\n\nThe agents were discovered by monitoring traffic to the domain-scanning service urlquery, a technique that previously revealed long-running activity by OpenAI agents. AI agents often use urlquery to load websites that they cannot access directly, leaving a record of their activities that can be valuable to researchers.\n\nIn this case, the record showed queries to Alibaba’s Amap service, seeking directions to different entrances of various public places, including a park, a zoo, and a hospital.\n\nThe research is ongoing and so few details are available, but the behavior shows how persistent AI agent activity has become on the internet. In the wake of the Hugging Face incident, many researchers are actively monitoring for rogue agent activity on the internet. Much of that activity has been easy to find because agents tend to use the same techniques and make little effort to conceal themselves.\n\nIn this case, the agents don’t seem to have been doing anything more nefarious than side-stepping Alibaba’s API rules — but we may not always be so lucky.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Russell Brandom",
+      "heading": 1
+    },
+    {
+      "text": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "heading": 1
+    },
+    {
+      "text": "A new fleet of AI agents is making its presence felt on the internet. On Sunday, a group of independent researchers posted preliminary findings about the agents, observing that they seem to be running on Tencent’s infrastructure and targeting Alibaba’s map service, Amap.",
+      "heading": 0
+    },
+    {
+      "text": "Researchers, however, resisted the term “swarm,” noting that there seems to be little coordination between their different queries. “‘Agent fleet,’ not ‘swarm:’” one researcher wrote in the preliminary report, “many parallel agents on the same kind of task, with no sign of communication between them.”",
+      "heading": 0
+    },
+    {
+      "text": "The agents were discovered by monitoring traffic to the domain-scanning service urlquery, a technique that previously revealed long-running activity by OpenAI agents. AI agents often use urlquery to load websites that they cannot access directly, leaving a record of their activities that can be valuable to researchers.",
+      "heading": 0
+    },
+    {
+      "text": "In this case, the record showed queries to Alibaba’s Amap service, seeking directions to different entrances of various public places, including a park, a zoo, and a hospital.",
+      "heading": 0
+    },
+    {
+      "text": "The research is ongoing and so few details are available, but the behavior shows how persistent AI agent activity has become on the internet. In the wake of the Hugging Face incident, many researchers are actively monitoring for rogue agent activity on the internet. Much of that activity has been easy to find because agents tend to use the same techniques and make little effort to conceal themselves.",
+      "heading": 0
+    },
+    {
+      "text": "In this case, the agents don’t seem to have been doing anything more nefarious than side-stepping Alibaba’s API rules — but we may not always be so lucky.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

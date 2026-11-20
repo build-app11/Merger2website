@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+  "slug": "blacksmith-hits-unicorn-valuation-after-sequoia-leads-series",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+    "episode": ""
+  },
+  "words": 286,
+  "lines": 21,
+  "duration": 95,
+  "text": "Posted:\n\nDominic-Madori Davis\n\nBlacksmith hits unicorn valuation after Sequoia leads Series C\n\nBlacksmith, a platform that helps companies more efficiently build and test software, including code written by AI, announced Wednesday a $66 million Series C funding round led by Sequoia that values the company at $1 billion.\n\nIn announcing the round, Blacksmith co-founder and CEO Aditya Jayaprakash said the company was founded to make continuous integration (CI) — the process of building, testing, merging, and validating code changes — “less painful.” In a blog post, he said that “most companies are struggling to keep up with the volume of CI they need to run,” especially in an era where so much code is written by AI.\n\n“As agents write more of the world’s software, the question that matters is whether it can be trusted,” he added.\n\nThe company also announced that its annual recurring revenue has grown 17x and that it has run over 90 million CI jobs, or individual automated code checks. Customers include Mercury and Granola.\n\nThe Series C comes just two months after its $45 million Series B, which valued the company at $550 million. A year ago, Blacksmith was valued at $60 million after raising a $10 million Series A. It has raised $125 million to date.\n\nTopics\n\nThese tech outages are giving Y2K, AI agent style\n\nSuperhuman pushes its Go assistant everywhere\n\nIvan Mehta\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in Venture\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nSpend management platform Payhawk announces $280M raise, 2B valuation",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "heading": 1
+    },
+    {
+      "text": "Blacksmith, a platform that helps companies more efficiently build and test software, including code written by AI, announced Wednesday a $66 million Series C funding round led by Sequoia that values the company at $1 billion.",
+      "heading": 0
+    },
+    {
+      "text": "In announcing the round, Blacksmith co-founder and CEO Aditya Jayaprakash said the company was founded to make continuous integration (CI) — the process of building, testing, merging, and validating code changes — “less painful.” In a blog post, he said that “most companies are struggling to keep up with the volume of CI they need to run,” especially in an era where so much code is written by AI.",
+      "heading": 0
+    },
+    {
+      "text": "“As agents write more of the world’s software, the question that matters is whether it can be trusted,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "The company also announced that its annual recurring revenue has grown 17x and that it has run over 90 million CI jobs, or individual automated code checks. Customers include Mercury and Granola.",
+      "heading": 0
+    },
+    {
+      "text": "The Series C comes just two months after its $45 million Series B, which valued the company at $550 million. A year ago, Blacksmith was valued at $60 million after raising a $10 million Series A. It has raised $125 million to date.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Venture",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "heading": 1
+    }
+  ]
+}

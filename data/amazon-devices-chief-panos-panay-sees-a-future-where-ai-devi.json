@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+  "slug": "amazon-devices-chief-panos-panay-sees-a-future-where-ai-devi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300374993.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+    "episode": ""
+  },
+  "words": 663,
+  "lines": 16,
+  "duration": 221,
+  "text": "Amazon is placing its bets on ambient computing, not apps, as the future of personal AI.\n\nAlongside the launch of the company’s new AI wearables from Bee, Panos Panay, who serves as Amazon’s SVP of Devices, Alexa & Leo, took the stage at TechCrunch Disrupt on Thursday to talk more in depth about where he sees personal computing headed.\n\n“A lot of times, what you’re doing right now — what we all do right now — is we have to remember what we’re asking our tool to do for us,” Panay began, explaining that this is how we engage with our modern smartphones. “It’s like point, shoot, return,” Panay continued. “I think where we’re headed is a world [that] starts with ambient devices.”\n\nBy “ambient devices,” he means those that work quietly in the background, using sensors and AI to help you figure out what needs to be done, instead of the other way around, where you’re telling the device what you need to do.\n\n“As it works in the background, you’re able to stay more present. You’re able to get more done. You’re about to spend more time with people … you’re not afraid if you miss something. It’s incredibly powerful,” Panay said.\n\nAmazon’s biggest entry into this space is the set of new Bee devices it introduced on Thursday, which include a band you can wear on your wrist or detach to wear as a pendant, as well as a new credit-card-sized device that attaches magnetically to the back of your smartphone.\n\nThese gadgets passively record audio and take notes about your day, finding the to-dos, reminders, and insights you may later need to refer back to. To balance the need to be useful with user privacy, Bee’s devices don’t actually store the raw audio from your conversations; they process the audio in real time and then delete it when done. Transcripts of conversations are encrypted using keys that your device creates and controls. That means no one else, including Amazon employees, can access those files unless you intentionally share them.\n\nPanay said that privacy was a key consideration for how these new ambient devices should work.\n\n“You have to give customers that control,” he said. “Every product is different, but for Bee specifically, as an example in the ambient space like that, you have to design with privacy in mind. And that’s what we do. That’s critical.”\n\nThe executive, who came to Amazon after 19 years at Microsoft where he oversaw the development of Surface devices, has spent a lot of his life thinking about how personal computing will evolve. With Bee — and ambient computing more generally — Panay also envisioned a future where the idea of interacting with apps becomes less important, as more tasks are handled via AI.\n\n“Do I think we have a future where there’s a bit of a balance — a whole generation that doesn’t say ‘give me the app’ for that, but says it should just understand what I need? Yeah, I do. I think that transformation is coming. I think that is the next generation,” he said.\n\nThat doesn’t necessarily mean the smartphone itself won’t continue to be an important personal computing device (as much as Amazon would like it to be an Alexa tablet or Echo smart speaker), Panay pointed out. Rather, he believes a new crop of devices will emerge that use sensors to understand users better, and to bring intelligence to the world around you.\n\n“I’m not a proponent that says one form factor is going to replace another. I don’t think that’s the case,” he clarified. “I think there’s an intelligence layer that connects it all … and it has to be useful.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Amazon is placing its bets on ambient computing, not apps, as the future of personal AI.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside the launch of the company’s new AI wearables from Bee, Panos Panay, who serves as Amazon’s SVP of Devices, Alexa & Leo, took the stage at TechCrunch Disrupt on Thursday to talk more in depth about where he sees personal computing headed.",
+      "heading": 0
+    },
+    {
+      "text": "“A lot of times, what you’re doing right now — what we all do right now — is we have to remember what we’re asking our tool to do for us,” Panay began, explaining that this is how we engage with our modern smartphones. “It’s like point, shoot, return,” Panay continued. “I think where we’re headed is a world [that] starts with ambient devices.”",
+      "heading": 0
+    },
+    {
+      "text": "By “ambient devices,” he means those that work quietly in the background, using sensors and AI to help you figure out what needs to be done, instead of the other way around, where you’re telling the device what you need to do.",
+      "heading": 0
+    },
+    {
+      "text": "“As it works in the background, you’re able to stay more present. You’re able to get more done. You’re about to spend more time with people … you’re not afraid if you miss something. It’s incredibly powerful,” Panay said.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon’s biggest entry into this space is the set of new Bee devices it introduced on Thursday, which include a band you can wear on your wrist or detach to wear as a pendant, as well as a new credit-card-sized device that attaches magnetically to the back of your smartphone.",
+      "heading": 0
+    },
+    {
+      "text": "These gadgets passively record audio and take notes about your day, finding the to-dos, reminders, and insights you may later need to refer back to. To balance the need to be useful with user privacy, Bee’s devices don’t actually store the raw audio from your conversations; they process the audio in real time and then delete it when done. Transcripts of conversations are encrypted using keys that your device creates and controls. That means no one else, including Amazon employees, can access those files unless you intentionally share them.",
+      "heading": 0
+    },
+    {
+      "text": "Panay said that privacy was a key consideration for how these new ambient devices should work.",
+      "heading": 0
+    },
+    {
+      "text": "“You have to give customers that control,” he said. “Every product is different, but for Bee specifically, as an example in the ambient space like that, you have to design with privacy in mind. And that’s what we do. That’s critical.”",
+      "heading": 0
+    },
+    {
+      "text": "The executive, who came to Amazon after 19 years at Microsoft where he oversaw the development of Surface devices, has spent a lot of his life thinking about how personal computing will evolve. With Bee — and ambient computing more generally — Panay also envisioned a future where the idea of interacting with apps becomes less important, as more tasks are handled via AI.",
+      "heading": 0
+    },
+    {
+      "text": "“Do I think we have a future where there’s a bit of a balance — a whole generation that doesn’t say ‘give me the app’ for that, but says it should just understand what I need? Yeah, I do. I think that transformation is coming. I think that is the next generation,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "That doesn’t necessarily mean the smartphone itself won’t continue to be an important personal computing device (as much as Amazon would like it to be an Alexa tablet or Echo smart speaker), Panay pointed out. Rather, he believes a new crop of devices will emerge that use sensors to understand users better, and to bring intelligence to the world around you.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m not a proponent that says one form factor is going to replace another. I don’t think that’s the case,” he clarified. “I think there’s an intelligence layer that connects it all … and it has to be useful.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

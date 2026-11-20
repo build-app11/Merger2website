@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+  "slug": "shopify-debuts-canvas-a-way-to-build-online-stores-by-chatti",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/canvas-shopify.webp?resize=1200,517",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+    "episode": ""
+  },
+  "words": 477,
+  "lines": 12,
+  "duration": 159,
+  "text": "Shopify introduced a new site-building tool Thursday called Canvas that lets merchants set up their Shopify store by chatting with AI. While Shopify already offered a fairly capable no-code builder before Canvas, it involved editing a selected theme by rearranging modular sections and blocks. Deeper customizations, however, would require editing code or bringing in a developer.\n\nNow, with Canvas, merchants simply chat with Shopify’s AI agent, Sidekick, to create their site. As the AI makes changes, Canvas displays the results in real time, allowing merchants to see how the store looks overall as it comes together or zoom in to focus on certain details.\n\nNotably, this isn’t a static preview, but the real code behind their store being rendered, according to Shopify. That means merchants can test the page’s full interactivity and animation, and view pages as they’d appear across different screen sizes. Sidekick also takes screenshots of the work so it can see the same thing the merchant sees as the site updates.\n\nCanvas’s launch is part of a broader shift toward a future where building a website no longer requires coding it directly. It joins numerous other AI-powered site-building tools from companies like Wix, Squarespace, Webflow, and Framer, alongside vibe-coding platforms like Lovable and Replit.\n\nMerchants can still click on individual elements to make changes directly, if they choose. But more likely, they’ll just tell Sidekick in a chat what they want to do.\n\nSidekick itself is not new, as it’s already been used to write code, build apps, customize themes, and make other edits. But it had yet to be pulled together into a full site-building product like Canvas, where users can see the entire store at once and zoom and pan around while making updates to the site’s actual files.\n\nTo make this work, Shopify gave Sidekick the ability to work directly with the theme’s files and simplified the theme architecture so the store’s structure, logic, and design would be easier for Sidekick to understand and change.\n\nThe product is in its early days, so there are areas where it will need to expand and improve. For instance, third-party theme support, app blocks and extensions, markets, translations, rollouts, and theme updates are all not part of the initial launch. Plus, Canvas is desktop-only. But the company told TechCrunch these are things the company plans to support over time; the product is just still new.\n\nIn the future, as it becomes more robust, Canvas could make becoming an online seller more accessible to those who don’t have the budget for developers and designers, or the time to learn to code.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Shopify introduced a new site-building tool Thursday called Canvas that lets merchants set up their Shopify store by chatting with AI. While Shopify already offered a fairly capable no-code builder before Canvas, it involved editing a selected theme by rearranging modular sections and blocks. Deeper customizations, however, would require editing code or bringing in a developer.",
+      "heading": 0
+    },
+    {
+      "text": "Now, with Canvas, merchants simply chat with Shopify’s AI agent, Sidekick, to create their site. As the AI makes changes, Canvas displays the results in real time, allowing merchants to see how the store looks overall as it comes together or zoom in to focus on certain details.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, this isn’t a static preview, but the real code behind their store being rendered, according to Shopify. That means merchants can test the page’s full interactivity and animation, and view pages as they’d appear across different screen sizes. Sidekick also takes screenshots of the work so it can see the same thing the merchant sees as the site updates.",
+      "heading": 0
+    },
+    {
+      "text": "Canvas’s launch is part of a broader shift toward a future where building a website no longer requires coding it directly. It joins numerous other AI-powered site-building tools from companies like Wix, Squarespace, Webflow, and Framer, alongside vibe-coding platforms like Lovable and Replit.",
+      "heading": 0
+    },
+    {
+      "text": "Merchants can still click on individual elements to make changes directly, if they choose. But more likely, they’ll just tell Sidekick in a chat what they want to do.",
+      "heading": 0
+    },
+    {
+      "text": "Sidekick itself is not new, as it’s already been used to write code, build apps, customize themes, and make other edits. But it had yet to be pulled together into a full site-building product like Canvas, where users can see the entire store at once and zoom and pan around while making updates to the site’s actual files.",
+      "heading": 0
+    },
+    {
+      "text": "To make this work, Shopify gave Sidekick the ability to work directly with the theme’s files and simplified the theme architecture so the store’s structure, logic, and design would be easier for Sidekick to understand and change.",
+      "heading": 0
+    },
+    {
+      "text": "The product is in its early days, so there are areas where it will need to expand and improve. For instance, third-party theme support, app blocks and extensions, markets, translations, rollouts, and theme updates are all not part of the initial launch. Plus, Canvas is desktop-only. But the company told TechCrunch these are things the company plans to support over time; the product is just still new.",
+      "heading": 0
+    },
+    {
+      "text": "In the future, as it becomes more robust, Canvas could make becoming an online seller more accessible to those who don’t have the budget for developers and designers, or the time to learn to code.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

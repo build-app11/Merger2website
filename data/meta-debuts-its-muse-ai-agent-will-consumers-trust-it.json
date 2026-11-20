@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+  "slug": "meta-debuts-its-muse-ai-agent-will-consumers-trust-it",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Muse-Neswsroom-Banner.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+    "episode": ""
+  },
+  "words": 1159,
+  "lines": 24,
+  "duration": 386,
+  "text": "Less than two weeks after Meta agreed to a massive $18 billion multistate settlement in a lawsuit over social media’s consumer harms, the company announced its biggest bet on consumer AI to date — and one that requires significantly more trust than social media ever did. On Tuesday, the company introduced Muse, its new personal AI agent that helps consumers with everyday tasks and projects for users in the U.S.\n\nTo use Muse, consumers will have to trust Meta with more of their personal information than ever before. The AI agent works by connecting to the user’s apps and services that are a part of everyday workflows, like email, calendars, payments, and other things the individual may regularly use, like apps for health and fitness, the smart home, dining, shopping, music and events, and more.\n\nThe idea is a sizable bet on what comes after the ChatGPT era, where AI chatbots answered questions, served as sounding boards, or even became digital companions. Instead, Muse is focusing on AI that can actually do things for you.\n\nThe company says the agent can do things like sending emails, booking travel, lowering bills, filling out forms, creating plans, turning recipe reels into grocery lists, sending party invitations, and making purchases, leveraging Link by Stripe for checkout. The latter offers purchase protections, which could potentially ease consumers’ fears of letting an AI check out on their behalf. (Shopify’s Shop Pay and 1Password integrations are also coming soon.)\n\nMuse’s users can decide which apps and services they want to connect, doing so one at a time, to make the opt-in nature of using Muse more transparent. The agent is powered by Meta’s AI model, Muse Spark, and ships with built-in connectors (pictured below) for several services, with plans to add more over time. If a service the user wants isn’t available but offers a public API, Muse can set up a connection using credentials the user provides. When no API is available, Muse can access the service via the browser instead.\n\nMuse will initially be available via the web at muse.ai, through apps on iOS and Android, and through chats in WhatsApp. It will soon also make its way to Meta’s AI glasses, the company says. It will be free to use, with subscription plans kicking in as usage increases, which is why Muse requires a payment card to get started.\n\nTwo paid plans will be available at launch: Power at $20/month and Maximum at $100/month. Both of these subscriptions offer more Muse usage for handing off everyday tasks, though Meta believes most people will remain on the free tier. (The company says the app includes a usage meter that shows users what percentage of their usage they have left. It will also warn users when free usage runs out and present options to subscribe.)\n\nLike other AI agents, Muse will continue to work even after the user leaves the app. It will also improve over time by learning from the user’s conversations what’s important to them to make suggestions unprompted, Meta noted.\n\nThe concept is not unique to Meta. The agentic era is now coming into its own, as larger companies and smaller startups alike are experimenting with how AI agents will make the most sense for consumers and can become integrated into people’s daily lives.\n\nSome have tried AI web browsers or services, like Gemini Spark or Claude Cowork, that can kick off various tasks on consumers’ behalf. Others are integrating AI into the chat applications consumers use the most, like Apple’s iMessage platform, SMS, and WhatsApp.\n\nDespite their usefulness, these powerful agents have forced consumers to wrestle with difficult questions about how much privacy they’re willing to give up. Many early testers of the AI assistant Instinct were shocked to see the app required a broad “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models.\n\nUnder the hood, Meta claims that Muse runs in its own “dedicated, secure computer with its own browser,” Muse Secure VM, which offers various privacy, safety, and security protections over customers’ data. The company says a separate Sentinel agent runs on that same virtual machine, but is kept apart from Muse at the system level.\n\nThis means Muse won’t have visibility into people’s passwords or payment methods. Meta also claims that Muse doesn’t share people’s conversations or data with Meta’s ads systems.\n\n(These claims are explained in more detail in a technical post, also released today, but will require deeper investigation by security experts.)\n\nCould Meta’s history hurt Muse adoption?\n\nDespite Meta’s documentation of its security measures, it remains to be seen whether the company has enough consumer trust for its agent to be successful.\n\nAs it stands, Meta has a history of proclaiming one thing and doing another. In 2011, for instance, the tech giant settled with the FTC over charges that it deceived consumers by making users’ private information public without their approval. In 2019, the FTC penalized Facebook in a then record-breaking $5 billion settlement over eight separate privacy-related violations. In 2023, the FTC charged Meta with violating a privacy order that was filed after the 2019 settlement.\n\nIn terms of technical matters, Meta has also had some big missteps before, having discovered in 2019 a number of users’ passwords in readable formats, exposing people to potential hacks. The massive Cambridge Analytica data scandal, which saw Facebook data belonging to millions of consumers collected by a third-party without their consent, still lingers in some people’s minds, too.\n\nMeta has also been repeatedly hauled before Congress to testify on how it protected — or failed to protect — minors from harm. With Congress failing to act, Meta ultimately became the target of several related lawsuits, including the one Meta just settled with 29 states in August, a New Mexico lawsuit over harms for children, where Meta was ordered to pay $942 million, and the thousands of personal-injury and school-district cases that are still pending against multiple social media giants.\n\nTo ease consumers’ fears, Meta not only talks in depth about its security promises, offering technical documentation and explanations. The company has also designed Muse in a way that would make consumers feel more connected with the agent itself. Users can customize Muse by giving it a name, picking out its avatar, and configuring its look and various settings that dictate how the agent communicates with them.\n\nTime will tell if this personal connection and the utility Muse provides are enough for consumers to once again trust Meta with their personal information.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Less than two weeks after Meta agreed to a massive $18 billion multistate settlement in a lawsuit over social media’s consumer harms, the company announced its biggest bet on consumer AI to date — and one that requires significantly more trust than social media ever did. On Tuesday, the company introduced Muse, its new personal AI agent that helps consumers with everyday tasks and projects for users in the U.S.",
+      "heading": 0
+    },
+    {
+      "text": "To use Muse, consumers will have to trust Meta with more of their personal information than ever before. The AI agent works by connecting to the user’s apps and services that are a part of everyday workflows, like email, calendars, payments, and other things the individual may regularly use, like apps for health and fitness, the smart home, dining, shopping, music and events, and more.",
+      "heading": 0
+    },
+    {
+      "text": "The idea is a sizable bet on what comes after the ChatGPT era, where AI chatbots answered questions, served as sounding boards, or even became digital companions. Instead, Muse is focusing on AI that can actually do things for you.",
+      "heading": 0
+    },
+    {
+      "text": "The company says the agent can do things like sending emails, booking travel, lowering bills, filling out forms, creating plans, turning recipe reels into grocery lists, sending party invitations, and making purchases, leveraging Link by Stripe for checkout. The latter offers purchase protections, which could potentially ease consumers’ fears of letting an AI check out on their behalf. (Shopify’s Shop Pay and 1Password integrations are also coming soon.)",
+      "heading": 0
+    },
+    {
+      "text": "Muse’s users can decide which apps and services they want to connect, doing so one at a time, to make the opt-in nature of using Muse more transparent. The agent is powered by Meta’s AI model, Muse Spark, and ships with built-in connectors (pictured below) for several services, with plans to add more over time. If a service the user wants isn’t available but offers a public API, Muse can set up a connection using credentials the user provides. When no API is available, Muse can access the service via the browser instead.",
+      "heading": 0
+    },
+    {
+      "text": "Muse will initially be available via the web at muse.ai, through apps on iOS and Android, and through chats in WhatsApp. It will soon also make its way to Meta’s AI glasses, the company says. It will be free to use, with subscription plans kicking in as usage increases, which is why Muse requires a payment card to get started.",
+      "heading": 0
+    },
+    {
+      "text": "Two paid plans will be available at launch: Power at $20/month and Maximum at $100/month. Both of these subscriptions offer more Muse usage for handing off everyday tasks, though Meta believes most people will remain on the free tier. (The company says the app includes a usage meter that shows users what percentage of their usage they have left. It will also warn users when free usage runs out and present options to subscribe.)",
+      "heading": 0
+    },
+    {
+      "text": "Like other AI agents, Muse will continue to work even after the user leaves the app. It will also improve over time by learning from the user’s conversations what’s important to them to make suggestions unprompted, Meta noted.",
+      "heading": 0
+    },
+    {
+      "text": "The concept is not unique to Meta. The agentic era is now coming into its own, as larger companies and smaller startups alike are experimenting with how AI agents will make the most sense for consumers and can become integrated into people’s daily lives.",
+      "heading": 0
+    },
+    {
+      "text": "Some have tried AI web browsers or services, like Gemini Spark or Claude Cowork, that can kick off various tasks on consumers’ behalf. Others are integrating AI into the chat applications consumers use the most, like Apple’s iMessage platform, SMS, and WhatsApp.",
+      "heading": 0
+    },
+    {
+      "text": "Despite their usefulness, these powerful agents have forced consumers to wrestle with difficult questions about how much privacy they’re willing to give up. Many early testers of the AI assistant Instinct were shocked to see the app required a broad “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models.",
+      "heading": 0
+    },
+    {
+      "text": "Under the hood, Meta claims that Muse runs in its own “dedicated, secure computer with its own browser,” Muse Secure VM, which offers various privacy, safety, and security protections over customers’ data. The company says a separate Sentinel agent runs on that same virtual machine, but is kept apart from Muse at the system level.",
+      "heading": 0
+    },
+    {
+      "text": "This means Muse won’t have visibility into people’s passwords or payment methods. Meta also claims that Muse doesn’t share people’s conversations or data with Meta’s ads systems.",
+      "heading": 0
+    },
+    {
+      "text": "(These claims are explained in more detail in a technical post, also released today, but will require deeper investigation by security experts.)",
+      "heading": 0
+    },
+    {
+      "text": "Could Meta’s history hurt Muse adoption?",
+      "heading": 0
+    },
+    {
+      "text": "Despite Meta’s documentation of its security measures, it remains to be seen whether the company has enough consumer trust for its agent to be successful.",
+      "heading": 0
+    },
+    {
+      "text": "As it stands, Meta has a history of proclaiming one thing and doing another. In 2011, for instance, the tech giant settled with the FTC over charges that it deceived consumers by making users’ private information public without their approval. In 2019, the FTC penalized Facebook in a then record-breaking $5 billion settlement over eight separate privacy-related violations. In 2023, the FTC charged Meta with violating a privacy order that was filed after the 2019 settlement.",
+      "heading": 0
+    },
+    {
+      "text": "In terms of technical matters, Meta has also had some big missteps before, having discovered in 2019 a number of users’ passwords in readable formats, exposing people to potential hacks. The massive Cambridge Analytica data scandal, which saw Facebook data belonging to millions of consumers collected by a third-party without their consent, still lingers in some people’s minds, too.",
+      "heading": 0
+    },
+    {
+      "text": "Meta has also been repeatedly hauled before Congress to testify on how it protected — or failed to protect — minors from harm. With Congress failing to act, Meta ultimately became the target of several related lawsuits, including the one Meta just settled with 29 states in August, a New Mexico lawsuit over harms for children, where Meta was ordered to pay $942 million, and the thousands of personal-injury and school-district cases that are still pending against multiple social media giants.",
+      "heading": 0
+    },
+    {
+      "text": "To ease consumers’ fears, Meta not only talks in depth about its security promises, offering technical documentation and explanations. The company has also designed Muse in a way that would make consumers feel more connected with the agent itself. Users can customize Muse by giving it a name, picking out its avatar, and configuring its look and various settings that dictate how the agent communicates with them.",
+      "heading": 0
+    },
+    {
+      "text": "Time will tell if this personal connection and the utility Muse provides are enough for consumers to once again trust Meta with their personal information.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

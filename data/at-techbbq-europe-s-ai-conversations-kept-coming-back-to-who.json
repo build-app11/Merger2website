@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+  "slug": "at-techbbq-europe-s-ai-conversations-kept-coming-back-to-who",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/TechBBQ.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+    "episode": ""
+  },
+  "words": 841,
+  "lines": 23,
+  "duration": 280,
+  "text": "At TechBBQ in Copenhagen, the conversation among investors, founders, and operators from across Europe wasn’t just about what to build with AI, but who should control it. No matter where you were during the annual Nordic conference, from onstage to cocktail hours and after-parties, the chatter kept coming back to how Europe can gain more control over the technology powering AI.\n\nThat question of sovereignty — which fittingly matched this year’s theme of “Emerging from Agency” — was especially timely after Anthropic’s AI models Mythos and Fable became unavailable to users outside Europe earlier this year.\n\nThe incident led many in the European ecosystem to think seriously about what it means to own the models and the infrastructure underpinning this AI wave, instead of renting that power from the U.S. and China.\n\nOne startup exec told me the Mythos and Fable incident seriously disrupted his software team, while another shrugged it off. Sure, the startup exec said, relying on two other geopolitical powers for AI might one day cause Europe severe headaches, but for now, everything is still pretty much OK.\n\n“TechBBQ’s theme of agency felt particularly timely this year as the conversation shifted from what AI can do to what we’re actually willing to let it do,” Ellen de Brever, an angel investor and head of partnerships at the Novo Nordisk Foundation Cellerator, told me during the conference, which wrapped up August 27.\n\nThere were panels about the future of women’s health, a summit on how the Nordic and African ecosystems can collaborate on innovation and investment, and talks about how to get more growth capital into Europe. AI was an underlying theme in many of the conversations, but as de Brever pointed out, “the debates weren’t about smarter machines, but about human judgment and who gets to stay in the driver’s seat.”\n\n“The age of AI agents isn’t really a story about machines gaining agency,” she continued. “It’s a story about humans deciding what to give up.”\n\nAn attendee told me that one of the most refreshing sessions at the event was the panel with Signal president Meredith Whittaker, which I moderated and focused on whether privacy and AI can coexist. Whittaker didn’t mince words and spoke out against AI assistants and agents being integrated into operating systems, like what ChatGPT is doing with iMessage.\n\nShe said this AI era is creating a “data collection apparatus” and that AI labs are using clever marketing to make people forget “about the collateral consequences” of acquiring so much data.\n\n“There is still a huge market need for privacy,” she said. “And particularly with the sovereignty concerns, we will have customers here.”\n\nElsewhere, Emad Mostaque, co-founder of Stability AI and Intelligent Internet, sat on a panel with me about how an agentic workforce will impact the economy and what that means for personal sovereignty.\n\n“Sovereignty is the ability to resist power being exerted over you,” Mostaque said. He spoke about the concentration of power in the hands of a few AI labs and said, “Inevitably, every country will be run by AI” and that “the person that controls the AI controls the country.”\n\nMia Negru, the advocacy and engagement director for the nonprofit Life With Artificials, sent me a message after the panel about what crossed her mind as she listened.\n\n“If intelligent agents perform cognitive work and robots increasingly perform physical work, we may be approaching something much bigger than another technological revolution,” she said in the message. “We may have to rethink ownership, work, democracy, economic participation and eventually even who gets to participate in society.”\n\nBut when the panels weren’t in session, people let loose at happy hours and rooftop soirées, where more lighter conversations eventually took over.\n\nLovable, Nvidia, OpenAI, AWS Startups, and HSBC came together to host a rooftop barbecue where I spoke to founders about Denmark’s growing tech hubs.\n\nLondon’s Ada Ventures hosted a gathering at the cocktail bar Bird where I chatted with one health tech founder about increased innovation in the women’s brain health space. Then, there was the speakers’ dinner on an island in the middle of Copenhagen where the international press sat together and watched fire dancers. The after-party continued upstairs, where everyone was tempted to stay for one more drink until the bar tab closed.\n\n“In a room full of conversations about machines, the most memorable moments still come from the simplest thing,” de Brever said. “Human connection, face-to-face, building relationships, sharing ideas, and reminding each other of what technology can never quite replace.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Venture\n\nDominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.\n\nYou can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+  "paragraphs": [
+    {
+      "text": "At TechBBQ in Copenhagen, the conversation among investors, founders, and operators from across Europe wasn’t just about what to build with AI, but who should control it. No matter where you were during the annual Nordic conference, from onstage to cocktail hours and after-parties, the chatter kept coming back to how Europe can gain more control over the technology powering AI.",
+      "heading": 0
+    },
+    {
+      "text": "That question of sovereignty — which fittingly matched this year’s theme of “Emerging from Agency” — was especially timely after Anthropic’s AI models Mythos and Fable became unavailable to users outside Europe earlier this year.",
+      "heading": 0
+    },
+    {
+      "text": "The incident led many in the European ecosystem to think seriously about what it means to own the models and the infrastructure underpinning this AI wave, instead of renting that power from the U.S. and China.",
+      "heading": 0
+    },
+    {
+      "text": "One startup exec told me the Mythos and Fable incident seriously disrupted his software team, while another shrugged it off. Sure, the startup exec said, relying on two other geopolitical powers for AI might one day cause Europe severe headaches, but for now, everything is still pretty much OK.",
+      "heading": 0
+    },
+    {
+      "text": "“TechBBQ’s theme of agency felt particularly timely this year as the conversation shifted from what AI can do to what we’re actually willing to let it do,” Ellen de Brever, an angel investor and head of partnerships at the Novo Nordisk Foundation Cellerator, told me during the conference, which wrapped up August 27.",
+      "heading": 0
+    },
+    {
+      "text": "There were panels about the future of women’s health, a summit on how the Nordic and African ecosystems can collaborate on innovation and investment, and talks about how to get more growth capital into Europe. AI was an underlying theme in many of the conversations, but as de Brever pointed out, “the debates weren’t about smarter machines, but about human judgment and who gets to stay in the driver’s seat.”",
+      "heading": 0
+    },
+    {
+      "text": "“The age of AI agents isn’t really a story about machines gaining agency,” she continued. “It’s a story about humans deciding what to give up.”",
+      "heading": 0
+    },
+    {
+      "text": "An attendee told me that one of the most refreshing sessions at the event was the panel with Signal president Meredith Whittaker, which I moderated and focused on whether privacy and AI can coexist. Whittaker didn’t mince words and spoke out against AI assistants and agents being integrated into operating systems, like what ChatGPT is doing with iMessage.",
+      "heading": 0
+    },
+    {
+      "text": "She said this AI era is creating a “data collection apparatus” and that AI labs are using clever marketing to make people forget “about the collateral consequences” of acquiring so much data.",
+      "heading": 0
+    },
+    {
+      "text": "“There is still a huge market need for privacy,” she said. “And particularly with the sovereignty concerns, we will have customers here.”",
+      "heading": 0
+    },
+    {
+      "text": "Elsewhere, Emad Mostaque, co-founder of Stability AI and Intelligent Internet, sat on a panel with me about how an agentic workforce will impact the economy and what that means for personal sovereignty.",
+      "heading": 0
+    },
+    {
+      "text": "“Sovereignty is the ability to resist power being exerted over you,” Mostaque said. He spoke about the concentration of power in the hands of a few AI labs and said, “Inevitably, every country will be run by AI” and that “the person that controls the AI controls the country.”",
+      "heading": 0
+    },
+    {
+      "text": "Mia Negru, the advocacy and engagement director for the nonprofit Life With Artificials, sent me a message after the panel about what crossed her mind as she listened.",
+      "heading": 0
+    },
+    {
+      "text": "“If intelligent agents perform cognitive work and robots increasingly perform physical work, we may be approaching something much bigger than another technological revolution,” she said in the message. “We may have to rethink ownership, work, democracy, economic participation and eventually even who gets to participate in society.”",
+      "heading": 0
+    },
+    {
+      "text": "But when the panels weren’t in session, people let loose at happy hours and rooftop soirées, where more lighter conversations eventually took over.",
+      "heading": 0
+    },
+    {
+      "text": "Lovable, Nvidia, OpenAI, AWS Startups, and HSBC came together to host a rooftop barbecue where I spoke to founders about Denmark’s growing tech hubs.",
+      "heading": 0
+    },
+    {
+      "text": "London’s Ada Ventures hosted a gathering at the cocktail bar Bird where I chatted with one health tech founder about increased innovation in the women’s brain health space. Then, there was the speakers’ dinner on an island in the middle of Copenhagen where the international press sat together and watched fire dancers. The after-party continued upstairs, where everyone was tempted to stay for one more drink until the bar tab closed.",
+      "heading": 0
+    },
+    {
+      "text": "“In a room full of conversations about machines, the most memorable moments still come from the simplest thing,” de Brever said. “Human connection, face-to-face, building relationships, sharing ideas, and reminding each other of what technology can never quite replace.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+      "heading": 0
+    }
+  ]
+}

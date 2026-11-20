@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+  "slug": "sequoia-incubated-empirik-launches-with-21m-to-predict-outag",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1273058761.jpg?resize=1200,844",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+    "episode": ""
+  },
+  "words": 492,
+  "lines": 16,
+  "duration": 164,
+  "text": "Before joining Sequoia Capital in 2020 as chief digital and information officer, Avon Puri spent over a decade running infrastructure at Rubrik and VMware. Three years ago, as large language models began showing their true potential, Puri, alongside another Sequoia IT leader, Sudheer Dhurjati, recognized that AI could help autonomously solve a major challenge for infrastructure engineers — preventing tech outages before they occur.\n\nThe two tech veterans realized that instead of reacting to system failures after the fact, they could build a tool to predict them. This insight led them to build Empirik, a product that tracks system changes and infers their potential ripple effects across the entire infrastructure.\n\nSequoia recognized that Empirik could be a new type of observability tool that helps prevent and resolve incidents. After incubating the startup in 2023, Sequoia recruited former Quantum Metric CPO and Salesforce observability VP Kartik Chandrayana as CEO earlier this year.\n\nEmpirik announced Tuesday that it is spinning out as an independent company after raising $21 million in seed funding from Sequoia, Canapi, and Alumni Ventures.\n\n“There has always been a lot of money spent in keeping systems up and running,” Sequoia partner Bogomil Balkansky told TechCrunch, adding that most existing observability tools fail to understand complex system dependencies. Empirik, he claims, is one of the first dedicated tools focused on tracking changes across massive environments. It acts as an autonomous “traffic cop” — permitting low-risk changes, setting guardrails on larger ones, and flagging the most dangerous updates for human review.\n\nBy serving as an autonomous infrastructure engineer, Empirik allows busy DevOps and site reliability engineering teams to offload routine troubleshooting and focus on higher-value priorities.\n\nSince launching earlier this year, Empirik has already brought on customers ranging from startups to several Fortune 500 players, including Guardant Health and a major consumer packaged goods (CPG) company.\n\nEmpirik’s goal is to do for infrastructure engineers what Cursor and Claude Code did for software developers: automate certain tasks so they can work significantly faster.\n\nAs AI accelerates the pace of software development, tools that help infrastructure engineers keep up with constant system changes are more vital than ever, Chandrayana told TechCrunch.\n\n“What agentic AI did for software, Empirik wants to do for infrastructure engineering,” he added.\n\nAs for competition, Balkansky claims Empirik is in a category of its own for now, acting as a complementary layer to AI SRE platforms like Resolve and Sequoia-backed Traversal.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Before joining Sequoia Capital in 2020 as chief digital and information officer, Avon Puri spent over a decade running infrastructure at Rubrik and VMware. Three years ago, as large language models began showing their true potential, Puri, alongside another Sequoia IT leader, Sudheer Dhurjati, recognized that AI could help autonomously solve a major challenge for infrastructure engineers — preventing tech outages before they occur.",
+      "heading": 0
+    },
+    {
+      "text": "The two tech veterans realized that instead of reacting to system failures after the fact, they could build a tool to predict them. This insight led them to build Empirik, a product that tracks system changes and infers their potential ripple effects across the entire infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "Sequoia recognized that Empirik could be a new type of observability tool that helps prevent and resolve incidents. After incubating the startup in 2023, Sequoia recruited former Quantum Metric CPO and Salesforce observability VP Kartik Chandrayana as CEO earlier this year.",
+      "heading": 0
+    },
+    {
+      "text": "Empirik announced Tuesday that it is spinning out as an independent company after raising $21 million in seed funding from Sequoia, Canapi, and Alumni Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "“There has always been a lot of money spent in keeping systems up and running,” Sequoia partner Bogomil Balkansky told TechCrunch, adding that most existing observability tools fail to understand complex system dependencies. Empirik, he claims, is one of the first dedicated tools focused on tracking changes across massive environments. It acts as an autonomous “traffic cop” — permitting low-risk changes, setting guardrails on larger ones, and flagging the most dangerous updates for human review.",
+      "heading": 0
+    },
+    {
+      "text": "By serving as an autonomous infrastructure engineer, Empirik allows busy DevOps and site reliability engineering teams to offload routine troubleshooting and focus on higher-value priorities.",
+      "heading": 0
+    },
+    {
+      "text": "Since launching earlier this year, Empirik has already brought on customers ranging from startups to several Fortune 500 players, including Guardant Health and a major consumer packaged goods (CPG) company.",
+      "heading": 0
+    },
+    {
+      "text": "Empirik’s goal is to do for infrastructure engineers what Cursor and Claude Code did for software developers: automate certain tasks so they can work significantly faster.",
+      "heading": 0
+    },
+    {
+      "text": "As AI accelerates the pace of software development, tools that help infrastructure engineers keep up with constant system changes are more vital than ever, Chandrayana told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "“What agentic AI did for software, Empirik wants to do for infrastructure engineering,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "As for competition, Balkansky claims Empirik is in a category of its own for now, acting as a complementary layer to AI SRE platforms like Resolve and Sequoia-backed Traversal.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

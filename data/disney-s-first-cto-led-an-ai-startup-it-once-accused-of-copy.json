@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+  "slug": "disney-s-first-cto-led-an-ai-startup-it-once-accused-of-copy",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1387623215.jpg?resize=1200,900",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+    "episode": ""
+  },
+  "words": 316,
+  "lines": 19,
+  "duration": 105,
+  "text": "Posted:\n\nLucas Ropek\n\nDisney’s first CTO led an AI startup it once accused of copying its characters\n\nDisney has hired its first-ever chief technology officer and in a curious twist, the new executive hails from an AI startup that the Magic Kingdom previously accused of infringing on its IP.\n\nKarandeep Anand is the former CEO of Character.AI, a company that has weathered numerous legal problems since it was founded in 2021. One of those legal problems arose in September 2025, when Disney sent the company a cease and desist letter accusing it of infringing on its beloved characters.\n\nCharacter.AI allows users to create distinct virtual characters with generative AI and talk and interact with them. Disney previously claimed that the company was hosting copyrighted characters from its franchises.\n\nIn addition to Disney’s accusations, Character.AI has also been sued over allegations that the company’s chatbots encouraged users to commit self-harm and suicide.\n\nVariety reports that Anand was chosen for the role by new Disney CEO Josh D’Amaro, who took over after former company chief Bob Iger stepped down in March. The hiring suggests D’Amaro wants the company to embrace new technologies.\n\nAnand formerly served as a board adviser to Character.AI before becoming CEO in May 2025, according to his LinkedIn profile. He also worked at Facebook between 2015 and 2021 and, before that, spent 15 years at Microsoft.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nSarah Perez\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+      "heading": 0
+    },
+    {
+      "text": "Disney has hired its first-ever chief technology officer and in a curious twist, the new executive hails from an AI startup that the Magic Kingdom previously accused of infringing on its IP.",
+      "heading": 0
+    },
+    {
+      "text": "Karandeep Anand is the former CEO of Character.AI, a company that has weathered numerous legal problems since it was founded in 2021. One of those legal problems arose in September 2025, when Disney sent the company a cease and desist letter accusing it of infringing on its beloved characters.",
+      "heading": 0
+    },
+    {
+      "text": "Character.AI allows users to create distinct virtual characters with generative AI and talk and interact with them. Disney previously claimed that the company was hosting copyrighted characters from its franchises.",
+      "heading": 0
+    },
+    {
+      "text": "In addition to Disney’s accusations, Character.AI has also been sued over allegations that the company’s chatbots encouraged users to commit self-harm and suicide.",
+      "heading": 0
+    },
+    {
+      "text": "Variety reports that Anand was chosen for the role by new Disney CEO Josh D’Amaro, who took over after former company chief Bob Iger stepped down in March. The hiring suggests D’Amaro wants the company to embrace new technologies.",
+      "heading": 0
+    },
+    {
+      "text": "Anand formerly served as a board adviser to Character.AI before becoming CEO in May 2025, according to his LinkedIn profile. He also worked at Facebook between 2015 and 2021 and, before that, spent 15 years at Microsoft.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

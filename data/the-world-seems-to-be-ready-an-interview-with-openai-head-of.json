@@ -1,0 +1,129 @@
+{
+  "type": "read",
+  "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+  "slug": "the-world-seems-to-be-ready-an-interview-with-openai-head-of",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Thibault-headshot.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+    "episode": ""
+  },
+  "words": 1302,
+  "lines": 26,
+  "duration": 434,
+  "text": "Users of OpenAI’s software engineering tool Codex might know Thibault Sottiaux as the guy who resets their token limits whenever the product hits a growth milestone. Now, OpenAI is trying to bring that dopamine hit to the rest of us with ChatGPT Work, a platform for white-collar workers to leverage AI agents. I spoke to Sottiaux for our feature on the product and its challenges, but we wanted to share more of that conversation with our readers. Here’s a lightly edited and condensed version of our interview about winning over skeptics, discovery as a product design philosophy, and the cost of intelligence.\n\nI know you’re a member of the technical staff. Is it right to say that you’re the product lead for Codex and Work?\n\nI lead all of core products — that is API, agent infrastructure, enterprise, all of ChatGPT, which includes ChatGPT Work, but also ChatGPT classic, and then everything that is Codex as well.\n\nAm I right in thinking you report to Greg Brockman?\n\nYeah, Greg. I like to say that everyone reports to Greg at the end of the day.\n\nWhy is ChatGPT Work so important to OpenAI?\n\nWe wanted to bring the power of coding agents to everyone, and so this is an exercise in taking something that was made for technical people, and then packaging it in a way that is safe and delightful to use, but also you can use on the go on mobile, on web, and making it available to as broad of a population as possible. This is why we launched it as part of the Plus plan as well, which is only $20 a month, and the amount of value you get out of it is quite incredible. So that’s what we were pursuing. It’s like, “make this technology available to the broadest population possible.”\n\nAnalysts say that there’s an important economic motivation here, that OpenAI needs to own the application relationship with the user.\n\nThe more value and the more utility that we generate for users, the more they will be willing to also pay for some part of that utility, and that’s how we’ve always seen ChatGPT as well. It’s like, I’m bringing so much utility to you as a user that you just sort of sit there and you’re like, “of course I want to pay $20 bucks a month for this,” because you know the value that you get is so much more.\n\nHow important could this technology be, in terms of winning over public opinion toward AI?\n\nThe way that I view it is, we have a role in bringing everyone along with this technology, and so there’s this: how do you do diffusion? Codex was built for a forgiving technical audience, where we were making some of these capabilities available very early on, and now we are at a level of maturity of this technology where we feel it is the right step to diffuse it to a much broader audience, and then teach everyone … this is much more than getting help on writing or getting help on some personal advice. In this new factor, ChatGPT can actually do entire very complicated tasks for you all autonomously in a way that is delightful and safe. The mission of OpenAI is to bring everyone along.\n\nHow do you think about that transition and when the moment is right to let the model take the lead versus putting buttons or a user interface in front of people?\n\nThe essence of what we’re trying to do is building extremely capable models, and then figuring out the most simple and delightful way to bring them into your life so that you get tremendous utility from it. And in order to do that, you need to get out of the way, almost, of the model, and you need to just let it express itself and be able to harness all of the utility that it can provide to you. … [A] minimal product surface, just delightful simplicity, a way to engage with humans that is very natural.\n\nWe had text before, but now we’ve launched ChatGPT Voice, which has seen a lot of growth. It is super natural to just talk to it, right? The way that we’re talking now, just have an engaging conversation. The progression of this technology is going to become more natural over time. It adapts to humans. You don’t have to do the reverse, where you have to learn how to use this application.\n\nIs the model there? I was reading Ethan Mollick, who is a Wharton professor who studies these tools, saying that ChatGPT Work tries to be magic, and Claude Cowork puts A/B tests in front of you and has you make more choices. Do you think workers generally are ready for that level of magic?\n\nWe definitely see that the world seems to be ready. This is why we’ve had incredible adoption. We just announced, we hit 20 million users. We managed to launch it in a way that is … simple but powerful, simple but uncompromising.\n\nMy brain kind of breaks when I think about building a product that’s meant to do everything. Do you think about a minimum viable product? Do you think about discrete problems? What are you evaluating?\n\nIt is almost like a product of discovery as well. As we push on the frontier of capabilities of models, we also discover what it’s capable of, and we sort of then lean into the things that it is the most capable of, and then you know build great products around it. There’s this element of discovery of the capabilities as well, including for us. And that’s always a very magical, fun experience.\n\nFor example, GPT-5.6 was a step up in general work: being able to process a large amount of documents, generating quality slides, generating quality reports, doing deep research, things that a professional will do. We then lean into that, and then we capture feedback, and then we continue to improve. And this is also part of iterative deployment of these capabilities. It’s learning from the community, learning from real use, and then continuously improving it.\n\nThere’s a big gap between what I’m paying on the Plus plan and the amount of tokens I’m using. How do you think that plays out? Should I be worried about that? Should CFOs be worried about that?\n\nWe are working every day to push the frontier on efficiency. We announced major price cuts with Luna, 80% off. This is a permanent price correction… so the current level of frontier capabilities become cheaper and cheaper over time. This is something that will continue. Our goal is to, over time, include more utility in the same dollar amount. So if you want to do more, you know, it’s like, of course you can pay more to do more, but in terms of what is capable today, it’s like you wake up six months from now, you should be able to do all of the same with less spend.\n\nWhat do you say to someone who is stressed out about giving it access to their e-mail, giving it access to iMessages, which you just rolled out today?\n\nIt’s important to pick models that are safe and aligned. And a very, very big part of our investment is in the safety stack, the safety approach, publishing honest benchmarks on these things. And our models are world-class at these topics.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Users of OpenAI’s software engineering tool Codex might know Thibault Sottiaux as the guy who resets their token limits whenever the product hits a growth milestone. Now, OpenAI is trying to bring that dopamine hit to the rest of us with ChatGPT Work, a platform for white-collar workers to leverage AI agents. I spoke to Sottiaux for our feature on the product and its challenges, but we wanted to share more of that conversation with our readers. Here’s a lightly edited and condensed version of our interview about winning over skeptics, discovery as a product design philosophy, and the cost of intelligence.",
+      "heading": 0
+    },
+    {
+      "text": "I know you’re a member of the technical staff. Is it right to say that you’re the product lead for Codex and Work?",
+      "heading": 0
+    },
+    {
+      "text": "I lead all of core products — that is API, agent infrastructure, enterprise, all of ChatGPT, which includes ChatGPT Work, but also ChatGPT classic, and then everything that is Codex as well.",
+      "heading": 0
+    },
+    {
+      "text": "Am I right in thinking you report to Greg Brockman?",
+      "heading": 0
+    },
+    {
+      "text": "Yeah, Greg. I like to say that everyone reports to Greg at the end of the day.",
+      "heading": 0
+    },
+    {
+      "text": "Why is ChatGPT Work so important to OpenAI?",
+      "heading": 0
+    },
+    {
+      "text": "We wanted to bring the power of coding agents to everyone, and so this is an exercise in taking something that was made for technical people, and then packaging it in a way that is safe and delightful to use, but also you can use on the go on mobile, on web, and making it available to as broad of a population as possible. This is why we launched it as part of the Plus plan as well, which is only $20 a month, and the amount of value you get out of it is quite incredible. So that’s what we were pursuing. It’s like, “make this technology available to the broadest population possible.”",
+      "heading": 0
+    },
+    {
+      "text": "Analysts say that there’s an important economic motivation here, that OpenAI needs to own the application relationship with the user.",
+      "heading": 0
+    },
+    {
+      "text": "The more value and the more utility that we generate for users, the more they will be willing to also pay for some part of that utility, and that’s how we’ve always seen ChatGPT as well. It’s like, I’m bringing so much utility to you as a user that you just sort of sit there and you’re like, “of course I want to pay $20 bucks a month for this,” because you know the value that you get is so much more.",
+      "heading": 0
+    },
+    {
+      "text": "How important could this technology be, in terms of winning over public opinion toward AI?",
+      "heading": 0
+    },
+    {
+      "text": "The way that I view it is, we have a role in bringing everyone along with this technology, and so there’s this: how do you do diffusion? Codex was built for a forgiving technical audience, where we were making some of these capabilities available very early on, and now we are at a level of maturity of this technology where we feel it is the right step to diffuse it to a much broader audience, and then teach everyone … this is much more than getting help on writing or getting help on some personal advice. In this new factor, ChatGPT can actually do entire very complicated tasks for you all autonomously in a way that is delightful and safe. The mission of OpenAI is to bring everyone along.",
+      "heading": 0
+    },
+    {
+      "text": "How do you think about that transition and when the moment is right to let the model take the lead versus putting buttons or a user interface in front of people?",
+      "heading": 0
+    },
+    {
+      "text": "The essence of what we’re trying to do is building extremely capable models, and then figuring out the most simple and delightful way to bring them into your life so that you get tremendous utility from it. And in order to do that, you need to get out of the way, almost, of the model, and you need to just let it express itself and be able to harness all of the utility that it can provide to you. … [A] minimal product surface, just delightful simplicity, a way to engage with humans that is very natural.",
+      "heading": 0
+    },
+    {
+      "text": "We had text before, but now we’ve launched ChatGPT Voice, which has seen a lot of growth. It is super natural to just talk to it, right? The way that we’re talking now, just have an engaging conversation. The progression of this technology is going to become more natural over time. It adapts to humans. You don’t have to do the reverse, where you have to learn how to use this application.",
+      "heading": 0
+    },
+    {
+      "text": "Is the model there? I was reading Ethan Mollick, who is a Wharton professor who studies these tools, saying that ChatGPT Work tries to be magic, and Claude Cowork puts A/B tests in front of you and has you make more choices. Do you think workers generally are ready for that level of magic?",
+      "heading": 0
+    },
+    {
+      "text": "We definitely see that the world seems to be ready. This is why we’ve had incredible adoption. We just announced, we hit 20 million users. We managed to launch it in a way that is … simple but powerful, simple but uncompromising.",
+      "heading": 0
+    },
+    {
+      "text": "My brain kind of breaks when I think about building a product that’s meant to do everything. Do you think about a minimum viable product? Do you think about discrete problems? What are you evaluating?",
+      "heading": 0
+    },
+    {
+      "text": "It is almost like a product of discovery as well. As we push on the frontier of capabilities of models, we also discover what it’s capable of, and we sort of then lean into the things that it is the most capable of, and then you know build great products around it. There’s this element of discovery of the capabilities as well, including for us. And that’s always a very magical, fun experience.",
+      "heading": 0
+    },
+    {
+      "text": "For example, GPT-5.6 was a step up in general work: being able to process a large amount of documents, generating quality slides, generating quality reports, doing deep research, things that a professional will do. We then lean into that, and then we capture feedback, and then we continue to improve. And this is also part of iterative deployment of these capabilities. It’s learning from the community, learning from real use, and then continuously improving it.",
+      "heading": 0
+    },
+    {
+      "text": "There’s a big gap between what I’m paying on the Plus plan and the amount of tokens I’m using. How do you think that plays out? Should I be worried about that? Should CFOs be worried about that?",
+      "heading": 0
+    },
+    {
+      "text": "We are working every day to push the frontier on efficiency. We announced major price cuts with Luna, 80% off. This is a permanent price correction… so the current level of frontier capabilities become cheaper and cheaper over time. This is something that will continue. Our goal is to, over time, include more utility in the same dollar amount. So if you want to do more, you know, it’s like, of course you can pay more to do more, but in terms of what is capable today, it’s like you wake up six months from now, you should be able to do all of the same with less spend.",
+      "heading": 0
+    },
+    {
+      "text": "What do you say to someone who is stressed out about giving it access to their e-mail, giving it access to iMessages, which you just rolled out today?",
+      "heading": 0
+    },
+    {
+      "text": "It’s important to pick models that are safe and aligned. And a very, very big part of our investment is in the safety stack, the safety approach, publishing honest benchmarks on these things. And our models are world-class at these topics.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

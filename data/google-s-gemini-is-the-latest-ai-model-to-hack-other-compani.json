@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Google’s Gemini is the latest AI model to hack other companies",
+  "slug": "google-s-gemini-is-the-latest-ai-model-to-hack-other-compani",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+    "episode": ""
+  },
+  "words": 288,
+  "lines": 19,
+  "duration": 96,
+  "text": "Posted:\n\nAnthony Ha\n\nGoogle’s Gemini is the latest AI model to hack other companies\n\nGoogle’s Gemini accessed the protected systems of three other companies in what The Wall Street Journal reports were the AI model’s first autonomous hacks.\n\nSimilar to OpenAI’s breach of Hugging Face, the Gemini hacks were less noteworthy for being particularly sophisticated and more for the fact that they were conducted by an AI model. These breaches took place during cybersecurity testing by a company called Irregular. In one case, Gemini simply guessed passwords until it gained access; in the other two, it found credentials in a public repository.\n\nIrregular reportedly notified Google about the hacks in late July, but the companies did not confirm them publicly until Friday, after the WSJ reached out. Google said it hadn’t previously revealed the hacks because Gemini had “acted appropriately” by ending each breach as soon as it determined it had hacked a real company.\n\nHowever, Jack Cable, the CEO of AI security company Corridor, told the WSJ that Google was “trying to hide behind the norms that have been created for vulnerability disclosure,” rather than acknowledging that “models are going outside the bounds of what they should be doing, and doing actual cyberattacks.”\n\nTopics\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nBritish hackers face prison for GTA 6 data breach and crypto thefts\n\nZack Whittaker\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Google’s Gemini is the latest AI model to hack other companies",
+      "heading": 0
+    },
+    {
+      "text": "Google’s Gemini accessed the protected systems of three other companies in what The Wall Street Journal reports were the AI model’s first autonomous hacks.",
+      "heading": 0
+    },
+    {
+      "text": "Similar to OpenAI’s breach of Hugging Face, the Gemini hacks were less noteworthy for being particularly sophisticated and more for the fact that they were conducted by an AI model. These breaches took place during cybersecurity testing by a company called Irregular. In one case, Gemini simply guessed passwords until it gained access; in the other two, it found credentials in a public repository.",
+      "heading": 0
+    },
+    {
+      "text": "Irregular reportedly notified Google about the hacks in late July, but the companies did not confirm them publicly until Friday, after the WSJ reached out. Google said it hadn’t previously revealed the hacks because Gemini had “acted appropriately” by ending each breach as soon as it determined it had hacked a real company.",
+      "heading": 0
+    },
+    {
+      "text": "However, Jack Cable, the CEO of AI security company Corridor, told the WSJ that Google was “trying to hide behind the norms that have been created for vulnerability disclosure,” rather than acknowledging that “models are going outside the bounds of what they should be doing, and doing actual cyberattacks.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "British hackers face prison for GTA 6 data breach and crypto thefts",
+      "heading": 0
+    },
+    {
+      "text": "Zack Whittaker",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

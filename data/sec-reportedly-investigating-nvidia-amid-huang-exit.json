@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "SEC reportedly investigating Nvidia amid Huang exit",
+  "slug": "sec-reportedly-investigating-nvidia-amid-huang-exit",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+    "episode": ""
+  },
+  "words": 271,
+  "lines": 17,
+  "duration": 90,
+  "text": "Posted:\n\nRebecca Bellan\n\nSEC reportedly investigating Nvidia amid Huang exit\n\nThe Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors, according to The Wall Street Journal.\n\nThe investigation adds to Nvidia’s stack of drama after CEO Jensen Huang resigned following news of his extramarital affairs, including one with an alleged Chinese spy, Alice Huang, an executive at Singapore-based data company Megaspeed.\n\nThe Commerce Department has been investigating Megaspeed since late 2024 under suspicion that the company diverted some of its Nvidia chips to China, which would violate U.S. export laws.\n\nCongress has also demanded that Huang answer questions about his affair and how it might have affected his stance that export restrictions should be loosened. Treasury Secretary Scott Bessent put it more bluntly over the weekend, accusing Nvidia of knowingly selling powerful chips to China to “goose their revenues and their earnings.”\n\nThe news of the SEC probe also comes as Nvidia reports earnings to a market that has seen its stock fall more than 10% since Huang departed. The chipmaker reported revenue of $115.8 billion, up 103% from a year ago.\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling\n\nPalmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in Government & Policy\n\nElon Musk says: ‘I’m not MAGA’\n\nLucas Ropek\n\nTrump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "SEC reportedly investigating Nvidia amid Huang exit",
+      "heading": 1
+    },
+    {
+      "text": "The Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors, according to The Wall Street Journal.",
+      "heading": 0
+    },
+    {
+      "text": "The investigation adds to Nvidia’s stack of drama after CEO Jensen Huang resigned following news of his extramarital affairs, including one with an alleged Chinese spy, Alice Huang, an executive at Singapore-based data company Megaspeed.",
+      "heading": 0
+    },
+    {
+      "text": "The Commerce Department has been investigating Megaspeed since late 2024 under suspicion that the company diverted some of its Nvidia chips to China, which would violate U.S. export laws.",
+      "heading": 0
+    },
+    {
+      "text": "Congress has also demanded that Huang answer questions about his affair and how it might have affected his stance that export restrictions should be loosened. Treasury Secretary Scott Bessent put it more bluntly over the weekend, accusing Nvidia of knowingly selling powerful chips to China to “goose their revenues and their earnings.”",
+      "heading": 0
+    },
+    {
+      "text": "The news of the SEC probe also comes as Nvidia reports earnings to a market that has seen its stock fall more than 10% since Huang departed. The chipmaker reported revenue of $115.8 billion, up 103% from a year ago.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Government & Policy",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says: ‘I’m not MAGA’",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "heading": 0
+    }
+  ]
+}

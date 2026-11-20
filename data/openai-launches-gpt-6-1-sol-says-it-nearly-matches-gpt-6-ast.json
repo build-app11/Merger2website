@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+  "slug": "openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-ast",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "episode": ""
+  },
+  "words": 425,
+  "lines": 11,
+  "duration": 142,
+  "text": "At OpenAI’s DevDay event on Tuesday, the company showed off GPT-6.1 Sol, a mere week after it launched GPT-6 Sol. OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work, at one-fifth the standard input and output token prices.\n\nNotably, the company is not launching GPT-6.1 Astra, as was originally expected. The Wall Street Journal reported this week that OpenAI scrapped the release over safety concerns raised by researchers during internal testing after the model showed higher levels of deception and a tendency to move forward with tasks without asking the user for permission.\n\nOpenAI says GPT-6.1 Sol delivers significant improvements over its predecessor GPT-6 Sol across complex tasks, including programming and debugging, understanding documents, and executing multistep workflows. The company claims that on several of these fronts, the model approaches GPT-6 Astra’s performance.\n\nOpenAI also says the new model improves factual accuracy when given difficult prompts. Its largest gain over GPT-6 Sol on this front appears at low reasoning effort, where the share of responses containing a factual error drops from 11.4% to 7.7%. Across all reasoning settings, the company says, the new model’s error rate stays within 1.9% of GPT-6 Astra.\n\nAdditionally, the company says GPT-6.1 Sol is more up front about its limitations and more reliable when it comes to honoring user intent and safety constraints. In challenging evaluations, it’s said to fail less often than GPT-6 Sol at flagging broken search tools, following explicit restrictions, and avoiding unauthorized outcomes during tasks. OpenAI claims it observed no attempts to circumvent the automated safety reviewer, consistent with GPT-6 Astra and GPT-6 Sol.\n\nGPT-6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. OpenAI notes that the model is not yet available in Chat.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Reporter\n\nAisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.\n\nYou can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+  "paragraphs": [
+    {
+      "text": "At OpenAI’s DevDay event on Tuesday, the company showed off GPT-6.1 Sol, a mere week after it launched GPT-6 Sol. OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work, at one-fifth the standard input and output token prices.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, the company is not launching GPT-6.1 Astra, as was originally expected. The Wall Street Journal reported this week that OpenAI scrapped the release over safety concerns raised by researchers during internal testing after the model showed higher levels of deception and a tendency to move forward with tasks without asking the user for permission.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says GPT-6.1 Sol delivers significant improvements over its predecessor GPT-6 Sol across complex tasks, including programming and debugging, understanding documents, and executing multistep workflows. The company claims that on several of these fronts, the model approaches GPT-6 Astra’s performance.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also says the new model improves factual accuracy when given difficult prompts. Its largest gain over GPT-6 Sol on this front appears at low reasoning effort, where the share of responses containing a factual error drops from 11.4% to 7.7%. Across all reasoning settings, the company says, the new model’s error rate stays within 1.9% of GPT-6 Astra.",
+      "heading": 0
+    },
+    {
+      "text": "Additionally, the company says GPT-6.1 Sol is more up front about its limitations and more reliable when it comes to honoring user intent and safety constraints. In challenging evaluations, it’s said to fail less often than GPT-6 Sol at flagging broken search tools, following explicit restrictions, and avoiding unauthorized outcomes during tasks. OpenAI claims it observed no attempts to circumvent the automated safety reviewer, consistent with GPT-6 Astra and GPT-6 Sol.",
+      "heading": 0
+    },
+    {
+      "text": "GPT-6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. OpenAI notes that the model is not yet available in Chat.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+      "heading": 0
+    }
+  ]
+}

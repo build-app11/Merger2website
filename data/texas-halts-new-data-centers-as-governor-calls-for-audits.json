@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Texas halts new data centers as governor calls for audits",
+  "slug": "texas-halts-new-data-centers-as-governor-calls-for-audits",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2205417979.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "episode": ""
+  },
+  "words": 599,
+  "lines": 16,
+  "duration": 200,
+  "text": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. Only Virginia hosts more data centers than Texas.\n\nBut even Texas can be pushed to the brink. Governor Greg Abbott announced Monday that all new data center projects will need to be audited by both the Public Utility Commission of Texas (PUCT) and the state’s grid operator, the Electric Reliability Council of Texas (ERCOT).\n\nThe size of ERCOT’s interconnection queue has grown dramatically this year. In January, ERCOT had 233 gigawatts of projects waiting to connect to its grid. In less than six months, that figure had more than doubled. Today, Abbott’s office said ERCOT is tracking 474 gigawatts of new connection requests. About 90% of those are data centers, according to the grid operator.\n\nSome of those projects are simply paper proposals at this point. Because queues for grid connections have grown so long, the first action many developers take is to get in line. Many projects fizzle out as they progress.\n\nIf even a fraction of those proposed projects come to fruition, they could overwhelm the Texas grid. The interconnection queue today represents more than five times ERCOT’s total peak demand.\n\nWhile many data center operators, including Google and Microsoft, have been drawn to Texas for its ample natural gas reserves, wind and solar have helped ERCOT keep pace with growing electricity demand, according to the Energy Information Administration (EIA). Utility-scale solar capacity grew fourfold between 2021 and 2025. Meanwhile, electricity prices declined over much of that time, according to a report from Amperon.\n\nElectricity prices in Texas are relatively affordable compared with other states, but they have been rising. Data centers and crypto-mining facilities have pushed prices higher, according to the EIA.\n\nAbbott clearly wants to head off that trend. The governor has directed PUCT and ERCOT to collect a range of information about proposed data centers, including their on- and off-site demand for electricity and water, noise-mitigation efforts, light controls, use of tax incentives, and ownership details.\n\nHistorically, Texas has favored lighter regulation than many other states when it comes to development. Houston famously lacks a zoning code, and the state has a business-friendly regulatory environment. But data centers have become a flash point across the country, including in Texas. Abbott had previously tried to coax data centers into providing more information through a voluntary survey. Most didn’t respond, so he’s taking a heavier hand to compel compliance.\n\nDepending on what emerges from the audits, Texas’ days as a data center mecca may be coming to a close.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. Only Virginia hosts more data centers than Texas.",
+      "heading": 0
+    },
+    {
+      "text": "But even Texas can be pushed to the brink. Governor Greg Abbott announced Monday that all new data center projects will need to be audited by both the Public Utility Commission of Texas (PUCT) and the state’s grid operator, the Electric Reliability Council of Texas (ERCOT).",
+      "heading": 0
+    },
+    {
+      "text": "The size of ERCOT’s interconnection queue has grown dramatically this year. In January, ERCOT had 233 gigawatts of projects waiting to connect to its grid. In less than six months, that figure had more than doubled. Today, Abbott’s office said ERCOT is tracking 474 gigawatts of new connection requests. About 90% of those are data centers, according to the grid operator.",
+      "heading": 0
+    },
+    {
+      "text": "Some of those projects are simply paper proposals at this point. Because queues for grid connections have grown so long, the first action many developers take is to get in line. Many projects fizzle out as they progress.",
+      "heading": 0
+    },
+    {
+      "text": "If even a fraction of those proposed projects come to fruition, they could overwhelm the Texas grid. The interconnection queue today represents more than five times ERCOT’s total peak demand.",
+      "heading": 0
+    },
+    {
+      "text": "While many data center operators, including Google and Microsoft, have been drawn to Texas for its ample natural gas reserves, wind and solar have helped ERCOT keep pace with growing electricity demand, according to the Energy Information Administration (EIA). Utility-scale solar capacity grew fourfold between 2021 and 2025. Meanwhile, electricity prices declined over much of that time, according to a report from Amperon.",
+      "heading": 0
+    },
+    {
+      "text": "Electricity prices in Texas are relatively affordable compared with other states, but they have been rising. Data centers and crypto-mining facilities have pushed prices higher, according to the EIA.",
+      "heading": 0
+    },
+    {
+      "text": "Abbott clearly wants to head off that trend. The governor has directed PUCT and ERCOT to collect a range of information about proposed data centers, including their on- and off-site demand for electricity and water, noise-mitigation efforts, light controls, use of tax incentives, and ownership details.",
+      "heading": 0
+    },
+    {
+      "text": "Historically, Texas has favored lighter regulation than many other states when it comes to development. Houston famously lacks a zoning code, and the state has a business-friendly regulatory environment. But data centers have become a flash point across the country, including in Texas. Abbott had previously tried to coax data centers into providing more information through a voluntary survey. Most didn’t respond, so he’s taking a heavier hand to compel compliance.",
+      "heading": 0
+    },
+    {
+      "text": "Depending on what emerges from the audits, Texas’ days as a data center mecca may be coming to a close.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

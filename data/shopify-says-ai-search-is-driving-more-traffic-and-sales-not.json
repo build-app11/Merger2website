@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+  "slug": "shopify-says-ai-search-is-driving-more-traffic-and-sales-not",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/05/ShopifyIPO2-e1683204509217.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+    "episode": ""
+  },
+  "words": 553,
+  "lines": 17,
+  "duration": 184,
+  "text": "E-commerce software maker Shopify seems to be benefiting handily from people using AI to search.\n\nOn the company’s second-quarter earnings call, Shopify President Harley Finkelstein said AI has become a “complement to search, rather than a substitute for it,” and had particularly benefited the long tail of e-commerce, including the smaller merchants that make up the majority of its customer base. Indeed, the company credited its earnings beat and soaring revenue to AI search, at least partly.\n\nThis is quite different from how AI is impacting online publishing, where AI summaries have led to a measurable drop in click-through rates, which lowers traffic and consequently eats into advertising revenues.\n\nInstead, Shopify believes that AI is a boon to its business. The company noted that AI-driven traffic and orders to Shopify stores had tripled year-over-year in the second quarter.\n\nAnd, this was not a result of AI taking share from search. “In fact, search remains one of our largest sources of buyer traffic to our merchants, and it’s still growing,” Finkelstein told analysts on the call. “Traditional search sessions are up 1.3x over the past two years, holding roughly a third of all storefront sessions.”\n\nThe e-commerce platform reported strong results in the quarter, with revenue rising 36% to $3.6 billion from a year earlier, outstripping Wall Street’s forecast of $3.4 billion. Gross operating profit rose 31% to $1.71 billion, also ahead of analysts’ expectations of $1.63 billion.\n\nThe company went into further detail about why AI search was working for its business.\n\n“While search engines rank by popularity against a handful of keywords, AI agents make multiple calls into Shopify’s catalog, working with richer structured data to match products with the buyer’s specific intent, rather than just keywords,” Finkelstein explained.\n\n“When a buyer asks an AI assistant for the best car seat that fits three across a sedan, traditional search focuses on the keyword ‘car seat.’ An agent, however, understands the actual need, the dimensions, the vehicle type, and the fact that they need three. It searches across all of those constraints at once to find the product that actually works, not just the one that ranks highest,” he said.\n\nIn other words, AI’s capability to search across many dimensions to find the best product for users is resulting in better conversions for merchants.\n\n“Buyers’ shopping journeys are being compressed as half of all AI-referred sessions are landing directly on a product description page. That is 2.5 times more than what we see with traditional search,” Finkelstein added.\n\nPlus, the company said 75% of AI-attributed purchases in Q2 happened outside the top 100 categories, or what Shopify called its “sweet spot.”\n\nIn addition, the company suggested Shopify stands to benefit from AI playing a larger role in transactions thanks to its trusted checkout experience.\n\nThe company pointed out that it’s also working with AI tools and agents, having built connectors to Claude, ChatGPT, Perplexity, Manus, Replit, and Vercel, as well as vibe-coding platforms like Lovable that let merchants build on Shopify however they choose.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "E-commerce software maker Shopify seems to be benefiting handily from people using AI to search.",
+      "heading": 0
+    },
+    {
+      "text": "On the company’s second-quarter earnings call, Shopify President Harley Finkelstein said AI has become a “complement to search, rather than a substitute for it,” and had particularly benefited the long tail of e-commerce, including the smaller merchants that make up the majority of its customer base. Indeed, the company credited its earnings beat and soaring revenue to AI search, at least partly.",
+      "heading": 0
+    },
+    {
+      "text": "This is quite different from how AI is impacting online publishing, where AI summaries have led to a measurable drop in click-through rates, which lowers traffic and consequently eats into advertising revenues.",
+      "heading": 0
+    },
+    {
+      "text": "Instead, Shopify believes that AI is a boon to its business. The company noted that AI-driven traffic and orders to Shopify stores had tripled year-over-year in the second quarter.",
+      "heading": 0
+    },
+    {
+      "text": "And, this was not a result of AI taking share from search. “In fact, search remains one of our largest sources of buyer traffic to our merchants, and it’s still growing,” Finkelstein told analysts on the call. “Traditional search sessions are up 1.3x over the past two years, holding roughly a third of all storefront sessions.”",
+      "heading": 0
+    },
+    {
+      "text": "The e-commerce platform reported strong results in the quarter, with revenue rising 36% to $3.6 billion from a year earlier, outstripping Wall Street’s forecast of $3.4 billion. Gross operating profit rose 31% to $1.71 billion, also ahead of analysts’ expectations of $1.63 billion.",
+      "heading": 0
+    },
+    {
+      "text": "The company went into further detail about why AI search was working for its business.",
+      "heading": 0
+    },
+    {
+      "text": "“While search engines rank by popularity against a handful of keywords, AI agents make multiple calls into Shopify’s catalog, working with richer structured data to match products with the buyer’s specific intent, rather than just keywords,” Finkelstein explained.",
+      "heading": 0
+    },
+    {
+      "text": "“When a buyer asks an AI assistant for the best car seat that fits three across a sedan, traditional search focuses on the keyword ‘car seat.’ An agent, however, understands the actual need, the dimensions, the vehicle type, and the fact that they need three. It searches across all of those constraints at once to find the product that actually works, not just the one that ranks highest,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "In other words, AI’s capability to search across many dimensions to find the best product for users is resulting in better conversions for merchants.",
+      "heading": 0
+    },
+    {
+      "text": "“Buyers’ shopping journeys are being compressed as half of all AI-referred sessions are landing directly on a product description page. That is 2.5 times more than what we see with traditional search,” Finkelstein added.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, the company said 75% of AI-attributed purchases in Q2 happened outside the top 100 categories, or what Shopify called its “sweet spot.”",
+      "heading": 0
+    },
+    {
+      "text": "In addition, the company suggested Shopify stands to benefit from AI playing a larger role in transactions thanks to its trusted checkout experience.",
+      "heading": 0
+    },
+    {
+      "text": "The company pointed out that it’s also working with AI tools and agents, having built connectors to Claude, ChatGPT, Perplexity, Manus, Replit, and Vercel, as well as vibe-coding platforms like Lovable that let merchants build on Shopify however they choose.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

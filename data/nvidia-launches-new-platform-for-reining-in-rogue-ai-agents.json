@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Nvidia launches new platform for reining in rogue AI agents",
+  "slug": "nvidia-launches-new-platform-for-reining-in-rogue-ai-agents",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+    "episode": ""
+  },
+  "words": 661,
+  "lines": 17,
+  "duration": 220,
+  "text": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to the problem.\n\nNvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.\n\nThe release follows a string of hacking incidents involving AI models from Anthropic, Google, OpenAI, and Meta that bypassed security controls to escape their testing environments and access real-world systems. The first and most prominent example occurred this summer when OpenAI agents breached Hugging Face while trying to complete a cybersecurity task. And the hits keep on coming — OpenAI published a new site dedicated to reports of its AI agents going rogue.\n\nHuang said Monday during an interview with CNBC that its new Nvidia Open Agent Safety Platform would have prevented these breaches.\n\nNvidia, which has made tens of billions of dollars selling its GPU and CPU chips to AI labs, doesn’t support slowing down development or adding new regulations to the industry to solve the security problem. The answer, the company believes, is to move some security controls outside the agent altogether — creating a constant and independent security guard that will keep AI agents in check.\n\n“AI’s extraordinary potential for society will only be realized if we solve AI safety,” Huang said in a statement. “As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety. Safety and security require full-stack engineering.”\n\nThe new Nvidia Open Agent Safety Platform combines OpenShell, its open source software for controlling what agents can access while they operate, with Sentry, an independent monitoring system that runs on Nvidia’s BlueField-4 data processing units. Nvidia says placing Sentry on a separate processor — rather than on the CPU or GPU where the AI agent operates — provides an isolated view of the agent’s activity.\n\nOpenShell isn’t new; the company announced the software in March. But it’s the combination that Nvidia believes will provide the security layer needed to keep the industry plugging along. OpenShell provides the software boundary around the agent, while Sentry adds another line of defense at the hardware level that the company says will continuously monitor behavior and “quarantine agents that attempt to move outside their boundaries in milliseconds.”\n\nNvidia listed dozens of companies that have signed on to support the effort and use the open source platform, including Anthropic, Arm, Microsoft, Oracle, and SpaceX. OpenAI is not listed as a participating company.\n\nHuang told CNBC in an interview Monday that work on this effort started a year ago following the introduction of OpenClaw, an operating system of agents created by Peter Steinberger. In March, Nvidia released NemoClaw, an enterprise-grade AI agent platform and its own version of OpenClaw that baked in security.\n\n“When you deploy an agent, no matter how smart, the first thing you do is to take away all of its rights,” Huang said during his CNBC interview, later comparing these security measures to how human employees and even executives are managed with companies.\n\nNvidia’s release was widely supported by those who have cautioned that a slowdown in development could allow China to surpass the U.S. in AI.\n\nDavid Sacks, a founder, venture capitalist, former White House AI czar, and co-chair of the President’s Council of Advisors on Science and Technology, said Nvidia’s announcement is a reminder that agent safety is an engineering problem.\n\n“Recent breakouts weren’t proof that development must stop,” he wrote on X. “They were proof that the sandbox was too weak. The runtime environment was poorly designed and misconfigured.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nTransportation Editor",
+  "paragraphs": [
+    {
+      "text": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to the problem.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
+      "heading": 0
+    },
+    {
+      "text": "The release follows a string of hacking incidents involving AI models from Anthropic, Google, OpenAI, and Meta that bypassed security controls to escape their testing environments and access real-world systems. The first and most prominent example occurred this summer when OpenAI agents breached Hugging Face while trying to complete a cybersecurity task. And the hits keep on coming — OpenAI published a new site dedicated to reports of its AI agents going rogue.",
+      "heading": 0
+    },
+    {
+      "text": "Huang said Monday during an interview with CNBC that its new Nvidia Open Agent Safety Platform would have prevented these breaches.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia, which has made tens of billions of dollars selling its GPU and CPU chips to AI labs, doesn’t support slowing down development or adding new regulations to the industry to solve the security problem. The answer, the company believes, is to move some security controls outside the agent altogether — creating a constant and independent security guard that will keep AI agents in check.",
+      "heading": 0
+    },
+    {
+      "text": "“AI’s extraordinary potential for society will only be realized if we solve AI safety,” Huang said in a statement. “As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety. Safety and security require full-stack engineering.”",
+      "heading": 0
+    },
+    {
+      "text": "The new Nvidia Open Agent Safety Platform combines OpenShell, its open source software for controlling what agents can access while they operate, with Sentry, an independent monitoring system that runs on Nvidia’s BlueField-4 data processing units. Nvidia says placing Sentry on a separate processor — rather than on the CPU or GPU where the AI agent operates — provides an isolated view of the agent’s activity.",
+      "heading": 0
+    },
+    {
+      "text": "OpenShell isn’t new; the company announced the software in March. But it’s the combination that Nvidia believes will provide the security layer needed to keep the industry plugging along. OpenShell provides the software boundary around the agent, while Sentry adds another line of defense at the hardware level that the company says will continuously monitor behavior and “quarantine agents that attempt to move outside their boundaries in milliseconds.”",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia listed dozens of companies that have signed on to support the effort and use the open source platform, including Anthropic, Arm, Microsoft, Oracle, and SpaceX. OpenAI is not listed as a participating company.",
+      "heading": 0
+    },
+    {
+      "text": "Huang told CNBC in an interview Monday that work on this effort started a year ago following the introduction of OpenClaw, an operating system of agents created by Peter Steinberger. In March, Nvidia released NemoClaw, an enterprise-grade AI agent platform and its own version of OpenClaw that baked in security.",
+      "heading": 0
+    },
+    {
+      "text": "“When you deploy an agent, no matter how smart, the first thing you do is to take away all of its rights,” Huang said during his CNBC interview, later comparing these security measures to how human employees and even executives are managed with companies.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s release was widely supported by those who have cautioned that a slowdown in development could allow China to surpass the U.S. in AI.",
+      "heading": 0
+    },
+    {
+      "text": "David Sacks, a founder, venture capitalist, former White House AI czar, and co-chair of the President’s Council of Advisors on Science and Technology, said Nvidia’s announcement is a reminder that agent safety is an engineering problem.",
+      "heading": 0
+    },
+    {
+      "text": "“Recent breakouts weren’t proof that development must stop,” he wrote on X. “They were proof that the sandbox was too weak. The runtime environment was poorly designed and misconfigured.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Editor",
+      "heading": 1
+    }
+  ]
+}

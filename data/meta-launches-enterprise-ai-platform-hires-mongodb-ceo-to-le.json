@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+  "slug": "meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-le",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+    "episode": ""
+  },
+  "words": 330,
+  "lines": 19,
+  "duration": 110,
+  "text": "Posted:\n\nAisha Malik\n\nMeta launches enterprise AI platform, hires MongoDB CEO to lead new initiative\n\nMeta announced Monday that it’s launching “Meta Enterprise Platform,” a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers. The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.\n\nThe launch of the new business builds on the momentum of Muse, Meta’s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.\n\nMeta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.\n\n“Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,” Desai said in a statement. “Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. Meta Enterprise Platform will focus on turning its AI stack into products and services that companies can deploy for their own businesses.”\n\nThe move could help Meta see a return on all the money it’s pouring into AI.\n\nMongoDB’s shares dropped by more than 17% on the news of its CEO’s sudden departure. The database maker said it appointed Dev Ittycheria as interim chief executive, who previously served in the role, while the board searches for Desai’s permanent replacement.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    },
+    {
+      "text": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "heading": 0
+    },
+    {
+      "text": "Meta announced Monday that it’s launching “Meta Enterprise Platform,” a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers. The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
+      "heading": 0
+    },
+    {
+      "text": "The launch of the new business builds on the momentum of Muse, Meta’s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.",
+      "heading": 0
+    },
+    {
+      "text": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+      "heading": 0
+    },
+    {
+      "text": "“Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,” Desai said in a statement. “Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. Meta Enterprise Platform will focus on turning its AI stack into products and services that companies can deploy for their own businesses.”",
+      "heading": 0
+    },
+    {
+      "text": "The move could help Meta see a return on all the money it’s pouring into AI.",
+      "heading": 0
+    },
+    {
+      "text": "MongoDB’s shares dropped by more than 17% on the news of its CEO’s sudden departure. The database maker said it appointed Dev Ittycheria as interim chief executive, who previously served in the role, while the board searches for Desai’s permanent replacement.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

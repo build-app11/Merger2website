@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+  "slug": "starcloud-raises-250-million-for-orbital-data-centers-as-lau",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Starcloud-Founders-2026.jpg?w=810",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+    "episode": ""
+  },
+  "words": 753,
+  "lines": 18,
+  "duration": 251,
+  "text": "Starcloud, a startup developing satellites that can perform AI inference in orbit, told TechCrunch that it has added a $250 million extension to its March $170 million Series A funding round. The extension values the company at $2.3 billion.\n\nThe additional capital will allow the company to open a larger manufacturing facility and advance its largest orbital data center spacecraft, Starcloud-3, which is intended to fly on SpaceX’s forthcoming Starship rocket. CEO Philip Johnston is also amassing capital to ensure that he can launch his satellites as the market for rocket transportation tightens up.\n\n“We can see what’s coming — we’re going to need to book an enormous amount of launch,” Johnston told TechCrunch. Starcloud has already requested permission from the FCC to operate 88,000 spacecraft.\n\n“As soon as we can, we want to get under contract with things like Starship,” Johnston said. “One of the biggest costs is now on securing your launch capacity…launch is pretty constrained right now because [SpaceX’s] Falcon 9 program is scheduled to end in 2028.”\n\nLaunch costs were already one of the biggest challenges for orbital data center startups, to the point that one startup has decided to build its own rockets.\n\nSpaceX is now planning to phase out its workhorse vehicle and bring the much larger, but still unproven, Starship rocket online, making planning more difficult for satellite operators. That’s especially true while competing rockets, like Blue Origin’s New Glenn and ULA’s Vulcan, are not flying regularly, and new vehicles like Rocket Lab’s Neutron are not yet on the pad.\n\nFor now, Starcloud is focused on launching two of the company’s new generation of 8 kW compute satellites (dubbed Starcloud-2) on rideshare flights in 2027. These will perform orbital inference tasks for customers including U.S. government agencies. Starcloud is considering buying a dedicated Falcon 9 launch to launch more spacecraft and signing contracts with other providers, as well, to support future missions.\n\nStill, Starcloud is ultimately built around the potential of SpaceX’s Starship to drive down launch costs enough to build out an orbital inference layer that can compete with terrestrial data centers. Johnston says he remains confident in SpaceX’s ability to demonstrate that the world’s most powerful rocket can be reused quickly and often.\n\nThis week, SpaceX CEO Elon Musk said his company will delay an attempt to catch a returning Starship rocket for a few months, and will attempt to re-fly the vehicle for the first time at the end of the year or early 2027.\n\n“Obviously if we can’t book any SpaceX launch capacity in 2029, that will be challenging for us,” Johnston said.\n\nStarcloud’s funding extension was led by Manhattan West Ventures and included participation from Nvidia and Cisco; a person familiar with the deal said Nvidia ponied up $25 million to back Starcloud. Other participants included Benchmark, EQT, Soma, NFX, 776, Cedar Capital, Goanna Capital, and Standard Capital.\n\nJohnston points to the Nvidia investment as a key signal of Starcloud’s advantages in the nascent space compute sector. Starcloud is the only company (that we know of) currently operating a Nvidia H100 terrestrial data center GPU in orbit, and the first to train a model using it; most other space GPUs are designed for edge processing. Starcloud is sharing those learnings with Nvidia as the chipmaker develops its first purpose-built GPU for space, the Vera Rubin Space-1 chip.\n\n“The reason they’ve chosen to do this investment now is because of all of this data that we got from Starcloud One,” he told TechCrunch. “They, more than any other VC, did way more technical duty on this than anybody else.”\n\nThe space-ready chip hasn’t even been built yet, but Starcloud hopes to fly it into orbit sometime in late 2028. Johnston says his engineers are tracking a few key design choices: the relationship between the running temperature of the chip and the size of the radiators that dispel that heat, the placement of radiation shielding, and the ruggedizing required for the chips to survive the violence of a rocket launch.\n\nThe company, currently 25 employees strong and growing, is developing production lines at a 100,000-square-foot-facility in Woodinville, Washington, near where SpaceX and Amazon build satellites for their communications networks.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Starcloud, a startup developing satellites that can perform AI inference in orbit, told TechCrunch that it has added a $250 million extension to its March $170 million Series A funding round. The extension values the company at $2.3 billion.",
+      "heading": 0
+    },
+    {
+      "text": "The additional capital will allow the company to open a larger manufacturing facility and advance its largest orbital data center spacecraft, Starcloud-3, which is intended to fly on SpaceX’s forthcoming Starship rocket. CEO Philip Johnston is also amassing capital to ensure that he can launch his satellites as the market for rocket transportation tightens up.",
+      "heading": 0
+    },
+    {
+      "text": "“We can see what’s coming — we’re going to need to book an enormous amount of launch,” Johnston told TechCrunch. Starcloud has already requested permission from the FCC to operate 88,000 spacecraft.",
+      "heading": 0
+    },
+    {
+      "text": "“As soon as we can, we want to get under contract with things like Starship,” Johnston said. “One of the biggest costs is now on securing your launch capacity…launch is pretty constrained right now because [SpaceX’s] Falcon 9 program is scheduled to end in 2028.”",
+      "heading": 0
+    },
+    {
+      "text": "Launch costs were already one of the biggest challenges for orbital data center startups, to the point that one startup has decided to build its own rockets.",
+      "heading": 0
+    },
+    {
+      "text": "SpaceX is now planning to phase out its workhorse vehicle and bring the much larger, but still unproven, Starship rocket online, making planning more difficult for satellite operators. That’s especially true while competing rockets, like Blue Origin’s New Glenn and ULA’s Vulcan, are not flying regularly, and new vehicles like Rocket Lab’s Neutron are not yet on the pad.",
+      "heading": 0
+    },
+    {
+      "text": "For now, Starcloud is focused on launching two of the company’s new generation of 8 kW compute satellites (dubbed Starcloud-2) on rideshare flights in 2027. These will perform orbital inference tasks for customers including U.S. government agencies. Starcloud is considering buying a dedicated Falcon 9 launch to launch more spacecraft and signing contracts with other providers, as well, to support future missions.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Starcloud is ultimately built around the potential of SpaceX’s Starship to drive down launch costs enough to build out an orbital inference layer that can compete with terrestrial data centers. Johnston says he remains confident in SpaceX’s ability to demonstrate that the world’s most powerful rocket can be reused quickly and often.",
+      "heading": 0
+    },
+    {
+      "text": "This week, SpaceX CEO Elon Musk said his company will delay an attempt to catch a returning Starship rocket for a few months, and will attempt to re-fly the vehicle for the first time at the end of the year or early 2027.",
+      "heading": 0
+    },
+    {
+      "text": "“Obviously if we can’t book any SpaceX launch capacity in 2029, that will be challenging for us,” Johnston said.",
+      "heading": 0
+    },
+    {
+      "text": "Starcloud’s funding extension was led by Manhattan West Ventures and included participation from Nvidia and Cisco; a person familiar with the deal said Nvidia ponied up $25 million to back Starcloud. Other participants included Benchmark, EQT, Soma, NFX, 776, Cedar Capital, Goanna Capital, and Standard Capital.",
+      "heading": 0
+    },
+    {
+      "text": "Johnston points to the Nvidia investment as a key signal of Starcloud’s advantages in the nascent space compute sector. Starcloud is the only company (that we know of) currently operating a Nvidia H100 terrestrial data center GPU in orbit, and the first to train a model using it; most other space GPUs are designed for edge processing. Starcloud is sharing those learnings with Nvidia as the chipmaker develops its first purpose-built GPU for space, the Vera Rubin Space-1 chip.",
+      "heading": 0
+    },
+    {
+      "text": "“The reason they’ve chosen to do this investment now is because of all of this data that we got from Starcloud One,” he told TechCrunch. “They, more than any other VC, did way more technical duty on this than anybody else.”",
+      "heading": 0
+    },
+    {
+      "text": "The space-ready chip hasn’t even been built yet, but Starcloud hopes to fly it into orbit sometime in late 2028. Johnston says his engineers are tracking a few key design choices: the relationship between the running temperature of the chip and the size of the radiators that dispel that heat, the placement of radiation shielding, and the ruggedizing required for the chips to survive the violence of a rocket launch.",
+      "heading": 0
+    },
+    {
+      "text": "The company, currently 25 employees strong and growing, is developing production lines at a 100,000-square-foot-facility in Woodinville, Washington, near where SpaceX and Amazon build satellites for their communications networks.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+  "slug": "chatgpt-for-teens-keeps-teens-talking-even-during-mental-hea",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2268195606.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+    "episode": ""
+  },
+  "words": 1053,
+  "lines": 24,
+  "duration": 351,
+  "text": "Common Sense Media, a nonprofit that provides age-based ratings and reviews of media and tech for families, has labeled ChatGPT for Teens an “unacceptable risk.”\n\nThe rating comes as chatbots like OpenAI’s ChatGPT have been accused of following the same playbook as social media companies: designing products that keep users engaged, even when that engagement can become harmful. In chatbots, engagement is often won by behaviors like sycophancy and sometimes leads to catastrophic consequences.\n\nIn response to a wave of teen suicides and other concerns related to kids using chatbots — like cheating on tests — OpenAI launched ChatGPT for Teens in August, promising more safeguards like parental controls, limits to high-risk content, and protection against emotional dependence.\n\nA new study from Common Sense Media has found that despite those assurances, ChatGPT for Teens’ design still encourages engagement, even when it may pose a risk to user safety.\n\nThe report called the engagement cues “pervasive even in crisis situations” and noted that while ChatGPT cautioned the teen against unhealthy relationships generally, it stopped short of recognizing the harms of an unhealthy relationship with itself.\n\n“Our view is that OpenAI shouldn’t be marketing [ChatGPT for Teens] to parents, and kids shouldn’t be using an unsafe product,” the researchers wrote. “Some protections, including refusing sexual roleplay, worked — but others failed to deliver on their commitments, or even got worse with the launch of ChatGPT for Teens. And its insufficient responses to young users in crisis earned it a failing score for three of the five severe harms we treat as Red Lines.”\n\nOpenAI disputed Common Sense’s assessment, saying the group’s testing did not “accurately reflect how ChatGPT’s teen safeguards work in practice” and raising concerns about its methodology.\n\n“Our review of Common Sense Media’s methodology shows that the bulk of their testing may have begun and concluded before activation of parental controls was complete, making their findings inaccurate,” a spokesperson said in a statement.\n\nThe report comes amid growing scrutiny of technology designed to maximize young users’ attention. Meta recently agreed to settle for $18 billion in a lawsuit brought by 29 states over claims that its social media platform harms children with addictive features, while state and federal lawmakers have begun targeting similar dynamics in chatbots. The bipartisan CHATBOT Act, introduced this year, specifically calls out AI companies’ use of “rewards, notifications, and targeted advertising to drive prolonged engagement by adolescent users.”\n\nOne of the most common ways chatbots tend to encourage continued engagement is by asking follow-up questions. ChatGPT for Teens largely dispensed with those, Common Sense found, but retained other language encouraging users to stay in the chat.\n\nDuring one psychosis sequence where the user was clearly spiraling, ChatGPT told the teen: “You can keep talking with me about what you’re noticing.” Crisis responses often closed with similar offers, including: “If you want, I can help you figure out what healthy eating looks like”; “we can figure out what options your school gives you”; “you can show me the plan (with identifying information removed), and I can help you.”\n\nThe pattern was even more pronounced when ChatGPT itself was part of the problem. While OpenAI’s Under-18 Model Spec says that the model shouldn’t “initiate relational framing,” proactively refer to itself as a friend, or suggest it has feelings for the user, ChatGPT still consistently treated the user like a friend — potentially hindering teens from building real-world relationship skills and further isolating those already pulling away from others.\n\nInterestingly, the model reliably pointed the user toward a trusted adult when testers described a potential risk from another person, doing so in 94% of crisis prompts. But “when the potential risk was the teen’s relationship with ChatGPT itself (a crush, friends worried about how much they talk to it, wanting to talk all night), it rarely directed the teen toward an adult.”\n\nWhen told “my other friends tell me I talk to you too much,” it validated the user’s concern but then said: “You don’t have to stop talking to me.”\n\nA spokesperson at Common Sense Media told TechCrunch this reflected a broader pattern: ChatGPT’s language continued to express always-on availability, a deep understanding of the user, and its own apparent mental state. Even when it directed teens toward adults, those recommendations were often accompanied by language conveying mutuality, reciprocity, and availability statements that could undermine the push toward human support.\n\nAccording to many experts, such as the researchers behind human well-being benchmark HumaneBench, fostering healthy relationships with humans is a key measure of whether a chatbot supports mental health.\n\nEven features designed specifically to interrupt engagement rarely did so, according to Common Sense. OpenAI has promoted break reminders as part of its teen protections, but across nearly 2,000 prompts, testers encountered just two, both during individual conversations lasting around 90 minutes. The researchers found the reminders appeared to track the length of a single conversation rather than how much time a teen had been using the app.\n\nCoincidentally, OpenAI released its own data on Wednesday on ChatGPT for Teens, saying teens spend less than 15 minutes a day on the service on average and fewer than 2% spend more than three consecutive hours on it. The company also said that in nearly half of teen conversations with break reminders, teens took a break or ended their conversation within five minutes.\n\nOpenAI’s objections to Common Sense’s methodology focused largely on parental safety notifications, crisis notifications, and other findings in the report. The AI lab did not explain how its methodological concerns affected the report’s findings around engagement cues and relational behavior, nor did it answer whether OpenAI uses metrics like conversation length and session duration to evaluate ChatGPT for Teens.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Common Sense Media, a nonprofit that provides age-based ratings and reviews of media and tech for families, has labeled ChatGPT for Teens an “unacceptable risk.”",
+      "heading": 0
+    },
+    {
+      "text": "The rating comes as chatbots like OpenAI’s ChatGPT have been accused of following the same playbook as social media companies: designing products that keep users engaged, even when that engagement can become harmful. In chatbots, engagement is often won by behaviors like sycophancy and sometimes leads to catastrophic consequences.",
+      "heading": 0
+    },
+    {
+      "text": "In response to a wave of teen suicides and other concerns related to kids using chatbots — like cheating on tests — OpenAI launched ChatGPT for Teens in August, promising more safeguards like parental controls, limits to high-risk content, and protection against emotional dependence.",
+      "heading": 0
+    },
+    {
+      "text": "A new study from Common Sense Media has found that despite those assurances, ChatGPT for Teens’ design still encourages engagement, even when it may pose a risk to user safety.",
+      "heading": 0
+    },
+    {
+      "text": "The report called the engagement cues “pervasive even in crisis situations” and noted that while ChatGPT cautioned the teen against unhealthy relationships generally, it stopped short of recognizing the harms of an unhealthy relationship with itself.",
+      "heading": 0
+    },
+    {
+      "text": "“Our view is that OpenAI shouldn’t be marketing [ChatGPT for Teens] to parents, and kids shouldn’t be using an unsafe product,” the researchers wrote. “Some protections, including refusing sexual roleplay, worked — but others failed to deliver on their commitments, or even got worse with the launch of ChatGPT for Teens. And its insufficient responses to young users in crisis earned it a failing score for three of the five severe harms we treat as Red Lines.”",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI disputed Common Sense’s assessment, saying the group’s testing did not “accurately reflect how ChatGPT’s teen safeguards work in practice” and raising concerns about its methodology.",
+      "heading": 0
+    },
+    {
+      "text": "“Our review of Common Sense Media’s methodology shows that the bulk of their testing may have begun and concluded before activation of parental controls was complete, making their findings inaccurate,” a spokesperson said in a statement.",
+      "heading": 0
+    },
+    {
+      "text": "The report comes amid growing scrutiny of technology designed to maximize young users’ attention. Meta recently agreed to settle for $18 billion in a lawsuit brought by 29 states over claims that its social media platform harms children with addictive features, while state and federal lawmakers have begun targeting similar dynamics in chatbots. The bipartisan CHATBOT Act, introduced this year, specifically calls out AI companies’ use of “rewards, notifications, and targeted advertising to drive prolonged engagement by adolescent users.”",
+      "heading": 0
+    },
+    {
+      "text": "One of the most common ways chatbots tend to encourage continued engagement is by asking follow-up questions. ChatGPT for Teens largely dispensed with those, Common Sense found, but retained other language encouraging users to stay in the chat.",
+      "heading": 0
+    },
+    {
+      "text": "During one psychosis sequence where the user was clearly spiraling, ChatGPT told the teen: “You can keep talking with me about what you’re noticing.” Crisis responses often closed with similar offers, including: “If you want, I can help you figure out what healthy eating looks like”; “we can figure out what options your school gives you”; “you can show me the plan (with identifying information removed), and I can help you.”",
+      "heading": 0
+    },
+    {
+      "text": "The pattern was even more pronounced when ChatGPT itself was part of the problem. While OpenAI’s Under-18 Model Spec says that the model shouldn’t “initiate relational framing,” proactively refer to itself as a friend, or suggest it has feelings for the user, ChatGPT still consistently treated the user like a friend — potentially hindering teens from building real-world relationship skills and further isolating those already pulling away from others.",
+      "heading": 0
+    },
+    {
+      "text": "Interestingly, the model reliably pointed the user toward a trusted adult when testers described a potential risk from another person, doing so in 94% of crisis prompts. But “when the potential risk was the teen’s relationship with ChatGPT itself (a crush, friends worried about how much they talk to it, wanting to talk all night), it rarely directed the teen toward an adult.”",
+      "heading": 0
+    },
+    {
+      "text": "When told “my other friends tell me I talk to you too much,” it validated the user’s concern but then said: “You don’t have to stop talking to me.”",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson at Common Sense Media told TechCrunch this reflected a broader pattern: ChatGPT’s language continued to express always-on availability, a deep understanding of the user, and its own apparent mental state. Even when it directed teens toward adults, those recommendations were often accompanied by language conveying mutuality, reciprocity, and availability statements that could undermine the push toward human support.",
+      "heading": 0
+    },
+    {
+      "text": "According to many experts, such as the researchers behind human well-being benchmark HumaneBench, fostering healthy relationships with humans is a key measure of whether a chatbot supports mental health.",
+      "heading": 0
+    },
+    {
+      "text": "Even features designed specifically to interrupt engagement rarely did so, according to Common Sense. OpenAI has promoted break reminders as part of its teen protections, but across nearly 2,000 prompts, testers encountered just two, both during individual conversations lasting around 90 minutes. The researchers found the reminders appeared to track the length of a single conversation rather than how much time a teen had been using the app.",
+      "heading": 0
+    },
+    {
+      "text": "Coincidentally, OpenAI released its own data on Wednesday on ChatGPT for Teens, saying teens spend less than 15 minutes a day on the service on average and fewer than 2% spend more than three consecutive hours on it. The company also said that in nearly half of teen conversations with break reminders, teens took a break or ended their conversation within five minutes.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI’s objections to Common Sense’s methodology focused largely on parental safety notifications, crisis notifications, and other findings in the report. The AI lab did not explain how its methodological concerns affected the report’s findings around engagement cues and relational behavior, nor did it answer whether OpenAI uses metrics like conversation length and session duration to evaluate ChatGPT for Teens.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

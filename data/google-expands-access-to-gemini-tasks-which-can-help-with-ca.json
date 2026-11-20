@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+  "slug": "google-expands-access-to-gemini-tasks-which-can-help-with-ca",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+    "episode": ""
+  },
+  "words": 330,
+  "lines": 19,
+  "duration": 110,
+  "text": "Posted:\n\nLucas Ropek\n\nGoogle expands access to Gemini Tasks, which can help with calls, purchases\n\nGoogle is expanding the rollout of Tasks, a toggle in Gemini that converts the chatbot into a more active helper.\n\nUnlike Gemini’s Chat, which merely allows users to talk to Google’s AI assistant for informational purposes, Tasks empowers the app to complete basic secretarial functions, deputizing it as a kind of personal assistant.\n\nHow, specifically, can you use it? Google says that the app can call businesses and book appointments on users’ behalf; it can also complete purchases for them via Google Pay, and even sign into websites securely if prompted to do so.\n\nIn a blog post, Josh Woodword, VP of Gemini, claims to have recently used the feature to call local car dealerships to schedule a service appointment for his family’s minivan. He says he also used it to analyze his electrical bill.\n\nTasks was initially launched to select testers back in May as Gemini Spark, a 24/7 agentic helper, and was expanded to U.S. subscribers of its Google AI Ultra tier. Gemini Spark eventually became “Task Mode.” Google is now making the feature available for free to hundreds of millions of people who are using the company’s new Gemini 4 Hydrogen model.\n\nGetting the function up and running is easy. Users merely flip a toggle within the app from Chat to Tasks, which enables the feature. Users can also send texts to Gemini or call the app to give it commands.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "heading": 0
+    },
+    {
+      "text": "Google is expanding the rollout of Tasks, a toggle in Gemini that converts the chatbot into a more active helper.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike Gemini’s Chat, which merely allows users to talk to Google’s AI assistant for informational purposes, Tasks empowers the app to complete basic secretarial functions, deputizing it as a kind of personal assistant.",
+      "heading": 0
+    },
+    {
+      "text": "How, specifically, can you use it? Google says that the app can call businesses and book appointments on users’ behalf; it can also complete purchases for them via Google Pay, and even sign into websites securely if prompted to do so.",
+      "heading": 0
+    },
+    {
+      "text": "In a blog post, Josh Woodword, VP of Gemini, claims to have recently used the feature to call local car dealerships to schedule a service appointment for his family’s minivan. He says he also used it to analyze his electrical bill.",
+      "heading": 0
+    },
+    {
+      "text": "Tasks was initially launched to select testers back in May as Gemini Spark, a 24/7 agentic helper, and was expanded to U.S. subscribers of its Google AI Ultra tier. Gemini Spark eventually became “Task Mode.” Google is now making the feature available for free to hundreds of millions of people who are using the company’s new Gemini 4 Hydrogen model.",
+      "heading": 0
+    },
+    {
+      "text": "Getting the function up and running is easy. Users merely flip a toggle within the app from Chat to Tasks, which enables the feature. Users can also send texts to Gemini or call the app to give it commands.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

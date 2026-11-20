@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+  "slug": "vocci-s-ring-adds-a-new-form-factor-to-meeting-note-taking",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Vocci-feat.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+    "episode": ""
+  },
+  "words": 776,
+  "lines": 14,
+  "duration": 259,
+  "text": "There is no dearth of different forms of hardware for meeting note-taking, including pendants, pins, and credit-card-styled devices. That hasn’t stopped Vocci from releasing a new device for the same use case in a ring form factor, which is convenient but could create some privacy issues.\n\nThe ring form factor is one of the easiest for anyone who wants to just press a button and have the device start recording. Pebble’s new Index 01 Ring, which I am testing right now, lets you hold the button and take a note or a reminder. Stream Ring, made by Sandbar, works similarly with a control pad on the top. Vocci’s ring takes a different path, with meeting note-taking as a central function.\n\nThe ring has a button, which you can double-tap to start recording and double-tap again to stop. You can tap and hold the button to ask Vocci AI questions, but that only works when you have the app open. There is an indicator light and a haptic motor for recording feedback. The ring is lightweight at under six grams and uses titanium material on the inner and outer surfaces — likely a coating.\n\nThe company claims that the Vocci ring can record notes for eight hours on a single charge. The device comes with a chunky plastic case, which can charge the ring up to three times.\n\nThe device captures meetings very well. I have had conversations spanning more than an hour in loud cafes, and the ring managed to convert most of the chat into accurate transcripts. However, this method of note-taking is not great if you want to take short notes.\n\nThe software is the disappointing part of the Vocci ring. The app itself is a bit confusing. Whenever I took shorter notes, I saw AI-generated insights that were longer than the notes themselves. Each recording has Chat, which is the main transcript; Highlights, which are short snippets you can capture by pressing the button while recording a conversation; and Notes, which is a summary and insight of the whole conversation.\n\nIn the app, there is a tab called Base where you can find transcripts, recordings, and anything you generate from them, and I found that redundant. I didn’t find a way to directly initiate a chat with AI for session transcripts.\n\nVoice-enabled rings are a great form factor for taking short notes or reminders. The app doesn’t have direct integration with reminder apps, which is a bummer. The feature rollout for its software is also slow. The company informed me that users can use Vocci’s Model Context Protocol (MCP) to connect to other assistants, but the option to do that didn’t appear until a few weeks ago in the app. Other meeting notetakers are building their platforms to allow users to automate insights and workflow through AI, and at the moment, Vocci’s platform is not fully built out for that.\n\nThere are some privacy concerns with this device because of its form factor. Vocci’s ring looks like a regular piece of jewelry until someone notices the button on it. The ring has a recording indicator, but it faces the user. It’s best practice to let someone know that you are recording a conversation, and it’s also required by law in some countries and regions. But with this kind of device, some miscreants can easily choose not to disclose that information and record the conversation without anyone noticing. The company said it encourages people to disclose that they are recording, but that may not be enough.\n\nAt $249, the ring is pricey compared to other note-takers like Plaud or Pocket, and that is due to the device’s lightweight form factor. The ring is for someone who doesn’t want to stick a gadget on the back of their phone, wear a wristband, or wear a pendant. On the hardware layer, a lot of these devices are combinations of some microphones, a battery, and a connection to the phone. We will likely see more variety in hardware meeting note-takers in the coming years, until users pick the specific formats that work for them.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "There is no dearth of different forms of hardware for meeting note-taking, including pendants, pins, and credit-card-styled devices. That hasn’t stopped Vocci from releasing a new device for the same use case in a ring form factor, which is convenient but could create some privacy issues.",
+      "heading": 0
+    },
+    {
+      "text": "The ring form factor is one of the easiest for anyone who wants to just press a button and have the device start recording. Pebble’s new Index 01 Ring, which I am testing right now, lets you hold the button and take a note or a reminder. Stream Ring, made by Sandbar, works similarly with a control pad on the top. Vocci’s ring takes a different path, with meeting note-taking as a central function.",
+      "heading": 0
+    },
+    {
+      "text": "The ring has a button, which you can double-tap to start recording and double-tap again to stop. You can tap and hold the button to ask Vocci AI questions, but that only works when you have the app open. There is an indicator light and a haptic motor for recording feedback. The ring is lightweight at under six grams and uses titanium material on the inner and outer surfaces — likely a coating.",
+      "heading": 0
+    },
+    {
+      "text": "The company claims that the Vocci ring can record notes for eight hours on a single charge. The device comes with a chunky plastic case, which can charge the ring up to three times.",
+      "heading": 0
+    },
+    {
+      "text": "The device captures meetings very well. I have had conversations spanning more than an hour in loud cafes, and the ring managed to convert most of the chat into accurate transcripts. However, this method of note-taking is not great if you want to take short notes.",
+      "heading": 0
+    },
+    {
+      "text": "The software is the disappointing part of the Vocci ring. The app itself is a bit confusing. Whenever I took shorter notes, I saw AI-generated insights that were longer than the notes themselves. Each recording has Chat, which is the main transcript; Highlights, which are short snippets you can capture by pressing the button while recording a conversation; and Notes, which is a summary and insight of the whole conversation.",
+      "heading": 0
+    },
+    {
+      "text": "In the app, there is a tab called Base where you can find transcripts, recordings, and anything you generate from them, and I found that redundant. I didn’t find a way to directly initiate a chat with AI for session transcripts.",
+      "heading": 0
+    },
+    {
+      "text": "Voice-enabled rings are a great form factor for taking short notes or reminders. The app doesn’t have direct integration with reminder apps, which is a bummer. The feature rollout for its software is also slow. The company informed me that users can use Vocci’s Model Context Protocol (MCP) to connect to other assistants, but the option to do that didn’t appear until a few weeks ago in the app. Other meeting notetakers are building their platforms to allow users to automate insights and workflow through AI, and at the moment, Vocci’s platform is not fully built out for that.",
+      "heading": 0
+    },
+    {
+      "text": "There are some privacy concerns with this device because of its form factor. Vocci’s ring looks like a regular piece of jewelry until someone notices the button on it. The ring has a recording indicator, but it faces the user. It’s best practice to let someone know that you are recording a conversation, and it’s also required by law in some countries and regions. But with this kind of device, some miscreants can easily choose not to disclose that information and record the conversation without anyone noticing. The company said it encourages people to disclose that they are recording, but that may not be enough.",
+      "heading": 0
+    },
+    {
+      "text": "At $249, the ring is pricey compared to other note-takers like Plaud or Pocket, and that is due to the device’s lightweight form factor. The ring is for someone who doesn’t want to stick a gadget on the back of their phone, wear a wristband, or wear a pendant. On the hardware layer, a lot of these devices are combinations of some microphones, a battery, and a connection to the phone. We will likely see more variety in hardware meeting note-takers in the coming years, until users pick the specific formats that work for them.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

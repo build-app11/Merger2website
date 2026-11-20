@@ -1,0 +1,60 @@
+{
+  "type": "read",
+  "title": "Opinion | The Great AI Chip Heist Is Here",
+  "slug": "opinion-the-great-ai-chip-heist-is-here",
+  "category": "News",
+  "channel": "The Wall Street Journal",
+  "image": "https://opinion-images.wsj.net/im-80694551/social",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.wsj.com/opinion/the-great-ai-chip-heist-is-here-df70c466?mod=pls_whats_news_us_business_f",
+    "episode": ""
+  },
+  "words": 249,
+  "lines": 9,
+  "duration": 83,
+  "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by\nour Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact\nDow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\n\nhttps://www.wsj.com/opinion/the-great-ai-chip-heist-is-here-df70c466\n\nThe Great AI Chip Heist Is Here\n\nUp to a third of China’s compute may come from chips smuggled through a booming black market.\n\nBy\n\nGreg Lui thought frogs were his ticket to riches. So in 2012, according to public profiles, he co-founded a Chinese restaurant in Arcadia, Calif., serving frogs and other savory delights in fiery Sichuan sauces. When diners proved less than enthusiastic, he cooked up another business project, a technology company, which culminated in his arrest last month. He is charged with smuggling more than $300 million worth of high-end graphics processing unit servers to China through Malaysia. Mr. Lui hasn’t entered a plea.\n\nThe widespread smuggling of high-end AI chips may be the worst case of technology theft in history in financial volume and national-security risk. According to the research institute Epoch AI, between 290,000 and 1.6 million Nvidia H100-equivalent chips had been smuggled into China by the end of 2025, forming potentially a third of China’s current total computing capacity.\n\nCopyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8\n\nVideos",
+  "paragraphs": [
+    {
+      "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.",
+      "heading": 0
+    },
+    {
+      "text": "https://www.wsj.com/opinion/the-great-ai-chip-heist-is-here-df70c466",
+      "heading": 1
+    },
+    {
+      "text": "The Great AI Chip Heist Is Here",
+      "heading": 1
+    },
+    {
+      "text": "Up to a third of China’s compute may come from chips smuggled through a booming black market.",
+      "heading": 0
+    },
+    {
+      "text": "By",
+      "heading": 1
+    },
+    {
+      "text": "Greg Lui thought frogs were his ticket to riches. So in 2012, according to public profiles, he co-founded a Chinese restaurant in Arcadia, Calif., serving frogs and other savory delights in fiery Sichuan sauces. When diners proved less than enthusiastic, he cooked up another business project, a technology company, which culminated in his arrest last month. He is charged with smuggling more than $300 million worth of high-end graphics processing unit servers to China through Malaysia. Mr. Lui hasn’t entered a plea.",
+      "heading": 0
+    },
+    {
+      "text": "The widespread smuggling of high-end AI chips may be the worst case of technology theft in history in financial volume and national-security risk. According to the research institute Epoch AI, between 290,000 and 1.6 million Nvidia H100-equivalent chips had been smuggled into China by the end of 2025, forming potentially a third of China’s current total computing capacity.",
+      "heading": 0
+    },
+    {
+      "text": "Copyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+      "heading": 0
+    },
+    {
+      "text": "Videos",
+      "heading": 1
+    }
+  ]
+}

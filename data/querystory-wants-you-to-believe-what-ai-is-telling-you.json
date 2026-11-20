@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "QueryStory wants you to believe what AI is telling you",
+  "slug": "querystory-wants-you-to-believe-what-ai-is-telling-you",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/QueryStory-Groups-8-1.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+    "episode": ""
+  },
+  "words": 991,
+  "lines": 21,
+  "duration": 330,
+  "text": "Shapor Naghibzadeh learned the value of a good story in 2009 as a Google SysOps engineer. When hackers backed by China set their sights on the search giant as part of an effort dubbed Operation Aurora, he was called in to a hastily assembled war room to explain what exactly was going on in the company’s servers.\n\nTracing cyberattacks through disparate networks taught Naghibzadeh the value of verified knowledge. But it was a costly and time-consuming task. He thinks that LLMs can bring that same functionality to databases of all kinds in a fraction of the time.\n\nNaghibzadeh would spend the next six years focused on the nexus of data and cybersecurity, using Google’s resources to build tools that allowed security analysts to query complex data. In 2016, he co-founded a startup in Google’s X Labs called Chronicle that would bring that same functionality to other companies.\n\nLast year, as large language models took a larger role in data analysis, Naghibzadeh saw a new opportunity to take the techniques he developed for cybersecurity and apply them to a variety of analytics. He co-founded QueryStory, where he is CEO, alongside CTO Stanley Yang, a former Google colleague and lead engineer at EvolutionIQ, and CPO David Glusic, an Accenture veteran. The startup emerged from stealth today.\n\n“You get this pattern of an investigation — you ask a bunch of questions of the data, and after you have been able to ask a number of questions, you assemble that together into a narrative,” Naghibzadeh said. “That became the genesis for the name QueryStory. It’s about telling stories with data, right? Putting a narrative together that’s grounded in truth.”\n\nQueryStory raised a $6 million seed round in late 2025 from Brightmind Partners and New York Life Ventures at a valuation of $60 million, and has spent the intervening time developing and piloting its product with customers. QueryStory is aimed squarely at large enterprises that manage big, proprietary databases; it serves as a platform to unite data analysis and review for users like sales teams or operations managers.\n\n“What we’re doing is bridging that trust gap for AI to give enterprises answers that they can act on,” Naghibzadeh said. “Instead of, you know, like renting human judgment and armies of forward-deployed engineers, we productized that.”\n\nTim Del Bello, a managing director at New York Life Ventures, led the fund’s investment in the company. The investors are also using the platform to replace the work of several people to produce a quarterly business review, which he now hopes will become a real-time dashboard.\n\n“The product was built for people like me: decision-makers seeking the ground truth who need to work with complex, disparate data sources but don’t have a data science or BI team at their disposal, especially when operating in a highly regulated industry,” he told TechCrunch.\n\nSolving the problem of brittle AI systems\n\nI shared a database of space activity that’s useful for understanding what companies like SpaceX are doing on orbit. QueryStory produced a visualization of that data in a few hours, a project I once did with a developer that took several weeks. It produced sophisticated dashboards and analysis, and perhaps most notably, broke out a confidence indicator that showed why the AI agents believed the analyses were accurate.\n\nThis kind of work can be done with co-working tools built by the frontier labs, but those tools are intentionally limited in their user experiences. Part of the bet that QueryStory is making is that users, especially at large companies, want more transparency, reliability, and control as they integrate AI into their workflows.\n\nAs an example, an executive at a tech company recently told TechCrunch about querying a company database using Claude Cowork, then asking the model to show him the SQL queries it wrote to make sure they made sense before he sent them off to a data analyst for human review. In QueryStory, those SQL queries surface automatically, and users can flag analyses for human coworkers to review, with those reviews then recorded in the platform.\n\n“AI is more brittle than people realize when it comes to like building things that have to be durable and have large-scale businesses relying upon them,” Tayler Sipperly, a partner at Brightmind Partners, told TechCrunch.\n\nNaghibzadeh points out that when companies connect their data to an LLM’s chat UI, “you get hundreds or thousands of people within an organization all asking their questions and getting their version of the truth and putting that in a slide deck and sharing it — you just end up with this huge sprawl of content, and there’s no real place to hang that content that ties back to the data.”\n\nThere are also economics to contend with. QueryStory is built to be model-agnostic, although for now it mainly uses the latest models provided by frontier labs. While his company competes with frontier labs on a product basis, Naghibzadeh believes that customers will prefer working with a service provider that isn’t incentivized to sell as much intelligence as possible.\n\n“We have a lot of things going for us here in not being one of those companies that built their business around this consumption model of compute or storage or tokens,” Naghibzadeh said. He argues that a purpose-built tool like QueryStory can be more efficient and accurate than a general-purpose agent by understanding and preserving context.\n\n“The thing that we are selling is the trust in the answers, right?” he said. “The thing that we’re selling them is the value that we’re adding to the business, and our whole goal is giving the CFO the ability to understand ‘what is this thing going to cost?’”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Shapor Naghibzadeh learned the value of a good story in 2009 as a Google SysOps engineer. When hackers backed by China set their sights on the search giant as part of an effort dubbed Operation Aurora, he was called in to a hastily assembled war room to explain what exactly was going on in the company’s servers.",
+      "heading": 0
+    },
+    {
+      "text": "Tracing cyberattacks through disparate networks taught Naghibzadeh the value of verified knowledge. But it was a costly and time-consuming task. He thinks that LLMs can bring that same functionality to databases of all kinds in a fraction of the time.",
+      "heading": 0
+    },
+    {
+      "text": "Naghibzadeh would spend the next six years focused on the nexus of data and cybersecurity, using Google’s resources to build tools that allowed security analysts to query complex data. In 2016, he co-founded a startup in Google’s X Labs called Chronicle that would bring that same functionality to other companies.",
+      "heading": 0
+    },
+    {
+      "text": "Last year, as large language models took a larger role in data analysis, Naghibzadeh saw a new opportunity to take the techniques he developed for cybersecurity and apply them to a variety of analytics. He co-founded QueryStory, where he is CEO, alongside CTO Stanley Yang, a former Google colleague and lead engineer at EvolutionIQ, and CPO David Glusic, an Accenture veteran. The startup emerged from stealth today.",
+      "heading": 0
+    },
+    {
+      "text": "“You get this pattern of an investigation — you ask a bunch of questions of the data, and after you have been able to ask a number of questions, you assemble that together into a narrative,” Naghibzadeh said. “That became the genesis for the name QueryStory. It’s about telling stories with data, right? Putting a narrative together that’s grounded in truth.”",
+      "heading": 0
+    },
+    {
+      "text": "QueryStory raised a $6 million seed round in late 2025 from Brightmind Partners and New York Life Ventures at a valuation of $60 million, and has spent the intervening time developing and piloting its product with customers. QueryStory is aimed squarely at large enterprises that manage big, proprietary databases; it serves as a platform to unite data analysis and review for users like sales teams or operations managers.",
+      "heading": 0
+    },
+    {
+      "text": "“What we’re doing is bridging that trust gap for AI to give enterprises answers that they can act on,” Naghibzadeh said. “Instead of, you know, like renting human judgment and armies of forward-deployed engineers, we productized that.”",
+      "heading": 0
+    },
+    {
+      "text": "Tim Del Bello, a managing director at New York Life Ventures, led the fund’s investment in the company. The investors are also using the platform to replace the work of several people to produce a quarterly business review, which he now hopes will become a real-time dashboard.",
+      "heading": 0
+    },
+    {
+      "text": "“The product was built for people like me: decision-makers seeking the ground truth who need to work with complex, disparate data sources but don’t have a data science or BI team at their disposal, especially when operating in a highly regulated industry,” he told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Solving the problem of brittle AI systems",
+      "heading": 1
+    },
+    {
+      "text": "I shared a database of space activity that’s useful for understanding what companies like SpaceX are doing on orbit. QueryStory produced a visualization of that data in a few hours, a project I once did with a developer that took several weeks. It produced sophisticated dashboards and analysis, and perhaps most notably, broke out a confidence indicator that showed why the AI agents believed the analyses were accurate.",
+      "heading": 0
+    },
+    {
+      "text": "This kind of work can be done with co-working tools built by the frontier labs, but those tools are intentionally limited in their user experiences. Part of the bet that QueryStory is making is that users, especially at large companies, want more transparency, reliability, and control as they integrate AI into their workflows.",
+      "heading": 0
+    },
+    {
+      "text": "As an example, an executive at a tech company recently told TechCrunch about querying a company database using Claude Cowork, then asking the model to show him the SQL queries it wrote to make sure they made sense before he sent them off to a data analyst for human review. In QueryStory, those SQL queries surface automatically, and users can flag analyses for human coworkers to review, with those reviews then recorded in the platform.",
+      "heading": 0
+    },
+    {
+      "text": "“AI is more brittle than people realize when it comes to like building things that have to be durable and have large-scale businesses relying upon them,” Tayler Sipperly, a partner at Brightmind Partners, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Naghibzadeh points out that when companies connect their data to an LLM’s chat UI, “you get hundreds or thousands of people within an organization all asking their questions and getting their version of the truth and putting that in a slide deck and sharing it — you just end up with this huge sprawl of content, and there’s no real place to hang that content that ties back to the data.”",
+      "heading": 0
+    },
+    {
+      "text": "There are also economics to contend with. QueryStory is built to be model-agnostic, although for now it mainly uses the latest models provided by frontier labs. While his company competes with frontier labs on a product basis, Naghibzadeh believes that customers will prefer working with a service provider that isn’t incentivized to sell as much intelligence as possible.",
+      "heading": 0
+    },
+    {
+      "text": "“We have a lot of things going for us here in not being one of those companies that built their business around this consumption model of compute or storage or tokens,” Naghibzadeh said. He argues that a purpose-built tool like QueryStory can be more efficient and accurate than a general-purpose agent by understanding and preserving context.",
+      "heading": 0
+    },
+    {
+      "text": "“The thing that we are selling is the trust in the answers, right?” he said. “The thing that we’re selling them is the value that we’re adding to the business, and our whole goal is giving the CFO the ability to understand ‘what is this thing going to cost?’”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

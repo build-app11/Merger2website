@@ -1,0 +1,157 @@
+{
+  "type": "read",
+  "title": "The US is building barriers around drones and robots, but China has scale to get around them",
+  "slug": "the-us-is-building-barriers-around-drones-and-robots-but-chi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2018/03/gettyimages-507054668.jpg?resize=1200,801",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+    "episode": ""
+  },
+  "words": 1236,
+  "lines": 33,
+  "duration": 412,
+  "text": "In July and August, Washington tightened restrictions on foreign-made advanced robotic systems and imposed steep tariffs on imported drones and their components, with both moves citing national-security concerns. The drone tariffs take effect in September, with additional component tariffs following in 2027.\n\nThese moves are part of a broader U.S. effort to restrict foreign technology in strategically important industries. The FCC’s Covered List, established in 2021, initially targeted telecommunications and surveillance equipment from companies including Huawei, ZTE, and Hikvision before expanding to foreign-made drones and, most recently, to advanced robotic devices.\n\nThe latest move comes as Chinese manufacturers have built commanding positions in both drones and humanoid robots, often competing at prices U.S. and European rivals struggle to match.\n\nTaken together, the restrictions are raising a bigger question for the global robotics industry: If Chinese drones and humanoids are increasingly shut out of the U.S., where does the competition move next?\n\nThe restrictions may protect parts of the American market, but they don’t directly address China’s global manufacturing scale and cost advantages.\n\nIndustry analysts and executives who spoke with TechCrunch said the result may be less a clean U.S.-China split than a more fragmented global market, with Chinese companies expanding elsewhere while U.S. and allied manufacturers compete in markets where security requirements matter more.\n\nThe scale gap\n\nThe U.S. and Chinese robotics industries remain deeply connected, but the two countries enter the competition with very different advantages. Unlike semiconductors, robotics does not hinge on a single technology that one country can easily control, said Ankur Saxena, an investment director at TDK Ventures.\n\nChina dominates global humanoid robot manufacturing, with global shipments hitting 22,000 units in the first half of this year — the vast majority from Chinese manufacturers — according to a report by Counterpoint. U.S. companies, by contrast, are operating at a far smaller scale, said Soumen Mandal, a principal analyst at Counterpoint Research.\n\nThe world’s five largest humanoid robot makers by shipments — AgiBot, Unitree, Galbot, UBTECH, and Leju Robotics — were all Chinese and together accounted for 86% of global shipments in the first half of 2026, according to Counterpoint.\n\nThat advantage could compound. Lower prices allow Chinese manufacturers to put more robots into use, generating real-world data that can improve their technology. Higher production volumes, in turn, can drive costs down further, Saxena said.\n\nMandal said Chinese humanoid makers are also pushing costs down by bringing more of the technology stack in-house and drawing on China’s existing manufacturing base. Unitree, for example, is developing more components internally, while automakers such as XPeng can draw on their experience in chips and vehicle manufacturing as they move into robotics.\n\n“The United States leads in frontier AI, software, and semiconductor innovation,” Saxena told TechCrunch. “China leads in manufacturing scale, supply-chain depth, and cost.”\n\nThat manufacturing edge has let Chinese companies cut humanoid prices faster than most U.S. competitors can match.\n\n“You cannot sanction your way around a cost curve. You can only out-build it, and America has yet to begin making the decade-long investment that will require,” Saxena said.\n\nWhere does China go next?\n\nThe answer may increasingly be outside the U.S. Even if Chinese robotics companies lose access to the American market, they still have a large domestic market and room to expand elsewhere, particularly in regions where demand for affordable automation is growing, Saxena said.\n\nChinese robotics companies are already targeting price-sensitive markets with severe labor shortages across Europe, Southeast Asia, Latin America, and the Middle East, said Mandal.\n\nMandal expects humanoid makers to follow a path similar to Chinese electric-vehicle companies: build scale at home, expand into overseas markets, and eventually establish local production. Countries facing labor shortages and demographic decline could become early markets for humanoids, particularly in manufacturing, where robots can take on repetitive work.\n\nThe drone market offers an early glimpse of what that more fragmented robotics landscape could look like. The industry is increasingly splitting into two ecosystems: a U.S.-led market built around American-made, NDAA-compliant systems, and a China-led market focused on low-cost, high-volume production, said Bentzion Levinson, founder and CEO of Virginia-based drone maker Heven AeroTech.\n\nLevinson said Western manufacturers are unlikely to beat Chinese companies in the low-end consumer drone market, where cost remains a major advantage. Instead, U.S. and allied companies could increasingly compete in long-range autonomous systems for defense and critical infrastructure, where security requirements carry more weight.\n\nLevinson sees the next competitive frontier shifting from the drones themselves to the technology that powers them and the equipment they carry. “The next battleground is over who owns the next-gen energy and payload architecture,” he said, pointing to battery constraints in particular. As drones become more capable, he added, battery limitations could make power systems an increasingly important point of competition.\n\nAgility Robotics welcomed the FCC’s decision in July, saying it could address security concerns around foreign-made advanced robots before they become deeply embedded in the U.S. market, as has happened in the drone industry. The company pointed to its Digit humanoid, which is designed and assembled in the U.S., while also calling for continued access to the tools and technologies needed to advance robotics research.\n\nA more regional robotics market\n\n“The alternative to China isn’t a purely domestic U.S. supply chain; it’s a diversified allied one,” Saxena said.\n\nThat could create opportunities elsewhere in Asia. Japan has decades of experience in industrial robotics and precision manufacturing, South Korea brings strengths in electronics, batteries, and automobiles, and Taiwan is a major player in semiconductors. But none can simply replace China, Saxena said, given how deeply Chinese components remain embedded across the global robotics industry.\n\nAsian manufacturers could emerge as a middle ground between lower-cost Chinese robots and more expensive U.S. offerings, Mandal said. South Korea’s Hyundai, which owns Boston Dynamics, and Japan’s Toyota are among the automakers investing in robotics, drawing on their expertise in vehicles, manufacturing and autonomous systems as they move into humanoid robots.\n\nYang Fang of Beagle Technology, a California-based agtech startup that uses AI and robotics software to turn conventional farm equipment into autonomous machines, told TechCrunch that robotics is likely to become more regional as companies design machines for the labor needs, working conditions, and customers in their home markets. Chinese robotics companies, for example, may focus on products suited to China and nearby markets, while U.S. companies are more likely to build for industries across North America, he said.\n\nThe result may not be two neatly separated U.S.- and China-led robotics industries. Instead, the restrictions could accelerate the emergence of regional markets: Chinese companies competing on cost and scale across much of the world, U.S. and allied manufacturers gaining ground where security requirements matter most, and manufacturers in Japan, Taiwan, and South Korea trying to carve out space between the two.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Asia\n\nKate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+  "paragraphs": [
+    {
+      "text": "In July and August, Washington tightened restrictions on foreign-made advanced robotic systems and imposed steep tariffs on imported drones and their components, with both moves citing national-security concerns. The drone tariffs take effect in September, with additional component tariffs following in 2027.",
+      "heading": 0
+    },
+    {
+      "text": "These moves are part of a broader U.S. effort to restrict foreign technology in strategically important industries. The FCC’s Covered List, established in 2021, initially targeted telecommunications and surveillance equipment from companies including Huawei, ZTE, and Hikvision before expanding to foreign-made drones and, most recently, to advanced robotic devices.",
+      "heading": 0
+    },
+    {
+      "text": "The latest move comes as Chinese manufacturers have built commanding positions in both drones and humanoid robots, often competing at prices U.S. and European rivals struggle to match.",
+      "heading": 0
+    },
+    {
+      "text": "Taken together, the restrictions are raising a bigger question for the global robotics industry: If Chinese drones and humanoids are increasingly shut out of the U.S., where does the competition move next?",
+      "heading": 0
+    },
+    {
+      "text": "The restrictions may protect parts of the American market, but they don’t directly address China’s global manufacturing scale and cost advantages.",
+      "heading": 0
+    },
+    {
+      "text": "Industry analysts and executives who spoke with TechCrunch said the result may be less a clean U.S.-China split than a more fragmented global market, with Chinese companies expanding elsewhere while U.S. and allied manufacturers compete in markets where security requirements matter more.",
+      "heading": 0
+    },
+    {
+      "text": "The scale gap",
+      "heading": 1
+    },
+    {
+      "text": "The U.S. and Chinese robotics industries remain deeply connected, but the two countries enter the competition with very different advantages. Unlike semiconductors, robotics does not hinge on a single technology that one country can easily control, said Ankur Saxena, an investment director at TDK Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "China dominates global humanoid robot manufacturing, with global shipments hitting 22,000 units in the first half of this year — the vast majority from Chinese manufacturers — according to a report by Counterpoint. U.S. companies, by contrast, are operating at a far smaller scale, said Soumen Mandal, a principal analyst at Counterpoint Research.",
+      "heading": 0
+    },
+    {
+      "text": "The world’s five largest humanoid robot makers by shipments — AgiBot, Unitree, Galbot, UBTECH, and Leju Robotics — were all Chinese and together accounted for 86% of global shipments in the first half of 2026, according to Counterpoint.",
+      "heading": 0
+    },
+    {
+      "text": "That advantage could compound. Lower prices allow Chinese manufacturers to put more robots into use, generating real-world data that can improve their technology. Higher production volumes, in turn, can drive costs down further, Saxena said.",
+      "heading": 0
+    },
+    {
+      "text": "Mandal said Chinese humanoid makers are also pushing costs down by bringing more of the technology stack in-house and drawing on China’s existing manufacturing base. Unitree, for example, is developing more components internally, while automakers such as XPeng can draw on their experience in chips and vehicle manufacturing as they move into robotics.",
+      "heading": 0
+    },
+    {
+      "text": "“The United States leads in frontier AI, software, and semiconductor innovation,” Saxena told TechCrunch. “China leads in manufacturing scale, supply-chain depth, and cost.”",
+      "heading": 0
+    },
+    {
+      "text": "That manufacturing edge has let Chinese companies cut humanoid prices faster than most U.S. competitors can match.",
+      "heading": 0
+    },
+    {
+      "text": "“You cannot sanction your way around a cost curve. You can only out-build it, and America has yet to begin making the decade-long investment that will require,” Saxena said.",
+      "heading": 0
+    },
+    {
+      "text": "Where does China go next?",
+      "heading": 0
+    },
+    {
+      "text": "The answer may increasingly be outside the U.S. Even if Chinese robotics companies lose access to the American market, they still have a large domestic market and room to expand elsewhere, particularly in regions where demand for affordable automation is growing, Saxena said.",
+      "heading": 0
+    },
+    {
+      "text": "Chinese robotics companies are already targeting price-sensitive markets with severe labor shortages across Europe, Southeast Asia, Latin America, and the Middle East, said Mandal.",
+      "heading": 0
+    },
+    {
+      "text": "Mandal expects humanoid makers to follow a path similar to Chinese electric-vehicle companies: build scale at home, expand into overseas markets, and eventually establish local production. Countries facing labor shortages and demographic decline could become early markets for humanoids, particularly in manufacturing, where robots can take on repetitive work.",
+      "heading": 0
+    },
+    {
+      "text": "The drone market offers an early glimpse of what that more fragmented robotics landscape could look like. The industry is increasingly splitting into two ecosystems: a U.S.-led market built around American-made, NDAA-compliant systems, and a China-led market focused on low-cost, high-volume production, said Bentzion Levinson, founder and CEO of Virginia-based drone maker Heven AeroTech.",
+      "heading": 0
+    },
+    {
+      "text": "Levinson said Western manufacturers are unlikely to beat Chinese companies in the low-end consumer drone market, where cost remains a major advantage. Instead, U.S. and allied companies could increasingly compete in long-range autonomous systems for defense and critical infrastructure, where security requirements carry more weight.",
+      "heading": 0
+    },
+    {
+      "text": "Levinson sees the next competitive frontier shifting from the drones themselves to the technology that powers them and the equipment they carry. “The next battleground is over who owns the next-gen energy and payload architecture,” he said, pointing to battery constraints in particular. As drones become more capable, he added, battery limitations could make power systems an increasingly important point of competition.",
+      "heading": 0
+    },
+    {
+      "text": "Agility Robotics welcomed the FCC’s decision in July, saying it could address security concerns around foreign-made advanced robots before they become deeply embedded in the U.S. market, as has happened in the drone industry. The company pointed to its Digit humanoid, which is designed and assembled in the U.S., while also calling for continued access to the tools and technologies needed to advance robotics research.",
+      "heading": 0
+    },
+    {
+      "text": "A more regional robotics market",
+      "heading": 1
+    },
+    {
+      "text": "“The alternative to China isn’t a purely domestic U.S. supply chain; it’s a diversified allied one,” Saxena said.",
+      "heading": 0
+    },
+    {
+      "text": "That could create opportunities elsewhere in Asia. Japan has decades of experience in industrial robotics and precision manufacturing, South Korea brings strengths in electronics, batteries, and automobiles, and Taiwan is a major player in semiconductors. But none can simply replace China, Saxena said, given how deeply Chinese components remain embedded across the global robotics industry.",
+      "heading": 0
+    },
+    {
+      "text": "Asian manufacturers could emerge as a middle ground between lower-cost Chinese robots and more expensive U.S. offerings, Mandal said. South Korea’s Hyundai, which owns Boston Dynamics, and Japan’s Toyota are among the automakers investing in robotics, drawing on their expertise in vehicles, manufacturing and autonomous systems as they move into humanoid robots.",
+      "heading": 0
+    },
+    {
+      "text": "Yang Fang of Beagle Technology, a California-based agtech startup that uses AI and robotics software to turn conventional farm equipment into autonomous machines, told TechCrunch that robotics is likely to become more regional as companies design machines for the labor needs, working conditions, and customers in their home markets. Chinese robotics companies, for example, may focus on products suited to China and nearby markets, while U.S. companies are more likely to build for industries across North America, he said.",
+      "heading": 0
+    },
+    {
+      "text": "The result may not be two neatly separated U.S.- and China-led robotics industries. Instead, the restrictions could accelerate the emergence of regional markets: Chinese companies competing on cost and scale across much of the world, U.S. and allied manufacturers gaining ground where security requirements matter most, and manufacturers in Japan, Taiwan, and South Korea trying to carve out space between the two.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Asia",
+      "heading": 1
+    },
+    {
+      "text": "Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+      "heading": 0
+    }
+  ]
+}

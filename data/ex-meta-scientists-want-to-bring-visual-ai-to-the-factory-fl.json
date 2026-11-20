@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+  "slug": "ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-fl",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/Perceptron-Team-Photo.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+    "episode": ""
+  },
+  "words": 725,
+  "lines": 21,
+  "duration": 242,
+  "text": "AI is transforming everything around us but, thus far, it has largely remained contained to the digital realm. Increasingly, however, startups are looking to take it into the real world.\n\nPerceptron, a startup started by two former Meta research scientists, is one such company. Founded in November 2024, the firm develops frontier vision models that aim to help machines more competently interact with their physical environments.\n\nThis week, the company launched its latest model, Isaac 0.5, which its creators say is designed to provide machines with the ability to “perceive, reason and act” in industrial settings. Specifically, the software is capable of helping vision-guided robots navigate complex environments like warehouses or factory floors. It also helps companies extract visual intelligence from videos recorded by those bots.\n\nIsaac 0.5 is also being released as an open-weight model, so its parameters and training materials can be inspected by anyone.\n\nThe startup was co-founded by Armen Aghajanyan and Akshat Shrivastava, who previously worked for Meta’s Fundamental AI Research (FAIR), the tech giant’s AI research division. The duo see their software as the future of industrial automated deployment.\n\n“Physical AI today forces a false choice: generalist foundation models that need multiple dedicated cloud GPUs for every instance, or narrow models that handle perception or control, but never both,” the company says.\n\nAghajanyan and Shrivastava say their tool is unlike existing models in the space because it is general-purpose, meaning that it’s not built for one specific, repetitive task. Instead, they say, the model is designed to be flexible depending on the particular environment (or situation) it is in.\n\nIn an interview, Shrivastava asked me to consider what goes into a simple physical process like organizing boxes: “Imagine there’s a robot being deployed to sort packages right now. What are the tasks it would need to do?”\n\nSuch a relatively simple task indeed consists of many steps. A robot would first have to read the label on the package, do some spatial analysis to understand where the boxes are, and decide which one to pick up. If it’s picking up a series of boxes, it would have to plan which boxes to pick up and in which order.\n\nPerceptron’s software is designed to help robots find their way through each step of the process. To be clear, the industry already has software that can help machines do most of those tasks, but there are few programs that are designed to do it flexibly.\n\nWhere does the data for this algorithmic alchemy come from?\n\nModels like Isaac 0.5 learn operational skills by ingesting gargantuan amounts of video training data. Perceptron says its new model was fed on a million hours of what is known as general video to teach its algorithm to identify particular settings, visuals, and scenarios. The company also relied heavily on what is known as ego video — video captured, typically through a GoPro or a wearable camera, from the perspective of a person completing a physical task — as well as UMI video, which are similarly used to teach AI systems movements by recording repetitive human actions.\n\nWhile Perceptron isn’t disclosing the sources of its training data, Shrivastava said that the company had “internally built petabyte-scale datasets that span across modalities, whether it’s images, text, video, etc. all the way through robotic trajectories.”\n\nThe utility of a software that can help robots operate competently in warehouses is obviously vast, and Perceptron thinks it’s well-positioned to lead that wave of automation. The startup is ready to market its software to a variety of vendors, and thus potentially see its intelligence layer integrated into a broad array of industries.\n\nThose industries include manufacturing, logistics and warehousing, security, mobility, as well as media and entertainment.\n\n“Nothing like this really exists out there,” said Aghajanyan. “We’re really excited about it.”\n\nThe company previously raised $21 million from Bessemer Venture Partners, Foundation Capital, and S32, according to Pitchbook. SmartGateVC also participated in the company’s founding round. TechCrunch understands the startup is in the process of closing an additional round.\n\nThis story has been updated to include additional funding details.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "AI is transforming everything around us but, thus far, it has largely remained contained to the digital realm. Increasingly, however, startups are looking to take it into the real world.",
+      "heading": 0
+    },
+    {
+      "text": "Perceptron, a startup started by two former Meta research scientists, is one such company. Founded in November 2024, the firm develops frontier vision models that aim to help machines more competently interact with their physical environments.",
+      "heading": 0
+    },
+    {
+      "text": "This week, the company launched its latest model, Isaac 0.5, which its creators say is designed to provide machines with the ability to “perceive, reason and act” in industrial settings. Specifically, the software is capable of helping vision-guided robots navigate complex environments like warehouses or factory floors. It also helps companies extract visual intelligence from videos recorded by those bots.",
+      "heading": 0
+    },
+    {
+      "text": "Isaac 0.5 is also being released as an open-weight model, so its parameters and training materials can be inspected by anyone.",
+      "heading": 0
+    },
+    {
+      "text": "The startup was co-founded by Armen Aghajanyan and Akshat Shrivastava, who previously worked for Meta’s Fundamental AI Research (FAIR), the tech giant’s AI research division. The duo see their software as the future of industrial automated deployment.",
+      "heading": 0
+    },
+    {
+      "text": "“Physical AI today forces a false choice: generalist foundation models that need multiple dedicated cloud GPUs for every instance, or narrow models that handle perception or control, but never both,” the company says.",
+      "heading": 0
+    },
+    {
+      "text": "Aghajanyan and Shrivastava say their tool is unlike existing models in the space because it is general-purpose, meaning that it’s not built for one specific, repetitive task. Instead, they say, the model is designed to be flexible depending on the particular environment (or situation) it is in.",
+      "heading": 0
+    },
+    {
+      "text": "In an interview, Shrivastava asked me to consider what goes into a simple physical process like organizing boxes: “Imagine there’s a robot being deployed to sort packages right now. What are the tasks it would need to do?”",
+      "heading": 0
+    },
+    {
+      "text": "Such a relatively simple task indeed consists of many steps. A robot would first have to read the label on the package, do some spatial analysis to understand where the boxes are, and decide which one to pick up. If it’s picking up a series of boxes, it would have to plan which boxes to pick up and in which order.",
+      "heading": 0
+    },
+    {
+      "text": "Perceptron’s software is designed to help robots find their way through each step of the process. To be clear, the industry already has software that can help machines do most of those tasks, but there are few programs that are designed to do it flexibly.",
+      "heading": 0
+    },
+    {
+      "text": "Where does the data for this algorithmic alchemy come from?",
+      "heading": 0
+    },
+    {
+      "text": "Models like Isaac 0.5 learn operational skills by ingesting gargantuan amounts of video training data. Perceptron says its new model was fed on a million hours of what is known as general video to teach its algorithm to identify particular settings, visuals, and scenarios. The company also relied heavily on what is known as ego video — video captured, typically through a GoPro or a wearable camera, from the perspective of a person completing a physical task — as well as UMI video, which are similarly used to teach AI systems movements by recording repetitive human actions.",
+      "heading": 0
+    },
+    {
+      "text": "While Perceptron isn’t disclosing the sources of its training data, Shrivastava said that the company had “internally built petabyte-scale datasets that span across modalities, whether it’s images, text, video, etc. all the way through robotic trajectories.”",
+      "heading": 0
+    },
+    {
+      "text": "The utility of a software that can help robots operate competently in warehouses is obviously vast, and Perceptron thinks it’s well-positioned to lead that wave of automation. The startup is ready to market its software to a variety of vendors, and thus potentially see its intelligence layer integrated into a broad array of industries.",
+      "heading": 0
+    },
+    {
+      "text": "Those industries include manufacturing, logistics and warehousing, security, mobility, as well as media and entertainment.",
+      "heading": 0
+    },
+    {
+      "text": "“Nothing like this really exists out there,” said Aghajanyan. “We’re really excited about it.”",
+      "heading": 0
+    },
+    {
+      "text": "The company previously raised $21 million from Bessemer Venture Partners, Foundation Capital, and S32, according to Pitchbook. SmartGateVC also participated in the company’s founding round. TechCrunch understands the startup is in the process of closing an additional round.",
+      "heading": 0
+    },
+    {
+      "text": "This story has been updated to include additional funding details.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

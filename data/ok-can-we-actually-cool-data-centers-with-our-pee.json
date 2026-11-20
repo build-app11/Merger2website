@@ -1,0 +1,141 @@
+{
+  "type": "read",
+  "title": "OK, can we actually cool data centers with our pee?",
+  "slug": "ok-can-we-actually-cool-data-centers-with-our-pee",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2270767933.jpg?resize=1200,686",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+    "episode": ""
+  },
+  "words": 1284,
+  "lines": 29,
+  "duration": 428,
+  "text": "In a cheeky marketing campaign, Liquid Death teamed up with former Philadelphia Eagles star Jason Kelce to share a solution to mitigate the environmental impact of AI data centers, which require massive quantities of water to prevent servers from overheating.\n\n“AI data centers waste millions of gallons of water,” Kelce quips in the video campaign. “That’s why Liquid Death and Garage Beer have teamed up. We want your pee to cool these data centers.”\n\nThen, as a crowd of people walk through a field sipping their branded beverages, they sing in unison: “Let’s pee on computers together to save humanity!”\n\nIt’s a funny commercial. What’s even funnier is that Kelce has unwittingly stumbled upon a real tactic for cooling down data centers.\n\n“The Liquid Death commercial is funny and tongue-in-cheek,” Michael Obradovitch, vice president of Data Center Global Accounts at Ecolab, told TechCrunch. “But in reality, there is a fair amount of alternative water sources already being used to a similar extent to cool these data centers.”\n\nThese alternative water sources, when used in data centers, at least partially offset the demand for potable drinking water. One such alternative water source is recycled water, which is made by treating wastewater and sewage water so that they’re safe to use again. Wastewater and sewage water contain many things, including — you guessed it! — human urine.\n\n“You wouldn’t just use pee, but you can clean it and make it into useful water, and that’s what we advocate,” Bruno Pigott, executive director of the WateReuse Association and former acting assistant administrator in water for the U.S. Environmental Protection Agency (EPA), told TechCrunch.\n\nTo be clear: You should not actually contribute gallons of your pee to help cool data centers, as Kelce facetiously suggests. But just for the sake of the thought experiment: What would happen if you did try to cool a data center with a steady stream of pee?\n\n“Pee contains all sorts of stuff. It contains salts, it contains urea, bacteria, organic matter of all sorts that can leave mineral deposits. If you just put that into a cooling tower or something else, it would require constant cleaning,” said Pigott. “One of the methods of cooling is called evaporative cooling, where hot air is passed through water to remove heat through evaporation. Can you imagine if you just poured urine through hot air?”\n\nWe do have the technology to turn our urine into potable drinking water — that’s what astronauts do in space, since they can only bring so much water with them on their spacecraft. But that isn’t efficient at a large scale, and even if it were, it’s not like scientists can just access millions of gallons of pee at will (well, not unless Kelce really commits to the bit). Instead, our toilet water ends up in wastewater and sewage.\n\nThat’s where water treatment facilities come in, providing recycled water to spare us from the smell of evaporated urine. These facilities use membrane bioreactors, reverse osmosis, ultraviolet light, and other processes to treat water until it’s clean enough for industrial use. In some cases, this water can even be treated to the point that it’s drinkable.\n\n“We use recycled water for cooling for all kinds of industries, and we have for decades,” Dr. Greta Zornes, practice leader for water reuse at the engineering firm CDM Smith, told TechCrunch. “So this is only one application, but definitely, there’s been a boom in recycled water for data center cooling.”\n\nThough Zornes has worked on water reuse technology for more than two decades, her day-to-day work has shifted with the rising demand for data centers.\n\n“Every day right now, I’m working on recycled water for data centers,” she said.\n\nWhen data centers use more recycled water, they don’t pose as much of a burden to the local potable water supply. But industries can only pivot to recycled water use when there is proper infrastructure in place to treat millions of gallons of water every day.\n\n“You have to be somewhat near a waste water treatment facility that’s sizable enough that you have enough water to use,” Zornes said. “So when data centers go out into rural areas, a lot of times the wastewater treatment plants just aren’t big enough — they’re not treating enough water for them to be able to take it and treat it and use it.”\n\nLoudoun County, Virginia, located outside of Washington, D.C., is home to more than 250 data centers, with plans to construct at least another two dozen. As of 2025, Loudoun data centers collectively used about 200 million gallons of recycled water each day, but the water footprint of these data centers is so extreme that this only accounts for 43% of daily data center water usage in the area. The other 260 million gallons, or 57% of daily data center water usage, come from potable water supplies, according to Loudoun Water.\n\n“There’s a lot of infrastructure that has to be built out and usually isn’t existing today, and that takes time,” Zornes said. “That’s one of the problems — it’s just the time that it takes to get that done.”\n\nObradovitch thinks that the AI industry could even drive resources toward building out this kind of infrastructure to scale water treatment. Meta, for example, will invest at least $270 million in wastewater infrastructure projects near its data centers (the company also loses about $4 billion each quarter on its Reality Labs division).\n\n“That’s where data centers can actually come in and be anchors of water infrastructure,” Obradovitch said. “There’s a number of cases and examples where data centers, as part of their engagement with communities, have committed funding and capital to some of these municipalities to help in addressing some of those exact challenges.”\n\nOn the policy side, Pigott is advocating for legislation that would provide a 30% tax credit to help industries scale their recycled water infrastructure.\n\n“We think it would greatly accelerate the pace with which data centers and other industries entered into this area,” he said.\n\nWhile there’s some unintentional science behind Liquid Death’s joke, the commercial and its virality serve as a reminder to the tech industry that the environmental demands of data centers have become a mainstream concern. According to a recent Gallup poll, about seven out of 10 Americans oppose data centers in their communities, and AI products continue to face backlash from consumers who feel as though the technology is being forced into their lives.\n\n“I’m glad that people are concerned about water, and anything that raises awareness of water, however crude it may be, could actually be beneficial,” Pigott said. “It gives us a chance to educate the public about what we’re doing today.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "In a cheeky marketing campaign, Liquid Death teamed up with former Philadelphia Eagles star Jason Kelce to share a solution to mitigate the environmental impact of AI data centers, which require massive quantities of water to prevent servers from overheating.",
+      "heading": 0
+    },
+    {
+      "text": "“AI data centers waste millions of gallons of water,” Kelce quips in the video campaign. “That’s why Liquid Death and Garage Beer have teamed up. We want your pee to cool these data centers.”",
+      "heading": 0
+    },
+    {
+      "text": "Then, as a crowd of people walk through a field sipping their branded beverages, they sing in unison: “Let’s pee on computers together to save humanity!”",
+      "heading": 0
+    },
+    {
+      "text": "It’s a funny commercial. What’s even funnier is that Kelce has unwittingly stumbled upon a real tactic for cooling down data centers.",
+      "heading": 0
+    },
+    {
+      "text": "“The Liquid Death commercial is funny and tongue-in-cheek,” Michael Obradovitch, vice president of Data Center Global Accounts at Ecolab, told TechCrunch. “But in reality, there is a fair amount of alternative water sources already being used to a similar extent to cool these data centers.”",
+      "heading": 0
+    },
+    {
+      "text": "These alternative water sources, when used in data centers, at least partially offset the demand for potable drinking water. One such alternative water source is recycled water, which is made by treating wastewater and sewage water so that they’re safe to use again. Wastewater and sewage water contain many things, including — you guessed it! — human urine.",
+      "heading": 0
+    },
+    {
+      "text": "“You wouldn’t just use pee, but you can clean it and make it into useful water, and that’s what we advocate,” Bruno Pigott, executive director of the WateReuse Association and former acting assistant administrator in water for the U.S. Environmental Protection Agency (EPA), told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "To be clear: You should not actually contribute gallons of your pee to help cool data centers, as Kelce facetiously suggests. But just for the sake of the thought experiment: What would happen if you did try to cool a data center with a steady stream of pee?",
+      "heading": 0
+    },
+    {
+      "text": "“Pee contains all sorts of stuff. It contains salts, it contains urea, bacteria, organic matter of all sorts that can leave mineral deposits. If you just put that into a cooling tower or something else, it would require constant cleaning,” said Pigott. “One of the methods of cooling is called evaporative cooling, where hot air is passed through water to remove heat through evaporation. Can you imagine if you just poured urine through hot air?”",
+      "heading": 0
+    },
+    {
+      "text": "We do have the technology to turn our urine into potable drinking water — that’s what astronauts do in space, since they can only bring so much water with them on their spacecraft. But that isn’t efficient at a large scale, and even if it were, it’s not like scientists can just access millions of gallons of pee at will (well, not unless Kelce really commits to the bit). Instead, our toilet water ends up in wastewater and sewage.",
+      "heading": 0
+    },
+    {
+      "text": "That’s where water treatment facilities come in, providing recycled water to spare us from the smell of evaporated urine. These facilities use membrane bioreactors, reverse osmosis, ultraviolet light, and other processes to treat water until it’s clean enough for industrial use. In some cases, this water can even be treated to the point that it’s drinkable.",
+      "heading": 0
+    },
+    {
+      "text": "“We use recycled water for cooling for all kinds of industries, and we have for decades,” Dr. Greta Zornes, practice leader for water reuse at the engineering firm CDM Smith, told TechCrunch. “So this is only one application, but definitely, there’s been a boom in recycled water for data center cooling.”",
+      "heading": 0
+    },
+    {
+      "text": "Though Zornes has worked on water reuse technology for more than two decades, her day-to-day work has shifted with the rising demand for data centers.",
+      "heading": 0
+    },
+    {
+      "text": "“Every day right now, I’m working on recycled water for data centers,” she said.",
+      "heading": 0
+    },
+    {
+      "text": "When data centers use more recycled water, they don’t pose as much of a burden to the local potable water supply. But industries can only pivot to recycled water use when there is proper infrastructure in place to treat millions of gallons of water every day.",
+      "heading": 0
+    },
+    {
+      "text": "“You have to be somewhat near a waste water treatment facility that’s sizable enough that you have enough water to use,” Zornes said. “So when data centers go out into rural areas, a lot of times the wastewater treatment plants just aren’t big enough — they’re not treating enough water for them to be able to take it and treat it and use it.”",
+      "heading": 0
+    },
+    {
+      "text": "Loudoun County, Virginia, located outside of Washington, D.C., is home to more than 250 data centers, with plans to construct at least another two dozen. As of 2025, Loudoun data centers collectively used about 200 million gallons of recycled water each day, but the water footprint of these data centers is so extreme that this only accounts for 43% of daily data center water usage in the area. The other 260 million gallons, or 57% of daily data center water usage, come from potable water supplies, according to Loudoun Water.",
+      "heading": 0
+    },
+    {
+      "text": "“There’s a lot of infrastructure that has to be built out and usually isn’t existing today, and that takes time,” Zornes said. “That’s one of the problems — it’s just the time that it takes to get that done.”",
+      "heading": 0
+    },
+    {
+      "text": "Obradovitch thinks that the AI industry could even drive resources toward building out this kind of infrastructure to scale water treatment. Meta, for example, will invest at least $270 million in wastewater infrastructure projects near its data centers (the company also loses about $4 billion each quarter on its Reality Labs division).",
+      "heading": 0
+    },
+    {
+      "text": "“That’s where data centers can actually come in and be anchors of water infrastructure,” Obradovitch said. “There’s a number of cases and examples where data centers, as part of their engagement with communities, have committed funding and capital to some of these municipalities to help in addressing some of those exact challenges.”",
+      "heading": 0
+    },
+    {
+      "text": "On the policy side, Pigott is advocating for legislation that would provide a 30% tax credit to help industries scale their recycled water infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "“We think it would greatly accelerate the pace with which data centers and other industries entered into this area,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "While there’s some unintentional science behind Liquid Death’s joke, the commercial and its virality serve as a reminder to the tech industry that the environmental demands of data centers have become a mainstream concern. According to a recent Gallup poll, about seven out of 10 Americans oppose data centers in their communities, and AI products continue to face backlash from consumers who feel as though the technology is being forced into their lives.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m glad that people are concerned about water, and anything that raises awareness of water, however crude it may be, could actually be beneficial,” Pigott said. “It gives us a chance to educate the public about what we’re doing today.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Anthropic officially files for its public debut",
+  "slug": "anthropic-officially-files-for-its-public-debut",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+    "episode": ""
+  },
+  "words": 430,
+  "lines": 13,
+  "duration": 143,
+  "text": "After weeks of leaked S-1s, Anthropic finally filed for an initial public offering on Monday, setting the stage for one of the most closely watched public debuts in modern U.S. history.\n\nAnthropic, which plans to list under the ticker “ANT,” recorded revenue of $16.3 billion for the first half of 2026, up from $1.2 billion in the same period last year, according to the firm’s latest SEC filing.\n\nThat revenue came off the back of an operating loss of $693 million, an improvement from the $2.1 billion in operating losses that Anthropic recorded in the first half of 2025. Anthropic’s net loss, however, hit $80.7 billion, which was largely driven by noncash accounting adjustments tied to convertible debt. The company says it “may not achieve or sustain profitability in the future.”\n\nThe filing also provided more color on the scale of Anthropic’s enterprise business. As of the end of September, Anthropic had more than 11,900 customers spending $100,000 or more annually; 1,900 customers spending $1 million or more; and about 250 customers spending $10 million or more.\n\nAs previously reported, Anthropic’s governance structure will enable Anthropic’s seven co-founders to maintain control once the company goes public. Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Christopher Olah will make up the “Founder LLC,” which will collectively control 50.1% of shareholder voting power — a move Anthropic says is designed to preserve the company’s AI safety mission, per the filing.\n\nAnthropic’s Long-Term Benefit Trust, established in 2023 to ensure the company pursues its public benefit mission, will have the authority to appoint most of the company’s board.\n\nThe governance structure is controversial because it means voting power is not proportional to the founders’ economic ownership, and therefore public shareholders will have little practical control over a company building technology that, by its own admission, poses “catastrophic or existential risks to humanity.”\n\nAnthropic hasn’t yet disclosed how much it hopes to raise nor its proposed share price.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "After weeks of leaked S-1s, Anthropic finally filed for an initial public offering on Monday, setting the stage for one of the most closely watched public debuts in modern U.S. history.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic, which plans to list under the ticker “ANT,” recorded revenue of $16.3 billion for the first half of 2026, up from $1.2 billion in the same period last year, according to the firm’s latest SEC filing.",
+      "heading": 0
+    },
+    {
+      "text": "That revenue came off the back of an operating loss of $693 million, an improvement from the $2.1 billion in operating losses that Anthropic recorded in the first half of 2025. Anthropic’s net loss, however, hit $80.7 billion, which was largely driven by noncash accounting adjustments tied to convertible debt. The company says it “may not achieve or sustain profitability in the future.”",
+      "heading": 0
+    },
+    {
+      "text": "The filing also provided more color on the scale of Anthropic’s enterprise business. As of the end of September, Anthropic had more than 11,900 customers spending $100,000 or more annually; 1,900 customers spending $1 million or more; and about 250 customers spending $10 million or more.",
+      "heading": 0
+    },
+    {
+      "text": "As previously reported, Anthropic’s governance structure will enable Anthropic’s seven co-founders to maintain control once the company goes public. Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Christopher Olah will make up the “Founder LLC,” which will collectively control 50.1% of shareholder voting power — a move Anthropic says is designed to preserve the company’s AI safety mission, per the filing.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s Long-Term Benefit Trust, established in 2023 to ensure the company pursues its public benefit mission, will have the authority to appoint most of the company’s board.",
+      "heading": 0
+    },
+    {
+      "text": "The governance structure is controversial because it means voting power is not proportional to the founders’ economic ownership, and therefore public shareholders will have little practical control over a company building technology that, by its own admission, poses “catastrophic or existential risks to humanity.”",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic hasn’t yet disclosed how much it hopes to raise nor its proposed share price.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

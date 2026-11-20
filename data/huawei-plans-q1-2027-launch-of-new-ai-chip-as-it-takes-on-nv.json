@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+  "slug": "huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nv",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/02/20230228_162746.jpg?resize=1200,900",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+    "episode": ""
+  },
+  "words": 514,
+  "lines": 14,
+  "duration": 171,
+  "text": "Huawei is moving up the launch of its next-generation Ascend 960DT AI chip to the first quarter of 2027, as it races to challenge Nvidia, the company said on Thursday at its Huawei Connect conference.\n\nThe Chinese tech giant had previously planned to launch the chip in Q3 of 2027, a Huawei spokesperson told TechCrunch.\n\n“The Ascend 960DT is expected to be ready in Q1 2027. Ascend 960 chips are launching ahead of schedule, doubling performance and advancing year by year,” the spokesperson said, adding that David Wang, one of Huawei’s rotating and acting chairmans, announced the updated timeline at Huawei Connect on Thursday.\n\nThe announcement comes just a week before U.S. President Trump and Chinese President Xi Jinping are set to meet on September 24 in Washington, DC.\n\nHuawei is trying to turn hundreds of thousands, and eventually millions, of AI chips into one giant computer. The Chinese tech firm calls the approach its Peerium Computing Architecture. It relies on UnifiedBus, Huawei’s technology for linking processors with memory, storage, and networking hardware. Eric Xu, another of Huawei’s rotating chairmans, said in the company’s statement that it is using its new Peerium Computing Architecture to build larger AI computing systems designed for both training and inference.\n\nHuawei’s Atlas 950 SuperPoD and SuperCluster are the first systems based on the architecture. The company says an Atlas 950 SuperCluster can connect up to 256,000 accelerator cards.\n\nThe accelerated chip timeline comes with some questions about Huawei’s broader AI systems, however. China tech analyst Rui Ma said on X that Huawei had previously said its Atlas 960 SuperPoD would scale to 15,488 Ascend 960 chips, while this week’s announcement referred to a system with 4,096 chips. “The chip itself is coming WAY earlier, but the SuperPoD they announced is much smaller than what they originally laid out,” Ma wrote.\n\nHuawei has continued to advance its chip ambitions despite U.S. restrictions on China’s access to advanced semiconductor technology. Ma said that those restrictions are unlikely to stop China from pursuing its own semiconductor technology.\n\n“I think it’s futile to stop China’s development in semiconductors because the stakes for self-sufficiency are just too high at this point,” she wrote.\n\nTrump has pushed back against calls from AI industry leaders to slow the development of the technology over safety concerns, arguing that the U.S. needs to maintain its lead over China. Meanwhile, Xu argued that China needs to accelerate AI development to catch up with the U.S., saying Chinese companies need to advance further before they can fully understand and address the risks posed by more powerful AI systems, according to Financial Times.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Asia\n\nKate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+  "paragraphs": [
+    {
+      "text": "Huawei is moving up the launch of its next-generation Ascend 960DT AI chip to the first quarter of 2027, as it races to challenge Nvidia, the company said on Thursday at its Huawei Connect conference.",
+      "heading": 0
+    },
+    {
+      "text": "The Chinese tech giant had previously planned to launch the chip in Q3 of 2027, a Huawei spokesperson told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "“The Ascend 960DT is expected to be ready in Q1 2027. Ascend 960 chips are launching ahead of schedule, doubling performance and advancing year by year,” the spokesperson said, adding that David Wang, one of Huawei’s rotating and acting chairmans, announced the updated timeline at Huawei Connect on Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "The announcement comes just a week before U.S. President Trump and Chinese President Xi Jinping are set to meet on September 24 in Washington, DC.",
+      "heading": 0
+    },
+    {
+      "text": "Huawei is trying to turn hundreds of thousands, and eventually millions, of AI chips into one giant computer. The Chinese tech firm calls the approach its Peerium Computing Architecture. It relies on UnifiedBus, Huawei’s technology for linking processors with memory, storage, and networking hardware. Eric Xu, another of Huawei’s rotating chairmans, said in the company’s statement that it is using its new Peerium Computing Architecture to build larger AI computing systems designed for both training and inference.",
+      "heading": 0
+    },
+    {
+      "text": "Huawei’s Atlas 950 SuperPoD and SuperCluster are the first systems based on the architecture. The company says an Atlas 950 SuperCluster can connect up to 256,000 accelerator cards.",
+      "heading": 0
+    },
+    {
+      "text": "The accelerated chip timeline comes with some questions about Huawei’s broader AI systems, however. China tech analyst Rui Ma said on X that Huawei had previously said its Atlas 960 SuperPoD would scale to 15,488 Ascend 960 chips, while this week’s announcement referred to a system with 4,096 chips. “The chip itself is coming WAY earlier, but the SuperPoD they announced is much smaller than what they originally laid out,” Ma wrote.",
+      "heading": 0
+    },
+    {
+      "text": "Huawei has continued to advance its chip ambitions despite U.S. restrictions on China’s access to advanced semiconductor technology. Ma said that those restrictions are unlikely to stop China from pursuing its own semiconductor technology.",
+      "heading": 0
+    },
+    {
+      "text": "“I think it’s futile to stop China’s development in semiconductors because the stakes for self-sufficiency are just too high at this point,” she wrote.",
+      "heading": 0
+    },
+    {
+      "text": "Trump has pushed back against calls from AI industry leaders to slow the development of the technology over safety concerns, arguing that the U.S. needs to maintain its lead over China. Meanwhile, Xu argued that China needs to accelerate AI development to catch up with the U.S., saying Chinese companies need to advance further before they can fully understand and address the risks posed by more powerful AI systems, according to Financial Times.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Asia",
+      "heading": 1
+    },
+    {
+      "text": "Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+      "heading": 0
+    }
+  ]
+}

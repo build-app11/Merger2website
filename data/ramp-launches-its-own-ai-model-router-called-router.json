@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Ramp launches its own AI model router, called Router",
+  "slug": "ramp-launches-its-own-ai-model-router-called-router",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1434828961.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+    "episode": ""
+  },
+  "words": 472,
+  "lines": 14,
+  "duration": 157,
+  "text": "Corporate expense management platform Ramp is hot on the heels of Stripe in setting up toll houses for AI inference.\n\nRamp on Wednesday evening launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models through an API. The company says it has been using the router it built for its own AI usage needs over the past three years.\n\nThe service is only available in the United States for now. It’s free to use for the remainder of 2026 (users will still have to pay for AI model inference costs), and it comes with a $26 credit launch offer. The company did not say how much the service will cost next year.\n\nRouter functions similarly to OpenRouter, though the latter offers many more AI model options than Ramp’s current offerings.\n\nRouter offers access to models from OpenAI, Anthropic, DeepSeek, Moonshot, Minimax, Nvidia, xAI, and Z.ai. It also provides several “strategies” to help its customers route AI requests to models based on their preferences. For example, one lets users set a preference for model providers’ flex usage tiers, while another lets Router choose which model to route queries to based on up to three user-specified benchmarks. Users can also choose to route only difficult problems to expensive models or test models easily without having to switch.\n\nUsers get a dashboard, too, that lets them see token spend, cost, latency, fallback attempts, and other details.\n\nNotably, Router has an opt-out data retention policy: It will record model inputs, outputs, and tool calls for one year by default, though the company says it will remove “personally identifiable information before using that content to improve the product.”\n\nFor Ramp, entering the model routing business offers a two-pronged opportunity: It gets to tap the booming AI inference market and offer its existing clients a model routing service that fits in neatly with its existing products, which includes AI token usage monitoring and token spend management.\n\nAnd, if Router proves as attractive of a model testing arena as OpenRouter has, Ramp may also be able to build long-standing relationships with AI labs and inference providers worldwide. That could help Ramp, which raised $750 million at a $44 billion valuation in June, gain new customers and a new point of entry for selling its expense management products.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor\n\nRam is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.\n\nYou can contact or verify outreach from Ram by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Corporate expense management platform Ramp is hot on the heels of Stripe in setting up toll houses for AI inference.",
+      "heading": 0
+    },
+    {
+      "text": "Ramp on Wednesday evening launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models through an API. The company says it has been using the router it built for its own AI usage needs over the past three years.",
+      "heading": 0
+    },
+    {
+      "text": "The service is only available in the United States for now. It’s free to use for the remainder of 2026 (users will still have to pay for AI model inference costs), and it comes with a $26 credit launch offer. The company did not say how much the service will cost next year.",
+      "heading": 0
+    },
+    {
+      "text": "Router functions similarly to OpenRouter, though the latter offers many more AI model options than Ramp’s current offerings.",
+      "heading": 0
+    },
+    {
+      "text": "Router offers access to models from OpenAI, Anthropic, DeepSeek, Moonshot, Minimax, Nvidia, xAI, and Z.ai. It also provides several “strategies” to help its customers route AI requests to models based on their preferences. For example, one lets users set a preference for model providers’ flex usage tiers, while another lets Router choose which model to route queries to based on up to three user-specified benchmarks. Users can also choose to route only difficult problems to expensive models or test models easily without having to switch.",
+      "heading": 0
+    },
+    {
+      "text": "Users get a dashboard, too, that lets them see token spend, cost, latency, fallback attempts, and other details.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, Router has an opt-out data retention policy: It will record model inputs, outputs, and tool calls for one year by default, though the company says it will remove “personally identifiable information before using that content to improve the product.”",
+      "heading": 0
+    },
+    {
+      "text": "For Ramp, entering the model routing business offers a two-pronged opportunity: It gets to tap the booming AI inference market and offer its existing clients a model routing service that fits in neatly with its existing products, which includes AI token usage monitoring and token spend management.",
+      "heading": 0
+    },
+    {
+      "text": "And, if Router proves as attractive of a model testing arena as OpenRouter has, Ramp may also be able to build long-standing relationships with AI labs and inference providers worldwide. That could help Ramp, which raised $750 million at a $44 billion valuation in June, gain new customers and a new point of entry for selling its expense management products.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor",
+      "heading": 1
+    },
+    {
+      "text": "Ram is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ram by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

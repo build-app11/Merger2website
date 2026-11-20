@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+  "slug": "some-supabase-customers-are-publicly-exposing-reams-of-peopl",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/supabase-2279843922.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+    "episode": ""
+  },
+  "words": 645,
+  "lines": 18,
+  "duration": 215,
+  "text": "Thousands of databases hosted by development platform Supabase are exposing people’s sensitive information to the public web, new security research by cybersecurity firm UpGuard has found.\n\nUpGuard told TechCrunch that it found around 16,000 databases on which some degree of personal data was exposed while they were hosted by Supabase, which allows web and app developers to store and run their databases.\n\nSupabase earlier this year reached a $10 billion valuation, thanks to a rise in developers hosting their vibe-coded apps on the platform. But the company has faced criticism for how it handles user security. There are widely documented cases of users misconfiguring or unknowingly exposing their databases to the broader internet, in some instances to the tune of millions of records each.\n\nThe findings highlight how vibe-coded apps and websites can spill or expose sensitive data through basic misconfigurations and improper security. While AI tools can be used to easily build websites and apps, the generated code can often contain security flaws, or apps might require specific configuration that the developer may be ignorant of.\n\nOver the years, countless data breaches have been linked to improperly configured storage servers, databases and websites. Such cases have resulted in the leaks of sensitive military emails, immigration and visa applications, classified government files, hundreds of thousands of driver’s license scans, and children’s personal information.\n\nNow, the boom in AI vibe-coding is helping fuel a new wave of data breaches, many of which are now being linked to Supabase as people increasingly use it for storing their data.\n\nUpGuard says it sought to understand the scale of exposed data across the platform, and found publicly accessible names, addresses, phone numbers, and user passwords. The research surfaced a fewer number of passwords and authentication tokens.\n\nThe firm said the databases contained data linked to various projects, such as private conversations with sex workers on an Indian adult streaming site; thousands of license plates of a U.S. valet service; and the contact information of people who used an immigration and relocation service. One of the databases belonged to an African government’s consulate in France, said UpGuard, while another was used to intercept text messages by a virtual SIM farm for sending one-time passcodes to verify online accounts, typically for launching scams and phishing attacks.\n\nWhile the majority of these exposed datasets appear to be located in the United States, UpGuard said this is a worldwide problem. The findings build on earlier research that also found a range of exposed databases hosted on Supabase, including those by Y Combinator startups and other popular apps.\n\nSupabase has made changes to its platform over the years, including bolstering its platform and user access to databases.\n\nWhen reached for comment, Supabase’s Chief Information Security Officer Bil Harmer said that while the company has not seen the research, its projects are “secure by default.” He described security as a shared responsibility between the company and its customers. “We provide secure defaults and tooling, and customers control how their own projects are configured,” and the company notifies affected customers when security issues are discovered, he said.\n\n“Security at Supabase is never finished. We care deeply about getting it right, and we’ll keep making it easier for every developer to ship securely,” said Harmer.\n\nUpGuard security researcher Greg Pollock said the company’s research was important for raising awareness about the issue of data exposures.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSecurity Editor\n\nZack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.\n\nHe can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+  "paragraphs": [
+    {
+      "text": "Thousands of databases hosted by development platform Supabase are exposing people’s sensitive information to the public web, new security research by cybersecurity firm UpGuard has found.",
+      "heading": 0
+    },
+    {
+      "text": "UpGuard told TechCrunch that it found around 16,000 databases on which some degree of personal data was exposed while they were hosted by Supabase, which allows web and app developers to store and run their databases.",
+      "heading": 0
+    },
+    {
+      "text": "Supabase earlier this year reached a $10 billion valuation, thanks to a rise in developers hosting their vibe-coded apps on the platform. But the company has faced criticism for how it handles user security. There are widely documented cases of users misconfiguring or unknowingly exposing their databases to the broader internet, in some instances to the tune of millions of records each.",
+      "heading": 0
+    },
+    {
+      "text": "The findings highlight how vibe-coded apps and websites can spill or expose sensitive data through basic misconfigurations and improper security. While AI tools can be used to easily build websites and apps, the generated code can often contain security flaws, or apps might require specific configuration that the developer may be ignorant of.",
+      "heading": 0
+    },
+    {
+      "text": "Over the years, countless data breaches have been linked to improperly configured storage servers, databases and websites. Such cases have resulted in the leaks of sensitive military emails, immigration and visa applications, classified government files, hundreds of thousands of driver’s license scans, and children’s personal information.",
+      "heading": 0
+    },
+    {
+      "text": "Now, the boom in AI vibe-coding is helping fuel a new wave of data breaches, many of which are now being linked to Supabase as people increasingly use it for storing their data.",
+      "heading": 0
+    },
+    {
+      "text": "UpGuard says it sought to understand the scale of exposed data across the platform, and found publicly accessible names, addresses, phone numbers, and user passwords. The research surfaced a fewer number of passwords and authentication tokens.",
+      "heading": 0
+    },
+    {
+      "text": "The firm said the databases contained data linked to various projects, such as private conversations with sex workers on an Indian adult streaming site; thousands of license plates of a U.S. valet service; and the contact information of people who used an immigration and relocation service. One of the databases belonged to an African government’s consulate in France, said UpGuard, while another was used to intercept text messages by a virtual SIM farm for sending one-time passcodes to verify online accounts, typically for launching scams and phishing attacks.",
+      "heading": 0
+    },
+    {
+      "text": "While the majority of these exposed datasets appear to be located in the United States, UpGuard said this is a worldwide problem. The findings build on earlier research that also found a range of exposed databases hosted on Supabase, including those by Y Combinator startups and other popular apps.",
+      "heading": 0
+    },
+    {
+      "text": "Supabase has made changes to its platform over the years, including bolstering its platform and user access to databases.",
+      "heading": 0
+    },
+    {
+      "text": "When reached for comment, Supabase’s Chief Information Security Officer Bil Harmer said that while the company has not seen the research, its projects are “secure by default.” He described security as a shared responsibility between the company and its customers. “We provide secure defaults and tooling, and customers control how their own projects are configured,” and the company notifies affected customers when security issues are discovered, he said.",
+      "heading": 0
+    },
+    {
+      "text": "“Security at Supabase is never finished. We care deeply about getting it right, and we’ll keep making it easier for every developer to ship securely,” said Harmer.",
+      "heading": 0
+    },
+    {
+      "text": "UpGuard security researcher Greg Pollock said the company’s research was important for raising awareness about the issue of data exposures.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Security Editor",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.",
+      "heading": 0
+    },
+    {
+      "text": "He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "read",
+  "title": "How did Anthropic's stock market debut unfold?",
+  "slug": "how-did-anthropic-s-stock-market-debut-unfold",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d424/live/6731c740-e478-11f1-a094-5fdc692f3e33.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 82,
+  "lines": 5,
+  "duration": 60,
+  "text": "Anthropic, the company behind AI chatbot Claude, closed 17% higher on its first day as a publicly traded company. Shares closed at $97.17, giving the company a market valuation of around $1.77 trillion, after briefly surpassing $2 trillion during trading.\n\nThe debut came as the wider technology sector fell 2.4%, raising questions about investor confidence in the AI boom.\n\nThe BBC's Samira Hussain breaks down Anthropic's first day on the stock market.\n\nSubsection US & Canada\n\nPublished 8 hours ago",
+  "paragraphs": [
+    {
+      "text": "Anthropic, the company behind AI chatbot Claude, closed 17% higher on its first day as a publicly traded company. Shares closed at $97.17, giving the company a market valuation of around $1.77 trillion, after briefly surpassing $2 trillion during trading.",
+      "heading": 0
+    },
+    {
+      "text": "The debut came as the wider technology sector fell 2.4%, raising questions about investor confidence in the AI boom.",
+      "heading": 0
+    },
+    {
+      "text": "The BBC's Samira Hussain breaks down Anthropic's first day on the stock market.",
+      "heading": 0
+    },
+    {
+      "text": "Subsection US & Canada",
+      "heading": 1
+    },
+    {
+      "text": "Published 8 hours ago",
+      "heading": 1
+    }
+  ]
+}

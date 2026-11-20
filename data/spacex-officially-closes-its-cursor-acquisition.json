@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "SpaceX officially closes its Cursor acquisition",
+  "slug": "spacex-officially-closes-its-cursor-acquisition",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/cursor.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "episode": ""
+  },
+  "words": 256,
+  "lines": 20,
+  "duration": 85,
+  "text": "Posted:\n\nAnthony Ha\n\nSpaceX officially closes its Cursor acquisition\n\nAI coding startup Cursor is now officially a part of SpaceX, according to an announcement on the Cursor blog.\n\nElon Musk’s SpaceX — which also acquired Musk’s xAI earlier this year — announced a deal in April for the companies to develop technology together; the deal also gave SpaceX the option to acquire Cursor for $60 billion. Two months later, as SpaceX became a public company, the companies said they were moving forward with the acquisition.\n\nIn its announcement that the deal has closed, Cursor repeatedly referenced SpaceX’s computing infrastructure, which the company has been renting out to customers, including Anthropic and Google. (SpaceX also faces a lawsuit over the pollution created by its data center gas turbines.)\n\nCursor said that by becoming part of SpaceX, it will have “access to the largest fleet of GPUs in the world.”\n\n“SpaceX is building the computing capacity needed to scale intelligence far beyond what exists today,” the company added. “Cursor will be one place where that intelligence becomes useful.”\n\nTopics\n\nElon Musk says SpaceX has a plan to eliminate cell phone dead zones\n\nKirsten Korosec\n\nElon Musk says: ‘I’m not MAGA’\n\nLucas Ropek\n\nElon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’\n\nAmanda Silberling\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "SpaceX officially closes its Cursor acquisition",
+      "heading": 1
+    },
+    {
+      "text": "AI coding startup Cursor is now officially a part of SpaceX, according to an announcement on the Cursor blog.",
+      "heading": 0
+    },
+    {
+      "text": "Elon Musk’s SpaceX — which also acquired Musk’s xAI earlier this year — announced a deal in April for the companies to develop technology together; the deal also gave SpaceX the option to acquire Cursor for $60 billion. Two months later, as SpaceX became a public company, the companies said they were moving forward with the acquisition.",
+      "heading": 0
+    },
+    {
+      "text": "In its announcement that the deal has closed, Cursor repeatedly referenced SpaceX’s computing infrastructure, which the company has been renting out to customers, including Anthropic and Google. (SpaceX also faces a lawsuit over the pollution created by its data center gas turbines.)",
+      "heading": 0
+    },
+    {
+      "text": "Cursor said that by becoming part of SpaceX, it will have “access to the largest fleet of GPUs in the world.”",
+      "heading": 0
+    },
+    {
+      "text": "“SpaceX is building the computing capacity needed to scale intelligence far beyond what exists today,” the company added. “Cursor will be one place where that intelligence becomes useful.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says: ‘I’m not MAGA’",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

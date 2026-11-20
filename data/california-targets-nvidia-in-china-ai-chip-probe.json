@@ -1,0 +1,108 @@
+{
+  "type": "read",
+  "title": "California targets Nvidia in China AI chip probe",
+  "slug": "california-targets-nvidia-in-china-ai-chip-probe",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2b75/live/e227dc20-e46c-11f1-950d-9b3226707024.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 351,
+  "lines": 21,
+  "duration": 117,
+  "text": "Published 8 hours ago\n\nCalifornia has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.\n\nThe state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have mislead investors and the public.\n\nThe BBC has contacted Nvidia for comment.\n\n\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.\n\nNvidia has its global headquarters in Santa Clara, California.\n\nEarlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.\n\nSome members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.\n\nMegaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".\n\nNvidia shares have plummeted 22% since the New York Times reported on the affair in early November.\n\nEarlier this week, the company's board chair Harvey Jones said Nvidia had no intention of reinstating Jensen Huang after the longtime Nvidia boss and co-founder issued a statement saying he would be \"honoured\" to return, as some tech leaders including Elon Musk campaigned on his behalf.\n\nHuang has acknowledged engaging in extramarital affairs – and left the company last week after reports that he had relationships with subordinates.\n\nNvidia says it won't reinstate Huang as it reports soaring sales\n\nPublished 2 days ago\n\nHow important are Nvidia and Jensen Huang to the US economy?\n\nWhat is AI and how does it work?\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.\n\nComputing\n\nChina-US relations\n\nChina\n\nCalifornia",
+  "paragraphs": [
+    {
+      "text": "Published 8 hours ago",
+      "heading": 1
+    },
+    {
+      "text": "California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+      "heading": 0
+    },
+    {
+      "text": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have mislead investors and the public.",
+      "heading": 0
+    },
+    {
+      "text": "The BBC has contacted Nvidia for comment.",
+      "heading": 0
+    },
+    {
+      "text": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia has its global headquarters in Santa Clara, California.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+      "heading": 0
+    },
+    {
+      "text": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+      "heading": 0
+    },
+    {
+      "text": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia shares have plummeted 22% since the New York Times reported on the affair in early November.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this week, the company's board chair Harvey Jones said Nvidia had no intention of reinstating Jensen Huang after the longtime Nvidia boss and co-founder issued a statement saying he would be \"honoured\" to return, as some tech leaders including Elon Musk campaigned on his behalf.",
+      "heading": 0
+    },
+    {
+      "text": "Huang has acknowledged engaging in extramarital affairs – and left the company last week after reports that he had relationships with subordinates.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "heading": 0
+    },
+    {
+      "text": "Published 2 days ago",
+      "heading": 1
+    },
+    {
+      "text": "How important are Nvidia and Jensen Huang to the US economy?",
+      "heading": 0
+    },
+    {
+      "text": "What is AI and how does it work?",
+      "heading": 0
+    },
+    {
+      "text": "Sign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.",
+      "heading": 0
+    },
+    {
+      "text": "Computing",
+      "heading": 1
+    },
+    {
+      "text": "China-US relations",
+      "heading": 1
+    },
+    {
+      "text": "China",
+      "heading": 1
+    },
+    {
+      "text": "California",
+      "heading": 1
+    }
+  ]
+}

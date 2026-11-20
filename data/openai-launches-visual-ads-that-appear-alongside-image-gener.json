@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "OpenAI launches visual ads that appear alongside image generation results",
+  "slug": "openai-launches-visual-ads-that-appear-alongside-image-gener",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+    "episode": ""
+  },
+  "words": 374,
+  "lines": 13,
+  "duration": 125,
+  "text": "ChatGPT is getting more ads. Specifically, OpenAI is adding visual display ads to its ad product line-up so that ads will appear alongside images that users ask ChatGPT to generate. In addition, the company is expanding its ad measurement tools and partnerships, and developing new ways to determine brand suitability.\n\nThe new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers. The ads will also be clearly labeled and won’t influence the answers ChatGPT provides, the company notes.\n\nThe move follows the launch of Meta’s Muse, an agentic AI app which is free to everyone and a growing competitor for leading AI chatbots, like ChatGPT.\n\nOpenAI introduced ads earlier this year to support its free and low-cost subscription tiers, and expanded them to India in August.\n\nNow, the plan is to woo online advertisers who want to appeal to their potential customers by using more visual imagery to tell their stories. Eventually, those ads will allow them to target ChatGPT’s 1.2 billion weekly users, once they roll out globally.\n\nHowever, integrating such ads could also prove disruptive to the user experience. But perhaps that’s partly the point, as the ads could push more casual users to pay for a subscription in order to avoid them.\n\nAlongside the display ads, OpenAI said it is expanding its measurement tools and partner ecosystem, which now includes click attribution solutions, AppsFlyer, Triple Whale, Adjust, DV Rockerbox, Northbeam, Branch, Singular, Kochava, Airbridge, and Tenjin, as well as full-funnel, advanced measurement partners Fospha, Measured, and INCRMNTAL.\n\nOpenAI has also partnered with Haus, Measured, and WorkMagic to help advertisers explore “geo-based” experiments around ads.\n\nThe company said it’s working on developing brand suitability evaluation pilots with help from DoubleVerify (DV) and Integral Ad Science (IAS), which will help advertisers better understand the ChatGPT ads environment.\n\nCombined, the moves see OpenAI working to make ChatGPT a viable ad-supported business for those on free and low-cost plans.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "ChatGPT is getting more ads. Specifically, OpenAI is adding visual display ads to its ad product line-up so that ads will appear alongside images that users ask ChatGPT to generate. In addition, the company is expanding its ad measurement tools and partnerships, and developing new ways to determine brand suitability.",
+      "heading": 0
+    },
+    {
+      "text": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers. The ads will also be clearly labeled and won’t influence the answers ChatGPT provides, the company notes.",
+      "heading": 0
+    },
+    {
+      "text": "The move follows the launch of Meta’s Muse, an agentic AI app which is free to everyone and a growing competitor for leading AI chatbots, like ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI introduced ads earlier this year to support its free and low-cost subscription tiers, and expanded them to India in August.",
+      "heading": 0
+    },
+    {
+      "text": "Now, the plan is to woo online advertisers who want to appeal to their potential customers by using more visual imagery to tell their stories. Eventually, those ads will allow them to target ChatGPT’s 1.2 billion weekly users, once they roll out globally.",
+      "heading": 0
+    },
+    {
+      "text": "However, integrating such ads could also prove disruptive to the user experience. But perhaps that’s partly the point, as the ads could push more casual users to pay for a subscription in order to avoid them.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside the display ads, OpenAI said it is expanding its measurement tools and partner ecosystem, which now includes click attribution solutions, AppsFlyer, Triple Whale, Adjust, DV Rockerbox, Northbeam, Branch, Singular, Kochava, Airbridge, and Tenjin, as well as full-funnel, advanced measurement partners Fospha, Measured, and INCRMNTAL.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has also partnered with Haus, Measured, and WorkMagic to help advertisers explore “geo-based” experiments around ads.",
+      "heading": 0
+    },
+    {
+      "text": "The company said it’s working on developing brand suitability evaluation pilots with help from DoubleVerify (DV) and Integral Ad Science (IAS), which will help advertisers better understand the ChatGPT ads environment.",
+      "heading": 0
+    },
+    {
+      "text": "Combined, the moves see OpenAI working to make ChatGPT a viable ad-supported business for those on free and low-cost plans.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

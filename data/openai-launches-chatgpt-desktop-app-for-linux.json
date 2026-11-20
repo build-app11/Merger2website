@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "OpenAI launches ChatGPT desktop app for Linux",
+  "slug": "openai-launches-chatgpt-desktop-app-for-linux",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/EU-ai-1258475609.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+    "episode": ""
+  },
+  "words": 332,
+  "lines": 20,
+  "duration": 111,
+  "text": "Posted:\n\nLucas Ropek\n\nOpenAI launches ChatGPT desktop app for Linux\n\nChatGPT is on desktops across the world, but there’s one place where it’s been notably absent: the Linux community. Indeed, certain sectors of the open source developer community have been clamoring for OpenAI to bring its chatbot to their neck of the woods.\n\nAs of this week, OpenAI has rectified this oversight, launching a dedicated ChatGPT app for Linux.\n\n“Linux has been one of the most-requested platforms for the desktop app, and this launch extends ChatGPT and Codex across every major desktop operating system,” the company said Tuesday.\n\nThe new app, which is being released in preview, will give Linux users the ability to use ChatGPT, ChatGPT Work, and Codex on a number of different distributions. The release is worldwide, as of Tuesday.\n\nOpenAI says that the distros that will be supported include desktop variants of Ubuntu 24.04 and 26.04 LTS, Debian 13, and Fedora 43 and 44. The totality of the Linux community comprises hundreds of distributions, although the distros that OpenAI has chosen here act as the base for a variety of “downstream” desktop distros or “flavors,” which should also be compatible with OpenAI’s apps as a result.\n\nOpenAI is a little behind Anthropic, which released a Claude desktop app for Linux about a month ago. Anthropic’s app is available for Ubuntu 22.04 or later and Debian 12 or later.\n\nTopics\n\nWant to see your live AI usage on your Mac’s icons? This clever new app lets you\n\nSarah Perez\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI launches ChatGPT desktop app for Linux",
+      "heading": 1
+    },
+    {
+      "text": "ChatGPT is on desktops across the world, but there’s one place where it’s been notably absent: the Linux community. Indeed, certain sectors of the open source developer community have been clamoring for OpenAI to bring its chatbot to their neck of the woods.",
+      "heading": 0
+    },
+    {
+      "text": "As of this week, OpenAI has rectified this oversight, launching a dedicated ChatGPT app for Linux.",
+      "heading": 0
+    },
+    {
+      "text": "“Linux has been one of the most-requested platforms for the desktop app, and this launch extends ChatGPT and Codex across every major desktop operating system,” the company said Tuesday.",
+      "heading": 0
+    },
+    {
+      "text": "The new app, which is being released in preview, will give Linux users the ability to use ChatGPT, ChatGPT Work, and Codex on a number of different distributions. The release is worldwide, as of Tuesday.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says that the distros that will be supported include desktop variants of Ubuntu 24.04 and 26.04 LTS, Debian 13, and Fedora 43 and 44. The totality of the Linux community comprises hundreds of distributions, although the distros that OpenAI has chosen here act as the base for a variety of “downstream” desktop distros or “flavors,” which should also be compatible with OpenAI’s apps as a result.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI is a little behind Anthropic, which released a Claude desktop app for Linux about a month ago. Anthropic’s app is available for Ubuntu 22.04 or later and Debian 12 or later.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

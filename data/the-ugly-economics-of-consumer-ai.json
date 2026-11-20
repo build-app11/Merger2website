@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "The ugly economics of consumer AI",
+  "slug": "the-ugly-economics-of-consumer-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+    "episode": ""
+  },
+  "words": 857,
+  "lines": 17,
+  "duration": 286,
+  "text": "After this week, you could argue that consumer AI is making a comeback.\n\nMeta’s personal AI assistant, Muse, and its plush-like mascot Jolly, has been a surprise hit. OpenAI’s Dots, released just yesterday, appears to be chasing the same cartoony personal assistant idea. And the up-and-coming Instinct assistant reached a $10 billion valuation on the strength of its agentic errand-running, focused on booking travel, making restaurant reservations, or cancelling subscriptions.\n\nThe bull case is easy to make. Agentic AI has finally gotten reliable enough to handle everyday tasks. Companies are increasingly pitching that service to everyday people, who are getting genuine value out of it. If you’re an investor, that looks an awful lot like the ChatGPT launch in 2022 — the raw power of AI opening up a product category that was never possible before. Who wouldn’t want a piece of the action?\n\nBut there’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough. Even staggeringly popular tech products are starting to hit a ceiling on how much money consumers are willing to pay, and it’s not clear that better models are actually leading to a more profitable consumer business. The result has been an industry-wide shift toward the Anthropic model, focusing on enterprise contracts and vertical-by-vertical expansion.\n\nIf products like Muse and Instinct are bucking that trend, it’s because they’re less concerned with monetization. But the underlying economics of consumer AI are not getting any better, and anyone getting into the business will have to grapple with them eventually.\n\nWe got a reminder of those economics in Andreessen Horowitz’s semiannual State of Markets report, which pulled its figures from a PNC research report from this summer. In two charts, they track the slowly growing percentage of consumers paying for AI services, alongside the slowly growing amount they’re paying. As of May, 2.2% of consumers were paying for AI, at an average spend of $31 a month.\n\nAndreessen puts a positive spin on this, saying, “it’s still so early when it comes to mature AI adoption and utilization.” There’s a lot of room to grow! But in both charts, the pace of growth seems awfully linear. Even as models make huge improvements, there isn’t a ton of movement in the number of customers willing to pay for AI or how much they’re willing to pay for it. The enormous performance jump from GPT-5.2 to Astra, for instance, is barely visible on the chart.\n\nThe per-consumer numbers are less striking, but still far below the standard break-even point. If you take Netflix as the standard for market-saturated online services (at 325 million subscribers), then $34 per customer only gets you to $11 billion in annual revenue, less than a third of OpenAI’s operating costs.\n\nIf you think PNC is underselling adoption, you can get similar numbers from Bank of America. In March, the firm found that roughly 3% of U.S. consumers paid for AI, up 40% from the previous year. A Menlo survey from September gives a slightly sunnier view, finding that a quarter of adults use AI daily and half of those users are paying for it.\n\nThe problem with the consumer approach has less to do with revenue than with cost. AI is an unusually expensive technology to operate, particularly compared to lightweight predecessors like social networking or cloud computing. Even hundreds of millions of paying customers doesn’t guarantee you’ll break even.\n\nTo its credit, OpenAI seems to have adapted well to these facts. The company’s widely reported pivot to enterprise has been largely successful, with enterprise bookings reportedly doubling since July. Even the Dots launch had a strong enterprise angle, showing how the new personal agent could be useful for software engineers and agency creatives. One long-standing way to make money from popular-but-cheap consumer services is to sell them to businesses at a markup, and OpenAI seems to be following the playbook.\n\nIt’s harder to say what this means for Muse and Instinct. Muse has the juggernaut of Meta’s personalized ad targeting behind it, which gives it more options for monetization and more time before it becomes an urgent question. Notably, Meta is already exploring the enterprise angle.\n\nInstinct has a separate plan that involves taking a cut of purchases made through the agent, which might raise the ceiling. Presumably it’ll also be able to avoid the cost of training a frontier model, which will help a lot.\n\nBut the ugly economics of consumer AI put a hard cap on how large the company can plausibly grow without tapping into enterprise revenue. It’s a lesson the major labs have already learned, and it’s one of the few things about the industry that doesn’t seem to be changing.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "After this week, you could argue that consumer AI is making a comeback.",
+      "heading": 0
+    },
+    {
+      "text": "Meta’s personal AI assistant, Muse, and its plush-like mascot Jolly, has been a surprise hit. OpenAI’s Dots, released just yesterday, appears to be chasing the same cartoony personal assistant idea. And the up-and-coming Instinct assistant reached a $10 billion valuation on the strength of its agentic errand-running, focused on booking travel, making restaurant reservations, or cancelling subscriptions.",
+      "heading": 0
+    },
+    {
+      "text": "The bull case is easy to make. Agentic AI has finally gotten reliable enough to handle everyday tasks. Companies are increasingly pitching that service to everyday people, who are getting genuine value out of it. If you’re an investor, that looks an awful lot like the ChatGPT launch in 2022 — the raw power of AI opening up a product category that was never possible before. Who wouldn’t want a piece of the action?",
+      "heading": 0
+    },
+    {
+      "text": "But there’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough. Even staggeringly popular tech products are starting to hit a ceiling on how much money consumers are willing to pay, and it’s not clear that better models are actually leading to a more profitable consumer business. The result has been an industry-wide shift toward the Anthropic model, focusing on enterprise contracts and vertical-by-vertical expansion.",
+      "heading": 0
+    },
+    {
+      "text": "If products like Muse and Instinct are bucking that trend, it’s because they’re less concerned with monetization. But the underlying economics of consumer AI are not getting any better, and anyone getting into the business will have to grapple with them eventually.",
+      "heading": 0
+    },
+    {
+      "text": "We got a reminder of those economics in Andreessen Horowitz’s semiannual State of Markets report, which pulled its figures from a PNC research report from this summer. In two charts, they track the slowly growing percentage of consumers paying for AI services, alongside the slowly growing amount they’re paying. As of May, 2.2% of consumers were paying for AI, at an average spend of $31 a month.",
+      "heading": 0
+    },
+    {
+      "text": "Andreessen puts a positive spin on this, saying, “it’s still so early when it comes to mature AI adoption and utilization.” There’s a lot of room to grow! But in both charts, the pace of growth seems awfully linear. Even as models make huge improvements, there isn’t a ton of movement in the number of customers willing to pay for AI or how much they’re willing to pay for it. The enormous performance jump from GPT-5.2 to Astra, for instance, is barely visible on the chart.",
+      "heading": 0
+    },
+    {
+      "text": "The per-consumer numbers are less striking, but still far below the standard break-even point. If you take Netflix as the standard for market-saturated online services (at 325 million subscribers), then $34 per customer only gets you to $11 billion in annual revenue, less than a third of OpenAI’s operating costs.",
+      "heading": 0
+    },
+    {
+      "text": "If you think PNC is underselling adoption, you can get similar numbers from Bank of America. In March, the firm found that roughly 3% of U.S. consumers paid for AI, up 40% from the previous year. A Menlo survey from September gives a slightly sunnier view, finding that a quarter of adults use AI daily and half of those users are paying for it.",
+      "heading": 0
+    },
+    {
+      "text": "The problem with the consumer approach has less to do with revenue than with cost. AI is an unusually expensive technology to operate, particularly compared to lightweight predecessors like social networking or cloud computing. Even hundreds of millions of paying customers doesn’t guarantee you’ll break even.",
+      "heading": 0
+    },
+    {
+      "text": "To its credit, OpenAI seems to have adapted well to these facts. The company’s widely reported pivot to enterprise has been largely successful, with enterprise bookings reportedly doubling since July. Even the Dots launch had a strong enterprise angle, showing how the new personal agent could be useful for software engineers and agency creatives. One long-standing way to make money from popular-but-cheap consumer services is to sell them to businesses at a markup, and OpenAI seems to be following the playbook.",
+      "heading": 0
+    },
+    {
+      "text": "It’s harder to say what this means for Muse and Instinct. Muse has the juggernaut of Meta’s personalized ad targeting behind it, which gives it more options for monetization and more time before it becomes an urgent question. Notably, Meta is already exploring the enterprise angle.",
+      "heading": 0
+    },
+    {
+      "text": "Instinct has a separate plan that involves taking a cut of purchases made through the agent, which might raise the ceiling. Presumably it’ll also be able to avoid the cost of training a frontier model, which will help a lot.",
+      "heading": 0
+    },
+    {
+      "text": "But the ugly economics of consumer AI put a hard cap on how large the company can plausibly grow without tapping into enterprise revenue. It’s a lesson the major labs have already learned, and it’s one of the few things about the industry that doesn’t seem to be changing.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
+  "slug": "tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-w",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Tony-Fadell_AI-Hardware_MIT-Future-Fest-1.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
+    "episode": ""
+  },
+  "words": 1168,
+  "lines": 24,
+  "duration": 389,
+  "text": "When Tony Fadell takes the stage at the inaugural MIT Future Fest, he projects a slide with three images of once-hyped AI devices that have already been discontinued: the Rabbit R1, the Humane Ai pin, and the Limitless pendant.\n\n“These were kind of the ‘Gen 1’ AI products, and because of my background, these companies called me and asked me to help them,” Fadell said. “I didn’t.”\n\nIt’s no surprise that these companies want Fadell’s advice. He’s credited as the “father of the iPod,” a co-creator of the iPhone, and the founder of Nest, the smart thermostat company acquired by Google.\n\n“You have to really understand what you’re trying to do, what pain you’re trying to solve,” he said. “In each of these cases, each one of them didn’t meet any kind of need — it was just interesting technology for geeks, and you’re like, ‘Okay, that’s neat, but it doesn’t really apply to my life.’”\n\nThese early AI devices promised the convenience of having a personal assistant, but didn’t actually work that well. Even if they did, most people have never had an assistant and know how they would use — or grow to trust — a personal robot helper.\n\n“It’s less than 0.01% of the world population that has ever had a human [assistant] do anything, and so when [companies] say, ‘Oh, we want an assistant,’ that’s a bunch of people who have assistants saying it,” he said. “Most consumers don’t even know what an assistant is.”\n\nFadell goes on to explain to those of us in the 99.99% that hiring a trustworthy personal assistant isn’t as straightforward as pulling the most promising resume out of a pile of applications.\n\n“It took me a couple of years first to understand how best to utilize [an assistant], and then to trust them with the most sensitive data, and have them be an agent where they’re setting up meetings with people and working with my bank,” he said. “I understand we have this vision of the future, but there’s a lot of steps to get the general consumer and even the general business on this path.”\n\nIt’s hard to talk about the struggles of building trust in your personal assistant without sounding a bit entitled, but Fadell has a point. When you hire a human assistant, you’re not giving them your bank account login on day one. We’re heading into a world where anyone can have a personal AI assistant, but these tools are only valuable if we can trust them to be completely secure.\n\nAt this point, establishing trust with an AI assistant seems even harder than relying on a human. Meta recently launched Muse, its all-purpose AI assistant, but users have reason to be wary. A security researcher quickly found a serious vulnerability in Muse after launch, and a recent 404 Media report states that some Meta employees discovered security issues that prompted multiple teams to embark upon a “mad dash” to fix these problems before launch, working overtime.\n\n“Trust and safety are going to be paramount with anything that we turn over to some kind of intelligence,” Fadell said. “The only company I could see right now — maybe one other — is Apple who could do this. Apple has all the hardware, they have all the chips, they have all the pieces, but they don’t have all the AI stuff.”\n\nEven if it’s not Apple that ultimately produces the stickiest AI agent, Fadell predicts that a successful agent will have to operate on-device only, both for the sake of privacy and to keep the tech lightweight.\n\n“When you’re hearing all of these things about, ‘Oh, data centers are going to conquer the world,’ … I don’t believe it,” he said. “I’ve seen this before. I’ve seen this play out in the internet days and what have you. We have so much power on the device now, and even more compute, and they’re still battery operated.”\n\nBy keeping sensitive data on-device, rather than transmitting it through the cloud, Apple has garnered trust from users to share their biometric data through features like Face ID. As Fadell notes, Apple seems to have more goodwill with consumers than its competitors when it comes to privacy, but unlike other top tech companies, Apple doesn’t have a world-class AI model of its own — the new Siri AI runs on custom-built versions of Google’s Gemini.\n\nWhile Apple lags in proprietary AI, it is leaps ahead in hardware. Fadell theorizes that companies like Meta and OpenAI are turning their attention toward gadgets because they don’t have billions of devices in circulation like Apple does.\n\n“It’s because they don’t have access to the sensors on your phone. They’re like, ‘Oh, we’ll need video,’ and you have to check, ‘Yes, I’ll give you video.’ Then they say, ‘Well, we need audio.’ Check. ‘We need your GPS location.’ Check. And before you know it, it becomes a list of 20 things or more than you have then allowed them to have,” he said. “So what do they do? They go and make a device with all that stuff in it without a screen… and then they just Bluetooth or Wi-Fi into your phone and then back up to the web, or into a 5G network, so they can get all the sensor data.”\n\nGiven his history creating the iPhone and iPod, it might seem like Fadell is still looking at his former employer through rose-colored glasses. While he may give Apple credit where due, he hasn’t been shy to call Apple out when he thinks they’re messing up.\n\nWhen an audience member asks about the luck involved in finding product-market fit, Fadell points out that it’s more difficult for startups to manufacture that luck, since a failed product can spell the end of the company.\n\n“Because it’s a startup, you get one shot,” he quipped. “It’s not like Apple with the Vision Pro.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "When Tony Fadell takes the stage at the inaugural MIT Future Fest, he projects a slide with three images of once-hyped AI devices that have already been discontinued: the Rabbit R1, the Humane Ai pin, and the Limitless pendant.",
+      "heading": 0
+    },
+    {
+      "text": "“These were kind of the ‘Gen 1’ AI products, and because of my background, these companies called me and asked me to help them,” Fadell said. “I didn’t.”",
+      "heading": 0
+    },
+    {
+      "text": "It’s no surprise that these companies want Fadell’s advice. He’s credited as the “father of the iPod,” a co-creator of the iPhone, and the founder of Nest, the smart thermostat company acquired by Google.",
+      "heading": 0
+    },
+    {
+      "text": "“You have to really understand what you’re trying to do, what pain you’re trying to solve,” he said. “In each of these cases, each one of them didn’t meet any kind of need — it was just interesting technology for geeks, and you’re like, ‘Okay, that’s neat, but it doesn’t really apply to my life.’”",
+      "heading": 0
+    },
+    {
+      "text": "These early AI devices promised the convenience of having a personal assistant, but didn’t actually work that well. Even if they did, most people have never had an assistant and know how they would use — or grow to trust — a personal robot helper.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s less than 0.01% of the world population that has ever had a human [assistant] do anything, and so when [companies] say, ‘Oh, we want an assistant,’ that’s a bunch of people who have assistants saying it,” he said. “Most consumers don’t even know what an assistant is.”",
+      "heading": 0
+    },
+    {
+      "text": "Fadell goes on to explain to those of us in the 99.99% that hiring a trustworthy personal assistant isn’t as straightforward as pulling the most promising resume out of a pile of applications.",
+      "heading": 0
+    },
+    {
+      "text": "“It took me a couple of years first to understand how best to utilize [an assistant], and then to trust them with the most sensitive data, and have them be an agent where they’re setting up meetings with people and working with my bank,” he said. “I understand we have this vision of the future, but there’s a lot of steps to get the general consumer and even the general business on this path.”",
+      "heading": 0
+    },
+    {
+      "text": "It’s hard to talk about the struggles of building trust in your personal assistant without sounding a bit entitled, but Fadell has a point. When you hire a human assistant, you’re not giving them your bank account login on day one. We’re heading into a world where anyone can have a personal AI assistant, but these tools are only valuable if we can trust them to be completely secure.",
+      "heading": 0
+    },
+    {
+      "text": "At this point, establishing trust with an AI assistant seems even harder than relying on a human. Meta recently launched Muse, its all-purpose AI assistant, but users have reason to be wary. A security researcher quickly found a serious vulnerability in Muse after launch, and a recent 404 Media report states that some Meta employees discovered security issues that prompted multiple teams to embark upon a “mad dash” to fix these problems before launch, working overtime.",
+      "heading": 0
+    },
+    {
+      "text": "“Trust and safety are going to be paramount with anything that we turn over to some kind of intelligence,” Fadell said. “The only company I could see right now — maybe one other — is Apple who could do this. Apple has all the hardware, they have all the chips, they have all the pieces, but they don’t have all the AI stuff.”",
+      "heading": 0
+    },
+    {
+      "text": "Even if it’s not Apple that ultimately produces the stickiest AI agent, Fadell predicts that a successful agent will have to operate on-device only, both for the sake of privacy and to keep the tech lightweight.",
+      "heading": 0
+    },
+    {
+      "text": "“When you’re hearing all of these things about, ‘Oh, data centers are going to conquer the world,’ … I don’t believe it,” he said. “I’ve seen this before. I’ve seen this play out in the internet days and what have you. We have so much power on the device now, and even more compute, and they’re still battery operated.”",
+      "heading": 0
+    },
+    {
+      "text": "By keeping sensitive data on-device, rather than transmitting it through the cloud, Apple has garnered trust from users to share their biometric data through features like Face ID. As Fadell notes, Apple seems to have more goodwill with consumers than its competitors when it comes to privacy, but unlike other top tech companies, Apple doesn’t have a world-class AI model of its own — the new Siri AI runs on custom-built versions of Google’s Gemini.",
+      "heading": 0
+    },
+    {
+      "text": "While Apple lags in proprietary AI, it is leaps ahead in hardware. Fadell theorizes that companies like Meta and OpenAI are turning their attention toward gadgets because they don’t have billions of devices in circulation like Apple does.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s because they don’t have access to the sensors on your phone. They’re like, ‘Oh, we’ll need video,’ and you have to check, ‘Yes, I’ll give you video.’ Then they say, ‘Well, we need audio.’ Check. ‘We need your GPS location.’ Check. And before you know it, it becomes a list of 20 things or more than you have then allowed them to have,” he said. “So what do they do? They go and make a device with all that stuff in it without a screen… and then they just Bluetooth or Wi-Fi into your phone and then back up to the web, or into a 5G network, so they can get all the sensor data.”",
+      "heading": 0
+    },
+    {
+      "text": "Given his history creating the iPhone and iPod, it might seem like Fadell is still looking at his former employer through rose-colored glasses. While he may give Apple credit where due, he hasn’t been shy to call Apple out when he thinks they’re messing up.",
+      "heading": 0
+    },
+    {
+      "text": "When an audience member asks about the luck involved in finding product-market fit, Fadell points out that it’s more difficult for startups to manufacture that luck, since a failed product can spell the end of the company.",
+      "heading": 0
+    },
+    {
+      "text": "“Because it’s a startup, you get one shot,” he quipped. “It’s not like Apple with the Vision Pro.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

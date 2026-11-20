@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+  "slug": "amazon-s-bee-launches-two-new-personal-ai-devices-starting-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+    "episode": ""
+  },
+  "words": 620,
+  "lines": 17,
+  "duration": 207,
+  "text": "Amazon’s personal AI wearable maker, Bee, is announcing its first new products since being acquired by the retail giant last year. The tech company on Thursday introduced the Bee Frontier, the next generation of its device that can be worn on the wrist or pinned to clothes, along with Bee Eclipse, a credit-card-sized device that magnetically attaches to the back of your smartphone.\n\nThe latter puts Bee into more direct competition with AI devices like the Plaud Note or Pocket, but at a lower price point — the Bee Frontier is $74.99, compared with $159 for the Plaud Note (or $189 for the Note Pro), or $129 for the Pocket AI device.\n\nThe Bee Frontier will come in Onyx, Lavender, and Sage, while the $99.99 Bee Eclipse will be offered in Silver, Midnight, Honey, and Blush.\n\nLike the original Bee, the idea with the new devices is to leverage AI to take notes from your everyday conversations, allowing you to remember the important things that were said, and then turn those into actionable to-dos, summaries, and insights.\n\nFor instance, if you discussed making plans with friends, the Bee would remember the date and time you agreed on, then create a calendar invite. You could also use the Bee to take lecture notes in class, or to jot down the care plan you discussed with a doctor, among other things.\n\nAll Bee devices can create conversation summaries and recaps for free, and offer 14 days of memory. With an $11.99 per month Bee Pro subscription, users receive unlimited conversation summaries and integrations with Amazon.com, Alexa+, and third-party applications. Pro users also get suggested to-dos, daily memories, a personal chat assistant, and conversation templates.\n\nTo make all this possible, Bee devices use a private computing security architecture, which doesn’t store the raw audio from your conversations. Instead, audio is processed in real time and then deleted. Transcripts of the conversation are encrypted using keys that your device creates and controls, which means no one else, including Amazon employees, can access those files unless you manually and intentionally share them.\n\nIn addition, you can opt to connect the Bee to Alexa, allowing your Echo device to use its ability to identify your voice, a feature called Voice ID, to recognize when you’re speaking. It can then record your conversations to provide Bee’s insights. (This aspect of Bee is optional, and Amazon notes you can delete transcripts and summaries at any time.)\n\nWith its new connections to Amazon.com and Alexa, Bee users can make purchases from Amazon or ask Alexa for their Bee insights, summaries, or to-dos hands-free.\n\nBee also works with your existing productivity software, like Gmail, Google Calendar, and Microsoft Outlook, so it can draft emails, set up meetings, surface action items, and more.\n\nPlus, you can upload photos to Bee or connect it with Apple’s HealthKit to add a picture of your overall wellness to be integrated into your provided insights.\n\nThe Bee Frontier and Bee Eclipse both have just one button that turns the device off and on, and include an indicator light when it’s summarizing a conversation. The Frontier also offers IP67 water resistance, up to seven days of battery life, USB-C charging, and dual microphones with advanced noise filtering.\n\nAll Bee devices come with a companion mobile app, which has also been newly redesigned, plus a new desktop app.\n\nThe Bee Frontier is available now on Amazon, and the Eclipse will be available soon thereafter.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Amazon’s personal AI wearable maker, Bee, is announcing its first new products since being acquired by the retail giant last year. The tech company on Thursday introduced the Bee Frontier, the next generation of its device that can be worn on the wrist or pinned to clothes, along with Bee Eclipse, a credit-card-sized device that magnetically attaches to the back of your smartphone.",
+      "heading": 0
+    },
+    {
+      "text": "The latter puts Bee into more direct competition with AI devices like the Plaud Note or Pocket, but at a lower price point — the Bee Frontier is $74.99, compared with $159 for the Plaud Note (or $189 for the Note Pro), or $129 for the Pocket AI device.",
+      "heading": 0
+    },
+    {
+      "text": "The Bee Frontier will come in Onyx, Lavender, and Sage, while the $99.99 Bee Eclipse will be offered in Silver, Midnight, Honey, and Blush.",
+      "heading": 0
+    },
+    {
+      "text": "Like the original Bee, the idea with the new devices is to leverage AI to take notes from your everyday conversations, allowing you to remember the important things that were said, and then turn those into actionable to-dos, summaries, and insights.",
+      "heading": 0
+    },
+    {
+      "text": "For instance, if you discussed making plans with friends, the Bee would remember the date and time you agreed on, then create a calendar invite. You could also use the Bee to take lecture notes in class, or to jot down the care plan you discussed with a doctor, among other things.",
+      "heading": 0
+    },
+    {
+      "text": "All Bee devices can create conversation summaries and recaps for free, and offer 14 days of memory. With an $11.99 per month Bee Pro subscription, users receive unlimited conversation summaries and integrations with Amazon.com, Alexa+, and third-party applications. Pro users also get suggested to-dos, daily memories, a personal chat assistant, and conversation templates.",
+      "heading": 0
+    },
+    {
+      "text": "To make all this possible, Bee devices use a private computing security architecture, which doesn’t store the raw audio from your conversations. Instead, audio is processed in real time and then deleted. Transcripts of the conversation are encrypted using keys that your device creates and controls, which means no one else, including Amazon employees, can access those files unless you manually and intentionally share them.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, you can opt to connect the Bee to Alexa, allowing your Echo device to use its ability to identify your voice, a feature called Voice ID, to recognize when you’re speaking. It can then record your conversations to provide Bee’s insights. (This aspect of Bee is optional, and Amazon notes you can delete transcripts and summaries at any time.)",
+      "heading": 0
+    },
+    {
+      "text": "With its new connections to Amazon.com and Alexa, Bee users can make purchases from Amazon or ask Alexa for their Bee insights, summaries, or to-dos hands-free.",
+      "heading": 0
+    },
+    {
+      "text": "Bee also works with your existing productivity software, like Gmail, Google Calendar, and Microsoft Outlook, so it can draft emails, set up meetings, surface action items, and more.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, you can upload photos to Bee or connect it with Apple’s HealthKit to add a picture of your overall wellness to be integrated into your provided insights.",
+      "heading": 0
+    },
+    {
+      "text": "The Bee Frontier and Bee Eclipse both have just one button that turns the device off and on, and include an indicator light when it’s summarizing a conversation. The Frontier also offers IP67 water resistance, up to seven days of battery life, USB-C charging, and dual microphones with advanced noise filtering.",
+      "heading": 0
+    },
+    {
+      "text": "All Bee devices come with a companion mobile app, which has also been newly redesigned, plus a new desktop app.",
+      "heading": 0
+    },
+    {
+      "text": "The Bee Frontier is available now on Amazon, and the Eclipse will be available soon thereafter.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

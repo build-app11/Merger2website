@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Arga Labs is building a better way to train enterprise AI agents",
+  "slug": "arga-labs-is-building-a-better-way-to-train-enterprise-ai-ag",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Arga-Headshots.jpg?resize=1099,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+    "episode": ""
+  },
+  "words": 575,
+  "lines": 15,
+  "duration": 192,
+  "text": "Making AI agents work in practice is a lot harder than many companies expected — but there’s help on the way. A new crop of startups is finding better ways to test and train those agents before they get deployed, particularly on the complexities of the modern enterprise.\n\nArga Labs is one such company, which announced its $10 million seed round on Wednesday. The round was led by General Catalyst with participation from Box Group, Emergence, Gradient, and SV Angel.\n\nArga Labs builds training environments for enterprise software like Salesforce, Workday, and email clients. Where most testing environments settle for a stateless API end point, Arga builds a full-scale digital twin of the program, effectively cloning an entire enterprise program with permission systems and web hooks intact. The result is a more robust way to train agents across multiple systems.\n\nCEO and co-founder Phillip Li gives the example of a prospective client creating a lead in Salesforce, while their colleague reaches out separately through HubSpot.\n\n“Can the agent correctly identify that these two are the same company?” Li says. “Are they able to check whether or not they’ve only sent the email once? Are they able to identify who to send the email to out of the two opportunities?”\n\nAgentic systems still struggle with this kind of ambiguity — and he sees Arga Labs’ tools as critical to helping them improve.\n\nNormally, the agent could be trained for a task like this through reinforcement learning: essentially, running the scenario tens of thousands of times and letting only the successful strategies through. But the nature of enterprise software makes that scale of testing nearly impossible. There’s no easy way to “reset” a system like Salesforce or Outlook when you need to run the same scenario again, much less clone it\n\nArga Labs’ solution is to create a digital re-creation of that software — replicating its structure the way a crash-test dummy replicates a person. Because Arga has complete control over the environment, it’s simple to reset or modify. The company can also run many environments at once, training agents on the complex interactions between different programs. The idea is to replicate a person’s full work environment, with specific tasks overlapping between different programs and knowledge systems.\n\nYou can think of it as a way to close the reinforcement gap between coding and other applications. Part of the reason AI coding tools have advanced so quickly is that we already have sophisticated tools for deploying, reversing, and analyzing new code. Those tools make it much easier to set up RL environments for coding, which lets us test and train AI systems on increasingly complex coding tasks.\n\nThose tools don’t exist for most business software — yet. But once they do, you can expect AI systems to get much better at using those programs, revolutionizing other industries the same way they’ve revolutionized coding.\n\nGeneral Catalysts’ managing director, Yuri Sagalov, who also runs the firm’s seed program, says he sees a growing need for agentic testing tools like Arga.\n\n“I think that a lot of the economic value from agents is from using business applications,” Sagalov told TechCrunch. “Having a repeatable sandbox environment is very important, and much more important with agents than it was with humans.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "Making AI agents work in practice is a lot harder than many companies expected — but there’s help on the way. A new crop of startups is finding better ways to test and train those agents before they get deployed, particularly on the complexities of the modern enterprise.",
+      "heading": 0
+    },
+    {
+      "text": "Arga Labs is one such company, which announced its $10 million seed round on Wednesday. The round was led by General Catalyst with participation from Box Group, Emergence, Gradient, and SV Angel.",
+      "heading": 0
+    },
+    {
+      "text": "Arga Labs builds training environments for enterprise software like Salesforce, Workday, and email clients. Where most testing environments settle for a stateless API end point, Arga builds a full-scale digital twin of the program, effectively cloning an entire enterprise program with permission systems and web hooks intact. The result is a more robust way to train agents across multiple systems.",
+      "heading": 0
+    },
+    {
+      "text": "CEO and co-founder Phillip Li gives the example of a prospective client creating a lead in Salesforce, while their colleague reaches out separately through HubSpot.",
+      "heading": 0
+    },
+    {
+      "text": "“Can the agent correctly identify that these two are the same company?” Li says. “Are they able to check whether or not they’ve only sent the email once? Are they able to identify who to send the email to out of the two opportunities?”",
+      "heading": 0
+    },
+    {
+      "text": "Agentic systems still struggle with this kind of ambiguity — and he sees Arga Labs’ tools as critical to helping them improve.",
+      "heading": 0
+    },
+    {
+      "text": "Normally, the agent could be trained for a task like this through reinforcement learning: essentially, running the scenario tens of thousands of times and letting only the successful strategies through. But the nature of enterprise software makes that scale of testing nearly impossible. There’s no easy way to “reset” a system like Salesforce or Outlook when you need to run the same scenario again, much less clone it",
+      "heading": 0
+    },
+    {
+      "text": "Arga Labs’ solution is to create a digital re-creation of that software — replicating its structure the way a crash-test dummy replicates a person. Because Arga has complete control over the environment, it’s simple to reset or modify. The company can also run many environments at once, training agents on the complex interactions between different programs. The idea is to replicate a person’s full work environment, with specific tasks overlapping between different programs and knowledge systems.",
+      "heading": 0
+    },
+    {
+      "text": "You can think of it as a way to close the reinforcement gap between coding and other applications. Part of the reason AI coding tools have advanced so quickly is that we already have sophisticated tools for deploying, reversing, and analyzing new code. Those tools make it much easier to set up RL environments for coding, which lets us test and train AI systems on increasingly complex coding tasks.",
+      "heading": 0
+    },
+    {
+      "text": "Those tools don’t exist for most business software — yet. But once they do, you can expect AI systems to get much better at using those programs, revolutionizing other industries the same way they’ve revolutionized coding.",
+      "heading": 0
+    },
+    {
+      "text": "General Catalysts’ managing director, Yuri Sagalov, who also runs the firm’s seed program, says he sees a growing need for agentic testing tools like Arga.",
+      "heading": 0
+    },
+    {
+      "text": "“I think that a lot of the economic value from agents is from using business applications,” Sagalov told TechCrunch. “Having a repeatable sandbox environment is very important, and much more important with agents than it was with humans.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
+  "slug": "is-jensen-huang-s-job-on-the-line-yale-s-jeffrey-sonnenfeld",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+    "episode": ""
+  },
+  "words": 1310,
+  "lines": 17,
+  "duration": 437,
+  "text": "Nvidia’s board announced Sunday that it’s launching an independent investigation after CEO Jensen Huang told staff he was unfaithful to his wife. But this isn’t a case of just another CEO having an extramarital affair. The romantic interest is Megaspeed executive Alice Huang, whom U.S. officials believe is a Chinese spy who was feeding information back to Beijing. In short, the stakes reach well beyond Nvidia, given how many tech and financial partners depend on its place at the center of the AI economy. “I’m responsible for an entire industry,” Huang recently told Bloomberg in a sit-down.\n\nA spokesperson for the Chinese Embassy in Washington dismissed the allegations in late October as “ groundless smears and slanders,” and no one has been charged. But U.S. intelligence officials reportedly briefed President Donald Trump about their concerns a year ago, and unnamed senior officials inside the Trump administration told the Times that they doubt Huang could have remained unaware all that time of Alice Huang’s intelligence-gathering role for China. When Trump was first briefed, the Times reported, officials didn’t believe Huang knew, and it isn’t clear whether their assessment has changed. The board, meanwhile, says it sees no sign that national security or company secrets were compromised.\n\nThe question is whether Huang can survive this. To think through what could come next, this editor spoke Sunday with famed professor Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management and founder of the Chief Executive Leadership Institute, which has hosted Huang at its CEO summits. Sonnenfeld likes Huang, he said, and he called Huang’s career salvageable but put the odds at “about a 50-50.” He also had a lot more food for thought.\n\nFirst, the damage. Until now, Huang has been “revered and trusted by everybody in technology,” Sonnenfeld noted. But he called this episode “remarkably poor judgment.” Even if Huang was merely naive, he said, “any employee in Nvidia other than him would be fired over this,” and the recklessness alone would mean “an irretrievable loss of confidence.”\n\nSonnenfeld suggested that Huang’s saving grace could be what social psychologists call idiosyncrasy credits, if he can prove he was being duped. The term comes from Edwin Hollander, a social psychologist who proposed in a 1958 paper that people earn latitude in a group by showing competence and following its rules. Huang has been earning latitude since he co-founded Nvidia in 1993. But all that goodwill can run out when a screw-up looks self-serving or touches the group’s core norms. Here that group includes Nvidia’s board, its roughly 42,000 employees who are bound by security rules, and, in a looser sense, the U.S. government, given it restricts its exports.\n\nWe also talked about precedents, except, as it turns out, there really are none for what’s unfolding right now. Executives who survive personal scandals sometimes pick up where they left off at another company, Sonnenfeld observed. Former HP CEO Mark Hurd is one example. Between 2005 and 2010, he drove HP to the top of the tech industry by revenue, then was pressured to resign after he filed inaccurate expense reports that hid a personal relationship with a contractor. Oracle hired him about a month later. Huang has no equivalent because Nvidia is his company\n\nAs for the bench at Nvidia, that doesn’t really exist either. While there is typically a hierarchy inside companies of Nvidia’s scale and importance, Huang has kept things as flat as possible, with about 60 direct reports by his own account. That structure makes it hard to figure out who would succeed him (though his children, both of whom work at Nvidia, are sometimes the subject of succession speculation ). That won’t stop the worldwide guessing game that’s sure to follow. And boards in crisis often reach for a “messianic solution” from outside, Sonnenfeld said, floating former Google CEO Eric Schmidt as one idea.\n\nNvidia’s role at the center of a massive and complex circular financing web is what makes this particular predicament so tricky and, undoubtedly, terrifying for a wide number of constituents. Nvidia isn’t just the biggest provider of chips driving the AI boom but also largely the bank behind the buildout. In addition to stakes in hundreds of smaller startups, Nvidia has invested in OpenAI, Anthropic, xAI, CoreWeave, and Nebius. In August, it also signed preliminary agreements with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR aimed at mobilizing more than $500 billion over time, and Huang has said Nvidia could backstop up to a quarter of it. The move was widely interpreted as a way to spread risk. Now, a leadership crisis at the center is how a stumble becomes a collapse.\n\nSo what’s Nvidia’s board likely doing at this moment? Sonnenfeld noted that Huang’s constant, public advocacy for selling advanced chips to China had already made people anxious. Anthropic’s Dario Amodei, whose company Nvidia has backed, had a lot to say about selling chips to China at Davos back in January, likening it to “ selling nuclear weapons to North Korea.”\n\nNow the board’s independent members — meaning everyone but Huang — will have to establish what technology reached China if any, and by what routes, including by better understanding Nvidia’s relationship with Megaspeed. The Singapore cloud company, which grew out of a Chinese gaming business and became Nvidia’s largest buyer in Southeast Asia, bought roughly $2 billion of its chips, The New York Times reported in October 2025, raising broader questions about whether it was helping China circumvent U.S. export restrictions by re-exporting the chips to China or renting them to Chinese customers remotely. (An Nvidia spokesperson told The Hill after the Times report that the allegations were “thoroughly investigated and debunked last year.”)\n\nIn the meantime, Huang will keep running the company, Nvidia said Sunday. That’ll be a tall order, even for a CEO who already spends much of his time traveling the world to promote Nvidia. For starters, three House chairmen want a closed-door briefing from Huang on November 18. Nvidia is also reporting its newest earnings on November 17. Sonnenfeld expects that even if Huang keeps the title, he’ll have to hand off some of the day-to-day decision-making.\n\nOnly one thing is certain right now. Huang doesn’t own the kind of super-voting stock that would cement his power at Nvidia. Sonnenfeld often argues for dual-class structures that empower founders, and he says Huang’s success without one has been the best counterargument to that case. But if Huang had one, Sonnenfeld continued, removing him would be harder.\n\nThis episode may be remembered as a pivotal moment for how the tech industry guards its secrets. Sonnenfeld argues tech has been “way too lax” compared with defense contractors that face clearance regimes. The arrest last month of an OpenAI engineer points to the same problem. He was accused of hiding a recording device behind a TV in an executive conference room, and while OpenAI has said it has no indication that model weights, source code, or customer data were accessed, the case highlights how exposed tech companies are to people who get close.\n\nHuang may well survive the investigation (Sonnenfeld hopes the board clears him of knowingly aiding anyone). The bigger test comes when Nvidia’s employees, customers, and partners, and, indirectly, the millions of Americans with Nvidia in their 401(k) plans, have to decide whether an AI economy built largely on the judgment of Huang still makes sense.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor in Chief & General Manager",
+  "paragraphs": [
+    {
+      "text": "Nvidia’s board announced Sunday that it’s launching an independent investigation after CEO Jensen Huang told staff he was unfaithful to his wife. But this isn’t a case of just another CEO having an extramarital affair. The romantic interest is Megaspeed executive Alice Huang, whom U.S. officials believe is a Chinese spy who was feeding information back to Beijing. In short, the stakes reach well beyond Nvidia, given how many tech and financial partners depend on its place at the center of the AI economy. “I’m responsible for an entire industry,” Huang recently told Bloomberg in a sit-down.",
+      "heading": 0
+    },
+    {
+      "text": "A spokesperson for the Chinese Embassy in Washington dismissed the allegations in late October as “ groundless smears and slanders,” and no one has been charged. But U.S. intelligence officials reportedly briefed President Donald Trump about their concerns a year ago, and unnamed senior officials inside the Trump administration told the Times that they doubt Huang could have remained unaware all that time of Alice Huang’s intelligence-gathering role for China. When Trump was first briefed, the Times reported, officials didn’t believe Huang knew, and it isn’t clear whether their assessment has changed. The board, meanwhile, says it sees no sign that national security or company secrets were compromised.",
+      "heading": 0
+    },
+    {
+      "text": "The question is whether Huang can survive this. To think through what could come next, this editor spoke Sunday with famed professor Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management and founder of the Chief Executive Leadership Institute, which has hosted Huang at its CEO summits. Sonnenfeld likes Huang, he said, and he called Huang’s career salvageable but put the odds at “about a 50-50.” He also had a lot more food for thought.",
+      "heading": 0
+    },
+    {
+      "text": "First, the damage. Until now, Huang has been “revered and trusted by everybody in technology,” Sonnenfeld noted. But he called this episode “remarkably poor judgment.” Even if Huang was merely naive, he said, “any employee in Nvidia other than him would be fired over this,” and the recklessness alone would mean “an irretrievable loss of confidence.”",
+      "heading": 0
+    },
+    {
+      "text": "Sonnenfeld suggested that Huang’s saving grace could be what social psychologists call idiosyncrasy credits, if he can prove he was being duped. The term comes from Edwin Hollander, a social psychologist who proposed in a 1958 paper that people earn latitude in a group by showing competence and following its rules. Huang has been earning latitude since he co-founded Nvidia in 1993. But all that goodwill can run out when a screw-up looks self-serving or touches the group’s core norms. Here that group includes Nvidia’s board, its roughly 42,000 employees who are bound by security rules, and, in a looser sense, the U.S. government, given it restricts its exports.",
+      "heading": 0
+    },
+    {
+      "text": "We also talked about precedents, except, as it turns out, there really are none for what’s unfolding right now. Executives who survive personal scandals sometimes pick up where they left off at another company, Sonnenfeld observed. Former HP CEO Mark Hurd is one example. Between 2005 and 2010, he drove HP to the top of the tech industry by revenue, then was pressured to resign after he filed inaccurate expense reports that hid a personal relationship with a contractor. Oracle hired him about a month later. Huang has no equivalent because Nvidia is his company",
+      "heading": 0
+    },
+    {
+      "text": "As for the bench at Nvidia, that doesn’t really exist either. While there is typically a hierarchy inside companies of Nvidia’s scale and importance, Huang has kept things as flat as possible, with about 60 direct reports by his own account. That structure makes it hard to figure out who would succeed him (though his children, both of whom work at Nvidia, are sometimes the subject of succession speculation ). That won’t stop the worldwide guessing game that’s sure to follow. And boards in crisis often reach for a “messianic solution” from outside, Sonnenfeld said, floating former Google CEO Eric Schmidt as one idea.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s role at the center of a massive and complex circular financing web is what makes this particular predicament so tricky and, undoubtedly, terrifying for a wide number of constituents. Nvidia isn’t just the biggest provider of chips driving the AI boom but also largely the bank behind the buildout. In addition to stakes in hundreds of smaller startups, Nvidia has invested in OpenAI, Anthropic, xAI, CoreWeave, and Nebius. In August, it also signed preliminary agreements with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR aimed at mobilizing more than $500 billion over time, and Huang has said Nvidia could backstop up to a quarter of it. The move was widely interpreted as a way to spread risk. Now, a leadership crisis at the center is how a stumble becomes a collapse.",
+      "heading": 0
+    },
+    {
+      "text": "So what’s Nvidia’s board likely doing at this moment? Sonnenfeld noted that Huang’s constant, public advocacy for selling advanced chips to China had already made people anxious. Anthropic’s Dario Amodei, whose company Nvidia has backed, had a lot to say about selling chips to China at Davos back in January, likening it to “ selling nuclear weapons to North Korea.”",
+      "heading": 0
+    },
+    {
+      "text": "Now the board’s independent members — meaning everyone but Huang — will have to establish what technology reached China if any, and by what routes, including by better understanding Nvidia’s relationship with Megaspeed. The Singapore cloud company, which grew out of a Chinese gaming business and became Nvidia’s largest buyer in Southeast Asia, bought roughly $2 billion of its chips, The New York Times reported in October 2025, raising broader questions about whether it was helping China circumvent U.S. export restrictions by re-exporting the chips to China or renting them to Chinese customers remotely. (An Nvidia spokesperson told The Hill after the Times report that the allegations were “thoroughly investigated and debunked last year.”)",
+      "heading": 0
+    },
+    {
+      "text": "In the meantime, Huang will keep running the company, Nvidia said Sunday. That’ll be a tall order, even for a CEO who already spends much of his time traveling the world to promote Nvidia. For starters, three House chairmen want a closed-door briefing from Huang on November 18. Nvidia is also reporting its newest earnings on November 17. Sonnenfeld expects that even if Huang keeps the title, he’ll have to hand off some of the day-to-day decision-making.",
+      "heading": 0
+    },
+    {
+      "text": "Only one thing is certain right now. Huang doesn’t own the kind of super-voting stock that would cement his power at Nvidia. Sonnenfeld often argues for dual-class structures that empower founders, and he says Huang’s success without one has been the best counterargument to that case. But if Huang had one, Sonnenfeld continued, removing him would be harder.",
+      "heading": 0
+    },
+    {
+      "text": "This episode may be remembered as a pivotal moment for how the tech industry guards its secrets. Sonnenfeld argues tech has been “way too lax” compared with defense contractors that face clearance regimes. The arrest last month of an OpenAI engineer points to the same problem. He was accused of hiding a recording device behind a TV in an executive conference room, and while OpenAI has said it has no indication that model weights, source code, or customer data were accessed, the case highlights how exposed tech companies are to people who get close.",
+      "heading": 0
+    },
+    {
+      "text": "Huang may well survive the investigation (Sonnenfeld hopes the board clears him of knowingly aiding anyone). The bigger test comes when Nvidia’s employees, customers, and partners, and, indirectly, the millions of Americans with Nvidia in their 401(k) plans, have to decide whether an AI economy built largely on the judgment of Huang still makes sense.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor in Chief & General Manager",
+      "heading": 1
+    }
+  ]
+}

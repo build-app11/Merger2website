@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+  "slug": "chrome-s-ai-powered-autofill-can-now-dig-through-your-gmail",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/autofill-ai-chrome.jpg?resize=1200,643",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+    "episode": ""
+  },
+  "words": 324,
+  "lines": 19,
+  "duration": 108,
+  "text": "Posted:\n\nSarah Perez\n\nChrome’s AI-powered Autofill can now dig through your Gmail to fill out forms\n\nGoogle’s Chrome browser is getting an update that will improve its autofill capabilities using AI. On Wednesday, the company said that Chrome will get an advanced version of autofill that will help users fill out online forms with suggestions pulled from their Gmail.\n\nThat means Chrome could suggest things you might need to know, like a flight confirmation number, membership ID, tracking information, order number, address, phone number, or credit card number by referencing your email.\n\nThe update is an expansion of Google’s Personal Intelligence, which already allows users to connect their Google Apps to its AI assistant, Gemini, to retrieve certain details and then use them to answer complex questions.\n\nThough seemingly minor, the update could make Chrome easier to use, which could give users another reason to continue to use Google’s browser and stay in its AI ecosystem. It’s reminiscent of one of Apple’s most appreciated features: the ability to automatically detect verification codes sent via text and display them above the keyboard, allowing users to enter them with a single tap.\n\nAs with other Personalized Intelligence features, users can decide whether or not to enable enhanced autofill from their Chrome settings. Sensitive data is encrypted, Google notes.\n\nThe feature is rolling out to U.S. users on the desktop, and in the iOS and Android apps for Gemini in Chrome.\n\nTopics\n\nGoogle gives Gemini the ability to use your Mac for you\n\nPalmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "heading": 0
+    },
+    {
+      "text": "Google’s Chrome browser is getting an update that will improve its autofill capabilities using AI. On Wednesday, the company said that Chrome will get an advanced version of autofill that will help users fill out online forms with suggestions pulled from their Gmail.",
+      "heading": 0
+    },
+    {
+      "text": "That means Chrome could suggest things you might need to know, like a flight confirmation number, membership ID, tracking information, order number, address, phone number, or credit card number by referencing your email.",
+      "heading": 0
+    },
+    {
+      "text": "The update is an expansion of Google’s Personal Intelligence, which already allows users to connect their Google Apps to its AI assistant, Gemini, to retrieve certain details and then use them to answer complex questions.",
+      "heading": 0
+    },
+    {
+      "text": "Though seemingly minor, the update could make Chrome easier to use, which could give users another reason to continue to use Google’s browser and stay in its AI ecosystem. It’s reminiscent of one of Apple’s most appreciated features: the ability to automatically detect verification codes sent via text and display them above the keyboard, allowing users to enter them with a single tap.",
+      "heading": 0
+    },
+    {
+      "text": "As with other Personalized Intelligence features, users can decide whether or not to enable enhanced autofill from their Chrome settings. Sensitive data is encrypted, Google notes.",
+      "heading": 0
+    },
+    {
+      "text": "The feature is rolling out to U.S. users on the desktop, and in the iOS and Android apps for Gemini in Chrome.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "heading": 0
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

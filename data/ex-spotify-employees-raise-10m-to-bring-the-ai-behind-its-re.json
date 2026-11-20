@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+  "slug": "ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-re",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Malachyte.jpg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+    "episode": ""
+  },
+  "words": 581,
+  "lines": 18,
+  "duration": 194,
+  "text": "Sidd Motwani, Ian Anderson, and Shivaditya Sinha spent years building the behavioral intelligence infrastructure behind Spotify’s recommendation engine. Called Vector AI, the system is designed to predict a person’s intent and next actions instead of relying only on their past behavior. It powers about 90% of Spotify’s recommendations to its 800 million users.\n\nNow, the three are bringing a similar system to e-commerce with their new startup, Malachyte. The company on Thursday said it had raised $10 million in seed funding to scale distribution and hire more product and commercial leaders.\n\nMalachyte was formed from the belief that most online stores treat shoppers the same way: Personalization is largely dictated by historical purchases, demographic segmentation, or logged-in customer profiles. That means first-time visitors often see the same generic storefront as everyone else, while existing shoppers receive recommendations based primarily on what they bought previously rather than what they need today.\n\nThe startup wants to change that by building real-time, intent-aware shopping experiences. Its platform uses what it calls “two-headed Vector AI” to predict what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.\n\n“[Our] system starts forming before the first click, using the context available the moment the page loads. Within a single session, we build a real read on both preferences and what someone is trying to accomplish right now,” Motwani, Malachyte’s CEO, told TechCrunch.\n\n“A search for ‘heavy-duty boot’ followed by two clicks on steel-toed boots is enough to move work pants and gloves up the page and push dress shoes down, with no account or history required. Every additional action sharpens the profile, so the experience gets more relevant the longer someone stays, and again on their next visit.”\n\nMotwani argues that retailers already possess their most valuable source of customer intelligence, but rarely take advantage of it in real time.\n\n“Every hover, click, scroll, search refinement, and add-to-cart is a signal, and most systems either never act on it in the moment or aggregate it into a segment overnight. We read it continuously, so each action makes the user’s vector more confident about both preference and current intent,” he added.\n\nHe also believes contextual signals remain significantly underutilized.\n\n“A phone visitor at 11 p.m. from an email link is in a different state of mind than the same person on a laptop mid-morning, and most systems treat them identically,” Motwani said.\n\nThe company has been developing and testing its technology since 2024, and worked with more than 20 enterprise customers across travel, grocery, and retail before ultimately focusing on e-commerce.\n\nIts platform went live in the fall of 2025 with Fun.com. Since June 2026, it has been generally available to Shopify merchants through a native integration, while larger retailers can integrate the technology through its API.\n\nLooking ahead, Motwani says the bigger opportunity is in bringing merchandising and marketing together around the same understanding of customer behavior.\n\nThe funding round was co-led by Bessemer Venture Partners and Gradient, with participation from Harpoon Ventures.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Sidd Motwani, Ian Anderson, and Shivaditya Sinha spent years building the behavioral intelligence infrastructure behind Spotify’s recommendation engine. Called Vector AI, the system is designed to predict a person’s intent and next actions instead of relying only on their past behavior. It powers about 90% of Spotify’s recommendations to its 800 million users.",
+      "heading": 0
+    },
+    {
+      "text": "Now, the three are bringing a similar system to e-commerce with their new startup, Malachyte. The company on Thursday said it had raised $10 million in seed funding to scale distribution and hire more product and commercial leaders.",
+      "heading": 0
+    },
+    {
+      "text": "Malachyte was formed from the belief that most online stores treat shoppers the same way: Personalization is largely dictated by historical purchases, demographic segmentation, or logged-in customer profiles. That means first-time visitors often see the same generic storefront as everyone else, while existing shoppers receive recommendations based primarily on what they bought previously rather than what they need today.",
+      "heading": 0
+    },
+    {
+      "text": "The startup wants to change that by building real-time, intent-aware shopping experiences. Its platform uses what it calls “two-headed Vector AI” to predict what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.",
+      "heading": 0
+    },
+    {
+      "text": "“[Our] system starts forming before the first click, using the context available the moment the page loads. Within a single session, we build a real read on both preferences and what someone is trying to accomplish right now,” Motwani, Malachyte’s CEO, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "“A search for ‘heavy-duty boot’ followed by two clicks on steel-toed boots is enough to move work pants and gloves up the page and push dress shoes down, with no account or history required. Every additional action sharpens the profile, so the experience gets more relevant the longer someone stays, and again on their next visit.”",
+      "heading": 0
+    },
+    {
+      "text": "Motwani argues that retailers already possess their most valuable source of customer intelligence, but rarely take advantage of it in real time.",
+      "heading": 0
+    },
+    {
+      "text": "“Every hover, click, scroll, search refinement, and add-to-cart is a signal, and most systems either never act on it in the moment or aggregate it into a segment overnight. We read it continuously, so each action makes the user’s vector more confident about both preference and current intent,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "He also believes contextual signals remain significantly underutilized.",
+      "heading": 0
+    },
+    {
+      "text": "“A phone visitor at 11 p.m. from an email link is in a different state of mind than the same person on a laptop mid-morning, and most systems treat them identically,” Motwani said.",
+      "heading": 0
+    },
+    {
+      "text": "The company has been developing and testing its technology since 2024, and worked with more than 20 enterprise customers across travel, grocery, and retail before ultimately focusing on e-commerce.",
+      "heading": 0
+    },
+    {
+      "text": "Its platform went live in the fall of 2025 with Fun.com. Since June 2026, it has been generally available to Shopify merchants through a native integration, while larger retailers can integrate the technology through its API.",
+      "heading": 0
+    },
+    {
+      "text": "Looking ahead, Motwani says the bigger opportunity is in bringing merchandising and marketing together around the same understanding of customer behavior.",
+      "heading": 0
+    },
+    {
+      "text": "The funding round was co-led by Bessemer Venture Partners and Gradient, with participation from Harpoon Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

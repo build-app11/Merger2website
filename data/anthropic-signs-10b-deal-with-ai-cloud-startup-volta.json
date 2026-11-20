@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+  "slug": "anthropic-signs-10b-deal-with-ai-cloud-startup-volta",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+    "episode": ""
+  },
+  "words": 295,
+  "lines": 20,
+  "duration": 98,
+  "text": "Posted:\n\nLucas Ropek\n\nAnthropic signs $10B deal with AI cloud startup Volta\n\nAnthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.\n\nBloomberg originally reported that Volta, founded earlier this year, will provide cloud compute to the Claude maker over a six-year period.\n\nVolta has a partner in this deal, Bitdeer, a crypto-mining company that will help develop the data center to provide the compute capacity. That facility will be located in Norway and will deliver a 133 megawatt capacity. It will be fueled by Nvidia’s Vera Rubin systems, the chipmaker’s state-of-the-art AI chip architecture.\n\nVolta is part of Nvidia’s Cloud Partner program, which is a consortium of AI cloud providers that use Nvidia’s GPUs in their data centers.\n\nVolta had spoken about a deal with an AI lab but hadn’t named the specific company it was working with. Bloomberg originally cited anonymous sources familiar with the deal. TechCrunch reached out to Anthropic for more information.\n\nAnthropic has sought to aggressively expand its compute capacity over the last several months as it wages a corporate battle with its competitors. The company also recently announced new compute deals with the likes of SpaceX and Amazon.\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "heading": 0
+    },
+    {
+      "text": "Bloomberg originally reported that Volta, founded earlier this year, will provide cloud compute to the Claude maker over a six-year period.",
+      "heading": 0
+    },
+    {
+      "text": "Volta has a partner in this deal, Bitdeer, a crypto-mining company that will help develop the data center to provide the compute capacity. That facility will be located in Norway and will deliver a 133 megawatt capacity. It will be fueled by Nvidia’s Vera Rubin systems, the chipmaker’s state-of-the-art AI chip architecture.",
+      "heading": 0
+    },
+    {
+      "text": "Volta is part of Nvidia’s Cloud Partner program, which is a consortium of AI cloud providers that use Nvidia’s GPUs in their data centers.",
+      "heading": 0
+    },
+    {
+      "text": "Volta had spoken about a deal with an AI lab but hadn’t named the specific company it was working with. Bloomberg originally cited anonymous sources familiar with the deal. TechCrunch reached out to Anthropic for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic has sought to aggressively expand its compute capacity over the last several months as it wages a corporate battle with its competitors. The company also recently announced new compute deals with the likes of SpaceX and Amazon.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

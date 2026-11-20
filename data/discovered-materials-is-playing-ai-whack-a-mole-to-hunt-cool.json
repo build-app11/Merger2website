@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+  "slug": "discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cool",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "episode": ""
+  },
+  "words": 740,
+  "lines": 18,
+  "duration": 247,
+  "text": "Chips running AI workloads are too hot: That’s one reason why data centers consume so much electricity and require cooling systems. And, inevitably, entrepreneurs are turning to AI to solve the problem it created.\n\nDiscovered Materials is the latest, with plans to use swarms of AI agents to find new materials that can be used to build more efficient integrated circuits. The startup said it recently closed a $9 million seed round from Lightspeed India Partners after emerging from from Y Combinator, with investment from Peak XV Partners and angel investors Paul Graham, Gokul Rajaram, and Thariq Shihipar.\n\nFounders Advaith Sridhar and Akash Ramdas teamed up to launch the company, drawing on Ramdas’ experience earning a doctorate in materials science from Stanford, and Sridhar’s work on agents at Persona AI and Luma Labs.\n\nThe two have created a software pipeline that uses Anthropic models in a custom harness to generate material leads, and then turns to foundational physics models they’ve trained to run simulations that verify if the candidate materials are actually of interest.\n\n“[Ramdas] was doing maybe 20 guesses a day during his PhD,” Sridhar told TechCrunch. “We’re able to do thousands of guesses a day now by having these agents run 24/7 on the cloud, exploring research directions that he gives them.”\n\nDiscovered Materials released examples of hundreds of new materials today, as well as their “Material Discovery Bench” today, which is designed to track how frontier models take on this challenge.\n\nCompanies like MatNex, SandboxAQ, and CuspAI have all launched similar efforts, but Discovered Materials is betting that a laser-focus on the thermal problems of semiconductor materials is the path to success. The startup says it has already discovered several materials that match the properties of existing materials used by major chipmakers, but can’t share more details about them.\n\nOne challenge is the engineering trade-space: If they find a material that might reduce heat generation or improve dissipation, it might be too difficult to actually manufacture a chip out of it, or its electrical properties are compromised.\n\n“It’s a bit of playing whack-a-mole with atomic structures,” Hemant Mohapatra, the Lightspeed partner who led this round, told TechCrunch. “A material is only useful in the real world if all of them converge at once, which is what makes this a really interesting search problem.”\n\nMohapatra expects that the business of predicting novel substances will be commoditized as models continue to improve. The difference with Discovered Materials is Ramdas’ deep experience in the field, and the ability to run a lab that can rapidly experiment and validate the candidates — something he says the two founders have already done with several new materials.\n\nWhen they find valuable candidates, Sridhar says the company will attempt to patent the use of the materials in GPUs, or the process by which chips can be made out of the substance, licensing them out to chipmakers. He hopes that they will have new materials worth patenting in the next year.\n\nHowever, for all the excitement, we still haven’t seen any drugs or materials discovered by AI actually make a commercial impact. The closest is perhaps Insilico Medicine’s Renterosib, the first drug discovered with generative AI to make it into a Phase III clinical trial. On the materials side, promising candidates have been found, like MatNex’s rare-earth-free permanent magnets or new semiconductor materials worked out by Panasonic and Citrine Informatics. But these haven’t been commercially deployed at scale yet.\n\nThese techniques may be coming into their own now as AI continues to improve, but it’s one reason why Mohapatra says that he doesn’t believe finding more candidates is the hold-up for AI materials science; instead, “filtering them correctly and synthesizing them is the bottleneck.”\n\nWhile Sridhar believes that Discovered Materials’ unique data and expertise will help the startup compete with deep-pocketed frontier labs, he acknowledged that the reality is that “a lot of this will involve actually going into wet labs and making things as well. And this is the process that cannot be sped up.”\n\nCorrection: This story originally reported that Renterosib had entered a Phase II clinical trial; in fact, it began a Phase III clinical trial in July.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Chips running AI workloads are too hot: That’s one reason why data centers consume so much electricity and require cooling systems. And, inevitably, entrepreneurs are turning to AI to solve the problem it created.",
+      "heading": 0
+    },
+    {
+      "text": "Discovered Materials is the latest, with plans to use swarms of AI agents to find new materials that can be used to build more efficient integrated circuits. The startup said it recently closed a $9 million seed round from Lightspeed India Partners after emerging from from Y Combinator, with investment from Peak XV Partners and angel investors Paul Graham, Gokul Rajaram, and Thariq Shihipar.",
+      "heading": 0
+    },
+    {
+      "text": "Founders Advaith Sridhar and Akash Ramdas teamed up to launch the company, drawing on Ramdas’ experience earning a doctorate in materials science from Stanford, and Sridhar’s work on agents at Persona AI and Luma Labs.",
+      "heading": 0
+    },
+    {
+      "text": "The two have created a software pipeline that uses Anthropic models in a custom harness to generate material leads, and then turns to foundational physics models they’ve trained to run simulations that verify if the candidate materials are actually of interest.",
+      "heading": 0
+    },
+    {
+      "text": "“[Ramdas] was doing maybe 20 guesses a day during his PhD,” Sridhar told TechCrunch. “We’re able to do thousands of guesses a day now by having these agents run 24/7 on the cloud, exploring research directions that he gives them.”",
+      "heading": 0
+    },
+    {
+      "text": "Discovered Materials released examples of hundreds of new materials today, as well as their “Material Discovery Bench” today, which is designed to track how frontier models take on this challenge.",
+      "heading": 0
+    },
+    {
+      "text": "Companies like MatNex, SandboxAQ, and CuspAI have all launched similar efforts, but Discovered Materials is betting that a laser-focus on the thermal problems of semiconductor materials is the path to success. The startup says it has already discovered several materials that match the properties of existing materials used by major chipmakers, but can’t share more details about them.",
+      "heading": 0
+    },
+    {
+      "text": "One challenge is the engineering trade-space: If they find a material that might reduce heat generation or improve dissipation, it might be too difficult to actually manufacture a chip out of it, or its electrical properties are compromised.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s a bit of playing whack-a-mole with atomic structures,” Hemant Mohapatra, the Lightspeed partner who led this round, told TechCrunch. “A material is only useful in the real world if all of them converge at once, which is what makes this a really interesting search problem.”",
+      "heading": 0
+    },
+    {
+      "text": "Mohapatra expects that the business of predicting novel substances will be commoditized as models continue to improve. The difference with Discovered Materials is Ramdas’ deep experience in the field, and the ability to run a lab that can rapidly experiment and validate the candidates — something he says the two founders have already done with several new materials.",
+      "heading": 0
+    },
+    {
+      "text": "When they find valuable candidates, Sridhar says the company will attempt to patent the use of the materials in GPUs, or the process by which chips can be made out of the substance, licensing them out to chipmakers. He hopes that they will have new materials worth patenting in the next year.",
+      "heading": 0
+    },
+    {
+      "text": "However, for all the excitement, we still haven’t seen any drugs or materials discovered by AI actually make a commercial impact. The closest is perhaps Insilico Medicine’s Renterosib, the first drug discovered with generative AI to make it into a Phase III clinical trial. On the materials side, promising candidates have been found, like MatNex’s rare-earth-free permanent magnets or new semiconductor materials worked out by Panasonic and Citrine Informatics. But these haven’t been commercially deployed at scale yet.",
+      "heading": 0
+    },
+    {
+      "text": "These techniques may be coming into their own now as AI continues to improve, but it’s one reason why Mohapatra says that he doesn’t believe finding more candidates is the hold-up for AI materials science; instead, “filtering them correctly and synthesizing them is the bottleneck.”",
+      "heading": 0
+    },
+    {
+      "text": "While Sridhar believes that Discovered Materials’ unique data and expertise will help the startup compete with deep-pocketed frontier labs, he acknowledged that the reality is that “a lot of this will involve actually going into wet labs and making things as well. And this is the process that cannot be sped up.”",
+      "heading": 0
+    },
+    {
+      "text": "Correction: This story originally reported that Renterosib had entered a Phase II clinical trial; in fact, it began a Phase III clinical trial in July.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
+  "slug": "mesh-automattic-s-crm-for-everyone-comes-to-android",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/android_header.webp?resize=1200,854",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+    "episode": ""
+  },
+  "words": 588,
+  "lines": 14,
+  "duration": 196,
+  "text": "Mesh, the relationship manager and personal CRM acquired by WordPress.com’s parent company, Automattic, last year, is now available to users on Android devices. The software allows users to privately visualize and keep track of the people in their personal and professional networks, add notes to people’s contact information, and be reminded when to reach out.\n\nOn Android, the company customized Mesh’s app to work with key platform features, like split-screen and pop-up views. This allows users to access Mesh while working in other apps, like messages or email. It also supports keyboard shortcuts for foldables and tablets, in-app search, home screen widgets (with Material You colors that match your Android’s wallpaper), and real-time sync across devices.\n\nThe company’s broader plans for Mesh could eventually see it tied more closely to Automattic’s all-in-one messaging app, Beeper, which offers a way to connect with people across platforms, including through WhatsApp, Instagram, Signal, Messenger, X, LinkedIn, Slack, Discord, Google Messages, and more.\n\nAlready, Mesh and Beeper interoperate to some extent, as Mesh users can draft a text to someone in Beeper or click deep links in the app to visit a Mesh user’s profile. In time, the company wants to add additional AI features that will make users of both products more productive in terms of managing their personal relationships.\n\n“We’re thinking a lot about how can AI help you be a better friend and have better work and personal relationships?,” Mesh co-founder Zachary Hamed told TechCrunch in an interview earlier this spring. “We have users who have ten-, twenty-, or fifty-thousand connections across multiple social media apps, across their work products. It’s an impossible task to think and be conscientious with you, with each of those people, by yourself,” he noted.\n\nToday, Mesh’s Nexus AI is in early access, offering a way to use AI to navigate your network. That means users can ask questions like who they know at a particular company or who lives in a certain city, or who has expertise in a particular topic. The company is also experimenting with using AI technology to provide a voice-based, hands-free experience and an improved business-card-scanning feature.\n\nImportantly, personal information stored in Mesh isn’t shared or used for ad targeting, the company says, as the product is supported by subscriptions. (It’s free for up to 1,000 contacts, then has higher tiers for unlimited contacts and other features.)\n\nIn time, Mesh may consider a bundled subscription with Beeper or other Automattic products, but has nothing to announce on that front at this time.\n\nCurrently, the majority of Mesh’s customers, or around 70%, are using the app for some type of business purpose. Mesh co-founder Matthew Achariam says Mesh’s sweet spot is executives running bigger teams or those who have a tight network to stay in touch with. However, the company still thinks about the consumer use case, he notes.\n\n“The beauty of [serving business users] is that the same things they’re using apply to every individual consumer. So every feature that we think about has to apply to both,” he says.\n\nMesh ( formerly Clay ) for Android will roll out to Google Play for phones, tablets, and foldables as a free download with in-app purchases.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Mesh, the relationship manager and personal CRM acquired by WordPress.com’s parent company, Automattic, last year, is now available to users on Android devices. The software allows users to privately visualize and keep track of the people in their personal and professional networks, add notes to people’s contact information, and be reminded when to reach out.",
+      "heading": 0
+    },
+    {
+      "text": "On Android, the company customized Mesh’s app to work with key platform features, like split-screen and pop-up views. This allows users to access Mesh while working in other apps, like messages or email. It also supports keyboard shortcuts for foldables and tablets, in-app search, home screen widgets (with Material You colors that match your Android’s wallpaper), and real-time sync across devices.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s broader plans for Mesh could eventually see it tied more closely to Automattic’s all-in-one messaging app, Beeper, which offers a way to connect with people across platforms, including through WhatsApp, Instagram, Signal, Messenger, X, LinkedIn, Slack, Discord, Google Messages, and more.",
+      "heading": 0
+    },
+    {
+      "text": "Already, Mesh and Beeper interoperate to some extent, as Mesh users can draft a text to someone in Beeper or click deep links in the app to visit a Mesh user’s profile. In time, the company wants to add additional AI features that will make users of both products more productive in terms of managing their personal relationships.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re thinking a lot about how can AI help you be a better friend and have better work and personal relationships?,” Mesh co-founder Zachary Hamed told TechCrunch in an interview earlier this spring. “We have users who have ten-, twenty-, or fifty-thousand connections across multiple social media apps, across their work products. It’s an impossible task to think and be conscientious with you, with each of those people, by yourself,” he noted.",
+      "heading": 0
+    },
+    {
+      "text": "Today, Mesh’s Nexus AI is in early access, offering a way to use AI to navigate your network. That means users can ask questions like who they know at a particular company or who lives in a certain city, or who has expertise in a particular topic. The company is also experimenting with using AI technology to provide a voice-based, hands-free experience and an improved business-card-scanning feature.",
+      "heading": 0
+    },
+    {
+      "text": "Importantly, personal information stored in Mesh isn’t shared or used for ad targeting, the company says, as the product is supported by subscriptions. (It’s free for up to 1,000 contacts, then has higher tiers for unlimited contacts and other features.)",
+      "heading": 0
+    },
+    {
+      "text": "In time, Mesh may consider a bundled subscription with Beeper or other Automattic products, but has nothing to announce on that front at this time.",
+      "heading": 0
+    },
+    {
+      "text": "Currently, the majority of Mesh’s customers, or around 70%, are using the app for some type of business purpose. Mesh co-founder Matthew Achariam says Mesh’s sweet spot is executives running bigger teams or those who have a tight network to stay in touch with. However, the company still thinks about the consumer use case, he notes.",
+      "heading": 0
+    },
+    {
+      "text": "“The beauty of [serving business users] is that the same things they’re using apply to every individual consumer. So every feature that we think about has to apply to both,” he says.",
+      "heading": 0
+    },
+    {
+      "text": "Mesh ( formerly Clay ) for Android will roll out to Google Play for phones, tablets, and foldables as a free download with in-app purchases.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

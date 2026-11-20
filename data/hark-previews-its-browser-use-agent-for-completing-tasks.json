@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Hark previews its browser use agent for completing tasks",
+  "slug": "hark-previews-its-browser-use-agent-for-completing-tasks",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-05-at-8.10.59-PM.jpg?resize=1200,596",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+    "episode": ""
+  },
+  "words": 400,
+  "lines": 11,
+  "duration": 133,
+  "text": "Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark Handoff, which can use a browser efficiently to complete tasks.\n\nThe company claims that Handoff can easily navigate websites that have no official APIs, including Target, Walmart, OpenTable, and LinkedIn. It said that the Handoff agent looks at website structure and visual data to understand if it needs to click buttons or type information.\n\nThe premise is similar to tons of browser-based agents released before. Issue a command, and it will complete tasks for you, including ordering food or coffee, booking travel tickets, filing returns, shopping for essentials, reserving a table at a restaurant, or researching on your behalf by looking at various sources.\n\nIn a video demo, the company’s CEO, Brett Adcock, showed that the assistant can take a command to build a bouquet with flowers users specify, along with accommodating fuzzy terms like “some of the florist’s choice.” Notably, the video shows only part of the process, so we can’t really gauge its effectiveness.\n\nThe company said that for this release, it’s using a post-trained model, and plans to pre-train later this year. Hark said that, with this approach, it can refine its data pipeline, training infrastructure, and techniques more quickly. Hark also claims that, unlike large language models (LLMs) predicting the next token, its model can predict the next action — which could be a clock or a keyboard input at a specific place.\n\nThere are many companies working on computer-use agents, including Google, OpenAI, and Anthropic, with VC-funded startups working on browser-based task automation, such as Browser Use, Polar, Strawberry, and Aside.\n\nHark said that its Handoff agent is faster than the competition and also costs much less than other models like GPT 5.5 and Opus 4.8. The startup has opened a waitlist for its platform and plans to release it by the end of the summer.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark Handoff, which can use a browser efficiently to complete tasks.",
+      "heading": 0
+    },
+    {
+      "text": "The company claims that Handoff can easily navigate websites that have no official APIs, including Target, Walmart, OpenTable, and LinkedIn. It said that the Handoff agent looks at website structure and visual data to understand if it needs to click buttons or type information.",
+      "heading": 0
+    },
+    {
+      "text": "The premise is similar to tons of browser-based agents released before. Issue a command, and it will complete tasks for you, including ordering food or coffee, booking travel tickets, filing returns, shopping for essentials, reserving a table at a restaurant, or researching on your behalf by looking at various sources.",
+      "heading": 0
+    },
+    {
+      "text": "In a video demo, the company’s CEO, Brett Adcock, showed that the assistant can take a command to build a bouquet with flowers users specify, along with accommodating fuzzy terms like “some of the florist’s choice.” Notably, the video shows only part of the process, so we can’t really gauge its effectiveness.",
+      "heading": 0
+    },
+    {
+      "text": "The company said that for this release, it’s using a post-trained model, and plans to pre-train later this year. Hark said that, with this approach, it can refine its data pipeline, training infrastructure, and techniques more quickly. Hark also claims that, unlike large language models (LLMs) predicting the next token, its model can predict the next action — which could be a clock or a keyboard input at a specific place.",
+      "heading": 0
+    },
+    {
+      "text": "There are many companies working on computer-use agents, including Google, OpenAI, and Anthropic, with VC-funded startups working on browser-based task automation, such as Browser Use, Polar, Strawberry, and Aside.",
+      "heading": 0
+    },
+    {
+      "text": "Hark said that its Handoff agent is faster than the competition and also costs much less than other models like GPT 5.5 and Opus 4.8. The startup has opened a waitlist for its platform and plans to release it by the end of the summer.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

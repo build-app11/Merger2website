@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "AI agent startup LangChain hits $3B valuation",
+  "slug": "ai-agent-startup-langchain-hits-3b-valuation",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "episode": ""
+  },
+  "words": 328,
+  "lines": 19,
+  "duration": 109,
+  "text": "Posted:\n\nJulie Bort\n\nAI agent startup LangChain hits $3B valuation\n\nAgent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.\n\nThat’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.\n\nLangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases. As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents. It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.\n\nWith its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs. It also promises that LangSmith will contain agent behavior and is easy to use.\n\nTrue, there are plenty of other startups pitching similar advantages these days and also doing well ( case in point is newcomer Mintive ). However, LangChain has had a head start and now claims 7,000 LangSmith customers, including big-name startups like Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.\n\nTopics\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nNvidia promises that revenue will keep soaring — for now\n\nLatest in Startups\n\nFormer Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories\n\nKate Park\n\nSpend management platform Payhawk announces $280M raise, 2B valuation\n\nDominic-Madori Davis\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "AI agent startup LangChain hits $3B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+      "heading": 0
+    },
+    {
+      "text": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+      "heading": 0
+    },
+    {
+      "text": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases. As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents. It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+      "heading": 0
+    },
+    {
+      "text": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs. It also promises that LangSmith will contain agent behavior and is easy to use.",
+      "heading": 0
+    },
+    {
+      "text": "True, there are plenty of other startups pitching similar advantages these days and also doing well ( case in point is newcomer Mintive ). However, LangChain has had a head start and now claims 7,000 LangSmith customers, including big-name startups like Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia promises that revenue will keep soaring — for now",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Startups",
+      "heading": 1
+    },
+    {
+      "text": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "heading": 0
+    },
+    {
+      "text": "Kate Park",
+      "heading": 1
+    },
+    {
+      "text": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "type": "read",
+  "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+  "slug": "the-doj-is-investigating-a16z-what-does-this-mean-for-ventur",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/a16z-Andreessen-Horowitz.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+    "episode": ""
+  },
+  "words": 511,
+  "lines": 27,
+  "duration": 170,
+  "text": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs.\n\nBoard conflicts aren’t exactly new, and these companies weren’t necessarily direct competitors when a16z first invested in them. But as portfolio companies expand into each other’s markets, the DOJ’s scrutiny raises a much bigger question for venture firms: How do you manage board seats when the boundaries between your portfolio companies keep moving? On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane dig into the a16z probe, what it could mean for VCs, and more of the week’s headlines.\n\nListen to the full episode to hear more about:\n\nWhy Stripe paid $7.5 billion for AI model router OpenRouter, and why the “singularity” isn’t the real reason\n\nWhat happens to the AI companies caught in the middle as OpenAI, Anthropic, and Nvidia pull further ahead\n\nWhy Rivian spinout Also just raised $150 million to make a bigger bet on autonomous vehicles\n\nUber’s newest delivery partnership with drone company Zipline, and what it means for the other autonomous startups betting their futures on Uber\n\nWhether we’ve reached peak valuation for AI dictation apps after Wispr’s $280 million raise at a $2 billion valuation\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].\n\nTransportation Editor\n\nSr. Reporter, Transportation\n\nSean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.\n\nYou can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs.",
+      "heading": 0
+    },
+    {
+      "text": "Board conflicts aren’t exactly new, and these companies weren’t necessarily direct competitors when a16z first invested in them. But as portfolio companies expand into each other’s markets, the DOJ’s scrutiny raises a much bigger question for venture firms: How do you manage board seats when the boundaries between your portfolio companies keep moving? On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane dig into the a16z probe, what it could mean for VCs, and more of the week’s headlines.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "Why Stripe paid $7.5 billion for AI model router OpenRouter, and why the “singularity” isn’t the real reason",
+      "heading": 0
+    },
+    {
+      "text": "What happens to the AI companies caught in the middle as OpenAI, Anthropic, and Nvidia pull further ahead",
+      "heading": 0
+    },
+    {
+      "text": "Why Rivian spinout Also just raised $150 million to make a bigger bet on autonomous vehicles",
+      "heading": 0
+    },
+    {
+      "text": "Uber’s newest delivery partnership with drone company Zipline, and what it means for the other autonomous startups betting their futures on Uber",
+      "heading": 0
+    },
+    {
+      "text": "Whether we’ve reached peak valuation for AI dictation apps after Wispr’s $280 million raise at a $2 billion valuation",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Editor",
+      "heading": 1
+    },
+    {
+      "text": "Sr. Reporter, Transportation",
+      "heading": 1
+    },
+    {
+      "text": "Sean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

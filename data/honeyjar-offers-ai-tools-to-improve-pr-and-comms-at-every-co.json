@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+  "slug": "honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-co",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+    "episode": ""
+  },
+  "words": 820,
+  "lines": 21,
+  "duration": 273,
+  "text": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken (buy me a drink sometime, and I’ll give you my rant). But could AI actually make things better?\n\nHoneyjar, which will be attending this week’s TechCrunch Disrupt as part of the Startup Battlefield 200, wants to use AI to make the expertise and judgment of the best PR pros available to everyone, including founders who have no idea where to start.\n\nThe startup’s founders, CEO Michelle Masek and CCO Nadia Jamshidi, certainly fit the bill when it comes to PR expertise. They’ve both spent decades in the field, doing in-house communications and working at agencies. Masek recently served as senior vice president of marketing and communications for Ev Williams’ venture firm, Obvious Ventures.\n\nAs Masek described the challenges involved in “helping with the why and when of comms and marketing for 110 portfolio companies” (the startups her firm had invested in), I flashed back to my own brief stint leading marketing at an early-stage VC firm, where founders were constantly asking for help getting into TechCrunch. So I wasn’t surprised that Masek found herself asking, “Is there a way to scale the senior-level expertise into AI [in a way] that actually helps users do the work of comms in the proactive and skilled way that we do?”\n\nHoneyjar is her answer to that question. It automates processes like writing announcements, finding the best journalists to pitch, and identifying the most promising speaking opportunities. But Jamshidi told me in a follow-up email that Honeyjar’s vision goes beyond getting press coverage and beyond specific AI tools.\n\n“Honeyjar can find reporters, build media lists, scan news and social, track coverage, and surface opportunities,” she said. “Those capabilities are important, but they’re just one piece of what we’re building. The bigger idea is bringing the whole communications workflow together: signals, context, strategy, judgment, timing, and execution.”\n\nAnd it’s not just for founders. Masek said she’s come to realize there are “millions and millions of unassigned communicators responsible for the work of comms.”\n\n“They don’t have the title of comms, but they’re marketers, investors, authors, creators, school superintendents, sports team leaders,” she added. “It’s incredibly horizontal, this need to nail strategic communications. It’s always passed around, but the problems are very often not solved.”\n\nNor is Honeyjar trying to replace PR professionals. Masek said she and Jamshidi built the tool they wanted to use themselves. She argued that Honeyjar can make PR firms and in-house comms teams more effective, while allowing individual PR practitioners to “take on that third client without any scaling cost.”\n\nWhen Honeyjar opened its waitlist, it received 10,000 signups in the first 24 hours, said Masek. Beta testers include Nextdoor, tech startup Coco Robotics, investor Bloomberg Beta, and agencies Mission North and Full Picture.\n\nThat sounds promising for companies looking to get more attention, but it could be a nightmare for journalists. We receive more pitches than we can respond to, many of them already written by AI chatbots.\n\nWhen I raised my fears about getting inundated with even more PR slop, Masek noted that while Honeyjar can draft a pitch email or a social media post in the customer’s voice, the customer actually has to hit send or publish.\n\n“We never want a world where the human is removed from the loop,” she said.\n\nAnd that’s also where judgment is key. Masek said she and Jamshidi tried to “infuse and encode Honeyjar with our wisdom.” Through a broader initiative called the Comms Lab, they’re now training the product on the judgment of other PR pros as well.\n\n“For us, judgment is knowing what to do, what not to do, when to act, and how to adapt to the situation,” Jamshidi added. “That comes from understanding a company’s goals and priorities, what’s happening inside and outside the organization, and knowing what to say, to whom, where, and when.”\n\nIn some cases, Masek said Honeyjar might even tell a founder that they’re simply not ready for coverage.\n\n“We hear from reporters all the time who want better pitches, who want to hear from experts directly,” she said. “We actually see a future where there are more credible pitches in your inbox from sources who you actually want to hear from.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken (buy me a drink sometime, and I’ll give you my rant). But could AI actually make things better?",
+      "heading": 0
+    },
+    {
+      "text": "Honeyjar, which will be attending this week’s TechCrunch Disrupt as part of the Startup Battlefield 200, wants to use AI to make the expertise and judgment of the best PR pros available to everyone, including founders who have no idea where to start.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s founders, CEO Michelle Masek and CCO Nadia Jamshidi, certainly fit the bill when it comes to PR expertise. They’ve both spent decades in the field, doing in-house communications and working at agencies. Masek recently served as senior vice president of marketing and communications for Ev Williams’ venture firm, Obvious Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "As Masek described the challenges involved in “helping with the why and when of comms and marketing for 110 portfolio companies” (the startups her firm had invested in), I flashed back to my own brief stint leading marketing at an early-stage VC firm, where founders were constantly asking for help getting into TechCrunch. So I wasn’t surprised that Masek found herself asking, “Is there a way to scale the senior-level expertise into AI [in a way] that actually helps users do the work of comms in the proactive and skilled way that we do?”",
+      "heading": 0
+    },
+    {
+      "text": "Honeyjar is her answer to that question. It automates processes like writing announcements, finding the best journalists to pitch, and identifying the most promising speaking opportunities. But Jamshidi told me in a follow-up email that Honeyjar’s vision goes beyond getting press coverage and beyond specific AI tools.",
+      "heading": 0
+    },
+    {
+      "text": "“Honeyjar can find reporters, build media lists, scan news and social, track coverage, and surface opportunities,” she said. “Those capabilities are important, but they’re just one piece of what we’re building. The bigger idea is bringing the whole communications workflow together: signals, context, strategy, judgment, timing, and execution.”",
+      "heading": 0
+    },
+    {
+      "text": "And it’s not just for founders. Masek said she’s come to realize there are “millions and millions of unassigned communicators responsible for the work of comms.”",
+      "heading": 0
+    },
+    {
+      "text": "“They don’t have the title of comms, but they’re marketers, investors, authors, creators, school superintendents, sports team leaders,” she added. “It’s incredibly horizontal, this need to nail strategic communications. It’s always passed around, but the problems are very often not solved.”",
+      "heading": 0
+    },
+    {
+      "text": "Nor is Honeyjar trying to replace PR professionals. Masek said she and Jamshidi built the tool they wanted to use themselves. She argued that Honeyjar can make PR firms and in-house comms teams more effective, while allowing individual PR practitioners to “take on that third client without any scaling cost.”",
+      "heading": 0
+    },
+    {
+      "text": "When Honeyjar opened its waitlist, it received 10,000 signups in the first 24 hours, said Masek. Beta testers include Nextdoor, tech startup Coco Robotics, investor Bloomberg Beta, and agencies Mission North and Full Picture.",
+      "heading": 0
+    },
+    {
+      "text": "That sounds promising for companies looking to get more attention, but it could be a nightmare for journalists. We receive more pitches than we can respond to, many of them already written by AI chatbots.",
+      "heading": 0
+    },
+    {
+      "text": "When I raised my fears about getting inundated with even more PR slop, Masek noted that while Honeyjar can draft a pitch email or a social media post in the customer’s voice, the customer actually has to hit send or publish.",
+      "heading": 0
+    },
+    {
+      "text": "“We never want a world where the human is removed from the loop,” she said.",
+      "heading": 0
+    },
+    {
+      "text": "And that’s also where judgment is key. Masek said she and Jamshidi tried to “infuse and encode Honeyjar with our wisdom.” Through a broader initiative called the Comms Lab, they’re now training the product on the judgment of other PR pros as well.",
+      "heading": 0
+    },
+    {
+      "text": "“For us, judgment is knowing what to do, what not to do, when to act, and how to adapt to the situation,” Jamshidi added. “That comes from understanding a company’s goals and priorities, what’s happening inside and outside the organization, and knowing what to say, to whom, where, and when.”",
+      "heading": 0
+    },
+    {
+      "text": "In some cases, Masek said Honeyjar might even tell a founder that they’re simply not ready for coverage.",
+      "heading": 0
+    },
+    {
+      "text": "“We hear from reporters all the time who want better pitches, who want to hear from experts directly,” she said. “We actually see a future where there are more credible pitches in your inbox from sources who you actually want to hear from.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

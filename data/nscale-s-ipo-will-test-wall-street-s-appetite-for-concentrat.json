@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+  "slug": "nscale-s-ipo-will-test-wall-street-s-appetite-for-concentrat",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+    "episode": ""
+  },
+  "words": 502,
+  "lines": 15,
+  "duration": 167,
+  "text": "When British neocloud Nscale goes public, it will test public investors’ appetite for a stock whose revenue is tied primarily to two customers.\n\nSince it was spun out of Australian cryptocurrency mining company Arkon Energy two years ago, Nscale has amassed over $103 billion worth of contracts, according to its IPO filing. But there’s a catch: Most of that, about 85%, comes from a deal to supply Microsoft with $43.8 billion worth of compute through 2033, and another supply agreement worth $44.6 billion with Anthropic.\n\nMoreover, Anthropic’s agreement is contingent on Nscale obtaining financing, and the AI lab retains the right to walk away from or cancel the deal if Nscale fails to hit milestones that the filing explicitly categorizes as “stringent.”\n\nNscale’s customer concentration is a reminder of just how interconnected the AI industry has become. A recent paper by credit hedge fund Sona Asset Management, featured in Financial Times, found that many AI infrastructure providers heavily depend on a limited number of customers. Nscale’s competitor CoreWeave, for example, generates 67% of its revenue from Microsoft, and data center builder Applied Digital derives 67% of its revenue from Oracle, and 30% from CoreWeave.\n\nWhile Sona noted that such interconnectedness is not necessarily a bad thing, it pointed out that a single setback or strategic shift by a major player can easily affect the entire industry.\n\nNscale, which plans to list on the NYSE, expects to be valued at $35 billion, Financial Times reported, and is seeking to raise $3 billion in the offering, according to Bloomberg.\n\nThe company reported revenue of $140.6 million for the six months ended June 30, up significantly compared to $10.4 million a year earlier. Net losses jumped to $1.02 billion from $369 million in the same period.\n\nEarlier this month, one of Nscale’s major investors, Nvidia, agreed to provide the company with $1 billion in convertible debt as part of a larger $3.1 billion financing deal. The startup was valued at $14.6 billion when it raised a $2 billion Series C led by Aker ASA and 8090 Industries.\n\nAside from CoreWeave, Nscale’s competitors include Nebius, Lambda, and Crusoe — the latter last week said it raised $3.9 billion at a $30.9 billion valuation.\n\nNscale operates data centers in Norway, Portugal, Texas, and West Virginia. Its board of directors includes former Meta executives Sheryl Sandberg and Nick Clegg, as well as former OpenAI executive Fidji Simo.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "When British neocloud Nscale goes public, it will test public investors’ appetite for a stock whose revenue is tied primarily to two customers.",
+      "heading": 0
+    },
+    {
+      "text": "Since it was spun out of Australian cryptocurrency mining company Arkon Energy two years ago, Nscale has amassed over $103 billion worth of contracts, according to its IPO filing. But there’s a catch: Most of that, about 85%, comes from a deal to supply Microsoft with $43.8 billion worth of compute through 2033, and another supply agreement worth $44.6 billion with Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "Moreover, Anthropic’s agreement is contingent on Nscale obtaining financing, and the AI lab retains the right to walk away from or cancel the deal if Nscale fails to hit milestones that the filing explicitly categorizes as “stringent.”",
+      "heading": 0
+    },
+    {
+      "text": "Nscale’s customer concentration is a reminder of just how interconnected the AI industry has become. A recent paper by credit hedge fund Sona Asset Management, featured in Financial Times, found that many AI infrastructure providers heavily depend on a limited number of customers. Nscale’s competitor CoreWeave, for example, generates 67% of its revenue from Microsoft, and data center builder Applied Digital derives 67% of its revenue from Oracle, and 30% from CoreWeave.",
+      "heading": 0
+    },
+    {
+      "text": "While Sona noted that such interconnectedness is not necessarily a bad thing, it pointed out that a single setback or strategic shift by a major player can easily affect the entire industry.",
+      "heading": 0
+    },
+    {
+      "text": "Nscale, which plans to list on the NYSE, expects to be valued at $35 billion, Financial Times reported, and is seeking to raise $3 billion in the offering, according to Bloomberg.",
+      "heading": 0
+    },
+    {
+      "text": "The company reported revenue of $140.6 million for the six months ended June 30, up significantly compared to $10.4 million a year earlier. Net losses jumped to $1.02 billion from $369 million in the same period.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this month, one of Nscale’s major investors, Nvidia, agreed to provide the company with $1 billion in convertible debt as part of a larger $3.1 billion financing deal. The startup was valued at $14.6 billion when it raised a $2 billion Series C led by Aker ASA and 8090 Industries.",
+      "heading": 0
+    },
+    {
+      "text": "Aside from CoreWeave, Nscale’s competitors include Nebius, Lambda, and Crusoe — the latter last week said it raised $3.9 billion at a $30.9 billion valuation.",
+      "heading": 0
+    },
+    {
+      "text": "Nscale operates data centers in Norway, Portugal, Texas, and West Virginia. Its board of directors includes former Meta executives Sheryl Sandberg and Nick Clegg, as well as former OpenAI executive Fidji Simo.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

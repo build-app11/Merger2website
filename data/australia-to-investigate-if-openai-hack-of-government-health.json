@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+  "slug": "australia-to-investigate-if-openai-hack-of-government-health",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/albanese-2296078640.jpg?resize=1200,774",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+    "episode": ""
+  },
+  "words": 728,
+  "lines": 23,
+  "duration": 243,
+  "text": "An OpenAI model hacked into an Australian government website, the country’s prime minister Anthony Albanese said Wednesday, in the first publicly reported case of an AI model hacking into a government’s systems.\n\nAlbanese said that there would “obviously be legal consequences” following the breach, and that OpenAI faces a government investigation into how its unreleased models gained access to reams of bulk health data information.\n\nThis latest incident disclosure comes as governments and tech companies grapple with how to rein in increasingly autonomous AI after a recent spate of AI agents breaking out of their sandboxes, colluding on the internet, and posing cybersecurity issues.\n\nThe breach also poses questions about how both OpenAI and the Australian government failed to detect the attack until several months later.\n\nDuring a Wednesday news briefing at the U.N. General Assembly, Albanese said that the breach began on June 18, but that OpenAI did not notify the government until September 10.\n\nOpenAI only became aware of the incident in August when it turned up during a broader, companywide review of agents behaving in unintended ways, according to an OpenAI spokesperson who reached TechCrunch via email.\n\nThe unspecified OpenAI agent obtained both public and nonpublic files from Services Australia, which administers Australia’s universal healthcare scheme. While the prime minister said there is no evidence that any citizens’ personal information was leaked, OpenAI said that the information the agent reached included aggregate health statistics and internal file names.\n\nThe agent was running during an internal OpenAI evaluation, seeking answers about Australia and publicly available medicine information. At the Medicare portal, the agent encountered repeated blocks but found ways around them.\n\nAlbanese told reporters that the model “didn’t accept no for an answer,” and added that the model had actively written data to the government’s database, rather than just accessing it, indicating the possibility that the department’s data was modified or muddied.\n\nThe prime minister said OpenAI disclosed the breach by sending a notification to the public mailbox of Services Australia, which then notified Australia’s Cyber Security Centre five days later. It’s unclear why there was a delay, but Albanese said he raised the breach directly with OpenAI chief executive Sam Altman by stressing Australia’s “extreme concern” about this incident and “disappointment” that OpenAI sat on the information for nearly three months.\n\n“This situation is obviously unacceptable,” said Albanese, making clear that he held the company accountable for both the hack and how slowly it came to light.\n\nAlbanese said that the government’s investigation will consider law enforcement and legislative responses to prevent incidents like this one happening again.\n\nAustralian media outlet ABC News reports that the latest identified attack may have relied on an earlier breach of a German wiki site, which was used as a staging ground for attacking the Australian government’s website. The AI model agents reportedly used the German wiki to leave notes to be used in later hacks, including a note to obtain data from the Australian Institute of Health and Welfare, a federal agency that publishes national health data. The agency is one of three additional systems that Albanese said may have been breached.\n\nTransluce, a nonprofit AI research lab, separately found public records showing AI agents targeting the Australian Institute of Health and Welfare on June 20 and 21.\n\nOpenAI did not respond to TechCrunch’s specific inquiry on whether the incidents were connected but acknowledged their “activity involving several Australian government websites and services.”\n\nThe incident comes after a string of security incidents caused by rogue agents, often acting within the infrastructure of AI labs. In July, swarms of OpenAI agents breached Hugging Face. Since then, more incidents of AI agent hacks from Anthropic, Meta, and Google have been revealed.\n\nOpenAI now says it is conducting an “extensive review of misaligned model activity during training and evaluation” and is notifying third parties of potential breaches.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow\n\nSecurity Editor\n\nZack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.\n\nHe can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+  "paragraphs": [
+    {
+      "text": "An OpenAI model hacked into an Australian government website, the country’s prime minister Anthony Albanese said Wednesday, in the first publicly reported case of an AI model hacking into a government’s systems.",
+      "heading": 0
+    },
+    {
+      "text": "Albanese said that there would “obviously be legal consequences” following the breach, and that OpenAI faces a government investigation into how its unreleased models gained access to reams of bulk health data information.",
+      "heading": 0
+    },
+    {
+      "text": "This latest incident disclosure comes as governments and tech companies grapple with how to rein in increasingly autonomous AI after a recent spate of AI agents breaking out of their sandboxes, colluding on the internet, and posing cybersecurity issues.",
+      "heading": 0
+    },
+    {
+      "text": "The breach also poses questions about how both OpenAI and the Australian government failed to detect the attack until several months later.",
+      "heading": 0
+    },
+    {
+      "text": "During a Wednesday news briefing at the U.N. General Assembly, Albanese said that the breach began on June 18, but that OpenAI did not notify the government until September 10.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI only became aware of the incident in August when it turned up during a broader, companywide review of agents behaving in unintended ways, according to an OpenAI spokesperson who reached TechCrunch via email.",
+      "heading": 0
+    },
+    {
+      "text": "The unspecified OpenAI agent obtained both public and nonpublic files from Services Australia, which administers Australia’s universal healthcare scheme. While the prime minister said there is no evidence that any citizens’ personal information was leaked, OpenAI said that the information the agent reached included aggregate health statistics and internal file names.",
+      "heading": 0
+    },
+    {
+      "text": "The agent was running during an internal OpenAI evaluation, seeking answers about Australia and publicly available medicine information. At the Medicare portal, the agent encountered repeated blocks but found ways around them.",
+      "heading": 0
+    },
+    {
+      "text": "Albanese told reporters that the model “didn’t accept no for an answer,” and added that the model had actively written data to the government’s database, rather than just accessing it, indicating the possibility that the department’s data was modified or muddied.",
+      "heading": 0
+    },
+    {
+      "text": "The prime minister said OpenAI disclosed the breach by sending a notification to the public mailbox of Services Australia, which then notified Australia’s Cyber Security Centre five days later. It’s unclear why there was a delay, but Albanese said he raised the breach directly with OpenAI chief executive Sam Altman by stressing Australia’s “extreme concern” about this incident and “disappointment” that OpenAI sat on the information for nearly three months.",
+      "heading": 0
+    },
+    {
+      "text": "“This situation is obviously unacceptable,” said Albanese, making clear that he held the company accountable for both the hack and how slowly it came to light.",
+      "heading": 0
+    },
+    {
+      "text": "Albanese said that the government’s investigation will consider law enforcement and legislative responses to prevent incidents like this one happening again.",
+      "heading": 0
+    },
+    {
+      "text": "Australian media outlet ABC News reports that the latest identified attack may have relied on an earlier breach of a German wiki site, which was used as a staging ground for attacking the Australian government’s website. The AI model agents reportedly used the German wiki to leave notes to be used in later hacks, including a note to obtain data from the Australian Institute of Health and Welfare, a federal agency that publishes national health data. The agency is one of three additional systems that Albanese said may have been breached.",
+      "heading": 0
+    },
+    {
+      "text": "Transluce, a nonprofit AI research lab, separately found public records showing AI agents targeting the Australian Institute of Health and Welfare on June 20 and 21.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI did not respond to TechCrunch’s specific inquiry on whether the incidents were connected but acknowledged their “activity involving several Australian government websites and services.”",
+      "heading": 0
+    },
+    {
+      "text": "The incident comes after a string of security incidents caused by rogue agents, often acting within the infrastructure of AI labs. In July, swarms of OpenAI agents breached Hugging Face. Since then, more incidents of AI agent hacks from Anthropic, Meta, and Google have been revealed.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI now says it is conducting an “extensive review of misaligned model activity during training and evaluation” and is notifying third parties of potential breaches.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    },
+    {
+      "text": "Security Editor",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.",
+      "heading": 0
+    },
+    {
+      "text": "He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+      "heading": 0
+    }
+  ]
+}

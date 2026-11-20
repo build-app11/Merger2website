@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "At Meta Connect, the company’s smart glasses were everywhere",
+  "slug": "at-meta-connect-the-company-s-smart-glasses-were-everywhere",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/P1110274-rotated.jpg?resize=901,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+    "episode": ""
+  },
+  "words": 826,
+  "lines": 17,
+  "duration": 275,
+  "text": "If there was one thing that was obvious from Meta Connect this year, it’s that the social media giant is all-in on its burgeoning line of smart glasses.\n\nIndeed, the glasses were pretty much everywhere at the annual event, where Meta shows off its newest hardware and AI products. Both Meta staff and the flocks of influencers who frequent the event seemed to arrive with the glasses glued to their faces. Most of the demos the company offered this week also involved the glasses.\n\nI swiftly joined the bespectacled masses and found myself trying on pair after pair of Meta’s high-tech specs.\n\nOne of the more notable products I had an opportunity to demo were Meta’s new, still-unreleased, audio-only smart glasses. News of these glasses emerged not long after the company weathered accusations that it was selling “pervert glasses,” with critics alleging that its camera-equipped specs could be used for nefarious surveillance purposes.\n\nThe new glasses come equipped with six microphones, but no camera, and they have no native way to record your surroundings, which should go a long way toward easing privacy concerns. They are significantly lighter than any of the other smart glasses I’ve worn, and they were quite comfortable.\n\nThe Meta staffer I talked to emphasized the glasses’ entertainment and communication options: You can listen to music easily (they’re more comfortable than earbuds) and take phone calls without reaching for your phone.\n\nThe glasses will also integrate with Muse, Meta’s personal agentic system, which can carry out tasks on the user’s behalf. The new integration, which isn’t yet available to the public, lets wearers speak to Muse and give it commands verbally. Meta also plans to personalize the agent, letting users pick from an assortment of cute digital avatars that can represent the agent when it communicates with them.\n\nI was given an opportunity to try this out, which was fun but also somewhat comical. You have to be very direct with the agent, and you can’t talk to anyone else at the same time or it will get confused. Problematically, I kept chatting intermittently with the Meta staffer who’d given me the glasses, and the agent kept thinking I was speaking to it, so it would talk over her.\n\nStill, in the right context, it’s easy to see how this new integration could be incredibly useful. If you don’t mind being seen in public talking to your own sunglasses, you’ll be able to ask Muse to take care of various digital tasks for you, like sending emails or reciting to-do lists, and it will handle them while you’re out grocery shopping or having a beer. You can also ask the glasses anything, and like a mobile version of ChatGPT, they’ll spit out an answer. (I asked the glasses a question about World War II, and they gave me a succinct and historically accurate response.)\n\nFinally, I also got to test-drive a second audio-only pair: Meta’s new glasses for the hearing impaired. Given that hearing loss affects many families (some 50 million Americans are said to have some level of hearing loss), this device, unlike a lot of other modern tech gadgets, serves a clear and practical purpose.\n\nI spoke briefly with a member of Meta’s research team who said the glasses had been in development for about five years, and he pointed out a price difference that could make them appealing: Whereas a lot of hearing aids can run as high as $1,600, the glasses will sell for $150.\n\nThe experience of wearing these glasses was interesting. Meta had me put earplugs in before trying them on to simulate the hearing loss that the glasses are meant to help users overcome. Once the glasses were on, they seemed to amplify the voice of the person I was talking to. Users can switch the amplification from focused, which zeroes in on the person in front of them, to omnidirectional, which picks up sound from all around them, depending on how they want to experience their surroundings.\n\nMark Zuckerberg has made it clear that he believes smart glasses are the future, and it’s evident that his company is doing its best to fulfill that vision. But smart glasses remain a niche that has yet to truly find its footing. What was most obvious at Connect is that Meta has — in an attempt to succeed where others have failed — cast a very wide net, trying to make its glasses stylish, functional, and, most of all, useful.\n\nIs this the future? Unsurprisingly, everyone at Connect seemed to think so. I suppose we’ll have to see if the rest of the world follows suit.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "If there was one thing that was obvious from Meta Connect this year, it’s that the social media giant is all-in on its burgeoning line of smart glasses.",
+      "heading": 0
+    },
+    {
+      "text": "Indeed, the glasses were pretty much everywhere at the annual event, where Meta shows off its newest hardware and AI products. Both Meta staff and the flocks of influencers who frequent the event seemed to arrive with the glasses glued to their faces. Most of the demos the company offered this week also involved the glasses.",
+      "heading": 0
+    },
+    {
+      "text": "I swiftly joined the bespectacled masses and found myself trying on pair after pair of Meta’s high-tech specs.",
+      "heading": 0
+    },
+    {
+      "text": "One of the more notable products I had an opportunity to demo were Meta’s new, still-unreleased, audio-only smart glasses. News of these glasses emerged not long after the company weathered accusations that it was selling “pervert glasses,” with critics alleging that its camera-equipped specs could be used for nefarious surveillance purposes.",
+      "heading": 0
+    },
+    {
+      "text": "The new glasses come equipped with six microphones, but no camera, and they have no native way to record your surroundings, which should go a long way toward easing privacy concerns. They are significantly lighter than any of the other smart glasses I’ve worn, and they were quite comfortable.",
+      "heading": 0
+    },
+    {
+      "text": "The Meta staffer I talked to emphasized the glasses’ entertainment and communication options: You can listen to music easily (they’re more comfortable than earbuds) and take phone calls without reaching for your phone.",
+      "heading": 0
+    },
+    {
+      "text": "The glasses will also integrate with Muse, Meta’s personal agentic system, which can carry out tasks on the user’s behalf. The new integration, which isn’t yet available to the public, lets wearers speak to Muse and give it commands verbally. Meta also plans to personalize the agent, letting users pick from an assortment of cute digital avatars that can represent the agent when it communicates with them.",
+      "heading": 0
+    },
+    {
+      "text": "I was given an opportunity to try this out, which was fun but also somewhat comical. You have to be very direct with the agent, and you can’t talk to anyone else at the same time or it will get confused. Problematically, I kept chatting intermittently with the Meta staffer who’d given me the glasses, and the agent kept thinking I was speaking to it, so it would talk over her.",
+      "heading": 0
+    },
+    {
+      "text": "Still, in the right context, it’s easy to see how this new integration could be incredibly useful. If you don’t mind being seen in public talking to your own sunglasses, you’ll be able to ask Muse to take care of various digital tasks for you, like sending emails or reciting to-do lists, and it will handle them while you’re out grocery shopping or having a beer. You can also ask the glasses anything, and like a mobile version of ChatGPT, they’ll spit out an answer. (I asked the glasses a question about World War II, and they gave me a succinct and historically accurate response.)",
+      "heading": 0
+    },
+    {
+      "text": "Finally, I also got to test-drive a second audio-only pair: Meta’s new glasses for the hearing impaired. Given that hearing loss affects many families (some 50 million Americans are said to have some level of hearing loss), this device, unlike a lot of other modern tech gadgets, serves a clear and practical purpose.",
+      "heading": 0
+    },
+    {
+      "text": "I spoke briefly with a member of Meta’s research team who said the glasses had been in development for about five years, and he pointed out a price difference that could make them appealing: Whereas a lot of hearing aids can run as high as $1,600, the glasses will sell for $150.",
+      "heading": 0
+    },
+    {
+      "text": "The experience of wearing these glasses was interesting. Meta had me put earplugs in before trying them on to simulate the hearing loss that the glasses are meant to help users overcome. Once the glasses were on, they seemed to amplify the voice of the person I was talking to. Users can switch the amplification from focused, which zeroes in on the person in front of them, to omnidirectional, which picks up sound from all around them, depending on how they want to experience their surroundings.",
+      "heading": 0
+    },
+    {
+      "text": "Mark Zuckerberg has made it clear that he believes smart glasses are the future, and it’s evident that his company is doing its best to fulfill that vision. But smart glasses remain a niche that has yet to truly find its footing. What was most obvious at Connect is that Meta has — in an attempt to succeed where others have failed — cast a very wide net, trying to make its glasses stylish, functional, and, most of all, useful.",
+      "heading": 0
+    },
+    {
+      "text": "Is this the future? Unsurprisingly, everyone at Connect seemed to think so. I suppose we’ll have to see if the rest of the world follows suit.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

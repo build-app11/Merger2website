@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "ChatGPT brings unlimited text chats to free users",
+  "slug": "chatgpt-brings-unlimited-text-chats-to-free-users",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205105208.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+    "episode": ""
+  },
+  "words": 348,
+  "lines": 11,
+  "duration": 116,
+  "text": "OpenAI is removing limits on text-based chats for all users on ChatGPT, which recently crossed the 1 billion weekly user mark, the company announced today.\n\nThe new GPT-5.6 Luna model will power this experience and will be the default model for Free and Go users, replacing GPT-5.5.\n\nBoth users will also get a new “Think” button that lets them select higher reasoning power for complex questions. OpenAI said that there will still be separate limits for files, images, voice, and image generation.\n\nThe update brings changes for Plus and Pro users as well. They’ll gain access to an upgraded GPT-5.6 Sol model that’s better for quick tasks such as questions, web research, advice, planning, writing, and making decisions. The company noted that this new model will give more compact and robust answers. (Notably, this is a separate version from GPT-5.6 Sol used for Codex and Work, which is unchanged.)\n\nChatGPT Plus and Pro users are also getting a thinking slider to adjust “how much” thought the model puts into an answer. They can tune the thinking slider based on complexity and steps involved in solving a query.\n\nOpenAI said an internal evaluation found that, compared to GPT-5.5-Instant, factual errors were 62% less common for GPT-5.6 Luna and 68% less common for GPT-5.6 Sol.\n\nThe updated version of GPT-5.6 Sol is available to Plus and Pro users today, while the other changes for Free and Go users are arriving this week. Next week, users will gain access to unlimited text chats and the new Think button for harder questions.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "OpenAI is removing limits on text-based chats for all users on ChatGPT, which recently crossed the 1 billion weekly user mark, the company announced today.",
+      "heading": 0
+    },
+    {
+      "text": "The new GPT-5.6 Luna model will power this experience and will be the default model for Free and Go users, replacing GPT-5.5.",
+      "heading": 0
+    },
+    {
+      "text": "Both users will also get a new “Think” button that lets them select higher reasoning power for complex questions. OpenAI said that there will still be separate limits for files, images, voice, and image generation.",
+      "heading": 0
+    },
+    {
+      "text": "The update brings changes for Plus and Pro users as well. They’ll gain access to an upgraded GPT-5.6 Sol model that’s better for quick tasks such as questions, web research, advice, planning, writing, and making decisions. The company noted that this new model will give more compact and robust answers. (Notably, this is a separate version from GPT-5.6 Sol used for Codex and Work, which is unchanged.)",
+      "heading": 0
+    },
+    {
+      "text": "ChatGPT Plus and Pro users are also getting a thinking slider to adjust “how much” thought the model puts into an answer. They can tune the thinking slider based on complexity and steps involved in solving a query.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI said an internal evaluation found that, compared to GPT-5.5-Instant, factual errors were 62% less common for GPT-5.6 Luna and 68% less common for GPT-5.6 Sol.",
+      "heading": 0
+    },
+    {
+      "text": "The updated version of GPT-5.6 Sol is available to Plus and Pro users today, while the other changes for Free and Go users are arriving this week. Next week, users will gain access to unlimited text chats and the new Think button for harder questions.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

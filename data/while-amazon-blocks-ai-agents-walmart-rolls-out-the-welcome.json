@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+  "slug": "while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2018/01/gettyimages-903923942.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "episode": ""
+  },
+  "words": 653,
+  "lines": 14,
+  "duration": 218,
+  "text": "Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactions and other new features aimed at customers using AI agents, the retailer announced on Wednesday. The move comes shortly after Walmart’s top competitor, Amazon, began blocking AI agents from making purchases on behalf of online shoppers.\n\nThe company’s embrace of AI technology differentiates it from other online businesses, including not only Amazon but also various travel and booking sites, which have responded to the growing consumer adoption of AI agents by locking them out of their websites completely. Walmart, on the other hand, had already announced a partnership with a leading agent in the space, Meta’s Muse, and offers integrations with popular AI apps like ChatGPT, Gemini, and others.\n\nNow it’s expanding on those efforts with more technology to prepare for a world where AI agents become mainstream, said Walmart president and CEO John Furner, speaking at the Masters of Scale Summit in San Francisco on Wednesday. The technology will support agentic shopping from both Walmart and the company’s discount warehouse, Sam’s Club.\n\nIt starts with Walmart’s Agent Gateway, the company’s new MCP server, which is designed to help approved agents connect to Walmart over the model context protocol (MCP). The protocol, originally created by Anthropic, allows AI agents to connect to external data sources, tools, and other workflows. In this case, it lets an AI agent search across Walmart’s online inventory and make purchases on behalf of the agent’s user.\n\nWhat’s more, the retailer says that its Agent Gateway will be able to help customers shop for their usual brands or items without having to share their personal information or purchase history directly with the agent.\n\nThe company has also developed new technology to differentiate an agent’s purchases from those initiated directly by the customer and to give shoppers more control over what their agents can and cannot do.\n\nWith Agent Profiles, rolling out next month, customers will be able to authorize each AI agent they use with a dedicated profile in their account, allowing them to see the agent’s purchases separately from their own. Plus, customers will be in control of how purchases get approved by either requiring approval for each transaction or by authorizing transactions within a certain spending limit they set.\n\nThe retailer says these controls are similar to adding someone as an authorized user on your credit card, where their transactions are identified and you can cap their spending.\n\nThe Agent Profiles will be created the first time you use a given agent to shop through the Walmart Agent Gateway, the company notes. To get started, you’ll authorize and link the Agent Profile to your Walmart account, then set your controls or spending limits. You can also delete an Agent Profile at any time. Agent support is available for anyone with a Walmart account; a Walmart+ membership is not necessary.\n\nAlongside these technologies, Walmart is introducing special “terms” for AI agents, which specify how they must operate and what rights they have to transact on its site. Of note, Walmart says that its returns process applies, including when an agent doesn’t act as intended. That’s a customer-friendly condition that could sway consumers who were worried about being an early tester of agentic commerce, as they won’t fear ending up with products they don’t want because of a misbehaving agent.\n\nWalmart also says that agents can’t take actions beyond what the shopper intends, can’t access the customers’ payment information, and can only access the information they need for the given task. Agents that don’t comply with the terms will be blocked from accessing Walmart’s site.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactions and other new features aimed at customers using AI agents, the retailer announced on Wednesday. The move comes shortly after Walmart’s top competitor, Amazon, began blocking AI agents from making purchases on behalf of online shoppers.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s embrace of AI technology differentiates it from other online businesses, including not only Amazon but also various travel and booking sites, which have responded to the growing consumer adoption of AI agents by locking them out of their websites completely. Walmart, on the other hand, had already announced a partnership with a leading agent in the space, Meta’s Muse, and offers integrations with popular AI apps like ChatGPT, Gemini, and others.",
+      "heading": 0
+    },
+    {
+      "text": "Now it’s expanding on those efforts with more technology to prepare for a world where AI agents become mainstream, said Walmart president and CEO John Furner, speaking at the Masters of Scale Summit in San Francisco on Wednesday. The technology will support agentic shopping from both Walmart and the company’s discount warehouse, Sam’s Club.",
+      "heading": 0
+    },
+    {
+      "text": "It starts with Walmart’s Agent Gateway, the company’s new MCP server, which is designed to help approved agents connect to Walmart over the model context protocol (MCP). The protocol, originally created by Anthropic, allows AI agents to connect to external data sources, tools, and other workflows. In this case, it lets an AI agent search across Walmart’s online inventory and make purchases on behalf of the agent’s user.",
+      "heading": 0
+    },
+    {
+      "text": "What’s more, the retailer says that its Agent Gateway will be able to help customers shop for their usual brands or items without having to share their personal information or purchase history directly with the agent.",
+      "heading": 0
+    },
+    {
+      "text": "The company has also developed new technology to differentiate an agent’s purchases from those initiated directly by the customer and to give shoppers more control over what their agents can and cannot do.",
+      "heading": 0
+    },
+    {
+      "text": "With Agent Profiles, rolling out next month, customers will be able to authorize each AI agent they use with a dedicated profile in their account, allowing them to see the agent’s purchases separately from their own. Plus, customers will be in control of how purchases get approved by either requiring approval for each transaction or by authorizing transactions within a certain spending limit they set.",
+      "heading": 0
+    },
+    {
+      "text": "The retailer says these controls are similar to adding someone as an authorized user on your credit card, where their transactions are identified and you can cap their spending.",
+      "heading": 0
+    },
+    {
+      "text": "The Agent Profiles will be created the first time you use a given agent to shop through the Walmart Agent Gateway, the company notes. To get started, you’ll authorize and link the Agent Profile to your Walmart account, then set your controls or spending limits. You can also delete an Agent Profile at any time. Agent support is available for anyone with a Walmart account; a Walmart+ membership is not necessary.",
+      "heading": 0
+    },
+    {
+      "text": "Alongside these technologies, Walmart is introducing special “terms” for AI agents, which specify how they must operate and what rights they have to transact on its site. Of note, Walmart says that its returns process applies, including when an agent doesn’t act as intended. That’s a customer-friendly condition that could sway consumers who were worried about being an early tester of agentic commerce, as they won’t fear ending up with products they don’t want because of a misbehaving agent.",
+      "heading": 0
+    },
+    {
+      "text": "Walmart also says that agents can’t take actions beyond what the shopper intends, can’t access the customers’ payment information, and can only access the information they need for the given task. Agents that don’t comply with the terms will be blocked from accessing Walmart’s site.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

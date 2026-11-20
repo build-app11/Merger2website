@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+  "slug": "exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+    "episode": ""
+  },
+  "words": 604,
+  "lines": 17,
+  "duration": 201,
+  "text": "AI lab Mirendil has signed a multiyear partnership with Google Cloud to source compute capacity for its self-improving AI research, TechCrunch has exclusively learned.\n\nThe deal mirrors two trends shaping the AI industry: Cloud giants are courting startups with huge infrastructure commitments, and AI companies are snatching up as many compute deals as they can to secure access as they scale.\n\nThe deal is worth upward of $100 million, Mirendil’s co-founder and CEO, Behnam Neyshabur, told TechCrunch. That’s roughly half of what Mirendil raised in seed funding at a $1 billion valuation in late June.\n\nThe deal gives the startup access to both Google’s TPUs and Nvidia GPUs, as well as managed training clusters with which Mirendil will work on its self-improving AI. The startup hopes its AI will eventually be able to take on the work of an entire frontier AI lab.\n\nSelf-improving AI, also known as recursive self-improvement, refers to AI systems that iteratively improve themselves. It’s a concept that major labs like Anthropic, where Mirendil’s co-founders hail from, have been working on. A handful of startups like Recursive Superintelligence and Ricursive Intelligence have also recently sprung up around achieving that goal.\n\nMirendil believes this process will automate a lot of scientific and AI research, helping scientists make progress in fields like medicine, biology, and materials science.\n\nNeyshabur thinks AI can mimic how human scientists can learn more about new domains, accumulate knowledge and expertise, and gradually improve their performance. “You can have a self-improving AI where you can point a problem at it and it keeps getting better with time,” he said.\n\n“How can we have an AI system that keeps doing research, keeps improving its own knowledge and performance when it comes to Alzheimer’s disease?” he continued. “This technology allows us to set goals that are ambitious for AI, and the AI would keep making progress.”\n\nTraining self-improving AI, however, requires enormous amounts of computing power. The lab’s co-founder, Harsh Mehta, said training is increasingly about matching the right workloads to the right hardware.\n\n“These models are really good at working with different workloads and chips, and assigning the right workloads to the right chips,” Mehta said. “[Google] provides multiple kinds of chips … This flexibility allows us to ultimately mix and match workloads with the right kind of accelerators, and then lower the cost not just for us, but also for our customers using our systems.”\n\nThat flexibility is central to Google’s AI infrastructure pitch. Amin Vahdat, SVP and chief technologist of AI and infrastructure at Google, said in a statement that AI advancement isn’t just about chip-level performance anymore, “but how we orchestrate entire systems of intelligence and break through the physical constraints of scaling.”\n\nNeyshabur said Mirendil’s software and systems layer help customers get more out of Google’s hardware, giving the cloud giant another potential leg up in the race against its competition. In return, Google gets a strategic partner building frontier recursive self-improving AI — technology that it can eventually shop around to enterprise customers.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "AI lab Mirendil has signed a multiyear partnership with Google Cloud to source compute capacity for its self-improving AI research, TechCrunch has exclusively learned.",
+      "heading": 0
+    },
+    {
+      "text": "The deal mirrors two trends shaping the AI industry: Cloud giants are courting startups with huge infrastructure commitments, and AI companies are snatching up as many compute deals as they can to secure access as they scale.",
+      "heading": 0
+    },
+    {
+      "text": "The deal is worth upward of $100 million, Mirendil’s co-founder and CEO, Behnam Neyshabur, told TechCrunch. That’s roughly half of what Mirendil raised in seed funding at a $1 billion valuation in late June.",
+      "heading": 0
+    },
+    {
+      "text": "The deal gives the startup access to both Google’s TPUs and Nvidia GPUs, as well as managed training clusters with which Mirendil will work on its self-improving AI. The startup hopes its AI will eventually be able to take on the work of an entire frontier AI lab.",
+      "heading": 0
+    },
+    {
+      "text": "Self-improving AI, also known as recursive self-improvement, refers to AI systems that iteratively improve themselves. It’s a concept that major labs like Anthropic, where Mirendil’s co-founders hail from, have been working on. A handful of startups like Recursive Superintelligence and Ricursive Intelligence have also recently sprung up around achieving that goal.",
+      "heading": 0
+    },
+    {
+      "text": "Mirendil believes this process will automate a lot of scientific and AI research, helping scientists make progress in fields like medicine, biology, and materials science.",
+      "heading": 0
+    },
+    {
+      "text": "Neyshabur thinks AI can mimic how human scientists can learn more about new domains, accumulate knowledge and expertise, and gradually improve their performance. “You can have a self-improving AI where you can point a problem at it and it keeps getting better with time,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "“How can we have an AI system that keeps doing research, keeps improving its own knowledge and performance when it comes to Alzheimer’s disease?” he continued. “This technology allows us to set goals that are ambitious for AI, and the AI would keep making progress.”",
+      "heading": 0
+    },
+    {
+      "text": "Training self-improving AI, however, requires enormous amounts of computing power. The lab’s co-founder, Harsh Mehta, said training is increasingly about matching the right workloads to the right hardware.",
+      "heading": 0
+    },
+    {
+      "text": "“These models are really good at working with different workloads and chips, and assigning the right workloads to the right chips,” Mehta said. “[Google] provides multiple kinds of chips … This flexibility allows us to ultimately mix and match workloads with the right kind of accelerators, and then lower the cost not just for us, but also for our customers using our systems.”",
+      "heading": 0
+    },
+    {
+      "text": "That flexibility is central to Google’s AI infrastructure pitch. Amin Vahdat, SVP and chief technologist of AI and infrastructure at Google, said in a statement that AI advancement isn’t just about chip-level performance anymore, “but how we orchestrate entire systems of intelligence and break through the physical constraints of scaling.”",
+      "heading": 0
+    },
+    {
+      "text": "Neyshabur said Mirendil’s software and systems layer help customers get more out of Google’s hardware, giving the cloud giant another potential leg up in the race against its competition. In return, Google gets a strategic partner building frontier recursive self-improving AI — technology that it can eventually shop around to enterprise customers.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

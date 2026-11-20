@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "LibreOffice says ‘no AI’ is now a software feature",
+  "slug": "libreoffice-says-no-ai-is-now-a-software-feature",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/libreoffice.jpg?w=1016",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+    "episode": ""
+  },
+  "words": 523,
+  "lines": 16,
+  "duration": 174,
+  "text": "If you’re looking for a document editor that doesn’t use artificial intelligence, LibreOffice may be just the software for you.\n\nThe Document Foundation, the nonprofit software maker behind the open source document editor LibreOffice, said in a blog post this week that while it does not reject AI out of hand, it “will not add” AI to its software for the foreseeable future.\n\nThe blog post comes weeks after the release of the latest version of LibreOffice in late August, in which the nonprofit reiterated that the software “contains no generative AI features.”\n\nLibreOffice said at the time that this was a “deliberate design position” to ensure that users’ documents are not uploaded to a server for processing and that no part of the software requires a network connection to function. The nonprofit added that its software is used by tens of millions of people and organizations, and that users should retain control over their data.\n\n“Any organisation handling confidential, legally privileged or personal data needs to know where that data goes, and the only assurance that survives an audit is that it does not leave the machine,” the organization said.\n\nLibreOffice says users can still choose to use AI tools by installing software extensions that connect the document editor to local AI models.\n\nThe decision to eschew including AI features bucks the trend of many software makers today that try to pack in as much AI as possible, even to the detriment of the user experience. The so-called “enshittification” of modern software by packing in unnecessary and bloated features, like chatbots and AI assistants, prompted some developers to create or include features that block or remove AI features altogether.\n\nAI tools often require the users’ data to be uploaded and processed on a remote server, which the user has no control over how the data is stored or for how long.\n\nLibreOffice said that there is currently “no integration” that meets all of its requirements, such as ensuring that the users’ data stays on their device and that there is no reliance on a single AI provider, among other considerations. The organization’s criteria for including AI into its software is not a “definitive rejection,” but the decision was an assessment of the technology today, rather than a “judgement on the value of the sector.”\n\n“Until then, there will be no AI of any kind in the default installation; extensions will be available for those who wish to integrate AI features, and we will closely monitor where the technology is actually heading,” said LibreOffice’s blog post.\n\nLibreOffice is one of the many kinds of open source and alternative software used to escape the clutches of Silicon Valley tech giants.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSecurity Editor\n\nZack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.\n\nHe can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+  "paragraphs": [
+    {
+      "text": "If you’re looking for a document editor that doesn’t use artificial intelligence, LibreOffice may be just the software for you.",
+      "heading": 0
+    },
+    {
+      "text": "The Document Foundation, the nonprofit software maker behind the open source document editor LibreOffice, said in a blog post this week that while it does not reject AI out of hand, it “will not add” AI to its software for the foreseeable future.",
+      "heading": 0
+    },
+    {
+      "text": "The blog post comes weeks after the release of the latest version of LibreOffice in late August, in which the nonprofit reiterated that the software “contains no generative AI features.”",
+      "heading": 0
+    },
+    {
+      "text": "LibreOffice said at the time that this was a “deliberate design position” to ensure that users’ documents are not uploaded to a server for processing and that no part of the software requires a network connection to function. The nonprofit added that its software is used by tens of millions of people and organizations, and that users should retain control over their data.",
+      "heading": 0
+    },
+    {
+      "text": "“Any organisation handling confidential, legally privileged or personal data needs to know where that data goes, and the only assurance that survives an audit is that it does not leave the machine,” the organization said.",
+      "heading": 0
+    },
+    {
+      "text": "LibreOffice says users can still choose to use AI tools by installing software extensions that connect the document editor to local AI models.",
+      "heading": 0
+    },
+    {
+      "text": "The decision to eschew including AI features bucks the trend of many software makers today that try to pack in as much AI as possible, even to the detriment of the user experience. The so-called “enshittification” of modern software by packing in unnecessary and bloated features, like chatbots and AI assistants, prompted some developers to create or include features that block or remove AI features altogether.",
+      "heading": 0
+    },
+    {
+      "text": "AI tools often require the users’ data to be uploaded and processed on a remote server, which the user has no control over how the data is stored or for how long.",
+      "heading": 0
+    },
+    {
+      "text": "LibreOffice said that there is currently “no integration” that meets all of its requirements, such as ensuring that the users’ data stays on their device and that there is no reliance on a single AI provider, among other considerations. The organization’s criteria for including AI into its software is not a “definitive rejection,” but the decision was an assessment of the technology today, rather than a “judgement on the value of the sector.”",
+      "heading": 0
+    },
+    {
+      "text": "“Until then, there will be no AI of any kind in the default installation; extensions will be available for those who wish to integrate AI features, and we will closely monitor where the technology is actually heading,” said LibreOffice’s blog post.",
+      "heading": 0
+    },
+    {
+      "text": "LibreOffice is one of the many kinds of open source and alternative software used to escape the clutches of Silicon Valley tech giants.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Security Editor",
+      "heading": 1
+    },
+    {
+      "text": "Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security.",
+      "heading": 0
+    },
+    {
+      "text": "He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at [email protected].",
+      "heading": 0
+    }
+  ]
+}

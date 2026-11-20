@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+  "slug": "we-re-dangerously-close-to-dead-internet-theory-says-pangram",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Max-Headshot.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+    "episode": ""
+  },
+  "words": 401,
+  "lines": 25,
+  "duration": 134,
+  "text": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO\n\nThe internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.\n\nA handful of startups have cropped up in the past couple of years to become the “trust layer” the internet needs — including Pangram. The startup recently snapped up $9 million for its AI detection system and landed a partnership with Substack, which is now using Pangram’s tech to show readers which of their favorite authors use AI to write their newsletters. Pangram also recently dropped a new AI image detection tool.\n\nOn this episode of TechCrunch’s Equity podcast, Pangram co-founder and CEO Max Spero joins Rebecca Bellan to dig into the promise of AI detection tools and where to draw the line between AI assisted and AI generated.\n\nListen to the full episode to hear more about:\n\nWhy Spero thinks the internet could be “dangerously close” to the dead internet theory becoming reality within a few years.\n\nWhy figuring out how much AI went into something is harder — and potentially more useful — than simply labeling it AI or human.\n\nThe stakes of getting AI detection wrong, especially when false positives involve sensitive images.\n\nWhy Spero thinks the “bottom tier” of writing jobs may be gone for good, while genuinely good human writing could become more valuable.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+      "heading": 1
+    },
+    {
+      "text": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.",
+      "heading": 0
+    },
+    {
+      "text": "A handful of startups have cropped up in the past couple of years to become the “trust layer” the internet needs — including Pangram. The startup recently snapped up $9 million for its AI detection system and landed a partnership with Substack, which is now using Pangram’s tech to show readers which of their favorite authors use AI to write their newsletters. Pangram also recently dropped a new AI image detection tool.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Pangram co-founder and CEO Max Spero joins Rebecca Bellan to dig into the promise of AI detection tools and where to draw the line between AI assisted and AI generated.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "Why Spero thinks the internet could be “dangerously close” to the dead internet theory becoming reality within a few years.",
+      "heading": 0
+    },
+    {
+      "text": "Why figuring out how much AI went into something is harder — and potentially more useful — than simply labeling it AI or human.",
+      "heading": 0
+    },
+    {
+      "text": "The stakes of getting AI detection wrong, especially when false positives involve sensitive images.",
+      "heading": 0
+    },
+    {
+      "text": "Why Spero thinks the “bottom tier” of writing jobs may be gone for good, while genuinely good human writing could become more valuable.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

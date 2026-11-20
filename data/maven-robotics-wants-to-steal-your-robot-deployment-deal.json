@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Maven Robotics wants to steal your robot deployment deal",
+  "slug": "maven-robotics-wants-to-steal-your-robot-deployment-deal",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Hamza-Khalid-2-1.jpg?resize=800,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+    "episode": ""
+  },
+  "words": 958,
+  "lines": 19,
+  "duration": 319,
+  "text": "In 2024, Maven Robotics was brand new, and they had nothing — “a cartoon of a robot and a team of people,” CEO and co-founder Hamza Derbas told TechCrunch.\n\nStill, they heard a large consumer goods company with logistics needs was in town to meet with four rival robot companies about automation. Derbas talked his way into a meeting with the company and, instead of talking about his views on robots, asked to visit their factories and warehouses.\n\n“We saw how people were working; we zeroed in on flows we could immediately bring value to,” he told TechCrunch. “We showed them that our approach to robotics is different — we’re not trying to solve a single robot problem. We’re trying to autonomously take on the task end to end: It hooks in from one side to a warehouse management system; product goes on trucks on the other side.”\n\nThey won the deal, beating out companies with existing robots. After two years of work with that company and a few other partners, Derbas says Maven has as many as eight robots working 16 hours a day, with 99% or higher uptime.\n\nToday, the startup is emerging from stealth after raising $100 million from RoboStrategy, LocalGlobe, Vine Ventures, and XTX Ventures, with plans to build 250 of their third-generation robots and begin design on a fourth-generation platform.\n\nTheir robots sit on wheeled bases, capable of moving 10 miles an hour, with two arms that can lift up to 30 kilograms. Their main job is “mixed palletizing” — wooden pallets carrying boxed goods come from different factories to a distribution center, where the robot creates a new pallet containing a mix of goods to be sent to a store.\n\n“Within 48 hours of them putting the stuff on the shelves, they want to change the mix based on real-time demand. Here’s an order with different mixed [products] going to that retail store; please build it out. It’s all done with human labor today, running around the warehouse picking one of this, one of that.”\n\nAt Maven’s Santa Clara facility, the robot moves smoothly about its work in a training area, using vacuum suckers to pick up and arrange the boxes at a reasonable speed. A live video screen shows two robots working in a customer facility while employees walk around them.\n\nDerbas spent his career in automotive engineering, with a focus on EVs, but before Maven he spent nine years working at Apple on the company’s special project group, which he wouldn’t discuss but is widely thought to have been building a self-driving car before it was disbanded in 2024. That was when he started Maven with his brother, Khalid, who serves as the company’s CFO after a career in private equity.\n\nLike other physical AI companies, the firm relies on veterans of self-driving car efforts, which have developed the most sophisticated approaches to training autonomous hardware from real data. That requires data pipelines that return information from operating robots within minutes or hours — “then retrain, evaluate, run ablation studies, figure out what’s the right set of weights, redeploy, and then turn that loop again.”\n\nIn a crowded world of robot companies, Maven sets itself apart with its focus on the realities of industrial operation. Jack Pearson, an investor at RoboStrategy who backed the company, says what sets the company apart is its background in industrial systems, rather than a research culture that is optimized for learning or focused on a specific architecture.\n\nAgility, the robotics company going public this fall in a $2.5 billion SPAC deal, might be the most similarly positioned firm in the market, focused on safety and specific industrial workflows. But its robots stand on two legs, something Derbas, while stressing his respect for the company, says “make zero sense for anything they’re doing…they are very complex, unreliable, and add unnecessary cost. ROI is the name of the game here.”\n\nThat understanding of the realities of overheated facilities and the needs of the people who operate them has helped them get the startup out the door, but if Maven wants to expand beyond its current workflows, it will figure out some kind of research culture. While palletization might be an $80 billion market, the next set of tasks the company is targeting will require robotic manipulation capabilities that don’t yet exist.\n\nMaven’s next big push is to collect more data and train its robots to be able to handle materials, and then to move toward automation and fabrication. The company will draw on its own systems, tap third-party providers, and has even developed a pair of pincer-like gloves that allow humans to emulate the form factor they want for their grippers. While the company bills itself as a maker of general-purpose robots, its strategy is to go task-by-task toward that goal. “We’re grounded in solving one customer problem at a time,” Derbas said. “If you focus on solving problems and you pick sizeable problems, each problem is a multibillion-dollar market. If you do that, there’s plenty of data to master these skills.”\n\nThat process might be the most viable path to putting robots in the workplace — or an opportunity to get one-shotted by the next powerful physical AI model to roll out of the frontier labs.\n\n“We’re not in the race for models — we’re in the race to solve industrial labor and make this work possible at the scale the world needs,” Derbas told TechCrunch.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "In 2024, Maven Robotics was brand new, and they had nothing — “a cartoon of a robot and a team of people,” CEO and co-founder Hamza Derbas told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Still, they heard a large consumer goods company with logistics needs was in town to meet with four rival robot companies about automation. Derbas talked his way into a meeting with the company and, instead of talking about his views on robots, asked to visit their factories and warehouses.",
+      "heading": 0
+    },
+    {
+      "text": "“We saw how people were working; we zeroed in on flows we could immediately bring value to,” he told TechCrunch. “We showed them that our approach to robotics is different — we’re not trying to solve a single robot problem. We’re trying to autonomously take on the task end to end: It hooks in from one side to a warehouse management system; product goes on trucks on the other side.”",
+      "heading": 0
+    },
+    {
+      "text": "They won the deal, beating out companies with existing robots. After two years of work with that company and a few other partners, Derbas says Maven has as many as eight robots working 16 hours a day, with 99% or higher uptime.",
+      "heading": 0
+    },
+    {
+      "text": "Today, the startup is emerging from stealth after raising $100 million from RoboStrategy, LocalGlobe, Vine Ventures, and XTX Ventures, with plans to build 250 of their third-generation robots and begin design on a fourth-generation platform.",
+      "heading": 0
+    },
+    {
+      "text": "Their robots sit on wheeled bases, capable of moving 10 miles an hour, with two arms that can lift up to 30 kilograms. Their main job is “mixed palletizing” — wooden pallets carrying boxed goods come from different factories to a distribution center, where the robot creates a new pallet containing a mix of goods to be sent to a store.",
+      "heading": 0
+    },
+    {
+      "text": "“Within 48 hours of them putting the stuff on the shelves, they want to change the mix based on real-time demand. Here’s an order with different mixed [products] going to that retail store; please build it out. It’s all done with human labor today, running around the warehouse picking one of this, one of that.”",
+      "heading": 0
+    },
+    {
+      "text": "At Maven’s Santa Clara facility, the robot moves smoothly about its work in a training area, using vacuum suckers to pick up and arrange the boxes at a reasonable speed. A live video screen shows two robots working in a customer facility while employees walk around them.",
+      "heading": 0
+    },
+    {
+      "text": "Derbas spent his career in automotive engineering, with a focus on EVs, but before Maven he spent nine years working at Apple on the company’s special project group, which he wouldn’t discuss but is widely thought to have been building a self-driving car before it was disbanded in 2024. That was when he started Maven with his brother, Khalid, who serves as the company’s CFO after a career in private equity.",
+      "heading": 0
+    },
+    {
+      "text": "Like other physical AI companies, the firm relies on veterans of self-driving car efforts, which have developed the most sophisticated approaches to training autonomous hardware from real data. That requires data pipelines that return information from operating robots within minutes or hours — “then retrain, evaluate, run ablation studies, figure out what’s the right set of weights, redeploy, and then turn that loop again.”",
+      "heading": 0
+    },
+    {
+      "text": "In a crowded world of robot companies, Maven sets itself apart with its focus on the realities of industrial operation. Jack Pearson, an investor at RoboStrategy who backed the company, says what sets the company apart is its background in industrial systems, rather than a research culture that is optimized for learning or focused on a specific architecture.",
+      "heading": 0
+    },
+    {
+      "text": "Agility, the robotics company going public this fall in a $2.5 billion SPAC deal, might be the most similarly positioned firm in the market, focused on safety and specific industrial workflows. But its robots stand on two legs, something Derbas, while stressing his respect for the company, says “make zero sense for anything they’re doing…they are very complex, unreliable, and add unnecessary cost. ROI is the name of the game here.”",
+      "heading": 0
+    },
+    {
+      "text": "That understanding of the realities of overheated facilities and the needs of the people who operate them has helped them get the startup out the door, but if Maven wants to expand beyond its current workflows, it will figure out some kind of research culture. While palletization might be an $80 billion market, the next set of tasks the company is targeting will require robotic manipulation capabilities that don’t yet exist.",
+      "heading": 0
+    },
+    {
+      "text": "Maven’s next big push is to collect more data and train its robots to be able to handle materials, and then to move toward automation and fabrication. The company will draw on its own systems, tap third-party providers, and has even developed a pair of pincer-like gloves that allow humans to emulate the form factor they want for their grippers. While the company bills itself as a maker of general-purpose robots, its strategy is to go task-by-task toward that goal. “We’re grounded in solving one customer problem at a time,” Derbas said. “If you focus on solving problems and you pick sizeable problems, each problem is a multibillion-dollar market. If you do that, there’s plenty of data to master these skills.”",
+      "heading": 0
+    },
+    {
+      "text": "That process might be the most viable path to putting robots in the workplace — or an opportunity to get one-shotted by the next powerful physical AI model to roll out of the frontier labs.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re not in the race for models — we’re in the race to solve industrial labor and make this work possible at the scale the world needs,” Derbas told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

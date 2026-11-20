@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+  "slug": "openai-loses-a-top-data-center-exec-as-stream-of-high-profil",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2236544023.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+    "episode": ""
+  },
+  "words": 755,
+  "lines": 18,
+  "duration": 252,
+  "text": "OpenAI has lost yet another executive, and the timing of this one stands out in particular given that this individual oversaw the execution of the company’s data center strategy.\n\nChris Malone, OpenAI’s former head of data centers, left the company last week, The Wall Street Journal has reported. Malone, who spent nearly five years at Meta and more than a decade at Google before that, joined OpenAI in March of last year, making his tenure relatively short.\n\nMalone joined the company not long after the launch of the Stargate Project, a $500 million data center initiative championed by the Trump administration that has sought to develop data centers in the U.S. OpenAI, along with Oracle, Nvidia, SoftBank, and Microsoft, is considered a key partner in the effort.\n\nWhy is Malone leaving? It isn’t entirely clear. With the AI infrastructure buildout frenzy in full swing across the industry, data center strategy has become one of the most closely watched roles at any AI lab, which makes turnover in that seat especially surprising.\n\nIn a statement to TechCrunch about Malone’s departure, OpenAI said it had “recently reorganized” its “infrastructure organization to support the scale and pace of our work.” It added: “We have a strong, deeply experienced data center team in place, with clear leadership and the technical expertise to execute our plans.”\n\nAs part of that reorganization, per the WSJ, Malone stopped reporting directly to OpenAI president Greg Brockman and began reporting to OpenAI vice president Sachin Katti, who took over leadership of the group.\n\nSeveral other executives are said to be currently overseeing OpenAI’s data center strategy, including Uday Ruddarraju, who leads the company’s data center team; Brent Mayo, who leads the data center build and delivery program; and Spas Lazarov, a veteran of the data center and energy industries, who leads all data center engineering.\n\nWhatever the reason for Malone’s departure, he isn’t alone. His exit adds to a string of more than a dozen executive departures this year. Business Insider recently tallied the total 2026 departure count at 13, with several leaving in just the last month. And these aren’t junior employees walking out the door — they’re some of the company’s most senior seats.\n\nTwo weeks ago, the company replaced its chief revenue officer, Denise Dresser, who had only been with the company for some eight months. Two days prior to Dresser’s announced departure, the company also lost Brad Lightcap, one of its longest-serving executives, who spent years as the company’s Chief Operating Officer. Lightcap said he would be “starting something new” but hasn’t given details on what that new project entails.\n\nApproximately a month before those departures, the company also lost Fidji Simo, the company’s de facto second-in-command (Simo served as product and business chief and reported directly to CEO Sam Altman). She stepped down from her position to recover from a “ chronic illness.” Simo remains with the company in an advisory role.\n\nOpenAI’s safety and ethics teams have seen notable departures, too. In July, the company lost its “head of ethics,” Chloé Bakalar, and, last week, it was reported that OpenAI had disbanded its preparedness team, a unit dedicated to assessing whether the company’s AI models could result in catastrophic risks.\n\nOther team leaders, like Bill Peebles, the former head of OpenAI’s now-defunct AI image generator Sora, have left because their projects were shut down. In April, the company also lost its chief marketing officer, Kate Rouch, who — like Simo — reportedly left for health reasons.\n\nThe company’s remaining talent has tried hard to minimize the significance of the ongoing talent flight, with co-founder Greg Brockman recently lamenting that the intense “spotlight” on his company means that “every departure gets scrutinized in a way that it doesn’t otherwise.”\n\nBut the churn has naturally raised questions, especially as it preps for an IPO. OpenAI’s public listing, originally expected this year, is now reportedly pushed to 2027, and the company is undergoing a kind of reputational vetting that comes with any looming listing. Concerns have arisen that the company may be overvalued and that its profitability doesn’t match the gargantuan investments being made in the lab.\n\nSuffice it to say, the flood of outgoing executives certainly hasn’t quieted those doubts.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "OpenAI has lost yet another executive, and the timing of this one stands out in particular given that this individual oversaw the execution of the company’s data center strategy.",
+      "heading": 0
+    },
+    {
+      "text": "Chris Malone, OpenAI’s former head of data centers, left the company last week, The Wall Street Journal has reported. Malone, who spent nearly five years at Meta and more than a decade at Google before that, joined OpenAI in March of last year, making his tenure relatively short.",
+      "heading": 0
+    },
+    {
+      "text": "Malone joined the company not long after the launch of the Stargate Project, a $500 million data center initiative championed by the Trump administration that has sought to develop data centers in the U.S. OpenAI, along with Oracle, Nvidia, SoftBank, and Microsoft, is considered a key partner in the effort.",
+      "heading": 0
+    },
+    {
+      "text": "Why is Malone leaving? It isn’t entirely clear. With the AI infrastructure buildout frenzy in full swing across the industry, data center strategy has become one of the most closely watched roles at any AI lab, which makes turnover in that seat especially surprising.",
+      "heading": 0
+    },
+    {
+      "text": "In a statement to TechCrunch about Malone’s departure, OpenAI said it had “recently reorganized” its “infrastructure organization to support the scale and pace of our work.” It added: “We have a strong, deeply experienced data center team in place, with clear leadership and the technical expertise to execute our plans.”",
+      "heading": 0
+    },
+    {
+      "text": "As part of that reorganization, per the WSJ, Malone stopped reporting directly to OpenAI president Greg Brockman and began reporting to OpenAI vice president Sachin Katti, who took over leadership of the group.",
+      "heading": 0
+    },
+    {
+      "text": "Several other executives are said to be currently overseeing OpenAI’s data center strategy, including Uday Ruddarraju, who leads the company’s data center team; Brent Mayo, who leads the data center build and delivery program; and Spas Lazarov, a veteran of the data center and energy industries, who leads all data center engineering.",
+      "heading": 0
+    },
+    {
+      "text": "Whatever the reason for Malone’s departure, he isn’t alone. His exit adds to a string of more than a dozen executive departures this year. Business Insider recently tallied the total 2026 departure count at 13, with several leaving in just the last month. And these aren’t junior employees walking out the door — they’re some of the company’s most senior seats.",
+      "heading": 0
+    },
+    {
+      "text": "Two weeks ago, the company replaced its chief revenue officer, Denise Dresser, who had only been with the company for some eight months. Two days prior to Dresser’s announced departure, the company also lost Brad Lightcap, one of its longest-serving executives, who spent years as the company’s Chief Operating Officer. Lightcap said he would be “starting something new” but hasn’t given details on what that new project entails.",
+      "heading": 0
+    },
+    {
+      "text": "Approximately a month before those departures, the company also lost Fidji Simo, the company’s de facto second-in-command (Simo served as product and business chief and reported directly to CEO Sam Altman). She stepped down from her position to recover from a “ chronic illness.” Simo remains with the company in an advisory role.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI’s safety and ethics teams have seen notable departures, too. In July, the company lost its “head of ethics,” Chloé Bakalar, and, last week, it was reported that OpenAI had disbanded its preparedness team, a unit dedicated to assessing whether the company’s AI models could result in catastrophic risks.",
+      "heading": 0
+    },
+    {
+      "text": "Other team leaders, like Bill Peebles, the former head of OpenAI’s now-defunct AI image generator Sora, have left because their projects were shut down. In April, the company also lost its chief marketing officer, Kate Rouch, who — like Simo — reportedly left for health reasons.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s remaining talent has tried hard to minimize the significance of the ongoing talent flight, with co-founder Greg Brockman recently lamenting that the intense “spotlight” on his company means that “every departure gets scrutinized in a way that it doesn’t otherwise.”",
+      "heading": 0
+    },
+    {
+      "text": "But the churn has naturally raised questions, especially as it preps for an IPO. OpenAI’s public listing, originally expected this year, is now reportedly pushed to 2027, and the company is undergoing a kind of reputational vetting that comes with any looming listing. Concerns have arisen that the company may be overvalued and that its profitability doesn’t match the gargantuan investments being made in the lab.",
+      "heading": 0
+    },
+    {
+      "text": "Suffice it to say, the flood of outgoing executives certainly hasn’t quieted those doubts.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

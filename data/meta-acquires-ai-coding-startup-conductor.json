@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Meta acquires AI coding startup Conductor",
+  "slug": "meta-acquires-ai-coding-startup-conductor",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "episode": ""
+  },
+  "words": 373,
+  "lines": 11,
+  "duration": 124,
+  "text": "Meta has acquired Conductor, an AI coding startup that allows users to spin up software projects by deploying multiple agents into parallel workspaces.\n\nThe news was originally reported by Axios, and Conductor shared news of its acquisition on its blog.\n\n“I have big news: Conductor is joining Meta,” wrote the startup’s founder and CEO, Charlie Holtz, on Wednesday. “We have some big, crazy plans for the next interface,” he added, teasing that the company would have “something new” for customers to use by “early next year.”\n\nOn X, Holtz also noted that he was looking forward to working with Alexandr Wang, Meta’s chief AI officer, and Nat Friedman, head of product at the company’s Superintelligence Labs. “They’ve been on an absolute tear, and I’m convinced MSL has the highest talent density of all the labs,” he added.\n\nMeta confirmed the acquisition to TechCrunch but wouldn’t comment further or provide additional details about the deal.\n\nConductor, founded in 2024, only launched its core product just last summer. The company’s agentic teams, which can be deployed in the cloud, locally, or via a user’s phone, are designed to help software engineers work on separate, compartmentalized parts of a project in concert. The agents that the platform deploys aren’t developed in-house but come from major labs like Anthropic and OpenAI.\n\nHoltz said that, until early next year, Conductor’s core features would continue to work as they previously have. The exception is Conductor’s cloud service, which will shut down on November 20, after which the company will begin deleting user cloud data.\n\nMeta, which previously lagged behind in AI services, has spent the last several months trying to catch up. In August, the company launched Muse Code, its own coding agent. Meanwhile, the company’s recently launched Muse agents are seeing significant adoption, with the company recently reporting that the service had surpassed 10 million users. The company has also made a number of AI-related acquisitions over the past year, including Moltbook, the viral agent platform that made headlines.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Meta has acquired Conductor, an AI coding startup that allows users to spin up software projects by deploying multiple agents into parallel workspaces.",
+      "heading": 0
+    },
+    {
+      "text": "The news was originally reported by Axios, and Conductor shared news of its acquisition on its blog.",
+      "heading": 0
+    },
+    {
+      "text": "“I have big news: Conductor is joining Meta,” wrote the startup’s founder and CEO, Charlie Holtz, on Wednesday. “We have some big, crazy plans for the next interface,” he added, teasing that the company would have “something new” for customers to use by “early next year.”",
+      "heading": 0
+    },
+    {
+      "text": "On X, Holtz also noted that he was looking forward to working with Alexandr Wang, Meta’s chief AI officer, and Nat Friedman, head of product at the company’s Superintelligence Labs. “They’ve been on an absolute tear, and I’m convinced MSL has the highest talent density of all the labs,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "Meta confirmed the acquisition to TechCrunch but wouldn’t comment further or provide additional details about the deal.",
+      "heading": 0
+    },
+    {
+      "text": "Conductor, founded in 2024, only launched its core product just last summer. The company’s agentic teams, which can be deployed in the cloud, locally, or via a user’s phone, are designed to help software engineers work on separate, compartmentalized parts of a project in concert. The agents that the platform deploys aren’t developed in-house but come from major labs like Anthropic and OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "Holtz said that, until early next year, Conductor’s core features would continue to work as they previously have. The exception is Conductor’s cloud service, which will shut down on November 20, after which the company will begin deleting user cloud data.",
+      "heading": 0
+    },
+    {
+      "text": "Meta, which previously lagged behind in AI services, has spent the last several months trying to catch up. In August, the company launched Muse Code, its own coding agent. Meanwhile, the company’s recently launched Muse agents are seeing significant adoption, with the company recently reporting that the service had surpassed 10 million users. The company has also made a number of AI-related acquisitions over the past year, including Moltbook, the viral agent platform that made headlines.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

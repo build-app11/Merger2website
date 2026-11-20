@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+  "slug": "is-it-legal-to-train-ai-models-on-copyrighted-books-it-s-com",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-1303811813.jpg?resize=1200,749",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+    "episode": ""
+  },
+  "words": 1136,
+  "lines": 25,
+  "duration": 379,
+  "text": "You probably know by now that the AI models powering ChatGPT, Gemini, Claude, and other chatbots are trained on seemingly infinite databases of published works, containing hundreds of millions of books, online articles, academic papers, and basically anything you can find on the internet. Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?\n\nThe reality isn’t that simple.\n\n“I think one of the issues with this entire area of law and this entire area of technology is there’s a lot going on,” Cathy Gellis, an attorney with expertise in intellectual property, copyright, and technology, told TechCrunch. “It’s very complex and there are a lot of raw feelings about what is happening, both for and against.”\n\nLast year, in one of the first rulings of its kind, Judge William Alsup ordered Anthropic to pay a mammoth $1.5 billion copyright settlement to a group of writers whose works were used to train the company’s AI models. At face value, this seemed like a moral victory favoring authors, but Judge Alsup actually ruled that Anthropic’s AI training was lawful. What Alsup penalized Anthropic for was pirating these books from illegal online shadow libraries.\n\n“Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them — but to turn a hard corner and create something different,” the judge wrote, comparing the way an LLM ingests trillions of words to a writer’s study of literature.\n\nGellis thinks the ruling is more advantageous for AI companies. What’s a $1.5 billion fine to a company projecting about $200 billion in annual revenue by 2028?\n\n“I think it is generally good news for AI training that he looked at what was going on and really sort of thought it analogous to reading a copyrighted work as opposed to copying a copyrighted work,” Gellis said. “Copyright law hinges on copying, but it doesn’t hinge on using the work or experiencing the work, consuming the work, reading the work.”\n\nCopyright law hasn’t been updated since 1976, which means that judges have to figure out how to interpret guidelines from 50 years ago when confronting legal questions that have the potential to shape the future of the AI industry.\n\n“Everybody is very worried right now because the law is all over the place, and it’s because of this question,” Jason Henderson, senior attorney and founder of the IP & Media Practice at JWL International, told TechCrunch. “They know that the AI model has been trained on so much stuff, and the law has not really caught up to that question.”\n\nThese questions often hinge on fair use law — namely, whether use of a copyrighted work is “transformative” enough to be considered legally permissible.\n\nFair use is a carve-out of copyright law that allows for the use of copyrighted materials without explicit permission, protecting the ability to comment and iterate on copyrighted works through criticism, parody, education, and other means. Judges consider specific factors when deciding if something is fair use, including the purpose and nature of the work, the amount used, and its impact on the market.\n\n“Copyright is always about protecting and growing the market,” Henderson noted. “The courts are kind of all over the place in their reasoning [in AI cases]. What’s tending to win is if what you’re doing is you’re training on somebody’s property because your purpose is to directly compete, then the courts will frown on it… If what you’re doing is not going to compete, then the courts are tending to find ways that it will be okay.”\n\nHenderson is referencing a case in which the media and technology company Thomson Reuters sued the research firm Ross Intelligence for copying its content in order to build a competing, AI-based legal platform.\n\n“Ross’s use is not transformative because it does not have a ‘further purpose or different character’ than Thomson Reuters’s,” Judge Stephanos Bibas wrote last year.\n\nIn that case, Judge Bibas decided that it was not fair use to train on Reuters’ content to make a new platform that would directly compete with it. While authors could potentially argue that chatbots are competing with them by using their works to generate new, synthetic books, that argument has not yet prevailed in court.\n\nWhen it comes to the relationship between AI and copyright, Gellis finds it helpful to narrow down what we’re actually talking about — the way we think about copyright in terms of AI training is quite different from how we think about copyrighting AI-generated content.\n\nIn one case, Thaler v. Perlmutter, the court ruled that if a work is 100% AI-generated, it’s not copyrightable, which opens a whole new can of worms — how can we definitively prove whether or not a work was generated using AI, and if so, how do we know what percentage of it was created or assisted with AI?\n\n“If you write your novel in [Microsoft] Word and run spell check, we kind of feel comfortable with the idea of saying that Word does not own your novel,” Gellis said. “[AI] is forcing us to look at a whole bunch of decisions that we kind of ignored for a while.”\n\nMost AI companies are still lodged in pending litigation over these issues, which means that we won’t have a definitive solution to these problems any time soon.\n\n“What you are seeing is that the initial opening volleys are being influential, and that influence itself could be undone if other courts decide different things, and it’ll take later states of litigation to figure out which one will prevail,” Gellis said. “But in the meantime, all these decisions are shaping everything that’s happening. It would be kind of foolish for the AI companies to ignore them.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "You probably know by now that the AI models powering ChatGPT, Gemini, Claude, and other chatbots are trained on seemingly infinite databases of published works, containing hundreds of millions of books, online articles, academic papers, and basically anything you can find on the internet. Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+      "heading": 0
+    },
+    {
+      "text": "The reality isn’t that simple.",
+      "heading": 0
+    },
+    {
+      "text": "“I think one of the issues with this entire area of law and this entire area of technology is there’s a lot going on,” Cathy Gellis, an attorney with expertise in intellectual property, copyright, and technology, told TechCrunch. “It’s very complex and there are a lot of raw feelings about what is happening, both for and against.”",
+      "heading": 0
+    },
+    {
+      "text": "Last year, in one of the first rulings of its kind, Judge William Alsup ordered Anthropic to pay a mammoth $1.5 billion copyright settlement to a group of writers whose works were used to train the company’s AI models. At face value, this seemed like a moral victory favoring authors, but Judge Alsup actually ruled that Anthropic’s AI training was lawful. What Alsup penalized Anthropic for was pirating these books from illegal online shadow libraries.",
+      "heading": 0
+    },
+    {
+      "text": "“Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them — but to turn a hard corner and create something different,” the judge wrote, comparing the way an LLM ingests trillions of words to a writer’s study of literature.",
+      "heading": 0
+    },
+    {
+      "text": "Gellis thinks the ruling is more advantageous for AI companies. What’s a $1.5 billion fine to a company projecting about $200 billion in annual revenue by 2028?",
+      "heading": 0
+    },
+    {
+      "text": "“I think it is generally good news for AI training that he looked at what was going on and really sort of thought it analogous to reading a copyrighted work as opposed to copying a copyrighted work,” Gellis said. “Copyright law hinges on copying, but it doesn’t hinge on using the work or experiencing the work, consuming the work, reading the work.”",
+      "heading": 0
+    },
+    {
+      "text": "Copyright law hasn’t been updated since 1976, which means that judges have to figure out how to interpret guidelines from 50 years ago when confronting legal questions that have the potential to shape the future of the AI industry.",
+      "heading": 0
+    },
+    {
+      "text": "“Everybody is very worried right now because the law is all over the place, and it’s because of this question,” Jason Henderson, senior attorney and founder of the IP & Media Practice at JWL International, told TechCrunch. “They know that the AI model has been trained on so much stuff, and the law has not really caught up to that question.”",
+      "heading": 0
+    },
+    {
+      "text": "These questions often hinge on fair use law — namely, whether use of a copyrighted work is “transformative” enough to be considered legally permissible.",
+      "heading": 0
+    },
+    {
+      "text": "Fair use is a carve-out of copyright law that allows for the use of copyrighted materials without explicit permission, protecting the ability to comment and iterate on copyrighted works through criticism, parody, education, and other means. Judges consider specific factors when deciding if something is fair use, including the purpose and nature of the work, the amount used, and its impact on the market.",
+      "heading": 0
+    },
+    {
+      "text": "“Copyright is always about protecting and growing the market,” Henderson noted. “The courts are kind of all over the place in their reasoning [in AI cases]. What’s tending to win is if what you’re doing is you’re training on somebody’s property because your purpose is to directly compete, then the courts will frown on it… If what you’re doing is not going to compete, then the courts are tending to find ways that it will be okay.”",
+      "heading": 0
+    },
+    {
+      "text": "Henderson is referencing a case in which the media and technology company Thomson Reuters sued the research firm Ross Intelligence for copying its content in order to build a competing, AI-based legal platform.",
+      "heading": 0
+    },
+    {
+      "text": "“Ross’s use is not transformative because it does not have a ‘further purpose or different character’ than Thomson Reuters’s,” Judge Stephanos Bibas wrote last year.",
+      "heading": 0
+    },
+    {
+      "text": "In that case, Judge Bibas decided that it was not fair use to train on Reuters’ content to make a new platform that would directly compete with it. While authors could potentially argue that chatbots are competing with them by using their works to generate new, synthetic books, that argument has not yet prevailed in court.",
+      "heading": 0
+    },
+    {
+      "text": "When it comes to the relationship between AI and copyright, Gellis finds it helpful to narrow down what we’re actually talking about — the way we think about copyright in terms of AI training is quite different from how we think about copyrighting AI-generated content.",
+      "heading": 0
+    },
+    {
+      "text": "In one case, Thaler v. Perlmutter, the court ruled that if a work is 100% AI-generated, it’s not copyrightable, which opens a whole new can of worms — how can we definitively prove whether or not a work was generated using AI, and if so, how do we know what percentage of it was created or assisted with AI?",
+      "heading": 0
+    },
+    {
+      "text": "“If you write your novel in [Microsoft] Word and run spell check, we kind of feel comfortable with the idea of saying that Word does not own your novel,” Gellis said. “[AI] is forcing us to look at a whole bunch of decisions that we kind of ignored for a while.”",
+      "heading": 0
+    },
+    {
+      "text": "Most AI companies are still lodged in pending litigation over these issues, which means that we won’t have a definitive solution to these problems any time soon.",
+      "heading": 0
+    },
+    {
+      "text": "“What you are seeing is that the initial opening volleys are being influential, and that influence itself could be undone if other courts decide different things, and it’ll take later states of litigation to figure out which one will prevail,” Gellis said. “But in the meantime, all these decisions are shaping everything that’s happening. It would be kind of foolish for the AI companies to ignore them.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

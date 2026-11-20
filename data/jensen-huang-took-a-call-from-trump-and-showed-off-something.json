@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+  "slug": "jensen-huang-took-a-call-from-trump-and-showed-off-something",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+    "episode": ""
+  },
+  "words": 353,
+  "lines": 19,
+  "duration": 118,
+  "text": "Posted:\n\nConnie Loizos\n\nJensen Huang took a call from Trump, and showed off something else, too\n\nCorrection: An earlier version of this piece identified the phone Jensen Huang used to take President Trump’s call as Apple’s iPhone Duo. That was incorrect — the device appears to be a different foldable. The piece has been updated to remove references to the iPhone Duo and the conclusions that were based on that error.\n\nJensen Huang made headlines Monday at the All-In conference in LA when President Trump called him, live, onstage. But there was something else worth noting about his appearance. Huang, dressed in his now-signature alligator leather jacket, was handed a foldable phone to answer it.\n\nOnce he got Trump on speaker, the conversation turned to AI safety, and the two seemed to agree that mounting fears about AI equate to what Trump called a “hoax.” Trump argued that the real winners of the AI panic are China and “political people,” and that the technology is too big — “bigger than the internet,” he said — to slow down over. (“Did you hear that? Thousands of people are clapping,” said Huang to Trump during this same exchange.)\n\nWhether Huang truly shares that same view or isn’t in a position to say otherwise, we’ll never know. Nvidia’s business model depends largely on AI labs buying more chips, so downplaying existential risk is the only move if he cares about his company’s share price. (It’s still up 33% for the past year but fell a few percentage points today.)\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling\n\nPalmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in Hardware\n\nSony’s updated turntable is an easy entry into the world of vinyl\n\nLauren Forristal\n\nNvidia says it doesn’t plan to reappoint Jensen Huang as CEO\n\nLucas Ropek\n\nApple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID\n\nSarah Perez",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "Jensen Huang took a call from Trump, and showed off something else, too",
+      "heading": 0
+    },
+    {
+      "text": "Correction: An earlier version of this piece identified the phone Jensen Huang used to take President Trump’s call as Apple’s iPhone Duo. That was incorrect — the device appears to be a different foldable. The piece has been updated to remove references to the iPhone Duo and the conclusions that were based on that error.",
+      "heading": 0
+    },
+    {
+      "text": "Jensen Huang made headlines Monday at the All-In conference in LA when President Trump called him, live, onstage. But there was something else worth noting about his appearance. Huang, dressed in his now-signature alligator leather jacket, was handed a foldable phone to answer it.",
+      "heading": 0
+    },
+    {
+      "text": "Once he got Trump on speaker, the conversation turned to AI safety, and the two seemed to agree that mounting fears about AI equate to what Trump called a “hoax.” Trump argued that the real winners of the AI panic are China and “political people,” and that the technology is too big — “bigger than the internet,” he said — to slow down over. (“Did you hear that? Thousands of people are clapping,” said Huang to Trump during this same exchange.)",
+      "heading": 0
+    },
+    {
+      "text": "Whether Huang truly shares that same view or isn’t in a position to say otherwise, we’ll never know. Nvidia’s business model depends largely on AI labs buying more chips, so downplaying existential risk is the only move if he cares about his company’s share price. (It’s still up 33% for the past year but fell a few percentage points today.)",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Hardware",
+      "heading": 1
+    },
+    {
+      "text": "Sony’s updated turntable is an easy entry into the world of vinyl",
+      "heading": 0
+    },
+    {
+      "text": "Lauren Forristal",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    }
+  ]
+}

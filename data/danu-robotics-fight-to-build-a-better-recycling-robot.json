@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Danu Robotics’ fight to build a better recycling robot",
+  "slug": "danu-robotics-fight-to-build-a-better-recycling-robot",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Guarding-installed.jpeg?resize=1200,900",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+    "episode": ""
+  },
+  "words": 581,
+  "lines": 15,
+  "duration": 194,
+  "text": "For Danu Robotics founder Amy Ma, the eureka moment came after years of working as a software developer at a London bank. It was the kind of high-touch office that’s typical in finance — but despite all the perks, Ma was alarmed to realize that the building’s recycling bins were being emptied into the trash.\n\n“Even though they have tons of money, there’s all these different recycling bins that just end up in the same place,” Ma told TechCrunch.\n\nThe more she dug into the problem, the deeper it seemed to go. It wasn’t just her building. The economics of recycling as a whole often boil down to human beings sorting by hand through streams of waste to pull out different kinds of recyclable material.\n\n“I saw the technology and thought, we can do so much better,” Ma remembers.\n\nNow, she’s making good on that promise with six-year-old, Edinburgh, Scotland-based Danu Robotics, which makes a robot designed to sort through recycling more cheaply and quickly. Ma has been working on that idea for six years and is finally bringing her version of the product to market. Her robot, dubbed H.E.R.O., has a few advantages over its competitors. For example, it picks up items with a pincer claw instead of a suction system. But the bigger difference is the business approach: Danu leverages AI to continuously improve the robot’s software.\n\nThe approach is already seeing some traction. Danu has letters of interest from two large customers and $500,000 worth of signed contracts. More notably, more than 200 customers are in its sales pipeline, which gives the company a hook into the $20 billion market for recycling sorting across Europe and North America.\n\nOn the back of that promise, Dabnu is in the process of raising a $5 million late-seed round to keep the commercial pressure on.\n\nThere’s already a robust market for robotic waste-pickers, particularly the suction-based arms offered by competitors like Glacier and RecycleEye. But Ma believes the economics of recycling will make it easy for a new competitor to prove its worth. Because recycling centers make money off the materials they’re able to sort out, there’s an immediate return on investment for a working system. Ma estimates that a working site will earn $485,000 in additional revenue from having the robot on the sorting line, more than double the cost of the robot.\n\nSince those machines are already shipping, Ma’s next goal is to make the robot sturdier, smaller, and more versatile. Once it’s portable enough, it can be used outside dedicated waste facilities, opening up a whole other world of use cases.\n\n“Once it’s smaller, it can be used as a stand-alone recycling solution for events, for shopping centers, hospitals, or airports to recycle their waste at the source,” Ma told TechCrunch, “and that’s the way we can really change how we’re managing our packaging waste.”\n\nDanu Robotics will be participating in Startup Battlefield 200 at TechCrunch Disrupt, October 13-15 at the Moscone Center in San Francisco.\n\nCorrection: An earlier version of this post misstated the details of Danu’s funding round; in fact, Danu Robotics is in the process of raising its $5 million late-seed round.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "For Danu Robotics founder Amy Ma, the eureka moment came after years of working as a software developer at a London bank. It was the kind of high-touch office that’s typical in finance — but despite all the perks, Ma was alarmed to realize that the building’s recycling bins were being emptied into the trash.",
+      "heading": 0
+    },
+    {
+      "text": "“Even though they have tons of money, there’s all these different recycling bins that just end up in the same place,” Ma told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The more she dug into the problem, the deeper it seemed to go. It wasn’t just her building. The economics of recycling as a whole often boil down to human beings sorting by hand through streams of waste to pull out different kinds of recyclable material.",
+      "heading": 0
+    },
+    {
+      "text": "“I saw the technology and thought, we can do so much better,” Ma remembers.",
+      "heading": 0
+    },
+    {
+      "text": "Now, she’s making good on that promise with six-year-old, Edinburgh, Scotland-based Danu Robotics, which makes a robot designed to sort through recycling more cheaply and quickly. Ma has been working on that idea for six years and is finally bringing her version of the product to market. Her robot, dubbed H.E.R.O., has a few advantages over its competitors. For example, it picks up items with a pincer claw instead of a suction system. But the bigger difference is the business approach: Danu leverages AI to continuously improve the robot’s software.",
+      "heading": 0
+    },
+    {
+      "text": "The approach is already seeing some traction. Danu has letters of interest from two large customers and $500,000 worth of signed contracts. More notably, more than 200 customers are in its sales pipeline, which gives the company a hook into the $20 billion market for recycling sorting across Europe and North America.",
+      "heading": 0
+    },
+    {
+      "text": "On the back of that promise, Dabnu is in the process of raising a $5 million late-seed round to keep the commercial pressure on.",
+      "heading": 0
+    },
+    {
+      "text": "There’s already a robust market for robotic waste-pickers, particularly the suction-based arms offered by competitors like Glacier and RecycleEye. But Ma believes the economics of recycling will make it easy for a new competitor to prove its worth. Because recycling centers make money off the materials they’re able to sort out, there’s an immediate return on investment for a working system. Ma estimates that a working site will earn $485,000 in additional revenue from having the robot on the sorting line, more than double the cost of the robot.",
+      "heading": 0
+    },
+    {
+      "text": "Since those machines are already shipping, Ma’s next goal is to make the robot sturdier, smaller, and more versatile. Once it’s portable enough, it can be used outside dedicated waste facilities, opening up a whole other world of use cases.",
+      "heading": 0
+    },
+    {
+      "text": "“Once it’s smaller, it can be used as a stand-alone recycling solution for events, for shopping centers, hospitals, or airports to recycle their waste at the source,” Ma told TechCrunch, “and that’s the way we can really change how we’re managing our packaging waste.”",
+      "heading": 0
+    },
+    {
+      "text": "Danu Robotics will be participating in Startup Battlefield 200 at TechCrunch Disrupt, October 13-15 at the Moscone Center in San Francisco.",
+      "heading": 0
+    },
+    {
+      "text": "Correction: An earlier version of this post misstated the details of Danu’s funding round; in fact, Danu Robotics is in the process of raising its $5 million late-seed round.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

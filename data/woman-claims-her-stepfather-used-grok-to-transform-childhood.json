@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+  "slug": "woman-claims-her-stepfather-used-grok-to-transform-childhood",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+    "episode": ""
+  },
+  "words": 302,
+  "lines": 20,
+  "duration": 101,
+  "text": "Posted:\n\nAnthony Ha\n\nWoman claims her stepfather used Grok to transform childhood photo into explicit imagery\n\nA woman identified as Jane Doe 4 has joined a lawsuit filed by three Tennessee teenagers against Elon Musk’s xAI over the role the company’s chatbot Grok allegedly played in creating child sexual abuse material.\n\nAccording to a report in The Washington Post, the woman alleged that her stepfather used Grok to manipulate a photo taken when she was 11 years old to create more than 7,000 explicit images of her. The woman also said that her stepfather was found dead of suicide two days after the images were uncovered in a law enforcement raid.\n\n“Limitless access to these tools is spreading so quickly,” said the woman. “It is taking everyday life and turning it into child sexual abuse.”\n\nThe teenagers who’d filed the lawsuit accused xAI (now part of SpaceX) of failing to take basic precautions to prevent Grok from being used to create explicit images of real people, including minors. (X was flooded with millions of Grok-generated sexualized images earlier this year.) They are seeking class action status for their suit.\n\nTechCrunch has reached out to xAI for comment.\n\nIf you are in a crisis or having thoughts of suicide, call or text 988 to reach the 988 Suicide and Crisis Lifeline.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "heading": 0
+    },
+    {
+      "text": "A woman identified as Jane Doe 4 has joined a lawsuit filed by three Tennessee teenagers against Elon Musk’s xAI over the role the company’s chatbot Grok allegedly played in creating child sexual abuse material.",
+      "heading": 0
+    },
+    {
+      "text": "According to a report in The Washington Post, the woman alleged that her stepfather used Grok to manipulate a photo taken when she was 11 years old to create more than 7,000 explicit images of her. The woman also said that her stepfather was found dead of suicide two days after the images were uncovered in a law enforcement raid.",
+      "heading": 0
+    },
+    {
+      "text": "“Limitless access to these tools is spreading so quickly,” said the woman. “It is taking everyday life and turning it into child sexual abuse.”",
+      "heading": 0
+    },
+    {
+      "text": "The teenagers who’d filed the lawsuit accused xAI (now part of SpaceX) of failing to take basic precautions to prevent Grok from being used to create explicit images of real people, including minors. (X was flooded with millions of Grok-generated sexualized images earlier this year.) They are seeking class action status for their suit.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to xAI for comment.",
+      "heading": 0
+    },
+    {
+      "text": "If you are in a crisis or having thoughts of suicide, call or text 988 to reach the 988 Suicide and Crisis Lifeline.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

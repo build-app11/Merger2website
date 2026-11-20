@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Meta’s AI agent has been blocked from using Amazon.com",
+  "slug": "meta-s-ai-agent-has-been-blocked-from-using-amazon-com",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+    "episode": ""
+  },
+  "words": 317,
+  "lines": 18,
+  "duration": 106,
+  "text": "Posted:\n\nRussell Brandom\n\nMeta’s AI agent has been blocked from using Amazon.com\n\nSunday night, users of Meta’s AI assistant Muse started getting a strange error message when they tried to buy goods on Amazon. As spotted by GeekWire, the error message read: “Continued access by an unauthorized AI agent violates Amazon’s Conditions of Use, to which our customers have agreed.”\n\nIn other words, Muse isn’t welcome as a shopper — and anyone trying to buy something on Amazon through the AI agent will have to find it somewhere else.\n\nIt’s easy to see the block as a tête-à-tête between tech giants. Amazon has its own cohort of foundation models, after all, along with one of the most popular inference platforms on the internet. As long as they’re under no legal obligation to open the doors to Muse, why would they?\n\nBut there are also substantive reasons Amazon might not want to be in the agentic commerce business just yet. If Muse makes a bad order, Amazon is going to be the one to clean it up — dealing with both the angry customer and the angry vendor. Muse has one of the lower hallucination rates, as AI models go, but it’s still pretty far from zero. Even if Amazon sees an opportunity in agent-driven commerce, they may want to wait a few more release cycles before rolling anything out.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Russell Brandom",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s AI agent has been blocked from using Amazon.com",
+      "heading": 1
+    },
+    {
+      "text": "Sunday night, users of Meta’s AI assistant Muse started getting a strange error message when they tried to buy goods on Amazon. As spotted by GeekWire, the error message read: “Continued access by an unauthorized AI agent violates Amazon’s Conditions of Use, to which our customers have agreed.”",
+      "heading": 0
+    },
+    {
+      "text": "In other words, Muse isn’t welcome as a shopper — and anyone trying to buy something on Amazon through the AI agent will have to find it somewhere else.",
+      "heading": 0
+    },
+    {
+      "text": "It’s easy to see the block as a tête-à-tête between tech giants. Amazon has its own cohort of foundation models, after all, along with one of the most popular inference platforms on the internet. As long as they’re under no legal obligation to open the doors to Muse, why would they?",
+      "heading": 0
+    },
+    {
+      "text": "But there are also substantive reasons Amazon might not want to be in the agentic commerce business just yet. If Muse makes a bad order, Amazon is going to be the one to clean it up — dealing with both the angry customer and the angry vendor. Muse has one of the lower hallucination rates, as AI models go, but it’s still pretty far from zero. Even if Amazon sees an opportunity in agent-driven commerce, they may want to wait a few more release cycles before rolling anything out.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

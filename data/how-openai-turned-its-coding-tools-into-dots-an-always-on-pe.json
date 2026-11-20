@@ -1,0 +1,133 @@
+{
+  "type": "read",
+  "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+  "slug": "how-openai-turned-its-coding-tools-into-dots-an-always-on-pe",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+    "episode": ""
+  },
+  "words": 1289,
+  "lines": 27,
+  "duration": 430,
+  "text": "The always-on AI personal assistant, which keeps working in the background even when you aren’t asking it to, is this year’s answer to the question of how people will actually use deep learning models. The startup Instinct became an overnight sensation, and Meta put the full force of its marketing behind its assistant, Muse.\n\nOpenAI wasn’t going to be left out. The company released dots, its assistant offering, at its developer day in late September. Alexander Embiricos, who leads OpenAI’s enterprise product team, joined us at TechCrunch Disrupt this month to explain where the product came from — starting with the question of why so many companies seem to be turning to cutesy mascots as avatars for their trillion-parameter matrix multiplication machines.\n\n“There’s kind of this convergent evolution happening,” Embiricos said of the efforts to build AI assistants. “As we were working on the product, we realized if we could frame this as, it’s an entity and it’s a single conversation, not many different conversations….it starts to become intuitive.”\n\nThe assistant is available in the ChatGPT desktop and mobile apps to subscribers on the Pro tier or higher, with plans starting at $100 a month. Once it is connected to your calendar, email, computer and other tools, the agent tries to help you get your work done.\n\nEmbiricos points out that you could achieve much of dots’ functionality with Open AI’s Codex app, its coding tool, released at the beginning of this year. But that requires more work and hand-holding. He recalled celebrating when his wife started leaving her computer on all night so that her agents could keep working.\n\n“On the product team, what I think about is, how do we make this intuitive and useful to people?” he told Disrupt attendees. “A lot of that isn’t building some new piece of tech into the product; it’s how you frame it to the user and how it feels.”\n\nThe path from chatbot to coding tool to personal assistant\n\nMaking the technology feel intuitive meant repackaging the functionality of the company’s models into something more accessible, a path it was already on as it spun ChatGPT Work out of the agentic coding tools it had built for software engineers. Even the name — a play on the negative space inside of OpenAI’s logo — is intended “to feel like just something that could eventually be ubiquitous.” (Asked when he learned that rival AI entrepreneur Elon Musk owns the dot.com URL, Embiricos said, “I found out very late.”)\n\nThe idea of a persistent agent is that it doesn’t need prompting. For OpenAI, that means more token usage, and for users, a more pro-active assistant “that’s sort of thinking about you and thinking how to help you,” as Embiricos put it.\n\nIn our testing, the assistant’s ability to think ahead is apparent and often useful, but it isn’t quite there yet. It will flag calendar conflicts and upcoming deadlines, but not necessarily in the most timely fashion.\n\n“The first time it told me about one of those [conflicts] — this is like early in development — it told me three minutes before the thing,” Embiricos says of his dot. “It’s like, ‘Hey, this thing is coming up. You might want to do something about it.’ I only have three minutes!”\n\nEmbiricos expects the timing to improve over time, but the proactive approach is key to the product. “I was hearing about an engineer at a drone delivery startup, and they were saying, ‘We had this outage, and by the time I noticed that the outage was going on, my dot had already noticed the outage was happening, had already analyzed the outage, and had come to me with useful information for how we could resolve the outage.’”\n\nGiving dot the keys\n\nAs with most AI agent use cases, there’s a tension between the personal information an AI model needs to be useful and exactly how much personal data you are exposing to a software company. Muse has been criticized for the profiles it builds of your family and friends, which the software uses to know, say, what kind of restaurant you might want to go to with a specific pal, but could also add incredible value to Meta’s advertising business. Does dots collect similar data?\n\n“Yes, we have a thing that we built into dots, which we call proactive research,” Embiricos said. “On a cadence, it will think about what it knows about you, what is the conversation that it’s had, and then what have you given it access to that it can think about, and then it will go and research, ‘What could I do to be more helpful to you?’ And then, basically, it will propose that.”\n\nIt’s difficult to separate the data needs of the agent from that of its parent corporation. Hark, a startup developing its own AI personal assistant, is explicit in pointing out that it doesn’t collect data to fuel an advertising business the way that OpenAI and Meta do.\n\nWith dots, OpenAI says that the agent has the same privacy controls as ChatGPT itself: Users can turn off model training (stopping OpenAI from using their conversations to improve its AI), and control which resources it accesses within your computer and how. Still, those controls aren’t granular and the app can be pushy. For example, it refuses to accept read-only access to cloud drives.\n\n“What I think we need to do is basically build out super, super, super granular controls,” Embiricos said, but he pointed to the model’s intelligence and discretion as the other side of this coin.\n\n“This is actually something we kind of got some flack about when we launched,” Embiricos said. “We had really conservative defaults over what the agent would do, and it would ask for permission a lot. I remember knowing that we were going to see that feedback, but thinking, ‘This is okay, we can tune that over time.’”\n\nCan personal AI agents scale?\n\nThe other big question about AI agents is whether they can scale. They’re fun when only a few people have them, and stories of agents snagging hard-to-get reservations abound. But businesses don’t necessarily like dealing with agents and might not be equipped to. People certainly don’t like dealing with them (note: stop having your AI agents pitch me), and Embiricos is among those people. He also has a human assistant because OpenAI’s corporate partners want to interact with a person, he said, adding, “I personally never intend to have a meeting with someone else’s agent.”\n\nIf the AI industry is right that agents are our future, can we get there without overwhelming the infrastructure that our world currently runs on, from businesses and websites to payment networks?\n\n“At OpenAI…we’re not always moving the fastest in terms of shipping the next ability for the agent to work with the world,” he said. “When we do, we’re doing it really closely in collaboration with the rest of the ecosystem. I probably can’t say too much here, but we’re deep in lots of conversations with payment processors.”\n\nLetting an AI assistant spend money through partnerships with payment companies would be a potentially lucrative first for OpenAI, but also a big ask for consumers. Giving an assistant access to my email inbox already feels like a big ask, but my bank account is off limits. For now.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "The always-on AI personal assistant, which keeps working in the background even when you aren’t asking it to, is this year’s answer to the question of how people will actually use deep learning models. The startup Instinct became an overnight sensation, and Meta put the full force of its marketing behind its assistant, Muse.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI wasn’t going to be left out. The company released dots, its assistant offering, at its developer day in late September. Alexander Embiricos, who leads OpenAI’s enterprise product team, joined us at TechCrunch Disrupt this month to explain where the product came from — starting with the question of why so many companies seem to be turning to cutesy mascots as avatars for their trillion-parameter matrix multiplication machines.",
+      "heading": 0
+    },
+    {
+      "text": "“There’s kind of this convergent evolution happening,” Embiricos said of the efforts to build AI assistants. “As we were working on the product, we realized if we could frame this as, it’s an entity and it’s a single conversation, not many different conversations….it starts to become intuitive.”",
+      "heading": 0
+    },
+    {
+      "text": "The assistant is available in the ChatGPT desktop and mobile apps to subscribers on the Pro tier or higher, with plans starting at $100 a month. Once it is connected to your calendar, email, computer and other tools, the agent tries to help you get your work done.",
+      "heading": 0
+    },
+    {
+      "text": "Embiricos points out that you could achieve much of dots’ functionality with Open AI’s Codex app, its coding tool, released at the beginning of this year. But that requires more work and hand-holding. He recalled celebrating when his wife started leaving her computer on all night so that her agents could keep working.",
+      "heading": 0
+    },
+    {
+      "text": "“On the product team, what I think about is, how do we make this intuitive and useful to people?” he told Disrupt attendees. “A lot of that isn’t building some new piece of tech into the product; it’s how you frame it to the user and how it feels.”",
+      "heading": 0
+    },
+    {
+      "text": "The path from chatbot to coding tool to personal assistant",
+      "heading": 1
+    },
+    {
+      "text": "Making the technology feel intuitive meant repackaging the functionality of the company’s models into something more accessible, a path it was already on as it spun ChatGPT Work out of the agentic coding tools it had built for software engineers. Even the name — a play on the negative space inside of OpenAI’s logo — is intended “to feel like just something that could eventually be ubiquitous.” (Asked when he learned that rival AI entrepreneur Elon Musk owns the dot.com URL, Embiricos said, “I found out very late.”)",
+      "heading": 0
+    },
+    {
+      "text": "The idea of a persistent agent is that it doesn’t need prompting. For OpenAI, that means more token usage, and for users, a more pro-active assistant “that’s sort of thinking about you and thinking how to help you,” as Embiricos put it.",
+      "heading": 0
+    },
+    {
+      "text": "In our testing, the assistant’s ability to think ahead is apparent and often useful, but it isn’t quite there yet. It will flag calendar conflicts and upcoming deadlines, but not necessarily in the most timely fashion.",
+      "heading": 0
+    },
+    {
+      "text": "“The first time it told me about one of those [conflicts] — this is like early in development — it told me three minutes before the thing,” Embiricos says of his dot. “It’s like, ‘Hey, this thing is coming up. You might want to do something about it.’ I only have three minutes!”",
+      "heading": 0
+    },
+    {
+      "text": "Embiricos expects the timing to improve over time, but the proactive approach is key to the product. “I was hearing about an engineer at a drone delivery startup, and they were saying, ‘We had this outage, and by the time I noticed that the outage was going on, my dot had already noticed the outage was happening, had already analyzed the outage, and had come to me with useful information for how we could resolve the outage.’”",
+      "heading": 0
+    },
+    {
+      "text": "Giving dot the keys",
+      "heading": 1
+    },
+    {
+      "text": "As with most AI agent use cases, there’s a tension between the personal information an AI model needs to be useful and exactly how much personal data you are exposing to a software company. Muse has been criticized for the profiles it builds of your family and friends, which the software uses to know, say, what kind of restaurant you might want to go to with a specific pal, but could also add incredible value to Meta’s advertising business. Does dots collect similar data?",
+      "heading": 0
+    },
+    {
+      "text": "“Yes, we have a thing that we built into dots, which we call proactive research,” Embiricos said. “On a cadence, it will think about what it knows about you, what is the conversation that it’s had, and then what have you given it access to that it can think about, and then it will go and research, ‘What could I do to be more helpful to you?’ And then, basically, it will propose that.”",
+      "heading": 0
+    },
+    {
+      "text": "It’s difficult to separate the data needs of the agent from that of its parent corporation. Hark, a startup developing its own AI personal assistant, is explicit in pointing out that it doesn’t collect data to fuel an advertising business the way that OpenAI and Meta do.",
+      "heading": 0
+    },
+    {
+      "text": "With dots, OpenAI says that the agent has the same privacy controls as ChatGPT itself: Users can turn off model training (stopping OpenAI from using their conversations to improve its AI), and control which resources it accesses within your computer and how. Still, those controls aren’t granular and the app can be pushy. For example, it refuses to accept read-only access to cloud drives.",
+      "heading": 0
+    },
+    {
+      "text": "“What I think we need to do is basically build out super, super, super granular controls,” Embiricos said, but he pointed to the model’s intelligence and discretion as the other side of this coin.",
+      "heading": 0
+    },
+    {
+      "text": "“This is actually something we kind of got some flack about when we launched,” Embiricos said. “We had really conservative defaults over what the agent would do, and it would ask for permission a lot. I remember knowing that we were going to see that feedback, but thinking, ‘This is okay, we can tune that over time.’”",
+      "heading": 0
+    },
+    {
+      "text": "Can personal AI agents scale?",
+      "heading": 0
+    },
+    {
+      "text": "The other big question about AI agents is whether they can scale. They’re fun when only a few people have them, and stories of agents snagging hard-to-get reservations abound. But businesses don’t necessarily like dealing with agents and might not be equipped to. People certainly don’t like dealing with them (note: stop having your AI agents pitch me), and Embiricos is among those people. He also has a human assistant because OpenAI’s corporate partners want to interact with a person, he said, adding, “I personally never intend to have a meeting with someone else’s agent.”",
+      "heading": 0
+    },
+    {
+      "text": "If the AI industry is right that agents are our future, can we get there without overwhelming the infrastructure that our world currently runs on, from businesses and websites to payment networks?",
+      "heading": 0
+    },
+    {
+      "text": "“At OpenAI…we’re not always moving the fastest in terms of shipping the next ability for the agent to work with the world,” he said. “When we do, we’re doing it really closely in collaboration with the rest of the ecosystem. I probably can’t say too much here, but we’re deep in lots of conversations with payment processors.”",
+      "heading": 0
+    },
+    {
+      "text": "Letting an AI assistant spend money through partnerships with payment companies would be a potentially lucrative first for OpenAI, but also a big ask for consumers. Giving an assistant access to my email inbox already feels like a big ask, but my bank account is off limits. For now.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

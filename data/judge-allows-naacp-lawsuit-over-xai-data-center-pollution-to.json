@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+  "slug": "judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "episode": ""
+  },
+  "words": 475,
+  "lines": 14,
+  "duration": 158,
+  "text": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis.\n\nSuing on behalf of the NAACP, the Southern Environmental Law Center said the AI company had “installed and operated at least 35 combustion turbines and other sources of air pollution at the Colossus site without ever obtaining the necessary preconstruction or operating air permits.” It also accused xAI of violating the Clean Air Act.\n\nxAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile. The company also argued that the plaintiffs did not have the standing to sue.\n\n“Because the plaintiffs have statutory standing under the Clean Air Act, because the combustion turbines are not ‘mobile sources’ under Mississippi’s [State Implementation Plan], and because the citizen suit provision does not violate Article II of the Constitution or the private nondelegation doctrine, the plaintiffs’ claims will proceed,” Judge Debra M. Brown wrote in her decision.\n\nFocusing on xAI’s claim that these kinds of citizen lawsuits are unconstitutional, Judge Brown wrote, “Because citizen suit plaintiffs sue on their own behalf, in their own name, and seek penalties that redress harm to themselves, they are not exercising the federal government’s executive power.”\n\nTechCrunch has reached out to SpaceX for comment.\n\nIn a statement, the NAACP’s director of environmental and climate justice Abre’ Conner described this as “another important victory in our effort to hold xAI accountable.” (A similar motion to dismiss from the Department of Justice was denied earlier this month.)\n\n“The courts have repeatedly rejected attempts by xAI and the DOJ to dismiss the NAACP’s Clean Air Act case, affirming our right to pursue justice for communities impacted by pollution,” Conner said. “Our position has been clear: xAI cannot operate gas turbines without the required permits.”\n\nThe NAACP lawsuit is moving forward as public opinion seems to have turned sharply against data centers, with New York recently passing a moratorium on new data centers and other state and local governments considering similar measures.\n\nThe backlash also prompted Amazon and Microsoft to promise to stop using NDAs in their dealings with government agencies, and it could be a significant factor in the imminent U.S. midterm elections.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis.",
+      "heading": 0
+    },
+    {
+      "text": "Suing on behalf of the NAACP, the Southern Environmental Law Center said the AI company had “installed and operated at least 35 combustion turbines and other sources of air pollution at the Colossus site without ever obtaining the necessary preconstruction or operating air permits.” It also accused xAI of violating the Clean Air Act.",
+      "heading": 0
+    },
+    {
+      "text": "xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile. The company also argued that the plaintiffs did not have the standing to sue.",
+      "heading": 0
+    },
+    {
+      "text": "“Because the plaintiffs have statutory standing under the Clean Air Act, because the combustion turbines are not ‘mobile sources’ under Mississippi’s [State Implementation Plan], and because the citizen suit provision does not violate Article II of the Constitution or the private nondelegation doctrine, the plaintiffs’ claims will proceed,” Judge Debra M. Brown wrote in her decision.",
+      "heading": 0
+    },
+    {
+      "text": "Focusing on xAI’s claim that these kinds of citizen lawsuits are unconstitutional, Judge Brown wrote, “Because citizen suit plaintiffs sue on their own behalf, in their own name, and seek penalties that redress harm to themselves, they are not exercising the federal government’s executive power.”",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to SpaceX for comment.",
+      "heading": 0
+    },
+    {
+      "text": "In a statement, the NAACP’s director of environmental and climate justice Abre’ Conner described this as “another important victory in our effort to hold xAI accountable.” (A similar motion to dismiss from the Department of Justice was denied earlier this month.)",
+      "heading": 0
+    },
+    {
+      "text": "“The courts have repeatedly rejected attempts by xAI and the DOJ to dismiss the NAACP’s Clean Air Act case, affirming our right to pursue justice for communities impacted by pollution,” Conner said. “Our position has been clear: xAI cannot operate gas turbines without the required permits.”",
+      "heading": 0
+    },
+    {
+      "text": "The NAACP lawsuit is moving forward as public opinion seems to have turned sharply against data centers, with New York recently passing a moratorium on new data centers and other state and local governments considering similar measures.",
+      "heading": 0
+    },
+    {
+      "text": "The backlash also prompted Amazon and Microsoft to promise to stop using NDAs in their dealings with government agencies, and it could be a significant factor in the imminent U.S. midterm elections.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

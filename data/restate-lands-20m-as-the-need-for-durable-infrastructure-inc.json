@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+  "slug": "restate-lands-20m-as-the-need-for-durable-infrastructure-inc",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/06/founders.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+    "episode": ""
+  },
+  "words": 648,
+  "lines": 21,
+  "duration": 216,
+  "text": "When Stephan Ewen co-founded Restate in 2022 to provide durable workflow infrastructure, he couldn’t have anticipated how valuable such an offering would become for managing AI agent processes.\n\nThe Berlin-based startup had set out to build an execution engine that made multistep workflows resilient to crashes and network interruptions — something that made it a fit for the agentic era.\n\n“It never was built for agents in the beginning, but it just happened to be a perfect match for all these problems that agents surface,” Ewen told TechCrunch.\n\nEnsuring durability is especially critical for agent workflows, which run longer and take inherently unpredictable paths compared to traditional software.\n\n“You need to make sure you track exactly what you do to make it reproducible and have a consistent outcome,” Ewen said.\n\nThe explosion of AI agents has provided a powerful tailwind for the startup. Over the last few months, Restate has closed multiple six- and seven-figure customer contracts, according to Ewen. That momentum has led Restate to secure a $20 million Series A led by Singular with participation from Redpoint Ventures and Capital One Ventures.\n\nThe fresh capital will help Restate take on Temporal, the heavyweight in the durable infrastructure space. Temporal, which was founded in 2019, announced a $550 million Series E at a $12.55 billion valuation earlier this month.\n\nDespite being a much smaller provider of increasingly important technology, Restate has already managed to attract high-profile customers, including vibe-coding platform Replit.\n\nInstead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight, Ewen said.\n\nAlthough many companies tend to use durability engines for so-called heavy-weight workflows, Restate is trying to change this with its more efficient and cost-effective system.\n\nEwen said that in addition to providing durability for AI companies, the startup is serving Fortune 500 customers, including in the financial space.\n\nWhile Restate may be applied to different use cases, customers all have the same need — a way to ensure that if something fails mid-process, the system automatically finds a way to put itself back together, Ewen said.\n\nPrior to launching Restate, Ewen was a co-creator of a popular open source stream-processing framework, Apache Flink, and later became the CTO of Data Artisans, a company that was monetizing the project. Alibaba acquired Data Artisans in 2019 and rebranded it as Ververica, where Ewen continued to serve as CTO for three years. He co-founded Restate with former colleagues from Data Artisans and Ververica: Igal Shilman and Till Rohrmann. Ahmed Farghal, who was previously an engineer at Stripe and Meta, joined as the fourth co-founder at the Series A.\n\nThe company intends to use its fresh capital to hire a go-to-market team, bring on more engineers, and expand its office in the San Francisco Bay Area to be closer to many of the current and potential customers.\n\nNevertheless, Ewen insists that Restate’s capabilities will soon be essential to companies outside of traditional tech companies.\n\n“If we fast-forward a couple of years, it’s one of those tools, like a database, that I think pretty much any company will have a use case for, no matter their shape and size,” he said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "When Stephan Ewen co-founded Restate in 2022 to provide durable workflow infrastructure, he couldn’t have anticipated how valuable such an offering would become for managing AI agent processes.",
+      "heading": 0
+    },
+    {
+      "text": "The Berlin-based startup had set out to build an execution engine that made multistep workflows resilient to crashes and network interruptions — something that made it a fit for the agentic era.",
+      "heading": 0
+    },
+    {
+      "text": "“It never was built for agents in the beginning, but it just happened to be a perfect match for all these problems that agents surface,” Ewen told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Ensuring durability is especially critical for agent workflows, which run longer and take inherently unpredictable paths compared to traditional software.",
+      "heading": 0
+    },
+    {
+      "text": "“You need to make sure you track exactly what you do to make it reproducible and have a consistent outcome,” Ewen said.",
+      "heading": 0
+    },
+    {
+      "text": "The explosion of AI agents has provided a powerful tailwind for the startup. Over the last few months, Restate has closed multiple six- and seven-figure customer contracts, according to Ewen. That momentum has led Restate to secure a $20 million Series A led by Singular with participation from Redpoint Ventures and Capital One Ventures.",
+      "heading": 0
+    },
+    {
+      "text": "The fresh capital will help Restate take on Temporal, the heavyweight in the durable infrastructure space. Temporal, which was founded in 2019, announced a $550 million Series E at a $12.55 billion valuation earlier this month.",
+      "heading": 0
+    },
+    {
+      "text": "Despite being a much smaller provider of increasingly important technology, Restate has already managed to attract high-profile customers, including vibe-coding platform Replit.",
+      "heading": 0
+    },
+    {
+      "text": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight, Ewen said.",
+      "heading": 0
+    },
+    {
+      "text": "Although many companies tend to use durability engines for so-called heavy-weight workflows, Restate is trying to change this with its more efficient and cost-effective system.",
+      "heading": 0
+    },
+    {
+      "text": "Ewen said that in addition to providing durability for AI companies, the startup is serving Fortune 500 customers, including in the financial space.",
+      "heading": 0
+    },
+    {
+      "text": "While Restate may be applied to different use cases, customers all have the same need — a way to ensure that if something fails mid-process, the system automatically finds a way to put itself back together, Ewen said.",
+      "heading": 0
+    },
+    {
+      "text": "Prior to launching Restate, Ewen was a co-creator of a popular open source stream-processing framework, Apache Flink, and later became the CTO of Data Artisans, a company that was monetizing the project. Alibaba acquired Data Artisans in 2019 and rebranded it as Ververica, where Ewen continued to serve as CTO for three years. He co-founded Restate with former colleagues from Data Artisans and Ververica: Igal Shilman and Till Rohrmann. Ahmed Farghal, who was previously an engineer at Stripe and Meta, joined as the fourth co-founder at the Series A.",
+      "heading": 0
+    },
+    {
+      "text": "The company intends to use its fresh capital to hire a go-to-market team, bring on more engineers, and expand its office in the San Francisco Bay Area to be closer to many of the current and potential customers.",
+      "heading": 0
+    },
+    {
+      "text": "Nevertheless, Ewen insists that Restate’s capabilities will soon be essential to companies outside of traditional tech companies.",
+      "heading": 0
+    },
+    {
+      "text": "“If we fast-forward a couple of years, it’s one of those tools, like a database, that I think pretty much any company will have a use case for, no matter their shape and size,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

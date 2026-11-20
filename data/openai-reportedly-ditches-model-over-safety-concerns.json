@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "OpenAI reportedly ditches model over safety concerns",
+  "slug": "openai-reportedly-ditches-model-over-safety-concerns",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+    "episode": ""
+  },
+  "words": 359,
+  "lines": 22,
+  "duration": 120,
+  "text": "Posted:\n\nLucas Ropek\n\nOpenAI reportedly ditches model over safety concerns\n\nOpenAI had planned to release yet another AI model next month but has decided to nix the release over safety concerns.\n\nThe Wall Street Journal reports that Astra 6.1 was scheduled to be released as soon as within the next few days. However, the model “showed higher levels of deception” than previous models and exhibited unsafe behavior, the Journal writes.\n\nSaachi Jain, OpenAI’s head of safety systems, told the WSJ that the model tested poorly on alignment, a measure of how well the program adheres to human intent.\n\nTechCrunch reached out to OpenAI for more information and will update the article if it responds.\n\nAstra was released earlier this month and was hailed by OpenAI as its most powerful model yet.\n\nQuestions about safety have plagued the AI industry over the past several months — ever since the Hugging Face incident, in which an OpenAI agent broke free of its sandboxed environment and hacked several different companies. Since that incident, more models — including Anthropic’s Claude and Google’s Gemini — have been revealed to have exhibited similar behavior.\n\nThe deluge of concerning stories has, ironically, helped to push the policy conversation in the U.S. toward an outcome desired by top AI labs: the institution of new industry standards for AI safety and potentially a slowdown of the industry.\n\nCompanies like OpenAI and Anthropic have claimed that the concern here is safety, although another potential motivation posited by critics is that it could entrench the industry position of those companies at the detriment of less resourced firms.\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI reportedly ditches model over safety concerns",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI had planned to release yet another AI model next month but has decided to nix the release over safety concerns.",
+      "heading": 0
+    },
+    {
+      "text": "The Wall Street Journal reports that Astra 6.1 was scheduled to be released as soon as within the next few days. However, the model “showed higher levels of deception” than previous models and exhibited unsafe behavior, the Journal writes.",
+      "heading": 0
+    },
+    {
+      "text": "Saachi Jain, OpenAI’s head of safety systems, told the WSJ that the model tested poorly on alignment, a measure of how well the program adheres to human intent.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch reached out to OpenAI for more information and will update the article if it responds.",
+      "heading": 0
+    },
+    {
+      "text": "Astra was released earlier this month and was hailed by OpenAI as its most powerful model yet.",
+      "heading": 0
+    },
+    {
+      "text": "Questions about safety have plagued the AI industry over the past several months — ever since the Hugging Face incident, in which an OpenAI agent broke free of its sandboxed environment and hacked several different companies. Since that incident, more models — including Anthropic’s Claude and Google’s Gemini — have been revealed to have exhibited similar behavior.",
+      "heading": 0
+    },
+    {
+      "text": "The deluge of concerning stories has, ironically, helped to push the policy conversation in the U.S. toward an outcome desired by top AI labs: the institution of new industry standards for AI safety and potentially a slowdown of the industry.",
+      "heading": 0
+    },
+    {
+      "text": "Companies like OpenAI and Anthropic have claimed that the concern here is safety, although another potential motivation posited by critics is that it could entrench the industry position of those companies at the detriment of less resourced firms.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

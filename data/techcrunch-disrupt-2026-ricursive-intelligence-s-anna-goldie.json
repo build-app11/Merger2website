@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
+  "slug": "techcrunch-disrupt-2026-ricursive-intelligence-s-anna-goldie",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/Ricursive-Intelligence-founders.png?resize=1200,943",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
+    "episode": ""
+  },
+  "words": 784,
+  "lines": 23,
+  "duration": 261,
+  "text": "AI needs increasingly powerful chips. But designing those chips is itself a slow, complex process. What happens when AI starts doing some of that work, too?\n\nThat’s the idea behind Ricursive Intelligence. The startup is developing AI that can design chips, learn from the process, and improve the next design — potentially accelerating development of the hardware that powers increasingly capable AI.\n\nToday, designing a chip can take two to three years. Ricursive wants to reduce that cycle to a matter of weeks.\n\nAt TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage for “ When AI Starts Designing Its Own Hardware.” They’ll discuss closing the loop between AI and chip development, building self-improving systems, and tackling one of the biggest bottlenecks in the race toward more powerful intelligence.\n\nWant to hear from the researchers working to change how AI hardware gets built? Today is the last day to save up to $200 on your Disrupt pass. Secure your ticket by 11:59 p.m. PT — and get a second pass for 50% off select ticket types.\n\nWhat happens when AI designs the chips that power it?\n\nAnna Goldie and Azalia Mirhoseini have already shown that AI can play a significant role in chip design. Before founding Ricursive Intelligence, the pair co-led AlphaChip at Google, an AI system that could generate chip layouts in hours rather than the much longer process required of human designers. Their work helped design multiple generations of Google’s Tensor Processing Units.\n\nRicursive Intelligence is taking that concept further, building AI tools to automate and accelerate chip design. Its system is intended to learn across different chips, so the experience of designing one can improve how it approaches the next.\n\nThat creates a potentially powerful loop: AI helps design better hardware, better hardware supports more powerful AI, and those systems can then help develop what comes next.\n\nWhat could that feedback loop mean for the next generation of AI? Secure your Disrupt pass with up to $200 in savings and hear directly from the founders working to build it.\n\nFrom AlphaChip to a $4 billion startup\n\nGoldie and Mirhoseini also co-founded Google’s ML for Systems team. Both were early employees at Anthropic and senior staff research scientists at Google DeepMind.\n\nGoldie, Ricursive’s founder and CEO, holds a PhD in computer science from Stanford and was named one of MIT Technology Review’s 35 Innovators Under 35. Mirhoseini, founder and CTO, is an assistant professor of computer science at Stanford and founder of its Scaling Intelligence Lab.\n\nThey launched Ricursive in late 2025, and investors moved quickly. Within four months, the company had raised $335 million at a $4 billion valuation, including a $300 million Series A. Nvidia is among its investors.\n\nRicursive wants AI to automate more of the complex chip-design process, from component placement through design verification, and learn across designs as it goes. By accelerating chip design, Goldie and Mirhoseini believe they can open the door to new chip architecture and ultimately more capable and efficient AI.\n\nSee where AI and hardware development could be heading next. Register for Disrupt to hear Goldie and Mirhoseini discuss the technology, bottlenecks, and self-improving systems behind Ricursive’s approach.\n\nHow fast can the AI-hardware loop move?\n\nAI models have advanced rapidly, but the hardware underneath them operates on a different development cycle. Ricursive is betting that AI can help narrow that gap.\n\nAt Disrupt, Goldie and Mirhoseini bring the perspective of researchers who helped prove AI could design real-world chips and are now building a company around taking that idea further. For founders, investors, and technology leaders, it’s a chance to understand why the speed of chip development could play a major role in what AI can do next.\n\nTheir session is one of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. The matchmaking, dealmaking, and networking at Disrupt create opportunities to connect with the founders, investors, and builders shaping what comes next.\n\nToday is the last day to save up to $200 on your Disrupt pass. Secure your ticket before midnight PT — and get a second pass for 50% off select ticket types. Hear Goldie and Mirhoseini on the Disrupt Stage to learn what happens when AI starts helping design the hardware that powers it.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "AI needs increasingly powerful chips. But designing those chips is itself a slow, complex process. What happens when AI starts doing some of that work, too?",
+      "heading": 0
+    },
+    {
+      "text": "That’s the idea behind Ricursive Intelligence. The startup is developing AI that can design chips, learn from the process, and improve the next design — potentially accelerating development of the hardware that powers increasingly capable AI.",
+      "heading": 0
+    },
+    {
+      "text": "Today, designing a chip can take two to three years. Ricursive wants to reduce that cycle to a matter of weeks.",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage for “ When AI Starts Designing Its Own Hardware.” They’ll discuss closing the loop between AI and chip development, building self-improving systems, and tackling one of the biggest bottlenecks in the race toward more powerful intelligence.",
+      "heading": 0
+    },
+    {
+      "text": "Want to hear from the researchers working to change how AI hardware gets built? Today is the last day to save up to $200 on your Disrupt pass. Secure your ticket by 11:59 p.m. PT — and get a second pass for 50% off select ticket types.",
+      "heading": 0
+    },
+    {
+      "text": "What happens when AI designs the chips that power it?",
+      "heading": 0
+    },
+    {
+      "text": "Anna Goldie and Azalia Mirhoseini have already shown that AI can play a significant role in chip design. Before founding Ricursive Intelligence, the pair co-led AlphaChip at Google, an AI system that could generate chip layouts in hours rather than the much longer process required of human designers. Their work helped design multiple generations of Google’s Tensor Processing Units.",
+      "heading": 0
+    },
+    {
+      "text": "Ricursive Intelligence is taking that concept further, building AI tools to automate and accelerate chip design. Its system is intended to learn across different chips, so the experience of designing one can improve how it approaches the next.",
+      "heading": 0
+    },
+    {
+      "text": "That creates a potentially powerful loop: AI helps design better hardware, better hardware supports more powerful AI, and those systems can then help develop what comes next.",
+      "heading": 0
+    },
+    {
+      "text": "What could that feedback loop mean for the next generation of AI? Secure your Disrupt pass with up to $200 in savings and hear directly from the founders working to build it.",
+      "heading": 0
+    },
+    {
+      "text": "From AlphaChip to a $4 billion startup",
+      "heading": 1
+    },
+    {
+      "text": "Goldie and Mirhoseini also co-founded Google’s ML for Systems team. Both were early employees at Anthropic and senior staff research scientists at Google DeepMind.",
+      "heading": 0
+    },
+    {
+      "text": "Goldie, Ricursive’s founder and CEO, holds a PhD in computer science from Stanford and was named one of MIT Technology Review’s 35 Innovators Under 35. Mirhoseini, founder and CTO, is an assistant professor of computer science at Stanford and founder of its Scaling Intelligence Lab.",
+      "heading": 0
+    },
+    {
+      "text": "They launched Ricursive in late 2025, and investors moved quickly. Within four months, the company had raised $335 million at a $4 billion valuation, including a $300 million Series A. Nvidia is among its investors.",
+      "heading": 0
+    },
+    {
+      "text": "Ricursive wants AI to automate more of the complex chip-design process, from component placement through design verification, and learn across designs as it goes. By accelerating chip design, Goldie and Mirhoseini believe they can open the door to new chip architecture and ultimately more capable and efficient AI.",
+      "heading": 0
+    },
+    {
+      "text": "See where AI and hardware development could be heading next. Register for Disrupt to hear Goldie and Mirhoseini discuss the technology, bottlenecks, and self-improving systems behind Ricursive’s approach.",
+      "heading": 0
+    },
+    {
+      "text": "How fast can the AI-hardware loop move?",
+      "heading": 0
+    },
+    {
+      "text": "AI models have advanced rapidly, but the hardware underneath them operates on a different development cycle. Ricursive is betting that AI can help narrow that gap.",
+      "heading": 0
+    },
+    {
+      "text": "At Disrupt, Goldie and Mirhoseini bring the perspective of researchers who helped prove AI could design real-world chips and are now building a company around taking that idea further. For founders, investors, and technology leaders, it’s a chance to understand why the speed of chip development could play a major role in what AI can do next.",
+      "heading": 0
+    },
+    {
+      "text": "Their session is one of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups. The matchmaking, dealmaking, and networking at Disrupt create opportunities to connect with the founders, investors, and builders shaping what comes next.",
+      "heading": 0
+    },
+    {
+      "text": "Today is the last day to save up to $200 on your Disrupt pass. Secure your ticket before midnight PT — and get a second pass for 50% off select ticket types. Hear Goldie and Mirhoseini on the Disrupt Stage to learn what happens when AI starts helping design the hardware that powers it.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

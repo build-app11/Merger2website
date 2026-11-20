@@ -1,0 +1,165 @@
+{
+  "type": "read",
+  "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+  "slug": "five-ai-safety-sessions-every-founder-should-have-on-their-t",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/09/Disrupt-2025-AI-Stage.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+    "episode": ""
+  },
+  "words": 1137,
+  "lines": 35,
+  "duration": 379,
+  "text": "Would you trust an AI agent with access to your company’s systems? Put your employees in an autonomous vehicle? Deploy a robot that has to make sense of an unpredictable physical world?\n\nThese aren’t hypothetical questions for AI founders anymore. As AI moves out of demos and into businesses, vehicles, robots, and autonomous agents, safety and security become part of the product.\n\nAt TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage put those challenges front and center. From securing agents to getting enterprise AI into production, here’s where founders can dig into what it takes to build artificial intelligence (AI) that people and enterprises will actually trust and use.\n\nBuilding the next generation of AI? Secure your pass to Disrupt and add these five AI safety sessions to your agenda. Save up to $200 on your pass before September 25 at 11:59 p.m. PT. Get a second pass at 50% off.\n\n1. What Anthropic Sees When Enterprises Actually Deploy Claude\n\nSome enterprises are getting measurable value from AI. Others are still running pilots 18 months later. Why?\n\nAnthropic Head of Applied AI Cat de Jong gets a close-up view. She works directly with enterprises putting Claude into critical workflows and sees where deployments succeed, where they stall, and what separates the two.\n\nIn “ What Anthropic Sees When Enterprises Actually Deploy Claude,” de Jong will take the AI Stage to explore what happens when companies move from experimenting with AI to putting it into production. For founders trying to sell AI into the enterprise, her experience offers a firsthand look at why some deployments deliver real value while others remain stuck in pilot mode.\n\nWant to know what separates AI pilots from deployments that deliver real business value? Hear what Anthropic is seeing firsthand. Register for Disrupt now to save up to $200 before September 25.\n\n2. The Agent Security Problem Nobody Is Talking About\n\nAn AI agent that can take action can also create an entirely new set of security problems. What should it have access to? What should it be allowed to do? And what happens when application-level permissions aren’t enough?\n\nIn the AI Stage session “ The Agent Security Problem Nobody Is Talking About,” Okta President of Products and Technology Ric Smith and NanoCo co-founder and CEO Gavriel Cohen will tackle agent security at the infrastructure level, including weaknesses in application-level permission models and architectural decisions founders need to consider when deploying agentic AI.\n\nIf agents are on your product roadmap, security belongs there, too. Get your ticket today to save up to $200 and add this session to your Disrupt agenda.\n\n3. Securing the AI Enterprise: Why the Cloud Just Got a Lot More Complicated\n\nGetting an AI product through the enterprise door takes more than an impressive demo.\n\nSecurity, governance, and observability all become part of the conversation when companies consider putting AI into critical systems.\n\nIn the AI Stage session “ Securing the AI Enterprise: Why the Cloud Just Got a Lot More Complicated,” AWS VP of Security Services Rudy Mitra; Luta Security CEO Katie Moussouris; and cybersecurity veteran Wendy Nather will examine the infrastructure that enterprises need as AI takes on more autonomous roles.\n\nFor founders building enterprise AI, this is a chance to hear what happens when innovation meets the security requirements of the organizations you want as customers.\n\nBuilding AI for enterprise customers? Get closer to the security requirements that can stand between your product and deployment. Secure your pass to Disrupt before September 25 to save up to $200.\n\n4. Building AI Systems When Failure Is Not an Option\n\nAI that operates in the physical world raises the stakes. A mistake doesn’t stay on a screen; it can affect vehicles, aircraft, industrial systems, and critical missions.\n\nOn the Real World AI Stage, Shield AI Chief Technology Officer Nathan Michael; General Motors Director of Robotics Strategy Mikell Taylor; and Waabi founder and CEO Raquel Urtasun will bring perspectives from defense and autonomous systems to one of the toughest questions hard tech founders face: How do you know when an autonomous system is safe enough to deploy?\n\nThe conversation in “ Building AI Systems When Failure Is Not an Option ” will get into creating a safety culture, testing and validating AI, navigating regulatory hurdles, and building companies that can earn trust when the consequences of failure are physical.\n\nWhen failure isn’t an option, testing can’t be an afterthought. See how leaders in autonomy are approaching safety at Disrupt. Explore your ticket options, and save up to $200 on your pass before September 25.\n\n5. Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way\n\nRobots have a data problem. They don’t have access to the massive pools of training data that helped accelerate advances in language models and self-driving vehicles.\n\nThat gap is one of the biggest obstacles to scaling physical AI. In the Real World AI session “ Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way,” Nvidia Inception Global Head of Physical AI Les Karpas will explore how data pipelines, simulation environments, and foundation models could help close it and what it will take to build, test, and deploy more capable and reliable robots.\n\nFor founders working in physical AI, the session tackles a big question: What will it take for robotics to reach its own ChatGPT moment and earn the trust needed to put those systems to work in the real world?\n\nGet an inside look at what could help robotics clear its next big hurdle. Register for Disrupt today to save up to $200 before prices increase.\n\nFive sessions. One question every AI founder needs to answer.\n\nCan people trust what you’re building? These five conversations are part of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers, 300+ exhibiting startups, and countless networking meetings.\n\nYou can build a smarter model, a more capable agent, or a robot that does something no one has done before. But getting customers to trust it enough to deploy it may be one of the hardest parts of bringing it to market.\n\nSecure your pass to Disrupt now and save up to $200 before September 25 at 11:59 p.m. PT. Save 50% on a second ticket. Hear how AI leaders are tackling the safety, security, and reliability challenges that can stand between breakthrough technology and real-world adoption.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "Would you trust an AI agent with access to your company’s systems? Put your employees in an autonomous vehicle? Deploy a robot that has to make sense of an unpredictable physical world?",
+      "heading": 0
+    },
+    {
+      "text": "These aren’t hypothetical questions for AI founders anymore. As AI moves out of demos and into businesses, vehicles, robots, and autonomous agents, safety and security become part of the product.",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage put those challenges front and center. From securing agents to getting enterprise AI into production, here’s where founders can dig into what it takes to build artificial intelligence (AI) that people and enterprises will actually trust and use.",
+      "heading": 0
+    },
+    {
+      "text": "Building the next generation of AI? Secure your pass to Disrupt and add these five AI safety sessions to your agenda. Save up to $200 on your pass before September 25 at 11:59 p.m. PT. Get a second pass at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "1. What Anthropic Sees When Enterprises Actually Deploy Claude",
+      "heading": 1
+    },
+    {
+      "text": "Some enterprises are getting measurable value from AI. Others are still running pilots 18 months later. Why?",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic Head of Applied AI Cat de Jong gets a close-up view. She works directly with enterprises putting Claude into critical workflows and sees where deployments succeed, where they stall, and what separates the two.",
+      "heading": 0
+    },
+    {
+      "text": "In “ What Anthropic Sees When Enterprises Actually Deploy Claude,” de Jong will take the AI Stage to explore what happens when companies move from experimenting with AI to putting it into production. For founders trying to sell AI into the enterprise, her experience offers a firsthand look at why some deployments deliver real value while others remain stuck in pilot mode.",
+      "heading": 0
+    },
+    {
+      "text": "Want to know what separates AI pilots from deployments that deliver real business value? Hear what Anthropic is seeing firsthand. Register for Disrupt now to save up to $200 before September 25.",
+      "heading": 0
+    },
+    {
+      "text": "2. The Agent Security Problem Nobody Is Talking About",
+      "heading": 1
+    },
+    {
+      "text": "An AI agent that can take action can also create an entirely new set of security problems. What should it have access to? What should it be allowed to do? And what happens when application-level permissions aren’t enough?",
+      "heading": 0
+    },
+    {
+      "text": "In the AI Stage session “ The Agent Security Problem Nobody Is Talking About,” Okta President of Products and Technology Ric Smith and NanoCo co-founder and CEO Gavriel Cohen will tackle agent security at the infrastructure level, including weaknesses in application-level permission models and architectural decisions founders need to consider when deploying agentic AI.",
+      "heading": 0
+    },
+    {
+      "text": "If agents are on your product roadmap, security belongs there, too. Get your ticket today to save up to $200 and add this session to your Disrupt agenda.",
+      "heading": 0
+    },
+    {
+      "text": "3. Securing the AI Enterprise: Why the Cloud Just Got a Lot More Complicated",
+      "heading": 0
+    },
+    {
+      "text": "Getting an AI product through the enterprise door takes more than an impressive demo.",
+      "heading": 0
+    },
+    {
+      "text": "Security, governance, and observability all become part of the conversation when companies consider putting AI into critical systems.",
+      "heading": 0
+    },
+    {
+      "text": "In the AI Stage session “ Securing the AI Enterprise: Why the Cloud Just Got a Lot More Complicated,” AWS VP of Security Services Rudy Mitra; Luta Security CEO Katie Moussouris; and cybersecurity veteran Wendy Nather will examine the infrastructure that enterprises need as AI takes on more autonomous roles.",
+      "heading": 0
+    },
+    {
+      "text": "For founders building enterprise AI, this is a chance to hear what happens when innovation meets the security requirements of the organizations you want as customers.",
+      "heading": 0
+    },
+    {
+      "text": "Building AI for enterprise customers? Get closer to the security requirements that can stand between your product and deployment. Secure your pass to Disrupt before September 25 to save up to $200.",
+      "heading": 0
+    },
+    {
+      "text": "4. Building AI Systems When Failure Is Not an Option",
+      "heading": 1
+    },
+    {
+      "text": "AI that operates in the physical world raises the stakes. A mistake doesn’t stay on a screen; it can affect vehicles, aircraft, industrial systems, and critical missions.",
+      "heading": 0
+    },
+    {
+      "text": "On the Real World AI Stage, Shield AI Chief Technology Officer Nathan Michael; General Motors Director of Robotics Strategy Mikell Taylor; and Waabi founder and CEO Raquel Urtasun will bring perspectives from defense and autonomous systems to one of the toughest questions hard tech founders face: How do you know when an autonomous system is safe enough to deploy?",
+      "heading": 0
+    },
+    {
+      "text": "The conversation in “ Building AI Systems When Failure Is Not an Option ” will get into creating a safety culture, testing and validating AI, navigating regulatory hurdles, and building companies that can earn trust when the consequences of failure are physical.",
+      "heading": 0
+    },
+    {
+      "text": "When failure isn’t an option, testing can’t be an afterthought. See how leaders in autonomy are approaching safety at Disrupt. Explore your ticket options, and save up to $200 on your pass before September 25.",
+      "heading": 0
+    },
+    {
+      "text": "5. Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way",
+      "heading": 0
+    },
+    {
+      "text": "Robots have a data problem. They don’t have access to the massive pools of training data that helped accelerate advances in language models and self-driving vehicles.",
+      "heading": 0
+    },
+    {
+      "text": "That gap is one of the biggest obstacles to scaling physical AI. In the Real World AI session “ Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way,” Nvidia Inception Global Head of Physical AI Les Karpas will explore how data pipelines, simulation environments, and foundation models could help close it and what it will take to build, test, and deploy more capable and reliable robots.",
+      "heading": 0
+    },
+    {
+      "text": "For founders working in physical AI, the session tackles a big question: What will it take for robotics to reach its own ChatGPT moment and earn the trust needed to put those systems to work in the real world?",
+      "heading": 0
+    },
+    {
+      "text": "Get an inside look at what could help robotics clear its next big hurdle. Register for Disrupt today to save up to $200 before prices increase.",
+      "heading": 0
+    },
+    {
+      "text": "Five sessions. One question every AI founder needs to answer.",
+      "heading": 0
+    },
+    {
+      "text": "Can people trust what you’re building? These five conversations are part of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers, 300+ exhibiting startups, and countless networking meetings.",
+      "heading": 0
+    },
+    {
+      "text": "You can build a smarter model, a more capable agent, or a robot that does something no one has done before. But getting customers to trust it enough to deploy it may be one of the hardest parts of bringing it to market.",
+      "heading": 0
+    },
+    {
+      "text": "Secure your pass to Disrupt now and save up to $200 before September 25 at 11:59 p.m. PT. Save 50% on a second ticket. Hear how AI leaders are tackling the safety, security, and reliability challenges that can stand between breakthrough technology and real-world adoption.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

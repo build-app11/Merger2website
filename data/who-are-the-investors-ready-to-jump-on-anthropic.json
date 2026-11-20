@@ -1,0 +1,40 @@
+{
+  "type": "read",
+  "title": "Who are the investors ready to jump on Anthropic?",
+  "slug": "who-are-the-investors-ready-to-jump-on-anthropic",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8d1a/live/8e8f8740-e3b6-11f1-a094-5fdc692f3e33.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/videos/c6y0x84xx22wo?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 63,
+  "lines": 4,
+  "duration": 60,
+  "text": "Anthropic will make its stock market debut on Thursday, poised to hit a value of more than $1.4 trillion (£1.1 trillion).\n\nThe BBC’s Samira Hussain spoke to a retail investor looking to capitalise on the AI revolution. Could Anthropic's stock market debut signal the start of a wave of AI companies going public?\n\nSubsection US & Canada\n\nPublished 1 day ago",
+  "paragraphs": [
+    {
+      "text": "Anthropic will make its stock market debut on Thursday, poised to hit a value of more than $1.4 trillion (£1.1 trillion).",
+      "heading": 0
+    },
+    {
+      "text": "The BBC’s Samira Hussain spoke to a retail investor looking to capitalise on the AI revolution. Could Anthropic's stock market debut signal the start of a wave of AI companies going public?",
+      "heading": 0
+    },
+    {
+      "text": "Subsection US & Canada",
+      "heading": 1
+    },
+    {
+      "text": "Published 1 day ago",
+      "heading": 1
+    }
+  ]
+}

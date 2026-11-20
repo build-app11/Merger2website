@@ -1,0 +1,65 @@
+{
+  "type": "read",
+  "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+  "slug": "base-labs-launches-an-open-weight-ai-safety-partnership-with",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+    "episode": ""
+  },
+  "words": 346,
+  "lines": 10,
+  "duration": 115,
+  "text": "Baseten launched a new safety infrastructure standard alongside its Base Labs research arm on Wednesday, partnering with Hugging Face and Goodfire AI to build safety evaluation and monitoring infrastructure for open-weight models.\n\nThe announcement lands amid debate for the safety of open-weight models — which can be made dangerous by removing their safeguards through a rising technique known as abliteration. The scale of the problem is massive: Hugging Face, which hosts open source AI models, currently lists over 6,000 abliterated models.\n\nBase Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models. The company is framing their future work as a “standard” for open models that is transparent and built into how models are trained and deployed, rather than bolted on afterward.\n\n“We believe openness to be an advantage for AI safety,” the company said on X. “Openness provides more visibility into the behavior of models and, most importantly, greater means of turning safety research into actionable and transparent controls than closed-source.”\n\nThe companies haven’t disclosed how the partnership will work technically, though Goodfire framed the goal in a reply to Baseten’s post: “Safety must be built into open models and provided by those who serve them.” Goodfire, which specializes in opening AI’s “black box” to explain how models make decisions, is the likeliest candidate for the “built into” part.\n\nBaseten, an AI inference provider, raised a $1.5 billion Series F in June, vaulting its valuation to $13 billion. Partner Goodfire AI is similarly well-capitalized, having raised a $150 million Series B led by B Capital earlier this year to advance its model interpretability platform.\n\nLooking ahead, Baseten is putting out an open call to the broader developer ecosystem to contribute to the framework. “Together, we are building an ecosystem of open models that are safe and accessible to all,” the company noted.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow",
+  "paragraphs": [
+    {
+      "text": "Baseten launched a new safety infrastructure standard alongside its Base Labs research arm on Wednesday, partnering with Hugging Face and Goodfire AI to build safety evaluation and monitoring infrastructure for open-weight models.",
+      "heading": 0
+    },
+    {
+      "text": "The announcement lands amid debate for the safety of open-weight models — which can be made dangerous by removing their safeguards through a rising technique known as abliteration. The scale of the problem is massive: Hugging Face, which hosts open source AI models, currently lists over 6,000 abliterated models.",
+      "heading": 0
+    },
+    {
+      "text": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models. The company is framing their future work as a “standard” for open models that is transparent and built into how models are trained and deployed, rather than bolted on afterward.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe openness to be an advantage for AI safety,” the company said on X. “Openness provides more visibility into the behavior of models and, most importantly, greater means of turning safety research into actionable and transparent controls than closed-source.”",
+      "heading": 0
+    },
+    {
+      "text": "The companies haven’t disclosed how the partnership will work technically, though Goodfire framed the goal in a reply to Baseten’s post: “Safety must be built into open models and provided by those who serve them.” Goodfire, which specializes in opening AI’s “black box” to explain how models make decisions, is the likeliest candidate for the “built into” part.",
+      "heading": 0
+    },
+    {
+      "text": "Baseten, an AI inference provider, raised a $1.5 billion Series F in June, vaulting its valuation to $13 billion. Partner Goodfire AI is similarly well-capitalized, having raised a $150 million Series B led by B Capital earlier this year to advance its model interpretability platform.",
+      "heading": 0
+    },
+    {
+      "text": "Looking ahead, Baseten is putting out an open call to the broader developer ecosystem to contribute to the framework. “Together, we are building an ecosystem of open models that are safe and accessible to all,” the company noted.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    }
+  ]
+}

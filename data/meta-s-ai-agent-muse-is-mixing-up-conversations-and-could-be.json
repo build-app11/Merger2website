@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+  "slug": "meta-s-ai-agent-muse-is-mixing-up-conversations-and-could-be",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+    "episode": ""
+  },
+  "words": 360,
+  "lines": 21,
+  "duration": 120,
+  "text": "Posted:\n\nAisha Malik\n\nMeta’s AI agent Muse is mixing up conversations and could be exposing private data, report says\n\nMeta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts.\n\nIn some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn’t belong to them.\n\nOne employee told colleagues that Muse had randomly sent an extra message in a chat about weather and tide information, saying: “BTW, two bank updates, your Capital One balance is $2722.58, your Charles Schwab balance is $5899.57.”\n\nIn another example, an employee using the AI agent on her personal phone received a reminder from Muse to respond to a message from her sister on Signal, the popular end-to-end encrypted messaging app.\n\n“This seems like an extreme privacy violation. I definitely did not grant it access to other apps, or recall being asked about this,” the employee said in her post, according to the report.\n\n“Employee testing is core to the product development process and the entire point is to get feedback, so we can implement safety and privacy protections and improve products,” a Meta spokesperson said in an email to TechCrunch. “Importantly, employees have access to different versions of Muse than the public, so they’re often reviewing features, functionality, and behavior not available elsewhere.”\n\nLaunched in September, Muse is one of the fastest-growing apps on record, with more than 10 million downloads.\n\nUpdate 11/19/2026 12:05 PM PT: The article was updated to include Meta’s comment.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nSuperhuman pushes its Go assistant everywhere\n\nIvan Mehta\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "heading": 0
+    },
+    {
+      "text": "Meta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts.",
+      "heading": 0
+    },
+    {
+      "text": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn’t belong to them.",
+      "heading": 0
+    },
+    {
+      "text": "One employee told colleagues that Muse had randomly sent an extra message in a chat about weather and tide information, saying: “BTW, two bank updates, your Capital One balance is $2722.58, your Charles Schwab balance is $5899.57.”",
+      "heading": 0
+    },
+    {
+      "text": "In another example, an employee using the AI agent on her personal phone received a reminder from Muse to respond to a message from her sister on Signal, the popular end-to-end encrypted messaging app.",
+      "heading": 0
+    },
+    {
+      "text": "“This seems like an extreme privacy violation. I definitely did not grant it access to other apps, or recall being asked about this,” the employee said in her post, according to the report.",
+      "heading": 0
+    },
+    {
+      "text": "“Employee testing is core to the product development process and the entire point is to get feedback, so we can implement safety and privacy protections and improve products,” a Meta spokesperson said in an email to TechCrunch. “Importantly, employees have access to different versions of Muse than the public, so they’re often reviewing features, functionality, and behavior not available elsewhere.”",
+      "heading": 0
+    },
+    {
+      "text": "Launched in September, Muse is one of the fastest-growing apps on record, with more than 10 million downloads.",
+      "heading": 0
+    },
+    {
+      "text": "Update 11/19/2026 12:05 PM PT: The article was updated to include Meta’s comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

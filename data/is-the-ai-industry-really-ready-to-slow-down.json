@@ -1,0 +1,157 @@
+{
+  "type": "read",
+  "title": "Is the AI industry really ready to slow down?",
+  "slug": "is-the-ai-industry-really-ready-to-slow-down",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+    "episode": ""
+  },
+  "words": 1661,
+  "lines": 33,
+  "duration": 554,
+  "text": "We’re seeing a big debate over AI safety and a potential slowdown, as Anthropic CEO Dario Amodei recently published a plan to “pace the frontier,” while Nvidia CEO Jensen Huang has publicly echoed President Donald Trump’s claims that the AI backlash is a hoax and regulation is unnecessary.\n\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and I discussed whether executives like Amodei and OpenAI CEO Sam Altman are serious about wanting to slow down.\n\nWhile I was surprised at how many industry leaders seemed to throw their support behind Amodei’s plan, Sean noted that the plan seemed short on details.\n\nAnd when Kristen asked whether a combination of existing regulation and the workings of the free market could provide enough safeguards on their own, Sean replied, “We have a federal government at the moment that certainly does not seem eager to enforce regulations broadly speaking, let alone specifically speaking here.”\n\nPlus, he argued, “There does not seem like there is a ton of consumer choice driving this market, in the sense of, okay, if one of these companies does something really bad, then they will see an impact in how many cancellations there are or whatever.”\n\nKeep reading for a preview of our conversation, edited for length and clarity.\n\nAnthony: Sean, what do you think? Are we actually going to ”pace the frontier”?\n\nSean: That sounds, for some reason, like something from “Point Break.” It’s just a very California statement, like, “We’re gonna pace the frontier, bruh.”\n\nI don’t know. I said on this show last week, I didn’t think we were headed for a slowdown of any kind, in large part because I don’t think these companies are structured in a way where that works.\n\nSo this was a pretty immediate flip of what I said a week ago, to hear this from Dario at Anthropic and Sam at OpenAI and even Elon Musk to a certain degree — and we can get into whether we believe that or not. I will say, I don’t think I was completely wrong, because even with these loose plans that Dario laid out in a blog post and some of the other leaders have talked about, I feel like we’re still missing a lot of specifics here, not only on some of the claims about why these people think there are dangers and risks, but also specifics on what they mean by slowing down.\n\nAnthony, I know you read this stuff pretty closely last weekend as it was all popping off, so I’m curious if you’re maybe more generous than I am, as far as understanding what it is they’re trying to say here.\n\nAnthony: I mean, I also have questions. What really stood out to me is the fact that so many people in the industry seemed to coalesce around this fairly quickly. Even before Amodei published his blog post, I was seeing other people post some version of this [plan,] just in the days leading up to it.\n\nMy understanding is, these suggestions that have come out of the AI safety community; these are things that have been percolating for a while. They’re not just things that [Amodei] thought up on his own. But it just seemed like a lot of people were kind of ready to embrace this and in some ways, [it’s] encouraging to see that there’s a consensus. But it also makes me a little skeptical that this would represent genuine, major steps towards a slowdown.\n\nKirsten: First of all, consensus can be a good thing. Also, it can be the beginnings of forming a cartel. And so, let’s be clear [about] who we’re talking about here. We’re talking about frontier AI labs. and that’s specific and important.\n\nYou did say a minute ago that the details aren’t really clear, but we do know that the general idea here is that independent third-party evaluators would come in that would work inside [companies] like Anthropic or OpenAI and monitor AI safety practices and incidents. But there is a lot of vagueness around that.\n\nThen there’s another proposal to have major AI companies in democratic countries coordinate on safety standards and limits. And then this international coordination piece. So those are the general ideas around this.\n\nI’ll also add that there’s been very considerable pushback from very specific people. And surprisingly, some people I didn’t think would push back on this. The obvious one, I guess, would be Nvidia’s CEO Jensen Huang, who had some pretty choice words. I don’t know what either of you think of […] some of his comments and the call he took from President Trump onstage [at the All-In Summit].\n\nSean: I think Jensen understands that, to a certain extent, he is seen as the adult in the room here. Which is interesting, because that’s a dynamic that I think has changed. If you were to ask people a year, almost two years ago now, who was playing that role as these AI companies were really starting to blow up in big ways, I think a lot of people would have pointed to Microsoft and Satya Nadella, and I feel like Microsoft has — for a number of reasons that we don’t need to get into right now — lost that grip on being the adult in the room. Certainly in part because Nadella said he was going to make Google dance, and then that never happened. And in fact, the opposite happened, in a lot of ways.\n\nJensen, I think, understands not only that he needs to be pleasing the most amount of people and so he wants to say the most measured thing, he also is one of the most useful liaisons between this field and this administration, to the point that he’s getting a call from the president while he’s onstage at this very well-attended and high-profile conference that allowed both of them to respond to all this mess.\n\nKirsten: [To] your point about him being the adult in the room and the liaison, he is in a position where he could do that. But in my view, I would say that [his appearance,] which did feel a little staged, went a step too far and really highlighted the fact that Nvidia greatly benefits from AI moving forward in an unpaced manner.\n\nI hate to be cynical about it, but that was sort of my initial reaction to it.\n\nAnthony: Trump’s and Huang’s interests are aligned, and also [Huang’s] telling [Trump] what he wants to hear.\n\nI did think some of the things he was specifically focusing on are worth unpacking a little bit. First he talked about this idea of, “We are not going to have a slowdown.” It’s interesting, just that phrase “slowdown,” which has come up a lot — but at the same time, both Altman and Amodei [will] use the slowdown language, but the word they like to use more is “pace.” right?\n\nAnd these three proposals — the ones you just described, Kirsten — in theory, they could result in things slowing down, but they’re not saying that explicitly. It’s saying, “Hey, we’re making some basic safety measures and having some people keep an eye on us.” But none of those things are intrinsically saying that things have to go slower than they are now, at least as I understand it.\n\nKirsten: So I have a question for Sean. Couldn’t you argue in a free market society, we have existing regulations in place, and also [in] the competitive environment in which there isn’t protectionism, if there is something unsafe that is released by a company, that they would no longer be able to be a viable company? And there are regulators in place today that could go after these companies? Or do you reject that idea?\n\nSean: In a vacuum, or in a market that is not being distorted by a whole bunch of different external pressures, yeah, I think there’s an element of that. But we have a federal government at the moment that certainly does not seem eager to enforce regulations broadly speaking, let alone specifically speaking here.\n\nAnd we’re also in this weird situation where — I don’t really know the right way to put it, but it does not seem like there is a ton of consumer choice driving this market, in the sense of, okay, if one of these companies does something really bad, then they will see an impact in how many cancellations there are or whatever.\n\nEspecially now, as they have moved into enterprise and they’re making so much more of their money from selling their services to companies, it’s just naturally harder to vote with your dollars there. Corporations are not going to pack up and move from [OpenAI’s] Codex to [Anthropic’s] Claude Code just because they disagree on principle with something that OpenAI did.\n\nAnd then they’re also just being floated by so much investment money that it makes it easier for them to absorb any of those losses if they actually do face them. So I think it’s a nice idea in theory, but I feel like in practice, there’s none of that really happening.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "We’re seeing a big debate over AI safety and a potential slowdown, as Anthropic CEO Dario Amodei recently published a plan to “pace the frontier,” while Nvidia CEO Jensen Huang has publicly echoed President Donald Trump’s claims that the AI backlash is a hoax and regulation is unnecessary.",
+      "heading": 0
+    },
+    {
+      "text": "On the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and I discussed whether executives like Amodei and OpenAI CEO Sam Altman are serious about wanting to slow down.",
+      "heading": 0
+    },
+    {
+      "text": "While I was surprised at how many industry leaders seemed to throw their support behind Amodei’s plan, Sean noted that the plan seemed short on details.",
+      "heading": 0
+    },
+    {
+      "text": "And when Kristen asked whether a combination of existing regulation and the workings of the free market could provide enough safeguards on their own, Sean replied, “We have a federal government at the moment that certainly does not seem eager to enforce regulations broadly speaking, let alone specifically speaking here.”",
+      "heading": 0
+    },
+    {
+      "text": "Plus, he argued, “There does not seem like there is a ton of consumer choice driving this market, in the sense of, okay, if one of these companies does something really bad, then they will see an impact in how many cancellations there are or whatever.”",
+      "heading": 0
+    },
+    {
+      "text": "Keep reading for a preview of our conversation, edited for length and clarity.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony: Sean, what do you think? Are we actually going to ”pace the frontier”?",
+      "heading": 0
+    },
+    {
+      "text": "Sean: That sounds, for some reason, like something from “Point Break.” It’s just a very California statement, like, “We’re gonna pace the frontier, bruh.”",
+      "heading": 0
+    },
+    {
+      "text": "I don’t know. I said on this show last week, I didn’t think we were headed for a slowdown of any kind, in large part because I don’t think these companies are structured in a way where that works.",
+      "heading": 0
+    },
+    {
+      "text": "So this was a pretty immediate flip of what I said a week ago, to hear this from Dario at Anthropic and Sam at OpenAI and even Elon Musk to a certain degree — and we can get into whether we believe that or not. I will say, I don’t think I was completely wrong, because even with these loose plans that Dario laid out in a blog post and some of the other leaders have talked about, I feel like we’re still missing a lot of specifics here, not only on some of the claims about why these people think there are dangers and risks, but also specifics on what they mean by slowing down.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony, I know you read this stuff pretty closely last weekend as it was all popping off, so I’m curious if you’re maybe more generous than I am, as far as understanding what it is they’re trying to say here.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony: I mean, I also have questions. What really stood out to me is the fact that so many people in the industry seemed to coalesce around this fairly quickly. Even before Amodei published his blog post, I was seeing other people post some version of this [plan,] just in the days leading up to it.",
+      "heading": 0
+    },
+    {
+      "text": "My understanding is, these suggestions that have come out of the AI safety community; these are things that have been percolating for a while. They’re not just things that [Amodei] thought up on his own. But it just seemed like a lot of people were kind of ready to embrace this and in some ways, [it’s] encouraging to see that there’s a consensus. But it also makes me a little skeptical that this would represent genuine, major steps towards a slowdown.",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten: First of all, consensus can be a good thing. Also, it can be the beginnings of forming a cartel. And so, let’s be clear [about] who we’re talking about here. We’re talking about frontier AI labs. and that’s specific and important.",
+      "heading": 0
+    },
+    {
+      "text": "You did say a minute ago that the details aren’t really clear, but we do know that the general idea here is that independent third-party evaluators would come in that would work inside [companies] like Anthropic or OpenAI and monitor AI safety practices and incidents. But there is a lot of vagueness around that.",
+      "heading": 0
+    },
+    {
+      "text": "Then there’s another proposal to have major AI companies in democratic countries coordinate on safety standards and limits. And then this international coordination piece. So those are the general ideas around this.",
+      "heading": 0
+    },
+    {
+      "text": "I’ll also add that there’s been very considerable pushback from very specific people. And surprisingly, some people I didn’t think would push back on this. The obvious one, I guess, would be Nvidia’s CEO Jensen Huang, who had some pretty choice words. I don’t know what either of you think of […] some of his comments and the call he took from President Trump onstage [at the All-In Summit].",
+      "heading": 0
+    },
+    {
+      "text": "Sean: I think Jensen understands that, to a certain extent, he is seen as the adult in the room here. Which is interesting, because that’s a dynamic that I think has changed. If you were to ask people a year, almost two years ago now, who was playing that role as these AI companies were really starting to blow up in big ways, I think a lot of people would have pointed to Microsoft and Satya Nadella, and I feel like Microsoft has — for a number of reasons that we don’t need to get into right now — lost that grip on being the adult in the room. Certainly in part because Nadella said he was going to make Google dance, and then that never happened. And in fact, the opposite happened, in a lot of ways.",
+      "heading": 0
+    },
+    {
+      "text": "Jensen, I think, understands not only that he needs to be pleasing the most amount of people and so he wants to say the most measured thing, he also is one of the most useful liaisons between this field and this administration, to the point that he’s getting a call from the president while he’s onstage at this very well-attended and high-profile conference that allowed both of them to respond to all this mess.",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten: [To] your point about him being the adult in the room and the liaison, he is in a position where he could do that. But in my view, I would say that [his appearance,] which did feel a little staged, went a step too far and really highlighted the fact that Nvidia greatly benefits from AI moving forward in an unpaced manner.",
+      "heading": 0
+    },
+    {
+      "text": "I hate to be cynical about it, but that was sort of my initial reaction to it.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony: Trump’s and Huang’s interests are aligned, and also [Huang’s] telling [Trump] what he wants to hear.",
+      "heading": 0
+    },
+    {
+      "text": "I did think some of the things he was specifically focusing on are worth unpacking a little bit. First he talked about this idea of, “We are not going to have a slowdown.” It’s interesting, just that phrase “slowdown,” which has come up a lot — but at the same time, both Altman and Amodei [will] use the slowdown language, but the word they like to use more is “pace.” right?",
+      "heading": 0
+    },
+    {
+      "text": "And these three proposals — the ones you just described, Kirsten — in theory, they could result in things slowing down, but they’re not saying that explicitly. It’s saying, “Hey, we’re making some basic safety measures and having some people keep an eye on us.” But none of those things are intrinsically saying that things have to go slower than they are now, at least as I understand it.",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten: So I have a question for Sean. Couldn’t you argue in a free market society, we have existing regulations in place, and also [in] the competitive environment in which there isn’t protectionism, if there is something unsafe that is released by a company, that they would no longer be able to be a viable company? And there are regulators in place today that could go after these companies? Or do you reject that idea?",
+      "heading": 0
+    },
+    {
+      "text": "Sean: In a vacuum, or in a market that is not being distorted by a whole bunch of different external pressures, yeah, I think there’s an element of that. But we have a federal government at the moment that certainly does not seem eager to enforce regulations broadly speaking, let alone specifically speaking here.",
+      "heading": 0
+    },
+    {
+      "text": "And we’re also in this weird situation where — I don’t really know the right way to put it, but it does not seem like there is a ton of consumer choice driving this market, in the sense of, okay, if one of these companies does something really bad, then they will see an impact in how many cancellations there are or whatever.",
+      "heading": 0
+    },
+    {
+      "text": "Especially now, as they have moved into enterprise and they’re making so much more of their money from selling their services to companies, it’s just naturally harder to vote with your dollars there. Corporations are not going to pack up and move from [OpenAI’s] Codex to [Anthropic’s] Claude Code just because they disagree on principle with something that OpenAI did.",
+      "heading": 0
+    },
+    {
+      "text": "And then they’re also just being floated by so much investment money that it makes it easier for them to absorb any of those losses if they actually do face them. So I think it’s a nice idea in theory, but I feel like in practice, there’s none of that really happening.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

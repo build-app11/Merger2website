@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+  "slug": "nectar-launches-an-ai-agent-to-automate-creator-discovery-an",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Nectar_OliverL_3199.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "episode": ""
+  },
+  "words": 597,
+  "lines": 16,
+  "duration": 199,
+  "text": "Nectar, an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results.\n\nFounded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research.\n\nAnnounced Thursday, its new “Creator Agent” can search for creators, check their content and brand partnerships, send personalized messages, coordinate collaborations, and monitor how campaigns perform. Instead of having marketing teams spend weeks scrolling through social media, building spreadsheets, and sending individual DMs, Nectar wants its agent to handle much of that work automatically.\n\nNectar joins other companies introducing agentic AI assistants designed to automate influencer outreach, including Aspire and GRIN. The launch also comes as more brands turn to creators to reach customers. U.S. spending on creator advertising is expected to reach $44 billion in 2026, according to the Interactive Advertising Bureau. As companies work with hundreds or even thousands of creators, keeping track of relationships and measuring results can get pretty difficult.\n\nNectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction. The system analyzes videos to understand what creators post about, how their content fits a brand, and whether their previous partnerships are appropriate. It also checks brand safety by reviewing content in context rather than simply searching for specific keywords.\n\nNectar then creates ranked lists of recommendations and adds new matches as creators become more popular.\n\nOnce it finds a potential match, the agent can draft and send messages in a brand’s voice, create custom landing pages to collect creator information, and help manage contracts, product gifting, and shipping details. It also remembers previous conversations and interactions, so brands can keep track of relationships without relying on spreadsheets.\n\n“Brands can share voice guidelines in any format, and Nectar picks up the rest from their history,” CEO Misbah Uraizee tells TechCrunch. “On top of that sits a set of proprietary guardrails that keep every draft on tone and in context. Nectar understands what is being said in a video, reads the tone of the conversation, and knows the difference between a quote post on X and a TikTok comment section. A brand should not sound identical in both, and with Nectar it doesn’t.”\n\nAnother feature looks for personal milestones in creators’ lives, such as an engagement, a new baby, or completing a marathon. The agent can then suggest a personalized message or gift, helping brands build relationships that feel less like one-off advertising deals.\n\nCreator Agent is available today globally and covers Instagram creators and TikTokers.\n\nThe company plans to make the agent available through its Model Context Protocol (MCP), allowing teams to use it through AI assistants such as Claude, ChatGPT, Gemini, and Copilot, as well as their own custom-built agents.\n\nThis past May, Nectar raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which is a joint initiative launched with Anthropic.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Nectar, an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results.",
+      "heading": 0
+    },
+    {
+      "text": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research.",
+      "heading": 0
+    },
+    {
+      "text": "Announced Thursday, its new “Creator Agent” can search for creators, check their content and brand partnerships, send personalized messages, coordinate collaborations, and monitor how campaigns perform. Instead of having marketing teams spend weeks scrolling through social media, building spreadsheets, and sending individual DMs, Nectar wants its agent to handle much of that work automatically.",
+      "heading": 0
+    },
+    {
+      "text": "Nectar joins other companies introducing agentic AI assistants designed to automate influencer outreach, including Aspire and GRIN. The launch also comes as more brands turn to creators to reach customers. U.S. spending on creator advertising is expected to reach $44 billion in 2026, according to the Interactive Advertising Bureau. As companies work with hundreds or even thousands of creators, keeping track of relationships and measuring results can get pretty difficult.",
+      "heading": 0
+    },
+    {
+      "text": "Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction. The system analyzes videos to understand what creators post about, how their content fits a brand, and whether their previous partnerships are appropriate. It also checks brand safety by reviewing content in context rather than simply searching for specific keywords.",
+      "heading": 0
+    },
+    {
+      "text": "Nectar then creates ranked lists of recommendations and adds new matches as creators become more popular.",
+      "heading": 0
+    },
+    {
+      "text": "Once it finds a potential match, the agent can draft and send messages in a brand’s voice, create custom landing pages to collect creator information, and help manage contracts, product gifting, and shipping details. It also remembers previous conversations and interactions, so brands can keep track of relationships without relying on spreadsheets.",
+      "heading": 0
+    },
+    {
+      "text": "“Brands can share voice guidelines in any format, and Nectar picks up the rest from their history,” CEO Misbah Uraizee tells TechCrunch. “On top of that sits a set of proprietary guardrails that keep every draft on tone and in context. Nectar understands what is being said in a video, reads the tone of the conversation, and knows the difference between a quote post on X and a TikTok comment section. A brand should not sound identical in both, and with Nectar it doesn’t.”",
+      "heading": 0
+    },
+    {
+      "text": "Another feature looks for personal milestones in creators’ lives, such as an engagement, a new baby, or completing a marathon. The agent can then suggest a personalized message or gift, helping brands build relationships that feel less like one-off advertising deals.",
+      "heading": 0
+    },
+    {
+      "text": "Creator Agent is available today globally and covers Instagram creators and TikTokers.",
+      "heading": 0
+    },
+    {
+      "text": "The company plans to make the agent available through its Model Context Protocol (MCP), allowing teams to use it through AI assistants such as Claude, ChatGPT, Gemini, and Copilot, as well as their own custom-built agents.",
+      "heading": 0
+    },
+    {
+      "text": "This past May, Nectar raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which is a joint initiative launched with Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

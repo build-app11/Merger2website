@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+  "slug": "nvidia-doesn-t-mess-around-a-week-after-open-ai-industry-gro",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/jensen-ces-2026-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "episode": ""
+  },
+  "words": 555,
+  "lines": 14,
+  "duration": 185,
+  "text": "The week-old Open Secure AI Alliance (OSAA), an industry group spearheaded by Nvidia that has already grown to over 120 companies, has developed a cutely named working group, the Shared AI Findings Exchange, or SAFE. The group is already presenting proposals for open comment, and the Linux Foundation, a member of the group, is managing the proposals.\n\nThe group developed them while members gathered at the nexus of the cybersecurity world, the Black Hat conference, taking place this week in Las Vegas.\n\nThe guidelines are nothing terribly earth-shattering for now. The proposals cover areas like how to confidentially report AI cybersecurity incidents, alert those affected, and then do blame-free analysis so all can learn from them.\n\nAt the same time, members of the OSAA are also contributing and cataloging bits and pieces of their open source technology that might be useful. This may, as these types of industry organizations go, eventually coalesce into an open source means for an enterprise to secure their AI agents, or defend against rogue AI attackers, such as the OpenAI model that infiltrated Hugging Face. (Hugging Face is also a member of this group.)\n\nFor instance, Nvidia has noted that it offers an entire family of open models, as well as an open source LLM vulnerability scanner called Garak; Okta is working on agent identity tech; Red Hat is working on agent governance; and Amazon has contributed both an open agent building tool, Strands Agents, and an authorization language, Cedar. And there are many more examples.\n\nThe group now includes a host of big names, including Adobe, BlackRock, Cisco, Intel, Microsoft, and Visa, but there are some notable absences, like Anthropic, OpenAI, and Google.\n\nInterestingly, both OpenAI and Google signed the original open letter that spawned this group. The letter, published last week, urged the White House to support open source AI efforts, not squash them. It was championed by Nvidia and signed by over 200 tech companies.\n\nWhile Anthropic’s cold shoulder to the letter and the industry group to date is not a surprise, both OpenAI and Google have released open weight models of their own. Google is generally known as a big supporter of open source, too. We’ll see if they join as this group builds momentum.\n\nMeanwhile, the group is operating at AI speeds. It’s only been a couple of weeks since news broke that the Trump administration was considering banning Chinese open weight models, causing the industry consternation that resulted in the open letter.\n\nWhatever ultimately happens with Chinese open weight models in the U.S., the fast action by this heavyweight group appears to be a good thing for the U.S. open AI ecosystem. Some in the ecosystem, like the co-founder and chief technology officer of U.S. open weight AI lab Arcee, say that’s ultimately the way to best any threat — real or imagined — that Chinese AI labs pose to the United States.\n\n“Openness may be one of the most important paths to AI safety and security,” this industry group wrote in their letter. Looks like they are ready to immediately put their effort — and their tech — where their mouths are.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "The week-old Open Secure AI Alliance (OSAA), an industry group spearheaded by Nvidia that has already grown to over 120 companies, has developed a cutely named working group, the Shared AI Findings Exchange, or SAFE. The group is already presenting proposals for open comment, and the Linux Foundation, a member of the group, is managing the proposals.",
+      "heading": 0
+    },
+    {
+      "text": "The group developed them while members gathered at the nexus of the cybersecurity world, the Black Hat conference, taking place this week in Las Vegas.",
+      "heading": 0
+    },
+    {
+      "text": "The guidelines are nothing terribly earth-shattering for now. The proposals cover areas like how to confidentially report AI cybersecurity incidents, alert those affected, and then do blame-free analysis so all can learn from them.",
+      "heading": 0
+    },
+    {
+      "text": "At the same time, members of the OSAA are also contributing and cataloging bits and pieces of their open source technology that might be useful. This may, as these types of industry organizations go, eventually coalesce into an open source means for an enterprise to secure their AI agents, or defend against rogue AI attackers, such as the OpenAI model that infiltrated Hugging Face. (Hugging Face is also a member of this group.)",
+      "heading": 0
+    },
+    {
+      "text": "For instance, Nvidia has noted that it offers an entire family of open models, as well as an open source LLM vulnerability scanner called Garak; Okta is working on agent identity tech; Red Hat is working on agent governance; and Amazon has contributed both an open agent building tool, Strands Agents, and an authorization language, Cedar. And there are many more examples.",
+      "heading": 0
+    },
+    {
+      "text": "The group now includes a host of big names, including Adobe, BlackRock, Cisco, Intel, Microsoft, and Visa, but there are some notable absences, like Anthropic, OpenAI, and Google.",
+      "heading": 0
+    },
+    {
+      "text": "Interestingly, both OpenAI and Google signed the original open letter that spawned this group. The letter, published last week, urged the White House to support open source AI efforts, not squash them. It was championed by Nvidia and signed by over 200 tech companies.",
+      "heading": 0
+    },
+    {
+      "text": "While Anthropic’s cold shoulder to the letter and the industry group to date is not a surprise, both OpenAI and Google have released open weight models of their own. Google is generally known as a big supporter of open source, too. We’ll see if they join as this group builds momentum.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, the group is operating at AI speeds. It’s only been a couple of weeks since news broke that the Trump administration was considering banning Chinese open weight models, causing the industry consternation that resulted in the open letter.",
+      "heading": 0
+    },
+    {
+      "text": "Whatever ultimately happens with Chinese open weight models in the U.S., the fast action by this heavyweight group appears to be a good thing for the U.S. open AI ecosystem. Some in the ecosystem, like the co-founder and chief technology officer of U.S. open weight AI lab Arcee, say that’s ultimately the way to best any threat — real or imagined — that Chinese AI labs pose to the United States.",
+      "heading": 0
+    },
+    {
+      "text": "“Openness may be one of the most important paths to AI safety and security,” this industry group wrote in their letter. Looks like they are ready to immediately put their effort — and their tech — where their mouths are.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+  "slug": "nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+    "episode": ""
+  },
+  "words": 655,
+  "lines": 16,
+  "duration": 218,
+  "text": "While Nvidia CEO Jensen Huang was onstage at the All-In Summit on Monday morning in Los Angeles, he got a phone call that he couldn’t send to voicemail — it was from President Donald Trump.\n\n“I’m onstage with the besties,” Huang told Trump, referring to the venture capitalists who host the podcast All-In, including tech investors Chamath Palihapitiya, Jason Calacanis, and White House advisers David Friedberg and David Sacks.\n\nIn a move that will spark night terrors for public relations professionals everywhere, Huang flaunted his comfort with the president by putting Trump on speaker for conference attendees to hear.\n\nHoly crap POTUS just phoned in @JensenHuang live on stage at All In Summit We will not lose the ai race! And whatever Dario said this weekend won’t stop our progress This made my morning! $NVDA pic.twitter.com/Sr4wV9kMfz\n\n“The great thing about life is Jensen can develop the most complex computer chip in the world … but he can’t figure out how to put you on speaker,” Trump said on the phone. (Huang is likely aware of how speakerphones work; he was asking stagehands for an extra microphone so that he could project the call to the audience.)\n\nOnstage, Huang and the All-In hosts had been discussing Anthropic CEO Dario Amodei’s call to “ slow the pace at which we improve the capabilities of AI.” SpaceX CEO Elon Musk and OpenAI CEO Sam Altman have publicly said they agree with Amodei, while Huang’s views have diverged.\n\n“They’re just playing right in the hands of a lot of people that don’t want to see it happen,” Trump said. “That could be political people. It could also be China. And we’re not going to let that happen. It’s a hoax.”\n\n“You’re right. We’re not going to let that happen, sir,” Huang replied as the crowd broke into applause.\n\nTrump and others, like Y Combinator CEO Garry Tan, have stated their belief that the growing sentiment against data center construction is part of an international psyop to stifle American economic growth. But the source of the public’s concern is more straightforward. Recent Gallup polling shows that seven in 10 Americans oppose the construction of data centers in their area, with more than 50% of respondents citing the effect of data centers on environmental resources. About 20% said they were concerned about cost-of-living increases and effects on their quality of life.\n\n“We have to be a little bit careful … We have to do things and we have to do them prudently, but that doesn’t mean we’re going to stop an industry,” Trump said to Huang. “So I’m with you all the way. I didn’t even know how you felt about it. I just hoped you felt the same way as me. We’re going to lead.”\n\nCorrection: TechCrunch mischaracterized Tan’s political leanings in an earlier version of this post. Tan, a self-described San Francisco Democrat, had previously said he was hopeful about Trump and has a nuanced position on the current administration.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "While Nvidia CEO Jensen Huang was onstage at the All-In Summit on Monday morning in Los Angeles, he got a phone call that he couldn’t send to voicemail — it was from President Donald Trump.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m onstage with the besties,” Huang told Trump, referring to the venture capitalists who host the podcast All-In, including tech investors Chamath Palihapitiya, Jason Calacanis, and White House advisers David Friedberg and David Sacks.",
+      "heading": 0
+    },
+    {
+      "text": "In a move that will spark night terrors for public relations professionals everywhere, Huang flaunted his comfort with the president by putting Trump on speaker for conference attendees to hear.",
+      "heading": 0
+    },
+    {
+      "text": "Holy crap POTUS just phoned in @JensenHuang live on stage at All In Summit We will not lose the ai race! And whatever Dario said this weekend won’t stop our progress This made my morning! $NVDA pic.twitter.com/Sr4wV9kMfz",
+      "heading": 0
+    },
+    {
+      "text": "“The great thing about life is Jensen can develop the most complex computer chip in the world … but he can’t figure out how to put you on speaker,” Trump said on the phone. (Huang is likely aware of how speakerphones work; he was asking stagehands for an extra microphone so that he could project the call to the audience.)",
+      "heading": 0
+    },
+    {
+      "text": "Onstage, Huang and the All-In hosts had been discussing Anthropic CEO Dario Amodei’s call to “ slow the pace at which we improve the capabilities of AI.” SpaceX CEO Elon Musk and OpenAI CEO Sam Altman have publicly said they agree with Amodei, while Huang’s views have diverged.",
+      "heading": 0
+    },
+    {
+      "text": "“They’re just playing right in the hands of a lot of people that don’t want to see it happen,” Trump said. “That could be political people. It could also be China. And we’re not going to let that happen. It’s a hoax.”",
+      "heading": 0
+    },
+    {
+      "text": "“You’re right. We’re not going to let that happen, sir,” Huang replied as the crowd broke into applause.",
+      "heading": 0
+    },
+    {
+      "text": "Trump and others, like Y Combinator CEO Garry Tan, have stated their belief that the growing sentiment against data center construction is part of an international psyop to stifle American economic growth. But the source of the public’s concern is more straightforward. Recent Gallup polling shows that seven in 10 Americans oppose the construction of data centers in their area, with more than 50% of respondents citing the effect of data centers on environmental resources. About 20% said they were concerned about cost-of-living increases and effects on their quality of life.",
+      "heading": 0
+    },
+    {
+      "text": "“We have to be a little bit careful … We have to do things and we have to do them prudently, but that doesn’t mean we’re going to stop an industry,” Trump said to Huang. “So I’m with you all the way. I didn’t even know how you felt about it. I just hoped you felt the same way as me. We’re going to lead.”",
+      "heading": 0
+    },
+    {
+      "text": "Correction: TechCrunch mischaracterized Tan’s political leanings in an earlier version of this post. Tan, a self-described San Francisco Democrat, had previously said he was hopeful about Trump and has a nuanced position on the current administration.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

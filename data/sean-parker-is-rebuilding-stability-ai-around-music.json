@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Sean Parker is rebuilding Stability AI around music",
+  "slug": "sean-parker-is-rebuilding-stability-ai-around-music",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sean-Parker.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+    "episode": ""
+  },
+  "words": 270,
+  "lines": 16,
+  "duration": 90,
+  "text": "Posted:\n\nConnie Loizos\n\nSean Parker is rebuilding Stability AI around music\n\nSean Parker, the Napster co-founder, has jumped back into the music industry, and he tells The Information that he’s playing by the rules this time. (Asking for forgiveness rather than permission didn’t work out so well last time around, he readily concedes.)\n\nTwo years ago, he joined an $80 million rescue of Stability AI, the image-generator startup that nearly collapsed after overspending and internal turmoil led to founder Emad Mostaque’s ouster. Now Parker and his longtime friend Prem Akkaraju, who became CEO, are taking the wraps off what they’ve been building.\n\nThe big idea, Parker says, is to turn Stability into the go-to AI toolmaker for music professionals. Toward that end, in late August, the company announced $76 million in funding from, among others, Sony, Warner, and Universal, which also licensed their catalogs for training as part of the deal. Stability has since released three new audio models and AI music-editing software. The AI can generate whole instrumental tracks or short snippets from text prompts. Parker says an upcoming update will let users hum a melody or beatbox a drum pattern to steer it.\n\nTopics\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nFormer Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories\n\nKate Park\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "Sean Parker is rebuilding Stability AI around music",
+      "heading": 1
+    },
+    {
+      "text": "Sean Parker, the Napster co-founder, has jumped back into the music industry, and he tells The Information that he’s playing by the rules this time. (Asking for forgiveness rather than permission didn’t work out so well last time around, he readily concedes.)",
+      "heading": 0
+    },
+    {
+      "text": "Two years ago, he joined an $80 million rescue of Stability AI, the image-generator startup that nearly collapsed after overspending and internal turmoil led to founder Emad Mostaque’s ouster. Now Parker and his longtime friend Prem Akkaraju, who became CEO, are taking the wraps off what they’ve been building.",
+      "heading": 0
+    },
+    {
+      "text": "The big idea, Parker says, is to turn Stability into the go-to AI toolmaker for music professionals. Toward that end, in late August, the company announced $76 million in funding from, among others, Sony, Warner, and Universal, which also licensed their catalogs for training as part of the deal. Stability has since released three new audio models and AI music-editing software. The AI can generate whole instrumental tracks or short snippets from text prompts. Parker says an upcoming update will let users hum a melody or beatbox a drum pattern to steer it.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "heading": 0
+    },
+    {
+      "text": "Kate Park",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

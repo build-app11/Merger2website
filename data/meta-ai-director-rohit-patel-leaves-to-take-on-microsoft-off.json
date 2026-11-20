@@ -1,0 +1,133 @@
+{
+  "type": "read",
+  "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+  "slug": "meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-off",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+    "episode": ""
+  },
+  "words": 1097,
+  "lines": 27,
+  "duration": 366,
+  "text": "After eight years developing AI for Meta, Rohit Patel is departing the company, TechCrunch has exclusively learned. The former director at Meta Superintelligence Labs has launched Ndoc, a startup he’s pitching as an AI-native replacement for Microsoft Office suite or Google Workspace.\n\nPatel is the latest in a handful of high-profile departures from Meta following the exits of Chief Global Affairs Officer Joel Kaplan, AI researcher Andrew Tulloch, and Head of Product for AI-for-Work Emily Dalton Smith.\n\nPatel designed Ndoc to be more than just another AI tool layered onto an existing workflow. The goal is to replace the fragmented way people work across tools like Excel, Word, PowerPoint, Tableau, Replit, and “ChatGPT copy-paste” with one unified workspace that all colleagues can access, even if they’re not signed up for Ndoc.\n\nNdoc brings three components together in one layout. The Stage tab is where presentations of key findings live, like slide decks, dashboards, simulations, or mini apps. The Narrative tab features analyses, numbered citations, generated figures, and generally the “why” behind the numbers. The Model tab is where underlying datasets and Python scripts are housed.\n\nThe design reflects Patel’s background. During his tenure at Meta, Patel focused on reinforcement learning — a type of machine learning in which AI agents learn to make decisions through trial and error and maximize rewards — and evaluating whether AI output is trustworthy. Patel believes that if AI is going to build the spreadsheets and slide decks that companies use to make decisions, someone should be able to check its work. For instance, users can find the Python scripts used to create the documents.\n\n“Even if you don’t know any Python, you can ask [the AI chat] to explain, ‘Hey, what does this script do? Which line has my formula?’ And you can verify that formula,” Patel said. “There’s nothing hidden behind the curtain here.”\n\nIn practice, users can upload a dataset and ask Ndoc to perform an analysis and write a narrative about the findings. They can also add document-specific context, including audience, tone, and memory. “It maintains a memory across your person, that particular document, your team, and your company,” Patel said.\n\nPatel also says Ndoc is built and fine-tuned using a mixture of open source models. Because the platform was developed from scratch, he says it costs considerably less to run than alternatives built on frontier AI models.\n\n“I thought that’s what people would be excited about, but people don’t care about that,” he said, referring to his early trial users. “What people are excited about is that they love seeing all their end-to-end in one place.”\n\nPatel’s larger ambition is to reinvent the file itself. He says documents can be exported as a single “.ndoc.html” file that can be opened in any browser, a format he plans to open-source so other developers can build apps that work with it without being locked into Ndoc the way so many have been locked into Microsoft or Google for years.\n\nHis desire to open-source this project was partly why he left Meta and decided to go it alone. At a big company like Meta, getting everyone to agree on an open source format would undoubtedly require the input of “hundreds of people and opinions on how the format should look.”\n\nPatel wanted to move quickly. “Humans can only move at human pace, whereas…I can move at the pace of what AI can do.”\n\nTrying to become the platform where enterprise work happens is a huge bet for a founder with a team of three and no funding, especially when other AI labs are trying to own the same space.\n\nOpenAI, Anthropic, Meta, SpaceXAI, and Google have all come out with enterprise AI tools that allow users to connect to Google Workspace, Microsoft 365, and other workplace apps so their AI models can work directly in those tools. And last month, OpenAI launched Space, a shared workspace inside ChatGPT that’s a more direct competitor to those established tools.\n\nPatel acknowledges that Space could be a threat, but says the labs largely have the wrong idea.\n\n“Companies are basically attaching AI to spreadsheets and it fills your cells for you,” he said. “It just sort of kills my soul. This is like if you just figured out electricity, and then you decided the best use case is to put lights on my bulls that till my soil. No. Get a tractor.”\n\nThere’s a reason the AI labs have tried to bring their models to where people are already working, though. It’s hard to change habits and replace entire workflows. Patel says he understands that, which is why he built connectors so customers can import existing data from the tools they already use.\n\n“My bar was that I’m not going to release anything I don’t love using,” he said. “I have very optimized AI workflows for everything I do. If I start using this tool, and I keep going back to my workflows, I haven’t built a good enough tool…I have a graveyard of tools that did not meet that bar.”\n\nPatel has a similar bar for gaining customer traction before he tries to raise funds. “I didn’t want to take money until I had some proof that people love the product,” he said.\n\nAs of Tuesday, Ndoc is conducting an enterprise pilot and opening an alpha version to a limited number of customers who join the wait list. It’s free to sign up, but customers will pay for usage and tokens. He hopes to release a beta version in the coming weeks, with a full launch planned for next year.\n\nFor Patel, moving as fast as possible is more important than having the perfect product from the get-go.\n\n“Execution is extremely cheap…so go execute on a suboptimal plan and worry about it later,” he said. “By the time you make the best plan, the execution will be done by somebody else.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "After eight years developing AI for Meta, Rohit Patel is departing the company, TechCrunch has exclusively learned. The former director at Meta Superintelligence Labs has launched Ndoc, a startup he’s pitching as an AI-native replacement for Microsoft Office suite or Google Workspace.",
+      "heading": 0
+    },
+    {
+      "text": "Patel is the latest in a handful of high-profile departures from Meta following the exits of Chief Global Affairs Officer Joel Kaplan, AI researcher Andrew Tulloch, and Head of Product for AI-for-Work Emily Dalton Smith.",
+      "heading": 0
+    },
+    {
+      "text": "Patel designed Ndoc to be more than just another AI tool layered onto an existing workflow. The goal is to replace the fragmented way people work across tools like Excel, Word, PowerPoint, Tableau, Replit, and “ChatGPT copy-paste” with one unified workspace that all colleagues can access, even if they’re not signed up for Ndoc.",
+      "heading": 0
+    },
+    {
+      "text": "Ndoc brings three components together in one layout. The Stage tab is where presentations of key findings live, like slide decks, dashboards, simulations, or mini apps. The Narrative tab features analyses, numbered citations, generated figures, and generally the “why” behind the numbers. The Model tab is where underlying datasets and Python scripts are housed.",
+      "heading": 0
+    },
+    {
+      "text": "The design reflects Patel’s background. During his tenure at Meta, Patel focused on reinforcement learning — a type of machine learning in which AI agents learn to make decisions through trial and error and maximize rewards — and evaluating whether AI output is trustworthy. Patel believes that if AI is going to build the spreadsheets and slide decks that companies use to make decisions, someone should be able to check its work. For instance, users can find the Python scripts used to create the documents.",
+      "heading": 0
+    },
+    {
+      "text": "“Even if you don’t know any Python, you can ask [the AI chat] to explain, ‘Hey, what does this script do? Which line has my formula?’ And you can verify that formula,” Patel said. “There’s nothing hidden behind the curtain here.”",
+      "heading": 0
+    },
+    {
+      "text": "In practice, users can upload a dataset and ask Ndoc to perform an analysis and write a narrative about the findings. They can also add document-specific context, including audience, tone, and memory. “It maintains a memory across your person, that particular document, your team, and your company,” Patel said.",
+      "heading": 0
+    },
+    {
+      "text": "Patel also says Ndoc is built and fine-tuned using a mixture of open source models. Because the platform was developed from scratch, he says it costs considerably less to run than alternatives built on frontier AI models.",
+      "heading": 0
+    },
+    {
+      "text": "“I thought that’s what people would be excited about, but people don’t care about that,” he said, referring to his early trial users. “What people are excited about is that they love seeing all their end-to-end in one place.”",
+      "heading": 0
+    },
+    {
+      "text": "Patel’s larger ambition is to reinvent the file itself. He says documents can be exported as a single “.ndoc.html” file that can be opened in any browser, a format he plans to open-source so other developers can build apps that work with it without being locked into Ndoc the way so many have been locked into Microsoft or Google for years.",
+      "heading": 0
+    },
+    {
+      "text": "His desire to open-source this project was partly why he left Meta and decided to go it alone. At a big company like Meta, getting everyone to agree on an open source format would undoubtedly require the input of “hundreds of people and opinions on how the format should look.”",
+      "heading": 0
+    },
+    {
+      "text": "Patel wanted to move quickly. “Humans can only move at human pace, whereas…I can move at the pace of what AI can do.”",
+      "heading": 0
+    },
+    {
+      "text": "Trying to become the platform where enterprise work happens is a huge bet for a founder with a team of three and no funding, especially when other AI labs are trying to own the same space.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI, Anthropic, Meta, SpaceXAI, and Google have all come out with enterprise AI tools that allow users to connect to Google Workspace, Microsoft 365, and other workplace apps so their AI models can work directly in those tools. And last month, OpenAI launched Space, a shared workspace inside ChatGPT that’s a more direct competitor to those established tools.",
+      "heading": 0
+    },
+    {
+      "text": "Patel acknowledges that Space could be a threat, but says the labs largely have the wrong idea.",
+      "heading": 0
+    },
+    {
+      "text": "“Companies are basically attaching AI to spreadsheets and it fills your cells for you,” he said. “It just sort of kills my soul. This is like if you just figured out electricity, and then you decided the best use case is to put lights on my bulls that till my soil. No. Get a tractor.”",
+      "heading": 0
+    },
+    {
+      "text": "There’s a reason the AI labs have tried to bring their models to where people are already working, though. It’s hard to change habits and replace entire workflows. Patel says he understands that, which is why he built connectors so customers can import existing data from the tools they already use.",
+      "heading": 0
+    },
+    {
+      "text": "“My bar was that I’m not going to release anything I don’t love using,” he said. “I have very optimized AI workflows for everything I do. If I start using this tool, and I keep going back to my workflows, I haven’t built a good enough tool…I have a graveyard of tools that did not meet that bar.”",
+      "heading": 0
+    },
+    {
+      "text": "Patel has a similar bar for gaining customer traction before he tries to raise funds. “I didn’t want to take money until I had some proof that people love the product,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "As of Tuesday, Ndoc is conducting an enterprise pilot and opening an alpha version to a limited number of customers who join the wait list. It’s free to sign up, but customers will pay for usage and tokens. He hopes to release a beta version in the coming weeks, with a full launch planned for next year.",
+      "heading": 0
+    },
+    {
+      "text": "For Patel, moving as fast as possible is more important than having the perfect product from the get-go.",
+      "heading": 0
+    },
+    {
+      "text": "“Execution is extremely cheap…so go execute on a suboptimal plan and worry about it later,” he said. “By the time you make the best plan, the execution will be done by somebody else.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

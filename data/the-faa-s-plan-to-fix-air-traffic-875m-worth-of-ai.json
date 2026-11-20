@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+  "slug": "the-faa-s-plan-to-fix-air-traffic-875m-worth-of-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/NYC_Archer_United_3.png?resize=1200,802",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+    "episode": ""
+  },
+  "words": 336,
+  "lines": 19,
+  "duration": 112,
+  "text": "Posted:\n\nLucas Ropek\n\nThe FAA’s plan to fix air traffic? $875M worth of AI\n\nThe Federal Aviation Administration has been struggling to manage an air traffic control shortage throughout the country. The reasons for the shortage are diverse, but the government has made it known that it’s on the lookout for innovative solutions to the problem.\n\nOne of those solutions appears to be an $875 million AI software program that is expected to help air traffic controllers manage their workflows and more safely navigate flight routes.\n\nThe Wall Street Journal reports that the FAA will soon launch SMART, which stands for Strategic Management of Airspace, Routes, and Trajectories — an automated software program designed to help streamline air traffic operations.\n\nA one-page readout on the program describes SMART as “a cloud-based platform system that enhances existing FAA air traffic management systems.” It adds that the program uses AI to assess “airline schedules, weather, airport capacity, airspace conditions, and operational constraints to predict traffic flows and identify potential conflicts before they occur.”\n\nSMART, the product of a firm called Air Space Intelligence, will cost the government that amount over a 12-year period, the outlet writes. The software will roll out in the Washington, D.C., metropolitan area first before expanding to other regions, it says.\n\nEarlier this year, the FAA also announced a “bold, new” hiring plan that the agency said would “erase the longstanding staffing shortage,” and the government is separately engaged in a broad effort to modernize the nation’s aging air traffic systems.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nThese tech outages are giving Y2K, AI agent style\n\nDominic-Madori Davis\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "heading": 0
+    },
+    {
+      "text": "The Federal Aviation Administration has been struggling to manage an air traffic control shortage throughout the country. The reasons for the shortage are diverse, but the government has made it known that it’s on the lookout for innovative solutions to the problem.",
+      "heading": 0
+    },
+    {
+      "text": "One of those solutions appears to be an $875 million AI software program that is expected to help air traffic controllers manage their workflows and more safely navigate flight routes.",
+      "heading": 0
+    },
+    {
+      "text": "The Wall Street Journal reports that the FAA will soon launch SMART, which stands for Strategic Management of Airspace, Routes, and Trajectories — an automated software program designed to help streamline air traffic operations.",
+      "heading": 0
+    },
+    {
+      "text": "A one-page readout on the program describes SMART as “a cloud-based platform system that enhances existing FAA air traffic management systems.” It adds that the program uses AI to assess “airline schedules, weather, airport capacity, airspace conditions, and operational constraints to predict traffic flows and identify potential conflicts before they occur.”",
+      "heading": 0
+    },
+    {
+      "text": "SMART, the product of a firm called Air Space Intelligence, will cost the government that amount over a 12-year period, the outlet writes. The software will roll out in the Washington, D.C., metropolitan area first before expanding to other regions, it says.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this year, the FAA also announced a “bold, new” hiring plan that the agency said would “erase the longstanding staffing shortage,” and the government is separately engaged in a broad effort to modernize the nation’s aging air traffic systems.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Anthropic is operating a lab that conducts biology experiments",
+  "slug": "anthropic-is-operating-a-lab-that-conducts-biology-experimen",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/08/DNA-—-Xero-2.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+    "episode": ""
+  },
+  "words": 469,
+  "lines": 13,
+  "duration": 156,
+  "text": "Anthropic has a wet biology lab in the Bay Area where it can use its AI models to run physical experiments, it has confirmed to TechCrunch.\n\nAI leaders have been promising that AI is the key to curing human disease. Dario Amodei opined just last week: “I believe that AI could cure most major diseases in the next 5–10 years.” To do that, an LLM would have to have methods to test its theories in real life.\n\n“We believe that to do biology, the final test is still, and will be for a while, in real lab work,” Anthropic’s head of life sciences, Eric Kauderer-Abrams, told Reuters. “We absolutely are doing that today.” He added that the lab operates like most biotech labs: Anthropic conducts some research there while also working with external partners.\n\nThis news probably shouldn’t be shocking. Anthropic bought Coefficient Bio, a stealth AI biotech, in April.\n\nWhile Anthropic declined to give specifics on what the wet lab is working on, it did say the main focus was fundamental biology, not drug discovery.\n\nAnthropic doesn’t want to give the appearance of competing with the pharma industry, where it has numerous major customers and partners (e.g., it just announced a deal to work with Novo Nordisk on joint drug discovery). Anthropic has already faced backlash for launching products perceived to compete with those of its customers.\n\nTo that end, Anthropic also launched a Life Sciences Verification Program this week, to give vetted bio researchers access to its most powerful models. It has also published recent reports on some of the research it’s doing to support drug discovery. This includes one report on accelerating protein design and one on uplifting bimolecular modeling.\n\nBut the world is still reeling from the resignation of Anthropic researcher Jacob Coxon, who warned that “the people building AI earnestly believe that it could kill us all by the end of the decade.” Anthropic’s own alignment lead gave the odds at greater than 10% that AI could exterminate humanity within the next decade.\n\nThe fervor has grown so intense that CEO Dario Amodei published a post last weekend calling on the industry to slow down and institute self-regulation. He has repeatedly called bioterrorism one of AI’s biggest risks.\n\nThe juxtaposition of these dire warnings and the wet lab has not gone unnoticed in the tech industry. As investor and AI coding startup founder Chamath Palihapitiya posted on X, somewhat tongue in cheek: “The group behind such hits as: ‘We’re All Going To Die’ and ‘Regulate Me Now’ are building a wet lab in SF. I do not recommend this.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Anthropic has a wet biology lab in the Bay Area where it can use its AI models to run physical experiments, it has confirmed to TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "AI leaders have been promising that AI is the key to curing human disease. Dario Amodei opined just last week: “I believe that AI could cure most major diseases in the next 5–10 years.” To do that, an LLM would have to have methods to test its theories in real life.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe that to do biology, the final test is still, and will be for a while, in real lab work,” Anthropic’s head of life sciences, Eric Kauderer-Abrams, told Reuters. “We absolutely are doing that today.” He added that the lab operates like most biotech labs: Anthropic conducts some research there while also working with external partners.",
+      "heading": 0
+    },
+    {
+      "text": "This news probably shouldn’t be shocking. Anthropic bought Coefficient Bio, a stealth AI biotech, in April.",
+      "heading": 0
+    },
+    {
+      "text": "While Anthropic declined to give specifics on what the wet lab is working on, it did say the main focus was fundamental biology, not drug discovery.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic doesn’t want to give the appearance of competing with the pharma industry, where it has numerous major customers and partners (e.g., it just announced a deal to work with Novo Nordisk on joint drug discovery). Anthropic has already faced backlash for launching products perceived to compete with those of its customers.",
+      "heading": 0
+    },
+    {
+      "text": "To that end, Anthropic also launched a Life Sciences Verification Program this week, to give vetted bio researchers access to its most powerful models. It has also published recent reports on some of the research it’s doing to support drug discovery. This includes one report on accelerating protein design and one on uplifting bimolecular modeling.",
+      "heading": 0
+    },
+    {
+      "text": "But the world is still reeling from the resignation of Anthropic researcher Jacob Coxon, who warned that “the people building AI earnestly believe that it could kill us all by the end of the decade.” Anthropic’s own alignment lead gave the odds at greater than 10% that AI could exterminate humanity within the next decade.",
+      "heading": 0
+    },
+    {
+      "text": "The fervor has grown so intense that CEO Dario Amodei published a post last weekend calling on the industry to slow down and institute self-regulation. He has repeatedly called bioterrorism one of AI’s biggest risks.",
+      "heading": 0
+    },
+    {
+      "text": "The juxtaposition of these dire warnings and the wet lab has not gone unnoticed in the tech industry. As investor and AI coding startup founder Chamath Palihapitiya posted on X, somewhat tongue in cheek: “The group behind such hits as: ‘We’re All Going To Die’ and ‘Regulate Me Now’ are building a wet lab in SF. I do not recommend this.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

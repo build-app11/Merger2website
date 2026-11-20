@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Underdog shows off a 32MB speech model in new demo",
+  "slug": "underdog-shows-off-a-32mb-speech-model-in-new-demo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+    "episode": ""
+  },
+  "words": 499,
+  "lines": 16,
+  "duration": 166,
+  "text": "AI companies across the world are racing to make bigger and better models, but the problem is all of them need massive amounts of processing power. On the other end, some researchers and startups are creating smaller models that can run on edge devices, like your phone or computer.\n\nOne such startup, Underdog, has released a game built with its new voice model called Woof that’s only 32MB large.\n\nThe game features a room with a retro tech theme, a typewriter, and a CRT monitor. There is a desk lamp, which makes a sound when you click its switch. The intro warns users about “intrusive” cloud providers in the town — ostensibly a jab at cloud-based models.\n\nYou can interact with the typewriter and music tuner.\n\nWe made a game for our new frontier text-to-speech model, Woof. 31.7 MB, so small that it runs in your browser Play the game on X… all voices are Woof. Defeat Darkcloud for an invite https://t.co/ImUFYDCBQG pic.twitter.com/tthHx7ZGBK\n\nYou can type anything on the typewriter using your keyboard, and the game will speak it back. You can also rotate the tuner to generate different kinds of music.\n\nAll of this works within the browser through Underdog’s speech generation model, which, the company says, can run on most devices without any internet connection. The model has 31 million parameters and is open for everyone to download.\n\nWhile such a small model likely won’t replace bigger models, it may still be enough to drive local assistant experiences or create personalized podcasts.\n\nThis demo comes weeks after Underdog launched Bark, a 167MB speech-to-text model also designed to run on edge devices for transcription and dictation.\n\nSigil Wen, the founder of Underdog, told TechCrunch that he started building the app because, instead of using notetakers like Granola, he wanted to build his own system with AI models that can run on users’ devices and let them own their data.\n\n“I think we will be able to run most capable models of today on the devices you already own within months. We just want to train the best open models that are American-made, that are open, that are capable and allow people to have private AI,” he said, referring to his manifesto.\n\nIn addition to the two voice models mentioned above, Underdog has also released a 27-billion-parameter model that can run on laptops, along with a waitlisted app that the company is positioning as a locally hosted alternative to Muse and Instinct.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "AI companies across the world are racing to make bigger and better models, but the problem is all of them need massive amounts of processing power. On the other end, some researchers and startups are creating smaller models that can run on edge devices, like your phone or computer.",
+      "heading": 0
+    },
+    {
+      "text": "One such startup, Underdog, has released a game built with its new voice model called Woof that’s only 32MB large.",
+      "heading": 0
+    },
+    {
+      "text": "The game features a room with a retro tech theme, a typewriter, and a CRT monitor. There is a desk lamp, which makes a sound when you click its switch. The intro warns users about “intrusive” cloud providers in the town — ostensibly a jab at cloud-based models.",
+      "heading": 0
+    },
+    {
+      "text": "You can interact with the typewriter and music tuner.",
+      "heading": 0
+    },
+    {
+      "text": "We made a game for our new frontier text-to-speech model, Woof. 31.7 MB, so small that it runs in your browser Play the game on X… all voices are Woof. Defeat Darkcloud for an invite https://t.co/ImUFYDCBQG pic.twitter.com/tthHx7ZGBK",
+      "heading": 0
+    },
+    {
+      "text": "You can type anything on the typewriter using your keyboard, and the game will speak it back. You can also rotate the tuner to generate different kinds of music.",
+      "heading": 0
+    },
+    {
+      "text": "All of this works within the browser through Underdog’s speech generation model, which, the company says, can run on most devices without any internet connection. The model has 31 million parameters and is open for everyone to download.",
+      "heading": 0
+    },
+    {
+      "text": "While such a small model likely won’t replace bigger models, it may still be enough to drive local assistant experiences or create personalized podcasts.",
+      "heading": 0
+    },
+    {
+      "text": "This demo comes weeks after Underdog launched Bark, a 167MB speech-to-text model also designed to run on edge devices for transcription and dictation.",
+      "heading": 0
+    },
+    {
+      "text": "Sigil Wen, the founder of Underdog, told TechCrunch that he started building the app because, instead of using notetakers like Granola, he wanted to build his own system with AI models that can run on users’ devices and let them own their data.",
+      "heading": 0
+    },
+    {
+      "text": "“I think we will be able to run most capable models of today on the devices you already own within months. We just want to train the best open models that are American-made, that are open, that are capable and allow people to have private AI,” he said, referring to his manifesto.",
+      "heading": 0
+    },
+    {
+      "text": "In addition to the two voice models mentioned above, Underdog has also released a 27-billion-parameter model that can run on laptops, along with a waitlisted app that the company is positioning as a locally hosted alternative to Muse and Instinct.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

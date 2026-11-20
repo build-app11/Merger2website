@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+  "slug": "nvidia-is-abandoning-china-after-jensen-huang-s-ouster",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+    "episode": ""
+  },
+  "words": 559,
+  "lines": 14,
+  "duration": 186,
+  "text": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company’s participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country.\n\nChina’s access to leading AI accelerators was an important topic during the company’s first earnings call since CEO and co-founder Jensen Huang stepped down last week. The disclosure comes the same day Nvidia announced it was creating a board-level committee to oversee national security policies, export control compliance, and global trade risks.\n\nNvidia’s deal to sell H200 chips in China was brokered by Huang and President Donald Trump. The arrangement required the chips to be shipped through the U.S., allowing the government to collect a 25% tariff.\n\nThe pathway angered China hawks who wanted to deny Chinese labs computing power and maintain the United States’ lead in AI, but Huang long argued that it was more important for the U.S. to compete in China. In April, he told podcaster Dwarkesh Patel that “to concede that market for the United States technology industry is a disservice to our country.”\n\nHuang’s ouster — in part over an affair with the CEO of a company under investigation for smuggling chips into China — has coincided with new rules, issued Monday, barring advanced U.S. chips from foreign data centers that serve Chinese customers remotely.\n\nInvestment bank Jefferies forecast that those rules might trim between $44 billion and $62 billion from Nvidia’s data center revenue next year. Referencing the new export controls, Kress said that the backlog of demand for advanced chips like Vera Rubin means the rules would have no impact on the company’s top-line revenue.\n\nIn the long term, the company may face the loss of potential customers in Singapore, Malaysia, Thailand, and Indonesia. Critics of Nvidia’s dependence on China claim that as much as 20% of its revenue comes from demand linked to the country — annual revenue at its Singapore subsidiary hit $104 billion in 2025 before Nvidia stopped disclosing those figures — but that’s clearly going to change.\n\nEven before Nvidia decided to stop shipping H200s, China had largely refused to accept their delivery. The government would prefer to generate demand for the country’s domestic chip industry, even if major AI compute users want the still-superior Nvidia equipment, according to Jacob Feldgoise, a researcher at Georgetown’s Center for Security and Emerging Technology.\n\nMeanwhile, Chinese frontier labs are finding ways to access Nvidia chips elsewhere. All of China’s leading AI models show evidence of having been trained on Nvidia Grace Blackwell chips that are prohibited from being exported to China.\n\nThat training may have taken place at data centers outside of China, but sales to those facilities will be barred under the new rules. If large data centers suited for training AI models want to buy Nvidia chips, they will have to certify they aren’t serving any Chinese customers, export control attorney Dan Fisher-Owens told TechCrunch.\n\nIf they can’t provide that certification, the new rules may force them toward other chip options and further eat into Nvidia’s market share.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company’s participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country.",
+      "heading": 0
+    },
+    {
+      "text": "China’s access to leading AI accelerators was an important topic during the company’s first earnings call since CEO and co-founder Jensen Huang stepped down last week. The disclosure comes the same day Nvidia announced it was creating a board-level committee to oversee national security policies, export control compliance, and global trade risks.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s deal to sell H200 chips in China was brokered by Huang and President Donald Trump. The arrangement required the chips to be shipped through the U.S., allowing the government to collect a 25% tariff.",
+      "heading": 0
+    },
+    {
+      "text": "The pathway angered China hawks who wanted to deny Chinese labs computing power and maintain the United States’ lead in AI, but Huang long argued that it was more important for the U.S. to compete in China. In April, he told podcaster Dwarkesh Patel that “to concede that market for the United States technology industry is a disservice to our country.”",
+      "heading": 0
+    },
+    {
+      "text": "Huang’s ouster — in part over an affair with the CEO of a company under investigation for smuggling chips into China — has coincided with new rules, issued Monday, barring advanced U.S. chips from foreign data centers that serve Chinese customers remotely.",
+      "heading": 0
+    },
+    {
+      "text": "Investment bank Jefferies forecast that those rules might trim between $44 billion and $62 billion from Nvidia’s data center revenue next year. Referencing the new export controls, Kress said that the backlog of demand for advanced chips like Vera Rubin means the rules would have no impact on the company’s top-line revenue.",
+      "heading": 0
+    },
+    {
+      "text": "In the long term, the company may face the loss of potential customers in Singapore, Malaysia, Thailand, and Indonesia. Critics of Nvidia’s dependence on China claim that as much as 20% of its revenue comes from demand linked to the country — annual revenue at its Singapore subsidiary hit $104 billion in 2025 before Nvidia stopped disclosing those figures — but that’s clearly going to change.",
+      "heading": 0
+    },
+    {
+      "text": "Even before Nvidia decided to stop shipping H200s, China had largely refused to accept their delivery. The government would prefer to generate demand for the country’s domestic chip industry, even if major AI compute users want the still-superior Nvidia equipment, according to Jacob Feldgoise, a researcher at Georgetown’s Center for Security and Emerging Technology.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, Chinese frontier labs are finding ways to access Nvidia chips elsewhere. All of China’s leading AI models show evidence of having been trained on Nvidia Grace Blackwell chips that are prohibited from being exported to China.",
+      "heading": 0
+    },
+    {
+      "text": "That training may have taken place at data centers outside of China, but sales to those facilities will be barred under the new rules. If large data centers suited for training AI models want to buy Nvidia chips, they will have to certify they aren’t serving any Chinese customers, export control attorney Dan Fisher-Owens told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "If they can’t provide that certification, the new rules may force them toward other chip options and further eat into Nvidia’s market share.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

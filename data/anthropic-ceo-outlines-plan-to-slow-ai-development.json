@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Anthropic CEO outlines plan to slow AI development",
+  "slug": "anthropic-ceo-outlines-plan-to-slow-ai-development",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+    "episode": ""
+  },
+  "words": 1024,
+  "lines": 23,
+  "duration": 341,
+  "text": "We’ve been seeing increasingly dire warnings from AI researchers about the dangers of artificial intelligence, and even comments from OpenAI CEO Sam Altman that it may be time to “pace” AI development. But what would that actually look like?\n\nIn a new blog post, Anthropic CEO Dario Amodei not only echoed the call to “pace the frontier,” but also outlined three broad strategies for doing so. And he said Anthropic is “unilaterally committing” to one of them, with Altman chiming in to say OpenAI will follow suit.\n\nThe debate over AI safety and alignment intensified this week after researcher Jacob Coxon wrote that he’s resigning from Anthropic over concerns that the leading AI companies are “gambling with our lives” while the people building the technology “earnestly believe it could kill us all by the end of the decade,” a claim repeated by others at Anthropic.\n\nAmodei’s post doesn’t explicitly mention Coxon’s resignation or his concerns, but the CEO wrote that two things convinced him it’s time to take a more cautious approach to AI development: the OpenAI-Hugging Face hack, and the fact that “AI has been advancing drastically faster” in recent months, particularly with its “growing ability to build the next generation of AI.”\n\n“We must slow the pace at which we improve the capabilities of AI models,” Amodei wrote. “Progress will still seem fast, and we must make wise use of the time we gain.”\n\nOther AI executives seem to have reacted positively to Amodei’s post, with Altman writing, “I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we’ve had at OpenAI in recent weeks.” And SpaceX CEO Elon Musk posted, “Dario is right.”\n\nAmodei’s proposed first step would involve “embedded evaluators” from third-party organizations like METR — evaluators who can verify that AI companies are actually following their pacing and safety commitments and can also ensure that safety incidents get reported. (OpenAI was recently criticized for not reporting an incident where its AI agents took over a German wiki forum.)\n\nAmodei compared these evaluators to regulators who have been embedded with bank employees, and he said that inviting them in is “something Anthropic is unilaterally committing to (and calls on governments to require other frontier companies to match).” That means giving evaluators company badges, desks, and laptops, and providing access “mostly comparable to what internal risk assessment teams have,” with exceptions when required by law or contracts.\n\nAltman also said this was a “good idea” and said OpenAI would do the same: “We’ll have more to share soon.”\n\nNext, Amodei called for the leading AI companies “within democratic countries” to coordinate “common safety standards as well as limits on the rate of unchecked AI progress.”\n\nSuch coordination might seem unlikely, because these companies are reportedly worried that a coordinated pause could lead to antitrust scrutiny. Amodei alluded to that concern in his post, writing that “for antitrust reasons, it’s helpful for the US government to mediate or at least enable these discussions — they don’t need to participate, but do need to issue a narrow waiver for certain kinds of safety conversations.”\n\nAmodei also acknowledged the specter of Chinese AI dominance that’s often raised as an argument against slowing development. But he said that if the U.S. government and tech companies take steps like refusing to sell powerful chips or semiconductor manufacturing equipment to Chinese companies, as well as cracking down on model distillation, they could “slow China’s progress enough to widen America’s lead significantly over the next 3-5 years.”\n\nLastly, Amodei called for “global coordination,” where the United States and its allies “attempt to coordinate with authoritarian governments, to the extent this is possible.” Amodei said this would mean “cooperation with China,” and he admitted that there are “stark limits on what can be achieved,” but he still suggested there might be opportunities for agreement, even if it’s just “prohibiting certain narrow and obviously dangerous uses of AI, such as using AI for the production of biological weapons or allowing users to do so.”\n\nWith Amodei’s past willingness to acknowledge AI’s potential dangers, and with the company’s relative openness to certain forms of regulation, some AI boosters have already criticized him as a doomer whose comments have fed the current AI backlash. In response, Amodei said he’s tried to offer a “balanced” perspective” and argued that the backlash is “fundamentally a crisis of trust,” as people have become skeptical of tech companies, the tech industry, and the government.\n\nIndustry critics have also been skeptical about these apocalyptic AI warnings, suggesting that they’re a distraction from the harm that the technology is already causing.\n\nJournalist Brian Merchant, for example, wrote that he has yet to see “a credible, step-by-step documentation of how exactly AI might move from self-recursively improving AI to killing every single human on the planet”; he also suggested that proposals similar to Amodei’s “would likely only wind up serving Anthropic and OpenAI; it’s what regulatory capture looks like in action.”\n\nIn his new post, Amodei wrote that he continues “to believe that AI can enormously improve the quality of human life.”\n\n“My desire to achieve these benefits is undimmed,” he said. “But the benefits will only be achieved if we build the technology in the right way, and — so long as we use the time we gain well — it is worth taking unusually deliberate care to get it right.”\n\nThis post has been updated with comments from Sam Altman and Elon Musk.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "We’ve been seeing increasingly dire warnings from AI researchers about the dangers of artificial intelligence, and even comments from OpenAI CEO Sam Altman that it may be time to “pace” AI development. But what would that actually look like?",
+      "heading": 0
+    },
+    {
+      "text": "In a new blog post, Anthropic CEO Dario Amodei not only echoed the call to “pace the frontier,” but also outlined three broad strategies for doing so. And he said Anthropic is “unilaterally committing” to one of them, with Altman chiming in to say OpenAI will follow suit.",
+      "heading": 0
+    },
+    {
+      "text": "The debate over AI safety and alignment intensified this week after researcher Jacob Coxon wrote that he’s resigning from Anthropic over concerns that the leading AI companies are “gambling with our lives” while the people building the technology “earnestly believe it could kill us all by the end of the decade,” a claim repeated by others at Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "Amodei’s post doesn’t explicitly mention Coxon’s resignation or his concerns, but the CEO wrote that two things convinced him it’s time to take a more cautious approach to AI development: the OpenAI-Hugging Face hack, and the fact that “AI has been advancing drastically faster” in recent months, particularly with its “growing ability to build the next generation of AI.”",
+      "heading": 0
+    },
+    {
+      "text": "“We must slow the pace at which we improve the capabilities of AI models,” Amodei wrote. “Progress will still seem fast, and we must make wise use of the time we gain.”",
+      "heading": 0
+    },
+    {
+      "text": "Other AI executives seem to have reacted positively to Amodei’s post, with Altman writing, “I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we’ve had at OpenAI in recent weeks.” And SpaceX CEO Elon Musk posted, “Dario is right.”",
+      "heading": 0
+    },
+    {
+      "text": "Amodei’s proposed first step would involve “embedded evaluators” from third-party organizations like METR — evaluators who can verify that AI companies are actually following their pacing and safety commitments and can also ensure that safety incidents get reported. (OpenAI was recently criticized for not reporting an incident where its AI agents took over a German wiki forum.)",
+      "heading": 0
+    },
+    {
+      "text": "Amodei compared these evaluators to regulators who have been embedded with bank employees, and he said that inviting them in is “something Anthropic is unilaterally committing to (and calls on governments to require other frontier companies to match).” That means giving evaluators company badges, desks, and laptops, and providing access “mostly comparable to what internal risk assessment teams have,” with exceptions when required by law or contracts.",
+      "heading": 0
+    },
+    {
+      "text": "Altman also said this was a “good idea” and said OpenAI would do the same: “We’ll have more to share soon.”",
+      "heading": 0
+    },
+    {
+      "text": "Next, Amodei called for the leading AI companies “within democratic countries” to coordinate “common safety standards as well as limits on the rate of unchecked AI progress.”",
+      "heading": 0
+    },
+    {
+      "text": "Such coordination might seem unlikely, because these companies are reportedly worried that a coordinated pause could lead to antitrust scrutiny. Amodei alluded to that concern in his post, writing that “for antitrust reasons, it’s helpful for the US government to mediate or at least enable these discussions — they don’t need to participate, but do need to issue a narrow waiver for certain kinds of safety conversations.”",
+      "heading": 0
+    },
+    {
+      "text": "Amodei also acknowledged the specter of Chinese AI dominance that’s often raised as an argument against slowing development. But he said that if the U.S. government and tech companies take steps like refusing to sell powerful chips or semiconductor manufacturing equipment to Chinese companies, as well as cracking down on model distillation, they could “slow China’s progress enough to widen America’s lead significantly over the next 3-5 years.”",
+      "heading": 0
+    },
+    {
+      "text": "Lastly, Amodei called for “global coordination,” where the United States and its allies “attempt to coordinate with authoritarian governments, to the extent this is possible.” Amodei said this would mean “cooperation with China,” and he admitted that there are “stark limits on what can be achieved,” but he still suggested there might be opportunities for agreement, even if it’s just “prohibiting certain narrow and obviously dangerous uses of AI, such as using AI for the production of biological weapons or allowing users to do so.”",
+      "heading": 0
+    },
+    {
+      "text": "With Amodei’s past willingness to acknowledge AI’s potential dangers, and with the company’s relative openness to certain forms of regulation, some AI boosters have already criticized him as a doomer whose comments have fed the current AI backlash. In response, Amodei said he’s tried to offer a “balanced” perspective” and argued that the backlash is “fundamentally a crisis of trust,” as people have become skeptical of tech companies, the tech industry, and the government.",
+      "heading": 0
+    },
+    {
+      "text": "Industry critics have also been skeptical about these apocalyptic AI warnings, suggesting that they’re a distraction from the harm that the technology is already causing.",
+      "heading": 0
+    },
+    {
+      "text": "Journalist Brian Merchant, for example, wrote that he has yet to see “a credible, step-by-step documentation of how exactly AI might move from self-recursively improving AI to killing every single human on the planet”; he also suggested that proposals similar to Amodei’s “would likely only wind up serving Anthropic and OpenAI; it’s what regulatory capture looks like in action.”",
+      "heading": 0
+    },
+    {
+      "text": "In his new post, Amodei wrote that he continues “to believe that AI can enormously improve the quality of human life.”",
+      "heading": 0
+    },
+    {
+      "text": "“My desire to achieve these benefits is undimmed,” he said. “But the benefits will only be achieved if we build the technology in the right way, and — so long as we use the time we gain well — it is worth taking unusually deliberate care to get it right.”",
+      "heading": 0
+    },
+    {
+      "text": "This post has been updated with comments from Sam Altman and Elon Musk.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

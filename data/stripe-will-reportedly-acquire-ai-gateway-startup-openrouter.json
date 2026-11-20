@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+  "slug": "stripe-will-reportedly-acquire-ai-gateway-startup-openrouter",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "episode": ""
+  },
+  "words": 257,
+  "lines": 21,
+  "duration": 86,
+  "text": "Posted:\n\nAnthony Ha\n\nStripe will reportedly acquire AI gateway startup OpenRouter for $7B+\n\nStripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg.\n\nOpenRouter helps customers select different AI models to perform different tasks, depending on their specific needs and budget. The company announced in May that it had raised a $113 million Series B, at a reported $1.3 billion valuation. (Investors include Sequoia, Andreessen Horowitz, Menlo Ventures, and Alphabet’s CapitalG.)\n\nAt the time, OpenRouter CEO Alex Atallah described the company as the equivalent of Stripe for AI, because it provides customers with a single access point for different systems and prevents lock-in. The startup also claimed to have 8 million global users and to provide access to more than 400 models.\n\nThe Wall Street Journal reported last month that Stripe and OpenRouter were in acquisition talks. Now, Bloomberg said those discussions have led to a deal price of more than $7 billion.\n\nA Stripe spokesperson told TechCrunch that the company does not comment on rumors or speculation.\n\nTopics\n\nSuperhuman pushes its Go assistant everywhere\n\nIvan Mehta\n\nMicrosoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit\n\nAmanda Silberling\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "heading": 1
+    },
+    {
+      "text": "Stripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg.",
+      "heading": 0
+    },
+    {
+      "text": "OpenRouter helps customers select different AI models to perform different tasks, depending on their specific needs and budget. The company announced in May that it had raised a $113 million Series B, at a reported $1.3 billion valuation. (Investors include Sequoia, Andreessen Horowitz, Menlo Ventures, and Alphabet’s CapitalG.)",
+      "heading": 0
+    },
+    {
+      "text": "At the time, OpenRouter CEO Alex Atallah described the company as the equivalent of Stripe for AI, because it provides customers with a single access point for different systems and prevents lock-in. The startup also claimed to have 8 million global users and to provide access to more than 400 models.",
+      "heading": 0
+    },
+    {
+      "text": "The Wall Street Journal reported last month that Stripe and OpenRouter were in acquisition talks. Now, Bloomberg said those discussions have led to a deal price of more than $7 billion.",
+      "heading": 0
+    },
+    {
+      "text": "A Stripe spokesperson told TechCrunch that the company does not comment on rumors or speculation.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
+  "slug": "spacex-and-google-both-said-no-now-his-software-is-riding-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Satlyt_Team_Group-Portrait_Steps.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+    "episode": ""
+  },
+  "words": 800,
+  "lines": 20,
+  "duration": 267,
+  "text": "The way Rama Afullo tells it, he saw orbital data centers coming.\n\nThe Kenyan American engineer previously worked in Google’s cloud computing business before a brief stint at SpaceX’s Starlink communications network in 2024. His experiences convinced him that there was untapped potential for computers in space.\n\n“When I was at SpaceX, I tried to pitch this internally. They said no. When I was at Google, I tried to pitch this internally. They said no,” he tells TechCrunch.\n\nSo he left SpaceX and co-founded Satlyt, a new company with headquarters in Sunnyvale, California, and Nairobi, to build software for satellites that he hopes will let many satellites share the work of large computing jobs in space. The company has raised an $8 million seed round, Afullo exclusively told TechCrunch.\n\nThe timing looks good for him. SpaceX has since gone all-in on orbital data centers, and Satlyt’s software is set to launch Thursday on a SpaceX rocket alongside the first prototype for Google’s space data center effort, Project Suncatcher.\n\nUnlike SpaceX, Google, or startups like Starcloud and Cowboy Space Company, Satlyt isn’t planning to build its own spacecraft. Afullo’s team is building the software to operate AI models on satellites, comparing his approach to VMware and Snowflake — companies whose platforms let users run complex software without worrying about the underlying infrastructure.\n\n“The folks like SpaceX who are doing orbital data centers — if they are the iPhone, we’ll build Android as a horizontally integrated, open ecosystem,” he said. In other words, Satlyt wants to offer software that works across many companies’ satellites.\n\nSatlyt has already flown its software on two demonstration missions. The initial focus is finding operational efficiencies for spacecraft, which typically depend on flight controllers on the ground to solve any problems that arise. Sending data back to Earth, known as downlink, is expensive and often slow, so using AI to make decisions on the spacecraft can mean real savings, either when resolving anomalies or by processing sensor readings on the spacecraft instead of on the ground.\n\nEarlier this year, Satlyt deployed Google DeepMind’s Gemma AI model onboard a spacecraft operated by Momentus. The model cut the size of a transmission about onboard software errors by more than 60%, the kind of efficiency that Afullo says can save hundreds of thousands of dollars per satellite each year.\n\nA launch will put Satlyt’s software to work onboard a spacecraft built by TakeMe2Space, an Indian startup that builds computing hardware for satellites. The mission involves three customers: NASA, which is paying the company to test protocols for cloud computing in space; Stellerian, a startup focused on space surveillance (tracking objects in orbit) that wants to test image processing workloads; and TakeMe2Space itself, to show the satellite can host other companies’ software.\n\nRight now, few high-powered GPUs are in orbit. For now, the most likely opportunity lies in the kinds of workloads Satlyt is working on. But the company’s next project is to show that it can create a shared computing system — a cloud — spanning two different satellites, which it expects to attempt next year. If successful, it will allow the company to build a true compute cloud in orbit as a third-party provider to spacecraft builders.\n\nThe way to think about it is that we turn your satellite into a revenue-generating managed service,” Afullo said.\n\nSatlyt’s seed round was led by Houston-based Non Sibi Ventures, where partner Bernard Harris, who served as a NASA astronaut for more than 20 years, helped ground the firm’s conviction in a novel, space-based business.\n\nOne reason the firm invested was that Satlyt doesn’t depend on a highest-octane vision of space data centers, which faces uncertain economics and a launch bottleneck. “We don’t need data centers in space for Rama to be wildly successful, right?” Non Sibi partner Kent Lucas told TechCrunch. “It can just be driven by the number of satellites going up.”\n\nAfullo’s hope is to be live on 20% of satellites by the end of the decade, when he expects virtually every spacecraft builder to be putting GPUs and similar advanced processors in their satellites.\n\n“If you’re putting up a satellite without putting up a GPU on it, at the very least, you’re doing yourself a disservice, right?” he says.\n\nThis story was originally published on October 1. Satlyt is among dozens of other startups vetted by TechCrunch and appearing at Disrupt as part of our broader Battlefield competition happening this week in downtown San Francisco. It all kicks off on Tuesday. Learn more here.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "The way Rama Afullo tells it, he saw orbital data centers coming.",
+      "heading": 0
+    },
+    {
+      "text": "The Kenyan American engineer previously worked in Google’s cloud computing business before a brief stint at SpaceX’s Starlink communications network in 2024. His experiences convinced him that there was untapped potential for computers in space.",
+      "heading": 0
+    },
+    {
+      "text": "“When I was at SpaceX, I tried to pitch this internally. They said no. When I was at Google, I tried to pitch this internally. They said no,” he tells TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "So he left SpaceX and co-founded Satlyt, a new company with headquarters in Sunnyvale, California, and Nairobi, to build software for satellites that he hopes will let many satellites share the work of large computing jobs in space. The company has raised an $8 million seed round, Afullo exclusively told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The timing looks good for him. SpaceX has since gone all-in on orbital data centers, and Satlyt’s software is set to launch Thursday on a SpaceX rocket alongside the first prototype for Google’s space data center effort, Project Suncatcher.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike SpaceX, Google, or startups like Starcloud and Cowboy Space Company, Satlyt isn’t planning to build its own spacecraft. Afullo’s team is building the software to operate AI models on satellites, comparing his approach to VMware and Snowflake — companies whose platforms let users run complex software without worrying about the underlying infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "“The folks like SpaceX who are doing orbital data centers — if they are the iPhone, we’ll build Android as a horizontally integrated, open ecosystem,” he said. In other words, Satlyt wants to offer software that works across many companies’ satellites.",
+      "heading": 0
+    },
+    {
+      "text": "Satlyt has already flown its software on two demonstration missions. The initial focus is finding operational efficiencies for spacecraft, which typically depend on flight controllers on the ground to solve any problems that arise. Sending data back to Earth, known as downlink, is expensive and often slow, so using AI to make decisions on the spacecraft can mean real savings, either when resolving anomalies or by processing sensor readings on the spacecraft instead of on the ground.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this year, Satlyt deployed Google DeepMind’s Gemma AI model onboard a spacecraft operated by Momentus. The model cut the size of a transmission about onboard software errors by more than 60%, the kind of efficiency that Afullo says can save hundreds of thousands of dollars per satellite each year.",
+      "heading": 0
+    },
+    {
+      "text": "A launch will put Satlyt’s software to work onboard a spacecraft built by TakeMe2Space, an Indian startup that builds computing hardware for satellites. The mission involves three customers: NASA, which is paying the company to test protocols for cloud computing in space; Stellerian, a startup focused on space surveillance (tracking objects in orbit) that wants to test image processing workloads; and TakeMe2Space itself, to show the satellite can host other companies’ software.",
+      "heading": 0
+    },
+    {
+      "text": "Right now, few high-powered GPUs are in orbit. For now, the most likely opportunity lies in the kinds of workloads Satlyt is working on. But the company’s next project is to show that it can create a shared computing system — a cloud — spanning two different satellites, which it expects to attempt next year. If successful, it will allow the company to build a true compute cloud in orbit as a third-party provider to spacecraft builders.",
+      "heading": 0
+    },
+    {
+      "text": "The way to think about it is that we turn your satellite into a revenue-generating managed service,” Afullo said.",
+      "heading": 0
+    },
+    {
+      "text": "Satlyt’s seed round was led by Houston-based Non Sibi Ventures, where partner Bernard Harris, who served as a NASA astronaut for more than 20 years, helped ground the firm’s conviction in a novel, space-based business.",
+      "heading": 0
+    },
+    {
+      "text": "One reason the firm invested was that Satlyt doesn’t depend on a highest-octane vision of space data centers, which faces uncertain economics and a launch bottleneck. “We don’t need data centers in space for Rama to be wildly successful, right?” Non Sibi partner Kent Lucas told TechCrunch. “It can just be driven by the number of satellites going up.”",
+      "heading": 0
+    },
+    {
+      "text": "Afullo’s hope is to be live on 20% of satellites by the end of the decade, when he expects virtually every spacecraft builder to be putting GPUs and similar advanced processors in their satellites.",
+      "heading": 0
+    },
+    {
+      "text": "“If you’re putting up a satellite without putting up a GPU on it, at the very least, you’re doing yourself a disservice, right?” he says.",
+      "heading": 0
+    },
+    {
+      "text": "This story was originally published on October 1. Satlyt is among dozens of other startups vetted by TechCrunch and appearing at Disrupt as part of our broader Battlefield competition happening this week in downtown San Francisco. It all kicks off on Tuesday. Learn more here.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

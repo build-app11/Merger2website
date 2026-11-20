@@ -1,0 +1,157 @@
+{
+  "type": "read",
+  "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+  "slug": "nine-korean-startups-vie-for-a-spot-in-disrupt-2027-s-startu",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-613254398.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+    "episode": ""
+  },
+  "words": 808,
+  "lines": 33,
+  "duration": 269,
+  "text": "TechCrunch’s yearly Startup Battlefield 200 competition sees hundreds of companies from across the world trying every year to get a chance to pitch in front of VCs and the international tech community at the TechCrunch Disrupt conference.\n\nThis week, nine early-stage South Korean startups pitched at DETO 2026, a technology conference in Seoul, to earn a spot in next year’s Startup Battlefield 200.\n\nThe startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine startups are looking to enter the U.S. market as part of the broader international expansion plans.\n\nVoinosis, which develops AI to detect changes in brain health through voice analysis, won the competition. The other eight startups are listed below in alphabetical order.\n\nVoinosis\n\nVoinosis is developing an AI tool that analyzes speech patterns such as pitch, pauses, rhythm, and response times to detect changes linked to brain health. Each voice check takes less than five minutes.\n\nThe company says its technology has been tested in Greek, Japanese, and English, and its product doesn’t require separate training for each language. In a clinical study involving 146 participants, the startup claims its tech achieved 88% accuracy in screening for potential cognitive issues.\n\nVoinosis targets hospitals, senior living facilities, insurers, and individual consumers. It also plans to link voice checks with cognitive training, assessments, and treatment provided by healthcare professionals.\n\nThe startup was founded by Grace Shin, who spent more than 25 years as an otologic surgeon. The startup is currently raising a Series A round and has already secured a South Korean pharmaceutical company as a strategic investor.\n\nAwesome Lab\n\nAwesome Lab, based in Seoul, makes ThermoFlux, a heating system that uses water electrolysis and ionization to generate heat. The system can manage heat production for buildings, water supply, and industrial processes. The company says its technology can reduce energy consumption and carbon emissions.\n\nFor its international expansion, Awesome Lab is taking a different approach in each market. In the U.S., it plans to supply core OEM modules and work with boiler, water heater, and HVAC companies on product development.\n\nCrosshub\n\nCrosshub helps travelers and international visitors verify their identities and set up payment methods abroad. Its platform, IDBlock, combines identity verification and payment services using self-sovereign identity (SSI) and zero-knowledge proof.\n\nThe company says its platform helps users prove their identity across borders without sharing unnecessary personal information. Crosshub is also integrating this technology with payment systems to improve access to financial services for travelers.\n\nDeepFusion AI\n\nDeepFusion AI has developed a 4D radar-based imaging system with additional sensors for autonomous mobility, robotaxi, maritime surveillance, and defense applications. The system combines RF sensors with radar and lidar to detect objects, movement, or distance without a direct line of sight. All sensors are supposedly packed into a single, customizable unit.\n\nEFLOW\n\nEFLOW develops special motors that can produce more torque, or rotational force, while taking up less space for use in robots, drones, satellites, and other mobility applications. The startup also develops actuators that control how robotic joints move.\n\nOtiton Medical\n\nOtiton Medical makes two medical devices: One specializes in measuring body temperature, while another can capture ear canal images and analyze the eardrum. The company says its AI was trained on about 55,000 images of eardrums, and the device has received medical certification in South Korea.\n\nRiibotics\n\nRiibotics says it can deploy robots into warehouses within a day. Riibotics wants to reduce deployment costs for warehouses by streamlining setup, which includes infrastructure setup, warehouse mapping, system integration through custom middleware, task programming, and safety checks.\n\nTernell\n\nTernell, a semiconductor startup based in Ulsan, is developing a new type of memory to help AI chips use less power.\n\nUnlike conventional two-state memory, Ternell’s T-SRAM system adds a third state for more efficient data storage. Founded in 2019 by KyungRok Kim, a former Samsung Electronics engineer, Ternell reports that tests with 28-nanometer chips showed a 33% to 102% increase in memory capacity per area, and a 55% to 71% reduction in energy needed to access data, compared with conventional SRAM.\n\nTestbank\n\nTestbank is a Korean edtech startup developing Solve, an app that converts printed study materials, such as workbooks and test-prep books, into interactive digital versions.\n\nThe startup uses AI to identify question and answer spaces in publishers’ PDF files while preserving the original layout. Solve lets you write answers directly on the page and be graded automatically.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Asia\n\nKate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+  "paragraphs": [
+    {
+      "text": "TechCrunch’s yearly Startup Battlefield 200 competition sees hundreds of companies from across the world trying every year to get a chance to pitch in front of VCs and the international tech community at the TechCrunch Disrupt conference.",
+      "heading": 0
+    },
+    {
+      "text": "This week, nine early-stage South Korean startups pitched at DETO 2026, a technology conference in Seoul, to earn a spot in next year’s Startup Battlefield 200.",
+      "heading": 0
+    },
+    {
+      "text": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine startups are looking to enter the U.S. market as part of the broader international expansion plans.",
+      "heading": 0
+    },
+    {
+      "text": "Voinosis, which develops AI to detect changes in brain health through voice analysis, won the competition. The other eight startups are listed below in alphabetical order.",
+      "heading": 0
+    },
+    {
+      "text": "Voinosis",
+      "heading": 1
+    },
+    {
+      "text": "Voinosis is developing an AI tool that analyzes speech patterns such as pitch, pauses, rhythm, and response times to detect changes linked to brain health. Each voice check takes less than five minutes.",
+      "heading": 0
+    },
+    {
+      "text": "The company says its technology has been tested in Greek, Japanese, and English, and its product doesn’t require separate training for each language. In a clinical study involving 146 participants, the startup claims its tech achieved 88% accuracy in screening for potential cognitive issues.",
+      "heading": 0
+    },
+    {
+      "text": "Voinosis targets hospitals, senior living facilities, insurers, and individual consumers. It also plans to link voice checks with cognitive training, assessments, and treatment provided by healthcare professionals.",
+      "heading": 0
+    },
+    {
+      "text": "The startup was founded by Grace Shin, who spent more than 25 years as an otologic surgeon. The startup is currently raising a Series A round and has already secured a South Korean pharmaceutical company as a strategic investor.",
+      "heading": 0
+    },
+    {
+      "text": "Awesome Lab",
+      "heading": 1
+    },
+    {
+      "text": "Awesome Lab, based in Seoul, makes ThermoFlux, a heating system that uses water electrolysis and ionization to generate heat. The system can manage heat production for buildings, water supply, and industrial processes. The company says its technology can reduce energy consumption and carbon emissions.",
+      "heading": 0
+    },
+    {
+      "text": "For its international expansion, Awesome Lab is taking a different approach in each market. In the U.S., it plans to supply core OEM modules and work with boiler, water heater, and HVAC companies on product development.",
+      "heading": 0
+    },
+    {
+      "text": "Crosshub",
+      "heading": 1
+    },
+    {
+      "text": "Crosshub helps travelers and international visitors verify their identities and set up payment methods abroad. Its platform, IDBlock, combines identity verification and payment services using self-sovereign identity (SSI) and zero-knowledge proof.",
+      "heading": 0
+    },
+    {
+      "text": "The company says its platform helps users prove their identity across borders without sharing unnecessary personal information. Crosshub is also integrating this technology with payment systems to improve access to financial services for travelers.",
+      "heading": 0
+    },
+    {
+      "text": "DeepFusion AI",
+      "heading": 1
+    },
+    {
+      "text": "DeepFusion AI has developed a 4D radar-based imaging system with additional sensors for autonomous mobility, robotaxi, maritime surveillance, and defense applications. The system combines RF sensors with radar and lidar to detect objects, movement, or distance without a direct line of sight. All sensors are supposedly packed into a single, customizable unit.",
+      "heading": 0
+    },
+    {
+      "text": "EFLOW",
+      "heading": 1
+    },
+    {
+      "text": "EFLOW develops special motors that can produce more torque, or rotational force, while taking up less space for use in robots, drones, satellites, and other mobility applications. The startup also develops actuators that control how robotic joints move.",
+      "heading": 0
+    },
+    {
+      "text": "Otiton Medical",
+      "heading": 1
+    },
+    {
+      "text": "Otiton Medical makes two medical devices: One specializes in measuring body temperature, while another can capture ear canal images and analyze the eardrum. The company says its AI was trained on about 55,000 images of eardrums, and the device has received medical certification in South Korea.",
+      "heading": 0
+    },
+    {
+      "text": "Riibotics",
+      "heading": 1
+    },
+    {
+      "text": "Riibotics says it can deploy robots into warehouses within a day. Riibotics wants to reduce deployment costs for warehouses by streamlining setup, which includes infrastructure setup, warehouse mapping, system integration through custom middleware, task programming, and safety checks.",
+      "heading": 0
+    },
+    {
+      "text": "Ternell",
+      "heading": 1
+    },
+    {
+      "text": "Ternell, a semiconductor startup based in Ulsan, is developing a new type of memory to help AI chips use less power.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike conventional two-state memory, Ternell’s T-SRAM system adds a third state for more efficient data storage. Founded in 2019 by KyungRok Kim, a former Samsung Electronics engineer, Ternell reports that tests with 28-nanometer chips showed a 33% to 102% increase in memory capacity per area, and a 55% to 71% reduction in energy needed to access data, compared with conventional SRAM.",
+      "heading": 0
+    },
+    {
+      "text": "Testbank",
+      "heading": 1
+    },
+    {
+      "text": "Testbank is a Korean edtech startup developing Solve, an app that converts printed study materials, such as workbooks and test-prep books, into interactive digital versions.",
+      "heading": 0
+    },
+    {
+      "text": "The startup uses AI to identify question and answer spaces in publishers’ PDF files while preserving the original layout. Solve lets you write answers directly on the page and be graded automatically.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Asia",
+      "heading": 1
+    },
+    {
+      "text": "Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "read",
+  "title": "Anthropic’s first embedded evaluator is … Accenture?",
+  "slug": "anthropic-s-first-embedded-evaluator-is-accenture",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2194795244.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+    "episode": ""
+  },
+  "words": 399,
+  "lines": 10,
+  "duration": 133,
+  "text": "Dario Amodei’s plans to put third-party safety evaluators inside AI labs are taking shape: Anthropic said that staff from technology consulting giant Accenture will begin working inside the company to scrutinize its models and staff.\n\nIn a blog post, Anthropic said that Faculty, a company Accenture acquired in January to act as its AI division, will begin “evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards.” Both companies expect to invest at least $1 billion in the project over the next five years.\n\nThe choice of Accenture surprised many AI watchers — and the markets, where the consultant company’s shares shot up 8% after hours. The discussion around embedded evaluators that sprang from Amodei’s blog post has focused on AI safety research organizations like METR, Redwood Research, and Apollo Research. That’s particularly true at Anthropic, which puts AI safety and alignment at the heart of its mission.\n\nAnthropic said more evaluators will be announced in the weeks ahead and that it is in conversation with METR and other nonprofit organizations about how to “pilot elements of embedded evaluation using their own funding.”\n\nWhile Accenture is not known for its work on the bleeding edge of deep learning research, Anthropic pointed to the company’s practical experience deploying AI for large corporations and government agencies as a key advantage. It is also, as a large public company that predates the AI revolution, more functionally independent of Anthropic and the complex ecosystem around the AI lab.\n\nThe lab noted that no standards yet exist for evaluators’ access or communications and that it expected its approach to evolve over time. While external evaluations are already a major part of the release of process for new large language models, recent incidents have raised the stakes: AI agents deployed by OpenAI and Anthropic have hacked into outside websites without raising alarms inside the labs.\n\nSome critics calling for a more responsible approach to building artificial intelligence see Amodei’s scheme for self-policing the AI industry as a plan to evade accountability for the misbehavior of AI models. Anthropic insists that these evaluators “do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Dario Amodei’s plans to put third-party safety evaluators inside AI labs are taking shape: Anthropic said that staff from technology consulting giant Accenture will begin working inside the company to scrutinize its models and staff.",
+      "heading": 0
+    },
+    {
+      "text": "In a blog post, Anthropic said that Faculty, a company Accenture acquired in January to act as its AI division, will begin “evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards.” Both companies expect to invest at least $1 billion in the project over the next five years.",
+      "heading": 0
+    },
+    {
+      "text": "The choice of Accenture surprised many AI watchers — and the markets, where the consultant company’s shares shot up 8% after hours. The discussion around embedded evaluators that sprang from Amodei’s blog post has focused on AI safety research organizations like METR, Redwood Research, and Apollo Research. That’s particularly true at Anthropic, which puts AI safety and alignment at the heart of its mission.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic said more evaluators will be announced in the weeks ahead and that it is in conversation with METR and other nonprofit organizations about how to “pilot elements of embedded evaluation using their own funding.”",
+      "heading": 0
+    },
+    {
+      "text": "While Accenture is not known for its work on the bleeding edge of deep learning research, Anthropic pointed to the company’s practical experience deploying AI for large corporations and government agencies as a key advantage. It is also, as a large public company that predates the AI revolution, more functionally independent of Anthropic and the complex ecosystem around the AI lab.",
+      "heading": 0
+    },
+    {
+      "text": "The lab noted that no standards yet exist for evaluators’ access or communications and that it expected its approach to evolve over time. While external evaluations are already a major part of the release of process for new large language models, recent incidents have raised the stakes: AI agents deployed by OpenAI and Anthropic have hacked into outside websites without raising alarms inside the labs.",
+      "heading": 0
+    },
+    {
+      "text": "Some critics calling for a more responsible approach to building artificial intelligence see Amodei’s scheme for self-policing the AI industry as a plan to evade accountability for the misbehavior of AI models. Anthropic insists that these evaluators “do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

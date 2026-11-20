@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Amid legal battles, Suno says it will start watermarking songs",
+  "slug": "amid-legal-battles-suno-says-it-will-start-watermarking-song",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/mikey-shulman-2159558534.jpg?resize=1200,942",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
+    "episode": ""
+  },
+  "words": 518,
+  "lines": 14,
+  "duration": 173,
+  "text": "Suno, the service that allows users to create AI-generated songs, today announced new tools to mark tracks made on its platform, limit downloads, and update community guidelines to prevent copycat songs. The changes come as Suno faces numerous lawsuits from labels and artist bodies.\n\nIn a blog post, co-founder and CEO Mikey Shulman shared core principles and said that the platform wants to promote original creation while enabling more people to make music with its AI tools.\n\nOne of the key points of contention involved users uploading AI-generated songs on other streaming platforms and gaming the system to earn revenue. Suno said that now it will use audio watermarking and fingerprinting to prevent misuse on other streaming platforms. It’s not clear if Suno will use an existing system like Google’s Synth ID or adopt a new one, and the company did not say when contacted by TechCrunch about this.\n\nThe startup also signed an agreement with lyrics provider Musixmatch to use its Sentinel system for copyright detection, the blog post said.\n\n“These tools are designed to be durable and resistant to tampering, without affecting the listening experience. They are also not intended to pass judgment on whether a song is good, meaningful, or sufficiently human,” said Shulman in the blog. “Ultimately, we believe it should be up to artists and platforms to decide what they want to disclose. Our role is to build tools that give them transparency options and make it easier to collaborate across the industry.”\n\nThe company added that it plans to add a new download policy to bar mass distribution on streaming platforms, but declined to provide details on the record.\n\nSuno has also changed its community guidelines to explicitly prohibit “deceptive audio presented as real” and “using a real person’s voice or likeness without permission” to prevent copycats.\n\nThe company, which raised $400 million in a Series D funding round in June, is fighting legal battles on many fronts. The startup is in a lawsuit with the Universal Music Group (UMG) and Sony Music Group in a case coordinated by the Recording Industry Association of America (RIAA).\n\nLate last month, a German court ruled in favor of a government-mandated licensing agency, GEMA, and said Suno was breaking copyright rules.\n\nSeparately, 404 Media reported that Suno experienced a data breach in November 2025, which revealed that the platform scraped YouTube, Deezer, and Genius to train its models. Later, data breach notification service Have I Been Pwned said that the data breach affected 55 million users. The startup now faces a class action lawsuit in Massachusetts, which alleges that the company overlooked security measures to focus on profit.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Suno, the service that allows users to create AI-generated songs, today announced new tools to mark tracks made on its platform, limit downloads, and update community guidelines to prevent copycat songs. The changes come as Suno faces numerous lawsuits from labels and artist bodies.",
+      "heading": 0
+    },
+    {
+      "text": "In a blog post, co-founder and CEO Mikey Shulman shared core principles and said that the platform wants to promote original creation while enabling more people to make music with its AI tools.",
+      "heading": 0
+    },
+    {
+      "text": "One of the key points of contention involved users uploading AI-generated songs on other streaming platforms and gaming the system to earn revenue. Suno said that now it will use audio watermarking and fingerprinting to prevent misuse on other streaming platforms. It’s not clear if Suno will use an existing system like Google’s Synth ID or adopt a new one, and the company did not say when contacted by TechCrunch about this.",
+      "heading": 0
+    },
+    {
+      "text": "The startup also signed an agreement with lyrics provider Musixmatch to use its Sentinel system for copyright detection, the blog post said.",
+      "heading": 0
+    },
+    {
+      "text": "“These tools are designed to be durable and resistant to tampering, without affecting the listening experience. They are also not intended to pass judgment on whether a song is good, meaningful, or sufficiently human,” said Shulman in the blog. “Ultimately, we believe it should be up to artists and platforms to decide what they want to disclose. Our role is to build tools that give them transparency options and make it easier to collaborate across the industry.”",
+      "heading": 0
+    },
+    {
+      "text": "The company added that it plans to add a new download policy to bar mass distribution on streaming platforms, but declined to provide details on the record.",
+      "heading": 0
+    },
+    {
+      "text": "Suno has also changed its community guidelines to explicitly prohibit “deceptive audio presented as real” and “using a real person’s voice or likeness without permission” to prevent copycats.",
+      "heading": 0
+    },
+    {
+      "text": "The company, which raised $400 million in a Series D funding round in June, is fighting legal battles on many fronts. The startup is in a lawsuit with the Universal Music Group (UMG) and Sony Music Group in a case coordinated by the Recording Industry Association of America (RIAA).",
+      "heading": 0
+    },
+    {
+      "text": "Late last month, a German court ruled in favor of a government-mandated licensing agency, GEMA, and said Suno was breaking copyright rules.",
+      "heading": 0
+    },
+    {
+      "text": "Separately, 404 Media reported that Suno experienced a data breach in November 2025, which revealed that the platform scraped YouTube, Deezer, and Genius to train its models. Later, data breach notification service Have I Been Pwned said that the data breach affected 55 million users. The startup now faces a class action lawsuit in Massachusetts, which alleges that the company overlooked security measures to focus on profit.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

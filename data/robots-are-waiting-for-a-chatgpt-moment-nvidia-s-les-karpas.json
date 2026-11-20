@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+  "slug": "robots-are-waiting-for-a-chatgpt-moment-nvidia-s-les-karpas",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/09/Disrupt-2025-AI-Stage.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+    "episode": ""
+  },
+  "words": 665,
+  "lines": 15,
+  "duration": 222,
+  "text": "The world hasn’t been the same since ChatGPT made its debut in November 2022, when seemingly out of nowhere, a means of engaging with large language models propelled AI beyond hype and into day-to-day reality.\n\nRobotics, like AI, has been discussed, built upon, and in some ways adopted for a long time now, but it’s yet to have that big breakthrough moment. And at TechCrunch Disrupt 2026, Nvidia Inception’s Global Head of Physical AI, Les Karpas, will dive into why that is and what could change that in his session on the Real World AI Stage, Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way.\n\nAfter all, anyone who’s seen Nvidia CEO Jensen Huang’s keynotes the past few years knows the company is bullish about the robotics field. And you can get the opportunity to listen as Karpas details the limitations and opportunities in the AI and robotics spaces firsthand at Disrupt. From October 13-15 at San Francisco’s Moscone West, you and 10,000+ tech leaders, founders, and investors can catch Karpas and the rest of our extensive AI-focused lineup, which ranges from building companies to building in the real world.\n\nAct now and get your ticket to save up to $200 before September 25, after which our prices increase. Save up to 30% when you bring a group, since the Disrupt experience is meant to be shared.\n\nThe all-too-real problem facing robotics\n\nKarpas’ POV on the core limitation facing general-purpose robots is simple to understand but wildly complicated to resolve. Nobody has an internet-wide dataset for physical AI in the way OpenAI, Anthropic, and others had for language. Even self-driving fleets from Waymo and its competitors were able to build datasets through years of accumulated road miles, datasets that are still expanding market by market.\n\nA growing ecosystem of startups is now trying to manufacture that scale artificially through simulation, synthetic data, and foundation models trained across many robot forms simultaneously. And that challenge of bridging the digital and physical is why we created the Real World AI Stage. Karpas will be joined by founders from Shield AI, Colossal Biosciences, FieldAI, and Foxglove, as they walk through the unique challenges and opportunities they face.\n\nNvidia’s unique perspective comes to Disrupt\n\nKarpas is one of the best-positioned people in the world to answer the question his session presents. As Nvidia Inception’s Global Head of Physical AI, he coordinates the company’s relationship with the wide-ranging startup ecosystem stretching across robotics, automotive, manufacturing, mobility, smart cities, and much more. The same companies trying to solve that data gap are the ones he regularly interfaces with.\n\nAnd his path to getting there is one that speaks to the cross-disciplinary skills the robotics industry demands. Across roles at Stanley Black & Decker, Intellectual Ventures, Herman Miller, iRobot, Cirque du Soleil, and more, he’s been an architect, manufacturing engineer, startup CEO, venture studio executive, and corporate venture capitalist.\n\nCreate your own breakthroughs at Disrupt\n\nThis is your chance to hear firsthand how Nvidia is thinking about the single biggest bottleneck in physical AI, and what it’ll take to clear it. That kind of insight could give you a leg up on your competition or spark an idea that could fuel your next startup venture. That kind of inspiration is what Disrupt is all about, and you can get it only by being in the room and making connections during the event.\n\nAct swiftly to get the ticket that gives you the kind of access you need, whether it’s new sources of fundraising or new startups to invest in. Lock in your trip before prices increase on September 25. Bring a group and save up to 30% on bundle passes.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "The world hasn’t been the same since ChatGPT made its debut in November 2022, when seemingly out of nowhere, a means of engaging with large language models propelled AI beyond hype and into day-to-day reality.",
+      "heading": 0
+    },
+    {
+      "text": "Robotics, like AI, has been discussed, built upon, and in some ways adopted for a long time now, but it’s yet to have that big breakthrough moment. And at TechCrunch Disrupt 2026, Nvidia Inception’s Global Head of Physical AI, Les Karpas, will dive into why that is and what could change that in his session on the Real World AI Stage, Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way.",
+      "heading": 0
+    },
+    {
+      "text": "After all, anyone who’s seen Nvidia CEO Jensen Huang’s keynotes the past few years knows the company is bullish about the robotics field. And you can get the opportunity to listen as Karpas details the limitations and opportunities in the AI and robotics spaces firsthand at Disrupt. From October 13-15 at San Francisco’s Moscone West, you and 10,000+ tech leaders, founders, and investors can catch Karpas and the rest of our extensive AI-focused lineup, which ranges from building companies to building in the real world.",
+      "heading": 0
+    },
+    {
+      "text": "Act now and get your ticket to save up to $200 before September 25, after which our prices increase. Save up to 30% when you bring a group, since the Disrupt experience is meant to be shared.",
+      "heading": 0
+    },
+    {
+      "text": "The all-too-real problem facing robotics",
+      "heading": 1
+    },
+    {
+      "text": "Karpas’ POV on the core limitation facing general-purpose robots is simple to understand but wildly complicated to resolve. Nobody has an internet-wide dataset for physical AI in the way OpenAI, Anthropic, and others had for language. Even self-driving fleets from Waymo and its competitors were able to build datasets through years of accumulated road miles, datasets that are still expanding market by market.",
+      "heading": 0
+    },
+    {
+      "text": "A growing ecosystem of startups is now trying to manufacture that scale artificially through simulation, synthetic data, and foundation models trained across many robot forms simultaneously. And that challenge of bridging the digital and physical is why we created the Real World AI Stage. Karpas will be joined by founders from Shield AI, Colossal Biosciences, FieldAI, and Foxglove, as they walk through the unique challenges and opportunities they face.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s unique perspective comes to Disrupt",
+      "heading": 1
+    },
+    {
+      "text": "Karpas is one of the best-positioned people in the world to answer the question his session presents. As Nvidia Inception’s Global Head of Physical AI, he coordinates the company’s relationship with the wide-ranging startup ecosystem stretching across robotics, automotive, manufacturing, mobility, smart cities, and much more. The same companies trying to solve that data gap are the ones he regularly interfaces with.",
+      "heading": 0
+    },
+    {
+      "text": "And his path to getting there is one that speaks to the cross-disciplinary skills the robotics industry demands. Across roles at Stanley Black & Decker, Intellectual Ventures, Herman Miller, iRobot, Cirque du Soleil, and more, he’s been an architect, manufacturing engineer, startup CEO, venture studio executive, and corporate venture capitalist.",
+      "heading": 0
+    },
+    {
+      "text": "Create your own breakthroughs at Disrupt",
+      "heading": 1
+    },
+    {
+      "text": "This is your chance to hear firsthand how Nvidia is thinking about the single biggest bottleneck in physical AI, and what it’ll take to clear it. That kind of insight could give you a leg up on your competition or spark an idea that could fuel your next startup venture. That kind of inspiration is what Disrupt is all about, and you can get it only by being in the room and making connections during the event.",
+      "heading": 0
+    },
+    {
+      "text": "Act swiftly to get the ticket that gives you the kind of access you need, whether it’s new sources of fundraising or new startups to invest in. Lock in your trip before prices increase on September 25. Bring a group and save up to 30% on bundle passes.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+  "slug": "google-s-new-cc-is-an-ai-agent-that-helps-families-run-their",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/CC_hero.width-2200.format-webp.webp?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+    "episode": ""
+  },
+  "words": 676,
+  "lines": 17,
+  "duration": 225,
+  "text": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC, an AI agent designed to work across email, calendar, chats, and tasks. With the update, CC now focuses on keeping families organized, planning for the day ahead, and even handling family-specific tasks, like signing permission slips, creating shopping lists, or crafting weekly meal plans.\n\nThe move to make CC more family-focused comes as a number of AI startups are experimenting with how to best fit agentic AI into consumers’ lives. Some AI tools, like Ollie and Fambot, for instance, have aimed their services directly at helping parents and families.\n\nGoogle’s CC, meanwhile, began its life as a productivity agent that connected to Gmail, Google Calendar, Google Drive, and the wider web to understand your day, then deliver a “Your Day Ahead” briefing to your inbox. In May, the tool came to the Gemini app as “ Daily Brief.”\n\nGoogle said user requests showed that people wanted to use the feature more for household management tasks. They wanted AI to help them keep up with kids’ school schedules, sports practices, bills, meal plans, and more.\n\nAs a result, Google shifted CC to become an agent for families that helps run their households.\n\nNow, CC is getting its own Google account, so it can collaborate with family members on tasks, while also maintaining its own specific set of permissions for accessing data. Google explains that each family member chooses what they want to share — like emails about school events, sports, clubs, birthday party invites, doctor appointments, or anything else. These can be forwarded to CC via its email address, or shared automatically.\n\nTo automate sharing, users can pick the email senders whose messages they always want to share with CC going forward, like schools, travel companies, clubs, or sports teams. (CC will also suggest email senders to add on a weekly basis.)\n\nThe company says CC currently supports up to six family members who can share information and collaborate with the agent.\n\nBeyond email, CC can also coordinate household activities by tracking important dates and to-dos, and then automatically adding them to the calendar or a shared task list. That means, for instance, every time the orthodontist sends an email confirmation of your next appointment or the school announces a teacher workday, CC can put it on the shared calendar.\n\nWhat’s more, the agent can manage select tasks on a family’s behalf, like filling out permission slips or activity registration PDFs, making school supply shopping lists, planning weekly meals, figuring out drive times between activities, creating shared Docs or Sheets, and more. It will even ask for missing details, as needed, and update its group memory so it can be more helpful going forward.\n\nGoogle notes that CC runs on its own isolated cloud computer, powered by Gemini and Google’s agentic harness, Antigravity. The experiment is only available for U.S. users with a personal Gmail account, who are ages 18 and up.\n\nThat’s a big drawback for the time being because it means older kids, like tweens and teens, can’t use the service unless they lie about their age on their Google accounts. It also means they can’t use it with their school-provided emails, despite the fact that many attend schools that run everything on Chromebooks and Google apps and have inboxes filled with school-related updates.\n\nCC could help larger households, where parents have to coordinate with each other and with other adults, like grandparents, caregivers, nannies, or adult children still living at home, which tends to be more common these days.\n\nExisting CC users will be invited via email in the coming days to upgrade their accounts, Google says, while new users can join a waitlist to access the AI agent.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC, an AI agent designed to work across email, calendar, chats, and tasks. With the update, CC now focuses on keeping families organized, planning for the day ahead, and even handling family-specific tasks, like signing permission slips, creating shopping lists, or crafting weekly meal plans.",
+      "heading": 0
+    },
+    {
+      "text": "The move to make CC more family-focused comes as a number of AI startups are experimenting with how to best fit agentic AI into consumers’ lives. Some AI tools, like Ollie and Fambot, for instance, have aimed their services directly at helping parents and families.",
+      "heading": 0
+    },
+    {
+      "text": "Google’s CC, meanwhile, began its life as a productivity agent that connected to Gmail, Google Calendar, Google Drive, and the wider web to understand your day, then deliver a “Your Day Ahead” briefing to your inbox. In May, the tool came to the Gemini app as “ Daily Brief.”",
+      "heading": 0
+    },
+    {
+      "text": "Google said user requests showed that people wanted to use the feature more for household management tasks. They wanted AI to help them keep up with kids’ school schedules, sports practices, bills, meal plans, and more.",
+      "heading": 0
+    },
+    {
+      "text": "As a result, Google shifted CC to become an agent for families that helps run their households.",
+      "heading": 0
+    },
+    {
+      "text": "Now, CC is getting its own Google account, so it can collaborate with family members on tasks, while also maintaining its own specific set of permissions for accessing data. Google explains that each family member chooses what they want to share — like emails about school events, sports, clubs, birthday party invites, doctor appointments, or anything else. These can be forwarded to CC via its email address, or shared automatically.",
+      "heading": 0
+    },
+    {
+      "text": "To automate sharing, users can pick the email senders whose messages they always want to share with CC going forward, like schools, travel companies, clubs, or sports teams. (CC will also suggest email senders to add on a weekly basis.)",
+      "heading": 0
+    },
+    {
+      "text": "The company says CC currently supports up to six family members who can share information and collaborate with the agent.",
+      "heading": 0
+    },
+    {
+      "text": "Beyond email, CC can also coordinate household activities by tracking important dates and to-dos, and then automatically adding them to the calendar or a shared task list. That means, for instance, every time the orthodontist sends an email confirmation of your next appointment or the school announces a teacher workday, CC can put it on the shared calendar.",
+      "heading": 0
+    },
+    {
+      "text": "What’s more, the agent can manage select tasks on a family’s behalf, like filling out permission slips or activity registration PDFs, making school supply shopping lists, planning weekly meals, figuring out drive times between activities, creating shared Docs or Sheets, and more. It will even ask for missing details, as needed, and update its group memory so it can be more helpful going forward.",
+      "heading": 0
+    },
+    {
+      "text": "Google notes that CC runs on its own isolated cloud computer, powered by Gemini and Google’s agentic harness, Antigravity. The experiment is only available for U.S. users with a personal Gmail account, who are ages 18 and up.",
+      "heading": 0
+    },
+    {
+      "text": "That’s a big drawback for the time being because it means older kids, like tweens and teens, can’t use the service unless they lie about their age on their Google accounts. It also means they can’t use it with their school-provided emails, despite the fact that many attend schools that run everything on Chromebooks and Google apps and have inboxes filled with school-related updates.",
+      "heading": 0
+    },
+    {
+      "text": "CC could help larger households, where parents have to coordinate with each other and with other adults, like grandparents, caregivers, nannies, or adult children still living at home, which tends to be more common these days.",
+      "heading": 0
+    },
+    {
+      "text": "Existing CC users will be invited via email in the coming days to upgrade their accounts, Google says, while new users can join a waitlist to access the AI agent.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

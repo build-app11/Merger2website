@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+  "slug": "nvidia-s-new-500b-plan-is-risky-but-brilliant-especially-for",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+    "episode": ""
+  },
+  "words": 785,
+  "lines": 21,
+  "duration": 262,
+  "text": "Nvidia announced this week that Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR were willing to commit up to $500 billion to build AI data centers. That eye-popping figure got a lot of the attention, but the bigger story is Nvidia’s effort to create a secondary market for aging GPUs.\n\nTo convince those big-name financial companies, Nvidia has agreed to guarantee, with its own money, that its chips used as collateral in these deals will retain their value.\n\nMany have now commented on how unusual, smart, and dangerous this plan is. It is all of those things. The bond markets got so spooked that Nvidia CEO Jensen Huang took to X and business TV to better explain how Nvidia’s risk would be limited.\n\nBut underneath the financial maneuvering to fund AI data centers (and keep revenue for Nvidia flowing), is something, perhaps, far more interesting for startups and enterprises: Huang wants to ensure an ecosystem of used AI hardware flourishes, helping sustain demand for Nvidia hardware as it ages.\n\nSpecifically, Nvidia is promising that if GPUs used as collateral don’t retain their value as expected, the company will cover up to 25% of the difference. So, if a data center owner defaults on a loan and the lender must liquidate, but the chips can’t command the price the books say they should, Nvidia will chip in.\n\nThe dangerous part for Nvidia is that this creates something financiers call “wrong way” risk. That is, Nvidia’s obligations will grow as demand weakens. Should that happen, its revenues will likely be squeezed as well.\n\nStill, the scheme is deliberately unlike the comparison to Lucent Technologies that some have been making. Lucent was the telecommunications equipment provider that rose and crashed with the dotcom bubble after lending its customers money to buy its wares.\n\nThe Lucent comparison is a shadow over Nvidia, Huang knows. And not an unfair one. Nvidia definitely has committed billions toward those who buy its chips, including frontier AI labs OpenAI and Anthropic, neoclouds like CoreWeave (the originator of using Nvidia chips as collateral), as well as Nebius, Firmus, and Lambda. And it has been working on another $750 billion worth of circular deals this summer, Bloomberg has calculated.\n\n“Is this circular financing?” Huang wrote on X about the new scheme. “This initiative is designed to address that concern. We are bringing independent, long-term institutional capital into the AI infrastructure market.”\n\nThat’s true. Unlike Lucent, Nvidia is getting others to shoulder the bulk of the capital and risk, merely by agreeing to protect a portion of its chips’ value in the future.\n\nShould this plan work, Nvidia will have found new sources of money for AI data center builds, after many of the traditional methods have begun to wear thin. For instance, some of the hyperscalers have already taken on a lot of debt (like Oracle ), issued new tranches of equity (Google), and burned much cash (Meta).\n\nThe situation has become so dicey that Microsoft CEO Satya Nadella recently recommended the book “1873” during his latest earnings call. It’s about the railroad-era financial engineering that crashed the nation’s economy.\n\nThe risk is that today’s AI boom, where demand far outstrips capacity, doesn’t continue for much longer. Rather than being in the early innings, what if enterprises and consumers temper AI usage? Or new technologies come along to make existing infrastructure more effective and/or all of today’s AI infrastructure obsolete?\n\nThen, like so many buggy whips in the face of automobiles (to paraphrase Danny Devito’s Lawrence Garfield), demand dries up and everything crashes.\n\nYet, Huang is arguing that won’t happen by selling a vision of AI as a long-term “investable infrastructure,” as he describes it. That makes his AI servers, which he calls “AI factories” akin to railroads or airlines rather than quickly depreciating assets like PCs.\n\n“When needs change, the factory can be used by another customer, another cloud or another operator. This broad ecosystem gives NVIDIA compute a deep market of potential users and offtakers, helping protect residual value,” he promised.\n\nIn that future, Nvidia cares as much about aging architecture as it does the new chips. And perhaps startups, enterprises, and even researchers will tap into a broader variety of hardware, each tuned to different AI needs, just like they are beginning to pick affordable open-weight models alongside the frontier choices.\n\nAs the king of AI, Nvidia has the power, and the window of opportunity, to make that happen.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Nvidia announced this week that Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR were willing to commit up to $500 billion to build AI data centers. That eye-popping figure got a lot of the attention, but the bigger story is Nvidia’s effort to create a secondary market for aging GPUs.",
+      "heading": 0
+    },
+    {
+      "text": "To convince those big-name financial companies, Nvidia has agreed to guarantee, with its own money, that its chips used as collateral in these deals will retain their value.",
+      "heading": 0
+    },
+    {
+      "text": "Many have now commented on how unusual, smart, and dangerous this plan is. It is all of those things. The bond markets got so spooked that Nvidia CEO Jensen Huang took to X and business TV to better explain how Nvidia’s risk would be limited.",
+      "heading": 0
+    },
+    {
+      "text": "But underneath the financial maneuvering to fund AI data centers (and keep revenue for Nvidia flowing), is something, perhaps, far more interesting for startups and enterprises: Huang wants to ensure an ecosystem of used AI hardware flourishes, helping sustain demand for Nvidia hardware as it ages.",
+      "heading": 0
+    },
+    {
+      "text": "Specifically, Nvidia is promising that if GPUs used as collateral don’t retain their value as expected, the company will cover up to 25% of the difference. So, if a data center owner defaults on a loan and the lender must liquidate, but the chips can’t command the price the books say they should, Nvidia will chip in.",
+      "heading": 0
+    },
+    {
+      "text": "The dangerous part for Nvidia is that this creates something financiers call “wrong way” risk. That is, Nvidia’s obligations will grow as demand weakens. Should that happen, its revenues will likely be squeezed as well.",
+      "heading": 0
+    },
+    {
+      "text": "Still, the scheme is deliberately unlike the comparison to Lucent Technologies that some have been making. Lucent was the telecommunications equipment provider that rose and crashed with the dotcom bubble after lending its customers money to buy its wares.",
+      "heading": 0
+    },
+    {
+      "text": "The Lucent comparison is a shadow over Nvidia, Huang knows. And not an unfair one. Nvidia definitely has committed billions toward those who buy its chips, including frontier AI labs OpenAI and Anthropic, neoclouds like CoreWeave (the originator of using Nvidia chips as collateral), as well as Nebius, Firmus, and Lambda. And it has been working on another $750 billion worth of circular deals this summer, Bloomberg has calculated.",
+      "heading": 0
+    },
+    {
+      "text": "“Is this circular financing?” Huang wrote on X about the new scheme. “This initiative is designed to address that concern. We are bringing independent, long-term institutional capital into the AI infrastructure market.”",
+      "heading": 0
+    },
+    {
+      "text": "That’s true. Unlike Lucent, Nvidia is getting others to shoulder the bulk of the capital and risk, merely by agreeing to protect a portion of its chips’ value in the future.",
+      "heading": 0
+    },
+    {
+      "text": "Should this plan work, Nvidia will have found new sources of money for AI data center builds, after many of the traditional methods have begun to wear thin. For instance, some of the hyperscalers have already taken on a lot of debt (like Oracle ), issued new tranches of equity (Google), and burned much cash (Meta).",
+      "heading": 0
+    },
+    {
+      "text": "The situation has become so dicey that Microsoft CEO Satya Nadella recently recommended the book “1873” during his latest earnings call. It’s about the railroad-era financial engineering that crashed the nation’s economy.",
+      "heading": 0
+    },
+    {
+      "text": "The risk is that today’s AI boom, where demand far outstrips capacity, doesn’t continue for much longer. Rather than being in the early innings, what if enterprises and consumers temper AI usage? Or new technologies come along to make existing infrastructure more effective and/or all of today’s AI infrastructure obsolete?",
+      "heading": 0
+    },
+    {
+      "text": "Then, like so many buggy whips in the face of automobiles (to paraphrase Danny Devito’s Lawrence Garfield), demand dries up and everything crashes.",
+      "heading": 0
+    },
+    {
+      "text": "Yet, Huang is arguing that won’t happen by selling a vision of AI as a long-term “investable infrastructure,” as he describes it. That makes his AI servers, which he calls “AI factories” akin to railroads or airlines rather than quickly depreciating assets like PCs.",
+      "heading": 0
+    },
+    {
+      "text": "“When needs change, the factory can be used by another customer, another cloud or another operator. This broad ecosystem gives NVIDIA compute a deep market of potential users and offtakers, helping protect residual value,” he promised.",
+      "heading": 0
+    },
+    {
+      "text": "In that future, Nvidia cares as much about aging architecture as it does the new chips. And perhaps startups, enterprises, and even researchers will tap into a broader variety of hardware, each tuned to different AI needs, just like they are beginning to pick affordable open-weight models alongside the frontier choices.",
+      "heading": 0
+    },
+    {
+      "text": "As the king of AI, Nvidia has the power, and the window of opportunity, to make that happen.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

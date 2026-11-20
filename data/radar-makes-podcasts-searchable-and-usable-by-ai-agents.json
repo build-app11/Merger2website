@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Radar makes podcasts searchable — and usable by AI agents",
+  "slug": "radar-makes-podcasts-searchable-and-usable-by-ai-agents",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/05/pexels-magda-ehlers-1054713.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+    "episode": ""
+  },
+  "words": 704,
+  "lines": 19,
+  "duration": 235,
+  "text": "Particle, the AI newsreader startup founded by former Twitter engineers, is shifting its focus to a potentially more lucrative idea: indexing the spoken conversations buried in podcasts and making them discoverable. On Wednesday, the company introduced Radar, a podcast search engine that not only transcribes podcast audio but also understands what it means, enabling it to pull out key quotes and highlights.\n\nThe solution has business potential, as it’s already attracted interest from hedge funds looking for data that their agents can’t see, explains Particle co-founder and CEO Sara Beykpour.\n\n“Hedge funds have been the highest-volume customers that are directly integrating with the API,” Beykpour told TechCrunch. While journalists and researchers could also make use of the tools, other top-paying customers have included AI search platforms and data resellers. (The search API provider for AI agents, Exa, for instance, is among Radar’s partners.)\n\nThe idea itself stemmed from one of the Particle news-reading app’s most beloved features. The app had used its API to source interesting podcast clips that it then included alongside related news stories in the app’s feed.\n\nParticle’s team realized the product’s value, but also that it was somewhat trapped in the news reader. As the movement around AI agents began to gain steam, the company decided to pivot and focus on building an API for its podcast intelligence product.\n\n“Our vision is really to have all new media intelligence and all audio intelligence in that API. One of the reasons why it’s an interesting space is that most API agents and services crawl the web and they’re focused on text. We are providing that layer with audio,” Beykpour said. “Agents are generally blind to audio; they can’t see it unless something or someone has transcribed it.”\n\nWith Radar, the company transcribes more than 130,000 podcasts, making it the largest transcribed podcast service in existence. This includes all the Apple Top 200 podcasts across its 135 verticals, with 20,000 episodes added to Radar’s index daily.\n\nThe podcast transcriptions include speaker labels and rich metadata, as Radar understands the entities — people, companies, brands, products, and topics — being discussed.\n\nIt’s also able to track mentions of these entities across podcasts and send alerts whenever they come up, either when the mention occurs or as a daily or weekly digest.\n\nThe alerts, which can be delivered via email, Slack, or webhook, can be customized with filters. These let users configure Radar to only send alerts when certain guests appear and discuss a particular topic, for instance. The search can also be narrowed in other ways, such as limiting it to top podcasts only.\n\nRadar can extract relevant self-contained clips, with timestamps, allowing users to both listen to and read the comments made.\n\n“We’ve pre-chosen notable clips, so if you can’t listen to the whole podcast and you don’t want to read a summary, this is the best way to just get an idea of what’s happening in that podcast,” Beykpour noted.\n\nRadar can also track the topics mentioned in the podcast, who or what was mentioned and when, listener ratings and reviews, the episode’s ads, and more. There’s even a dedicated podcast ads search engine that can find every episode where a given company advertises and track how it trends over time. This feature has additional monetization potential, alongside other tools offering political bias analysis, chart rankings data, audience size estimates, sponsorship data, and brand suitability.\n\nWhile all of this is available through Radar’s web interface, its real product is the API and MCP, which allows AI agents and other businesses to tap into this same intelligence programmatically.\n\nRadar is priced at $29 a month per seat, with a $399-per-month plan for businesses that includes 20 seats. API users have custom pricing, based on their needs.\n\nIn the future, Radar plans to expand the service beyond podcasts to support other forms of audio, such as YouTube videos and news clips.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Particle, the AI newsreader startup founded by former Twitter engineers, is shifting its focus to a potentially more lucrative idea: indexing the spoken conversations buried in podcasts and making them discoverable. On Wednesday, the company introduced Radar, a podcast search engine that not only transcribes podcast audio but also understands what it means, enabling it to pull out key quotes and highlights.",
+      "heading": 0
+    },
+    {
+      "text": "The solution has business potential, as it’s already attracted interest from hedge funds looking for data that their agents can’t see, explains Particle co-founder and CEO Sara Beykpour.",
+      "heading": 0
+    },
+    {
+      "text": "“Hedge funds have been the highest-volume customers that are directly integrating with the API,” Beykpour told TechCrunch. While journalists and researchers could also make use of the tools, other top-paying customers have included AI search platforms and data resellers. (The search API provider for AI agents, Exa, for instance, is among Radar’s partners.)",
+      "heading": 0
+    },
+    {
+      "text": "The idea itself stemmed from one of the Particle news-reading app’s most beloved features. The app had used its API to source interesting podcast clips that it then included alongside related news stories in the app’s feed.",
+      "heading": 0
+    },
+    {
+      "text": "Particle’s team realized the product’s value, but also that it was somewhat trapped in the news reader. As the movement around AI agents began to gain steam, the company decided to pivot and focus on building an API for its podcast intelligence product.",
+      "heading": 0
+    },
+    {
+      "text": "“Our vision is really to have all new media intelligence and all audio intelligence in that API. One of the reasons why it’s an interesting space is that most API agents and services crawl the web and they’re focused on text. We are providing that layer with audio,” Beykpour said. “Agents are generally blind to audio; they can’t see it unless something or someone has transcribed it.”",
+      "heading": 0
+    },
+    {
+      "text": "With Radar, the company transcribes more than 130,000 podcasts, making it the largest transcribed podcast service in existence. This includes all the Apple Top 200 podcasts across its 135 verticals, with 20,000 episodes added to Radar’s index daily.",
+      "heading": 0
+    },
+    {
+      "text": "The podcast transcriptions include speaker labels and rich metadata, as Radar understands the entities — people, companies, brands, products, and topics — being discussed.",
+      "heading": 0
+    },
+    {
+      "text": "It’s also able to track mentions of these entities across podcasts and send alerts whenever they come up, either when the mention occurs or as a daily or weekly digest.",
+      "heading": 0
+    },
+    {
+      "text": "The alerts, which can be delivered via email, Slack, or webhook, can be customized with filters. These let users configure Radar to only send alerts when certain guests appear and discuss a particular topic, for instance. The search can also be narrowed in other ways, such as limiting it to top podcasts only.",
+      "heading": 0
+    },
+    {
+      "text": "Radar can extract relevant self-contained clips, with timestamps, allowing users to both listen to and read the comments made.",
+      "heading": 0
+    },
+    {
+      "text": "“We’ve pre-chosen notable clips, so if you can’t listen to the whole podcast and you don’t want to read a summary, this is the best way to just get an idea of what’s happening in that podcast,” Beykpour noted.",
+      "heading": 0
+    },
+    {
+      "text": "Radar can also track the topics mentioned in the podcast, who or what was mentioned and when, listener ratings and reviews, the episode’s ads, and more. There’s even a dedicated podcast ads search engine that can find every episode where a given company advertises and track how it trends over time. This feature has additional monetization potential, alongside other tools offering political bias analysis, chart rankings data, audience size estimates, sponsorship data, and brand suitability.",
+      "heading": 0
+    },
+    {
+      "text": "While all of this is available through Radar’s web interface, its real product is the API and MCP, which allows AI agents and other businesses to tap into this same intelligence programmatically.",
+      "heading": 0
+    },
+    {
+      "text": "Radar is priced at $29 a month per seat, with a $399-per-month plan for businesses that includes 20 seats. API users have custom pricing, based on their needs.",
+      "heading": 0
+    },
+    {
+      "text": "In the future, Radar plans to expand the service beyond podcasts to support other forms of audio, such as YouTube videos and news clips.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

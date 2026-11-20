@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "slug": "building-on-open-source-ai-hugging-face-s-policy-chief-on-th",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/55593309776_55e4a08b03_o.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+    "episode": ""
+  },
+  "words": 358,
+  "lines": 23,
+  "duration": 119,
+  "text": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan caught up with Irene Solaiman, Chief Policy Officer and SVP of Strategy at Hugging Face, about what startups need to know before building on open models, from choosing the right tools and infrastructure to navigating the trade-offs shaping the future of open AI.\n\nListen to the full episode to hear about:\n\nWhy startups, enterprises, and governments are switching to open AI models to cut costs, and when it makes less sense to use the most powerful models.\n\nWho makes money when the models are free to use, and whether the companies building them can capture the value they create.\n\nWhy the U.S. may need deep-pocketed players like Nvidia to build an open frontier model that can compete with China’s, and what’s at stake if Chinese models become the global default.\n\nHow recent attacks on open AI platforms are raising a difficult question: how do you keep an open ecosystem secure without closing it off?\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan caught up with Irene Solaiman, Chief Policy Officer and SVP of Strategy at Hugging Face, about what startups need to know before building on open models, from choosing the right tools and infrastructure to navigating the trade-offs shaping the future of open AI.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear about:",
+      "heading": 0
+    },
+    {
+      "text": "Why startups, enterprises, and governments are switching to open AI models to cut costs, and when it makes less sense to use the most powerful models.",
+      "heading": 0
+    },
+    {
+      "text": "Who makes money when the models are free to use, and whether the companies building them can capture the value they create.",
+      "heading": 0
+    },
+    {
+      "text": "Why the U.S. may need deep-pocketed players like Nvidia to build an open frontier model that can compete with China’s, and what’s at stake if Chinese models become the global default.",
+      "heading": 0
+    },
+    {
+      "text": "How recent attacks on open AI platforms are raising a difficult question: how do you keep an open ecosystem secure without closing it off?",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

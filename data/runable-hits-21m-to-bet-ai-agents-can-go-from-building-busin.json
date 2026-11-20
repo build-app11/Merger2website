@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+  "slug": "runable-hits-21m-to-bet-ai-agents-can-go-from-building-busin",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/runable-co-founders-umesh-saksham.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+    "episode": ""
+  },
+  "words": 1000,
+  "lines": 24,
+  "duration": 333,
+  "text": "As artificial intelligence makes it easier than ever to build websites and apps, Indian startup Runable is betting the next opportunity lies in what comes after: finding customers and helping businesses grow. The startup has raised $21 million to expand in that direction.\n\nThe Series A was co-led by Susquehanna Venture Capital and Nexus Venture Partners, with existing investors Together Fund and Array VC also participating. The all-equity, primary funding valued Runable at $65 million after investment, co-founder and CEO Umesh Kumar (pictured above, right) said in an exclusive interview.\n\nFounded in 2025, Runable is targeting small businesses in an increasingly crowded market that includes AI giants such as Anthropic and OpenAI and coding platforms including Cursor, Lovable, and Replit. But the Bengaluru-based startup with its 15-person team is looking beyond software creation, with an AI agent designed to find customers, run ad campaigns, create presentations, and promote businesses across search, social media, and AI chatbots.\n\n“In the end, a business doesn’t require Codex or Claude Code or anything. They require real outcomes,” Kumar told TechCrunch. “If I am paying an agency $10,000 to run my Google Ads, can someone come in and do it for me for a lower price? That’s where Runable comes in.”\n\nKumar and co-founder Saksham Sarda (pictured above, left) founded Runable initially as an AI infrastructure startup, building browser technology to scrape data at scale. However, the duo noticed users increasingly asked its browser-based agent to create things like slide decks and websites. That led the startup to eventually pivot toward a general-purpose AI agent.\n\nThe shift helped Runable go from zero to a $2 million annualized revenue run rate within three weeks of launching payments in March, Kumar stated.\n\nToday, Runable’s agent allows users to build websites, apps, presentations, and other content by using natural language prompts, while handling some of the underlying infrastructure, including deployment and analytics. The startup is now extending the agent into what it calls the “grow” side of the business, where it aims to run ad campaigns, manage social media, handle SEO, and optimize a business’s presence in AI chatbot results, among other tasks.\n\nKumar told TechCrunch that the aim is to ultimately help small business owners ask Runable to get a certain number of customers rather than separately setting up a website, analytics tools, advertising accounts, and marketing campaigns.\n\nCurrently, Runable has about 1.7 million registered users, Kumar said, with the U.S., U.K., and Japan among its largest markets. The platform also has users in Brazil, though the startup is increasingly focusing on the first three and expects Japan to emerge alongside the U.S. as one of its top markets as soon as next month.\n\nThe challenge of going beyond building\n\nKumar declined to disclose Runable’s current revenue or number of paying customers. He said, nonetheless, that its users consumed more than 1 trillion tokens over the last 90 days, with about 60% to 70% of that usage coming from paying customers.\n\nThat usage comes at a cost, as Kumar acknowledged that Runable currently has negative gross margins. This is partly because the startup subsidizes AI usage for its customers. The startup, Kumar said, is working with a mix of models, including developing its own, and expects falling inference costs to help improve its economics over time.\n\n“We are seeing this path where you can provide the same quality of inference at almost 10x less cost,” Kumar told TechCrunch.\n\nRunable’s bigger challenge may be standing out as all top AI model companies it relies on are increasingly building agents of their own. Kumar, however, argued that Runable’s advantage is handling the work required to produce an outcome for a small business — including infrastructure, analytics, and distribution — without requiring users to stitch together multiple services.\n\nIn a brief test of Runable, TechCrunch asked the agent to build and deploy a website for a fictional coffee subscription business, set up analytics, and then attract its first 100 visitors with an advertising budget of $25. Runable built the site and prepared an ad campaign, but stopped short of running it, saying an advertising account first needed to be connected.\n\nWe ran a similar test on Cursor and encountered some of the same limitations. Cursor prepared an ad campaign but required access to a Meta Ads account and payment method, as well as a third-party service to permanently deploy the website. Runable handled more of the website infrastructure within its platform, but still required an external ad account before it could spend the advertising budget.\n\nAsked about the limitation, Runable said its ability to run ads without customers connecting their own advertising accounts is currently available for ads on ChatGPT. The startup said it has partnerships that enable such ads but declined to identify the partners, describing those relationships as a “soft wedge.”\n\nKumar mentioned that Runable is not trying to beat coding agents at their own game. For developers working with local files or primarily writing code, he said tools, including OpenAI’s Codex or Anthropic’s Claude Code, can be a better fit. Runable is, however, targeting nontechnical small business owners who may not want to configure the tools and services required to turn an AI-generated product into a functioning business.\n\nGeneral-purpose agents such as Manus and Genspark are seen as Runable’s closest competitors, Kumar said, as they target similar users and markets. Nevertheless, Runable aims to differentiate itself by helping businesses find customers using AI rather than focusing on building with AI alone.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "As artificial intelligence makes it easier than ever to build websites and apps, Indian startup Runable is betting the next opportunity lies in what comes after: finding customers and helping businesses grow. The startup has raised $21 million to expand in that direction.",
+      "heading": 0
+    },
+    {
+      "text": "The Series A was co-led by Susquehanna Venture Capital and Nexus Venture Partners, with existing investors Together Fund and Array VC also participating. The all-equity, primary funding valued Runable at $65 million after investment, co-founder and CEO Umesh Kumar (pictured above, right) said in an exclusive interview.",
+      "heading": 0
+    },
+    {
+      "text": "Founded in 2025, Runable is targeting small businesses in an increasingly crowded market that includes AI giants such as Anthropic and OpenAI and coding platforms including Cursor, Lovable, and Replit. But the Bengaluru-based startup with its 15-person team is looking beyond software creation, with an AI agent designed to find customers, run ad campaigns, create presentations, and promote businesses across search, social media, and AI chatbots.",
+      "heading": 0
+    },
+    {
+      "text": "“In the end, a business doesn’t require Codex or Claude Code or anything. They require real outcomes,” Kumar told TechCrunch. “If I am paying an agency $10,000 to run my Google Ads, can someone come in and do it for me for a lower price? That’s where Runable comes in.”",
+      "heading": 0
+    },
+    {
+      "text": "Kumar and co-founder Saksham Sarda (pictured above, left) founded Runable initially as an AI infrastructure startup, building browser technology to scrape data at scale. However, the duo noticed users increasingly asked its browser-based agent to create things like slide decks and websites. That led the startup to eventually pivot toward a general-purpose AI agent.",
+      "heading": 0
+    },
+    {
+      "text": "The shift helped Runable go from zero to a $2 million annualized revenue run rate within three weeks of launching payments in March, Kumar stated.",
+      "heading": 0
+    },
+    {
+      "text": "Today, Runable’s agent allows users to build websites, apps, presentations, and other content by using natural language prompts, while handling some of the underlying infrastructure, including deployment and analytics. The startup is now extending the agent into what it calls the “grow” side of the business, where it aims to run ad campaigns, manage social media, handle SEO, and optimize a business’s presence in AI chatbot results, among other tasks.",
+      "heading": 0
+    },
+    {
+      "text": "Kumar told TechCrunch that the aim is to ultimately help small business owners ask Runable to get a certain number of customers rather than separately setting up a website, analytics tools, advertising accounts, and marketing campaigns.",
+      "heading": 0
+    },
+    {
+      "text": "Currently, Runable has about 1.7 million registered users, Kumar said, with the U.S., U.K., and Japan among its largest markets. The platform also has users in Brazil, though the startup is increasingly focusing on the first three and expects Japan to emerge alongside the U.S. as one of its top markets as soon as next month.",
+      "heading": 0
+    },
+    {
+      "text": "The challenge of going beyond building",
+      "heading": 1
+    },
+    {
+      "text": "Kumar declined to disclose Runable’s current revenue or number of paying customers. He said, nonetheless, that its users consumed more than 1 trillion tokens over the last 90 days, with about 60% to 70% of that usage coming from paying customers.",
+      "heading": 0
+    },
+    {
+      "text": "That usage comes at a cost, as Kumar acknowledged that Runable currently has negative gross margins. This is partly because the startup subsidizes AI usage for its customers. The startup, Kumar said, is working with a mix of models, including developing its own, and expects falling inference costs to help improve its economics over time.",
+      "heading": 0
+    },
+    {
+      "text": "“We are seeing this path where you can provide the same quality of inference at almost 10x less cost,” Kumar told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Runable’s bigger challenge may be standing out as all top AI model companies it relies on are increasingly building agents of their own. Kumar, however, argued that Runable’s advantage is handling the work required to produce an outcome for a small business — including infrastructure, analytics, and distribution — without requiring users to stitch together multiple services.",
+      "heading": 0
+    },
+    {
+      "text": "In a brief test of Runable, TechCrunch asked the agent to build and deploy a website for a fictional coffee subscription business, set up analytics, and then attract its first 100 visitors with an advertising budget of $25. Runable built the site and prepared an ad campaign, but stopped short of running it, saying an advertising account first needed to be connected.",
+      "heading": 0
+    },
+    {
+      "text": "We ran a similar test on Cursor and encountered some of the same limitations. Cursor prepared an ad campaign but required access to a Meta Ads account and payment method, as well as a third-party service to permanently deploy the website. Runable handled more of the website infrastructure within its platform, but still required an external ad account before it could spend the advertising budget.",
+      "heading": 0
+    },
+    {
+      "text": "Asked about the limitation, Runable said its ability to run ads without customers connecting their own advertising accounts is currently available for ads on ChatGPT. The startup said it has partnerships that enable such ads but declined to identify the partners, describing those relationships as a “soft wedge.”",
+      "heading": 0
+    },
+    {
+      "text": "Kumar mentioned that Runable is not trying to beat coding agents at their own game. For developers working with local files or primarily writing code, he said tools, including OpenAI’s Codex or Anthropic’s Claude Code, can be a better fit. Runable is, however, targeting nontechnical small business owners who may not want to configure the tools and services required to turn an AI-generated product into a functioning business.",
+      "heading": 0
+    },
+    {
+      "text": "General-purpose agents such as Manus and Genspark are seen as Runable’s closest competitors, Kumar said, as they target similar users and markets. Nevertheless, Runable aims to differentiate itself by helping businesses find customers using AI rather than focusing on building with AI alone.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "type": "read",
+  "title": "What It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot",
+  "slug": "what-it-takes-to-get-your-wings-delivered-during-a-football",
+  "category": "News",
+  "channel": "The Wall Street Journal",
+  "image": "https://images.wsj.net/im-22325763/social",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.wsj.com/business/wingstop-aws-digital-ordering-8e4567d1?mod=pls_whats_news_us_business_f",
+    "episode": ""
+  },
+  "words": 283,
+  "lines": 11,
+  "duration": 94,
+  "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by\nour Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact\nDow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\n\nhttps://www.wsj.com/business/wingstop-aws-digital-ordering-8e4567d1\n\nWhat It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot\n\nWingstop relies on Amazon to shave minutes and troubleshoot the Super Bowl rush\n\nBy\n\n| Photography by Andy Jacobsohn for WSJ\n\nDALLAS— Wingstop is known for one menu item: chicken wings. Ordering them can require the work of 40 different services from Amazon.com’s AMZN -0.29 % decrease; down pointing triangle cloud computing arm.\n\nFor Wingstop, which saw almost 74% of its restaurant sales in its third quarter this year come from its app and online food delivery and pickup services, efficient technology is everything. Its use of Amazon Web Services shows how Amazon is growing the most important part of its business by selling customers ever more services.\n\nInternal technical consultants from AWS, dubbed “solutions architects,” work full time with Wingstop, a chain of more than 3,000 restaurants. Before Wingstop launched its loyalty program called Club Wingstop earlier this year, AWS stress-tested the system with huge volumes of simulated traffic to make sure it would hold up on busy days.\n\nDuring the Super Bowl, when massive volumes of orders for wings come in, a team of AWS engineers sets up a war room in Dallas to troubleshoot issues and ensure the ordering system runs smoothly.\n\nCopyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+  "paragraphs": [
+    {
+      "text": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.",
+      "heading": 0
+    },
+    {
+      "text": "https://www.wsj.com/business/wingstop-aws-digital-ordering-8e4567d1",
+      "heading": 1
+    },
+    {
+      "text": "What It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot",
+      "heading": 0
+    },
+    {
+      "text": "Wingstop relies on Amazon to shave minutes and troubleshoot the Super Bowl rush",
+      "heading": 0
+    },
+    {
+      "text": "By",
+      "heading": 1
+    },
+    {
+      "text": "| Photography by Andy Jacobsohn for WSJ",
+      "heading": 1
+    },
+    {
+      "text": "DALLAS— Wingstop is known for one menu item: chicken wings. Ordering them can require the work of 40 different services from Amazon.com’s AMZN -0.29 % decrease; down pointing triangle cloud computing arm.",
+      "heading": 0
+    },
+    {
+      "text": "For Wingstop, which saw almost 74% of its restaurant sales in its third quarter this year come from its app and online food delivery and pickup services, efficient technology is everything. Its use of Amazon Web Services shows how Amazon is growing the most important part of its business by selling customers ever more services.",
+      "heading": 0
+    },
+    {
+      "text": "Internal technical consultants from AWS, dubbed “solutions architects,” work full time with Wingstop, a chain of more than 3,000 restaurants. Before Wingstop launched its loyalty program called Club Wingstop earlier this year, AWS stress-tested the system with huge volumes of simulated traffic to make sure it would hold up on busy days.",
+      "heading": 0
+    },
+    {
+      "text": "During the Super Bowl, when massive volumes of orders for wings come in, a team of AWS engineers sets up a war room in Dallas to troubleshoot issues and ensure the ordering system runs smoothly.",
+      "heading": 0
+    },
+    {
+      "text": "Copyright © 2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+      "heading": 0
+    }
+  ]
+}

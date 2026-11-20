@@ -1,0 +1,61 @@
+{
+  "type": "read",
+  "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+  "slug": "hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-mic",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/microduck-kickabout.jpg?resize=1200,676",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+    "episode": ""
+  },
+  "words": 337,
+  "lines": 9,
+  "duration": 112,
+  "text": "Earlier this week, a video of Nvidia CEO Jensen Huang playing with a flock of waddling Microducks during his keynote at the company’s GTC Berlin conference went viral. The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a “nap,” and summersaulted on voice command. They were so darn cute that by the next day, preorders of the Microducks surpassed 20,000 units, Hugging Face’s Clem Delangue said in a tweet.\n\nThe Microducks are expected to be delivered in time for Christmas, meaning these robots might already be on their way to becoming the hottest toy for the holiday season. Delangue thinks they might end up being the best-selling robot of the year, and possibly not even for kids. The promotional videos show adults playing with them, too.\n\nMicroducks are open source devices produced by Pollen Robotics, a company acquired by Hugging Face in 2025, which means they are now an Nvidia company. The GPU giant bought Hugging Face in September. This is actually Hugging Face’s second robot, after the also-cute Reachy Mini.\n\nMicroducks were trained using Nvidia’s technology stack, wherein simulations of them were taught basic tricks (walk, sit, stand, etc.) that they ship with. Pollen says that owners can train their robots with new tricks and then share them with the community.\n\nHere’s the video below. Enjoy it as a palate cleanser after the scary black eye the AI industry gave itself this week, as AI involvement was blamed for cyberattack after cyberattack. OK, AI might seriously damage the world. But it can be fun, too. It’s hard to watch this video without ordering one.\n\nWhen @jensenhuang asks for a somersault, you deliver. 🦆 See how AI agents on NVIDIA RTX Spark help bring @huggingface 's Microduck from simulation to the real world. pic.twitter.com/W6qidApR2O\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Earlier this week, a video of Nvidia CEO Jensen Huang playing with a flock of waddling Microducks during his keynote at the company’s GTC Berlin conference went viral. The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a “nap,” and summersaulted on voice command. They were so darn cute that by the next day, preorders of the Microducks surpassed 20,000 units, Hugging Face’s Clem Delangue said in a tweet.",
+      "heading": 0
+    },
+    {
+      "text": "The Microducks are expected to be delivered in time for Christmas, meaning these robots might already be on their way to becoming the hottest toy for the holiday season. Delangue thinks they might end up being the best-selling robot of the year, and possibly not even for kids. The promotional videos show adults playing with them, too.",
+      "heading": 0
+    },
+    {
+      "text": "Microducks are open source devices produced by Pollen Robotics, a company acquired by Hugging Face in 2025, which means they are now an Nvidia company. The GPU giant bought Hugging Face in September. This is actually Hugging Face’s second robot, after the also-cute Reachy Mini.",
+      "heading": 0
+    },
+    {
+      "text": "Microducks were trained using Nvidia’s technology stack, wherein simulations of them were taught basic tricks (walk, sit, stand, etc.) that they ship with. Pollen says that owners can train their robots with new tricks and then share them with the community.",
+      "heading": 0
+    },
+    {
+      "text": "Here’s the video below. Enjoy it as a palate cleanser after the scary black eye the AI industry gave itself this week, as AI involvement was blamed for cyberattack after cyberattack. OK, AI might seriously damage the world. But it can be fun, too. It’s hard to watch this video without ordering one.",
+      "heading": 0
+    },
+    {
+      "text": "When @jensenhuang asks for a somersault, you deliver. 🦆 See how AI agents on NVIDIA RTX Spark help bring @huggingface 's Microduck from simulation to the real world. pic.twitter.com/W6qidApR2O",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

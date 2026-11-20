@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+  "slug": "besxar-is-building-an-orbital-semiconductor-factory-one-spac",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Besxar-Team.jpg?resize=1200,900",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
+    "episode": ""
+  },
+  "words": 644,
+  "lines": 13,
+  "duration": 215,
+  "text": "If you want to manufacture in space — and bring the products back again — there’s a limited set of options: Wait to go to the International Space Station, or partner with a handful of startups launching spacecraft that spend time in orbit before they return to Earth.\n\nBut the vehicle that goes to space and comes back to Earth more often than any other is a SpaceX Falcon 9 rocket booster, which made that round trip 163 times last year and has already flown more than 100 times this year. Now a startup says it has talked Elon Musk’s space company into letting it prototype an orbital semiconductor factory across a dozen flights with the booster.\n\nBesxar, a startup founded by former OpenAI staffer Ashley Pilipiszyn, wants to make the key precursors for advanced semiconductors by taking advantage of the vacuum of space. A key reason chip fabs on Earth are such hugely insane infrastructure projects is the need to create pressurized clean rooms to keep out even microscopic dust and contaminants that could ruin a chip during production. Pilipiszyn argues that a new generation of rockets could offer an alternative to all that infrastructure and to do it, she has raised almost $14 million, including a $9 million seed round led by Dauntless Ventures and Overture VC.\n\n“We’re at a time where it’s actually more cost-effective to go where the physics already works,” she told TechCrunch. “Don’t do it on Earth where you’re fighting physics.”\n\nThe company’s first two “fabships” — small canisters designed to carry and test semiconductor materials in orbit — flew on a July Starlink mission and were intended to prove that the canisters could survive a launch, protect wafer samples from contamination, and expose them to the vacuum of space. Besxar succeeded in these objectives despite a malfunction in the flight data system in one canister, which the company is currently investigating.\n\n“The flown samples were the cleanest and had the least amount of particulate matter compared to … nonflown terrestrial wafers, which is fantastic for us as we scale up,” Pilipiszyn told TechCrunch.\n\nBesxar expects to keep iterating over the next two years, with the ultimate goal of flying larger fabs onboard a vehicle like SpaceX’s Starship, the company’s next-generation rocket still in development. Pilipiszyn first approached SpaceX three years ago to talk about buying flights on Starship and eventually settled on the booster payload deal as a way to de-risk her technology in the meantime. Next up is heating the wafers, then depositing one material on the wafers, then two materials, and so forth.\n\nOnce it is producing qualification samples, Besxar — named after “beskar,” the metal used in the “Star Wars Legends” comic book to make Mandalorian armor — wants to supply leading chipmakers with the wafers used to make the kinds of advanced chips that regulate electrical power in data centers, robots, and electric vehicles.\n\nThere are a number of companies working to leverage the space environment for higher-quality semiconductors, including United Semiconductors and Space Forge, but all face the same difficulty: the limited ability to return a meaningful volume of product. Pilipiszyn expects to start to scale up to hundreds and then thousands of wafers per fab, but that path depends on cheap rockets. That in turn requires SpaceX to get Starship operational — or competitors like Rocket Lab and Stoke Space getting their own next-generation rockets off the ground.\n\n“We believe that there is a solid transport layer now, so we can focus on the application layer,” she told TechCrunch. “We can just focus on our core manufacturing and getting our products back down to earth to market as quickly as possible.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "If you want to manufacture in space — and bring the products back again — there’s a limited set of options: Wait to go to the International Space Station, or partner with a handful of startups launching spacecraft that spend time in orbit before they return to Earth.",
+      "heading": 0
+    },
+    {
+      "text": "But the vehicle that goes to space and comes back to Earth more often than any other is a SpaceX Falcon 9 rocket booster, which made that round trip 163 times last year and has already flown more than 100 times this year. Now a startup says it has talked Elon Musk’s space company into letting it prototype an orbital semiconductor factory across a dozen flights with the booster.",
+      "heading": 0
+    },
+    {
+      "text": "Besxar, a startup founded by former OpenAI staffer Ashley Pilipiszyn, wants to make the key precursors for advanced semiconductors by taking advantage of the vacuum of space. A key reason chip fabs on Earth are such hugely insane infrastructure projects is the need to create pressurized clean rooms to keep out even microscopic dust and contaminants that could ruin a chip during production. Pilipiszyn argues that a new generation of rockets could offer an alternative to all that infrastructure and to do it, she has raised almost $14 million, including a $9 million seed round led by Dauntless Ventures and Overture VC.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re at a time where it’s actually more cost-effective to go where the physics already works,” she told TechCrunch. “Don’t do it on Earth where you’re fighting physics.”",
+      "heading": 0
+    },
+    {
+      "text": "The company’s first two “fabships” — small canisters designed to carry and test semiconductor materials in orbit — flew on a July Starlink mission and were intended to prove that the canisters could survive a launch, protect wafer samples from contamination, and expose them to the vacuum of space. Besxar succeeded in these objectives despite a malfunction in the flight data system in one canister, which the company is currently investigating.",
+      "heading": 0
+    },
+    {
+      "text": "“The flown samples were the cleanest and had the least amount of particulate matter compared to … nonflown terrestrial wafers, which is fantastic for us as we scale up,” Pilipiszyn told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Besxar expects to keep iterating over the next two years, with the ultimate goal of flying larger fabs onboard a vehicle like SpaceX’s Starship, the company’s next-generation rocket still in development. Pilipiszyn first approached SpaceX three years ago to talk about buying flights on Starship and eventually settled on the booster payload deal as a way to de-risk her technology in the meantime. Next up is heating the wafers, then depositing one material on the wafers, then two materials, and so forth.",
+      "heading": 0
+    },
+    {
+      "text": "Once it is producing qualification samples, Besxar — named after “beskar,” the metal used in the “Star Wars Legends” comic book to make Mandalorian armor — wants to supply leading chipmakers with the wafers used to make the kinds of advanced chips that regulate electrical power in data centers, robots, and electric vehicles.",
+      "heading": 0
+    },
+    {
+      "text": "There are a number of companies working to leverage the space environment for higher-quality semiconductors, including United Semiconductors and Space Forge, but all face the same difficulty: the limited ability to return a meaningful volume of product. Pilipiszyn expects to start to scale up to hundreds and then thousands of wafers per fab, but that path depends on cheap rockets. That in turn requires SpaceX to get Starship operational — or competitors like Rocket Lab and Stoke Space getting their own next-generation rockets off the ground.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe that there is a solid transport layer now, so we can focus on the application layer,” she told TechCrunch. “We can just focus on our core manufacturing and getting our products back down to earth to market as quickly as possible.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

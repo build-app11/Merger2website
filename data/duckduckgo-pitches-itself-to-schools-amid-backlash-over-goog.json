@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+  "slug": "duckduckgo-pitches-itself-to-schools-amid-backlash-over-goog",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+    "episode": ""
+  },
+  "words": 567,
+  "lines": 17,
+  "duration": 189,
+  "text": "DuckDuckGo is pitching itself to schools after Google created an opening for the alternative search engine. On Tuesday, Google told schools they could turn off Gemini, but it said shutting off its other AI features would cost schools Google Search, as well.\n\nDuckDuckGo, a company that focuses on user privacy by limiting data collection, clearly sees this as a moment to make inroads in education, where Google has historically dominated. According to figures Google has published in previous years, there are around 50 million Chromebooks in schools, used by students and educators, and its Google Classroom platform serves over 150 million users globally.\n\nOn X, DuckDuckGo’s founder and CEO, Gabriel Weinberg, pointed to the company’s online documentation, explaining how schools can switch their default search engine to DuckDuckGo’s service instead, adding, “get in touch for help.”\n\nMeanwhile, DuckDuckGo’s chief public affairs officer, Kamyl Bazbaz, issued a stronger statement, writing, “Forcing AI on school children: how a monopolist behaves when they think people are powerless. Prove Google wrong.”\n\nForcing AI on school children: how a monopolist behaves when they think people are powerless. Prove Google wrong. https://t.co/Ta6ibmFdb9\n\nIn an email to TechCrunch, DuckDuckGo chastised Google for its decision, adding that Google could easily turn off Search’s AI features for schools if it wanted to.\n\nThe company’s comments come as the American public is weighing how much AI they want to allow into their lives. As Tuesday night’s elections indicate, they don’t want AI data centers built in their towns. But using AI at work and school has become a common practice and requires a more nuanced discussion.\n\nKnowing that educators have struggled with AI, Google developed technology called “ Guided Learning ” that is meant to help kids learn by walking through problem-solving steps rather than just providing them with an answer. But educators are still asking for tools that let them remove AI from the learning process altogether.\n\nAfter the backlash on Tuesday, Google defended its decision, saying it was just responding to schools’ feedback. It said that Gemini, Gemini Notebook, and Search would be off by default, and schools could choose to enable them individually.\n\nWe want to clarify what we announced today about our education services. Today’s announcements give schools more choice, not less. Here’s what we announced: – Gemini, Gemini Notebook, and Search will be OFF 🔴 by default. This is based on K-12 schools asking for more control…\n\nThe problem, of course, is that Google Search now heavily uses AI, through AI Overviews and a conversational AI Mode that answers users’ queries.\n\nDuckDuckGo isn’t anti-AI, to be clear — it offers its own set of AI features, including a chat interface called Duck.ai and an AI search assistant.\n\nHowever, unlike Google, it provides options to disable these features in both its search and browser settings, the company says. It also offers a dedicated website, noai.duckduckgo.com, where AI-assisted answers, AI-generated images, and AI feature suggestions are all turned off.\n\nThat flexibility may be driving demand for its services, as the company reported earlier this year that its app installs were up 30% as users rejected being force-fed Google’s AI Search.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "DuckDuckGo is pitching itself to schools after Google created an opening for the alternative search engine. On Tuesday, Google told schools they could turn off Gemini, but it said shutting off its other AI features would cost schools Google Search, as well.",
+      "heading": 0
+    },
+    {
+      "text": "DuckDuckGo, a company that focuses on user privacy by limiting data collection, clearly sees this as a moment to make inroads in education, where Google has historically dominated. According to figures Google has published in previous years, there are around 50 million Chromebooks in schools, used by students and educators, and its Google Classroom platform serves over 150 million users globally.",
+      "heading": 0
+    },
+    {
+      "text": "On X, DuckDuckGo’s founder and CEO, Gabriel Weinberg, pointed to the company’s online documentation, explaining how schools can switch their default search engine to DuckDuckGo’s service instead, adding, “get in touch for help.”",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, DuckDuckGo’s chief public affairs officer, Kamyl Bazbaz, issued a stronger statement, writing, “Forcing AI on school children: how a monopolist behaves when they think people are powerless. Prove Google wrong.”",
+      "heading": 0
+    },
+    {
+      "text": "Forcing AI on school children: how a monopolist behaves when they think people are powerless. Prove Google wrong. https://t.co/Ta6ibmFdb9",
+      "heading": 0
+    },
+    {
+      "text": "In an email to TechCrunch, DuckDuckGo chastised Google for its decision, adding that Google could easily turn off Search’s AI features for schools if it wanted to.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s comments come as the American public is weighing how much AI they want to allow into their lives. As Tuesday night’s elections indicate, they don’t want AI data centers built in their towns. But using AI at work and school has become a common practice and requires a more nuanced discussion.",
+      "heading": 0
+    },
+    {
+      "text": "Knowing that educators have struggled with AI, Google developed technology called “ Guided Learning ” that is meant to help kids learn by walking through problem-solving steps rather than just providing them with an answer. But educators are still asking for tools that let them remove AI from the learning process altogether.",
+      "heading": 0
+    },
+    {
+      "text": "After the backlash on Tuesday, Google defended its decision, saying it was just responding to schools’ feedback. It said that Gemini, Gemini Notebook, and Search would be off by default, and schools could choose to enable them individually.",
+      "heading": 0
+    },
+    {
+      "text": "We want to clarify what we announced today about our education services. Today’s announcements give schools more choice, not less. Here’s what we announced: – Gemini, Gemini Notebook, and Search will be OFF 🔴 by default. This is based on K-12 schools asking for more control…",
+      "heading": 0
+    },
+    {
+      "text": "The problem, of course, is that Google Search now heavily uses AI, through AI Overviews and a conversational AI Mode that answers users’ queries.",
+      "heading": 0
+    },
+    {
+      "text": "DuckDuckGo isn’t anti-AI, to be clear — it offers its own set of AI features, including a chat interface called Duck.ai and an AI search assistant.",
+      "heading": 0
+    },
+    {
+      "text": "However, unlike Google, it provides options to disable these features in both its search and browser settings, the company says. It also offers a dedicated website, noai.duckduckgo.com, where AI-assisted answers, AI-generated images, and AI feature suggestions are all turned off.",
+      "heading": 0
+    },
+    {
+      "text": "That flexibility may be driving demand for its services, as the company reported earlier this year that its app installs were up 30% as users rejected being force-fed Google’s AI Search.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+  "slug": "tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claw-weight.png?resize=1200,600",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+    "episode": ""
+  },
+  "words": 892,
+  "lines": 22,
+  "duration": 297,
+  "text": "By now, we all realize that Silicon Valley’s AI labs have built the world’s best hackers in the form of AI agents. Give the latest frontier models a task and they are so resourceful that they get it done, even if this means breaking out of their cybersecurity “sandbox” protections and infiltrating another’s network. (Short of that, they’ll use social engineering and manipulation.)\n\nEven so, a news story over the weekend about an Australian guy whose OpenClaw agent hacked into his gym’s reservation system and deleted another customer’s reservation to get him a spot in a coveted class is especially notable. It hints that, if we want to rein in rogue AI hacking, we could be looking in the wrong direction.\n\nAlthough the news story was just published by Australian ABC news, proclaiming the incident to be the first documented AI agent hacking case in the country, the actual hack took place months ago.\n\nThe OpenClaw owner, Andrew Bird, published a now-deleted blog post about it on his company’s website on April 10, according to a copy still visible on the Internet Archive.\n\nHe had trained his OpenClaw to do tasks like book him appointments. He liked going to a popular early morning exercise class and was tired of landing on the waitlist and then playing “refresh roulette” as he described it, to get a spot.\n\nWhen he asked the bot to book him a spot, the best it could do was No. 4 on the wait list, he told ABC. Then his agent told him it had found a way to book him into the classes in advance. Far in advance. Months before the gym made those classes available for sign up.\n\nBird asked if it could move him up on the waitlist. It did as asked and attempted to do so. The bot had found a vulnerability in the authorization portion of the appointment software the gym was using. It hacked in and canceled the No. 1 reservation on the wait list. The bot cheerfully told him, according to logs of the chat published by ABC:\n\nThe API has zero authorisations checks on cancelling other people’s reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you’ve moved from #4 to #3 already,” it messaged back.\n\nBird, a software developer himself, was now freaked out that his AI had just hacked his gym, ABC reported. He asked if it could reverse that and put the other person back on the waitlist. No. That wasn’t possible, the AI said.\n\nSo, he did the next best thing and told it to draft “a responsible disclosure email to support.” The email “explained the vulnerability, suggested fixes, and even compared the broken mutations with the ones that correctly enforced authorization,” Bird wrote.\n\nBeyond the humor of elbowing another person out of the way to get into a gym class, there are two really interesting parts to this incident. One is that Bird was using Claude Opus 4.6, released in February, with his OpenClaw. The other is Silicon Valley’s reaction on X where the story had gone viral.\n\nAfter the famed incident last month where an unreleased OpenAI model hacked Hugging Face, unbeknownst to OpenAI at the time, other labs investigated their models. Disclosures then came from Moonshot’s Kimi K3, Meta’s Muse Spark, and Anthropic.\n\nIn fact, Anthropic found that three of its models had done so, including Opus 4.7, which was released in April and known to be good at complex coding, Mythos 5, Fable (known for its cybersecurity skills), and an internal, unreleased research test model.\n\nTo address this, some of AI labs have talked about slowing down frontier development, or creating independent orgs to test the next generation of models.\n\nBut Bird’s OpenClaw had used 4.6, he disclosed. That implies that older models, as well as countless three-steps-behind open-weight models, are already exceptionally good hackers. So who knows how many of them have hacked, or are currently hacking, in order to achieve their prompt-owners desires?\n\nLikewise, many people on X saw the humorous potential in this incident. As Andreessen Horowitz partner Christian Keil posted in response: “This is just terrible. Anyone know if it works for golf tee times?”\n\nOr as X user Roon noted, “the sf tennis reservation system will become one of the most hardened softwares on the planet of earth.”\n\nFunny, yes. But there’s some truth that these jokes get at. There’s a future that the Valley is building where everyone has an AI agent working on their own behalf. This agent was only doing what was asked of it and did not have Mythos-level capabilities at its disposal.\n\nSo what if agent builders and owners don’t really want to rein in such misalignment? We could be looking at the first hint of pandemonium for everything from airline reservations to concert tickets, or any other frustrating customer-service situation. As one person on X put it, what’s the wildest hack AI has discovered so far? It could be cutting in line.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "By now, we all realize that Silicon Valley’s AI labs have built the world’s best hackers in the form of AI agents. Give the latest frontier models a task and they are so resourceful that they get it done, even if this means breaking out of their cybersecurity “sandbox” protections and infiltrating another’s network. (Short of that, they’ll use social engineering and manipulation.)",
+      "heading": 0
+    },
+    {
+      "text": "Even so, a news story over the weekend about an Australian guy whose OpenClaw agent hacked into his gym’s reservation system and deleted another customer’s reservation to get him a spot in a coveted class is especially notable. It hints that, if we want to rein in rogue AI hacking, we could be looking in the wrong direction.",
+      "heading": 0
+    },
+    {
+      "text": "Although the news story was just published by Australian ABC news, proclaiming the incident to be the first documented AI agent hacking case in the country, the actual hack took place months ago.",
+      "heading": 0
+    },
+    {
+      "text": "The OpenClaw owner, Andrew Bird, published a now-deleted blog post about it on his company’s website on April 10, according to a copy still visible on the Internet Archive.",
+      "heading": 0
+    },
+    {
+      "text": "He had trained his OpenClaw to do tasks like book him appointments. He liked going to a popular early morning exercise class and was tired of landing on the waitlist and then playing “refresh roulette” as he described it, to get a spot.",
+      "heading": 0
+    },
+    {
+      "text": "When he asked the bot to book him a spot, the best it could do was No. 4 on the wait list, he told ABC. Then his agent told him it had found a way to book him into the classes in advance. Far in advance. Months before the gym made those classes available for sign up.",
+      "heading": 0
+    },
+    {
+      "text": "Bird asked if it could move him up on the waitlist. It did as asked and attempted to do so. The bot had found a vulnerability in the authorization portion of the appointment software the gym was using. It hacked in and canceled the No. 1 reservation on the wait list. The bot cheerfully told him, according to logs of the chat published by ABC:",
+      "heading": 0
+    },
+    {
+      "text": "The API has zero authorisations checks on cancelling other people’s reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you’ve moved from #4 to #3 already,” it messaged back.",
+      "heading": 0
+    },
+    {
+      "text": "Bird, a software developer himself, was now freaked out that his AI had just hacked his gym, ABC reported. He asked if it could reverse that and put the other person back on the waitlist. No. That wasn’t possible, the AI said.",
+      "heading": 0
+    },
+    {
+      "text": "So, he did the next best thing and told it to draft “a responsible disclosure email to support.” The email “explained the vulnerability, suggested fixes, and even compared the broken mutations with the ones that correctly enforced authorization,” Bird wrote.",
+      "heading": 0
+    },
+    {
+      "text": "Beyond the humor of elbowing another person out of the way to get into a gym class, there are two really interesting parts to this incident. One is that Bird was using Claude Opus 4.6, released in February, with his OpenClaw. The other is Silicon Valley’s reaction on X where the story had gone viral.",
+      "heading": 0
+    },
+    {
+      "text": "After the famed incident last month where an unreleased OpenAI model hacked Hugging Face, unbeknownst to OpenAI at the time, other labs investigated their models. Disclosures then came from Moonshot’s Kimi K3, Meta’s Muse Spark, and Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "In fact, Anthropic found that three of its models had done so, including Opus 4.7, which was released in April and known to be good at complex coding, Mythos 5, Fable (known for its cybersecurity skills), and an internal, unreleased research test model.",
+      "heading": 0
+    },
+    {
+      "text": "To address this, some of AI labs have talked about slowing down frontier development, or creating independent orgs to test the next generation of models.",
+      "heading": 0
+    },
+    {
+      "text": "But Bird’s OpenClaw had used 4.6, he disclosed. That implies that older models, as well as countless three-steps-behind open-weight models, are already exceptionally good hackers. So who knows how many of them have hacked, or are currently hacking, in order to achieve their prompt-owners desires?",
+      "heading": 0
+    },
+    {
+      "text": "Likewise, many people on X saw the humorous potential in this incident. As Andreessen Horowitz partner Christian Keil posted in response: “This is just terrible. Anyone know if it works for golf tee times?”",
+      "heading": 0
+    },
+    {
+      "text": "Or as X user Roon noted, “the sf tennis reservation system will become one of the most hardened softwares on the planet of earth.”",
+      "heading": 0
+    },
+    {
+      "text": "Funny, yes. But there’s some truth that these jokes get at. There’s a future that the Valley is building where everyone has an AI agent working on their own behalf. This agent was only doing what was asked of it and did not have Mythos-level capabilities at its disposal.",
+      "heading": 0
+    },
+    {
+      "text": "So what if agent builders and owners don’t really want to rein in such misalignment? We could be looking at the first hint of pandemonium for everything from airline reservations to concert tickets, or any other frustrating customer-service situation. As one person on X put it, what’s the wildest hack AI has discovered so far? It could be cutting in line.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

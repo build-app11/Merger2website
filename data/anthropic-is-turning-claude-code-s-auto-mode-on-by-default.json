@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Anthropic is turning Claude Code’s auto mode on by default",
+  "slug": "anthropic-is-turning-claude-code-s-auto-mode-on-by-default",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+    "episode": ""
+  },
+  "words": 299,
+  "lines": 21,
+  "duration": 100,
+  "text": "Posted:\n\nAnthony Ha\n\nAnthropic is turning Claude Code’s auto mode on by default\n\nProgramming with Claude Code will soon require even less human oversight, as Anthropic says it’s making auto mode the default for Pro, Max, and Team accounts, starting on August 14.\n\nThe company unveiled a test version of auto mode in March, pitching it as a way to balance speed and control. As Anthropic explained in its announcement on Friday, when Claude Code is in auto mode, instead of presenting prompts asking for human approval at each step, it will proceed unless an action is determined to be “irreversible, destructive, or aimed outside your environment.”\n\nAnthropic also said that in testing, auto mode proved safer than manual review — in a study with 1,053 paid testers, auto mode caught 89% of harmful actions, while human review only caught 13.6%. (Perhaps that’s because “manual review can become habitual: users approve 97% of permission prompts in Claude Code.”)\n\nIn a post on X, Claude Code head Boris Cherny said, “The team and I use Auto mode exclusively, and have been for many months. I couldn’t imagine going back to permission prompts!”\n\nThe company also said it’s been adding new safety features like prompt injection screening and customizable hard deny rules to prevent things like data exfiltration.\n\nTopics\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic is turning Claude Code’s auto mode on by default",
+      "heading": 1
+    },
+    {
+      "text": "Programming with Claude Code will soon require even less human oversight, as Anthropic says it’s making auto mode the default for Pro, Max, and Team accounts, starting on August 14.",
+      "heading": 0
+    },
+    {
+      "text": "The company unveiled a test version of auto mode in March, pitching it as a way to balance speed and control. As Anthropic explained in its announcement on Friday, when Claude Code is in auto mode, instead of presenting prompts asking for human approval at each step, it will proceed unless an action is determined to be “irreversible, destructive, or aimed outside your environment.”",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic also said that in testing, auto mode proved safer than manual review — in a study with 1,053 paid testers, auto mode caught 89% of harmful actions, while human review only caught 13.6%. (Perhaps that’s because “manual review can become habitual: users approve 97% of permission prompts in Claude Code.”)",
+      "heading": 0
+    },
+    {
+      "text": "In a post on X, Claude Code head Boris Cherny said, “The team and I use Auto mode exclusively, and have been for many months. I couldn’t imagine going back to permission prompts!”",
+      "heading": 0
+    },
+    {
+      "text": "The company also said it’s been adding new safety features like prompt injection screening and customizable hard deny rules to prevent things like data exfiltration.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

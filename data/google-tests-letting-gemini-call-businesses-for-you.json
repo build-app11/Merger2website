@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Google tests letting Gemini call businesses for you",
+  "slug": "google-tests-letting-gemini-call-businesses-for-you",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Pixel-HiLight.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+    "episode": ""
+  },
+  "words": 440,
+  "lines": 13,
+  "duration": 147,
+  "text": "With AI agents like Meta’s Muse and Instinct now able to make calls on users’ behalf, Google is now letting Gemini call businesses with a new feature called “Call for Me.”\n\nThe feature will initially roll out to Pixel 11 owners who pay for a Gemini subscription in the U.S. It will also require the use of the beta version of Google’s Phone app for Android, as it’s still supposed to be an experiment.\n\nWhile Google has long offered calling features guided by AI, prior versions were limited in what they could do. With this update, Gemini will be able to share personal information that you approve as part of the calls it makes, which, the company says, will allow it to take a broader set of actions.\n\nIn addition, Google says users will be able to follow the call as it happens and take over at any time. “Call for Me” will also use your own personal phone number to make calls, which will be dialed directly from your phone.\n\nGoogle says the AI can handle complex tasks, like calling a store to ask if a product is in stock, making a restaurant reservation, moving a scheduled appointment to a different date, or placing items on hold.\n\nThe AI can call a business and introduce itself, navigate automated phone menus, wait on hold, and then handle the conversation on the other end. Meanwhile, users can watch how the call proceeds via a live transcript of the conversation.\n\nThe launch builds on years of experiments with AI-assisted, automated calling technology at Google.\n\nYears ago, the company wowed people at its I/O developer conference when it demonstrated Google Assistant calling a salon to make a reservation, and even adding little “umm’s” and “ahh’s” to make the conversation seem natural.\n\nLast year, it rolled out “Ask for Me,” a feature that let Gemini call businesses on users’ behalf to inquire about things like pricing or services. People with Pixel smartphones have also had access to features like “ Hold for Me” or “Talk to a Live Rep,” which can navigate phone trees, then automatically wait on hold until a real person comes to the line. Another option, “ Direct My Call,” can display the numbers to navigate IVR systems.\n\nGoogle said it’s starting this experiment at a small scale because “real-world conversations are nuanced,” and it needs time to get the feature right before rolling it out more broadly.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "With AI agents like Meta’s Muse and Instinct now able to make calls on users’ behalf, Google is now letting Gemini call businesses with a new feature called “Call for Me.”",
+      "heading": 0
+    },
+    {
+      "text": "The feature will initially roll out to Pixel 11 owners who pay for a Gemini subscription in the U.S. It will also require the use of the beta version of Google’s Phone app for Android, as it’s still supposed to be an experiment.",
+      "heading": 0
+    },
+    {
+      "text": "While Google has long offered calling features guided by AI, prior versions were limited in what they could do. With this update, Gemini will be able to share personal information that you approve as part of the calls it makes, which, the company says, will allow it to take a broader set of actions.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, Google says users will be able to follow the call as it happens and take over at any time. “Call for Me” will also use your own personal phone number to make calls, which will be dialed directly from your phone.",
+      "heading": 0
+    },
+    {
+      "text": "Google says the AI can handle complex tasks, like calling a store to ask if a product is in stock, making a restaurant reservation, moving a scheduled appointment to a different date, or placing items on hold.",
+      "heading": 0
+    },
+    {
+      "text": "The AI can call a business and introduce itself, navigate automated phone menus, wait on hold, and then handle the conversation on the other end. Meanwhile, users can watch how the call proceeds via a live transcript of the conversation.",
+      "heading": 0
+    },
+    {
+      "text": "The launch builds on years of experiments with AI-assisted, automated calling technology at Google.",
+      "heading": 0
+    },
+    {
+      "text": "Years ago, the company wowed people at its I/O developer conference when it demonstrated Google Assistant calling a salon to make a reservation, and even adding little “umm’s” and “ahh’s” to make the conversation seem natural.",
+      "heading": 0
+    },
+    {
+      "text": "Last year, it rolled out “Ask for Me,” a feature that let Gemini call businesses on users’ behalf to inquire about things like pricing or services. People with Pixel smartphones have also had access to features like “ Hold for Me” or “Talk to a Live Rep,” which can navigate phone trees, then automatically wait on hold until a real person comes to the line. Another option, “ Direct My Call,” can display the numbers to navigate IVR systems.",
+      "heading": 0
+    },
+    {
+      "text": "Google said it’s starting this experiment at a small scale because “real-world conversations are nuanced,” and it needs time to get the feature right before rolling it out more broadly.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

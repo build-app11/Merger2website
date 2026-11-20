@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+  "slug": "chinese-hackers-spied-on-thousands-of-companies-after-breach",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+    "episode": ""
+  },
+  "words": 325,
+  "lines": 20,
+  "duration": 108,
+  "text": "Posted:\n\nZack Whittaker\n\nChinese hackers spied on thousands of companies after breaching IT giant ConnectWise\n\nThe bad week for cybersecurity just got worse for thousands more companies, who were spied on by Chinese hackers following the breach of IT management and remote access giant ConnectWise.\n\nSecurity researchers at Microsoft say the China state-aligned hackers broke into ConnectWise’s cloud backup service and stole application credentials that are used to establish data links between ConnectWise and its corporate customers, who rely on the cloud service to back up their company’s data.\n\nBy stealing the credentials, the hackers could log in to the customer’s Microsoft-hosted environment as if they were an authorized user and access their emails and other files.\n\nAccording to Microsoft, the hackers used AI agents to rapidly hack into around 2,250 organizations at a rate of almost 3,000 attempted sign-ins per minute. Microsoft said this speed gives defenders “little time to detect and respond.”\n\nThe speed of the mass-hacks was attributed to the use of AI agents, specifically ARTEX, an open source AI framework that works with AI models to stress-test cyber defenses. The same AI software was used in a recent compromise of South Korea’s financial systems, many of which had weak security and lacked multi-factor authentication.\n\nConnectWise said it’s paused access to its cloud backup system and is investigating the breach. As of Thursday, the company said it was working on restoring the service.\n\nTopics\n\nThese tech outages are giving Y2K, AI agent style\n\nDominic-Madori Davis\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nBritish hackers face prison for GTA 6 data breach and crypto thefts\n\nLatest in Security\n\nThese tech outages are giving Y2K, AI agent style\n\nUK government forced to disclose secret Apple backdoor order\n\nPalmer Luckey doesn’t deny that he’s a prepper\n\nLucas Ropek",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Zack Whittaker",
+      "heading": 1
+    },
+    {
+      "text": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "heading": 0
+    },
+    {
+      "text": "The bad week for cybersecurity just got worse for thousands more companies, who were spied on by Chinese hackers following the breach of IT management and remote access giant ConnectWise.",
+      "heading": 0
+    },
+    {
+      "text": "Security researchers at Microsoft say the China state-aligned hackers broke into ConnectWise’s cloud backup service and stole application credentials that are used to establish data links between ConnectWise and its corporate customers, who rely on the cloud service to back up their company’s data.",
+      "heading": 0
+    },
+    {
+      "text": "By stealing the credentials, the hackers could log in to the customer’s Microsoft-hosted environment as if they were an authorized user and access their emails and other files.",
+      "heading": 0
+    },
+    {
+      "text": "According to Microsoft, the hackers used AI agents to rapidly hack into around 2,250 organizations at a rate of almost 3,000 attempted sign-ins per minute. Microsoft said this speed gives defenders “little time to detect and respond.”",
+      "heading": 0
+    },
+    {
+      "text": "The speed of the mass-hacks was attributed to the use of AI agents, specifically ARTEX, an open source AI framework that works with AI models to stress-test cyber defenses. The same AI software was used in a recent compromise of South Korea’s financial systems, many of which had weak security and lacked multi-factor authentication.",
+      "heading": 0
+    },
+    {
+      "text": "ConnectWise said it’s paused access to its cloud backup system and is investigating the breach. As of Thursday, the company said it was working on restoring the service.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "British hackers face prison for GTA 6 data breach and crypto thefts",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Security",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "UK government forced to disclose secret Apple backdoor order",
+      "heading": 1
+    },
+    {
+      "text": "Palmer Luckey doesn’t deny that he’s a prepper",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    }
+  ]
+}

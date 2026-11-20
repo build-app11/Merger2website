@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+  "slug": "indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-e",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "episode": ""
+  },
+  "words": 661,
+  "lines": 18,
+  "duration": 220,
+  "text": "Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere.\n\nThe investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. defense technology company General Atomics and India’s Kaynes Semicon. Its image sensors, however, remain under development, with the startup targeting its initial commercial production in 2027.\n\nIndia has committed billions of dollars to build up a domestic semiconductor industry, with a hope to become an alternative manufacturing hub as U.S. companies look to diversify supply chains beyond China. The country, however, has yet to establish itself as a major chip manufacturing hub. Meanwhile, the AI boom is also giving Indian startups such as Bharat Semi an opportunity to develop specialized chips for global markets.\n\nThe New Delhi-based startup is developing programmable image sensors that combine image capture, processing, and AI capabilities on a single chip, reducing the need to send visual data to separate processors. The move could cut system costs by at least 70% compared with conventional setups that use a separate image sensor, image signal processor, and a system-on-chip, co-founder Vrinda Kapoor (pictured above, right) said in an interview.\n\n“Our aim here is to move from sensors to sense-making solutions,” Kapoor told TechCrunch.\n\nKapoor, a South Park Commons fellow who earlier worked in healthcare technology, co-founded Bharat Semi in late 2021 with Vinayak Dalmia (pictured above, left), the startup’s managing director, who previously worked at McKinsey and in private equity. Its chief technology officer, Boyd Fowler, previously held the same role at image-sensor maker OmniVision.\n\nBharat Semi is targeting smart homes, industrial automation, surveillance, and aerospace. Without disclosing specifics, Kapoor pointed to air conditioners that could detect when a room is empty and adjust automatically and drones that could process visual information — even with the absence of more expensive computing hardware elsewhere in the system.\n\nThe startup’s first-generation sensors are already in prototyping, while its second-generation sensors, which will incorporate more advanced AI capabilities, are expected to reach the prototype stage by mid-2027, Kapoor said. Moreover, the startup plans to get those newer sensors into customers’ hands by the end of 2027.\n\nThe all-equity seed round was led by Info Edge Group, South Park Commons, and Indusbridge Ventures, with participation from Valour Capital, Micromax, Gaingels, and individual investors. Bharat Semi, Kapoor said, plans to use the funding to expand its engineering team, complete product development, and bring its sensors to market.\n\nBharat Semi has about 75 employees across India and the U.S., including 10 to 12 in its American operations, which span engineering and business development in Santa Clara. The startup plans to increase its U.S. headcount to around 20 by mid-2027, Kapoor said. It has also begun hiring engineers in Europe.\n\n“It’s a story of can we build a global technology company out of India,” Kapoor said.\n\nIn 2024, Bharat Semi announced plans for a semiconductor fabrication project in India involving a technology partnership with the U.S. Space Force. The initiative, Kapoor said, remains in development and the startup is working to identify domestic partners that would build and operate the facility.\n\nThe project is separate from Bharat Semi’s image-sensor business, Kapoor added. The startup plans to remain fabless, outsourcing chip manufacturing while focusing on semiconductor design and software. The new funding will not be used to finance the proposed fabrication facility.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere.",
+      "heading": 0
+    },
+    {
+      "text": "The investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. defense technology company General Atomics and India’s Kaynes Semicon. Its image sensors, however, remain under development, with the startup targeting its initial commercial production in 2027.",
+      "heading": 0
+    },
+    {
+      "text": "India has committed billions of dollars to build up a domestic semiconductor industry, with a hope to become an alternative manufacturing hub as U.S. companies look to diversify supply chains beyond China. The country, however, has yet to establish itself as a major chip manufacturing hub. Meanwhile, the AI boom is also giving Indian startups such as Bharat Semi an opportunity to develop specialized chips for global markets.",
+      "heading": 0
+    },
+    {
+      "text": "The New Delhi-based startup is developing programmable image sensors that combine image capture, processing, and AI capabilities on a single chip, reducing the need to send visual data to separate processors. The move could cut system costs by at least 70% compared with conventional setups that use a separate image sensor, image signal processor, and a system-on-chip, co-founder Vrinda Kapoor (pictured above, right) said in an interview.",
+      "heading": 0
+    },
+    {
+      "text": "“Our aim here is to move from sensors to sense-making solutions,” Kapoor told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Kapoor, a South Park Commons fellow who earlier worked in healthcare technology, co-founded Bharat Semi in late 2021 with Vinayak Dalmia (pictured above, left), the startup’s managing director, who previously worked at McKinsey and in private equity. Its chief technology officer, Boyd Fowler, previously held the same role at image-sensor maker OmniVision.",
+      "heading": 0
+    },
+    {
+      "text": "Bharat Semi is targeting smart homes, industrial automation, surveillance, and aerospace. Without disclosing specifics, Kapoor pointed to air conditioners that could detect when a room is empty and adjust automatically and drones that could process visual information — even with the absence of more expensive computing hardware elsewhere in the system.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s first-generation sensors are already in prototyping, while its second-generation sensors, which will incorporate more advanced AI capabilities, are expected to reach the prototype stage by mid-2027, Kapoor said. Moreover, the startup plans to get those newer sensors into customers’ hands by the end of 2027.",
+      "heading": 0
+    },
+    {
+      "text": "The all-equity seed round was led by Info Edge Group, South Park Commons, and Indusbridge Ventures, with participation from Valour Capital, Micromax, Gaingels, and individual investors. Bharat Semi, Kapoor said, plans to use the funding to expand its engineering team, complete product development, and bring its sensors to market.",
+      "heading": 0
+    },
+    {
+      "text": "Bharat Semi has about 75 employees across India and the U.S., including 10 to 12 in its American operations, which span engineering and business development in Santa Clara. The startup plans to increase its U.S. headcount to around 20 by mid-2027, Kapoor said. It has also begun hiring engineers in Europe.",
+      "heading": 0
+    },
+    {
+      "text": "“It’s a story of can we build a global technology company out of India,” Kapoor said.",
+      "heading": 0
+    },
+    {
+      "text": "In 2024, Bharat Semi announced plans for a semiconductor fabrication project in India involving a technology partnership with the U.S. Space Force. The initiative, Kapoor said, remains in development and the startup is working to identify domestic partners that would build and operate the facility.",
+      "heading": 0
+    },
+    {
+      "text": "The project is separate from Bharat Semi’s image-sensor business, Kapoor added. The startup plans to remain fabless, outsourcing chip manufacturing while focusing on semiconductor design and software. The new funding will not be used to finance the proposed fabrication facility.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

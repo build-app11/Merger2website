@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+  "slug": "hackerrank-s-ai-interviewer-offers-a-glimpse-into-what-job-i",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/09/ai-avatar-simpleshow-2154151760.jpg?resize=1200,826",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+    "episode": ""
+  },
+  "words": 950,
+  "lines": 22,
+  "duration": 317,
+  "text": "What happens when AI moves from helping job candidates to evaluating them? HackerRank, a platform used by companies to assess and hire developers, is offering a glimpse at what that future of job interviews could look like with Chakra, an AI agent that conducts interviews, observes candidates as they work, and evaluates not just their answers but also how they got there.\n\nAfter around six months in beta, HackerRank is making Chakra generally available to its customers on Monday. The startup says the AI interviewer has already conducted more than 500,000 interviews during testing, with companies including Snowflake, Snorkel, and Capgemini among those that tried it, while HackerRank also tested the product internally.\n\nAI has been a staple in job interviews for some time, with companies using voice agents and other automated tools to screen candidates and make the hiring process more efficient. Job seekers, meanwhile, have increasingly gained their own AI tools to help them navigate interviews, sometimes without employers knowing.\n\nWith Chakra, HackerRank is betting AI can change not only how interviews are conducted, but also what employers can measure. Beyond whether someone arrives at the right answer, the startup wants to assess harder-to-capture signals such as critical thinking and judgment, as well as what it calls “AI fluency” — how well a candidate frames a problem for AI, judges its output, and steers it toward a solution.\n\n“The previous modality of evaluation was evaluating the output,” HackerRank co-founder and CEO Vivek Ravisankar said in an interview. “Now, because of AI, anybody can produce an artifact.” The question for employers, he said, becomes whether they can understand the thinking and judgment that went into producing it.\n\nIn practice, a Chakra interview is designed to look more like doing the job than taking a traditional coding test. A candidate gets a task involving a real-world code repository, and they work through it in a canvas that includes an AI assistant. As the candidate works, Chakra can use the context of what they are doing to ask follow-up questions, such as why they chose one approach over another, or how their solution would change if a new constraint were introduced.\n\nRavisankar told TechCrunch that Chakra is changing the basic structure of the hiring process itself. What previously involved three separate rounds, comprising a recruiter screen, take-home assessment, and follow-up interview with an engineer, is now combined into a single Chakra interview, he said.\n\nGiving candidates access to AI during an interview might seem to make it easier to cheat. However, HackerRank says it found the opposite. Suspicious-activity flags, Ravisankar said, were 70% to 80% lower in Chakra interviews than in comparable traditional HackerRank assessments, though the rate varied depending on factors such as geography and seniority.\n\nRavisankar told TechCrunch that giving candidates access to AI reduces the incentive to secretly use outside tools that can feed them answers during an interview.\n\nLaunched at TechCrunch Disrupt in 2012, HackerRank built its business around coding challenges, eventually helping companies assess and hire developers based on their technical skills. The Y Combinator-backed startup now has more than 3,000 business customers, including Amazon, Nvidia, Clay, and Replit, and a community of over 30 million developers worldwide.\n\nChakra represents a bet against the kind of technical assessment business HackerRank spent years building. Its traditional product largely tested whether developers could solve coding problems correctly. Nonetheless, Ravisankar believes AI has made HackerRank’s earlier model less useful to measure engineering ability.\n\nRavisankar compared the transition internally to Apple moving from the iPod to the iPhone, as the old product still has value, but the new one represents where the startup believes the market is headed. “Chakra is going to be the headline,” he said. “It’s going to be the way that we’re going to move forward.”\n\nHowever, giving AI a deeper role in evaluating candidates raises a different set of questions, particularly around how much of a hiring decision companies should delegate to an algorithm. Ravisankar told TechCrunch that Chakra is designed to score candidates rather than make the final hiring decision, which remains with humans.\n\nAI, he said, can handle more structured parts of an interview by consistently applying criteria set by an employer, while human interviewers can spend more time determining whether they actually want to work with a candidate and answering questions about the company, team, and role.\n\n“AI is way less biased than humans, if you tune it properly,” Ravisankar said, arguing that an AI system can be instructed to follow the same rubric for every candidate rather than being influenced by factors such as a candidate’s background or education.\n\nApplying the same criteria consistently, however, does not necessarily make an AI system free of bias. Automated hiring tools can inherit or amplify biases from the data, models, and criteria used to build them, prompting regulators to scrutinize their use in employment decisions.\n\nThe use of AI in hiring is already drawing regulatory scrutiny. New York City, for instance, requires employers using certain automated employment decision tools to subject them to an independent bias audit and provide notice to candidates before using them. Ravisankar acknowledged that hiring is a regulated area and said complying with such requirements is part of what HackerRank has had to build for.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "What happens when AI moves from helping job candidates to evaluating them? HackerRank, a platform used by companies to assess and hire developers, is offering a glimpse at what that future of job interviews could look like with Chakra, an AI agent that conducts interviews, observes candidates as they work, and evaluates not just their answers but also how they got there.",
+      "heading": 0
+    },
+    {
+      "text": "After around six months in beta, HackerRank is making Chakra generally available to its customers on Monday. The startup says the AI interviewer has already conducted more than 500,000 interviews during testing, with companies including Snowflake, Snorkel, and Capgemini among those that tried it, while HackerRank also tested the product internally.",
+      "heading": 0
+    },
+    {
+      "text": "AI has been a staple in job interviews for some time, with companies using voice agents and other automated tools to screen candidates and make the hiring process more efficient. Job seekers, meanwhile, have increasingly gained their own AI tools to help them navigate interviews, sometimes without employers knowing.",
+      "heading": 0
+    },
+    {
+      "text": "With Chakra, HackerRank is betting AI can change not only how interviews are conducted, but also what employers can measure. Beyond whether someone arrives at the right answer, the startup wants to assess harder-to-capture signals such as critical thinking and judgment, as well as what it calls “AI fluency” — how well a candidate frames a problem for AI, judges its output, and steers it toward a solution.",
+      "heading": 0
+    },
+    {
+      "text": "“The previous modality of evaluation was evaluating the output,” HackerRank co-founder and CEO Vivek Ravisankar said in an interview. “Now, because of AI, anybody can produce an artifact.” The question for employers, he said, becomes whether they can understand the thinking and judgment that went into producing it.",
+      "heading": 0
+    },
+    {
+      "text": "In practice, a Chakra interview is designed to look more like doing the job than taking a traditional coding test. A candidate gets a task involving a real-world code repository, and they work through it in a canvas that includes an AI assistant. As the candidate works, Chakra can use the context of what they are doing to ask follow-up questions, such as why they chose one approach over another, or how their solution would change if a new constraint were introduced.",
+      "heading": 0
+    },
+    {
+      "text": "Ravisankar told TechCrunch that Chakra is changing the basic structure of the hiring process itself. What previously involved three separate rounds, comprising a recruiter screen, take-home assessment, and follow-up interview with an engineer, is now combined into a single Chakra interview, he said.",
+      "heading": 0
+    },
+    {
+      "text": "Giving candidates access to AI during an interview might seem to make it easier to cheat. However, HackerRank says it found the opposite. Suspicious-activity flags, Ravisankar said, were 70% to 80% lower in Chakra interviews than in comparable traditional HackerRank assessments, though the rate varied depending on factors such as geography and seniority.",
+      "heading": 0
+    },
+    {
+      "text": "Ravisankar told TechCrunch that giving candidates access to AI reduces the incentive to secretly use outside tools that can feed them answers during an interview.",
+      "heading": 0
+    },
+    {
+      "text": "Launched at TechCrunch Disrupt in 2012, HackerRank built its business around coding challenges, eventually helping companies assess and hire developers based on their technical skills. The Y Combinator-backed startup now has more than 3,000 business customers, including Amazon, Nvidia, Clay, and Replit, and a community of over 30 million developers worldwide.",
+      "heading": 0
+    },
+    {
+      "text": "Chakra represents a bet against the kind of technical assessment business HackerRank spent years building. Its traditional product largely tested whether developers could solve coding problems correctly. Nonetheless, Ravisankar believes AI has made HackerRank’s earlier model less useful to measure engineering ability.",
+      "heading": 0
+    },
+    {
+      "text": "Ravisankar compared the transition internally to Apple moving from the iPod to the iPhone, as the old product still has value, but the new one represents where the startup believes the market is headed. “Chakra is going to be the headline,” he said. “It’s going to be the way that we’re going to move forward.”",
+      "heading": 0
+    },
+    {
+      "text": "However, giving AI a deeper role in evaluating candidates raises a different set of questions, particularly around how much of a hiring decision companies should delegate to an algorithm. Ravisankar told TechCrunch that Chakra is designed to score candidates rather than make the final hiring decision, which remains with humans.",
+      "heading": 0
+    },
+    {
+      "text": "AI, he said, can handle more structured parts of an interview by consistently applying criteria set by an employer, while human interviewers can spend more time determining whether they actually want to work with a candidate and answering questions about the company, team, and role.",
+      "heading": 0
+    },
+    {
+      "text": "“AI is way less biased than humans, if you tune it properly,” Ravisankar said, arguing that an AI system can be instructed to follow the same rubric for every candidate rather than being influenced by factors such as a candidate’s background or education.",
+      "heading": 0
+    },
+    {
+      "text": "Applying the same criteria consistently, however, does not necessarily make an AI system free of bias. Automated hiring tools can inherit or amplify biases from the data, models, and criteria used to build them, prompting regulators to scrutinize their use in employment decisions.",
+      "heading": 0
+    },
+    {
+      "text": "The use of AI in hiring is already drawing regulatory scrutiny. New York City, for instance, requires employers using certain automated employment decision tools to subject them to an independent bias audit and provide notice to candidates before using them. Ravisankar acknowledged that hiring is a regulated area and said complying with such requirements is part of what HackerRank has had to build for.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

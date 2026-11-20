@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "How do we explain OpenAI’s executive exodus?",
+  "slug": "how-do-we-explain-openai-s-executive-exodus",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2182154299.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+    "episode": ""
+  },
+  "words": 719,
+  "lines": 15,
+  "duration": 240,
+  "text": "OpenAI is the original frontier lab. Its latest publicly released model, GPT-5.6, is one of the most capable and efficient on the market. Its desktop app for agentic coding and workplace tasks has seen its user base grow by about 15 million subscribers in the last two months.\n\nOpenAI has also already filed to go public. So why are all the executives heading out the door?\n\nSince the turn of the year, more than a dozen executives have departed, including CEO Sam Altman’s top deputy, the chief operating officer, a chief revenue officer, its chief marketing officer, as well as several different team leads. Yesterday, news broke that Chris Malone, the company’s head of data centers, left the company last week after joining in March 2025.\n\nSome of those departures were due to health issues, and others were due to reorganization that occurred as Altman sought to cut expensive “side projects” and focus on revenue-generating opportunities.\n\nStill, Malone’s unexplained departure is striking, if only because OpenAI’s primary advantage over rivals like Anthropic or SpaceX is its investment in compute. OpenAI noted to TechCrunch that the departure follows a reorganization of the company’s infrastructure team, which is now led by vice president Sachin Katti, whereas Malone once reported directly to president Greg Brockman. It’s not surprising that a senior executive might leave a company if he suddenly finds himself several rungs further down the ladder.\n\nThe frontier lab declined to comment on broader changes at the company, but it seems apparent that Brockman is reasserting his leadership. As co-founder and president, he played important roles building OpenAI’s early infrastructure, but he was relieved of most management responsibilities in 2019, when Altman became CEO.\n\nAfter that, Brockman played a disruptive role at the company, according to Karen Hao’s book “Empire of AI.” His contributions to individual projects like GPT-4 were undeniable, but he also seeded internal rivalries that helped kick off the “Blip” in 2023, when the company’s board briefly ousted Altman as CEO. Brockman would take a brief sabbatical in 2024 before returning to the company.\n\nToday, the infrastructure and product teams report to him. “I like to say that everyone reports to Greg at the end of the day,” Thibault Sottiaux, who leads the company’s API and app offerings, told TechCrunch.\n\nThe specter of the company’s IPO hangs over everything. In June, OpenAI said it had filed going-public disclosures confidentially with the SEC. Tapping into public markets would be a boon for the capital-hungry frontier lab, but it also brings the prospect of disclosing its financials around the same time as rival Anthropic, which is also planning its public debut. Anthropic, however, is reportedly profitable, while OpenAI is reportedly seeing its losses grow along with its revenue. Now, OpenAI’s IPO isn’t expected until 2027; the average company that files confidentially for an IPO usually hits the trading floor within about five months; SpaceX did so in less than two.\n\nAltman’s public comments about a bad past 12 months at the company and the internal reorganization jibes with a narrative that the company got over its skis with its IPO filing and is now reshaping the organization to make more money and carry less dead weight.\n\nThere’s a common cycle for some tech startups: Brilliant founders create the product, then bring in an experienced CEO to scale the company and prep it to go public. There was a sense of that dynamic when OpenAI brought in now-departed execs like Fidji Simo and Kevin Weil, who were veterans of multiple tech businesses — and now we’re seeing it again as Brockman’s influence grows. Before OpenAI, he was best known for building out Stripe’s business, and internally for championing the company’s go-to-market efforts.\n\nWith so much high-level turnover, OpenAI will need someone to fill the vacuum. The company will also need to trim its sails ahead of the IPO, boosting revenue and cutting costs wherever possible. For both problems, Brockman’s influence may be rising at the perfect time.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "OpenAI is the original frontier lab. Its latest publicly released model, GPT-5.6, is one of the most capable and efficient on the market. Its desktop app for agentic coding and workplace tasks has seen its user base grow by about 15 million subscribers in the last two months.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has also already filed to go public. So why are all the executives heading out the door?",
+      "heading": 0
+    },
+    {
+      "text": "Since the turn of the year, more than a dozen executives have departed, including CEO Sam Altman’s top deputy, the chief operating officer, a chief revenue officer, its chief marketing officer, as well as several different team leads. Yesterday, news broke that Chris Malone, the company’s head of data centers, left the company last week after joining in March 2025.",
+      "heading": 0
+    },
+    {
+      "text": "Some of those departures were due to health issues, and others were due to reorganization that occurred as Altman sought to cut expensive “side projects” and focus on revenue-generating opportunities.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Malone’s unexplained departure is striking, if only because OpenAI’s primary advantage over rivals like Anthropic or SpaceX is its investment in compute. OpenAI noted to TechCrunch that the departure follows a reorganization of the company’s infrastructure team, which is now led by vice president Sachin Katti, whereas Malone once reported directly to president Greg Brockman. It’s not surprising that a senior executive might leave a company if he suddenly finds himself several rungs further down the ladder.",
+      "heading": 0
+    },
+    {
+      "text": "The frontier lab declined to comment on broader changes at the company, but it seems apparent that Brockman is reasserting his leadership. As co-founder and president, he played important roles building OpenAI’s early infrastructure, but he was relieved of most management responsibilities in 2019, when Altman became CEO.",
+      "heading": 0
+    },
+    {
+      "text": "After that, Brockman played a disruptive role at the company, according to Karen Hao’s book “Empire of AI.” His contributions to individual projects like GPT-4 were undeniable, but he also seeded internal rivalries that helped kick off the “Blip” in 2023, when the company’s board briefly ousted Altman as CEO. Brockman would take a brief sabbatical in 2024 before returning to the company.",
+      "heading": 0
+    },
+    {
+      "text": "Today, the infrastructure and product teams report to him. “I like to say that everyone reports to Greg at the end of the day,” Thibault Sottiaux, who leads the company’s API and app offerings, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The specter of the company’s IPO hangs over everything. In June, OpenAI said it had filed going-public disclosures confidentially with the SEC. Tapping into public markets would be a boon for the capital-hungry frontier lab, but it also brings the prospect of disclosing its financials around the same time as rival Anthropic, which is also planning its public debut. Anthropic, however, is reportedly profitable, while OpenAI is reportedly seeing its losses grow along with its revenue. Now, OpenAI’s IPO isn’t expected until 2027; the average company that files confidentially for an IPO usually hits the trading floor within about five months; SpaceX did so in less than two.",
+      "heading": 0
+    },
+    {
+      "text": "Altman’s public comments about a bad past 12 months at the company and the internal reorganization jibes with a narrative that the company got over its skis with its IPO filing and is now reshaping the organization to make more money and carry less dead weight.",
+      "heading": 0
+    },
+    {
+      "text": "There’s a common cycle for some tech startups: Brilliant founders create the product, then bring in an experienced CEO to scale the company and prep it to go public. There was a sense of that dynamic when OpenAI brought in now-departed execs like Fidji Simo and Kevin Weil, who were veterans of multiple tech businesses — and now we’re seeing it again as Brockman’s influence grows. Before OpenAI, he was best known for building out Stripe’s business, and internally for championing the company’s go-to-market efforts.",
+      "heading": 0
+    },
+    {
+      "text": "With so much high-level turnover, OpenAI will need someone to fill the vacuum. The company will also need to trim its sails ahead of the IPO, boosting revenue and cutting costs wherever possible. For both problems, Brockman’s influence may be rising at the perfect time.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

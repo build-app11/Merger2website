@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+  "slug": "microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-wind",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Microsoft-Surface-Laptop-Ultra.png?resize=1200,677",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+    "episode": ""
+  },
+  "words": 487,
+  "lines": 13,
+  "duration": 162,
+  "text": "Back in June, Nvidia announced that it had secured agreements with Microsoft and a host of other PC makers to develop AI- and agent-ready PCs for Windows based on its RTX Spark chip, but details on the machines were scant at the time.\n\nOn Wednesday, at an event held in San Francisco during the city’s Tech Week, Microsoft revealed the specs and price for its new Surface Laptop Ultra. The PC comes in two base models, one that starts at $2,600 and one with a more powerful chip that starts at $3,700. Prices rise from there with options for more memory and storage, up to $5,900. (Microsoft says the highest-end device is already out of stock.)\n\nMicrosoft also revealed its new workstation powered by the RTX Spark chip: the Surface RTX Spark Dev Box, which starts priced at $6,000 and comes equipped with Microsoft dev tools like VS Code, GitHub Copilot CLI, WSL, and PowerShell 7.\n\nThe pitch for both this PC and workstation is that they are designed to run AI models on-device locally (and for free) with the CPU, GPU, unified memory, and other hardware modifications, like superior cooling, necessary to handle them.\n\nPlus, they are running a revamped version of Windows 11 that includes a feature called “Execution Containers.” This makes it easier to sandbox AI agents, the company says. That feature will be available for all Windows 11 users, Microsoft CEO Satya Nadella said at the event.\n\nNadella explained: “One of the things we realized in the last 3-4 years is that just having a model doesn’t do much for anything. You really do need to orchestrate, and you need to have memory outside of the model. You need to have this harnessed layer that is able to take multiple models plus context, plus memory, and the action space.”\n\nHe added that Microsoft is enabling that “not just for our apps but apps for anyone’s agent. That’s what the Windows platform is all about going forward.”\n\nThe devices are clearly aimed at developers, so much so that Microsoft is offering up to $1,000 off to people who trade in a MacBook Pro, as Macs have become a popular choice for developers and AI agent enthusiasts, particularly in Silicon Valley.\n\nStill, these Surface PCs, with such powerful graphics processing, are also capable of content creation, video processing, and gaming, the company promises.\n\nMicrosoft wasn’t the only PC company to announce the specs for its new Nvidia-RTX Spark AI Windows PCs on Wednesday. Dell also announced the details of its previously announced Dell XPS 16 Creator Edition PC. It’s available for preorder now for a later October delivery at Best Buy, priced at $3,800.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Back in June, Nvidia announced that it had secured agreements with Microsoft and a host of other PC makers to develop AI- and agent-ready PCs for Windows based on its RTX Spark chip, but details on the machines were scant at the time.",
+      "heading": 0
+    },
+    {
+      "text": "On Wednesday, at an event held in San Francisco during the city’s Tech Week, Microsoft revealed the specs and price for its new Surface Laptop Ultra. The PC comes in two base models, one that starts at $2,600 and one with a more powerful chip that starts at $3,700. Prices rise from there with options for more memory and storage, up to $5,900. (Microsoft says the highest-end device is already out of stock.)",
+      "heading": 0
+    },
+    {
+      "text": "Microsoft also revealed its new workstation powered by the RTX Spark chip: the Surface RTX Spark Dev Box, which starts priced at $6,000 and comes equipped with Microsoft dev tools like VS Code, GitHub Copilot CLI, WSL, and PowerShell 7.",
+      "heading": 0
+    },
+    {
+      "text": "The pitch for both this PC and workstation is that they are designed to run AI models on-device locally (and for free) with the CPU, GPU, unified memory, and other hardware modifications, like superior cooling, necessary to handle them.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, they are running a revamped version of Windows 11 that includes a feature called “Execution Containers.” This makes it easier to sandbox AI agents, the company says. That feature will be available for all Windows 11 users, Microsoft CEO Satya Nadella said at the event.",
+      "heading": 0
+    },
+    {
+      "text": "Nadella explained: “One of the things we realized in the last 3-4 years is that just having a model doesn’t do much for anything. You really do need to orchestrate, and you need to have memory outside of the model. You need to have this harnessed layer that is able to take multiple models plus context, plus memory, and the action space.”",
+      "heading": 0
+    },
+    {
+      "text": "He added that Microsoft is enabling that “not just for our apps but apps for anyone’s agent. That’s what the Windows platform is all about going forward.”",
+      "heading": 0
+    },
+    {
+      "text": "The devices are clearly aimed at developers, so much so that Microsoft is offering up to $1,000 off to people who trade in a MacBook Pro, as Macs have become a popular choice for developers and AI agent enthusiasts, particularly in Silicon Valley.",
+      "heading": 0
+    },
+    {
+      "text": "Still, these Surface PCs, with such powerful graphics processing, are also capable of content creation, video processing, and gaming, the company promises.",
+      "heading": 0
+    },
+    {
+      "text": "Microsoft wasn’t the only PC company to announce the specs for its new Nvidia-RTX Spark AI Windows PCs on Wednesday. Dell also announced the details of its previously announced Dell XPS 16 Creator Edition PC. It’s available for preorder now for a later October delivery at Best Buy, priced at $3,800.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

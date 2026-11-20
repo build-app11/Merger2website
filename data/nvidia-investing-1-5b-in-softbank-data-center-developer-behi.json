@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+  "slug": "nvidia-investing-1-5b-in-softbank-data-center-developer-behi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+    "episode": ""
+  },
+  "words": 343,
+  "lines": 24,
+  "duration": 114,
+  "text": "Posted:\n\nTim De Chant\n\nNvidia investing $1.5B in SoftBank data center developer behind OpenAI project\n\nNvidia said on Monday that it will invest $1.5 billion in SB Energy, a data center linked to SoftBank and OpenAI.\n\nThe investment ensures that Nvidia will be the sole supplier of compute infrastructure at OpenAI’s Ports-Pike data center near Cincinnati, Ohio. Nvidia will also provide up to $105 billion in credit to help build the facility, which could scale from an initial 4.25 gigawatts to 8 gigawatts in size, according to documents the company filed with the SEC.\n\nSB Energy’s existing investors include SoftBank and OpenAI. SoftBank had previously held $5.8 billion worth of Nvidia stock, which it sold in November to help fund other AI investments.\n\nThe data center and power developer will build a 9.2 gigawatt natural gas power plant on the site, which is land owned by the U.S. Department of Energy. The site previously enriched uranium for the U.S. nuclear arsenal and for U.S. Navy submarines.\n\nThe power plant is expected to cost $33 billion. The steep sum reflects the skyrocketing costs of building natural gas power plants, which have risen 66% in the last two years, according to BloombergNEF.\n\nBy the time SB Energy’s power plant and others are completed, they’ll be competing for natural gas with export markets, a confluence that could triple natural gas prices in some parts of the country.\n\nTopics\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nAmanda Silberling\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nJulie Bort\n\nNvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt\n\nDominic-Madori Davis\n\nMarina Temkin\n\nLatest in AI\n\nAnthropic’s IPO could deliver $156 billion to charity\n\nTim Fernholz\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nMeta’s AI agent Muse is mixing up conversations and exposing private data, report says\n\nAisha Malik",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia said on Monday that it will invest $1.5 billion in SB Energy, a data center linked to SoftBank and OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "The investment ensures that Nvidia will be the sole supplier of compute infrastructure at OpenAI’s Ports-Pike data center near Cincinnati, Ohio. Nvidia will also provide up to $105 billion in credit to help build the facility, which could scale from an initial 4.25 gigawatts to 8 gigawatts in size, according to documents the company filed with the SEC.",
+      "heading": 0
+    },
+    {
+      "text": "SB Energy’s existing investors include SoftBank and OpenAI. SoftBank had previously held $5.8 billion worth of Nvidia stock, which it sold in November to help fund other AI investments.",
+      "heading": 0
+    },
+    {
+      "text": "The data center and power developer will build a 9.2 gigawatt natural gas power plant on the site, which is land owned by the U.S. Department of Energy. The site previously enriched uranium for the U.S. nuclear arsenal and for U.S. Navy submarines.",
+      "heading": 0
+    },
+    {
+      "text": "The power plant is expected to cost $33 billion. The steep sum reflects the skyrocketing costs of building natural gas power plants, which have risen 66% in the last two years, according to BloombergNEF.",
+      "heading": 0
+    },
+    {
+      "text": "By the time SB Energy’s power plant and others are completed, they’ll be competing for natural gas with export markets, a confluence that could triple natural gas prices in some parts of the country.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "heading": 0
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156 billion to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "heading": 0
+    },
+    {
+      "text": "Aisha Malik",
+      "heading": 1
+    }
+  ]
+}

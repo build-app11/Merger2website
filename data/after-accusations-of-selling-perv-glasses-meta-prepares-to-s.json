@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+  "slug": "after-accusations-of-selling-perv-glasses-meta-prepares-to-s",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/zuck-glasses-2173579471-e1788354102893.jpg?resize=1200,761",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+    "episode": ""
+  },
+  "words": 324,
+  "lines": 17,
+  "duration": 108,
+  "text": "Posted:\n\nLucas Ropek\n\nAfter accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera\n\nMeta’s camera-equipped smart glasses have proven more successful than other entrants into the market, but they have also deeply disturbed certain consumers who see them as invasive emblems of a dystopian surveillance society run amok. Now, as the company weathers complaints that it’s selling “pervert glasses,” it has reportedly decided to sell a pair that doesn’t come with integrated spy equipment.\n\nThe Information reports that Meta is developing a new smart glasses model, dubbed Luna, that, sans cameras, comes equipped with a convenient system to communicate with the company’s AI chatbot and Muse, its AI consumer agent. The glasses include six built-in microphones so users can communicate with the chatbot, as well as a button on the side of the glasses that, when pressed, activates the AI system.\n\nLuna may be unveiled as soon as Meta Connect, Meta’s annual hardware/developer event happening in Menlo Park next week, the outlet notes.\n\nTechCrunch reached out to Meta for more information.\n\nThe smart glasses industry has grown over the past few years, with Meta positioned near the front of the pack of providers. However, concerns over usability, cost, and privacy have dogged the business, with many consumers still unsure of how, why, or if they should use the devices. Meta’s Reality Labs, which is responsible for developing its smart glasses line, is still losing a gargantuan amount of money, as its earnings report from April revealed.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nSarah Perez\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "heading": 0
+    },
+    {
+      "text": "Meta’s camera-equipped smart glasses have proven more successful than other entrants into the market, but they have also deeply disturbed certain consumers who see them as invasive emblems of a dystopian surveillance society run amok. Now, as the company weathers complaints that it’s selling “pervert glasses,” it has reportedly decided to sell a pair that doesn’t come with integrated spy equipment.",
+      "heading": 0
+    },
+    {
+      "text": "The Information reports that Meta is developing a new smart glasses model, dubbed Luna, that, sans cameras, comes equipped with a convenient system to communicate with the company’s AI chatbot and Muse, its AI consumer agent. The glasses include six built-in microphones so users can communicate with the chatbot, as well as a button on the side of the glasses that, when pressed, activates the AI system.",
+      "heading": 0
+    },
+    {
+      "text": "Luna may be unveiled as soon as Meta Connect, Meta’s annual hardware/developer event happening in Menlo Park next week, the outlet notes.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch reached out to Meta for more information.",
+      "heading": 0
+    },
+    {
+      "text": "The smart glasses industry has grown over the past few years, with Meta positioned near the front of the pack of providers. However, concerns over usability, cost, and privacy have dogged the business, with many consumers still unsure of how, why, or if they should use the devices. Meta’s Reality Labs, which is responsible for developing its smart glasses line, is still losing a gargantuan amount of money, as its earnings report from April revealed.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

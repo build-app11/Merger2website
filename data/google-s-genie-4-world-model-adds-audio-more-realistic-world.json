@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+  "slug": "google-s-genie-4-world-model-adds-audio-more-realistic-world",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+    "episode": ""
+  },
+  "words": 749,
+  "lines": 18,
+  "duration": 250,
+  "text": "Google DeepMind released its newest world model, Genie 4, in research preview on Tuesday. The latest model generates the most photorealistic and interactive worlds yet, allowing users to type prompts mid-simulation to change the scene. The model also generates real-time audio that matches the simulated world, including music, ambient noises, and interactive dialogue.\n\nThe release of Genie 4 comes a couple of months after AI video startup Runway released its second world model, GWM Worlds 2, a playable model that responds dynamically to user inputs and includes audio generation. At the same time, the world model industry is beginning to consolidate. Fei-Fei Li’s World Labs is being acquired by AMD, Amazon is in talks to buy Decart, and Rivian just acquired Third Dimension to bring simulation capabilities in-house for self-driving testing.\n\nGenie 4 is Google’s latest move to stay ahead in the crowded field.\n\nGoogle released its predecessor, Genie 3, as a research preview a little over a year ago. Aside from being far more photorealistic and featuring audio, Genie 4 allows for free-form edits, like changing the weather or camera angle in real time or adding new people or objects. It can maintain a consistent scene for up to two minutes, double its predecessor’s limit, and offers better physics and more humanlike characters.\n\nGemini, Google’s AI model, is also more closely integrated with Genie 4, acting as the director that plans steps and checks frames while Genie creates the visuals. In a research experiment tied to Gemini Robotics, a Gemini 4 Argon model broke down tasks into steps that Genie 4 simulated in real time. The experiment shows a possible way to test robot scenarios in simulation before they happen in the real world.\n\n“What we’ll increasingly see in the future are these hybrid world models, where you have a combination of Gemini writing code and text, and Genie ingesting that in real time and simulating reality at different levels of abstraction,” Tejas Kulkarni, research director at Google, said during a briefing.\n\nAs with other world models, the pitched commercial use cases include gaming, interactive learning, and robotics. One speculative example of interactive learning would be entering a painting of a historical scene and chatting to the painting’s subjects about the event portrayed.\n\nBut “trusted testers” — the people who get first access to Google’s cutting-edge products — are pointing to a possible new use: prototyping films.\n\n“The real time aspect becomes most valuable in the areas where keeping a state of flow in the creativity space becomes incredibly useful,” Diego Rivas, a Google DeepMind engineer, said during a press briefing. “For example, in the ideation phase, in the storyboarding phase — anytime you’re kind of in need of rapid ideation.”\n\nGoogle also offers Veo, its AI video-generation model that makes high-definition clips with built-in synchronized audio from text, image, or video prompts — a tool that has been growing in popularity among filmmakers.\n\nRivas added that users could, eventually, rely on Gemini Omni, a multimodal large language model that can generate video from images, audio, and text, to turn those prototypes into creative assets. Though those capabilities, he says, are still a ways off.\n\nThroughout the briefing, Rivas stressed that it’s still early days for Genie 4 and that it’s not yet clear what the end-to-end product experience will be. The team also acknowledged that Genie 4 still has gaps: Details and objects can drift the longer a simulation runs, and they still haven’t quite figured out how to ensure the audio will be accurate and any in-world text will be legible.\n\nGenie 4 is available now as a research preview for trusted testers. In the coming weeks, the model will roll out to Google AI Ultra subscribers in Project Genie, Google’s AI tool for generating interactive worlds from text or image prompts, and early access partners of the Gemini API and Google AI Studio.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Google DeepMind released its newest world model, Genie 4, in research preview on Tuesday. The latest model generates the most photorealistic and interactive worlds yet, allowing users to type prompts mid-simulation to change the scene. The model also generates real-time audio that matches the simulated world, including music, ambient noises, and interactive dialogue.",
+      "heading": 0
+    },
+    {
+      "text": "The release of Genie 4 comes a couple of months after AI video startup Runway released its second world model, GWM Worlds 2, a playable model that responds dynamically to user inputs and includes audio generation. At the same time, the world model industry is beginning to consolidate. Fei-Fei Li’s World Labs is being acquired by AMD, Amazon is in talks to buy Decart, and Rivian just acquired Third Dimension to bring simulation capabilities in-house for self-driving testing.",
+      "heading": 0
+    },
+    {
+      "text": "Genie 4 is Google’s latest move to stay ahead in the crowded field.",
+      "heading": 0
+    },
+    {
+      "text": "Google released its predecessor, Genie 3, as a research preview a little over a year ago. Aside from being far more photorealistic and featuring audio, Genie 4 allows for free-form edits, like changing the weather or camera angle in real time or adding new people or objects. It can maintain a consistent scene for up to two minutes, double its predecessor’s limit, and offers better physics and more humanlike characters.",
+      "heading": 0
+    },
+    {
+      "text": "Gemini, Google’s AI model, is also more closely integrated with Genie 4, acting as the director that plans steps and checks frames while Genie creates the visuals. In a research experiment tied to Gemini Robotics, a Gemini 4 Argon model broke down tasks into steps that Genie 4 simulated in real time. The experiment shows a possible way to test robot scenarios in simulation before they happen in the real world.",
+      "heading": 0
+    },
+    {
+      "text": "“What we’ll increasingly see in the future are these hybrid world models, where you have a combination of Gemini writing code and text, and Genie ingesting that in real time and simulating reality at different levels of abstraction,” Tejas Kulkarni, research director at Google, said during a briefing.",
+      "heading": 0
+    },
+    {
+      "text": "As with other world models, the pitched commercial use cases include gaming, interactive learning, and robotics. One speculative example of interactive learning would be entering a painting of a historical scene and chatting to the painting’s subjects about the event portrayed.",
+      "heading": 0
+    },
+    {
+      "text": "But “trusted testers” — the people who get first access to Google’s cutting-edge products — are pointing to a possible new use: prototyping films.",
+      "heading": 0
+    },
+    {
+      "text": "“The real time aspect becomes most valuable in the areas where keeping a state of flow in the creativity space becomes incredibly useful,” Diego Rivas, a Google DeepMind engineer, said during a press briefing. “For example, in the ideation phase, in the storyboarding phase — anytime you’re kind of in need of rapid ideation.”",
+      "heading": 0
+    },
+    {
+      "text": "Google also offers Veo, its AI video-generation model that makes high-definition clips with built-in synchronized audio from text, image, or video prompts — a tool that has been growing in popularity among filmmakers.",
+      "heading": 0
+    },
+    {
+      "text": "Rivas added that users could, eventually, rely on Gemini Omni, a multimodal large language model that can generate video from images, audio, and text, to turn those prototypes into creative assets. Though those capabilities, he says, are still a ways off.",
+      "heading": 0
+    },
+    {
+      "text": "Throughout the briefing, Rivas stressed that it’s still early days for Genie 4 and that it’s not yet clear what the end-to-end product experience will be. The team also acknowledged that Genie 4 still has gaps: Details and objects can drift the longer a simulation runs, and they still haven’t quite figured out how to ensure the audio will be accurate and any in-world text will be legible.",
+      "heading": 0
+    },
+    {
+      "text": "Genie 4 is available now as a research preview for trusted testers. In the coming weeks, the model will roll out to Google AI Ultra subscribers in Project Genie, Google’s AI tool for generating interactive worlds from text or image prompts, and early access partners of the Gemini API and Google AI Studio.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

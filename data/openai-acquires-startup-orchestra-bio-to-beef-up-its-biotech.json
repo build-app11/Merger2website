@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+  "slug": "openai-acquires-startup-orchestra-bio-to-beef-up-its-biotech",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+    "episode": ""
+  },
+  "words": 296,
+  "lines": 18,
+  "duration": 99,
+  "text": "Posted:\n\nJulie Bort\n\nOpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business\n\nOpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced on its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC.\n\nOrchestra creates AI agents that help biotech companies manage the minutiae of drug-discovery operations, from tracking finances to resolving scheduling issues with clinical trials.\n\nOpenAI says it’s adding Orchestra’s team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. OpenAI has already won some big names as customers for Rosalind, including, it says, Moderna⁠ and Novo Nordisk⁠.\n\nThe acquisition is a classic example of how the biggest AI labs (namely OpenAI and Anthropic) are building ever more software for the biggest industries, like pharma. In the startup world, there is an ongoing fear that at any moment, the labs will launch new features and become competitors. In this case, Orchestra is getting absorbed, rather than stomped out.\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced on its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC.",
+      "heading": 0
+    },
+    {
+      "text": "Orchestra creates AI agents that help biotech companies manage the minutiae of drug-discovery operations, from tracking finances to resolving scheduling issues with clinical trials.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI says it’s adding Orchestra’s team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. OpenAI has already won some big names as customers for Rosalind, including, it says, Moderna⁠ and Novo Nordisk⁠.",
+      "heading": 0
+    },
+    {
+      "text": "The acquisition is a classic example of how the biggest AI labs (namely OpenAI and Anthropic) are building ever more software for the biggest industries, like pharma. In the startup world, there is an ongoing fear that at any moment, the labs will launch new features and become competitors. In this case, Orchestra is getting absorbed, rather than stomped out.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

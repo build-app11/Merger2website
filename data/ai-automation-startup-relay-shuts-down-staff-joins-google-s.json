@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+  "slug": "ai-automation-startup-relay-shuts-down-staff-joins-google-s",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/10/JacobBank_founder_headshot-e1665566816221.jpg?resize=1200,674",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+    "episode": ""
+  },
+  "words": 420,
+  "lines": 13,
+  "duration": 140,
+  "text": "Relay, an AI-powered workflow automation tool that was launched in 2021 with the goal of becoming the new Zapier, is shutting down, and some of its staff — including its top executive — are joining Google’s Chrome team.\n\nJacob Bank, Relay’s founder and CEO, shared a company announcement Monday that reveals the app will be shutting down access for paying customers on September 14. Free customers would have already lost access as of August 15. The app’s closure was initially announced in July.\n\nBank, who previously spent a little over six years at Google, revealed that he would now be rejoining the tech giant as VP of Product for Google Chrome, where he will lead the product and developer relations teams for Chrome, according to his LinkedIn.\n\n“I’ve spent my whole career doing one thing: building tools that help people get more done with AI, without sacrificing their personal creativity or insights,” said Bank in a post on X. “And joining the Chrome team is an ideal opportunity to bring those experiences to many, many more people.”\n\n“We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,” he added.\n\nBank originally joined Google in 2015 after his previous startup, a scheduling app called Timeful, was acquired by the search giant. At Google, he worked in a number of different areas, including as product lead for Gmail, Google Calendar, and Google Chat, before eventually leaving to launch Relay.\n\nSimilar to Timeful, Relay offered users productivity upgrades via workflow automation, allowing businesses to streamline repetitive tasks like document drafting and copyediting, as well as various project management tasks. TechCrunch reached out to Google and to Relay for more information.\n\nJust how Bank and others plan to further integrate AI into Chrome is a hanging question, though Bank calls Chrome “a perfect place to collaborate with agents.”\n\nThe move follows a steady path of AI integration into Google’s user experience. The integration of Gemini into search has fundamentally altered Google’s front end — not to mention the rest of the internet. Gemini has also been integrated into Chrome, where it serves as an optional in-browser assistant.\n\nOverall, users seem to be responding well to these integrations, as Google recently reported that Gemini had crested 1 billion users.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Relay, an AI-powered workflow automation tool that was launched in 2021 with the goal of becoming the new Zapier, is shutting down, and some of its staff — including its top executive — are joining Google’s Chrome team.",
+      "heading": 0
+    },
+    {
+      "text": "Jacob Bank, Relay’s founder and CEO, shared a company announcement Monday that reveals the app will be shutting down access for paying customers on September 14. Free customers would have already lost access as of August 15. The app’s closure was initially announced in July.",
+      "heading": 0
+    },
+    {
+      "text": "Bank, who previously spent a little over six years at Google, revealed that he would now be rejoining the tech giant as VP of Product for Google Chrome, where he will lead the product and developer relations teams for Chrome, according to his LinkedIn.",
+      "heading": 0
+    },
+    {
+      "text": "“I’ve spent my whole career doing one thing: building tools that help people get more done with AI, without sacrificing their personal creativity or insights,” said Bank in a post on X. “And joining the Chrome team is an ideal opportunity to bring those experiences to many, many more people.”",
+      "heading": 0
+    },
+    {
+      "text": "“We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "Bank originally joined Google in 2015 after his previous startup, a scheduling app called Timeful, was acquired by the search giant. At Google, he worked in a number of different areas, including as product lead for Gmail, Google Calendar, and Google Chat, before eventually leaving to launch Relay.",
+      "heading": 0
+    },
+    {
+      "text": "Similar to Timeful, Relay offered users productivity upgrades via workflow automation, allowing businesses to streamline repetitive tasks like document drafting and copyediting, as well as various project management tasks. TechCrunch reached out to Google and to Relay for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Just how Bank and others plan to further integrate AI into Chrome is a hanging question, though Bank calls Chrome “a perfect place to collaborate with agents.”",
+      "heading": 0
+    },
+    {
+      "text": "The move follows a steady path of AI integration into Google’s user experience. The integration of Gemini into search has fundamentally altered Google’s front end — not to mention the rest of the internet. Gemini has also been integrated into Chrome, where it serves as an optional in-browser assistant.",
+      "heading": 0
+    },
+    {
+      "text": "Overall, users seem to be responding well to these integrations, as Google recently reported that Gemini had crested 1 billion users.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Meta is expanding its AI agent Muse to small businesses",
+  "slug": "meta-is-expanding-its-ai-agent-muse-to-small-businesses",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GTM_Connectors_16x9-1.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+    "episode": ""
+  },
+  "words": 448,
+  "lines": 15,
+  "duration": 149,
+  "text": "Meta announced on Tuesday that it’s expanding its AI agent Muse to small businesses and adding new integrations, including Shopify, Dropbox, Slack, and more. The tech giant says the agent can help owners run their business and find new customers.\n\nBy plugging Muse into the software that small business owners are already using to manage sales, operations, and marketing, Meta is betting that an AI agent with context of a company’s whole operation will be more useful than a stand-alone chatbot, as it continues to compete against rivals like OpenAI and Google.\n\nMuse can also link to Instagram professional account analytics, Facebook pages, and Meta ad accounts. Meta says the AI agent also knows what a business sells, how a brand sounds, and what customers ask about most.\n\nAdditional integrations include Asana, Box, Canva, Figma, Granola, HighLevel, Intuit QuickBooks, Klaviyo, Lovable, Notion, Stripe, and Zoom.\n\nMuse for Small Business is available for free with usage limits. Businesses that want more usage can purchase a subscription plan.\n\n“Small businesses have been growing on our apps for nearly two decades,” Meta wrote in their blog post. “They told us they’re short on hours, not ideas. So we built Muse for Small Business to help get work done with the tools they already use.”\n\nMeta has been focused on expanding its AI tools beyond the consumer and into the enterprise market. The launch of Muse for Small Business comes a day after Meta introduced “Meta Enterprise Platform,” a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers. The move could help Meta see a return on all the money it’s pouring into AI.\n\nThe tech giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.\n\nMeta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more, to businesses and developers.\n\nThe rollout of Meta Enterprise Platform is built on the momentum of Muse, which launched earlier this month and topped the app charts in the U.S. and Canada ahead of ChatGPT.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Reporter\n\nAisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.\n\nYou can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Meta announced on Tuesday that it’s expanding its AI agent Muse to small businesses and adding new integrations, including Shopify, Dropbox, Slack, and more. The tech giant says the agent can help owners run their business and find new customers.",
+      "heading": 0
+    },
+    {
+      "text": "By plugging Muse into the software that small business owners are already using to manage sales, operations, and marketing, Meta is betting that an AI agent with context of a company’s whole operation will be more useful than a stand-alone chatbot, as it continues to compete against rivals like OpenAI and Google.",
+      "heading": 0
+    },
+    {
+      "text": "Muse can also link to Instagram professional account analytics, Facebook pages, and Meta ad accounts. Meta says the AI agent also knows what a business sells, how a brand sounds, and what customers ask about most.",
+      "heading": 0
+    },
+    {
+      "text": "Additional integrations include Asana, Box, Canva, Figma, Granola, HighLevel, Intuit QuickBooks, Klaviyo, Lovable, Notion, Stripe, and Zoom.",
+      "heading": 0
+    },
+    {
+      "text": "Muse for Small Business is available for free with usage limits. Businesses that want more usage can purchase a subscription plan.",
+      "heading": 0
+    },
+    {
+      "text": "“Small businesses have been growing on our apps for nearly two decades,” Meta wrote in their blog post. “They told us they’re short on hours, not ideas. So we built Muse for Small Business to help get work done with the tools they already use.”",
+      "heading": 0
+    },
+    {
+      "text": "Meta has been focused on expanding its AI tools beyond the consumer and into the enterprise market. The launch of Muse for Small Business comes a day after Meta introduced “Meta Enterprise Platform,” a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers. The move could help Meta see a return on all the money it’s pouring into AI.",
+      "heading": 0
+    },
+    {
+      "text": "The tech giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
+      "heading": 0
+    },
+    {
+      "text": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more, to businesses and developers.",
+      "heading": 0
+    },
+    {
+      "text": "The rollout of Meta Enterprise Platform is built on the momentum of Muse, which launched earlier this month and topped the app charts in the U.S. and Canada ahead of ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+  "slug": "apple-has-a-new-way-to-prove-your-iphone-photos-aren-t-ai-sl",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Apple-iPhone-18-Pro-Photos-app-Apple-Reference-Image-260909_big.jpg.large_2x.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+    "episode": ""
+  },
+  "words": 474,
+  "lines": 15,
+  "duration": 158,
+  "text": "In a world awash in AI slop, Apple wants you to trust what gets captured on its iPhones.\n\nThe company announced Wednesday during its Surprise and Shine event that it is introducing Apple Reference Image, a feature it says can prove whether an image taken with the iPhone 18 Pro is authentic.\n\n“This is vital for photojournalists and photographers,” the company said.\n\nWhen a photo is taken, the main camera sensor also captures signed sensor data, which Apple’s Private Cloud Compute service then turns into an “unalterable image” viewable in the Photos app. The reference image can then be compared with other versions of the photo to determine whether any changes have been made. Apple likens the reference image to a “digital negative.”\n\nWhile reference images will initially be viewable only in the Photos app, the company is making APIs available to developers so they can integrate the feature into their own apps.\n\nApple also said it will support the SynthID standard to help people determine whether images were created or altered with AI.\n\nApple Reference Image is one of several new features and upgrades to the company’s hardware and software that is focused on the camera.\n\nThe company said the iPhone 18 Pro includes its biggest camera improvement in years. One upgrade that will surely get the attention of photographers is the variable aperture on the new 48 megapixel fusion main camera. The aperture is what controls how much light enters the lens. This new main camera has a variable aperture, which means users have more control over the amount of light coming in and ultimately what the final image looks like. It should be especially helpful for those who like to take photos at night.\n\nTo achieve this, Apple said it developed a system of six laser-cut blades, each thinner than a human hair and made from a specialized polymer composite, a new rotor mechanism to control movements, and a custom-designed lens.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "In a world awash in AI slop, Apple wants you to trust what gets captured on its iPhones.",
+      "heading": 0
+    },
+    {
+      "text": "The company announced Wednesday during its Surprise and Shine event that it is introducing Apple Reference Image, a feature it says can prove whether an image taken with the iPhone 18 Pro is authentic.",
+      "heading": 0
+    },
+    {
+      "text": "“This is vital for photojournalists and photographers,” the company said.",
+      "heading": 0
+    },
+    {
+      "text": "When a photo is taken, the main camera sensor also captures signed sensor data, which Apple’s Private Cloud Compute service then turns into an “unalterable image” viewable in the Photos app. The reference image can then be compared with other versions of the photo to determine whether any changes have been made. Apple likens the reference image to a “digital negative.”",
+      "heading": 0
+    },
+    {
+      "text": "While reference images will initially be viewable only in the Photos app, the company is making APIs available to developers so they can integrate the feature into their own apps.",
+      "heading": 0
+    },
+    {
+      "text": "Apple also said it will support the SynthID standard to help people determine whether images were created or altered with AI.",
+      "heading": 0
+    },
+    {
+      "text": "Apple Reference Image is one of several new features and upgrades to the company’s hardware and software that is focused on the camera.",
+      "heading": 0
+    },
+    {
+      "text": "The company said the iPhone 18 Pro includes its biggest camera improvement in years. One upgrade that will surely get the attention of photographers is the variable aperture on the new 48 megapixel fusion main camera. The aperture is what controls how much light enters the lens. This new main camera has a variable aperture, which means users have more control over the amount of light coming in and ultimately what the final image looks like. It should be especially helpful for those who like to take photos at night.",
+      "heading": 0
+    },
+    {
+      "text": "To achieve this, Apple said it developed a system of six laser-cut blades, each thinner than a human hair and made from a specialized polymer composite, a new rotor mechanism to control movements, and a custom-designed lens.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

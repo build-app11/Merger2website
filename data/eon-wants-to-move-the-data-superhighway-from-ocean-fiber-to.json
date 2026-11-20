@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+  "slug": "eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/EON-Co-Founders_Horizontal_Philip-Cheung.jpg?resize=1200,898",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "episode": ""
+  },
+  "words": 980,
+  "lines": 20,
+  "duration": 327,
+  "text": "As hyperscalers build out data centers around the world, they need to move the bits back and forth, and that often relies on a somewhat brittle network of undersea fiberoptic cables crisscrossing the oceans.\n\nThose cables are tricky to access and repair, much less install. But alternatives aren’t easy to find: Radio transmissions don’t have the bandwidth, which rules out most wireless approaches on the ground or in orbit. But now, maybe lasers could do the job.\n\nEndeavor Optical Networks, a startup founded in May and emerging from stealth today with $10.75 million in seed funding from General Catalyst and Andreessen Horowitz, is betting on that plan. The co-founders, CEO Charlie Horowitz and CTO Tyler Presser, aim to launch a network of laser-equipped spacecraft to link data centers from orbit.\n\nMost satellite communications networks, even those that provide broadband internet service, aren’t robust enough to carry data at 200 terabits a second or more, the speed of undersea fiber.\n\nHowever, more powerful satellites and advances in optical technology are making space-to-ground communications with lasers more feasible. NASA used laser comms to beam back data from its most recent moon mission, while a handful of private space companies, including York, Kepler, and Cailabs, have demonstrated links between Earth orbit and the ground.\n\nThose connections, however, aimed for a throughput of 2.5 Gbps, and EON has a bigger starting goal, Horowitz says: throughput of 2.4 terabits a second. That will require some secret sauce to deal with one of the biggest problems with laser comms — how the signal is distorted by the atmosphere as it passes through it, particularly when clouds are blocking the way.\n\nEON intends to build a network of about 20 satellites, each able to provide a dedicated link between two continents, with the initial fleet providing 24-hour coverage for early customers. The company will carefully choose ground stations in different regions to serve local data centers and CDNs, using redundant sites and leveraging weather data to ensure a reliable link.\n\nThe startup is talking to hyperscalers and AI labs as customers, since they move more data than anyone else, with the focus on underserved or expensive routes: lengthy ones, like France to Australia, or those without extensive existing infrastructure, like crossing between Africa and South America. They plan to sell dedicated capacity to entice customers interested in full control of their data transit.\n\nFirst, though, EON will use its seed round to build out an optics lab, hire more engineers, and perform ground tests ahead of a demo satellite they hope to launch around the end of 2027. Horowitz expects that spacecraft to offer the highest optical downlink throughput yet seen — at least 800 gigs and perhaps a terabit.\n\nDoing that will require careful engineering. EON will focus on producing the optical communications terminal, carefully allocating spending to the components that must be exquisite, like the gimbals that will point the laser. The company plans to buy powerful off-the-shelf satellite buses, like those made by Apex Space, Horowitz’s previous employer.\n\nHorowitz served as Apex CEO Ian Cinnamon’s chief of staff and then as the company’s director of special projects. “Charlie is a force of nature — he can move seamlessly from strategy to the details required to make something real,” Cinnamon told TechCrunch. “Charlie is the ideal founder, and I invested personally because I believe deeply in Charlie and what he’s building at EON with Tyler.”\n\nIn addition to Presser, a PhD astronautical engineer who has planned frontier missions for NASA, the company’s technical bench includes Michael David Francois, a long-time Google executive focused on global network infrastructure, and Wesley Baxter, an optics engineer who most recently worked on Amazon’s LEO satellite network.\n\nJeannette zu Fürstenberg, General Catalyst’s president and managing director, who led the investment, said she sees it uniting the fund’s two key themes — AI and resilience.\n\n“I don’t worry about demand,” she told TechCrunch. “I think all of that will solve for itself. It’s really all about can you actually get this thing into space in the time that we discussed? We really think about founder-product fit, [Horowitz] is just the right caliber of guy to go after a problem like this.”\n\nThey aren’t the only one chasing this problem — Blue Origin, Jeff Bezos’ space company, has announced plans for TeraWave, a 5,048 satellite network that aims to provide speeds of up to 6 Tbps to large-scale users. Blue Origin’s plan is more ambitious, but will also require more time to launch and deploy. EON’s smaller fleet of satellites should be easier to get into space quickly, but they will need to solve many of the same technical challenges.\n\n“Data centers have high standards for quality and redundancy,” points out Caleb Henry, the director of research at Quilty Space. “Satellite internet is just now progressing from a technology of last resort to dependable, high-bandwidth infrastructure. That’s not to say it will be impossible to make satellites optimized for data center connectivity, just that it will be harder and take longer than most entrepreneurs suggest.” Still, a project like this may be more practical compared to the popular idea of building the data centers themselves in space.\n\n“We have one rule at the company: no physics problems,” Horowitz says. “There’s a market that exists today that we can go serve. Down the road, we’ll go and take on more as it comes, but we know that this is a problem that exists today, that’s only getting worse. That’s our bet — more data is moving terrestrially than ever.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "As hyperscalers build out data centers around the world, they need to move the bits back and forth, and that often relies on a somewhat brittle network of undersea fiberoptic cables crisscrossing the oceans.",
+      "heading": 0
+    },
+    {
+      "text": "Those cables are tricky to access and repair, much less install. But alternatives aren’t easy to find: Radio transmissions don’t have the bandwidth, which rules out most wireless approaches on the ground or in orbit. But now, maybe lasers could do the job.",
+      "heading": 0
+    },
+    {
+      "text": "Endeavor Optical Networks, a startup founded in May and emerging from stealth today with $10.75 million in seed funding from General Catalyst and Andreessen Horowitz, is betting on that plan. The co-founders, CEO Charlie Horowitz and CTO Tyler Presser, aim to launch a network of laser-equipped spacecraft to link data centers from orbit.",
+      "heading": 0
+    },
+    {
+      "text": "Most satellite communications networks, even those that provide broadband internet service, aren’t robust enough to carry data at 200 terabits a second or more, the speed of undersea fiber.",
+      "heading": 0
+    },
+    {
+      "text": "However, more powerful satellites and advances in optical technology are making space-to-ground communications with lasers more feasible. NASA used laser comms to beam back data from its most recent moon mission, while a handful of private space companies, including York, Kepler, and Cailabs, have demonstrated links between Earth orbit and the ground.",
+      "heading": 0
+    },
+    {
+      "text": "Those connections, however, aimed for a throughput of 2.5 Gbps, and EON has a bigger starting goal, Horowitz says: throughput of 2.4 terabits a second. That will require some secret sauce to deal with one of the biggest problems with laser comms — how the signal is distorted by the atmosphere as it passes through it, particularly when clouds are blocking the way.",
+      "heading": 0
+    },
+    {
+      "text": "EON intends to build a network of about 20 satellites, each able to provide a dedicated link between two continents, with the initial fleet providing 24-hour coverage for early customers. The company will carefully choose ground stations in different regions to serve local data centers and CDNs, using redundant sites and leveraging weather data to ensure a reliable link.",
+      "heading": 0
+    },
+    {
+      "text": "The startup is talking to hyperscalers and AI labs as customers, since they move more data than anyone else, with the focus on underserved or expensive routes: lengthy ones, like France to Australia, or those without extensive existing infrastructure, like crossing between Africa and South America. They plan to sell dedicated capacity to entice customers interested in full control of their data transit.",
+      "heading": 0
+    },
+    {
+      "text": "First, though, EON will use its seed round to build out an optics lab, hire more engineers, and perform ground tests ahead of a demo satellite they hope to launch around the end of 2027. Horowitz expects that spacecraft to offer the highest optical downlink throughput yet seen — at least 800 gigs and perhaps a terabit.",
+      "heading": 0
+    },
+    {
+      "text": "Doing that will require careful engineering. EON will focus on producing the optical communications terminal, carefully allocating spending to the components that must be exquisite, like the gimbals that will point the laser. The company plans to buy powerful off-the-shelf satellite buses, like those made by Apex Space, Horowitz’s previous employer.",
+      "heading": 0
+    },
+    {
+      "text": "Horowitz served as Apex CEO Ian Cinnamon’s chief of staff and then as the company’s director of special projects. “Charlie is a force of nature — he can move seamlessly from strategy to the details required to make something real,” Cinnamon told TechCrunch. “Charlie is the ideal founder, and I invested personally because I believe deeply in Charlie and what he’s building at EON with Tyler.”",
+      "heading": 0
+    },
+    {
+      "text": "In addition to Presser, a PhD astronautical engineer who has planned frontier missions for NASA, the company’s technical bench includes Michael David Francois, a long-time Google executive focused on global network infrastructure, and Wesley Baxter, an optics engineer who most recently worked on Amazon’s LEO satellite network.",
+      "heading": 0
+    },
+    {
+      "text": "Jeannette zu Fürstenberg, General Catalyst’s president and managing director, who led the investment, said she sees it uniting the fund’s two key themes — AI and resilience.",
+      "heading": 0
+    },
+    {
+      "text": "“I don’t worry about demand,” she told TechCrunch. “I think all of that will solve for itself. It’s really all about can you actually get this thing into space in the time that we discussed? We really think about founder-product fit, [Horowitz] is just the right caliber of guy to go after a problem like this.”",
+      "heading": 0
+    },
+    {
+      "text": "They aren’t the only one chasing this problem — Blue Origin, Jeff Bezos’ space company, has announced plans for TeraWave, a 5,048 satellite network that aims to provide speeds of up to 6 Tbps to large-scale users. Blue Origin’s plan is more ambitious, but will also require more time to launch and deploy. EON’s smaller fleet of satellites should be easier to get into space quickly, but they will need to solve many of the same technical challenges.",
+      "heading": 0
+    },
+    {
+      "text": "“Data centers have high standards for quality and redundancy,” points out Caleb Henry, the director of research at Quilty Space. “Satellite internet is just now progressing from a technology of last resort to dependable, high-bandwidth infrastructure. That’s not to say it will be impossible to make satellites optimized for data center connectivity, just that it will be harder and take longer than most entrepreneurs suggest.” Still, a project like this may be more practical compared to the popular idea of building the data centers themselves in space.",
+      "heading": 0
+    },
+    {
+      "text": "“We have one rule at the company: no physics problems,” Horowitz says. “There’s a market that exists today that we can go serve. Down the road, we’ll go and take on more as it comes, but we know that this is a problem that exists today, that’s only getting worse. That’s our bet — more data is moving terrestrially than ever.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

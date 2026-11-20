@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+  "slug": "afterquery-reportedly-becomes-y-combinator-s-fastest-ever-un",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1569337822.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+    "episode": ""
+  },
+  "words": 323,
+  "lines": 21,
+  "duration": 108,
+  "text": "Posted:\n\nJulie Bort\n\nAfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B\n\nAI training-data startup AfterQuery has reportedly raised a round that valued it at $3.2 billion. This just five months after announcing its $30 million Series A at a $300 million valuation in April.\n\nThat’s more than a 10x increase in less than half a year and, according to Y Combinator partner Gustaf Alströmer, the fastest that any startup has gone from launch to unicorn status in the accelerator’s history. AfterQuery’s founders, today 22 and 23 years old, attended Y Combinator’s Winter 2025 cohort, just 18 months ago.\n\nIn April, the San Francisco startup said it had reached an annualized revenue run rate of $100 million and that it was working with many of the biggest labs. It has named companies such as Nvidia, Legora, and the Korean AI lab Motif Technologies as customers.\n\nAfterQuery is among the new crop of startups following in the footsteps of Mercor and Scale that employ knowledge professionals like doctors, lawyers, and other specialists to do model training. However, rather than ensuring that models answer questions accurately, AfterQuery trains models and agents on how to work like professionals would to complete tasks — what the company describes as “encoding the patterns, decisions, and reasoning of the world’s best practitioners.”\n\nForbes first reported on the round. AfterQuery could not be immediately reached for comment.\n\nTopics\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in Venture\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nSpend management platform Payhawk announces $280M raise, 2B valuation\n\nDominic-Madori Davis",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "heading": 0
+    },
+    {
+      "text": "AI training-data startup AfterQuery has reportedly raised a round that valued it at $3.2 billion. This just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "heading": 0
+    },
+    {
+      "text": "That’s more than a 10x increase in less than half a year and, according to Y Combinator partner Gustaf Alströmer, the fastest that any startup has gone from launch to unicorn status in the accelerator’s history. AfterQuery’s founders, today 22 and 23 years old, attended Y Combinator’s Winter 2025 cohort, just 18 months ago.",
+      "heading": 0
+    },
+    {
+      "text": "In April, the San Francisco startup said it had reached an annualized revenue run rate of $100 million and that it was working with many of the biggest labs. It has named companies such as Nvidia, Legora, and the Korean AI lab Motif Technologies as customers.",
+      "heading": 0
+    },
+    {
+      "text": "AfterQuery is among the new crop of startups following in the footsteps of Mercor and Scale that employ knowledge professionals like doctors, lawyers, and other specialists to do model training. However, rather than ensuring that models answer questions accurately, AfterQuery trains models and agents on how to work like professionals would to complete tasks — what the company describes as “encoding the patterns, decisions, and reasoning of the world’s best practitioners.”",
+      "heading": 0
+    },
+    {
+      "text": "Forbes first reported on the round. AfterQuery could not be immediately reached for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Venture",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    }
+  ]
+}

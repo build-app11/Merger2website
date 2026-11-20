@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Anthropic changes usage policy to ban model abuse and election interference",
+  "slug": "anthropic-changes-usage-policy-to-ban-model-abuse-and-electi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+    "episode": ""
+  },
+  "words": 280,
+  "lines": 20,
+  "duration": 93,
+  "text": "Posted:\n\nRussell Brandom\n\nAnthropic changes usage policy to ban model abuse and election interference\n\nAnthropic updated its usage policy on Thursday, codifying new prohibitions on election interference, weapons software, and surveillance. But perhaps the most attention-getting change is a new prohibition against prolonged verbal abuse of the model, which is now expressly forbidden.\n\nSince an update in August, Claude has been trained to end conversations with “persistently harmful or abusive user interactions” — but the new policy explicitly bars users from pursuing those conversations.\n\n“The policy update is meant to apply only in extreme cases, where users repeatedly act cruelly toward our models, with no discernible purpose,” the post explains. “It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research.”\n\nThe change comes after Anthropic has sought out collaborations with prominent religious scholars — in some cases, seeking to convince them that Claude could be conscious or have a soul.\n\nSeparate sections of the usage policy forbid users from engaging in broadly deceptive campaigns, such as using Claude to run fake accounts or fabricated news outlets. The policy also includes rules against deceiving voters or disrupting elections, collected in a section titled “Do Not Undermine Democratic Processes.”\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Russell Brandom",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic changes usage policy to ban model abuse and election interference",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic updated its usage policy on Thursday, codifying new prohibitions on election interference, weapons software, and surveillance. But perhaps the most attention-getting change is a new prohibition against prolonged verbal abuse of the model, which is now expressly forbidden.",
+      "heading": 0
+    },
+    {
+      "text": "Since an update in August, Claude has been trained to end conversations with “persistently harmful or abusive user interactions” — but the new policy explicitly bars users from pursuing those conversations.",
+      "heading": 0
+    },
+    {
+      "text": "“The policy update is meant to apply only in extreme cases, where users repeatedly act cruelly toward our models, with no discernible purpose,” the post explains. “It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research.”",
+      "heading": 0
+    },
+    {
+      "text": "The change comes after Anthropic has sought out collaborations with prominent religious scholars — in some cases, seeking to convince them that Claude could be conscious or have a soul.",
+      "heading": 0
+    },
+    {
+      "text": "Separate sections of the usage policy forbid users from engaging in broadly deceptive campaigns, such as using Claude to run fake accounts or fabricated news outlets. The policy also includes rules against deceiving voters or disrupting elections, collected in a section titled “Do Not Undermine Democratic Processes.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

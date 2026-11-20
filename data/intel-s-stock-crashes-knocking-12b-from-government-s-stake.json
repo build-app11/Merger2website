@@ -1,0 +1,65 @@
+{
+  "type": "read",
+  "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+  "slug": "intel-s-stock-crashes-knocking-12b-from-government-s-stake",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+    "episode": ""
+  },
+  "words": 352,
+  "lines": 10,
+  "duration": 117,
+  "text": "Intel’s stock suffered one of its worst days ever on Friday, crashing around 28% after the chip giant reported a weaker-than-expected outlook for the fourth quarter.\n\nThis rout reduced the value of Intel’s holdings by the government by $12 billion, CNBC reports. The Trump administration had the government buy 10% stake over a year ago. Nvidia, which also took a big stake in Intel in 2025, saw its stock drop a bit on Friday as well. Much of the tech industry — especially chipmakers — were caught in the sell-off.\n\nIntel’s stock is still a profitable investment for the government so far (and for Nvidia), as it’s up more than 70% for the year, even if it’s dropped significantly from the sky-high prices it commanded over the summer.\n\nThe scare-off was caused when Intel warned to expect revenue of $15 billion to $16 billion in the fourth quarter when analysts were looking for around $17 billion. It also warned that its gross profit margin would decline to 37% from 43%, and it was investing so heavily, it expected no positive cash flow.\n\nThe main problem for Intel is that PC sales are being hurt by the AI industry gobbling memory and other components, and causing PC prices to rise.\n\n“Our customers began signaling a PC slowdown based on the memory prices and availability. Year-to-date system endpoint prices have increased significantly, placing additional pressure on already limited IT budgets,” Intel CEO Lip-Bu Tan warned on the call.\n\nThe bright side is that revenue from Intel’s data center business grew 78% over the year-ago quarter. But it is hamstrung on that front until it can bring more capacity to its fabs and book more external customers for them, competing with powerhouse Taiwan Semiconductor Manufacturing Co. One of Intel’s new fabs in Arizona is operational but the next one isn’t expected to be online until 2028.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Intel’s stock suffered one of its worst days ever on Friday, crashing around 28% after the chip giant reported a weaker-than-expected outlook for the fourth quarter.",
+      "heading": 0
+    },
+    {
+      "text": "This rout reduced the value of Intel’s holdings by the government by $12 billion, CNBC reports. The Trump administration had the government buy 10% stake over a year ago. Nvidia, which also took a big stake in Intel in 2025, saw its stock drop a bit on Friday as well. Much of the tech industry — especially chipmakers — were caught in the sell-off.",
+      "heading": 0
+    },
+    {
+      "text": "Intel’s stock is still a profitable investment for the government so far (and for Nvidia), as it’s up more than 70% for the year, even if it’s dropped significantly from the sky-high prices it commanded over the summer.",
+      "heading": 0
+    },
+    {
+      "text": "The scare-off was caused when Intel warned to expect revenue of $15 billion to $16 billion in the fourth quarter when analysts were looking for around $17 billion. It also warned that its gross profit margin would decline to 37% from 43%, and it was investing so heavily, it expected no positive cash flow.",
+      "heading": 0
+    },
+    {
+      "text": "The main problem for Intel is that PC sales are being hurt by the AI industry gobbling memory and other components, and causing PC prices to rise.",
+      "heading": 0
+    },
+    {
+      "text": "“Our customers began signaling a PC slowdown based on the memory prices and availability. Year-to-date system endpoint prices have increased significantly, placing additional pressure on already limited IT budgets,” Intel CEO Lip-Bu Tan warned on the call.",
+      "heading": 0
+    },
+    {
+      "text": "The bright side is that revenue from Intel’s data center business grew 78% over the year-ago quarter. But it is hamstrung on that front until it can bring more capacity to its fabs and book more external customers for them, competing with powerhouse Taiwan Semiconductor Manufacturing Co. One of Intel’s new fabs in Arizona is operational but the next one isn’t expected to be online until 2028.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

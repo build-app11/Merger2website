@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
+  "slug": "xdof-just-3-months-out-of-stealth-is-in-talks-for-a-series-b",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/DSC_2479.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+    "episode": ""
+  },
+  "words": 566,
+  "lines": 18,
+  "duration": 189,
+  "text": "Less than three months after emerging from stealth, XDOF, a startup that collects real-world teleoperation data for training general-purpose robots, is in late-stage talks to raise a Series B at a valuation of about $1.2 billion valuation led by 8VC, several people with knowledge of the deal said.\n\nXDOF was co-founded by UC Berkeley researchers Philipp Wu (CEO) and Fred Shentu (CTO) in 2024. TechCrunch reported on the startup’s $70 million Series A in June, with participation from Thrive Capital, Andreessen Horowitz, Lux, and Spark Capital. XDOF wasn’t planning to raise again so soon after that round. But the company’s rapid growth — with annualized revenue approaching $50 million — prompted VCs to approach it about a new round, the people said.\n\nTechCrunch was unable to learn the total capital being raised or whether the valuation includes the new funding. The terms of the deal are not final and could still change.\n\nXDOF and 8VC didn’t respond to our request for comment.\n\nThe startup aims to build the data pipelines, collection tools, and annotation systems that frontier AI labs and robotics companies can’t easily build themselves, essentially acting as an outsourced data-supply chain for the robotics industry.\n\nAs a PhD student, Wu was studying how robots learn from large datasets. One big impediment to his research was the lack of “large-scale data to work with,” he told TechCrunch in June.\n\nSo he teamed up with Shentu on a project called GELLO, a low-cost teleoperation system that allows a human operator to control a robotic arm remotely in order to generate training data. Their work led to an influential paper in robotics.\n\nThat research formed the foundation for XDOF, which investors now describe as the Scale AI or Mercor for physical robotics, a reference to the data-labeling giants that helped fuel the AI boom. Unlike LLMs, which initially trained on the entirety of the internet, physical robots don’t have an equivalent real-world dataset to draw from, making data collection a critical bottleneck to building general-purpose machines.\n\nXDOF is partnering with UC Berkeley’s AI Research lab to release what it believes is the largest collection of high-quality robot training data ever assembled, dubbed ABC.\n\nTo capture this data, XDOF combines remote robot teleoperation with human collectors who wear sensors to record everyday tasks like folding clothes and flattening boxes.\n\nThe startup plans to hire and train teams of data collectors worldwide, including teleoperators who steer robots remotely and egocentric operators who wear body sensors to capture movement data.\n\nXDOF previously told TechCrunch that it is already working with 20 customers, including several frontier AI labs.\n\nOther startups attempting to collect real-world data for robot training include Mecka AI, as well as human-data platforms expanding beyond LLMs, such as Scale AI and Micro1.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Less than three months after emerging from stealth, XDOF, a startup that collects real-world teleoperation data for training general-purpose robots, is in late-stage talks to raise a Series B at a valuation of about $1.2 billion valuation led by 8VC, several people with knowledge of the deal said.",
+      "heading": 0
+    },
+    {
+      "text": "XDOF was co-founded by UC Berkeley researchers Philipp Wu (CEO) and Fred Shentu (CTO) in 2024. TechCrunch reported on the startup’s $70 million Series A in June, with participation from Thrive Capital, Andreessen Horowitz, Lux, and Spark Capital. XDOF wasn’t planning to raise again so soon after that round. But the company’s rapid growth — with annualized revenue approaching $50 million — prompted VCs to approach it about a new round, the people said.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch was unable to learn the total capital being raised or whether the valuation includes the new funding. The terms of the deal are not final and could still change.",
+      "heading": 0
+    },
+    {
+      "text": "XDOF and 8VC didn’t respond to our request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "The startup aims to build the data pipelines, collection tools, and annotation systems that frontier AI labs and robotics companies can’t easily build themselves, essentially acting as an outsourced data-supply chain for the robotics industry.",
+      "heading": 0
+    },
+    {
+      "text": "As a PhD student, Wu was studying how robots learn from large datasets. One big impediment to his research was the lack of “large-scale data to work with,” he told TechCrunch in June.",
+      "heading": 0
+    },
+    {
+      "text": "So he teamed up with Shentu on a project called GELLO, a low-cost teleoperation system that allows a human operator to control a robotic arm remotely in order to generate training data. Their work led to an influential paper in robotics.",
+      "heading": 0
+    },
+    {
+      "text": "That research formed the foundation for XDOF, which investors now describe as the Scale AI or Mercor for physical robotics, a reference to the data-labeling giants that helped fuel the AI boom. Unlike LLMs, which initially trained on the entirety of the internet, physical robots don’t have an equivalent real-world dataset to draw from, making data collection a critical bottleneck to building general-purpose machines.",
+      "heading": 0
+    },
+    {
+      "text": "XDOF is partnering with UC Berkeley’s AI Research lab to release what it believes is the largest collection of high-quality robot training data ever assembled, dubbed ABC.",
+      "heading": 0
+    },
+    {
+      "text": "To capture this data, XDOF combines remote robot teleoperation with human collectors who wear sensors to record everyday tasks like folding clothes and flattening boxes.",
+      "heading": 0
+    },
+    {
+      "text": "The startup plans to hire and train teams of data collectors worldwide, including teleoperators who steer robots remotely and egocentric operators who wear body sensors to capture movement data.",
+      "heading": 0
+    },
+    {
+      "text": "XDOF previously told TechCrunch that it is already working with 20 customers, including several frontier AI labs.",
+      "heading": 0
+    },
+    {
+      "text": "Other startups attempting to collect real-world data for robot training include Mecka AI, as well as human-data platforms expanding beyond LLMs, such as Scale AI and Micro1.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

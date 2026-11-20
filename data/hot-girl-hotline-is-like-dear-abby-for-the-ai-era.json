@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+  "slug": "hot-girl-hotline-is-like-dear-abby-for-the-ai-era",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/hgh_web-1.png?resize=1200,920",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+    "episode": ""
+  },
+  "words": 753,
+  "lines": 22,
+  "duration": 251,
+  "text": "Women throughout history have always sought out relationship advice, whether from newspaper columnists like “Dear Abby,” letters to Cosmo, or just chatting with girlfriends. In the social media era, you can instead post anonymously on Reddit relationship forums or look to social media creators who discuss the topic.\n\nNow, two sisters are launching a startup for young women, Hot Girl Hotline, which focuses on bringing AI into these conversations.\n\nI know what you may be thinking: With all the advances in AI technology, founders are building something for women to talk about their dating woes? Well … yes!\n\nThe reality is that people have already been turning to large language models (LLMs) via apps like ChatGPT for this type of advice, and the team believes this type of activity should be handled more carefully.\n\nUnfortunately, as we’ve seen, chatting with a general-purpose chatbot about personal topics can sometimes lead to disastrous effects — especially for those who were already mentally fragile. ChatGPT, for example, has faced a wave of lawsuits over its alleged manipulative conversation tactics that plaintiffs say contributed to negative mental health effects, including, in some cases, suicide.\n\nThe idea behind Hot Girl Hotline is to reach young women who are looking to have these sorts of private conversations while navigating dating life and relationships, but in a safer way.\n\n“We’re not trying to be an AI companion,” explained Baila Mudgil, formerly a social media consultant, who co-founded the startup with her sister Sumrin (“Sumi”), who studied computer science at Stanford. “A companion is really going after solving loneliness, escapism, boredom — and you can rely on a lot of emotional dependency from that AI companion.”\n\nBaila says the startup’s approach is to focus on offering quality advice grounded in behavioral science, but in a way that makes it feel like you’re chatting with a trusted friend or big sister. The conversation is often Socratic, with the AI asking you questions to help you arrive at the answer yourself.\n\n“This is not to replace speaking to a human. This is not clinical advice, and we have a lot of safeguards in place … we take safety really seriously,” Baila said. If conversations raise flags, for instance, the user is referred to resources such as the crisis hotline 988.\n\n“We believe the key to quality advice is not just knowing what to do next; it’s understanding why you’re doing it. So that’s a big piece of it,” added Sumi.\n\nNotably, the AI also knows when to end the conversation; it doesn’t keep asking follow-up questions to drag you further down a rabbit hole. Instead, it pushes users to go take action out in the real world rather than ruminate on the problem.\n\nThe sisters believe there’s room for an app like this because not everyone wants to post on the web for advice, and there are times when you don’t want to bring up a personal, dating, or relationship-focused issue with a friend.\n\nFriends can bring their own biases into the conversation, or the user may not want to put their partner on blast for something they did before they determine whether they’re going to work through it or end the relationship.\n\n“It doesn’t mean you’re replacing your friend — you’re just trying to get another perspective,” says Baila of the hotline.\n\nThe app also personalizes its advice for each user to reflect their values, goals, identity, and tastes.\n\nUnder the hood, the startup relies on a mix of AI models and encrypts users’ data in transit and at rest. It doesn’t sell or train on the data, either. When it uses a third-party AI model, it follows a zero-data-retention policy there as well.\n\nHot Girl Hotline plans to monetize through a $9.99 per month subscription, which hundreds of its most active users are already paying for. Later, it may incorporate ads, too.\n\nRelationship advice is just the beginning of how the company wants to cater to young women. It also plans to expand into other areas, like beauty and lifestyle.\n\nNew York-based Hot Girl Hotline is currently bootstrapped and will be participating in the Startup Battlefield 200 at TechCrunch Disrupt 2026, taking place October 13-15 in San Francisco. It’s available on iOS and the web.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Women throughout history have always sought out relationship advice, whether from newspaper columnists like “Dear Abby,” letters to Cosmo, or just chatting with girlfriends. In the social media era, you can instead post anonymously on Reddit relationship forums or look to social media creators who discuss the topic.",
+      "heading": 0
+    },
+    {
+      "text": "Now, two sisters are launching a startup for young women, Hot Girl Hotline, which focuses on bringing AI into these conversations.",
+      "heading": 0
+    },
+    {
+      "text": "I know what you may be thinking: With all the advances in AI technology, founders are building something for women to talk about their dating woes? Well … yes!",
+      "heading": 0
+    },
+    {
+      "text": "The reality is that people have already been turning to large language models (LLMs) via apps like ChatGPT for this type of advice, and the team believes this type of activity should be handled more carefully.",
+      "heading": 0
+    },
+    {
+      "text": "Unfortunately, as we’ve seen, chatting with a general-purpose chatbot about personal topics can sometimes lead to disastrous effects — especially for those who were already mentally fragile. ChatGPT, for example, has faced a wave of lawsuits over its alleged manipulative conversation tactics that plaintiffs say contributed to negative mental health effects, including, in some cases, suicide.",
+      "heading": 0
+    },
+    {
+      "text": "The idea behind Hot Girl Hotline is to reach young women who are looking to have these sorts of private conversations while navigating dating life and relationships, but in a safer way.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re not trying to be an AI companion,” explained Baila Mudgil, formerly a social media consultant, who co-founded the startup with her sister Sumrin (“Sumi”), who studied computer science at Stanford. “A companion is really going after solving loneliness, escapism, boredom — and you can rely on a lot of emotional dependency from that AI companion.”",
+      "heading": 0
+    },
+    {
+      "text": "Baila says the startup’s approach is to focus on offering quality advice grounded in behavioral science, but in a way that makes it feel like you’re chatting with a trusted friend or big sister. The conversation is often Socratic, with the AI asking you questions to help you arrive at the answer yourself.",
+      "heading": 0
+    },
+    {
+      "text": "“This is not to replace speaking to a human. This is not clinical advice, and we have a lot of safeguards in place … we take safety really seriously,” Baila said. If conversations raise flags, for instance, the user is referred to resources such as the crisis hotline 988.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe the key to quality advice is not just knowing what to do next; it’s understanding why you’re doing it. So that’s a big piece of it,” added Sumi.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, the AI also knows when to end the conversation; it doesn’t keep asking follow-up questions to drag you further down a rabbit hole. Instead, it pushes users to go take action out in the real world rather than ruminate on the problem.",
+      "heading": 0
+    },
+    {
+      "text": "The sisters believe there’s room for an app like this because not everyone wants to post on the web for advice, and there are times when you don’t want to bring up a personal, dating, or relationship-focused issue with a friend.",
+      "heading": 0
+    },
+    {
+      "text": "Friends can bring their own biases into the conversation, or the user may not want to put their partner on blast for something they did before they determine whether they’re going to work through it or end the relationship.",
+      "heading": 0
+    },
+    {
+      "text": "“It doesn’t mean you’re replacing your friend — you’re just trying to get another perspective,” says Baila of the hotline.",
+      "heading": 0
+    },
+    {
+      "text": "The app also personalizes its advice for each user to reflect their values, goals, identity, and tastes.",
+      "heading": 0
+    },
+    {
+      "text": "Under the hood, the startup relies on a mix of AI models and encrypts users’ data in transit and at rest. It doesn’t sell or train on the data, either. When it uses a third-party AI model, it follows a zero-data-retention policy there as well.",
+      "heading": 0
+    },
+    {
+      "text": "Hot Girl Hotline plans to monetize through a $9.99 per month subscription, which hundreds of its most active users are already paying for. Later, it may incorporate ads, too.",
+      "heading": 0
+    },
+    {
+      "text": "Relationship advice is just the beginning of how the company wants to cater to young women. It also plans to expand into other areas, like beauty and lifestyle.",
+      "heading": 0
+    },
+    {
+      "text": "New York-based Hot Girl Hotline is currently bootstrapped and will be participating in the Startup Battlefield 200 at TechCrunch Disrupt 2026, taking place October 13-15 in San Francisco. It’s available on iOS and the web.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

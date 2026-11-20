@@ -1,0 +1,80 @@
+{
+  "type": "read",
+  "title": "United Airlines resolves system outage that affected departing flights",
+  "slug": "united-airlines-resolves-system-outage-that-affected-departi",
+  "category": "News",
+  "channel": "CNBC",
+  "image": "https://image.cnbcfm.com/api/v1/image/108551868-1794831966954-gettyimages-2304760092-AFP_D7JH4CQ.jpeg?v=1794873348&w=1920&h=1080",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+    "episode": ""
+  },
+  "words": 302,
+  "lines": 14,
+  "duration": 101,
+  "text": "United Airlines said Monday that it had resolved a widespread system outage that briefly affected departing flights.\n\nThe airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.\n\nThe outage comes days after a nationwide ground stop halted departures across the country for more than four hours.\n\nIn this article\n\nUAL\n\nUnited Airlines on Monday said it had resolved a \"widespread system outage\" that briefly affected departing flights.\n\n\"We have resolved a technology issue that delayed flight departures,\" the airline said in a statement. \"While some flights were delayed, there was no impact on flights in progress, or on United Express flights.\n\nA United spokesperson said there was no indication that the outage was a cyberattack.\n\nThe Air Line Pilots Association, which represents pilots for United and other carriers, said in an earlier message to members seen by CNBC that the operational outage was \"affecting multiple pilot facing applications\" and that United could not \"provide outbound flights with final weights.\"\n\nUnited's outage came three days after a nationwide ground stop halted departures across the country for more than four hours, snarling travel and leading to widespread delays and cancellations over the weekend.\n\nTransportation Secretary Sean Duffy blamed the issues that led to Friday's ground stop on a router in Arkansas that overwhelmed systems that feed radar and other data for air traffic control. Federal Aviation Administration Administrator Bryan Bedford said the upgrades were part of \"routine\" maintenance to switch over from copper wires to fiber optic.\n\nThere were significantly fewer flight delays and cancellations Monday than had been reported Sunday, according to FlightAware data.\n\nThere was no indication that United's outage Monday was related to the issues that caused Friday's ground stop.\n\n— CNBC's Leslie Josephs and Phil LeBeau contributed to this report.",
+  "paragraphs": [
+    {
+      "text": "United Airlines said Monday that it had resolved a widespread system outage that briefly affected departing flights.",
+      "heading": 0
+    },
+    {
+      "text": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
+      "heading": 0
+    },
+    {
+      "text": "The outage comes days after a nationwide ground stop halted departures across the country for more than four hours.",
+      "heading": 0
+    },
+    {
+      "text": "In this article",
+      "heading": 1
+    },
+    {
+      "text": "UAL",
+      "heading": 1
+    },
+    {
+      "text": "United Airlines on Monday said it had resolved a \"widespread system outage\" that briefly affected departing flights.",
+      "heading": 0
+    },
+    {
+      "text": "\"We have resolved a technology issue that delayed flight departures,\" the airline said in a statement. \"While some flights were delayed, there was no impact on flights in progress, or on United Express flights.",
+      "heading": 0
+    },
+    {
+      "text": "A United spokesperson said there was no indication that the outage was a cyberattack.",
+      "heading": 0
+    },
+    {
+      "text": "The Air Line Pilots Association, which represents pilots for United and other carriers, said in an earlier message to members seen by CNBC that the operational outage was \"affecting multiple pilot facing applications\" and that United could not \"provide outbound flights with final weights.\"",
+      "heading": 0
+    },
+    {
+      "text": "United's outage came three days after a nationwide ground stop halted departures across the country for more than four hours, snarling travel and leading to widespread delays and cancellations over the weekend.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation Secretary Sean Duffy blamed the issues that led to Friday's ground stop on a router in Arkansas that overwhelmed systems that feed radar and other data for air traffic control. Federal Aviation Administration Administrator Bryan Bedford said the upgrades were part of \"routine\" maintenance to switch over from copper wires to fiber optic.",
+      "heading": 0
+    },
+    {
+      "text": "There were significantly fewer flight delays and cancellations Monday than had been reported Sunday, according to FlightAware data.",
+      "heading": 0
+    },
+    {
+      "text": "There was no indication that United's outage Monday was related to the issues that caused Friday's ground stop.",
+      "heading": 0
+    },
+    {
+      "text": "— CNBC's Leslie Josephs and Phil LeBeau contributed to this report.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Claude Cowork finally remembers what you told the app in chat",
+  "slug": "claude-cowork-finally-remembers-what-you-told-the-app-in-cha",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+    "episode": ""
+  },
+  "words": 438,
+  "lines": 12,
+  "duration": 146,
+  "text": "A change to Claude’s memory system will eliminate one of the most annoying things about using agents — the constant need to rebrief the AI on things it already knows. On Tuesday, Anthropic announced it’s merging the memory system used by chat and Claude Cowork, which means that Claude will always remember what it learned in one area, even when you’re engaging with it in another.\n\nAnthropic is also exposing what Claude has retained in its memory, allowing users to read, edit, or delete information on any topic.\n\nThe update will improve the experience for Claude’s users as it will allow them to more seamlessly move between the research phase and taking action.\n\nBefore, you may have developed ideas for projects over time while chatting with Claude, but when it came time to actually enact the changes, you’d have to start over by telling Cowork all the details. This was incredibly frustrating. The update makes Claude now feel like one continuous assistant, rather than two separate products under one roof.\n\nAnthropic offers an example of someone needing to draft an update for their manager or an agenda for a conference, where Cowork would already understand the references because of the past conversations about the matter at hand. For instance, it would know the headcount, city, and speakers at the conference, so you wouldn’t have to re-input that information.\n\nIn addition, Claude will now add topics to its memory as you chat, instead of summarizing a conversation when it ends. That makes it easier to move back and forth between chat and Cowork, as the new memories are more quickly updated and shared between the two experiences, even if the chat is ongoing.\n\nAnthropic says that, by default, Claude won’t store personal or sensitive information like your health data, race, ethnicity, religious beliefs, politics, gender identity, and more. However, users can opt to enable these things by toggling on “include sensitive topics in memory” if they prefer. The app will also notify users whenever a sensitive topic is saved in memory.\n\nHowever, the company says that Claude won’t ever save certain things, like government-issued ID and Social Security numbers, criminal history, immigration status, or other things that violate its acceptable use policy.\n\nThe memory feature is enabled by default on Free, Pro, and Max plans across web, desktop, and mobile. On iOS and Android, users will need to update their app to the latest version.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "A change to Claude’s memory system will eliminate one of the most annoying things about using agents — the constant need to rebrief the AI on things it already knows. On Tuesday, Anthropic announced it’s merging the memory system used by chat and Claude Cowork, which means that Claude will always remember what it learned in one area, even when you’re engaging with it in another.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic is also exposing what Claude has retained in its memory, allowing users to read, edit, or delete information on any topic.",
+      "heading": 0
+    },
+    {
+      "text": "The update will improve the experience for Claude’s users as it will allow them to more seamlessly move between the research phase and taking action.",
+      "heading": 0
+    },
+    {
+      "text": "Before, you may have developed ideas for projects over time while chatting with Claude, but when it came time to actually enact the changes, you’d have to start over by telling Cowork all the details. This was incredibly frustrating. The update makes Claude now feel like one continuous assistant, rather than two separate products under one roof.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic offers an example of someone needing to draft an update for their manager or an agenda for a conference, where Cowork would already understand the references because of the past conversations about the matter at hand. For instance, it would know the headcount, city, and speakers at the conference, so you wouldn’t have to re-input that information.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, Claude will now add topics to its memory as you chat, instead of summarizing a conversation when it ends. That makes it easier to move back and forth between chat and Cowork, as the new memories are more quickly updated and shared between the two experiences, even if the chat is ongoing.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic says that, by default, Claude won’t store personal or sensitive information like your health data, race, ethnicity, religious beliefs, politics, gender identity, and more. However, users can opt to enable these things by toggling on “include sensitive topics in memory” if they prefer. The app will also notify users whenever a sensitive topic is saved in memory.",
+      "heading": 0
+    },
+    {
+      "text": "However, the company says that Claude won’t ever save certain things, like government-issued ID and Social Security numbers, criminal history, immigration status, or other things that violate its acceptable use policy.",
+      "heading": 0
+    },
+    {
+      "text": "The memory feature is enabled by default on Free, Pro, and Max plans across web, desktop, and mobile. On iOS and Android, users will need to update their app to the latest version.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

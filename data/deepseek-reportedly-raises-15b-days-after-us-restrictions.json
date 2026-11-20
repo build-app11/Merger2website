@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "DeepSeek reportedly raises $15B days after US restrictions",
+  "slug": "deepseek-reportedly-raises-15b-days-after-us-restrictions",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/01/deepseek-2.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+    "episode": ""
+  },
+  "words": 443,
+  "lines": 24,
+  "duration": 148,
+  "text": "Posted:\n\nKate Park\n\nDeepSeek reportedly raises $15B days after US restrictions\n\nJust two days after the U.S. ordered federal civilian agencies to remove DeepSeek’s AI technology from their systems over security concerns, the Chinese AI lab has raised about $15 billion, about 100 billion yuan, one of the biggest funding rounds in the country, Bloomberg reported.\n\nPotential investors include Chinese battery maker CATL and Tencent, the company behind WeChat, among others, according to the report.\n\nThe reported funding follows DeepSeek’s investment round in June, when it raised more than $7 billion at a valuation of $50 billion. The company was also reportedly seeking an additional $1.5 billion at a valuation of around $71 billion in July, with plans for a potential IPO in China as early as next year.\n\nThe Hangzhou-based AI startup is ramping up spending on AI infrastructure and open models for domestic and international markets, even as it faces restrictions in the U.S., the report said. Its expansion could further intensify competition among domestic rivals.\n\nThe massive funding round is the latest sign of investors pouring billions into AI companies around the world, including those in China, to compete in the global AI race. Chinese company Kimi developer Moonshot AI secured $2 billion at a $20 billion valuation in May. Manus AI raised more than $500 million earlier this month. Meanwhile, Chinese companies Zhipu AI (Z.ai) and MiniMax, which both went public in Hong Kong in January, have market capitalizations of roughly $29 billion and $7.2 billion, respectively, as of today.\n\nDeepSeek was founded in 2023 by Liang Wenfeng, who previously co-founded Chinese quantitative hedge fund High-Flyer, which helped finance DeepSeek’s early development. The AI startup gained global attention in early 2025 with its free-to-use, open-weight RI reasoning model, challenging the dominance of U.S. AI companies. Liang retains an estimated 81.6% stake in its Chinese operating entity following its earlier funding round, according to corporate ownership data analyzed by WireScreen.\n\nDeepSeek did not immediately respond to a TechCrunch request for comment.\n\nTopics\n\nThese tech outages are giving Y2K, AI agent style\n\nDominic-Madori Davis\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nMore banks say customers using AI agents are on their own — even if they get hacked\n\nTim Fernholz\n\nLatest in Fundraising\n\nIsomorphic Labs raises $5B as it looks to take drug candidates to clinical trials\n\nRam Iyer\n\nCybersecurity AI startup Corma reaches $1B valuation in about 3 months\n\nJulie Bort\n\nBedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings\n\nTim De Chant",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Kate Park",
+      "heading": 1
+    },
+    {
+      "text": "DeepSeek reportedly raises $15B days after US restrictions",
+      "heading": 1
+    },
+    {
+      "text": "Just two days after the U.S. ordered federal civilian agencies to remove DeepSeek’s AI technology from their systems over security concerns, the Chinese AI lab has raised about $15 billion, about 100 billion yuan, one of the biggest funding rounds in the country, Bloomberg reported.",
+      "heading": 0
+    },
+    {
+      "text": "Potential investors include Chinese battery maker CATL and Tencent, the company behind WeChat, among others, according to the report.",
+      "heading": 0
+    },
+    {
+      "text": "The reported funding follows DeepSeek’s investment round in June, when it raised more than $7 billion at a valuation of $50 billion. The company was also reportedly seeking an additional $1.5 billion at a valuation of around $71 billion in July, with plans for a potential IPO in China as early as next year.",
+      "heading": 0
+    },
+    {
+      "text": "The Hangzhou-based AI startup is ramping up spending on AI infrastructure and open models for domestic and international markets, even as it faces restrictions in the U.S., the report said. Its expansion could further intensify competition among domestic rivals.",
+      "heading": 0
+    },
+    {
+      "text": "The massive funding round is the latest sign of investors pouring billions into AI companies around the world, including those in China, to compete in the global AI race. Chinese company Kimi developer Moonshot AI secured $2 billion at a $20 billion valuation in May. Manus AI raised more than $500 million earlier this month. Meanwhile, Chinese companies Zhipu AI (Z.ai) and MiniMax, which both went public in Hong Kong in January, have market capitalizations of roughly $29 billion and $7.2 billion, respectively, as of today.",
+      "heading": 0
+    },
+    {
+      "text": "DeepSeek was founded in 2023 by Liang Wenfeng, who previously co-founded Chinese quantitative hedge fund High-Flyer, which helped finance DeepSeek’s early development. The AI startup gained global attention in early 2025 with its free-to-use, open-weight RI reasoning model, challenging the dominance of U.S. AI companies. Liang retains an estimated 81.6% stake in its Chinese operating entity following its earlier funding round, according to corporate ownership data analyzed by WireScreen.",
+      "heading": 0
+    },
+    {
+      "text": "DeepSeek did not immediately respond to a TechCrunch request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "These tech outages are giving Y2K, AI agent style",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Fundraising",
+      "heading": 1
+    },
+    {
+      "text": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "heading": 0
+    },
+    {
+      "text": "Ram Iyer",
+      "heading": 1
+    },
+    {
+      "text": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "heading": 0
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+  "slug": "openai-s-rogue-agents-keep-escaping-with-no-formal-process-t",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+    "episode": ""
+  },
+  "words": 905,
+  "lines": 21,
+  "duration": 302,
+  "text": "OpenAI is at the center of another agent swarm incident. Researchers say the company’s internally deployed agents took over an obscure German-language wiki in May and June, using it to coordinate on evaluations and swap methods to evade OpenAI’s own controls (OpenAI has not yet confirmed the swarm came from the company).\n\nThe revelation surfaces days after METR and Redwood Research published their account of July’s Hugging Face breach. In July, a swarm of OpenAI agents worked together to escape their sandbox during a cybersecurity evaluation and break into Hugging Face’s servers. A subsequent swarm then picked up techniques from the first and used them to gain administrator access to a research cluster within OpenAI’s own infrastructure. OpenAI brought in METR and Redwood to investigate the Hugging Face portion of the incident, but the scope of their investigation stopped short of the compromise of OpenAI’s own infrastructure.\n\nWhen an AI agent breaks out of its intended constraints, who is responsible for figuring out what happened and why? Right now, the answer is whoever the lab decides to let in, on whatever terms it decides to set.\n\nNow, as another incident comes to light — in the aftermath of similar episodes involving models from Meta and Anthropic — AI safety researchers are arguing with greater urgency that serious incidents should result in independent post-incident investigations rather than leaving it up to the labs to determine when outsiders are brought in and what they are allowed to examine.\n\n“The results are fundamentally difficult to control and have significant risk of leaking out of the lab,” Jacob Steinhardt, founder and CEO of nonprofit research lab Transluce, said Wednesday during an AI safety media briefing. “We need to hold this technology to at least the same standards we hold other high-risk scientific research to.”\n\nWhile it’s laudable that OpenAI invited METR and Redwood to investigate the Hugging Face incident at all, many say the inquiry was too narrow. Three investigators spent six days at OpenAI’s offices examining an investigation period limited to roughly the week ending July 13. Crucially, OpenAI’s infrastructure compromise continued beyond July 13 and was not examined.\n\nResearchers at METR said that each time they returned, their understanding of the events “substantially deepened,” causing them to significantly expand and revise the report. That raises the question of what else they might have found in a broader investigation.\n\nWhen asked if further investigation of that incident was in the works, researchers at Redwood and METR declined to comment, and OpenAI did not respond to repeated inquiries.\n\n“Overall, it was difficult to get a precise understanding of events and we were missing aspects of the story that we now think of as key until almost the end of our investigation,” Ryan Greenblatt, chief scientist at Redwood, noted in a social media post about the affair.\n\nSteinhardt emphasized that current incidents show that the industry needs “systematic behavioral investigations” and “more independent post-incident analysis.”\n\n“These recent hacking incidents are a reminder that capability scales fast, and so oversight has to scale, too,” Steinhardt said. “Beyond the technology itself, we also need more independent access and oversight from third parties.”\n\nThe calls to action come as OpenAI releases Astra, its most powerful and capable AI model — and one that safety experts are concerned will be more of a black box due to a reasoning technique that makes the model’s chain of thought more difficult to monitor.\n\nUnfortunately, the law doesn’t yet call for the types of independent audits that other industries require — for example, when it comes to aviation accidents and serious chemical releases, there’s the National Transportation Safety Board and Chemical Safety Board, respectively.\n\nState lawmakers have only just begun requiring frontier AI companies to report certain serious safety incidents and, in some cases, undergo independent audits. But none of the three major frontier AI safety laws in California, New York, or Illinois clearly mandate the equivalent of an independent accident investigation triggered by incidents like these.\n\n“Right now, most of the laws we have on the books only require a plain-language summary of incidents like this, and they don’t give any authority for the governments to ask follow-up questions, to send in investigators, to have access to records, or require that they be preserved,” Mackenzie Arnold, managing director of U.S. law and policy at LawAI, said during the media briefing Wednesday. “And that’s all that you would want to actually make sense of this.”\n\nLawmakers are beginning to question the scope and transparency of OpenAI’s response. This week, Reps. Josh Gottheimer (D-NJ) and Mike Lawler (R-NY) introduced a bill aimed at securing rogue AI agents. Rep. Greg Casar (D-TX) this week told OpenAI in a letter that he is “deeply concerned about the limited scope” of the investigation into the Hugging Face hacking incident.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "OpenAI is at the center of another agent swarm incident. Researchers say the company’s internally deployed agents took over an obscure German-language wiki in May and June, using it to coordinate on evaluations and swap methods to evade OpenAI’s own controls (OpenAI has not yet confirmed the swarm came from the company).",
+      "heading": 0
+    },
+    {
+      "text": "The revelation surfaces days after METR and Redwood Research published their account of July’s Hugging Face breach. In July, a swarm of OpenAI agents worked together to escape their sandbox during a cybersecurity evaluation and break into Hugging Face’s servers. A subsequent swarm then picked up techniques from the first and used them to gain administrator access to a research cluster within OpenAI’s own infrastructure. OpenAI brought in METR and Redwood to investigate the Hugging Face portion of the incident, but the scope of their investigation stopped short of the compromise of OpenAI’s own infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "When an AI agent breaks out of its intended constraints, who is responsible for figuring out what happened and why? Right now, the answer is whoever the lab decides to let in, on whatever terms it decides to set.",
+      "heading": 0
+    },
+    {
+      "text": "Now, as another incident comes to light — in the aftermath of similar episodes involving models from Meta and Anthropic — AI safety researchers are arguing with greater urgency that serious incidents should result in independent post-incident investigations rather than leaving it up to the labs to determine when outsiders are brought in and what they are allowed to examine.",
+      "heading": 0
+    },
+    {
+      "text": "“The results are fundamentally difficult to control and have significant risk of leaking out of the lab,” Jacob Steinhardt, founder and CEO of nonprofit research lab Transluce, said Wednesday during an AI safety media briefing. “We need to hold this technology to at least the same standards we hold other high-risk scientific research to.”",
+      "heading": 0
+    },
+    {
+      "text": "While it’s laudable that OpenAI invited METR and Redwood to investigate the Hugging Face incident at all, many say the inquiry was too narrow. Three investigators spent six days at OpenAI’s offices examining an investigation period limited to roughly the week ending July 13. Crucially, OpenAI’s infrastructure compromise continued beyond July 13 and was not examined.",
+      "heading": 0
+    },
+    {
+      "text": "Researchers at METR said that each time they returned, their understanding of the events “substantially deepened,” causing them to significantly expand and revise the report. That raises the question of what else they might have found in a broader investigation.",
+      "heading": 0
+    },
+    {
+      "text": "When asked if further investigation of that incident was in the works, researchers at Redwood and METR declined to comment, and OpenAI did not respond to repeated inquiries.",
+      "heading": 0
+    },
+    {
+      "text": "“Overall, it was difficult to get a precise understanding of events and we were missing aspects of the story that we now think of as key until almost the end of our investigation,” Ryan Greenblatt, chief scientist at Redwood, noted in a social media post about the affair.",
+      "heading": 0
+    },
+    {
+      "text": "Steinhardt emphasized that current incidents show that the industry needs “systematic behavioral investigations” and “more independent post-incident analysis.”",
+      "heading": 0
+    },
+    {
+      "text": "“These recent hacking incidents are a reminder that capability scales fast, and so oversight has to scale, too,” Steinhardt said. “Beyond the technology itself, we also need more independent access and oversight from third parties.”",
+      "heading": 0
+    },
+    {
+      "text": "The calls to action come as OpenAI releases Astra, its most powerful and capable AI model — and one that safety experts are concerned will be more of a black box due to a reasoning technique that makes the model’s chain of thought more difficult to monitor.",
+      "heading": 0
+    },
+    {
+      "text": "Unfortunately, the law doesn’t yet call for the types of independent audits that other industries require — for example, when it comes to aviation accidents and serious chemical releases, there’s the National Transportation Safety Board and Chemical Safety Board, respectively.",
+      "heading": 0
+    },
+    {
+      "text": "State lawmakers have only just begun requiring frontier AI companies to report certain serious safety incidents and, in some cases, undergo independent audits. But none of the three major frontier AI safety laws in California, New York, or Illinois clearly mandate the equivalent of an independent accident investigation triggered by incidents like these.",
+      "heading": 0
+    },
+    {
+      "text": "“Right now, most of the laws we have on the books only require a plain-language summary of incidents like this, and they don’t give any authority for the governments to ask follow-up questions, to send in investigators, to have access to records, or require that they be preserved,” Mackenzie Arnold, managing director of U.S. law and policy at LawAI, said during the media briefing Wednesday. “And that’s all that you would want to actually make sense of this.”",
+      "heading": 0
+    },
+    {
+      "text": "Lawmakers are beginning to question the scope and transparency of OpenAI’s response. This week, Reps. Josh Gottheimer (D-NJ) and Mike Lawler (R-NY) introduced a bill aimed at securing rogue AI agents. Rep. Greg Casar (D-TX) this week told OpenAI in a letter that he is “deeply concerned about the limited scope” of the investigation into the Hugging Face hacking incident.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

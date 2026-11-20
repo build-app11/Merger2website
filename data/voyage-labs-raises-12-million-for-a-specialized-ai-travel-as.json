@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+  "slug": "voyage-labs-raises-12-million-for-a-specialized-ai-travel-as",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-12.32.41-PM.jpg?w=942",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+    "episode": ""
+  },
+  "words": 466,
+  "lines": 12,
+  "duration": 155,
+  "text": "Planning a trip is a favorite demo for personal AI assistants — you can try it with Muse, or with Gemini, or half a dozen other choices. But while most pitches use travel-planning as part of a general-purpose agent pitch, a new startup from a Google Maps alum is betting that a specialized travel-planning agent can beat the competition.\n\nThe company is called Voyage Labs, and on Tuesday it announced $12 million in seed funding led by Kleiner Perkins, with participation from SignalFire and SV Angel. The company plans to use the funding to expand supplier partnerships and grow its engineering team.\n\nVoyage Labs’ flagship product, called Atlas, is meant to work as a personal assistant for your trip-planning, available today in private beta.\n\n“People can use it to plan and book and manage their entire journey, from the time they have an inspiration to the time they come back home,” says co-founder and CEO Manik Gupta.\n\nAtlas is designed to serve as an always-on assistant throughout the planning process, fielding ideas and doing research on every idea that’s raised. The long time horizon means Atlas can tailor recommendations based on weeks of conversation, while also monitoring real-time price fluctuations and ultimately booking flights and hotels.\n\nFor the Voyage founders, it’s an ideal match between technology and use case. “Trip planning is a project that has its own lifecycle,” says Yogesh Jain, co-founder and CTO of the company. “You’re planning across days and weeks — so long-running agents as a technology matches that very well.”\n\nTravel assistants are already a crowded field, but Voyage will be starting with a lot of experience in the space. Gupta was previously the director of Product Management for Google Maps, followed by four years as chief product officer at Uber. As he puts it, “I spent eight years where my only job was to wake up in the morning and go build the map. I’m just very obsessed with that problem.”\n\nThe biggest question is how Atlas will compete with the multi-purpose AI assistants built by frontier labs. But as Gupta notes, the space is still changing fast, and it’s hard for anyone to be sure what form factors will thrive in the coming years. Ultimately, Voyage is betting that travel is specialized enough to need a specialized product.\n\n“We are making a bet that this vertical around travel and outdoors is a large enough vertical that it needs a focused product solution,” Gupta told TechCrunch. “Ultimately, we believe we can actually stitch together an end-to-end experience that will help users.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "Planning a trip is a favorite demo for personal AI assistants — you can try it with Muse, or with Gemini, or half a dozen other choices. But while most pitches use travel-planning as part of a general-purpose agent pitch, a new startup from a Google Maps alum is betting that a specialized travel-planning agent can beat the competition.",
+      "heading": 0
+    },
+    {
+      "text": "The company is called Voyage Labs, and on Tuesday it announced $12 million in seed funding led by Kleiner Perkins, with participation from SignalFire and SV Angel. The company plans to use the funding to expand supplier partnerships and grow its engineering team.",
+      "heading": 0
+    },
+    {
+      "text": "Voyage Labs’ flagship product, called Atlas, is meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "heading": 0
+    },
+    {
+      "text": "“People can use it to plan and book and manage their entire journey, from the time they have an inspiration to the time they come back home,” says co-founder and CEO Manik Gupta.",
+      "heading": 0
+    },
+    {
+      "text": "Atlas is designed to serve as an always-on assistant throughout the planning process, fielding ideas and doing research on every idea that’s raised. The long time horizon means Atlas can tailor recommendations based on weeks of conversation, while also monitoring real-time price fluctuations and ultimately booking flights and hotels.",
+      "heading": 0
+    },
+    {
+      "text": "For the Voyage founders, it’s an ideal match between technology and use case. “Trip planning is a project that has its own lifecycle,” says Yogesh Jain, co-founder and CTO of the company. “You’re planning across days and weeks — so long-running agents as a technology matches that very well.”",
+      "heading": 0
+    },
+    {
+      "text": "Travel assistants are already a crowded field, but Voyage will be starting with a lot of experience in the space. Gupta was previously the director of Product Management for Google Maps, followed by four years as chief product officer at Uber. As he puts it, “I spent eight years where my only job was to wake up in the morning and go build the map. I’m just very obsessed with that problem.”",
+      "heading": 0
+    },
+    {
+      "text": "The biggest question is how Atlas will compete with the multi-purpose AI assistants built by frontier labs. But as Gupta notes, the space is still changing fast, and it’s hard for anyone to be sure what form factors will thrive in the coming years. Ultimately, Voyage is betting that travel is specialized enough to need a specialized product.",
+      "heading": 0
+    },
+    {
+      "text": "“We are making a bet that this vertical around travel and outdoors is a large enough vertical that it needs a focused product solution,” Gupta told TechCrunch. “Ultimately, we believe we can actually stitch together an end-to-end experience that will help users.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

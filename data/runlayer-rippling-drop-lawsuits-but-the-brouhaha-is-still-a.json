@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+  "slug": "runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-828.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+    "episode": ""
+  },
+  "words": 613,
+  "lines": 16,
+  "duration": 204,
+  "text": "On Wednesday night, Runlayer and Rippling dropped their respective lawsuits against each other. No settlement was made. No money changed hands. Not even lawyers’ fees, according to court documents seen by TechCrunch.\n\nRippling celebrated by instantly releasing its MCP gateway, the product at the heart of the dueling lawsuits and the one that competes with Runlayer’s offering.\n\nThis public fight is a cautionary tale to founders: In the age of AI, when building new software has become almost trivial, you never know who your next competitor will be. It might even be a prospective customer.\n\nTo recap the short-lived legal brouhaha: Runlayer is an early-stage startup that launched out of stealth in November 2025 and has raised a total of $42 million from VCs like Khosla Ventures’ Keith Rabois and Felicis. It’s led by third-time founder Andrew Berman (previous companies include baby-monitor maker Nanit and an AI video conferencing tool, Vowel, that sold to Zapier in 2024 ).\n\nAfter Rippling tested Runlayer’s MCP gateway for more than a year, with the two engineering teams working closely together, Rippling never signed on to become a customer, according to Runlayer’s lawsuit. Instead, Berman received a text from a Rippling employee that said his employer was building its own MCP gateway and planned to release it as a product. This employee described Rippling’s product as a clone of Runlayer’s.\n\nRunlayer sued, claiming that Rippling violated contractual agreements covering the tests of its products.\n\nAn MCP gateway securely handles an enterprise’s AI agent requests for data from other software systems. So, for instance, when a hiring professional asks for details on the top five candidates for a job, including their emails, that data must be retrieved from the company’s recruitment system. The gateway handles the retrieval process, rather than granting agents direct access to the company’s software systems. It can then also layer on other features like employee role-based access control (managers getting different access than interns), observability (logs and usage trails), and so on.\n\nThen Rippling countersued, alleging that Runlayer was violating some of its patents. The move was seen by Runlayer as a way to induce it to drop its suit while ratcheting up legal expenses.\n\nRunlayer dropped its suit after spending the last three weeks in discovery. Rippling dropped its own suit and didn’t collect a settlement either.\n\nSo, while the lawsuits didn’t lead to anything but a lot of public flaming, there is a deeper takeaway for founders. The AI landscape is changing so rapidly that the long-running technical shoot-outs that enterprises love to impose on startups need to be rethought. Between the time an AI startup enters into one and however many months later, an enterprise’s needs and desires may drastically change.\n\nIn the meantime, in the span of weeks, Rippling, whose bread and butter has historically been payroll and benefits management, has now entered the AI gateway market with a tool that can route to different models while dashboarding token spend by employee. The product is competing with the likes of Stripe, Ramp, and Databricks.\n\nNow Rippling is also in the AI security business with this MCP gateway that ties AI access to employee roles. It competes with the likes of Runlayer, Docker, and Amazon Bedrock.\n\nAs for Runlayer, its pitch is a broader bundle of agent security services tied to the gateway, ranging from agent creation to spotting shadow AI agents running in an enterprise unbeknownst to IT.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "On Wednesday night, Runlayer and Rippling dropped their respective lawsuits against each other. No settlement was made. No money changed hands. Not even lawyers’ fees, according to court documents seen by TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Rippling celebrated by instantly releasing its MCP gateway, the product at the heart of the dueling lawsuits and the one that competes with Runlayer’s offering.",
+      "heading": 0
+    },
+    {
+      "text": "This public fight is a cautionary tale to founders: In the age of AI, when building new software has become almost trivial, you never know who your next competitor will be. It might even be a prospective customer.",
+      "heading": 0
+    },
+    {
+      "text": "To recap the short-lived legal brouhaha: Runlayer is an early-stage startup that launched out of stealth in November 2025 and has raised a total of $42 million from VCs like Khosla Ventures’ Keith Rabois and Felicis. It’s led by third-time founder Andrew Berman (previous companies include baby-monitor maker Nanit and an AI video conferencing tool, Vowel, that sold to Zapier in 2024 ).",
+      "heading": 0
+    },
+    {
+      "text": "After Rippling tested Runlayer’s MCP gateway for more than a year, with the two engineering teams working closely together, Rippling never signed on to become a customer, according to Runlayer’s lawsuit. Instead, Berman received a text from a Rippling employee that said his employer was building its own MCP gateway and planned to release it as a product. This employee described Rippling’s product as a clone of Runlayer’s.",
+      "heading": 0
+    },
+    {
+      "text": "Runlayer sued, claiming that Rippling violated contractual agreements covering the tests of its products.",
+      "heading": 0
+    },
+    {
+      "text": "An MCP gateway securely handles an enterprise’s AI agent requests for data from other software systems. So, for instance, when a hiring professional asks for details on the top five candidates for a job, including their emails, that data must be retrieved from the company’s recruitment system. The gateway handles the retrieval process, rather than granting agents direct access to the company’s software systems. It can then also layer on other features like employee role-based access control (managers getting different access than interns), observability (logs and usage trails), and so on.",
+      "heading": 0
+    },
+    {
+      "text": "Then Rippling countersued, alleging that Runlayer was violating some of its patents. The move was seen by Runlayer as a way to induce it to drop its suit while ratcheting up legal expenses.",
+      "heading": 0
+    },
+    {
+      "text": "Runlayer dropped its suit after spending the last three weeks in discovery. Rippling dropped its own suit and didn’t collect a settlement either.",
+      "heading": 0
+    },
+    {
+      "text": "So, while the lawsuits didn’t lead to anything but a lot of public flaming, there is a deeper takeaway for founders. The AI landscape is changing so rapidly that the long-running technical shoot-outs that enterprises love to impose on startups need to be rethought. Between the time an AI startup enters into one and however many months later, an enterprise’s needs and desires may drastically change.",
+      "heading": 0
+    },
+    {
+      "text": "In the meantime, in the span of weeks, Rippling, whose bread and butter has historically been payroll and benefits management, has now entered the AI gateway market with a tool that can route to different models while dashboarding token spend by employee. The product is competing with the likes of Stripe, Ramp, and Databricks.",
+      "heading": 0
+    },
+    {
+      "text": "Now Rippling is also in the AI security business with this MCP gateway that ties AI access to employee roles. It competes with the likes of Runlayer, Docker, and Amazon Bedrock.",
+      "heading": 0
+    },
+    {
+      "text": "As for Runlayer, its pitch is a broader bundle of agent security services tied to the gateway, ranging from agent creation to spotting shadow AI agents running in an enterprise unbeknownst to IT.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

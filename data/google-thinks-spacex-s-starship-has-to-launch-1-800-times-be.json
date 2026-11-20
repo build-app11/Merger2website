@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+  "slug": "google-thinks-spacex-s-starship-has-to-launch-1-800-times-be",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+    "episode": ""
+  },
+  "words": 849,
+  "lines": 20,
+  "duration": 283,
+  "text": "Google’s prototype of its orbital compute satellite took off today onboard a SpaceX rocket launched from California — the first time the tech giant has sent its advanced chips into space.\n\nBuilt by Planet Labs, the satellite will prove that a Google Tensor Processing Unit, its competitor to Nvidia’s GPUs, can function in space. That means supplying a kilowatt of continuous power, cooling the chip, and running a series of models through their paces to see if anything goes wrong.\n\n“We’ve done testing on the ground, but you know, there’s no test that’s completely as good as the real thing,” said Travis Beals, the Google executive managing Project Suncatcher, the tech giant’s plan to develop large-scale compute clusters in orbit around the Earth.\n\nOnce commissioned, the satellite will fire up one of its four TPUs in 15-minute bursts to avoid straining the satellite’s power and thermal management systems. This satellite is based on a standard platform built by Planet Labs, but the two companies are working on a demo expected to take flight next year that will see two satellites more purpose-built for advanced compute that can run more substantial workloads. Those future versions will attempt to collaborate via a laser communications link.\n\nSuncatcher isn’t the only space AI payload on this SpaceX rocket, which is launching more than 100 different payloads, including missions from Satlyt and Cowboy Space Company.\n\nWhat sets the Google initiative apart from those startups (and indeed from SpaceX itself) is that it’s a long-term project.\n\nThe focus of this “long-term moonshot,” as Beals puts it, is on building for the space infrastructure and AI workloads that will exist in the future. The company envisions an orbital data center that is a network of 81 satellites flying in close formation, processing in parallel.\n\n“The bandwidth and the latency between TPUs really, really matters when you’re trying to run a multi-rack workload…we’re trying to look ahead to not just what workloads exist today, but where they will be in five years,” Beals said. That’s largely because the rockets required to scale up orbital data centers in a cost-effective way don’t yet exist.\n\nOn Thursday, Google also released a peer-reviewed version of its white paper on orbital data centers, one of the most rigorous analyses available of how compute gets to orbit. The paper will be published in Joule.\n\nOne of the paper’s most notable aspects is how Google thinks about access to space. Although the researchers stress their analysis isn’t an economic feasibility study, it offers an interesting picture of how the company sees rockets becoming cheaper over time.\n\nLike all data center companies, Google is looking to SpaceX to get its spacecraft off the ground. (Google is also a major investor in SpaceX.)\n\nArguing that Elon Musk’s rocket builders have achieved a price-reducing “learning curve” of about 20% a year since they launched the Falcon 1 rocket, the authors believe it’s reasonable to expect the company to deliver launch prices close to $200 per kilogram by 2035.\n\nWhat will it take to do that? Based on the amount of payload launched by the Falcon 9, they think a similar cost-reduction trajectory will require Starship to fly 370,000 tons of payload into orbit. That’s something that would take it about 1,800 launches over the next 10 years, or 180 a year — and that’s if it can fly 200 metric tons on each mission.\n\nThat’s a big ask for a vehicle that has never flown more than five times in a year. SpaceX predicts the company will be flying far more than that — Elon Musk has suggested Starship could achieve an hourly flight rate in 2029, for example, but Musk says a lot of things.\n\nThe good news, at least, in Google’s updated research, is that it seems likely that its chips will survive the radiation of space. The company had to redo tests blasting the chips in a particle accelerator after they realized the configuration of the chips provided more shielding than they would actually experience. This produced slightly more errors in the chip’s logic circuitry, but the company is still confident its chips can handle large inference workloads in orbit for the five-year lifespan of a satellite.\n\n“The error rate is very low if you’re thinking about typical inference operations, right? Like one in a million,” Beals said. “On the other hand, it was already problematic for doing, say, some mega-scale training run where you’re going to have many thousands of chips running for months.”\n\nCorrection: The headline for this story originally misstated the learning curve estimate for Starship launches as 1,600; it is 1,800. The Suncatcher prototype satellite has four TPUs onboard, but can only operate one at a time.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Google’s prototype of its orbital compute satellite took off today onboard a SpaceX rocket launched from California — the first time the tech giant has sent its advanced chips into space.",
+      "heading": 0
+    },
+    {
+      "text": "Built by Planet Labs, the satellite will prove that a Google Tensor Processing Unit, its competitor to Nvidia’s GPUs, can function in space. That means supplying a kilowatt of continuous power, cooling the chip, and running a series of models through their paces to see if anything goes wrong.",
+      "heading": 0
+    },
+    {
+      "text": "“We’ve done testing on the ground, but you know, there’s no test that’s completely as good as the real thing,” said Travis Beals, the Google executive managing Project Suncatcher, the tech giant’s plan to develop large-scale compute clusters in orbit around the Earth.",
+      "heading": 0
+    },
+    {
+      "text": "Once commissioned, the satellite will fire up one of its four TPUs in 15-minute bursts to avoid straining the satellite’s power and thermal management systems. This satellite is based on a standard platform built by Planet Labs, but the two companies are working on a demo expected to take flight next year that will see two satellites more purpose-built for advanced compute that can run more substantial workloads. Those future versions will attempt to collaborate via a laser communications link.",
+      "heading": 0
+    },
+    {
+      "text": "Suncatcher isn’t the only space AI payload on this SpaceX rocket, which is launching more than 100 different payloads, including missions from Satlyt and Cowboy Space Company.",
+      "heading": 0
+    },
+    {
+      "text": "What sets the Google initiative apart from those startups (and indeed from SpaceX itself) is that it’s a long-term project.",
+      "heading": 0
+    },
+    {
+      "text": "The focus of this “long-term moonshot,” as Beals puts it, is on building for the space infrastructure and AI workloads that will exist in the future. The company envisions an orbital data center that is a network of 81 satellites flying in close formation, processing in parallel.",
+      "heading": 0
+    },
+    {
+      "text": "“The bandwidth and the latency between TPUs really, really matters when you’re trying to run a multi-rack workload…we’re trying to look ahead to not just what workloads exist today, but where they will be in five years,” Beals said. That’s largely because the rockets required to scale up orbital data centers in a cost-effective way don’t yet exist.",
+      "heading": 0
+    },
+    {
+      "text": "On Thursday, Google also released a peer-reviewed version of its white paper on orbital data centers, one of the most rigorous analyses available of how compute gets to orbit. The paper will be published in Joule.",
+      "heading": 0
+    },
+    {
+      "text": "One of the paper’s most notable aspects is how Google thinks about access to space. Although the researchers stress their analysis isn’t an economic feasibility study, it offers an interesting picture of how the company sees rockets becoming cheaper over time.",
+      "heading": 0
+    },
+    {
+      "text": "Like all data center companies, Google is looking to SpaceX to get its spacecraft off the ground. (Google is also a major investor in SpaceX.)",
+      "heading": 0
+    },
+    {
+      "text": "Arguing that Elon Musk’s rocket builders have achieved a price-reducing “learning curve” of about 20% a year since they launched the Falcon 1 rocket, the authors believe it’s reasonable to expect the company to deliver launch prices close to $200 per kilogram by 2035.",
+      "heading": 0
+    },
+    {
+      "text": "What will it take to do that? Based on the amount of payload launched by the Falcon 9, they think a similar cost-reduction trajectory will require Starship to fly 370,000 tons of payload into orbit. That’s something that would take it about 1,800 launches over the next 10 years, or 180 a year — and that’s if it can fly 200 metric tons on each mission.",
+      "heading": 0
+    },
+    {
+      "text": "That’s a big ask for a vehicle that has never flown more than five times in a year. SpaceX predicts the company will be flying far more than that — Elon Musk has suggested Starship could achieve an hourly flight rate in 2029, for example, but Musk says a lot of things.",
+      "heading": 0
+    },
+    {
+      "text": "The good news, at least, in Google’s updated research, is that it seems likely that its chips will survive the radiation of space. The company had to redo tests blasting the chips in a particle accelerator after they realized the configuration of the chips provided more shielding than they would actually experience. This produced slightly more errors in the chip’s logic circuitry, but the company is still confident its chips can handle large inference workloads in orbit for the five-year lifespan of a satellite.",
+      "heading": 0
+    },
+    {
+      "text": "“The error rate is very low if you’re thinking about typical inference operations, right? Like one in a million,” Beals said. “On the other hand, it was already problematic for doing, say, some mega-scale training run where you’re going to have many thousands of chips running for months.”",
+      "heading": 0
+    },
+    {
+      "text": "Correction: The headline for this story originally misstated the learning curve estimate for Starship launches as 1,600; it is 1,800. The Suncatcher prototype satellite has four TPUs onboard, but can only operate one at a time.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

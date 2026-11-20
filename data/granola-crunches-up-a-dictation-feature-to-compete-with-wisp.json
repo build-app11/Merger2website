@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Granola crunches up a dictation feature to compete with Wispr",
+  "slug": "granola-crunches-up-a-dictation-feature-to-compete-with-wisp",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Granola.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+    "episode": ""
+  },
+  "words": 331,
+  "lines": 18,
+  "duration": 110,
+  "text": "Posted:\n\nIvan Mehta\n\nGranola crunches up a dictation feature to compete with Wispr\n\nApps in the consumer voice AI world seem to be converging, as Granola, known for its meeting notetaker, launched a dictation feature today. This comes months after Wispr, known for its dictation tool, launched a meeting notetaker.\n\nGranola’s dictation currently works on Mac just like any other such tool. Users can press the “Fn” key and start speaking, and the tool cleans up and formats their speech and posts the final text. This feature works across all apps, so users can post notes, dictate prompts, and reply to emails and messages. The startup said that dictation is available for all plans without any limits.\n\nGranola now does voice typing. Unlimited words, for free. Granola already writes your meeting notes. Now it can do the typing for you, in any app. pic.twitter.com/et60VtwWA0\n\nThe company said that the feature will land on iOS and Windows soon.\n\nGranola and Wispr are valued at $1.5 billion and $2 billion, respectively. Granola is focused on meeting-related automation and notetaking. On the other hand, Wispr is trying to build its own models through a research lab, which is exploring different human-computer interfaces.\n\nThe feature mashups are not exclusive to Granola and Wispr. Other voice startups such as Fireflies, Speechify, and Monologue have converged into multifeature apps with meeting notetaking and dictation capabilities. Until earlier in the year, the play was around having a focused app that does one thing well. But now, all of these apps are thinking about how to get more out of capturing users’ speech.\n\nTopics\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nSuperhuman pushes its Go assistant everywhere\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Granola crunches up a dictation feature to compete with Wispr",
+      "heading": 1
+    },
+    {
+      "text": "Apps in the consumer voice AI world seem to be converging, as Granola, known for its meeting notetaker, launched a dictation feature today. This comes months after Wispr, known for its dictation tool, launched a meeting notetaker.",
+      "heading": 0
+    },
+    {
+      "text": "Granola’s dictation currently works on Mac just like any other such tool. Users can press the “Fn” key and start speaking, and the tool cleans up and formats their speech and posts the final text. This feature works across all apps, so users can post notes, dictate prompts, and reply to emails and messages. The startup said that dictation is available for all plans without any limits.",
+      "heading": 0
+    },
+    {
+      "text": "Granola now does voice typing. Unlimited words, for free. Granola already writes your meeting notes. Now it can do the typing for you, in any app. pic.twitter.com/et60VtwWA0",
+      "heading": 0
+    },
+    {
+      "text": "The company said that the feature will land on iOS and Windows soon.",
+      "heading": 0
+    },
+    {
+      "text": "Granola and Wispr are valued at $1.5 billion and $2 billion, respectively. Granola is focused on meeting-related automation and notetaking. On the other hand, Wispr is trying to build its own models through a research lab, which is exploring different human-computer interfaces.",
+      "heading": 0
+    },
+    {
+      "text": "The feature mashups are not exclusive to Granola and Wispr. Other voice startups such as Fireflies, Speechify, and Monologue have converged into multifeature apps with meeting notetaking and dictation capabilities. Until earlier in the year, the play was around having a focused app that does one thing well. But now, all of these apps are thinking about how to get more out of capturing users’ speech.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

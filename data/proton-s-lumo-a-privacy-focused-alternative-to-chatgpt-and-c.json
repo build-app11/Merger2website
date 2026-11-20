@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+  "slug": "proton-s-lumo-a-privacy-focused-alternative-to-chatgpt-and-c",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/Lumo-by-proton.jpeg?resize=1200,600",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+    "episode": ""
+  },
+  "words": 533,
+  "lines": 14,
+  "duration": 178,
+  "text": "Proton, the privacy-focused tech company offering alternatives to Google’s and Microsoft’s tools for email, productivity apps, password management, cloud storage, and more, is now bringing its AI app Lumo to personal computers. On Tuesday, the company launched Lumo Desktop for Windows, macOS, and Linux, allowing users to leverage its AI to carry out local tasks on their computer involving connected apps, personal files, and other automations.\n\nThe app is designed to offer users more control over their personal data, as consumer AI technology becomes focused more on AI agents that can perform tasks on users’ behalf, rather than just answering questions.\n\nAlready, the major model makers, including OpenAI, Anthropic, Meta, and others, offer desktop tools for working with their AI technologies, but doing so invites increased risk to users’ personal data. Only this week, for instance, Apple announced it was addressing those privacy concerns with tightened security settings for apps that request Full Disk Access, as the AI desktop apps do.\n\nProton’s idea is to offer a set of tools that let its AI access connected apps, files, and folders and automate tasks, but with more personalization over how much access the AI has. The company says users can choose which actions the AI agent takes that will need to request their approval, and it vows that the conversations and information from connected apps and files are never used to serve personalized ads or train AI models.\n\nThe new app includes a variety of connectors that support local tools, like file-system access, shell execution, and browser content fetching, as well as Proton’s email app and other third-party services, including Confluence, Dropbox, and Jira.\n\nThe connectors also support local and remote MCP (Model Context Protocol) servers, which AI agents use to access external data sources.\n\nProton says that users can decide for each connector which actions Lumo can perform automatically, which require approval, and which are blocked entirely. Users can also turn individual tools off from the Tools menu in their conversation.\n\nIn addition, users can set up their own scheduled tasks, where each has its own set of permissions, in terms of what can be handled automatically and what requires approval.\n\nProton notes that it uses encryption to ensure that only users can read their chat history, not the company. The company also says it keeps no server-side logs, and the limited data it does store is protected under Swiss privacy law. The data is hosted on European infrastructure, outside the scope of the U.S. CLOUD Act, which specifies how law enforcement agencies access data held by cloud service providers.\n\nThe company says it’s investing in its infrastructure, with its first Nvidia B300 cluster built on Open Compute Project (OCP) standards now going live in Switzerland.\n\nSimilar to other AI apps, Lumo’s desktop app supports Skills, which lets users save instructions, templates, and reference files that Lumo can reuse across their conversations. (An earlier version of this, Custom Lumos, will now be migrated to the Skills format.)\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Proton, the privacy-focused tech company offering alternatives to Google’s and Microsoft’s tools for email, productivity apps, password management, cloud storage, and more, is now bringing its AI app Lumo to personal computers. On Tuesday, the company launched Lumo Desktop for Windows, macOS, and Linux, allowing users to leverage its AI to carry out local tasks on their computer involving connected apps, personal files, and other automations.",
+      "heading": 0
+    },
+    {
+      "text": "The app is designed to offer users more control over their personal data, as consumer AI technology becomes focused more on AI agents that can perform tasks on users’ behalf, rather than just answering questions.",
+      "heading": 0
+    },
+    {
+      "text": "Already, the major model makers, including OpenAI, Anthropic, Meta, and others, offer desktop tools for working with their AI technologies, but doing so invites increased risk to users’ personal data. Only this week, for instance, Apple announced it was addressing those privacy concerns with tightened security settings for apps that request Full Disk Access, as the AI desktop apps do.",
+      "heading": 0
+    },
+    {
+      "text": "Proton’s idea is to offer a set of tools that let its AI access connected apps, files, and folders and automate tasks, but with more personalization over how much access the AI has. The company says users can choose which actions the AI agent takes that will need to request their approval, and it vows that the conversations and information from connected apps and files are never used to serve personalized ads or train AI models.",
+      "heading": 0
+    },
+    {
+      "text": "The new app includes a variety of connectors that support local tools, like file-system access, shell execution, and browser content fetching, as well as Proton’s email app and other third-party services, including Confluence, Dropbox, and Jira.",
+      "heading": 0
+    },
+    {
+      "text": "The connectors also support local and remote MCP (Model Context Protocol) servers, which AI agents use to access external data sources.",
+      "heading": 0
+    },
+    {
+      "text": "Proton says that users can decide for each connector which actions Lumo can perform automatically, which require approval, and which are blocked entirely. Users can also turn individual tools off from the Tools menu in their conversation.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, users can set up their own scheduled tasks, where each has its own set of permissions, in terms of what can be handled automatically and what requires approval.",
+      "heading": 0
+    },
+    {
+      "text": "Proton notes that it uses encryption to ensure that only users can read their chat history, not the company. The company also says it keeps no server-side logs, and the limited data it does store is protected under Swiss privacy law. The data is hosted on European infrastructure, outside the scope of the U.S. CLOUD Act, which specifies how law enforcement agencies access data held by cloud service providers.",
+      "heading": 0
+    },
+    {
+      "text": "The company says it’s investing in its infrastructure, with its first Nvidia B300 cluster built on Open Compute Project (OCP) standards now going live in Switzerland.",
+      "heading": 0
+    },
+    {
+      "text": "Similar to other AI apps, Lumo’s desktop app supports Skills, which lets users save instructions, templates, and reference files that Lumo can reuse across their conversations. (An earlier version of this, Custom Lumos, will now be migrated to the Skills format.)",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+  "slug": "gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-ma",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/ditto-ai-app.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+    "episode": ""
+  },
+  "words": 955,
+  "lines": 19,
+  "duration": 318,
+  "text": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they’ll try literally anything else — even an AI matchmaker. After dropping out of UC Berkeley, Ditto co-founders Allen Wang and Eric Liu set out to build something that would help their peers connect without having to spend hours each week navigating the messiness of apps like Tinder and Hinge.\n\n“As Gen Z ourselves, we were firsthand witnessing the behavioral shift in terms of how people are connecting with each other,” Wang told TechCrunch. “We see that people are getting super tired of all the endless swiping and endless small talk, and they’re really looking for something more genuine in real life.”\n\nInstead of a typical app, college students can sign up for Ditto by texting a certain iMessage number, along with a code. Then an AI chatbot introduces itself as Ditto, “a dating initiative built by college students who get it … no swiping, no awkward DMs, just real dates every Wednesday at 7 pm.”\n\nUsers text their way through an onboarding process, starting with basic biographical information like their name, gender, and birth date. Then Ditto gets into more specific questions to understand someone’s personality, interests, and dating preferences. Some users even upload photos of their celebrity crushes to give the AI a sense of their type.\n\nThe Ditto algorithm tries to match people not based on similar hobbies and interests, but rather what those hobbies and interests say about who someone is.\n\n“If there’s this guy, and he’s really into rock climbing, skydiving, and outdoor sports, and this girl, if she’s into hip hop, streetwear, and skateboarding, then even though those hobbies don’t look similar on the surface, I can tell you deeper down, both are very adventurous; maybe they’re very individualistic,” Wang said. “So that’s actually the core reason why people will find chemistry with each other, and so basically our claim is that chemistry is actually predictable with the right signals.”\n\nThen, every Wednesday at 7 p.m., Ditto messages users with their match for the week.\n\n“It comes with the person, it comes with a time, it comes with a location, and the users simply just need to show up and date each other and come back. We’ll collect more feedback about the date, and then improve our understanding of the user, and send them to a better next date,” Wang said. “Right now people’s goal is really just to go out there and meet each other, so it’s actually removing a lot of friction for our users, so that we are doing the heavy lifting for them, and they just simply go there and then meet whoever.”\n\nDitto has 150,000 signups, and Wang says that out of all the matches that are connected via Ditto, about 20% of those matches end up going out on a date. (If that percentage sounds low to you, then you’ve probably never used Tinder.)\n\nDitto creates a collage-like graphic to introduce users to one another and explain why they might be a good match — it’s a popular aesthetic among Gen Z that other connection apps with young founders like Sonder have gravitated toward.\n\nWith any dating app, and especially one that minimizes the time between matching and going out, it can be hard to discern the safety of a situation — is the person you’re meeting really who they say they are? For now, while Ditto is only available at a few dozen colleges, there’s a built-in vetting process in which you know that someone is a student at your university with a.edu email. Ditto is focused on figuring out how to grow to more schools — and eventually beyond just college — while scaling safely. Even for the most established and well-funded dating apps, this is a challenging endeavor. But Ditto does have $9.2 million in seed funding to work with from investors like Gradient, Peak XV, and Scribble.\n\nWang said, “99% of the investors just reached out to us through inbound, because we were pretty big on LinkedIn and Twitter for a bit. Even Duolingo’s co-founder Severin [Hacker] reached out to me saying, ‘Hey, love your mission, I really like what you do, let’s hop on a call.’”\n\nDitto has been able to establish this notoriety through its irreverent marketing, like videos of robot stunts. Now based in San Francisco, Ditto has 12 full-time employees, but they’re also hiring a “ chief yacht officer ” to throw promotional parties (yes, this is a legitimate job listing).\n\n“Our users are college students, and they can smell corporate marketing from a mile away,” Wang said. “But the stunts are the top of the funnel, not the product … Viral moments get college kids to look; a good first date is what makes them stay.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they’ll try literally anything else — even an AI matchmaker. After dropping out of UC Berkeley, Ditto co-founders Allen Wang and Eric Liu set out to build something that would help their peers connect without having to spend hours each week navigating the messiness of apps like Tinder and Hinge.",
+      "heading": 0
+    },
+    {
+      "text": "“As Gen Z ourselves, we were firsthand witnessing the behavioral shift in terms of how people are connecting with each other,” Wang told TechCrunch. “We see that people are getting super tired of all the endless swiping and endless small talk, and they’re really looking for something more genuine in real life.”",
+      "heading": 0
+    },
+    {
+      "text": "Instead of a typical app, college students can sign up for Ditto by texting a certain iMessage number, along with a code. Then an AI chatbot introduces itself as Ditto, “a dating initiative built by college students who get it … no swiping, no awkward DMs, just real dates every Wednesday at 7 pm.”",
+      "heading": 0
+    },
+    {
+      "text": "Users text their way through an onboarding process, starting with basic biographical information like their name, gender, and birth date. Then Ditto gets into more specific questions to understand someone’s personality, interests, and dating preferences. Some users even upload photos of their celebrity crushes to give the AI a sense of their type.",
+      "heading": 0
+    },
+    {
+      "text": "The Ditto algorithm tries to match people not based on similar hobbies and interests, but rather what those hobbies and interests say about who someone is.",
+      "heading": 0
+    },
+    {
+      "text": "“If there’s this guy, and he’s really into rock climbing, skydiving, and outdoor sports, and this girl, if she’s into hip hop, streetwear, and skateboarding, then even though those hobbies don’t look similar on the surface, I can tell you deeper down, both are very adventurous; maybe they’re very individualistic,” Wang said. “So that’s actually the core reason why people will find chemistry with each other, and so basically our claim is that chemistry is actually predictable with the right signals.”",
+      "heading": 0
+    },
+    {
+      "text": "Then, every Wednesday at 7 p.m., Ditto messages users with their match for the week.",
+      "heading": 0
+    },
+    {
+      "text": "“It comes with the person, it comes with a time, it comes with a location, and the users simply just need to show up and date each other and come back. We’ll collect more feedback about the date, and then improve our understanding of the user, and send them to a better next date,” Wang said. “Right now people’s goal is really just to go out there and meet each other, so it’s actually removing a lot of friction for our users, so that we are doing the heavy lifting for them, and they just simply go there and then meet whoever.”",
+      "heading": 0
+    },
+    {
+      "text": "Ditto has 150,000 signups, and Wang says that out of all the matches that are connected via Ditto, about 20% of those matches end up going out on a date. (If that percentage sounds low to you, then you’ve probably never used Tinder.)",
+      "heading": 0
+    },
+    {
+      "text": "Ditto creates a collage-like graphic to introduce users to one another and explain why they might be a good match — it’s a popular aesthetic among Gen Z that other connection apps with young founders like Sonder have gravitated toward.",
+      "heading": 0
+    },
+    {
+      "text": "With any dating app, and especially one that minimizes the time between matching and going out, it can be hard to discern the safety of a situation — is the person you’re meeting really who they say they are? For now, while Ditto is only available at a few dozen colleges, there’s a built-in vetting process in which you know that someone is a student at your university with a.edu email. Ditto is focused on figuring out how to grow to more schools — and eventually beyond just college — while scaling safely. Even for the most established and well-funded dating apps, this is a challenging endeavor. But Ditto does have $9.2 million in seed funding to work with from investors like Gradient, Peak XV, and Scribble.",
+      "heading": 0
+    },
+    {
+      "text": "Wang said, “99% of the investors just reached out to us through inbound, because we were pretty big on LinkedIn and Twitter for a bit. Even Duolingo’s co-founder Severin [Hacker] reached out to me saying, ‘Hey, love your mission, I really like what you do, let’s hop on a call.’”",
+      "heading": 0
+    },
+    {
+      "text": "Ditto has been able to establish this notoriety through its irreverent marketing, like videos of robot stunts. Now based in San Francisco, Ditto has 12 full-time employees, but they’re also hiring a “ chief yacht officer ” to throw promotional parties (yes, this is a legitimate job listing).",
+      "heading": 0
+    },
+    {
+      "text": "“Our users are college students, and they can smell corporate marketing from a mile away,” Wang said. “But the stunts are the top of the funnel, not the product … Viral moments get college kids to look; a good first date is what makes them stay.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
+  "slug": "openai-expands-chatgpt-s-plug-ins-with-app-like-interfaces-a",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/plugins-.jpg?resize=1200,690",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+    "episode": ""
+  },
+  "words": 337,
+  "lines": 11,
+  "duration": 112,
+  "text": "OpenAI isn’t only coming after productivity software with ChatGPT’s new Pages, Slides, and Space features — the AI lab is now targeting any application that could work better when integrated with ChatGPT.\n\nAt the company’s DevDay presentation on Tuesday, the AI company said it is now allowing developers to build their own app-like experiences within ChatGPT using plug-in extensions.\n\nOpenAI already supports plug-ins, which connect ChatGPT to everyday tools like Slack, SharePoint, Airtable, and Google Drive, but the new plug-in extensions will give apps a dedicated home in the ChatGPT sidebar.\n\nPlus, developers will be able to build interactive panels that let users work with their tools while they’re chatting with ChatGPT. This experience can also include file viewers that support whatever file formats the developer’s product uses, the company notes.\n\nIn addition, OpenAI says it’s making it easier for developers to build plug-ins and streamline the discovery process for end users. Devs are getting a new Plugin Creator tool for building and can submit them to the plug-in directory via a redesigned flow that offers clearer feedback.\n\nMeanwhile, the company says it has improved how plug-ins are ranked and recommended within its directory, as well as when they’re surfaced in conversations. When users choose a plug-in to work with, they can approve its access needs individually as well.\n\nIn addition, ChatGPT Sites, the lightweight websites users can build with ChatGPT, can host these plug-ins, too. For example, this would let someone share their apps with colleagues, who can use them with their own connected data and permissions.\n\nOpenAI also said it’s adding support for the proposed MCP Events specification, which would allow plug-ins to start automations based on events in a connected app. The company is also making automations easier to add and manage.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "OpenAI isn’t only coming after productivity software with ChatGPT’s new Pages, Slides, and Space features — the AI lab is now targeting any application that could work better when integrated with ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "At the company’s DevDay presentation on Tuesday, the AI company said it is now allowing developers to build their own app-like experiences within ChatGPT using plug-in extensions.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI already supports plug-ins, which connect ChatGPT to everyday tools like Slack, SharePoint, Airtable, and Google Drive, but the new plug-in extensions will give apps a dedicated home in the ChatGPT sidebar.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, developers will be able to build interactive panels that let users work with their tools while they’re chatting with ChatGPT. This experience can also include file viewers that support whatever file formats the developer’s product uses, the company notes.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, OpenAI says it’s making it easier for developers to build plug-ins and streamline the discovery process for end users. Devs are getting a new Plugin Creator tool for building and can submit them to the plug-in directory via a redesigned flow that offers clearer feedback.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, the company says it has improved how plug-ins are ranked and recommended within its directory, as well as when they’re surfaced in conversations. When users choose a plug-in to work with, they can approve its access needs individually as well.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, ChatGPT Sites, the lightweight websites users can build with ChatGPT, can host these plug-ins, too. For example, this would let someone share their apps with colleagues, who can use them with their own connected data and permissions.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also said it’s adding support for the proposed MCP Events specification, which would allow plug-ins to start automations based on events in a connected app. The company is also making automations easier to add and manage.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

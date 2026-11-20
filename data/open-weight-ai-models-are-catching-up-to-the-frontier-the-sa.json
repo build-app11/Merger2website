@@ -1,0 +1,145 @@
+{
+  "type": "read",
+  "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+  "slug": "open-weight-ai-models-are-catching-up-to-the-frontier-the-sa",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Z.ai-GLM-5.2-chat.png?resize=1200,576",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "episode": ""
+  },
+  "words": 1241,
+  "lines": 30,
+  "duration": 414,
+  "text": "As policymakers debate how to govern increasingly powerful AI systems like OpenAI’s GPT-5.6 Sol and Anthropic’s Mythos, a Chinese open-weight model has narrowed the gap with the industry’s leaders.\n\nGLM-5.2, the open-weight AI model from China’s Z.ai, is only a few months behind OpenAI’s GPT-5.5 and Anthropic’s Claude Opus 4.7 on cyber and bio capabilities, according to a new report from AI safety nonprofit SaferAI. But the divide between frontier capabilities and safety practices is growing.\n\nAccording to SaferAI’s evaluation, which the nonprofit ran via Z.ai’s public API, GLM-5.2 refused none of the offensive cyber or biology tasks it was given. By comparison, Claude Opus 4.7 “refused so consistently that SaferAI could not complete CyberGym on it at all.” (CyberGym is a benchmark that evaluates cybersecurity capabilities. OpenAI used it in the evaluation that preceded last month’s Hugging Face breach.)\n\nIt’s a stark reminder of what some critics have warned for years: that open-weight AI models could put highly capable AI into the hands of potential attackers, with no way to police how they use the technology once they download the weights. With open-weight models rapidly approaching the capabilities of the world’s leading AI systems, the debate is moving from whether they can compete to how society manages risks once they are released.\n\n“The frontier of capability is not the frontier of risk, and so we do have to take into account the state of the mitigations as well to assess the risk properly,” Henry Papadatos, executive director of SaferAI, told TechCrunch.\n\nWhile Z.ai could apply safety measures to its hosted API, those protections become unenforceable once someone runs the weights on their own hardware, where they can remove or modify any safeguards, fine-tune the models, or change system prompts.\n\nFrontier developers like OpenAI and Anthropic tend to rely on safeguards like classifiers, refusal training, and API-level controls to limit dangerous cyber and biological assistance.\n\nThose measures are far from foolproof: jailbreaks routinely bypass protections on deployed models. Far.ai, an AI safety nonprofit, found hundreds of universal jailbreaks — defined as reusable keys that succeed on most harmful requests — in frontier models like xAI’s Grok 4.5 and Google DeepMind’s Gemini 3.1 Pro. According to the report, jailbreaks succeed when attackers combine multiple manipulation techniques — including roleplaying, authority impersonation, fake conversation history, and follow-up prompts — to amplify weak points in a model’s defenses.\n\nBut the safeguards in place for closed models don’t work at all on open-weight models, which are designed to run on any infrastructure with any set of safeguards — or lack thereof.\n\n“The objective should clearly be that the good capabilities — the safe ones — are accessible to anyone, and then we try to remove the bad ones, even in an open source fashion,” Papadatos said.\n\nOne technique Papadatos noted could help is called “pre-training data filtering,” which is when an AI company removes offensive cybersecurity information from their training data and then trains the model on the curated dataset.\n\nSome research suggests this can reduce hazardous biological knowledge without harming overall model performance. However, for cybersecurity, data filtering is much less practical.\n\nIt’s difficult to train a general model that excels at coding but isn’t also a good hacker. Because coding has become AI’s biggest moneymaker, developers face pressure to keep improving those capabilities even as they search for ways to limit misuse.\n\nBecause of that, frontier developers have increasingly relied on other mitigations instead. One approach has been to selectively restrict the kinds of cybersecurity assistance models will provide. Anthropic’s Opus 5, for example, can search for vulnerabilities in uncompiled source code, but not compiled software, per the model’s system card. The reasoning is that this makes it harder to use Opus 5 for offensive purposes.\n\nOthers include rigorous pre-deployment safety evaluations, publishing risk assessments, and withholding model weights if a system is perceived as too dangerous.\n\nIn GLM-5.2’s case, SaferAI says Z.ai didn’t publish a safety framework, pre-deployment testing commitments, or risk assessment for the model. TechCrunch has asked Z.ai whether it conducted internal or third-party frontier safety evaluations before release, but did not receive a response.\n\nChinese leaders have increasingly acknowledged the risks of advanced AI. At the World AI Conference last month, Chinese President Xi Jinping emphasized the importance of open-weight models, while also stressing the necessity of ensuring AI remains a tool under strict human control.\n\nGraham Webster, who studies Chinese AI policy at the Stanford Cyber Policy Center, told TechCrunch that China has robust regulations governing AI, but those rules have historically focused on politically sensitive content, misinformation, and social stability rather than catastrophic AI risks like offensive cyber capabilities and biological misuse.\n\n“U.S. AI thinkers are, in general, more concerned with this existential catastrophic [idea] than the Chinese community,” Webster said, adding that many Chinese policy researchers believe that if there’s truly going to be a novel frontier risk, American companies will likely encounter it first.\n\n“The Chinese system has confidence that they control the use of these technologies inside China,” Webster continued. “Being online in China is something you do attributed to your real name, and companies can be held accountable, users can be held accountable.”\n\nWebster mused that the same mechanism that model providers use for refusing to engage on certain political topics can potentially be tweaked to make sure models refuse to complete offensive cyber attacks or won’t deliver adverse biological engineering outcomes. He added that because Chinese companies tend to coordinate with regulators behind the scenes, it can be tough to know what internal testing they’re conducting before release.\n\nAdvocates of open-weight AI argue that releasing the weights is important for cybersecurity because it allows companies defend themselves against attacks — Hugging Face relied on GLM-5.2 to defend itself against OpenAI’s breach — and because it allows them to better prepare for future threats if they know what’s coming.\n\n“The same systems that helped stop an AI-powered cyberattack can now help defend against millions of cyberattacks every day, while helping us identify and fix vulnerabilities before attackers exploit them,” Clem Delangue, CEO of Hugging Face, said this week in a social media post.\n\nPapadatos said that benefit is often overstated, and doesn’t mean “we should open-source dangerous capabilities.”\n\n“The main point in my mind is that we shouldn’t just accept that dangerous capabilities are easily accessible by anyone anywhere,” he said, stressing that he believes the industry should be striving for only making the “good capabilities” easily accessible. By default attackers adopt new tools faster than defenders do. For example, a ransomware group can change its methods in a week. A hospital cannot.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "As policymakers debate how to govern increasingly powerful AI systems like OpenAI’s GPT-5.6 Sol and Anthropic’s Mythos, a Chinese open-weight model has narrowed the gap with the industry’s leaders.",
+      "heading": 0
+    },
+    {
+      "text": "GLM-5.2, the open-weight AI model from China’s Z.ai, is only a few months behind OpenAI’s GPT-5.5 and Anthropic’s Claude Opus 4.7 on cyber and bio capabilities, according to a new report from AI safety nonprofit SaferAI. But the divide between frontier capabilities and safety practices is growing.",
+      "heading": 0
+    },
+    {
+      "text": "According to SaferAI’s evaluation, which the nonprofit ran via Z.ai’s public API, GLM-5.2 refused none of the offensive cyber or biology tasks it was given. By comparison, Claude Opus 4.7 “refused so consistently that SaferAI could not complete CyberGym on it at all.” (CyberGym is a benchmark that evaluates cybersecurity capabilities. OpenAI used it in the evaluation that preceded last month’s Hugging Face breach.)",
+      "heading": 0
+    },
+    {
+      "text": "It’s a stark reminder of what some critics have warned for years: that open-weight AI models could put highly capable AI into the hands of potential attackers, with no way to police how they use the technology once they download the weights. With open-weight models rapidly approaching the capabilities of the world’s leading AI systems, the debate is moving from whether they can compete to how society manages risks once they are released.",
+      "heading": 0
+    },
+    {
+      "text": "“The frontier of capability is not the frontier of risk, and so we do have to take into account the state of the mitigations as well to assess the risk properly,” Henry Papadatos, executive director of SaferAI, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "While Z.ai could apply safety measures to its hosted API, those protections become unenforceable once someone runs the weights on their own hardware, where they can remove or modify any safeguards, fine-tune the models, or change system prompts.",
+      "heading": 0
+    },
+    {
+      "text": "Frontier developers like OpenAI and Anthropic tend to rely on safeguards like classifiers, refusal training, and API-level controls to limit dangerous cyber and biological assistance.",
+      "heading": 0
+    },
+    {
+      "text": "Those measures are far from foolproof: jailbreaks routinely bypass protections on deployed models. Far.ai, an AI safety nonprofit, found hundreds of universal jailbreaks — defined as reusable keys that succeed on most harmful requests — in frontier models like xAI’s Grok 4.5 and Google DeepMind’s Gemini 3.1 Pro. According to the report, jailbreaks succeed when attackers combine multiple manipulation techniques — including roleplaying, authority impersonation, fake conversation history, and follow-up prompts — to amplify weak points in a model’s defenses.",
+      "heading": 0
+    },
+    {
+      "text": "But the safeguards in place for closed models don’t work at all on open-weight models, which are designed to run on any infrastructure with any set of safeguards — or lack thereof.",
+      "heading": 0
+    },
+    {
+      "text": "“The objective should clearly be that the good capabilities — the safe ones — are accessible to anyone, and then we try to remove the bad ones, even in an open source fashion,” Papadatos said.",
+      "heading": 0
+    },
+    {
+      "text": "One technique Papadatos noted could help is called “pre-training data filtering,” which is when an AI company removes offensive cybersecurity information from their training data and then trains the model on the curated dataset.",
+      "heading": 0
+    },
+    {
+      "text": "Some research suggests this can reduce hazardous biological knowledge without harming overall model performance. However, for cybersecurity, data filtering is much less practical.",
+      "heading": 0
+    },
+    {
+      "text": "It’s difficult to train a general model that excels at coding but isn’t also a good hacker. Because coding has become AI’s biggest moneymaker, developers face pressure to keep improving those capabilities even as they search for ways to limit misuse.",
+      "heading": 0
+    },
+    {
+      "text": "Because of that, frontier developers have increasingly relied on other mitigations instead. One approach has been to selectively restrict the kinds of cybersecurity assistance models will provide. Anthropic’s Opus 5, for example, can search for vulnerabilities in uncompiled source code, but not compiled software, per the model’s system card. The reasoning is that this makes it harder to use Opus 5 for offensive purposes.",
+      "heading": 0
+    },
+    {
+      "text": "Others include rigorous pre-deployment safety evaluations, publishing risk assessments, and withholding model weights if a system is perceived as too dangerous.",
+      "heading": 0
+    },
+    {
+      "text": "In GLM-5.2’s case, SaferAI says Z.ai didn’t publish a safety framework, pre-deployment testing commitments, or risk assessment for the model. TechCrunch has asked Z.ai whether it conducted internal or third-party frontier safety evaluations before release, but did not receive a response.",
+      "heading": 0
+    },
+    {
+      "text": "Chinese leaders have increasingly acknowledged the risks of advanced AI. At the World AI Conference last month, Chinese President Xi Jinping emphasized the importance of open-weight models, while also stressing the necessity of ensuring AI remains a tool under strict human control.",
+      "heading": 0
+    },
+    {
+      "text": "Graham Webster, who studies Chinese AI policy at the Stanford Cyber Policy Center, told TechCrunch that China has robust regulations governing AI, but those rules have historically focused on politically sensitive content, misinformation, and social stability rather than catastrophic AI risks like offensive cyber capabilities and biological misuse.",
+      "heading": 0
+    },
+    {
+      "text": "“U.S. AI thinkers are, in general, more concerned with this existential catastrophic [idea] than the Chinese community,” Webster said, adding that many Chinese policy researchers believe that if there’s truly going to be a novel frontier risk, American companies will likely encounter it first.",
+      "heading": 0
+    },
+    {
+      "text": "“The Chinese system has confidence that they control the use of these technologies inside China,” Webster continued. “Being online in China is something you do attributed to your real name, and companies can be held accountable, users can be held accountable.”",
+      "heading": 0
+    },
+    {
+      "text": "Webster mused that the same mechanism that model providers use for refusing to engage on certain political topics can potentially be tweaked to make sure models refuse to complete offensive cyber attacks or won’t deliver adverse biological engineering outcomes. He added that because Chinese companies tend to coordinate with regulators behind the scenes, it can be tough to know what internal testing they’re conducting before release.",
+      "heading": 0
+    },
+    {
+      "text": "Advocates of open-weight AI argue that releasing the weights is important for cybersecurity because it allows companies defend themselves against attacks — Hugging Face relied on GLM-5.2 to defend itself against OpenAI’s breach — and because it allows them to better prepare for future threats if they know what’s coming.",
+      "heading": 0
+    },
+    {
+      "text": "“The same systems that helped stop an AI-powered cyberattack can now help defend against millions of cyberattacks every day, while helping us identify and fix vulnerabilities before attackers exploit them,” Clem Delangue, CEO of Hugging Face, said this week in a social media post.",
+      "heading": 0
+    },
+    {
+      "text": "Papadatos said that benefit is often overstated, and doesn’t mean “we should open-source dangerous capabilities.”",
+      "heading": 0
+    },
+    {
+      "text": "“The main point in my mind is that we shouldn’t just accept that dangerous capabilities are easily accessible by anyone anywhere,” he said, stressing that he believes the industry should be striving for only making the “good capabilities” easily accessible. By default attackers adopt new tools faster than defenders do. For example, a ransomware group can change its methods in a week. A hospital cannot.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

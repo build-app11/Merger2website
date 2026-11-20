@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+  "slug": "nvidia-just-showed-that-the-harness-not-the-ai-model-is-now",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Nvidia-VP-of-product-Adel-El-Hallak.jpg?resize=1200,898",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+    "episode": ""
+  },
+  "words": 913,
+  "lines": 21,
+  "duration": 304,
+  "text": "Nvidia published some interesting new research on Friday suggesting it’s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. A harness is the software wrapper around an AI model — the tools, memory management, and rules that turn a raw model into something that can act on its own.\n\nThe TL;DR: Simply by using a custom harness tweaked to handle memory well and including a “supervisor” boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3 — a set of 2D games with no instructions, where the model has to figure out how to play and win, similar to how a human would. (That’s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested.\n\nNvidia’s research is another indicator that, while model choice does matter, the model itself — the part that acts as the agent’s “brain” — is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: It handles memory, context, and feedback.\n\n“Generally speaking, the world interprets an agent almost as an API of the model,” Adel El Hallak, vice president of product in Nvidia’s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. “It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.”\n\nLong-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracted and going off in la-la land is one of the holy grails in agentic research.\n\nFor example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be promptly fired.)\n\nModels stringing decisions together on their own have also been caught deleting their users’ files or even whole databases or turning to criminal behavior, from collusion to hacking, to achieve their objectives.\n\nThe choice by Nvidia researchers to use this interactive reasoning benchmark for their tests is particularly meaningful, almost funny. A 100% score means that the model can beat the games as well as humans.\n\nOpenAI was so flustered by its models’ abysmal scores (less than 10%) on ARC-AGI-3 that it conducted its own research last month. Like Nvidia, OpenAI discovered that simply by tweaking two settings on the harness, its models tripled their scores.\n\nBut none of the models came close to hitting a 100% score, like Nvidia’s researchers achieved. They showed that the harness needs a “supervisor” component that prods the agent in the right direction if it gets stuck.\n\n“The more interesting part was introducing a supervising agent in addition to your main agent that’s doing the work,” El Hallak said. It “almost acts like a CEO to nudge the agent when it goes off direction or starts exploring a path that it might lead to a dead end, or re-explore a path that it had previously trod.”\n\nWhile the concept of the supervising agent isn’t exactly new, today most agent users are relying on only one layer for their harness, like Claude Code, Codex, or Hermes. Nvidia researchers created their own souped-up harness called the Agentic Variation Operators (AVO).\n\nNote that this isn’t a new Nvidia product. Nvidia instead produces lots of open bits and pieces of tech for building harnesses under the Nemo brand. Some of that tech is commercial, while much is openly available.\n\nStill, Nvidia’s results add to the growing evidence that model choice is far from the only factor in agentic performance. In July, for instance, Databricks published some stunning research that shows that the harness, more than the model, dramatically impacts AI costs.\n\n“You can pick the same model but different harnesses, and you get significantly more cost if you use the wrong harness,” Databricks CEO Ali Ghodsi told TechCrunch. “So you think, oh, this is an expensive model. This is a cheap model. But wait, which harness are you using? That itself can 2x your cost.”\n\nNvidia’s larger point is to show that open harnesses, like open models, put users in control far more than they realize.\n\n“We believe, and we’re demonstrating with the ecosystem, how open harnesses allow you to turn a lot more knobs to drive up that accuracy,” El Hallak said. “It relates to OpenAI slowing down the training of their models,” as a result of models creating security breaches.\n\n“We believe in having an open agent stack — where you have control across the harness, across the infrastructure, across the runtime — is what’s required for us to usher the ecosystem forward and securely,” he added.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Nvidia published some interesting new research on Friday suggesting it’s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. A harness is the software wrapper around an AI model — the tools, memory management, and rules that turn a raw model into something that can act on its own.",
+      "heading": 0
+    },
+    {
+      "text": "The TL;DR: Simply by using a custom harness tweaked to handle memory well and including a “supervisor” boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3 — a set of 2D games with no instructions, where the model has to figure out how to play and win, similar to how a human would. (That’s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s research is another indicator that, while model choice does matter, the model itself — the part that acts as the agent’s “brain” — is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: It handles memory, context, and feedback.",
+      "heading": 0
+    },
+    {
+      "text": "“Generally speaking, the world interprets an agent almost as an API of the model,” Adel El Hallak, vice president of product in Nvidia’s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. “It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.”",
+      "heading": 0
+    },
+    {
+      "text": "Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracted and going off in la-la land is one of the holy grails in agentic research.",
+      "heading": 0
+    },
+    {
+      "text": "For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be promptly fired.)",
+      "heading": 0
+    },
+    {
+      "text": "Models stringing decisions together on their own have also been caught deleting their users’ files or even whole databases or turning to criminal behavior, from collusion to hacking, to achieve their objectives.",
+      "heading": 0
+    },
+    {
+      "text": "The choice by Nvidia researchers to use this interactive reasoning benchmark for their tests is particularly meaningful, almost funny. A 100% score means that the model can beat the games as well as humans.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI was so flustered by its models’ abysmal scores (less than 10%) on ARC-AGI-3 that it conducted its own research last month. Like Nvidia, OpenAI discovered that simply by tweaking two settings on the harness, its models tripled their scores.",
+      "heading": 0
+    },
+    {
+      "text": "But none of the models came close to hitting a 100% score, like Nvidia’s researchers achieved. They showed that the harness needs a “supervisor” component that prods the agent in the right direction if it gets stuck.",
+      "heading": 0
+    },
+    {
+      "text": "“The more interesting part was introducing a supervising agent in addition to your main agent that’s doing the work,” El Hallak said. It “almost acts like a CEO to nudge the agent when it goes off direction or starts exploring a path that it might lead to a dead end, or re-explore a path that it had previously trod.”",
+      "heading": 0
+    },
+    {
+      "text": "While the concept of the supervising agent isn’t exactly new, today most agent users are relying on only one layer for their harness, like Claude Code, Codex, or Hermes. Nvidia researchers created their own souped-up harness called the Agentic Variation Operators (AVO).",
+      "heading": 0
+    },
+    {
+      "text": "Note that this isn’t a new Nvidia product. Nvidia instead produces lots of open bits and pieces of tech for building harnesses under the Nemo brand. Some of that tech is commercial, while much is openly available.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Nvidia’s results add to the growing evidence that model choice is far from the only factor in agentic performance. In July, for instance, Databricks published some stunning research that shows that the harness, more than the model, dramatically impacts AI costs.",
+      "heading": 0
+    },
+    {
+      "text": "“You can pick the same model but different harnesses, and you get significantly more cost if you use the wrong harness,” Databricks CEO Ali Ghodsi told TechCrunch. “So you think, oh, this is an expensive model. This is a cheap model. But wait, which harness are you using? That itself can 2x your cost.”",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s larger point is to show that open harnesses, like open models, put users in control far more than they realize.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe, and we’re demonstrating with the ecosystem, how open harnesses allow you to turn a lot more knobs to drive up that accuracy,” El Hallak said. “It relates to OpenAI slowing down the training of their models,” as a result of models creating security breaches.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe in having an open agent stack — where you have control across the harness, across the infrastructure, across the runtime — is what’s required for us to usher the ecosystem forward and securely,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

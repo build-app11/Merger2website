@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+  "slug": "the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+    "episode": ""
+  },
+  "words": 321,
+  "lines": 20,
+  "duration": 107,
+  "text": "Posted:\n\nMarina Temkin\n\nThe maker of non-text AI model Jev valued at $7.5B just weeks after launch\n\nTypeSafe AI, the developer of Jev, a new type of AI model that gained rapid popularity after launching just a few weeks ago, has raised $870 million at a $7.5 billion valuation. The round was led by Andreessen Horowitz, with participation from Sequoia and existing investor DCVC.\n\nThe massive fundraise comes as little surprise given Jev went viral almost instantly after its September 15 release. The startup claims that a third of Fortune 500 companies are already using the model, a remarkably swift adoption by enterprises.\n\nJev is based on a transformer architecture, but it is not a large language model (LLM). It doesn’t output text, but instead produces probabilities, or what the company calls “calibrated decisions.” What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs. The company positions its approach as uniquely suited for automating tasks rather than generating text or code.\n\n“We have been super good at human language for four years, but it’s not useful for automation because computers speak a different language,” TypeSafe co-founder Diogo Almeida told TechCrunch last month.\n\nAlong with Almeida, who was previously a researcher at OpenAI, TypeSafe was co-founded in 2024 by former Meta research engineer Sasha Sheng and Erik Gafni, an engineer and entrepreneur.\n\nTopics\n\nSuperhuman pushes its Go assistant everywhere\n\nIvan Mehta\n\nAnthropic prices IPO at $83 a share, above projected range\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "heading": 0
+    },
+    {
+      "text": "TypeSafe AI, the developer of Jev, a new type of AI model that gained rapid popularity after launching just a few weeks ago, has raised $870 million at a $7.5 billion valuation. The round was led by Andreessen Horowitz, with participation from Sequoia and existing investor DCVC.",
+      "heading": 0
+    },
+    {
+      "text": "The massive fundraise comes as little surprise given Jev went viral almost instantly after its September 15 release. The startup claims that a third of Fortune 500 companies are already using the model, a remarkably swift adoption by enterprises.",
+      "heading": 0
+    },
+    {
+      "text": "Jev is based on a transformer architecture, but it is not a large language model (LLM). It doesn’t output text, but instead produces probabilities, or what the company calls “calibrated decisions.” What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs. The company positions its approach as uniquely suited for automating tasks rather than generating text or code.",
+      "heading": 0
+    },
+    {
+      "text": "“We have been super good at human language for four years, but it’s not useful for automation because computers speak a different language,” TypeSafe co-founder Diogo Almeida told TechCrunch last month.",
+      "heading": 0
+    },
+    {
+      "text": "Along with Almeida, who was previously a researcher at OpenAI, TypeSafe was co-founded in 2024 by former Meta research engineer Sasha Sheng and Erik Gafni, an engineer and entrepreneur.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

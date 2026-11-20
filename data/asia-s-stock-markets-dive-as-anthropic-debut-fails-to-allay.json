@@ -1,0 +1,156 @@
+{
+  "type": "read",
+  "title": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+  "slug": "asia-s-stock-markets-dive-as-anthropic-debut-fails-to-allay",
+  "category": "News",
+  "channel": "Al Jazeera",
+  "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26230077681365-1795137729_4d634f-1795140801.jpg?resize=1200%2C630&quality=80",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss",
+    "episode": ""
+  },
+  "words": 818,
+  "lines": 33,
+  "duration": 273,
+  "text": "Indexes in Japan, South Korea, Taiwan and Hong Kong fall amid tech sell-off.\n\nAsian stock markets have suffered stinging losses as fears that the AI boom is unsustainable persist despite Anthropic’s blockbuster debut.\n\nMarkets in Japan, South Korea, Taiwan and Hong Kong fell sharply on Friday, as investor excitement around the Claude creator’s public listing failed to allay concerns about the sustainability of the multitrillion-dollar investments propping up AI.\n\nRecommended Stories\n\nlist 1 of 4 Haiti police say 34 gang members killed in capital raid\n\nlist 2 of 4 ‘Completely messed up everything’: Malawi’s fuel crisis causes chaos\n\nlist 3 of 4 Democrats say law firm gave $11.8m in free services to Trump administration\n\nlist 4 of 4 Meta rethinks 2030 climate goals as AI data centres drive emissions up\n\nTokyo’s benchmark Nikkei 225 tumbled 5.1 percent, while Seoul’s Kospi fell 5.2 percent.\n\nIn Taipei, the Taiex plunged 6.2 percent, while Hong Kong’s Hang Seng Index closed down 1.9 percent.\n\nThe sell-off reflects concerns that AI-led growth is slowing down and the “peak growth phase” may have passed, said Rajat Agarwal, an Asia equity strategist with Societe Generale.\n\n“The second element is on the demand vacuum that we are seeing,” Agarwal told Al Jazeera.\n\n“At the time when foreigners are not buying, it is to be seen how long can the domestic investors stay put, particularly in Korea, on which the drawdown has been more severe.”\n\nLike Wall Street, Asia’s main bourses are heavily exposed to AI.\n\nThe region is home to some of the key players in the global AI ecosystem, including South Korean memory chipmakers SK Hynix and Samsung Electronics, Taiwanese contract chipmaker TSMC, and Japanese investment holding company SoftBank Group.\n\nTech firms have poured trillions of dollars into AI in recent years in anticipation of future profits, stoking fears of a debt-fuelled market bubble reminiscent of the splurge that preceded the 2000 dot-com crash.\n\nGlobal AI-related investment is projected to reach $2.7 trillion in 2026 and $3.6 trillion in 2027, according to technology insights company Gartner.\n\n‘Collapse in confidence’\n\nCarlos Casanova, senior economist for Asia at Union Bancaire Privee in Hong Kong, said the sell-off in multiple markets reflected a “collapse in confidence in the AI investment thesis”.\n\n“Global technology stocks have retreated throughout the week, with Asia’s chip-heavy markets bearing the brunt of the sell-off,” Casanova told Al Jazeera.\n\n“Anthropic’s blockbuster IPO did little to ease broader concerns about the outlook for AI-related equities and may, if anything, have crystallised the debate,” he said.\n\n“Rather than lifting the broader AI complex, the listing appears to have diverted liquidity from established AI plays as investors rotated into the new issue,” he added.\n\n“Nvidia’s earnings earlier this week also failed to provide the reassurance markets were seeking.”\n\nMarket sentiment has also been dampened by moves in Washington to clamp down on China’s access to advanced chips amid claims that former Nvidia CEO Jensen Huang was romantically involved with a Chinese intelligence operative or asset.\n\nThe United States Bureau of Industry and Security this week announced new export licence requirements aimed at preventing Chinese AI developers from remotely accessing top-of-the-line computing power at data centres in third countries, mainly in Southeast Asia.\n\nIn the latest in a series of probes facing Nvidia, California Attorney General Rob Bonta said on Thursday that his office had served a subpoena on the chip giant seeking information about whether its advanced chips made their way to China and whether it misled investors.\n\nNvidia did not respond to a request for comment about the probe.\n\nThe market retreat in Asia followed losses on Wall Street on Thursday, even as Anthropic shares jumped 17 percent on their first day of trading on the Nasdaq stock exchange under the ticker “ANT.”\n\nAnthropic’s stock price opened at $111.50 before settling just above $97, vaulting the company founded less than six years ago into the ranks of the world’s most valuable firms.\n\nThe San Francisco-based AI giant’s market debut came after it raised $81.3bn in the largest initial public offering (IPO) in history, leapfrogging the $75bn SpaceX initially raised in June.\n\nDespite the excitement around Anthropic, key indexes on Wall Street closed in the red, with the tech-heavy Nasdaq Composite down 2.3 percent and the broader S&P 500 dropping 2 percent.\n\n“There are many uncertainties in the AI space currently, coupled with what many seem to believe is a questionable business model, particularly regarding ANT’s pricing power dynamics,” Kevin J Koharki, an associate professor of accounting at Purdue University, told Al Jazeera.\n\n“If these turn out to be weaker than many expect, the valuation will eventually ‘rerate’ downward,” he said. “Only time will tell.”",
+  "paragraphs": [
+    {
+      "text": "Indexes in Japan, South Korea, Taiwan and Hong Kong fall amid tech sell-off.",
+      "heading": 0
+    },
+    {
+      "text": "Asian stock markets have suffered stinging losses as fears that the AI boom is unsustainable persist despite Anthropic’s blockbuster debut.",
+      "heading": 0
+    },
+    {
+      "text": "Markets in Japan, South Korea, Taiwan and Hong Kong fell sharply on Friday, as investor excitement around the Claude creator’s public listing failed to allay concerns about the sustainability of the multitrillion-dollar investments propping up AI.",
+      "heading": 0
+    },
+    {
+      "text": "Recommended Stories",
+      "heading": 1
+    },
+    {
+      "text": "list 1 of 4 Haiti police say 34 gang members killed in capital raid",
+      "heading": 0
+    },
+    {
+      "text": "list 2 of 4 ‘Completely messed up everything’: Malawi’s fuel crisis causes chaos",
+      "heading": 0
+    },
+    {
+      "text": "list 3 of 4 Democrats say law firm gave $11.8m in free services to Trump administration",
+      "heading": 0
+    },
+    {
+      "text": "list 4 of 4 Meta rethinks 2030 climate goals as AI data centres drive emissions up",
+      "heading": 0
+    },
+    {
+      "text": "Tokyo’s benchmark Nikkei 225 tumbled 5.1 percent, while Seoul’s Kospi fell 5.2 percent.",
+      "heading": 0
+    },
+    {
+      "text": "In Taipei, the Taiex plunged 6.2 percent, while Hong Kong’s Hang Seng Index closed down 1.9 percent.",
+      "heading": 0
+    },
+    {
+      "text": "The sell-off reflects concerns that AI-led growth is slowing down and the “peak growth phase” may have passed, said Rajat Agarwal, an Asia equity strategist with Societe Generale.",
+      "heading": 0
+    },
+    {
+      "text": "“The second element is on the demand vacuum that we are seeing,” Agarwal told Al Jazeera.",
+      "heading": 0
+    },
+    {
+      "text": "“At the time when foreigners are not buying, it is to be seen how long can the domestic investors stay put, particularly in Korea, on which the drawdown has been more severe.”",
+      "heading": 0
+    },
+    {
+      "text": "Like Wall Street, Asia’s main bourses are heavily exposed to AI.",
+      "heading": 0
+    },
+    {
+      "text": "The region is home to some of the key players in the global AI ecosystem, including South Korean memory chipmakers SK Hynix and Samsung Electronics, Taiwanese contract chipmaker TSMC, and Japanese investment holding company SoftBank Group.",
+      "heading": 0
+    },
+    {
+      "text": "Tech firms have poured trillions of dollars into AI in recent years in anticipation of future profits, stoking fears of a debt-fuelled market bubble reminiscent of the splurge that preceded the 2000 dot-com crash.",
+      "heading": 0
+    },
+    {
+      "text": "Global AI-related investment is projected to reach $2.7 trillion in 2026 and $3.6 trillion in 2027, according to technology insights company Gartner.",
+      "heading": 0
+    },
+    {
+      "text": "‘Collapse in confidence’",
+      "heading": 1
+    },
+    {
+      "text": "Carlos Casanova, senior economist for Asia at Union Bancaire Privee in Hong Kong, said the sell-off in multiple markets reflected a “collapse in confidence in the AI investment thesis”.",
+      "heading": 0
+    },
+    {
+      "text": "“Global technology stocks have retreated throughout the week, with Asia’s chip-heavy markets bearing the brunt of the sell-off,” Casanova told Al Jazeera.",
+      "heading": 0
+    },
+    {
+      "text": "“Anthropic’s blockbuster IPO did little to ease broader concerns about the outlook for AI-related equities and may, if anything, have crystallised the debate,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "“Rather than lifting the broader AI complex, the listing appears to have diverted liquidity from established AI plays as investors rotated into the new issue,” he added.",
+      "heading": 0
+    },
+    {
+      "text": "“Nvidia’s earnings earlier this week also failed to provide the reassurance markets were seeking.”",
+      "heading": 0
+    },
+    {
+      "text": "Market sentiment has also been dampened by moves in Washington to clamp down on China’s access to advanced chips amid claims that former Nvidia CEO Jensen Huang was romantically involved with a Chinese intelligence operative or asset.",
+      "heading": 0
+    },
+    {
+      "text": "The United States Bureau of Industry and Security this week announced new export licence requirements aimed at preventing Chinese AI developers from remotely accessing top-of-the-line computing power at data centres in third countries, mainly in Southeast Asia.",
+      "heading": 0
+    },
+    {
+      "text": "In the latest in a series of probes facing Nvidia, California Attorney General Rob Bonta said on Thursday that his office had served a subpoena on the chip giant seeking information about whether its advanced chips made their way to China and whether it misled investors.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia did not respond to a request for comment about the probe.",
+      "heading": 0
+    },
+    {
+      "text": "The market retreat in Asia followed losses on Wall Street on Thursday, even as Anthropic shares jumped 17 percent on their first day of trading on the Nasdaq stock exchange under the ticker “ANT.”",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s stock price opened at $111.50 before settling just above $97, vaulting the company founded less than six years ago into the ranks of the world’s most valuable firms.",
+      "heading": 0
+    },
+    {
+      "text": "The San Francisco-based AI giant’s market debut came after it raised $81.3bn in the largest initial public offering (IPO) in history, leapfrogging the $75bn SpaceX initially raised in June.",
+      "heading": 0
+    },
+    {
+      "text": "Despite the excitement around Anthropic, key indexes on Wall Street closed in the red, with the tech-heavy Nasdaq Composite down 2.3 percent and the broader S&P 500 dropping 2 percent.",
+      "heading": 0
+    },
+    {
+      "text": "“There are many uncertainties in the AI space currently, coupled with what many seem to believe is a questionable business model, particularly regarding ANT’s pricing power dynamics,” Kevin J Koharki, an associate professor of accounting at Purdue University, told Al Jazeera.",
+      "heading": 0
+    },
+    {
+      "text": "“If these turn out to be weaker than many expect, the valuation will eventually ‘rerate’ downward,” he said. “Only time will tell.”",
+      "heading": 0
+    }
+  ]
+}

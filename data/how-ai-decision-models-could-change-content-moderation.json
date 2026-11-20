@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "How AI decision models could change content moderation",
+  "slug": "how-ai-decision-models-could-change-content-moderation",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agents-chatbots-GettyImages-2243730029.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+    "episode": ""
+  },
+  "words": 432,
+  "lines": 11,
+  "duration": 144,
+  "text": "As decision models spread across the industry, a company called Musubi has a new idea for how to put them to work: moderating content. On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.\n\nThe idea is to take a content policy written in plain English and apply it to messages in under 50 milliseconds. Musubi’s model is designed to be similar in cost and speed to the AI classifier systems that power moderation on most social platforms — but because it has the flexibility of a modern LLM, it can apply complex policies without special training. Even more important, the model won’t need new training when the policy changes, allowing for human policy-setters to iterate as much as they need.\n\nAs Musubi co-founder and chief AI officer Filip Jankovic sees it, it gives platform managers a way to label content proactively.\n\n“Product teams just want a better understanding of what’s happening on their platform, especially as the amount of content is exponentially increasing,” Jankovic says. “Being able to label all of that in a very scalable, customizable way is extremely useful.”\n\nDecision models have become a hot topic in the AI world since the release of TypeSafe AI’s Jev in September, which was shortly followed by competing decision models from OpenAI and Amazon. Instead of outputting text, a decision model outputs outcome probabilities, though in this case the model outputs a binary judgement: Either the content is in the category or it isn’t. By limiting the model’s output to a set of predetermined choices, decision models are able to run faster and cheaper than large language models, while still maintaining the flexibility of the transformer architecture.\n\nOne early use case is reining in misbehavior by AI agents — so it’s only natural to apply the same technology to human misbehavior.\n\nNotably, Jankovic says his interest in decision models predates Jev, tracing it back to a 2024 project called GLiNER (Generalist Model for Named Entity Recognition) that deployed many of the same techniques.\n\nStill, Musubi isn’t wary of the comparison. If anything, the company is eager to use the new interest in decision models to shine a light on content moderation. “If Jev caught your eye, PolicyLM-1.7B is the same kind of model, trained specifically for content moderation, that you can run yourself,” the product announcement reads.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "As decision models spread across the industry, a company called Musubi has a new idea for how to put them to work: moderating content. On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "heading": 0
+    },
+    {
+      "text": "The idea is to take a content policy written in plain English and apply it to messages in under 50 milliseconds. Musubi’s model is designed to be similar in cost and speed to the AI classifier systems that power moderation on most social platforms — but because it has the flexibility of a modern LLM, it can apply complex policies without special training. Even more important, the model won’t need new training when the policy changes, allowing for human policy-setters to iterate as much as they need.",
+      "heading": 0
+    },
+    {
+      "text": "As Musubi co-founder and chief AI officer Filip Jankovic sees it, it gives platform managers a way to label content proactively.",
+      "heading": 0
+    },
+    {
+      "text": "“Product teams just want a better understanding of what’s happening on their platform, especially as the amount of content is exponentially increasing,” Jankovic says. “Being able to label all of that in a very scalable, customizable way is extremely useful.”",
+      "heading": 0
+    },
+    {
+      "text": "Decision models have become a hot topic in the AI world since the release of TypeSafe AI’s Jev in September, which was shortly followed by competing decision models from OpenAI and Amazon. Instead of outputting text, a decision model outputs outcome probabilities, though in this case the model outputs a binary judgement: Either the content is in the category or it isn’t. By limiting the model’s output to a set of predetermined choices, decision models are able to run faster and cheaper than large language models, while still maintaining the flexibility of the transformer architecture.",
+      "heading": 0
+    },
+    {
+      "text": "One early use case is reining in misbehavior by AI agents — so it’s only natural to apply the same technology to human misbehavior.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, Jankovic says his interest in decision models predates Jev, tracing it back to a 2024 project called GLiNER (Generalist Model for Named Entity Recognition) that deployed many of the same techniques.",
+      "heading": 0
+    },
+    {
+      "text": "Still, Musubi isn’t wary of the comparison. If anything, the company is eager to use the new interest in decision models to shine a light on content moderation. “If Jev caught your eye, PolicyLM-1.7B is the same kind of model, trained specifically for content moderation, that you can run yourself,” the product announcement reads.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

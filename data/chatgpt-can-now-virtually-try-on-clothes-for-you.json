@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "ChatGPT can now virtually try on clothes for you",
+  "slug": "chatgpt-can-now-virtually-try-on-clothes-for-you",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Virtual-Try-On.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+    "episode": ""
+  },
+  "words": 416,
+  "lines": 12,
+  "duration": 139,
+  "text": "OpenAI is again experimenting with how its conversational AI assistant, ChatGPT, can help users as they shop online. On Thursday, the company announced the global launch of two new shopping features, including a way to virtually try on clothing and accessories and a new favoriting function that can help users save products they like for later reference.\n\nThe updates arrive at a time when AI assistants are exploring consumer use cases around shopping. OpenAI already had to pivot from one of its earlier ideas in this space, an instant checkout feature that ended up not performing well. More recently, agentic AI startup Instinct began pushing product recommendations to users, but some felt that the proactive recommendations were an overreach, more akin to ads than helpful suggestions.\n\nOpenAI said its new shopping features leverage the newly launched ChatGPT Images 2.5 model, which the company claims produces more natural lighting and richer textures, follows editing instructions more reliably, and reduces image generation latency.\n\nTo start, virtual try-on allows ChatGPT users to upload a selfie or a full-body photo in order to visualize how an article of clothing or an accessory might look on them. This option will appear as a new Try On button in ChatGPT’s shopping results. You can also upload an image of an item, like a web screenshot, and ask ChatGPT to try it on for you.\n\nThe other new option, Favorites, lets you save products you discover to a Library in the app so you can come back to them later. (These items will be saved alongside your try-on images, the company notes.)\n\nOpenAI said that ChatGPT can help users shop in other ways, too.\n\nFor instance, you could describe a style that you’d like to try, then ask it to shop for the pieces needed to complete the look. Or, you could upload photos of celebrities’ outfits and ask it to find the items they’re wearing that are available for purchase.\n\nThe latter sees the assistant moving into areas that Pinterest and Google have dominated in recent years as sources for fashion inspiration and discovery that can convert to sales for online retailers.\n\nWhether ChatGPT will become people’s first choice for this type of activity, however, remains to be seen — especially given that Google launched virtual try-on last year.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "OpenAI is again experimenting with how its conversational AI assistant, ChatGPT, can help users as they shop online. On Thursday, the company announced the global launch of two new shopping features, including a way to virtually try on clothing and accessories and a new favoriting function that can help users save products they like for later reference.",
+      "heading": 0
+    },
+    {
+      "text": "The updates arrive at a time when AI assistants are exploring consumer use cases around shopping. OpenAI already had to pivot from one of its earlier ideas in this space, an instant checkout feature that ended up not performing well. More recently, agentic AI startup Instinct began pushing product recommendations to users, but some felt that the proactive recommendations were an overreach, more akin to ads than helpful suggestions.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI said its new shopping features leverage the newly launched ChatGPT Images 2.5 model, which the company claims produces more natural lighting and richer textures, follows editing instructions more reliably, and reduces image generation latency.",
+      "heading": 0
+    },
+    {
+      "text": "To start, virtual try-on allows ChatGPT users to upload a selfie or a full-body photo in order to visualize how an article of clothing or an accessory might look on them. This option will appear as a new Try On button in ChatGPT’s shopping results. You can also upload an image of an item, like a web screenshot, and ask ChatGPT to try it on for you.",
+      "heading": 0
+    },
+    {
+      "text": "The other new option, Favorites, lets you save products you discover to a Library in the app so you can come back to them later. (These items will be saved alongside your try-on images, the company notes.)",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI said that ChatGPT can help users shop in other ways, too.",
+      "heading": 0
+    },
+    {
+      "text": "For instance, you could describe a style that you’d like to try, then ask it to shop for the pieces needed to complete the look. Or, you could upload photos of celebrities’ outfits and ask it to find the items they’re wearing that are available for purchase.",
+      "heading": 0
+    },
+    {
+      "text": "The latter sees the assistant moving into areas that Pinterest and Google have dominated in recent years as sources for fashion inspiration and discovery that can convert to sales for online retailers.",
+      "heading": 0
+    },
+    {
+      "text": "Whether ChatGPT will become people’s first choice for this type of activity, however, remains to be seen — especially given that Google launched virtual try-on last year.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "type": "read",
+  "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+  "slug": "amazon-drops-data-center-ndas-and-ai-agents-want-your-credit",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/5-DSCF1634.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+    "episode": ""
+  },
+  "words": 578,
+  "lines": 31,
+  "duration": 193,
+  "text": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access to their inboxes, files, and credit cards — if they can get websites to let them in.\n\nOn this episode of TechCrunch’s Equity podcast, Anthony Ha, Sean O’Kane, and Rebecca Bellan dig into whether ditching NDAs will change how data center deals get done, why trust may be the real product for personal AI startups, plus a couple of deals of the week.\n\nListen to the full episode to hear more about:\n\nThe White House’s plans to make plans with its new Super Intelligence Force\n\nGhost’s $3,499 computer built to run AI agents around the clock, and why the Equity crew doesn’t see it going mass market\n\nTab, Underdog, and Hark pitching privacy as their product, plus the business model that could turn your agent into a salesperson\n\nUnited, Apple, and Amazon putting up walls against outside agents\n\nLambda’s reported $4 billion raise, and the single customer behind $35 billion of its backlog\n\nUber’s $2.3 billion all-cash deal to get into the office catering space with ezCater\n\nWe’ll see you next week at TechCrunch Disrupt 2026! Get 25% off your tickets with code Equity25, and we’ll see you on the Builders Stage Tuesday at 9 am.\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.\n\nSr. Reporter, Transportation\n\nSean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.\n\nYou can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.\n\nLatest Equity Episodes\n\nHow Toyota is betting on a future beyond cars\n\nKirsten Korosec\n\nTheresa Loconsolo\n\nHow backlash and red tape continue to slow data centers post-Blue Wave\n\nRebecca Bellan\n\nTim De Chant\n\nHow a Blue Wave midterm might reshape the AI industry\n\nAnthony Ha\n\nSean O'Kane\n\nBuilding on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "paragraphs": [
+    {
+      "text": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access to their inboxes, files, and credit cards — if they can get websites to let them in.",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Anthony Ha, Sean O’Kane, and Rebecca Bellan dig into whether ditching NDAs will change how data center deals get done, why trust may be the real product for personal AI startups, plus a couple of deals of the week.",
+      "heading": 0
+    },
+    {
+      "text": "Listen to the full episode to hear more about:",
+      "heading": 0
+    },
+    {
+      "text": "The White House’s plans to make plans with its new Super Intelligence Force",
+      "heading": 0
+    },
+    {
+      "text": "Ghost’s $3,499 computer built to run AI agents around the clock, and why the Equity crew doesn’t see it going mass market",
+      "heading": 0
+    },
+    {
+      "text": "Tab, Underdog, and Hark pitching privacy as their product, plus the business model that could turn your agent into a salesperson",
+      "heading": 0
+    },
+    {
+      "text": "United, Apple, and Amazon putting up walls against outside agents",
+      "heading": 1
+    },
+    {
+      "text": "Lambda’s reported $4 billion raise, and the single customer behind $35 billion of its backlog",
+      "heading": 0
+    },
+    {
+      "text": "Uber’s $2.3 billion all-cash deal to get into the office catering space with ezCater",
+      "heading": 0
+    },
+    {
+      "text": "We’ll see you next week at TechCrunch Disrupt 2026! Get 25% off your tickets with code Equity25, and we’ll see you on the Builders Stage Tuesday at 9 am.",
+      "heading": 0
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Sr. Reporter, Transportation",
+      "heading": 1
+    },
+    {
+      "text": "Sean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Sean by emailing [email protected] or via encrypted message at okane.01 on Signal.",
+      "heading": 0
+    },
+    {
+      "text": "Latest Equity Episodes",
+      "heading": 1
+    },
+    {
+      "text": "How Toyota is betting on a future beyond cars",
+      "heading": 1
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Theresa Loconsolo",
+      "heading": 1
+    },
+    {
+      "text": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    },
+    {
+      "text": "How a Blue Wave midterm might reshape the AI industry",
+      "heading": 1
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Sean O'Kane",
+      "heading": 1
+    },
+    {
+      "text": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "heading": 0
+    }
+  ]
+}

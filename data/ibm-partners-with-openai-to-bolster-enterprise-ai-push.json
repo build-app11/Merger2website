@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "IBM partners with OpenAI to bolster enterprise AI push",
+  "slug": "ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/04/GettyImages-1127480719.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+    "episode": ""
+  },
+  "words": 501,
+  "lines": 14,
+  "duration": 167,
+  "text": "IBM on Thursday announced its partnership with OpenAI to bring the AI company’s models and tools to more enterprise customers, opening another avenue for OpenAI to connect with some of the world’s largest companies through IBM’s global consulting business as competition for corporate AI spending intensifies.\n\nThe deal, terms of which were not disclosed, comes less than a year after IBM announced a similar alliance with Anthropic. OpenAI and IBM will jointly market AI offerings and develop industry-specific solutions for sectors including financial services, government, telecommunications, and retail, IBM said.\n\nUnder the agreement, IBM will establish a dedicated OpenAI practice within IBM Consulting and train and certify tens of thousands of consultants — primarily retraining existing employees — on OpenAI’s technologies over the next several months, Mike Healy, managing partner at IBM Consulting, told TechCrunch.\n\nThe training will focus on OpenAI’s Codex, API, cybersecurity, and consultative solution credentials. IBM will also create a group of specialized “Forward Deployed Experts” trained through OpenAI’s Partner Network, Healy said.\n\nIBM said that it would integrate OpenAI’s latest models, including GPT-5.6, Codex, and ChatGPT Work, into IBM Consulting Advantage, its AI platform for consultants, to help clients deploy AI across core business operations.\n\nThe partnership is the latest in OpenAI’s push to expand its enterprise business through consulting firms and technology partners, as competition among AI model developers increasingly shifts from building more capable models to winning corporate customers and large-scale deployments. The company has previously announced partnerships with IT services firms, including Infosys and Tata Consultancy Services, underscoring a strategy of working with large global systems integrators to bring its AI products to enterprise customers.\n\nFor IBM, OpenAI’s agreement expands its range of frontier AI partnerships as the company pursues a model-agnostic strategy that combines its own Granite family of AI models with offerings from third-party developers. The company has increasingly positioned itself as an integrator of multiple AI models through its watsonx platform and global consulting business.\n\nThe partnership also comes as IBM looks to accelerate growth in its AI business after lowering its 2026 revenue forecast last month following weaker-than-expected quarterly results. During its last earnings call, Chief Executive Arvind Krishna maintained that AI remains a long-term growth driver. He stated that AI adoption was complementing, rather than replacing, demand for IBM’s mainframe business.\n\nIn June, IBM and OpenAI partnered for the cybersecurity-focused OpenAI Daybreak Cyber Partner Program. The new deal expands that relationship by integrating OpenAI’s AI models with IBM Autonomous Security, the company’s multi-agent-powered cybersecurity service.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter\n\nJagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.\n\nYou can contact or verify outreach from Jagmeet by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "IBM on Thursday announced its partnership with OpenAI to bring the AI company’s models and tools to more enterprise customers, opening another avenue for OpenAI to connect with some of the world’s largest companies through IBM’s global consulting business as competition for corporate AI spending intensifies.",
+      "heading": 0
+    },
+    {
+      "text": "The deal, terms of which were not disclosed, comes less than a year after IBM announced a similar alliance with Anthropic. OpenAI and IBM will jointly market AI offerings and develop industry-specific solutions for sectors including financial services, government, telecommunications, and retail, IBM said.",
+      "heading": 0
+    },
+    {
+      "text": "Under the agreement, IBM will establish a dedicated OpenAI practice within IBM Consulting and train and certify tens of thousands of consultants — primarily retraining existing employees — on OpenAI’s technologies over the next several months, Mike Healy, managing partner at IBM Consulting, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The training will focus on OpenAI’s Codex, API, cybersecurity, and consultative solution credentials. IBM will also create a group of specialized “Forward Deployed Experts” trained through OpenAI’s Partner Network, Healy said.",
+      "heading": 0
+    },
+    {
+      "text": "IBM said that it would integrate OpenAI’s latest models, including GPT-5.6, Codex, and ChatGPT Work, into IBM Consulting Advantage, its AI platform for consultants, to help clients deploy AI across core business operations.",
+      "heading": 0
+    },
+    {
+      "text": "The partnership is the latest in OpenAI’s push to expand its enterprise business through consulting firms and technology partners, as competition among AI model developers increasingly shifts from building more capable models to winning corporate customers and large-scale deployments. The company has previously announced partnerships with IT services firms, including Infosys and Tata Consultancy Services, underscoring a strategy of working with large global systems integrators to bring its AI products to enterprise customers.",
+      "heading": 0
+    },
+    {
+      "text": "For IBM, OpenAI’s agreement expands its range of frontier AI partnerships as the company pursues a model-agnostic strategy that combines its own Granite family of AI models with offerings from third-party developers. The company has increasingly positioned itself as an integrator of multiple AI models through its watsonx platform and global consulting business.",
+      "heading": 0
+    },
+    {
+      "text": "The partnership also comes as IBM looks to accelerate growth in its AI business after lowering its 2026 revenue forecast last month following weaker-than-expected quarterly results. During its last earnings call, Chief Executive Arvind Krishna maintained that AI remains a long-term growth driver. He stated that AI adoption was complementing, rather than replacing, demand for IBM’s mainframe business.",
+      "heading": 0
+    },
+    {
+      "text": "In June, IBM and OpenAI partnered for the cybersecurity-focused OpenAI Daybreak Cyber Partner Program. The new deal expands that relationship by integrating OpenAI’s AI models with IBM Autonomous Security, the company’s multi-agent-powered cybersecurity service.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Jagmeet covers startups, tech policy-related updates, and all other major tech-centric developments from India for TechCrunch. He previously worked as a principal correspondent at NDTV.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Jagmeet by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

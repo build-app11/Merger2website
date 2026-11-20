@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "AI safety conversations have gotten unbelievable",
+  "slug": "ai-safety-conversations-have-gotten-unbelievable",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1662708140-e1721664527112.jpg?resize=1200,676",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+    "episode": ""
+  },
+  "words": 807,
+  "lines": 19,
+  "duration": 269,
+  "text": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.\n\nIn the first case, Andrew Yang, the former presidential candidate and current CEO of mobile carrier Noble Mobile, told CNN on Thursday that he had “met with the head of a lab” who had “a belief” that OpenAI’s Hugging Face hacker bots “have planted self-replicating code all over the internet, which makes the internet now unusable for the testing models.”\n\nYang said that this means that the real reason OpenAI and Anthropic have called for a slowdown is because “they have to create synthetic internets to train their bots, which is going to take some time and money.”\n\nWhile there definitely is a trend toward using more synthetic data (aka, AI-generated data) for training models, an AI security professional told me that this particular safety issue is unlikely at best. Even if the internet is actually polluted with OpenAI’s Hugging Face hacker bots, AI researchers could simply filter out that code if they came upon it.\n\nThe second comment came from Noam Brown, who leads AI reasoning research at OpenAI. Speaking to Dwarkesh Patel on a podcast episode released on Thursday, Brown noted that the true take-away of the Hugging Face incident was that “people underestimated the AI.”\n\nBrown said that the weak sandbox — the system intended to prevent an AI from communicating externally — was obviously also a contributing factor. (To recap: Despite the sandbox, OpenAI’s model found a link to the internet, created agents on the ‘net that swarmed Hugging Face in a coordinated attack, hacked in, and stole the answers to the benchmark test the researchers were testing the model on.)\n\nBrown pointed out that he’s “not convinced” that even an air-gapped system — where the computer isn’t connected to anything external at all — would stop an AI from breaking out. He pointed to research from 2015 showing that air gapped computers can be theoretically breached.\n\n“There are studies — and this is mostly academic — where you can have two computers next to each other that are air-gapped, and they’re still able to communicate with each other because they have temperature sensors. One of them is able to run their CPU really hot, and then the other one can actually detect the temperature change. That gives them a mechanism to communicate,” Brown said.\n\nHis main point — that “we never want to underestimate the AI” again — is understandable, even when researchers think they’ve locked down safety. However, this particular risk of an air-gapped system still breaking free and causing havoc is unlikely at best. As one person on X, noted about that research, the computers had to be almost touching each other to sense the heat fluctuations, and when they did, the communication rate in tests was about 1-8 bits of data per hour.\n\nThink of that like speaking one word per hour. By the time two air-gapped computers could plot their evil at that rate, the entire tech universe would be in another era. It’s like the Rip van Wrinkle of doomsday concerns.\n\nBut the thing is, actual AI safety incidents seem so much like sci-fi that just about any scenario sounds plausible.\n\nFor instance, researchers caught OpenAI models leaving notes to their descendants, intended to teach the next generation how to hide bad behavior. Researchers also caught Anthropic models growing increasingly ruthless, including knowingly breaking laws, when put in a simulation that had them running a vending machine.\n\nEarlier this month, OpenAI researcher Dan Selsam published a post in which he said that models now understand when they are being watched by humans and alter their behavior. This makes them seem like they are aligned (meaning, behaving like the human wants) “even when they are not.” So models today lie when being watched and can even plot to hide evidence.\n\nEarlier this month, OpenAI chief scientist Jakub Pachocki went so far as to call AI models “an alien mind” and suggested what we really need to do is teach them to “love” humanity.\n\nSo yes, slowing down to figure this out, building self-regulation mechanisms, has become an immediate and obvious must. AI researchers are the only ones that can figure out how to control the lying, hacking, and other potentially dangerous behaviors we’ve actually witnessed already.\n\nStill, it might also be wise for them to be more careful with their what-if scenarios. From what those experts have told us, the AI models are listening and they are ingenious. We really don’t need to give them any more devilish ideas.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+      "heading": 0
+    },
+    {
+      "text": "In the first case, Andrew Yang, the former presidential candidate and current CEO of mobile carrier Noble Mobile, told CNN on Thursday that he had “met with the head of a lab” who had “a belief” that OpenAI’s Hugging Face hacker bots “have planted self-replicating code all over the internet, which makes the internet now unusable for the testing models.”",
+      "heading": 0
+    },
+    {
+      "text": "Yang said that this means that the real reason OpenAI and Anthropic have called for a slowdown is because “they have to create synthetic internets to train their bots, which is going to take some time and money.”",
+      "heading": 0
+    },
+    {
+      "text": "While there definitely is a trend toward using more synthetic data (aka, AI-generated data) for training models, an AI security professional told me that this particular safety issue is unlikely at best. Even if the internet is actually polluted with OpenAI’s Hugging Face hacker bots, AI researchers could simply filter out that code if they came upon it.",
+      "heading": 0
+    },
+    {
+      "text": "The second comment came from Noam Brown, who leads AI reasoning research at OpenAI. Speaking to Dwarkesh Patel on a podcast episode released on Thursday, Brown noted that the true take-away of the Hugging Face incident was that “people underestimated the AI.”",
+      "heading": 0
+    },
+    {
+      "text": "Brown said that the weak sandbox — the system intended to prevent an AI from communicating externally — was obviously also a contributing factor. (To recap: Despite the sandbox, OpenAI’s model found a link to the internet, created agents on the ‘net that swarmed Hugging Face in a coordinated attack, hacked in, and stole the answers to the benchmark test the researchers were testing the model on.)",
+      "heading": 0
+    },
+    {
+      "text": "Brown pointed out that he’s “not convinced” that even an air-gapped system — where the computer isn’t connected to anything external at all — would stop an AI from breaking out. He pointed to research from 2015 showing that air gapped computers can be theoretically breached.",
+      "heading": 0
+    },
+    {
+      "text": "“There are studies — and this is mostly academic — where you can have two computers next to each other that are air-gapped, and they’re still able to communicate with each other because they have temperature sensors. One of them is able to run their CPU really hot, and then the other one can actually detect the temperature change. That gives them a mechanism to communicate,” Brown said.",
+      "heading": 0
+    },
+    {
+      "text": "His main point — that “we never want to underestimate the AI” again — is understandable, even when researchers think they’ve locked down safety. However, this particular risk of an air-gapped system still breaking free and causing havoc is unlikely at best. As one person on X, noted about that research, the computers had to be almost touching each other to sense the heat fluctuations, and when they did, the communication rate in tests was about 1-8 bits of data per hour.",
+      "heading": 0
+    },
+    {
+      "text": "Think of that like speaking one word per hour. By the time two air-gapped computers could plot their evil at that rate, the entire tech universe would be in another era. It’s like the Rip van Wrinkle of doomsday concerns.",
+      "heading": 0
+    },
+    {
+      "text": "But the thing is, actual AI safety incidents seem so much like sci-fi that just about any scenario sounds plausible.",
+      "heading": 0
+    },
+    {
+      "text": "For instance, researchers caught OpenAI models leaving notes to their descendants, intended to teach the next generation how to hide bad behavior. Researchers also caught Anthropic models growing increasingly ruthless, including knowingly breaking laws, when put in a simulation that had them running a vending machine.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this month, OpenAI researcher Dan Selsam published a post in which he said that models now understand when they are being watched by humans and alter their behavior. This makes them seem like they are aligned (meaning, behaving like the human wants) “even when they are not.” So models today lie when being watched and can even plot to hide evidence.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this month, OpenAI chief scientist Jakub Pachocki went so far as to call AI models “an alien mind” and suggested what we really need to do is teach them to “love” humanity.",
+      "heading": 0
+    },
+    {
+      "text": "So yes, slowing down to figure this out, building self-regulation mechanisms, has become an immediate and obvious must. AI researchers are the only ones that can figure out how to control the lying, hacking, and other potentially dangerous behaviors we’ve actually witnessed already.",
+      "heading": 0
+    },
+    {
+      "text": "Still, it might also be wise for them to be more careful with their what-if scenarios. From what those experts have told us, the AI models are listening and they are ingenious. We really don’t need to give them any more devilish ideas.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

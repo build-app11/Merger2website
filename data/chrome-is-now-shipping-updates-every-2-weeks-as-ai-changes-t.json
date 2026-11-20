@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+  "slug": "chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-t",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/google-chrome-GettyImages-2151457378.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+    "episode": ""
+  },
+  "words": 381,
+  "lines": 12,
+  "duration": 127,
+  "text": "Chrome has officially switched from a four- to a two-week release schedule, as Google promised earlier this year, with Tuesday’s launch of Chrome 153 on desktop, iOS, and Android.\n\nThe shift to faster releases is tied to Chrome’s evolving security strategy in the AI era, the company explained. As automated AI tools and community bug reports have pushed up the volume of patches and updates, Google says that a shorter release cycle makes it easier to manage security fixes.\n\nThis is also critical because faster-moving threats, some of which can also be attributed to AI, can be better addressed by shrinking the window between landing a fix in the public codebase and getting that fix to end users, the company notes.\n\nA shorter release schedule would help keep the “N-day” patch gap — the gap between when a security vulnerability is known and when it gets patched — as small as possible.\n\nFaster releases have another benefit, too: They can help Chrome ship features faster. This is also key in the AI era, as AI-assisted software development has enabled a host of new browser competitors to emerge.\n\nWhile OpenAI’s web browser, ChatGPT Atlas, has been shut down, there are still plenty of other alternative browsers looking to carve out a piece of Chrome’s market for themselves, including Brave, Dia, Opera Neon, Perplexity’s Comet, DuckDuckGo’s browser, and more.\n\nPlus, Google is experimenting with adding more AI features to Chrome and then rapidly iterating on those additions, which also demands faster updates.\n\nThe move to a two-week release schedule benefits the broader web as well. Because of Chrome’s position as the most-used browser globally, such changes can help set the standard for the industry. Mozilla, Microsoft, and Brave have already begun adopting a faster two-week schedule, following Chrome’s lead.\n\nThis is not the first time Chrome has adjusted its release schedule to enable faster patch management. The company first moved to a four-week release cycle in 2021, down from six weeks, after establishing its principles of “ release early, release often ” over a decade prior.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Chrome has officially switched from a four- to a two-week release schedule, as Google promised earlier this year, with Tuesday’s launch of Chrome 153 on desktop, iOS, and Android.",
+      "heading": 0
+    },
+    {
+      "text": "The shift to faster releases is tied to Chrome’s evolving security strategy in the AI era, the company explained. As automated AI tools and community bug reports have pushed up the volume of patches and updates, Google says that a shorter release cycle makes it easier to manage security fixes.",
+      "heading": 0
+    },
+    {
+      "text": "This is also critical because faster-moving threats, some of which can also be attributed to AI, can be better addressed by shrinking the window between landing a fix in the public codebase and getting that fix to end users, the company notes.",
+      "heading": 0
+    },
+    {
+      "text": "A shorter release schedule would help keep the “N-day” patch gap — the gap between when a security vulnerability is known and when it gets patched — as small as possible.",
+      "heading": 0
+    },
+    {
+      "text": "Faster releases have another benefit, too: They can help Chrome ship features faster. This is also key in the AI era, as AI-assisted software development has enabled a host of new browser competitors to emerge.",
+      "heading": 0
+    },
+    {
+      "text": "While OpenAI’s web browser, ChatGPT Atlas, has been shut down, there are still plenty of other alternative browsers looking to carve out a piece of Chrome’s market for themselves, including Brave, Dia, Opera Neon, Perplexity’s Comet, DuckDuckGo’s browser, and more.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, Google is experimenting with adding more AI features to Chrome and then rapidly iterating on those additions, which also demands faster updates.",
+      "heading": 0
+    },
+    {
+      "text": "The move to a two-week release schedule benefits the broader web as well. Because of Chrome’s position as the most-used browser globally, such changes can help set the standard for the industry. Mozilla, Microsoft, and Brave have already begun adopting a faster two-week schedule, following Chrome’s lead.",
+      "heading": 0
+    },
+    {
+      "text": "This is not the first time Chrome has adjusted its release schedule to enable faster patch management. The company first moved to a four-week release cycle in 2021, down from six weeks, after establishing its principles of “ release early, release often ” over a decade prior.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

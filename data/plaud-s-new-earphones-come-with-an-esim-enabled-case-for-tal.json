@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+  "slug": "plaud-s-new-earphones-come-with-an-esim-enabled-case-for-tal",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/169-KV-Clean-2.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+    "episode": ""
+  },
+  "words": 736,
+  "lines": 20,
+  "duration": 245,
+  "text": "Hardware companies have realized that note-taking is one of the easiest AI use cases to build for, and consequently have been busy shoving mics into everything from pendants and rings to credit-card-sized pucks and wristbands. Still, despite the variety of devices, only a few companies have been able to stand out.\n\nOne of these companies is Plaud, which has over 2.5 million people using its hardware or software. It is now launching a note-taker in a new form factor: earphones. Called Plaud One, these adopt the simple bare-bones style of Apple’s AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.\n\nPlaud isn’t the first to this form factor. Its rivals Viaim and Anker already have similar note-taking earbuds in the market.\n\nBut the company is betting on its software and AI chops to set these apart. Plaud said that once the earbuds transcribe your conversation, its AI agent — which can connect to tools like Gmail, Google Calendar, Notion, and Slack — can do things like writing follow-up emails and creating documents or presentations based on the contents of the conversation.\n\nBy itself, that isn’t a unique pitch. Software note-takers like Granola, Fathom, and Read AI have been offering similar workflow automation for a while now, transcribing calls and conversations, and allowing you to subsequently get an AI agent to do various tasks.\n\nThe Plaud One takes that a step further, though, with its case, which supports an eSIM card. That feature, the company says, allows users to instruct Plaud’s AI agents remotely without using their phone or computer.\n\nThe Plaud One has 12mm drivers and features active noise cancellation. The company says the case can capture voices clearly within a range of five meters, and the earphones can record six hours of in-person meetings and three hours of calls on a single charge. Combined with the case, users can record up to 25 hours of conversations on a single charge.\n\nBuyers get 300 minutes of free transcription per month, after which they will need to buy additional plans, which start from $8.33 per month (paid annually).\n\nThat said, this launch seems to be more of a trial run. The Plaud One will be limited in quantity, as the startup likely wants to gauge demand for such AI-focused earphones before it commits to the format.\n\nPlaud is also working on building agentic capabilities, which is expected to arrive as part of an update in the coming months. The company says it will introduce a credit-based system for different tasks, and buyers of the Plaud One will get $200 in credits for these tasks.\n\nThe company has had a good run so far, claiming in June that it had reached annual run-rate revenue of $100 million. However, competition in the market is intense, with new hardware note-takers releasing every week. Its rival, YC-backed Pocket, has also reached that milestone, and tons of other companies like Anker, Comu, Viaim, and software startup Genspark are building in the space.\n\nPlaud’s CEO Nathan Xu holds that there should be an interface to talk to AI to invoke it from anywhere, and earbuds meet that need.\n\n“[For AI] we need to have a wearable and an always-ready interface, one that people love to wear, is socially acceptable, and private by design,” he said in a briefing.\n\nStill, the company may find it challenging to draw people away from using their AirPods, Google Pixel Buds, Samsung Galaxy Buds, or wireless earbuds from any number of audio companies, which can pretty much do the same job when paired with any note-taking app.\n\nXu says Plaud is not necessarily competing against these companies, but positioning its meeting-recording tech to adopt a popular wearable format.\n\nUsers can preorder the device now for $249, and it will ship in the fourth quarter of 2026.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Hardware companies have realized that note-taking is one of the easiest AI use cases to build for, and consequently have been busy shoving mics into everything from pendants and rings to credit-card-sized pucks and wristbands. Still, despite the variety of devices, only a few companies have been able to stand out.",
+      "heading": 0
+    },
+    {
+      "text": "One of these companies is Plaud, which has over 2.5 million people using its hardware or software. It is now launching a note-taker in a new form factor: earphones. Called Plaud One, these adopt the simple bare-bones style of Apple’s AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "heading": 0
+    },
+    {
+      "text": "Plaud isn’t the first to this form factor. Its rivals Viaim and Anker already have similar note-taking earbuds in the market.",
+      "heading": 0
+    },
+    {
+      "text": "But the company is betting on its software and AI chops to set these apart. Plaud said that once the earbuds transcribe your conversation, its AI agent — which can connect to tools like Gmail, Google Calendar, Notion, and Slack — can do things like writing follow-up emails and creating documents or presentations based on the contents of the conversation.",
+      "heading": 0
+    },
+    {
+      "text": "By itself, that isn’t a unique pitch. Software note-takers like Granola, Fathom, and Read AI have been offering similar workflow automation for a while now, transcribing calls and conversations, and allowing you to subsequently get an AI agent to do various tasks.",
+      "heading": 0
+    },
+    {
+      "text": "The Plaud One takes that a step further, though, with its case, which supports an eSIM card. That feature, the company says, allows users to instruct Plaud’s AI agents remotely without using their phone or computer.",
+      "heading": 0
+    },
+    {
+      "text": "The Plaud One has 12mm drivers and features active noise cancellation. The company says the case can capture voices clearly within a range of five meters, and the earphones can record six hours of in-person meetings and three hours of calls on a single charge. Combined with the case, users can record up to 25 hours of conversations on a single charge.",
+      "heading": 0
+    },
+    {
+      "text": "Buyers get 300 minutes of free transcription per month, after which they will need to buy additional plans, which start from $8.33 per month (paid annually).",
+      "heading": 0
+    },
+    {
+      "text": "That said, this launch seems to be more of a trial run. The Plaud One will be limited in quantity, as the startup likely wants to gauge demand for such AI-focused earphones before it commits to the format.",
+      "heading": 0
+    },
+    {
+      "text": "Plaud is also working on building agentic capabilities, which is expected to arrive as part of an update in the coming months. The company says it will introduce a credit-based system for different tasks, and buyers of the Plaud One will get $200 in credits for these tasks.",
+      "heading": 0
+    },
+    {
+      "text": "The company has had a good run so far, claiming in June that it had reached annual run-rate revenue of $100 million. However, competition in the market is intense, with new hardware note-takers releasing every week. Its rival, YC-backed Pocket, has also reached that milestone, and tons of other companies like Anker, Comu, Viaim, and software startup Genspark are building in the space.",
+      "heading": 0
+    },
+    {
+      "text": "Plaud’s CEO Nathan Xu holds that there should be an interface to talk to AI to invoke it from anywhere, and earbuds meet that need.",
+      "heading": 0
+    },
+    {
+      "text": "“[For AI] we need to have a wearable and an always-ready interface, one that people love to wear, is socially acceptable, and private by design,” he said in a briefing.",
+      "heading": 0
+    },
+    {
+      "text": "Still, the company may find it challenging to draw people away from using their AirPods, Google Pixel Buds, Samsung Galaxy Buds, or wireless earbuds from any number of audio companies, which can pretty much do the same job when paired with any note-taking app.",
+      "heading": 0
+    },
+    {
+      "text": "Xu says Plaud is not necessarily competing against these companies, but positioning its meeting-recording tech to adopt a popular wearable format.",
+      "heading": 0
+    },
+    {
+      "text": "Users can preorder the device now for $249, and it will ship in the fourth quarter of 2026.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

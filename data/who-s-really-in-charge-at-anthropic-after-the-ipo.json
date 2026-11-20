@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Who’s really in charge at Anthropic after the IPO?",
+  "slug": "who-s-really-in-charge-at-anthropic-after-the-ipo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+    "episode": ""
+  },
+  "words": 687,
+  "lines": 15,
+  "duration": 229,
+  "text": "Anthropic was founded in 2021 to ensure humanity can control AI and benefit from it in the long-term. As the frontier lab approaches its initial public offering, however, there’s one class of humanity that is being shut out of control: anyone who buys its stock on public markets.\n\nComplex structures that allow founders like Elon Musk or Mark Zuckerberg to control their public companies without owning most of them are nothing new in Silicon Valley. But Anthropic’s obsession with AI safety has resulted in a truly baroque style of corporate governance that will leave common shareholders with little say over most major decisions at the AI company, including who sits on its board.\n\nFirst, Anthropic is a public benefit company — a for-profit corporation legally allowed to weigh a public mission alongside profit — with the goal of promoting AI safety. That status protects the board’s ability to make decisions about AI safety that aren’t driven entirely by shareholder value without being sued by angry investors.\n\nRight now, the board is chaired by Anthropic president Daniela Amodei and includes CEO Dario Amodei (her brother), Netflix cofounder Reed Hastings, former Microsoft and GM CFO Christopher Liddell, Novartis CEO Vas Narasimhan, and Spark Capital partner Yasmin Razavi. There is one vacancy on the board.\n\nSecond, Anthropic has allocated significant control of its board to a Long-Term Benefit Trust (LTBT), an independent panel meant to keep the company focused on mission to benefit humanity. The trust owns a class of stock that gives it the ability to elect and remove a majority of the company’s board, known as Class T directors. The LTBT is chaired by Neil Shah, a global health expert who was managing director at GiveWell, a nonprofit that ranks charities, and includes former Federal Reserve chair Ben Bernanke, national security expert Richard Fontaine, and Harvard physicist Christopher Stubbs. There is one vacancy on the LTBT right now. The existing members will themselves choose who fills it.\n\nThird, Anthropic’s seven founders also jointly own a special class of stock that gives a majority of them 50.1% of shareholder voting power, allowing them to elect three members of the board of directors. If, for whatever reason, there’s no majority among the founders, only then are their shares voted in proportion with holders of common stock.\n\nFinally, the board can put a check on the LTBT. When the LTBT nominates a “Specified” one of its four directors, or removes that director without cause (that is, without alleging misconduct), the board’s nominating committee can decline to approve the move and throw the decision to the company’s employees for a vote.\n\nHere’s what all that looks like:\n\nThe dynamics of such a complex structure are hard to predict. We’ve already seen one notable instance where a similar structure was essentially overthrown: OpenAI’s so-called blip, when OpenAI’s board briefly fired CEO Sam Altman over concerns that he was not being candid with them. Thanks to the loyalty of the company’s employees to Altman, the board backed down, reinstated him, and a new governance structure was put in place. Anthropic’s structure seems to formalize that kind of employee power.\n\nAt Anthropic, cracks in the founders’ unified front could lead to common shareholders having more say than expected, while employees can overrule the LTBT on board seats if they back the board over the assembled luminaries.\n\nThe founders’ control won’t last forever: Ten years after the IPO, the founders can choose to end their control of the company, or their control will end automatically when fewer than three of them remain. At that point, the LTBT will continue until 85% of common shareholders vote to end it, or it decides to step down with approval from the board.\n\nIf and when neither special class of shareholder exists any more — hopefully not because of an AI-driven catastrophe — common shareholders finally get control.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter",
+  "paragraphs": [
+    {
+      "text": "Anthropic was founded in 2021 to ensure humanity can control AI and benefit from it in the long-term. As the frontier lab approaches its initial public offering, however, there’s one class of humanity that is being shut out of control: anyone who buys its stock on public markets.",
+      "heading": 0
+    },
+    {
+      "text": "Complex structures that allow founders like Elon Musk or Mark Zuckerberg to control their public companies without owning most of them are nothing new in Silicon Valley. But Anthropic’s obsession with AI safety has resulted in a truly baroque style of corporate governance that will leave common shareholders with little say over most major decisions at the AI company, including who sits on its board.",
+      "heading": 0
+    },
+    {
+      "text": "First, Anthropic is a public benefit company — a for-profit corporation legally allowed to weigh a public mission alongside profit — with the goal of promoting AI safety. That status protects the board’s ability to make decisions about AI safety that aren’t driven entirely by shareholder value without being sued by angry investors.",
+      "heading": 0
+    },
+    {
+      "text": "Right now, the board is chaired by Anthropic president Daniela Amodei and includes CEO Dario Amodei (her brother), Netflix cofounder Reed Hastings, former Microsoft and GM CFO Christopher Liddell, Novartis CEO Vas Narasimhan, and Spark Capital partner Yasmin Razavi. There is one vacancy on the board.",
+      "heading": 0
+    },
+    {
+      "text": "Second, Anthropic has allocated significant control of its board to a Long-Term Benefit Trust (LTBT), an independent panel meant to keep the company focused on mission to benefit humanity. The trust owns a class of stock that gives it the ability to elect and remove a majority of the company’s board, known as Class T directors. The LTBT is chaired by Neil Shah, a global health expert who was managing director at GiveWell, a nonprofit that ranks charities, and includes former Federal Reserve chair Ben Bernanke, national security expert Richard Fontaine, and Harvard physicist Christopher Stubbs. There is one vacancy on the LTBT right now. The existing members will themselves choose who fills it.",
+      "heading": 0
+    },
+    {
+      "text": "Third, Anthropic’s seven founders also jointly own a special class of stock that gives a majority of them 50.1% of shareholder voting power, allowing them to elect three members of the board of directors. If, for whatever reason, there’s no majority among the founders, only then are their shares voted in proportion with holders of common stock.",
+      "heading": 0
+    },
+    {
+      "text": "Finally, the board can put a check on the LTBT. When the LTBT nominates a “Specified” one of its four directors, or removes that director without cause (that is, without alleging misconduct), the board’s nominating committee can decline to approve the move and throw the decision to the company’s employees for a vote.",
+      "heading": 0
+    },
+    {
+      "text": "Here’s what all that looks like:",
+      "heading": 0
+    },
+    {
+      "text": "The dynamics of such a complex structure are hard to predict. We’ve already seen one notable instance where a similar structure was essentially overthrown: OpenAI’s so-called blip, when OpenAI’s board briefly fired CEO Sam Altman over concerns that he was not being candid with them. Thanks to the loyalty of the company’s employees to Altman, the board backed down, reinstated him, and a new governance structure was put in place. Anthropic’s structure seems to formalize that kind of employee power.",
+      "heading": 0
+    },
+    {
+      "text": "At Anthropic, cracks in the founders’ unified front could lead to common shareholders having more say than expected, while employees can overrule the LTBT on board seats if they back the board over the assembled luminaries.",
+      "heading": 0
+    },
+    {
+      "text": "The founders’ control won’t last forever: Ten years after the IPO, the founders can choose to end their control of the company, or their control will end automatically when fewer than three of them remain. At that point, the LTBT will continue until 85% of common shareholders vote to end it, or it decides to step down with approval from the board.",
+      "heading": 0
+    },
+    {
+      "text": "If and when neither special class of shareholder exists any more — hopefully not because of an AI-driven catastrophe — common shareholders finally get control.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    }
+  ]
+}

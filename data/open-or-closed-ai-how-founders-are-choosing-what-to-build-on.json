@@ -1,0 +1,157 @@
+{
+  "type": "read",
+  "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+  "slug": "open-or-closed-ai-how-founders-are-choosing-what-to-build-on",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/09/Disrupt-2025-AI-Stage.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+    "episode": ""
+  },
+  "words": 1006,
+  "lines": 33,
+  "duration": 335,
+  "text": "For AI startups, choosing a model isn’t necessarily a one-time architecture decision anymore.\n\nOpen models are improving. Frontier APIs keep advancing. Models can be customized for specific workloads, and some companies are building products that use multiple models rather than committing to one. That gives founders more ways to build — and more decisions about where to spend, what to own, and how much flexibility to preserve as the technology changes.\n\nAt TechCrunch Disrupt 2026, four conversations approach those decisions from different points in the AI stack, from multi-model applications and customized models to infrastructure and the chips underneath them.\n\nSecure your Disrupt pass to hear how AI leaders are navigating those choices. Save up to $100 on your pass now and get a second pass at 50% off. Or for a limited time, get a $75 Expo+ Pass if you’ve been affected by a layoff.\n\nWhen one AI model isn’t enough\n\nChoosing between open and proprietary models assumes a company needs to choose one in the first place. Increasingly, AI products can call on different models for different jobs.\n\nThe session “ The Real Tokenmaxxing: How the Best AI Companies Navigate a Multi-Model World ” will bring together Mo Jomaa, partner at CapitalG; Vipul Ved Prakash, co-founder and CEO of Together AI; and Zuzanna Stamirowska, CEO and co-founder of Pathway, on the Builder’s Stage.\n\nThey’ll explore why companies are using multiple models; how they balance cost, performance, and flexibility; and when open models can outperform proprietary alternatives.\n\nFor founders, that flexibility can affect more than model performance. It can influence operating costs, product decisions, and how quickly a company can take advantage of better models as they emerge.\n\nGet your ticket to Disrupt to hear how companies are deciding which model makes sense for which job. Grab yours now to save up to $100 and get a second pass at 50% off.\n\nHow much of your AI stack should you own?\n\nModel choice also raises a bigger question: What does your company need to own?\n\nManos Koukoumidis, CEO and co-founder of Oumi, will take the Real World AI Stage for “ Which AI Should Your Company Actually Deploy: Rent, Customize, or Build.” He’ll tackle whether startups should build their own models, when customization can become a competitive advantage, and how to choose between open and proprietary AI.\n\nThrough audience polls, startup scenarios, and a practical framework, Koukoumidis will help attendees evaluate frontier APIs, customized open weights, and owning AI outright. Attendees will come away with three decision principles they can bring to their next architecture conversation.\n\nThe choice founders make can shape both the product and the business behind it. Building more of the AI stack can offer greater control and differentiation, but it can also require more time, talent, and resources than relying on existing models.\n\nAdd the Oumi session to your Disrupt agenda for a practical framework for deciding how much of your AI stack your company really needs to own. Grab your pass now to sit front row in this discussion.\n\nWhere open and proprietary AI fit\n\nFor some startups, the decision will still come down to the trade-offs between open and proprietary models.\n\nNader Khalil, Director of Developer Tech at Nvidia, and Sydney Sykes, Global Head of VC Partnerships at Nvidia, will take the Builders Stage for “ Building AI Startups Worth Betting On.” They’ll examine what founders are choosing today, the trade-offs between frontier APIs and open-weight models, and how those choices can affect product strategy and long-term differentiation.\n\nThose trade-offs have business consequences. Model choice can shape everything from costs and infrastructure requirements to how much control they have over their product. It can also determine where — and how easily — a startup can create differentiation competitors can’t replicate.\n\nSecure your Disrupt pass to hear how builder and venture perspectives are shaping model decisions. Save up to $100 on your pass and get a second at 50% off.\n\nWhen architecture reaches the hardware\n\nModel architecture is only part of the equation. AI performance ultimately depends on the hardware underneath it, and advances in AI are beginning to change how that hardware gets designed.\n\nAnna Goldie, founder and CEO of Ricursive Intelligence, and Azalia Mirhoseini, founder and CTO, will take that idea to the Disrupt Stage in “ When AI Starts Designing Its Own Hardware.” They’ll explore how AI is optimizing chips and hardware, why model architecture and hardware are becoming more closely connected, and what an increasingly open AI ecosystem could mean for the infrastructure underneath it.\n\nFor founders, the connection between AI and hardware could affect how quickly new capabilities reach the market. Faster chip development could also change the infrastructure available to startups building the next generation of AI products.\n\nGet your ticket to Disrupt to hear what happens when AI starts helping design the hardware that powers it.\n\nLearn how to keep your AI options open at Disrupt 2026\n\nThese conversations are part of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups.\n\nIn addition, matchmaking, dealmaking, and ad hoc networking give attendees opportunities to connect with founders, investors, potential partners, and other builders facing many of the same technology and business decisions.\n\nA startup may use a frontier API today, customize an open model tomorrow, or eventually move workloads among several models. Preserving flexibility could be as important as choosing the right model now.\n\nSecure your pass to TechCrunch Disrupt 2026 and hear how AI leaders are approaching the choices shaping what — and how — they build. Save up to $100 now and get 50% off a second pass. Laid off? Grab your Expo+ Pass at just $75.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "For AI startups, choosing a model isn’t necessarily a one-time architecture decision anymore.",
+      "heading": 0
+    },
+    {
+      "text": "Open models are improving. Frontier APIs keep advancing. Models can be customized for specific workloads, and some companies are building products that use multiple models rather than committing to one. That gives founders more ways to build — and more decisions about where to spend, what to own, and how much flexibility to preserve as the technology changes.",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, four conversations approach those decisions from different points in the AI stack, from multi-model applications and customized models to infrastructure and the chips underneath them.",
+      "heading": 0
+    },
+    {
+      "text": "Secure your Disrupt pass to hear how AI leaders are navigating those choices. Save up to $100 on your pass now and get a second pass at 50% off. Or for a limited time, get a $75 Expo+ Pass if you’ve been affected by a layoff.",
+      "heading": 0
+    },
+    {
+      "text": "When one AI model isn’t enough",
+      "heading": 1
+    },
+    {
+      "text": "Choosing between open and proprietary models assumes a company needs to choose one in the first place. Increasingly, AI products can call on different models for different jobs.",
+      "heading": 0
+    },
+    {
+      "text": "The session “ The Real Tokenmaxxing: How the Best AI Companies Navigate a Multi-Model World ” will bring together Mo Jomaa, partner at CapitalG; Vipul Ved Prakash, co-founder and CEO of Together AI; and Zuzanna Stamirowska, CEO and co-founder of Pathway, on the Builder’s Stage.",
+      "heading": 0
+    },
+    {
+      "text": "They’ll explore why companies are using multiple models; how they balance cost, performance, and flexibility; and when open models can outperform proprietary alternatives.",
+      "heading": 0
+    },
+    {
+      "text": "For founders, that flexibility can affect more than model performance. It can influence operating costs, product decisions, and how quickly a company can take advantage of better models as they emerge.",
+      "heading": 0
+    },
+    {
+      "text": "Get your ticket to Disrupt to hear how companies are deciding which model makes sense for which job. Grab yours now to save up to $100 and get a second pass at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "How much of your AI stack should you own?",
+      "heading": 0
+    },
+    {
+      "text": "Model choice also raises a bigger question: What does your company need to own?",
+      "heading": 0
+    },
+    {
+      "text": "Manos Koukoumidis, CEO and co-founder of Oumi, will take the Real World AI Stage for “ Which AI Should Your Company Actually Deploy: Rent, Customize, or Build.” He’ll tackle whether startups should build their own models, when customization can become a competitive advantage, and how to choose between open and proprietary AI.",
+      "heading": 0
+    },
+    {
+      "text": "Through audience polls, startup scenarios, and a practical framework, Koukoumidis will help attendees evaluate frontier APIs, customized open weights, and owning AI outright. Attendees will come away with three decision principles they can bring to their next architecture conversation.",
+      "heading": 0
+    },
+    {
+      "text": "The choice founders make can shape both the product and the business behind it. Building more of the AI stack can offer greater control and differentiation, but it can also require more time, talent, and resources than relying on existing models.",
+      "heading": 0
+    },
+    {
+      "text": "Add the Oumi session to your Disrupt agenda for a practical framework for deciding how much of your AI stack your company really needs to own. Grab your pass now to sit front row in this discussion.",
+      "heading": 0
+    },
+    {
+      "text": "Where open and proprietary AI fit",
+      "heading": 1
+    },
+    {
+      "text": "For some startups, the decision will still come down to the trade-offs between open and proprietary models.",
+      "heading": 0
+    },
+    {
+      "text": "Nader Khalil, Director of Developer Tech at Nvidia, and Sydney Sykes, Global Head of VC Partnerships at Nvidia, will take the Builders Stage for “ Building AI Startups Worth Betting On.” They’ll examine what founders are choosing today, the trade-offs between frontier APIs and open-weight models, and how those choices can affect product strategy and long-term differentiation.",
+      "heading": 0
+    },
+    {
+      "text": "Those trade-offs have business consequences. Model choice can shape everything from costs and infrastructure requirements to how much control they have over their product. It can also determine where — and how easily — a startup can create differentiation competitors can’t replicate.",
+      "heading": 0
+    },
+    {
+      "text": "Secure your Disrupt pass to hear how builder and venture perspectives are shaping model decisions. Save up to $100 on your pass and get a second at 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "When architecture reaches the hardware",
+      "heading": 1
+    },
+    {
+      "text": "Model architecture is only part of the equation. AI performance ultimately depends on the hardware underneath it, and advances in AI are beginning to change how that hardware gets designed.",
+      "heading": 0
+    },
+    {
+      "text": "Anna Goldie, founder and CEO of Ricursive Intelligence, and Azalia Mirhoseini, founder and CTO, will take that idea to the Disrupt Stage in “ When AI Starts Designing Its Own Hardware.” They’ll explore how AI is optimizing chips and hardware, why model architecture and hardware are becoming more closely connected, and what an increasingly open AI ecosystem could mean for the infrastructure underneath it.",
+      "heading": 0
+    },
+    {
+      "text": "For founders, the connection between AI and hardware could affect how quickly new capabilities reach the market. Faster chip development could also change the infrastructure available to startups building the next generation of AI products.",
+      "heading": 0
+    },
+    {
+      "text": "Get your ticket to Disrupt to hear what happens when AI starts helping design the hardware that powers it.",
+      "heading": 0
+    },
+    {
+      "text": "Learn how to keep your AI options open at Disrupt 2026",
+      "heading": 0
+    },
+    {
+      "text": "These conversations are part of 200+ sessions across six industry stages, roundtables, and breakouts at Disrupt, taking place October 13-15 at Moscone West in San Francisco. More than 10,000 founders, investors, operators, and tech leaders are expected, along with 250+ speakers and 300+ exhibiting startups.",
+      "heading": 0
+    },
+    {
+      "text": "In addition, matchmaking, dealmaking, and ad hoc networking give attendees opportunities to connect with founders, investors, potential partners, and other builders facing many of the same technology and business decisions.",
+      "heading": 0
+    },
+    {
+      "text": "A startup may use a frontier API today, customize an open model tomorrow, or eventually move workloads among several models. Preserving flexibility could be as important as choosing the right model now.",
+      "heading": 0
+    },
+    {
+      "text": "Secure your pass to TechCrunch Disrupt 2026 and hear how AI leaders are approaching the choices shaping what — and how — they build. Save up to $100 now and get 50% off a second pass. Laid off? Grab your Expo+ Pass at just $75.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

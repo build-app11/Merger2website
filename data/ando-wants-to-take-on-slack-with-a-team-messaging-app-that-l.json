@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+  "slug": "ando-wants-to-take-on-slack-with-a-team-messaging-app-that-l",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Sara-Du.png?resize=1200,594",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+    "episode": ""
+  },
+  "words": 859,
+  "lines": 21,
+  "duration": 286,
+  "text": "When Sara Du was helping companies build MCP servers in 2025, people kept asking her how they could use AI agents from within Slack itself. But there were a bunch of technical hurdles in the way: moving messages back and forth and getting agents the right context, all without burning through token budgets.\n\nUpon digging into the problem, Du realized that there was a deeper issue that stemmed from how communication platforms were designed. “The deeper I went, the more I felt Slack and Teams were built for a world that was starting to pass us by,” Du told TechCrunch. “Agents were treated as apps you install even as they were becoming participants in the team.”\n\nThe solution, Du thought, could be a system that eliminates “meat proxies,” as Du calls the phenomenon of people having to relay AI agents’ work to their teams. “The human effectively becomes the messenger between the agent and the rest of the company,” she said.\n\nAn ideal system would instead let agents “participate in the shared conversations where work already gets coordinated,” Du said. “They should be able to understand why a decision was made, ask a colleague a question, build on another agent’s work, and bring in a human when judgment is needed.”\n\nHer startup, Ando, on Thursday came out of stealth with an app that sets out to do exactly that: It’s a team messaging platform designed for both human and AI workers.\n\nAndo bills itself as a full replacement for Slack or any other messaging platform that companies using AI agents might want for internal communication. The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can.\n\nThe app has channels, DMs, group conversations, and even live calls that can be transcribed and viewed by an agent, Du said. Agents can browse channels, pick which ones to join, and can even join conversations without being tagged. If a company’s agent thinks a human worker needs to be notified of something, it can message them on its own rather than waiting for approvals.\n\nTo continue building the app, Ando on Thursday said it has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures, and Emergence.\n\nDu’s idea isn’t a new one. Most of the major players in the workplace collaboration space have already built in support for AI agents — Slack, for instance, has turned its native bot into an AI agent, and Microsoft has gone to great lengths to integrate Copilot into Teams in ways that connect to the rest of its Office 365 suite.\n\nBut there is still a market for apps to challenge the incumbents given how quickly AI is invading workplaces. Just a few months ago, Twitter and Block co-founder Jack Dorsey announced Buzz, which brings together people and AI agents into one messaging app, though it’s more targeted at developers.\n\nDu also feels there’s still enough of an advantage in building an AI-agent-native team messaging platform as legacy incumbents try to figure out how to pivot their existing software.\n\nRegardless, she seems to understand that Ando has an uphill battle ahead of it, and said that things were slow in the beginning. “A lot of people we showed it to early on were understandably unimpressed. It was, in many respects, just a jankier messaging platform. People would get stuck on that before they even got to what was different about the agents,” she explained.\n\nBut she said her team knew they were onto something when more and more customers started using Ando for longer periods. With Ando, she started to see that agents could do more than people expect: An agent could notice two conversations being held in different channels about the same problem, and without being asked to, could bring everyone together in a group chat, explain the context, and even suggest a decision.\n\n“That was really delightful for me,” she said, “I felt agents could better manage people than humans can because they can process a lot more messages than a human can in a shorter span of time.”\n\nShe said Ando is currently working with customers in software, real estate, and finance across 15 countries, though many of the teams it serves right now are small. The fresh capital will be used to hire more people and burn through more tokens, she said.\n\n“I think agents will let very small teams operate at a scale that previously required hundreds of people,” she said. “They can take on more of the execution, research, and coordination work, while humans spend more of their time on judgment, strategy, and deciding what should happen next.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Venture\n\nDominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.\n\nYou can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+  "paragraphs": [
+    {
+      "text": "When Sara Du was helping companies build MCP servers in 2025, people kept asking her how they could use AI agents from within Slack itself. But there were a bunch of technical hurdles in the way: moving messages back and forth and getting agents the right context, all without burning through token budgets.",
+      "heading": 0
+    },
+    {
+      "text": "Upon digging into the problem, Du realized that there was a deeper issue that stemmed from how communication platforms were designed. “The deeper I went, the more I felt Slack and Teams were built for a world that was starting to pass us by,” Du told TechCrunch. “Agents were treated as apps you install even as they were becoming participants in the team.”",
+      "heading": 0
+    },
+    {
+      "text": "The solution, Du thought, could be a system that eliminates “meat proxies,” as Du calls the phenomenon of people having to relay AI agents’ work to their teams. “The human effectively becomes the messenger between the agent and the rest of the company,” she said.",
+      "heading": 0
+    },
+    {
+      "text": "An ideal system would instead let agents “participate in the shared conversations where work already gets coordinated,” Du said. “They should be able to understand why a decision was made, ask a colleague a question, build on another agent’s work, and bring in a human when judgment is needed.”",
+      "heading": 0
+    },
+    {
+      "text": "Her startup, Ando, on Thursday came out of stealth with an app that sets out to do exactly that: It’s a team messaging platform designed for both human and AI workers.",
+      "heading": 0
+    },
+    {
+      "text": "Ando bills itself as a full replacement for Slack or any other messaging platform that companies using AI agents might want for internal communication. The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can.",
+      "heading": 0
+    },
+    {
+      "text": "The app has channels, DMs, group conversations, and even live calls that can be transcribed and viewed by an agent, Du said. Agents can browse channels, pick which ones to join, and can even join conversations without being tagged. If a company’s agent thinks a human worker needs to be notified of something, it can message them on its own rather than waiting for approvals.",
+      "heading": 0
+    },
+    {
+      "text": "To continue building the app, Ando on Thursday said it has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures, and Emergence.",
+      "heading": 0
+    },
+    {
+      "text": "Du’s idea isn’t a new one. Most of the major players in the workplace collaboration space have already built in support for AI agents — Slack, for instance, has turned its native bot into an AI agent, and Microsoft has gone to great lengths to integrate Copilot into Teams in ways that connect to the rest of its Office 365 suite.",
+      "heading": 0
+    },
+    {
+      "text": "But there is still a market for apps to challenge the incumbents given how quickly AI is invading workplaces. Just a few months ago, Twitter and Block co-founder Jack Dorsey announced Buzz, which brings together people and AI agents into one messaging app, though it’s more targeted at developers.",
+      "heading": 0
+    },
+    {
+      "text": "Du also feels there’s still enough of an advantage in building an AI-agent-native team messaging platform as legacy incumbents try to figure out how to pivot their existing software.",
+      "heading": 0
+    },
+    {
+      "text": "Regardless, she seems to understand that Ando has an uphill battle ahead of it, and said that things were slow in the beginning. “A lot of people we showed it to early on were understandably unimpressed. It was, in many respects, just a jankier messaging platform. People would get stuck on that before they even got to what was different about the agents,” she explained.",
+      "heading": 0
+    },
+    {
+      "text": "But she said her team knew they were onto something when more and more customers started using Ando for longer periods. With Ando, she started to see that agents could do more than people expect: An agent could notice two conversations being held in different channels about the same problem, and without being asked to, could bring everyone together in a group chat, explain the context, and even suggest a decision.",
+      "heading": 0
+    },
+    {
+      "text": "“That was really delightful for me,” she said, “I felt agents could better manage people than humans can because they can process a lot more messages than a human can in a shorter span of time.”",
+      "heading": 0
+    },
+    {
+      "text": "She said Ando is currently working with customers in software, real estate, and finance across 15 countries, though many of the teams it serves right now are small. The fresh capital will be used to hire more people and burn through more tokens, she said.",
+      "heading": 0
+    },
+    {
+      "text": "“I think agents will let very small teams operate at a scale that previously required hundreds of people,” she said. “They can take on more of the execution, research, and coordination work, while humans spend more of their time on judgment, strategy, and deciding what should happen next.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+      "heading": 0
+    }
+  ]
+}

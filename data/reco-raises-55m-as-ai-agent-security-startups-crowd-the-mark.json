@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Reco raises $55M as AI agent security startups crowd the market",
+  "slug": "reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/08/getty-keys-red-background-locks.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+    "episode": ""
+  },
+  "words": 772,
+  "lines": 17,
+  "duration": 257,
+  "text": "Terms like “AI sprawl” have become common fare on tech social media and in thought leadership as enterprises start deploying AI agents en masse. But CISOs worried about securing swarms of agents suddenly operating across networks are likely finding themselves dealing with a new kind of sprawl: vendors offering to help.\n\nJust a quick glance at public Crunchbase and PitchBook profiles turns up at least two dozen companies selling some form of AI agent security. Some vendors vet the tools that agents use, while others try to help companies control what data their agents can reach. Some others, like CrowdStrike, are building detection and response controls on the devices agents run, and still others are focused on finding and resolving unapproved AI usage.\n\nThe products differ, of course, but their promises to discover and govern agents sound quite similar, involving knowledge graphs, continuous monitoring, runtime security, tool access, MCP vetting, and the like.\n\nSome are even updating their products to join the bandwagon. Until last year, AI security startup Reco was mostly selling software to map and secure SaaS and AI platforms. Now it’s repositioned around a broader solution that uses a context graph to connect agents to apps, people, accounts, and permissions, giving security teams a way to see what an agent can reach and cut off access it doesn’t need.\n\nAccording to Reco’s co-founder and CEO, Ofer Klein, the biggest change over the past year that spurred the startup to broaden its scope was that companies are building and deploying AI agents faster than they can keep track of. At one of the startup’s Fortune 100 customers, he said, Reco’s platform found 21,000 agents the company didn’t know about. And at a large financial services customer, the startup claims it identified an agent set up by an ex-employee that could access Salesforce and share that data with a domain the company couldn’t see.\n\n“The market demand right now for agent security is not only about the agent itself; it’s about the entire ecosystem end-to-end,” Klein told TechCrunch in an exclusive interview.\n\nKlein’s not alone in stressing the urgency for companies to secure this sprawl. Security startup HiddenLayer ‘s co-founder and CEO, Chris Sestito, earlier this month told me that when agents reach production, the scale of their costs and risk goes from theoretical to “full scale really quickly,” and that over 50 of his customers have AI agents in production touching critical systems and sensitive assets.\n\nCymphony, another AI startup, said at one U.S. public company, it found about 85,000 files that had become accessible to AI tools and agents.\n\nThere’s no doubt a ton of investors are interested in companies that can make a mint out of helping companies find and secure all these agents, and Reco has capitalized on that demand: The startup on Tuesday said it raised $55 million, building on a $30 million Series B in February. AT&T, a customer, invested in the extension via its venture arm, as did Forestay and Quadrille Capital.\n\nKlein said the company’s valuation has “more than doubled” since the Series B was first announced in February, and vaguely estimated it in the “high hundreds of millions,” though he wouldn’t share specifics. Annual recurring revenue right now is in the “double-digit millions of dollars,” he said, and he expects it to triple this year. The startup has more than 100 customers, and financial services companies account for about 40% of the business.\n\nReco’s bet, it appears, is that its existing coverage of SaaS apps, and the AI agents they are increasingly offering, will help it stand out from the crowd. The company currently integrates with more than 280 apps, and Klein says new integrations can be added within days. Klein said the platform uses browser and network signals to find agents outside apps it connects to directly within companies, and it has controls to inspect prompts and tool calls.\n\nThe startup will use the new funding for hiring, sales, partnerships, and customer support. The new funding brings Reco’s total capital raised to $140 million.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor\n\nRam is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.\n\nYou can contact or verify outreach from Ram by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Terms like “AI sprawl” have become common fare on tech social media and in thought leadership as enterprises start deploying AI agents en masse. But CISOs worried about securing swarms of agents suddenly operating across networks are likely finding themselves dealing with a new kind of sprawl: vendors offering to help.",
+      "heading": 0
+    },
+    {
+      "text": "Just a quick glance at public Crunchbase and PitchBook profiles turns up at least two dozen companies selling some form of AI agent security. Some vendors vet the tools that agents use, while others try to help companies control what data their agents can reach. Some others, like CrowdStrike, are building detection and response controls on the devices agents run, and still others are focused on finding and resolving unapproved AI usage.",
+      "heading": 0
+    },
+    {
+      "text": "The products differ, of course, but their promises to discover and govern agents sound quite similar, involving knowledge graphs, continuous monitoring, runtime security, tool access, MCP vetting, and the like.",
+      "heading": 0
+    },
+    {
+      "text": "Some are even updating their products to join the bandwagon. Until last year, AI security startup Reco was mostly selling software to map and secure SaaS and AI platforms. Now it’s repositioned around a broader solution that uses a context graph to connect agents to apps, people, accounts, and permissions, giving security teams a way to see what an agent can reach and cut off access it doesn’t need.",
+      "heading": 0
+    },
+    {
+      "text": "According to Reco’s co-founder and CEO, Ofer Klein, the biggest change over the past year that spurred the startup to broaden its scope was that companies are building and deploying AI agents faster than they can keep track of. At one of the startup’s Fortune 100 customers, he said, Reco’s platform found 21,000 agents the company didn’t know about. And at a large financial services customer, the startup claims it identified an agent set up by an ex-employee that could access Salesforce and share that data with a domain the company couldn’t see.",
+      "heading": 0
+    },
+    {
+      "text": "“The market demand right now for agent security is not only about the agent itself; it’s about the entire ecosystem end-to-end,” Klein told TechCrunch in an exclusive interview.",
+      "heading": 0
+    },
+    {
+      "text": "Klein’s not alone in stressing the urgency for companies to secure this sprawl. Security startup HiddenLayer ‘s co-founder and CEO, Chris Sestito, earlier this month told me that when agents reach production, the scale of their costs and risk goes from theoretical to “full scale really quickly,” and that over 50 of his customers have AI agents in production touching critical systems and sensitive assets.",
+      "heading": 0
+    },
+    {
+      "text": "Cymphony, another AI startup, said at one U.S. public company, it found about 85,000 files that had become accessible to AI tools and agents.",
+      "heading": 0
+    },
+    {
+      "text": "There’s no doubt a ton of investors are interested in companies that can make a mint out of helping companies find and secure all these agents, and Reco has capitalized on that demand: The startup on Tuesday said it raised $55 million, building on a $30 million Series B in February. AT&T, a customer, invested in the extension via its venture arm, as did Forestay and Quadrille Capital.",
+      "heading": 0
+    },
+    {
+      "text": "Klein said the company’s valuation has “more than doubled” since the Series B was first announced in February, and vaguely estimated it in the “high hundreds of millions,” though he wouldn’t share specifics. Annual recurring revenue right now is in the “double-digit millions of dollars,” he said, and he expects it to triple this year. The startup has more than 100 customers, and financial services companies account for about 40% of the business.",
+      "heading": 0
+    },
+    {
+      "text": "Reco’s bet, it appears, is that its existing coverage of SaaS apps, and the AI agents they are increasingly offering, will help it stand out from the crowd. The company currently integrates with more than 280 apps, and Klein says new integrations can be added within days. Klein said the platform uses browser and network signals to find agents outside apps it connects to directly within companies, and it has controls to inspect prompts and tool calls.",
+      "heading": 0
+    },
+    {
+      "text": "The startup will use the new funding for hiring, sales, partnerships, and customer support. The new funding brings Reco’s total capital raised to $140 million.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor",
+      "heading": 1
+    },
+    {
+      "text": "Ram is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ram by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

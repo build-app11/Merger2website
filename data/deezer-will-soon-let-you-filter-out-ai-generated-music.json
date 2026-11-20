@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Deezer will soon let you filter out AI-generated music",
+  "slug": "deezer-will-soon-let-you-filter-out-ai-generated-music",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Deezer-AI-detection-feat.jpg?w=1067",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+    "episode": ""
+  },
+  "words": 390,
+  "lines": 12,
+  "duration": 130,
+  "text": "Streaming platform Deezer remains steadfast in its intent to help users avoid listening to AI-generated music: The company on Tuesday said it is working on a new toggle that lets users filter out AI-generated music uploaded to its platform. The feature is expected to be available before the end of the year.\n\nDeezer said turning on the toggle will stop you from seeing AI-generated tracks, albums, and related artists in search results.\n\n“We’ve seen clear user demand for the ability to filter out AI-generated music, and we are now giving everyone the option to remove this content completely from their streaming experience on Deezer, and focus only on human creators and creations, if they wish,” Deezer CEO Alexis Lanternier said in a statement.\n\nHe added that the explosion of AI music on the platform was one of the catalysts for the toggle-based features. The company cited a survey from last year, which noted that around 45% of Deezer customers wanted a way to remove AI music from their feeds.\n\nDeezer added AI-detection tooling last year and has been reporting on the number of tracks being uploaded to the platform ever since. At that time, AI-generated tracks represented 10% of daily uploads.\n\nIn July, the company said that more than 50% of daily uploads to its platform were AI-generated tracks, with an average of 90,000 tracks per day.\n\nOther music streaming services have also created their own policies in relation to AI music. Bandcamp has completely banned AI tracks, while Tidal cut off monetization for people uploading AI music. Spotify has taken a leaner stance, only tagging AI tracks and artists more prominently on its platform.\n\nIn August, Variety reported that Apple Music was looking to label AI tracks by the end of the year. Besides platform-based tagging, users are also turning to independent tracking systems to identify AI music.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Streaming platform Deezer remains steadfast in its intent to help users avoid listening to AI-generated music: The company on Tuesday said it is working on a new toggle that lets users filter out AI-generated music uploaded to its platform. The feature is expected to be available before the end of the year.",
+      "heading": 0
+    },
+    {
+      "text": "Deezer said turning on the toggle will stop you from seeing AI-generated tracks, albums, and related artists in search results.",
+      "heading": 0
+    },
+    {
+      "text": "“We’ve seen clear user demand for the ability to filter out AI-generated music, and we are now giving everyone the option to remove this content completely from their streaming experience on Deezer, and focus only on human creators and creations, if they wish,” Deezer CEO Alexis Lanternier said in a statement.",
+      "heading": 0
+    },
+    {
+      "text": "He added that the explosion of AI music on the platform was one of the catalysts for the toggle-based features. The company cited a survey from last year, which noted that around 45% of Deezer customers wanted a way to remove AI music from their feeds.",
+      "heading": 0
+    },
+    {
+      "text": "Deezer added AI-detection tooling last year and has been reporting on the number of tracks being uploaded to the platform ever since. At that time, AI-generated tracks represented 10% of daily uploads.",
+      "heading": 0
+    },
+    {
+      "text": "In July, the company said that more than 50% of daily uploads to its platform were AI-generated tracks, with an average of 90,000 tracks per day.",
+      "heading": 0
+    },
+    {
+      "text": "Other music streaming services have also created their own policies in relation to AI music. Bandcamp has completely banned AI tracks, while Tidal cut off monetization for people uploading AI music. Spotify has taken a leaner stance, only tagging AI tracks and artists more prominently on its platform.",
+      "heading": 0
+    },
+    {
+      "text": "In August, Variety reported that Apple Music was looking to label AI tracks by the end of the year. Besides platform-based tagging, users are also turning to independent tracking systems to identify AI music.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

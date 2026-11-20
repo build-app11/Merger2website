@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+  "slug": "after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industr",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Palantir-Alex-Karp.png?resize=1200,762",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "episode": ""
+  },
+  "words": 538,
+  "lines": 14,
+  "duration": 179,
+  "text": "Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.\n\nThe CEO, who famously studied philosophy and earned a PhD in social theory, implied in Palantir’s quarterly shareholder letter that these were the kinds of capitalists who gave rise to Marxist socialism.\n\n“There are Marxist overtones and undertones to our business,” he wrote in a letter to shareholders about Palantir’s outstanding quarter. “Others, including many of those building large language models, intend, knowingly or otherwise, to capture the means of production of their purported partners.”\n\nTo be clear, AI labs have hardly cornered Palantir out of the market. Quite the opposite. The skyrocketing use of AI helped Palantir achieve record-breaking results. For its second quarter, the company reported $1.9 billion in revenue, up 93% over the year-ago quarter, and $1.1 billion in profit, “more profit in a single quarter than we did in total revenue in the same period the year before,” he wrote.\n\nDuring the quarterly conference call with Wall Street analysts, he explained his analogy further, relying heavily on a sort of “tech bro patriot” jargon common among defense tech companies. (Palantir’s senior leadership is entirely male.)\n\nHe asked on the call if companies are going “to buy into a future” where your job helps your “adversaries win, and everybody who does win is a small, tiny group of people living in a tiny place that somehow believe because they eat vegetables and they don’t support war fighters that they deserve to have the total means of production of this country? And the rest of us should just sit back and absorb the cost of that revolution, which we’re paying for.”\n\nPalantir, in contrast, serves model-agnostic AI and analysis software to governments and enterprises, and allows organizations to control their data as well as their AI “exhaust,” aka, their prompts, orchestration, and context.\n\n“How are we paying for it? In the enterprise context, people sign up for token self-pleasurings… at real cost like other forms of self pleasure,” he said. “You are paying for the right for them to migrate your IP, your know-how, your expertise to their model, so that they can build a competitive business that doesn’t require your business or people. And why are they doing it? It’s actually being done for what they believe are moral reasons. They are superior to you. They deserve to colonize your enterprise.”\n\nJarring language aside, he is making an underlying point that is increasingly being repeated elsewhere, including from the likes of Microsoft CEO Satya Nadella.\n\nThis theory points to the significant list of companies that partnered or paid for Anthropic and OpenAI while the AI labs launched similar businesses ranging from design tools to healthcare operations, legal, even drug discovery.\n\nThe truth is, none of these companies are economic villains or heroes — anymore than other for-profit companies are. AI is growing so quickly, the market changing so rapidly, there is clearly room for all, Palantir’s results show.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "heading": 0
+    },
+    {
+      "text": "The CEO, who famously studied philosophy and earned a PhD in social theory, implied in Palantir’s quarterly shareholder letter that these were the kinds of capitalists who gave rise to Marxist socialism.",
+      "heading": 0
+    },
+    {
+      "text": "“There are Marxist overtones and undertones to our business,” he wrote in a letter to shareholders about Palantir’s outstanding quarter. “Others, including many of those building large language models, intend, knowingly or otherwise, to capture the means of production of their purported partners.”",
+      "heading": 0
+    },
+    {
+      "text": "To be clear, AI labs have hardly cornered Palantir out of the market. Quite the opposite. The skyrocketing use of AI helped Palantir achieve record-breaking results. For its second quarter, the company reported $1.9 billion in revenue, up 93% over the year-ago quarter, and $1.1 billion in profit, “more profit in a single quarter than we did in total revenue in the same period the year before,” he wrote.",
+      "heading": 0
+    },
+    {
+      "text": "During the quarterly conference call with Wall Street analysts, he explained his analogy further, relying heavily on a sort of “tech bro patriot” jargon common among defense tech companies. (Palantir’s senior leadership is entirely male.)",
+      "heading": 0
+    },
+    {
+      "text": "He asked on the call if companies are going “to buy into a future” where your job helps your “adversaries win, and everybody who does win is a small, tiny group of people living in a tiny place that somehow believe because they eat vegetables and they don’t support war fighters that they deserve to have the total means of production of this country? And the rest of us should just sit back and absorb the cost of that revolution, which we’re paying for.”",
+      "heading": 0
+    },
+    {
+      "text": "Palantir, in contrast, serves model-agnostic AI and analysis software to governments and enterprises, and allows organizations to control their data as well as their AI “exhaust,” aka, their prompts, orchestration, and context.",
+      "heading": 0
+    },
+    {
+      "text": "“How are we paying for it? In the enterprise context, people sign up for token self-pleasurings… at real cost like other forms of self pleasure,” he said. “You are paying for the right for them to migrate your IP, your know-how, your expertise to their model, so that they can build a competitive business that doesn’t require your business or people. And why are they doing it? It’s actually being done for what they believe are moral reasons. They are superior to you. They deserve to colonize your enterprise.”",
+      "heading": 0
+    },
+    {
+      "text": "Jarring language aside, he is making an underlying point that is increasingly being repeated elsewhere, including from the likes of Microsoft CEO Satya Nadella.",
+      "heading": 0
+    },
+    {
+      "text": "This theory points to the significant list of companies that partnered or paid for Anthropic and OpenAI while the AI labs launched similar businesses ranging from design tools to healthcare operations, legal, even drug discovery.",
+      "heading": 0
+    },
+    {
+      "text": "The truth is, none of these companies are economic villains or heroes — anymore than other for-profit companies are. AI is growing so quickly, the market changing so rapidly, there is clearly room for all, Palantir’s results show.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

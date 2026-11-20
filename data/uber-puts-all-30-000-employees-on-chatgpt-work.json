@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Uber puts all 30,000 employees on ChatGPT Work",
+  "slug": "uber-puts-all-30-000-employees-on-chatgpt-work",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+    "episode": ""
+  },
+  "words": 404,
+  "lines": 11,
+  "duration": 135,
+  "text": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.\n\nChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams could deploy for various workflows.\n\nUber originally piloted ChatGPT Work with 1,000 employees earlier this year but has now scaled up its usage to the entire company.\n\nThat earlier pilot was deployed to workers from across Uber’s various departments, including finance, operations, and product. Indeed, a majority of the early adopters — some 80% — were non-engineers, Sumanth Sukumar, Uber’s VP of engineering, told TechCrunch.\n\n“They used it for a wide range of tasks: analyzing complex data from our operations to identify trends and develop recommendations; localizing training materials for different markets and languages; and building personalized interactive dashboards to manage their daily work,” he said.\n\nYet while the ride-share giant is now going all in on ChatGPT, it has not settled on exactly how employees will use it. “Our approach is to make powerful AI tools available across Uber while giving teams room to experiment,” Sukumar said. “For example, earlier this year we paired 30 AI engineers with teams across Uber and gave them two weeks to automate key parts of their job. Those ‘AI pods’ showed us how much opportunity there is when you combine technical expertise with a deep understanding of a particular job.”\n\nUber didn’t disclose how much it’s spending on the new rollout of the chatbot. Instead, Sukumar said the company will track how employees use the tool. “We’ll look at how employees are using the technology, the kinds of workflows they develop and how it helps them work more effectively. We’ll evaluate those outcomes and use what we learn to guide how we deploy AI across the business,” he said. Uber says OpenAI worked closely with the company on integrating the chatbot.\n\nOpenAI has moved quickly to scale up its enterprise business as it competes with its chief competitor, Anthropic. Once known largely as a consumer brand, the ChatGPT creator has swiftly gained a loyal following with business customers, while other AI companies have struggled to keep up.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer, TechCrunch",
+  "paragraphs": [
+    {
+      "text": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.",
+      "heading": 0
+    },
+    {
+      "text": "ChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams could deploy for various workflows.",
+      "heading": 0
+    },
+    {
+      "text": "Uber originally piloted ChatGPT Work with 1,000 employees earlier this year but has now scaled up its usage to the entire company.",
+      "heading": 0
+    },
+    {
+      "text": "That earlier pilot was deployed to workers from across Uber’s various departments, including finance, operations, and product. Indeed, a majority of the early adopters — some 80% — were non-engineers, Sumanth Sukumar, Uber’s VP of engineering, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "“They used it for a wide range of tasks: analyzing complex data from our operations to identify trends and develop recommendations; localizing training materials for different markets and languages; and building personalized interactive dashboards to manage their daily work,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Yet while the ride-share giant is now going all in on ChatGPT, it has not settled on exactly how employees will use it. “Our approach is to make powerful AI tools available across Uber while giving teams room to experiment,” Sukumar said. “For example, earlier this year we paired 30 AI engineers with teams across Uber and gave them two weeks to automate key parts of their job. Those ‘AI pods’ showed us how much opportunity there is when you combine technical expertise with a deep understanding of a particular job.”",
+      "heading": 0
+    },
+    {
+      "text": "Uber didn’t disclose how much it’s spending on the new rollout of the chatbot. Instead, Sukumar said the company will track how employees use the tool. “We’ll look at how employees are using the technology, the kinds of workflows they develop and how it helps them work more effectively. We’ll evaluate those outcomes and use what we learn to guide how we deploy AI across the business,” he said. Uber says OpenAI worked closely with the company on integrating the chatbot.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI has moved quickly to scale up its enterprise business as it competes with its chief competitor, Anthropic. Once known largely as a consumer brand, the ChatGPT creator has swiftly gained a loyal following with business customers, while other AI companies have struggled to keep up.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer, TechCrunch",
+      "heading": 1
+    }
+  ]
+}

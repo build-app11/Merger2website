@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Can a chatbot fix the government maze? The White House is about to find out",
+  "slug": "can-a-chatbot-fix-the-government-maze-the-white-house-is-abo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+    "episode": ""
+  },
+  "words": 339,
+  "lines": 20,
+  "duration": 113,
+  "text": "Posted:\n\nAmanda Silberling\n\nCan a chatbot fix the government maze? The White House is about to find out\n\nPresident Donald Trump announced on Tuesday that the White House is launching America.gov, an AI chatbot intended to help people find government services and other information.\n\nGoogle confirmed that it is a partner on this launch and that its AI model, Gemini, is involved. U.S. Chief Design Officer Joe Gebbia added that the government also used Grok.\n\n“Instead of forcing citizens to search through the endless maze of tens of thousands of government websites and rules … you’ll now have one front door for every single question,” Trump said in a post on X.\n\nMaking government services easier to navigate is a worthwhile goal, but is an AI chatbot the best way to do this? Large language models are not infallible and remain prone to hallucinations. In fact, CNN recently reported that the U.S. military nearly launched an armed operation against a Chinese vessel it believed was carrying components for nuclear weapons. The military aborted the mission at the last minute after realizing that the supposed threat was just an AI hallucination.\n\nIf someone receives faulty information from America.gov, it probably won’t trigger nuclear warfare, but a mistake can still have serious consequences. People might rely on this chatbot to access information about applying for food stamps, renewing their visas, or filing taxes, where errors could mean missed deadlines, denied benefits, or penalties.\n\nUpdated, 9/29/26, 7:30 PM ET with addition of Grok.\n\nTopics\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in Government & Policy\n\nElon Musk says: ‘I’m not MAGA’\n\nLucas Ropek\n\nSEC reportedly investigating Nvidia amid Huang exit\n\nRebecca Bellan\n\nTrump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Can a chatbot fix the government maze? The White House is about to find out",
+      "heading": 0
+    },
+    {
+      "text": "President Donald Trump announced on Tuesday that the White House is launching America.gov, an AI chatbot intended to help people find government services and other information.",
+      "heading": 0
+    },
+    {
+      "text": "Google confirmed that it is a partner on this launch and that its AI model, Gemini, is involved. U.S. Chief Design Officer Joe Gebbia added that the government also used Grok.",
+      "heading": 0
+    },
+    {
+      "text": "“Instead of forcing citizens to search through the endless maze of tens of thousands of government websites and rules … you’ll now have one front door for every single question,” Trump said in a post on X.",
+      "heading": 0
+    },
+    {
+      "text": "Making government services easier to navigate is a worthwhile goal, but is an AI chatbot the best way to do this? Large language models are not infallible and remain prone to hallucinations. In fact, CNN recently reported that the U.S. military nearly launched an armed operation against a Chinese vessel it believed was carrying components for nuclear weapons. The military aborted the mission at the last minute after realizing that the supposed threat was just an AI hallucination.",
+      "heading": 0
+    },
+    {
+      "text": "If someone receives faulty information from America.gov, it probably won’t trigger nuclear warfare, but a mistake can still have serious consequences. People might rely on this chatbot to access information about applying for food stamps, renewing their visas, or filing taxes, where errors could mean missed deadlines, denied benefits, or penalties.",
+      "heading": 0
+    },
+    {
+      "text": "Updated, 9/29/26, 7:30 PM ET with addition of Grok.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Government & Policy",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says: ‘I’m not MAGA’",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "SEC reportedly investigating Nvidia amid Huang exit",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "heading": 0
+    }
+  ]
+}

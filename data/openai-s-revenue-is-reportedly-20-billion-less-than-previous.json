@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+  "slug": "openai-s-revenue-is-reportedly-20-billion-less-than-previous",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+    "episode": ""
+  },
+  "words": 318,
+  "lines": 20,
+  "duration": 106,
+  "text": "Posted:\n\nLucas Ropek\n\nOpenAI’s revenue is reportedly $20 billion less than previously projected\n\nA little over a week ago, it was reported that OpenAI’s annualized revenue was approaching $70 billion, a figure that would have made it competitive with Anthropic’s reported run rate. Now, however, the AI lab is said to have told investors that the real revenue is some $20 billion lower than that.\n\nThe Financial Times reports that the company has told investors that its annualized revenue is “approaching $50 billion.” The $70 billion figure was previously reported by news outlets and based on information that had been shared with OpenAI investors, the outlet writes. That figure was devised via “attempts by OpenAI’s own investors to produce a direct comparison with Anthropic’s annualised revenues,” per the FT.\n\nIt’s worth pointing out that OpenAI and Anthropic calculate their annualized revenue differently — with Anthropic counting sales made by its cloud partners. OpenAI doesn’t do this.\n\nTechCrunch reached out to OpenAI for comment.\n\nThe issue of OpenAI’s revenue has troubled the company, as it attempts to justify the gargantuan investments being made on its behalf; the AI giant raised $122 billion during a March funding round alone. The company’s leaked 2025 financials earlier this year showed it had made about $13 billion but spent significantly more. OpenAI’s IPO, which was previously rumored to be materializing this year, has been pushed off until early 2027.\n\nTopics\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nRebecca Bellan\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "heading": 1
+    },
+    {
+      "text": "A little over a week ago, it was reported that OpenAI’s annualized revenue was approaching $70 billion, a figure that would have made it competitive with Anthropic’s reported run rate. Now, however, the AI lab is said to have told investors that the real revenue is some $20 billion lower than that.",
+      "heading": 0
+    },
+    {
+      "text": "The Financial Times reports that the company has told investors that its annualized revenue is “approaching $50 billion.” The $70 billion figure was previously reported by news outlets and based on information that had been shared with OpenAI investors, the outlet writes. That figure was devised via “attempts by OpenAI’s own investors to produce a direct comparison with Anthropic’s annualised revenues,” per the FT.",
+      "heading": 0
+    },
+    {
+      "text": "It’s worth pointing out that OpenAI and Anthropic calculate their annualized revenue differently — with Anthropic counting sales made by its cloud partners. OpenAI doesn’t do this.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch reached out to OpenAI for comment.",
+      "heading": 0
+    },
+    {
+      "text": "The issue of OpenAI’s revenue has troubled the company, as it attempts to justify the gargantuan investments being made on its behalf; the AI giant raised $122 billion during a March funding round alone. The company’s leaked 2025 financials earlier this year showed it had made about $13 billion but spent significantly more. OpenAI’s IPO, which was previously rumored to be materializing this year, has been pushed off until early 2027.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

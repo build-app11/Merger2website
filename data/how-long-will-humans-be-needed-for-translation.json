@@ -1,0 +1,220 @@
+{
+  "type": "read",
+  "title": "How long will humans be needed for translation?",
+  "slug": "how-long-will-humans-be-needed-for-translation",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5a40/live/7b9bd230-b0d8-11f1-b1d1-571ed4d7ff2c.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/c1wxdjx27ypo?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 1098,
+  "lines": 49,
+  "duration": 366,
+  "text": "Published 14 October 2026\n\n\"Il pleut des cordes,\" say the French when it's raining hard.\n\n\"It's raining ropes,\" is the direct translation. It's the kind of idiom which can trip up an AI translator.\n\n\"You can imagine the dilemma this throws AI into,\" says François Yvon, a research director specialised in automatic translation with the French National Centre for Scientific Research CNRS.\n\nHe says a well-trained system will know that ropes are not literally falling from the sky and use the English phrase \"it's raining cats and dogs\".\n\n\"But is it going to find the equivalent when it's translating into Indonesian?\" asks Yvon.\n\nA comment on the weather is pretty low-risk, but more and more translation is being done by machines, and on topics with higher stakes than the weather.\n\nIn April, Google said people are now translating, external one trillion words a month with Google Translate.\n\nThat doesn't count the others: DeepL, Microsoft, Claude, ChatGPT and Gemini, not to mention made-to-measure corporate translation systems.\n\nDirect sales of machine translation, external (i.e. outside general AI subscriptions) were worth an estimated $1.4bn (£1bn) last year.\n\n\"For plenty of use cases, raw AI translation is now the right call: multiplying your costs by 100 to catch the last few percent of errors isn't rational if you're translating internal documents or product listings,\" says Jonathan Zimmermann, founder of OKA (Open Knowledge Association), a Swiss non-profit that translates Wikipedia articles into other languages.\n\n\"For an encyclopedia it's different. Wikipedia runs on trust. A wrong fact can sit there for years and get cited by journalists and AI systems,\" he says.\n\nWith more than 10,000 published pieces, mostly into Spanish, Portuguese and English, OKA is, Zimmerman says, the single largest contributor of translated articles to the collaborative online encyclopedia.\n\nWhich is something it absolutely could not have become without AI.\n\n\"Translating 10,000 articles the traditional way would cost millions. In our process, the AI produces the draft, then a human translator checks every sentence,\" he explains.\n\nBut that human input is required less and less.\n\n\"The machine output is now good enough that skipping the human entirely has become a serious option, and a real temptation across the industry. Two or three years ago, with tools like DeepL, our translators still rewrote a good chunk of every draft.\n\n\"Today the prose often doesn't need fixing at all. So, the question is no longer whether AI translation is good, it clearly is, but whether it's good enough to remove the human,\" says Zimmermann.\n\nNot yet, translators argue.\n\nAriella Baltié is a translator and legal expert specialised in translating court documents from English into French.\n\nShe was contacted recently by someone who'd already translated his documents with AI, asking her to check them.\n\n\"There were two major errors right at the beginning,\" she said.\n\nThe AI had translated \"Le demandeur\" (the plaintiff) as \"the requester\". \"Totally awkward for legal papers,\" says Baltié.\n\nWhen the AI saw \"Madame X, épouse Y\" (Ms X, wife of Y'), it came up with \"Ms X marries Y\".\n\nIn other words, it mistook a noun for a verb, completely losing the meaning of the phrase.\n\nThe consequences of mistranslation in the legal sphere can be serious. In the US, for example, errors in machine-translated asylum applications have led to delays in the release of detainees.\n\nAccuracy is a matter of life and death in the medical field.\n\n\"The units for dosages and blood tests often include Greek letters,\" says Carol Bereuter, who is a specialist in medical translations.\n\nShe came across one automatically-translated text that had translated the greek letter μ as milli (one thousandth) instead of micro (one millionth).\n\n\"That's a serious error. If you give someone a milligram when it's meant to be a microgram, you are giving them a thousand times the dose,\" points out Bereuter.\n\nShe also makes the point that, as AI translators have got better, catching errors has got more difficult.\n\n\"Whereas in the past, with things like Google Translate, the sentence would jump out at you because there'd be a grammatical error or it would sound clunky, today it sounds perfectly legitimate. It sounds fluid. It sounds natural. So the errors are a lot harder to spot.\"\n\n\"If it's something that will bear your signature, there's a risk for your reputation. And if decisions are going to be taken on the basis of a translation concerning a medical procedure, a contract you might sign or a major purchase you might make, the risk is even greater,\" warns François Yvon.\n\nEven sentences that seem quite clear to a human can trip up an AI service, he says.\n\n\"When you have words with different meanings, it's usually very clear for a human which one applies because they understand the context, but when a machine translator comes across the sentence 'translate into Polish', for example, it is quite capable of deciding it must be all about shoe cream, says Yvon.\n\nContext is often crucial. If an AI translator hasn't grasped that we're talking about a football match it is liable to mis-translate \"taking a corner\".\n\nLast year OKA ran a study, funded by Wikimedia. It studied 119 articles, 10 language pairs and more than 1,000 hours of translator work.\n\n\"27% of the AI-generated text still got corrected before publication. Three quarters of those corrections were errors the AI introduced, and 5 to 6% of errors changed the meaning of the original text,\" says Zimmerman.\n\nEradicating those errors is likely to be challenging.\n\n\"As things stand, I think the fundamental way these systems function makes it quite hard to imagine how they could become 100% reliable,\" says François Yvon.\n\nThis is because probability is a crucial part of the way AI translates each word rather than another and what is probably correct is not the same as what is correct. Especially in the realm of something as subtle and surprising as language.\n\nHe thinks a new generation of tech will be an improvement.\n\n\"We will see translation systems that are increasingly capable of evaluating what they do and correcting themselves using different AI tools simultaneously: one to do the translation, a second to criticize it and a third to produce a new version, for example.\"\n\nBut perhaps the big moment will be when AI can show doubt.\n\n\"The real breakthrough won't come until these systems are not merely capable of translating but also of telling us when they're not sure,\" Yvon says.\n\nInternational Business\n\nTechnology of Business\n\nArtificial intelligence\n\nMore on this story",
+  "paragraphs": [
+    {
+      "text": "Published 14 October 2026",
+      "heading": 1
+    },
+    {
+      "text": "\"Il pleut des cordes,\" say the French when it's raining hard.",
+      "heading": 0
+    },
+    {
+      "text": "\"It's raining ropes,\" is the direct translation. It's the kind of idiom which can trip up an AI translator.",
+      "heading": 0
+    },
+    {
+      "text": "\"You can imagine the dilemma this throws AI into,\" says François Yvon, a research director specialised in automatic translation with the French National Centre for Scientific Research CNRS.",
+      "heading": 0
+    },
+    {
+      "text": "He says a well-trained system will know that ropes are not literally falling from the sky and use the English phrase \"it's raining cats and dogs\".",
+      "heading": 0
+    },
+    {
+      "text": "\"But is it going to find the equivalent when it's translating into Indonesian?\" asks Yvon.",
+      "heading": 0
+    },
+    {
+      "text": "A comment on the weather is pretty low-risk, but more and more translation is being done by machines, and on topics with higher stakes than the weather.",
+      "heading": 0
+    },
+    {
+      "text": "In April, Google said people are now translating, external one trillion words a month with Google Translate.",
+      "heading": 0
+    },
+    {
+      "text": "That doesn't count the others: DeepL, Microsoft, Claude, ChatGPT and Gemini, not to mention made-to-measure corporate translation systems.",
+      "heading": 0
+    },
+    {
+      "text": "Direct sales of machine translation, external (i.e. outside general AI subscriptions) were worth an estimated $1.4bn (£1bn) last year.",
+      "heading": 0
+    },
+    {
+      "text": "\"For plenty of use cases, raw AI translation is now the right call: multiplying your costs by 100 to catch the last few percent of errors isn't rational if you're translating internal documents or product listings,\" says Jonathan Zimmermann, founder of OKA (Open Knowledge Association), a Swiss non-profit that translates Wikipedia articles into other languages.",
+      "heading": 0
+    },
+    {
+      "text": "\"For an encyclopedia it's different. Wikipedia runs on trust. A wrong fact can sit there for years and get cited by journalists and AI systems,\" he says.",
+      "heading": 0
+    },
+    {
+      "text": "With more than 10,000 published pieces, mostly into Spanish, Portuguese and English, OKA is, Zimmerman says, the single largest contributor of translated articles to the collaborative online encyclopedia.",
+      "heading": 0
+    },
+    {
+      "text": "Which is something it absolutely could not have become without AI.",
+      "heading": 0
+    },
+    {
+      "text": "\"Translating 10,000 articles the traditional way would cost millions. In our process, the AI produces the draft, then a human translator checks every sentence,\" he explains.",
+      "heading": 0
+    },
+    {
+      "text": "But that human input is required less and less.",
+      "heading": 0
+    },
+    {
+      "text": "\"The machine output is now good enough that skipping the human entirely has become a serious option, and a real temptation across the industry. Two or three years ago, with tools like DeepL, our translators still rewrote a good chunk of every draft.",
+      "heading": 0
+    },
+    {
+      "text": "\"Today the prose often doesn't need fixing at all. So, the question is no longer whether AI translation is good, it clearly is, but whether it's good enough to remove the human,\" says Zimmermann.",
+      "heading": 0
+    },
+    {
+      "text": "Not yet, translators argue.",
+      "heading": 0
+    },
+    {
+      "text": "Ariella Baltié is a translator and legal expert specialised in translating court documents from English into French.",
+      "heading": 0
+    },
+    {
+      "text": "She was contacted recently by someone who'd already translated his documents with AI, asking her to check them.",
+      "heading": 0
+    },
+    {
+      "text": "\"There were two major errors right at the beginning,\" she said.",
+      "heading": 0
+    },
+    {
+      "text": "The AI had translated \"Le demandeur\" (the plaintiff) as \"the requester\". \"Totally awkward for legal papers,\" says Baltié.",
+      "heading": 0
+    },
+    {
+      "text": "When the AI saw \"Madame X, épouse Y\" (Ms X, wife of Y'), it came up with \"Ms X marries Y\".",
+      "heading": 0
+    },
+    {
+      "text": "In other words, it mistook a noun for a verb, completely losing the meaning of the phrase.",
+      "heading": 0
+    },
+    {
+      "text": "The consequences of mistranslation in the legal sphere can be serious. In the US, for example, errors in machine-translated asylum applications have led to delays in the release of detainees.",
+      "heading": 0
+    },
+    {
+      "text": "Accuracy is a matter of life and death in the medical field.",
+      "heading": 0
+    },
+    {
+      "text": "\"The units for dosages and blood tests often include Greek letters,\" says Carol Bereuter, who is a specialist in medical translations.",
+      "heading": 0
+    },
+    {
+      "text": "She came across one automatically-translated text that had translated the greek letter μ as milli (one thousandth) instead of micro (one millionth).",
+      "heading": 0
+    },
+    {
+      "text": "\"That's a serious error. If you give someone a milligram when it's meant to be a microgram, you are giving them a thousand times the dose,\" points out Bereuter.",
+      "heading": 0
+    },
+    {
+      "text": "She also makes the point that, as AI translators have got better, catching errors has got more difficult.",
+      "heading": 0
+    },
+    {
+      "text": "\"Whereas in the past, with things like Google Translate, the sentence would jump out at you because there'd be a grammatical error or it would sound clunky, today it sounds perfectly legitimate. It sounds fluid. It sounds natural. So the errors are a lot harder to spot.\"",
+      "heading": 0
+    },
+    {
+      "text": "\"If it's something that will bear your signature, there's a risk for your reputation. And if decisions are going to be taken on the basis of a translation concerning a medical procedure, a contract you might sign or a major purchase you might make, the risk is even greater,\" warns François Yvon.",
+      "heading": 0
+    },
+    {
+      "text": "Even sentences that seem quite clear to a human can trip up an AI service, he says.",
+      "heading": 0
+    },
+    {
+      "text": "\"When you have words with different meanings, it's usually very clear for a human which one applies because they understand the context, but when a machine translator comes across the sentence 'translate into Polish', for example, it is quite capable of deciding it must be all about shoe cream, says Yvon.",
+      "heading": 0
+    },
+    {
+      "text": "Context is often crucial. If an AI translator hasn't grasped that we're talking about a football match it is liable to mis-translate \"taking a corner\".",
+      "heading": 0
+    },
+    {
+      "text": "Last year OKA ran a study, funded by Wikimedia. It studied 119 articles, 10 language pairs and more than 1,000 hours of translator work.",
+      "heading": 0
+    },
+    {
+      "text": "\"27% of the AI-generated text still got corrected before publication. Three quarters of those corrections were errors the AI introduced, and 5 to 6% of errors changed the meaning of the original text,\" says Zimmerman.",
+      "heading": 0
+    },
+    {
+      "text": "Eradicating those errors is likely to be challenging.",
+      "heading": 0
+    },
+    {
+      "text": "\"As things stand, I think the fundamental way these systems function makes it quite hard to imagine how they could become 100% reliable,\" says François Yvon.",
+      "heading": 0
+    },
+    {
+      "text": "This is because probability is a crucial part of the way AI translates each word rather than another and what is probably correct is not the same as what is correct. Especially in the realm of something as subtle and surprising as language.",
+      "heading": 0
+    },
+    {
+      "text": "He thinks a new generation of tech will be an improvement.",
+      "heading": 0
+    },
+    {
+      "text": "\"We will see translation systems that are increasingly capable of evaluating what they do and correcting themselves using different AI tools simultaneously: one to do the translation, a second to criticize it and a third to produce a new version, for example.\"",
+      "heading": 0
+    },
+    {
+      "text": "But perhaps the big moment will be when AI can show doubt.",
+      "heading": 0
+    },
+    {
+      "text": "\"The real breakthrough won't come until these systems are not merely capable of translating but also of telling us when they're not sure,\" Yvon says.",
+      "heading": 0
+    },
+    {
+      "text": "International Business",
+      "heading": 1
+    },
+    {
+      "text": "Technology of Business",
+      "heading": 1
+    },
+    {
+      "text": "Artificial intelligence",
+      "heading": 1
+    },
+    {
+      "text": "More on this story",
+      "heading": 1
+    }
+  ]
+}

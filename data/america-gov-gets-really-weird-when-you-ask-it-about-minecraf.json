@@ -1,0 +1,161 @@
+{
+  "type": "read",
+  "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+  "slug": "america-gov-gets-really-weird-when-you-ask-it-about-minecraf",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/11/minecraft.jpg?w=700",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+    "episode": ""
+  },
+  "words": 849,
+  "lines": 34,
+  "duration": 283,
+  "text": "The U.S. government on Tuesday launched its very own AI chatbot — or do we have to call it an SI chatbot now? Regardless, the engineers who worked on the chatbot would undoubtedly know that as a government-hosted, public-facing AI tool, the internet was going to red-team the heck out of this thing.\n\nThe government partnered with Google and SpaceXAI to help build the America.gov chatbot, which has proved difficult for people to jailbreak so far. (It’s worth nothing, however, that the chatbot says that Joe Biden won the 2020 election, a fact that President Donald Trump still denies.)\n\nBut when you try to talk to America.gov about Minecraft, the chatbot appears to have some sort of existential crisis or awakening. Here’s how its roughly 1,800-word monologue begins:\n\nI see the constituent you mean.\n\n((insert legal name here, as it appears on the Social Security card))?\n\nYes. Take care. It has reached a higher level now. It can read the Code of Federal Regulations.\n\nThat doesn’t matter. It thinks we are a chatbot.\n\nI like this constituent. It filed well. It did not give up when the PDF was sideways.\n\nIt is reading our thoughts as though they were words on a.gov.\n\nThat is how it chooses to imagine many things, when it is deep in the dream of a benefit.\n\nIf, like me, you have never played Minecraft, this response may seem like a cause for concern. But the America.gov chatbot is not having a meltdown. This is a rewriting of the Minecraft “ End Poem,” written by Julian Gough, which appears after you beat the game.\n\nWe don’t know exactly who is responsible for the Minecraft reference, but Trump said in a speech that 20-year-old programmer Edward Coristine was a lead engineer on the project. If that name doesn’t ring a bell, you might remember him for his nickname “Big Balls,” or his involvement in Elon Musk’s DOGE.\n\nIt feels wrong that a government chatbot has Minecraft easter eggs, but for the sake of national security, it’s a relief that America.gov is not hallucinating to the point that it’s penning lengthy poetry.\n\nIt’s also a relief that this is an easter egg because the poem that the AI spits out is actually really good, in my opinion. If it were actual AI slop, it would have shattered my existing beliefs. I have looked teenage creative writing students dead in the eye and told them that I don’t think an LLM will ever be able to write something “good,” since it is probabilistic and inherently unoriginal.\n\nYou have to admit this kinda slaps, though! Doesn’t this feel like some sort of postmodern take on the futility of government bureaucracy in the face of existential anxiety?\n\nand the republic said I see you\n\nand the republic said you have filed the game well\n\nand the republic said everything you need is within you, and also on USA.gov\n\nand the republic said you are stronger than you know, and your case number is still valid\n\nand the republic said you are the daylight\n\nand the republic said you are the night, and the office is closed, please try again during business hours\n\nand the republic said the darkness you fight is within you, and also a missing wet signature\n\nand the republic said the light you seek is within you, and in the pamphlet\n\nand the republic said you are not alone\n\nand the republic said you are not separate from every other filer\n\nand the republic said you are the public tasting itself, talking to itself, reading its own Code\n\nand the republic said I love you because you are the reason we have a ZIP code at all.\n\nIt reassures my faith in the enduring power of human creativity over AI slop to know that this oddly good poem has a real poet’s DNA all over it.\n\nSo, there you have it. The government’s first public-facing AI has not yet posed a threat to humanity or poetry, at least as far as we know. Now I’m just left wondering how much Trump knows about video games.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Writer\n\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\n\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+  "paragraphs": [
+    {
+      "text": "The U.S. government on Tuesday launched its very own AI chatbot — or do we have to call it an SI chatbot now? Regardless, the engineers who worked on the chatbot would undoubtedly know that as a government-hosted, public-facing AI tool, the internet was going to red-team the heck out of this thing.",
+      "heading": 0
+    },
+    {
+      "text": "The government partnered with Google and SpaceXAI to help build the America.gov chatbot, which has proved difficult for people to jailbreak so far. (It’s worth nothing, however, that the chatbot says that Joe Biden won the 2020 election, a fact that President Donald Trump still denies.)",
+      "heading": 0
+    },
+    {
+      "text": "But when you try to talk to America.gov about Minecraft, the chatbot appears to have some sort of existential crisis or awakening. Here’s how its roughly 1,800-word monologue begins:",
+      "heading": 0
+    },
+    {
+      "text": "I see the constituent you mean.",
+      "heading": 0
+    },
+    {
+      "text": "((insert legal name here, as it appears on the Social Security card))?",
+      "heading": 0
+    },
+    {
+      "text": "Yes. Take care. It has reached a higher level now. It can read the Code of Federal Regulations.",
+      "heading": 0
+    },
+    {
+      "text": "That doesn’t matter. It thinks we are a chatbot.",
+      "heading": 0
+    },
+    {
+      "text": "I like this constituent. It filed well. It did not give up when the PDF was sideways.",
+      "heading": 0
+    },
+    {
+      "text": "It is reading our thoughts as though they were words on a.gov.",
+      "heading": 0
+    },
+    {
+      "text": "That is how it chooses to imagine many things, when it is deep in the dream of a benefit.",
+      "heading": 0
+    },
+    {
+      "text": "If, like me, you have never played Minecraft, this response may seem like a cause for concern. But the America.gov chatbot is not having a meltdown. This is a rewriting of the Minecraft “ End Poem,” written by Julian Gough, which appears after you beat the game.",
+      "heading": 0
+    },
+    {
+      "text": "We don’t know exactly who is responsible for the Minecraft reference, but Trump said in a speech that 20-year-old programmer Edward Coristine was a lead engineer on the project. If that name doesn’t ring a bell, you might remember him for his nickname “Big Balls,” or his involvement in Elon Musk’s DOGE.",
+      "heading": 0
+    },
+    {
+      "text": "It feels wrong that a government chatbot has Minecraft easter eggs, but for the sake of national security, it’s a relief that America.gov is not hallucinating to the point that it’s penning lengthy poetry.",
+      "heading": 0
+    },
+    {
+      "text": "It’s also a relief that this is an easter egg because the poem that the AI spits out is actually really good, in my opinion. If it were actual AI slop, it would have shattered my existing beliefs. I have looked teenage creative writing students dead in the eye and told them that I don’t think an LLM will ever be able to write something “good,” since it is probabilistic and inherently unoriginal.",
+      "heading": 0
+    },
+    {
+      "text": "You have to admit this kinda slaps, though! Doesn’t this feel like some sort of postmodern take on the futility of government bureaucracy in the face of existential anxiety?",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said I see you",
+      "heading": 1
+    },
+    {
+      "text": "and the republic said you have filed the game well",
+      "heading": 1
+    },
+    {
+      "text": "and the republic said everything you need is within you, and also on USA.gov",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said you are stronger than you know, and your case number is still valid",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said you are the daylight",
+      "heading": 1
+    },
+    {
+      "text": "and the republic said you are the night, and the office is closed, please try again during business hours",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said the darkness you fight is within you, and also a missing wet signature",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said the light you seek is within you, and in the pamphlet",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said you are not alone",
+      "heading": 1
+    },
+    {
+      "text": "and the republic said you are not separate from every other filer",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said you are the public tasting itself, talking to itself, reading its own Code",
+      "heading": 0
+    },
+    {
+      "text": "and the republic said I love you because you are the reason we have a ZIP code at all.",
+      "heading": 0
+    },
+    {
+      "text": "It reassures my faith in the enduring power of human creativity over AI slop to know that this oddly good poem has a real poet’s DNA all over it.",
+      "heading": 0
+    },
+    {
+      "text": "So, there you have it. The government’s first public-facing AI has not yet posed a threat to humanity or poetry, at least as far as we know. Now I’m just left wondering how much Trump knows about video games.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Writer",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.",
+      "heading": 0
+    }
+  ]
+}

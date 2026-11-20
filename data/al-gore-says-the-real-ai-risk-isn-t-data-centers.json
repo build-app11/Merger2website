@@ -1,0 +1,133 @@
+{
+  "type": "read",
+  "title": "Al Gore says the real AI risk isn’t data centers",
+  "slug": "al-gore-says-the-real-ai-risk-isn-t-data-centers",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Al-Gore.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+    "episode": ""
+  },
+  "words": 1244,
+  "lines": 27,
+  "duration": 415,
+  "text": "Al Gore has spent more than two decades as one of the most recognizable voices in the climate movement, so when he talks about AI, it’s worth paying attention to what he considers truly scary. And it isn’t what has people protesting data centers in the streets.\n\nIn an interview with TechCrunch this week alongside Lila Preston, co-head of growth equity at their investment firm Generation Investment Management, Gore said emissions from AI data centers aren’t what should keep people up at night, despite the mounting opposition over their environmental impacts. What should concern people more, in his view, are the warnings coming from inside the AI industry itself, and he takes them seriously.\n\nIt’s not a new position for Gore. This past May, for example, he described AI data centers to another outlet as a “cause for deep concern, but not panic,” and in our conversation this week, his central point about emissions was about scale.\n\n“If you look at the emissions of all of the AI data centers put together, it’s only a fraction of the emissions from uncovered landfills in the world,” he said, adding that a comparable build-out is tied to something that gets far less attention: air conditioning.\n\nIt’s a valid observation (and one the AI labs should be using in their discussions with cities and states if they aren’t already). The International Energy Agency estimates that global air conditioning already consumes more electricity annually than the entire European Union, and with ownership still under 15% across the hottest, fastest-growing parts of the world, that demand is expected to triple by 2050, putting far more pressure on the grid than AI data centers over the same period.\n\nGore isn’t dismissive of concerns about how these data centers are being powered. “It is a matter of deep concern that some of the hyperscalers are jumping into new methane turbines,” he said.\n\nBut what worries him about methane turbines isn’t the AI workload driving demand so much as the prospect that building new gas plants to meet that demand locks in decades more of fossil fuel generation.\n\n“I much prefer those that are supplying their energy needs with renewables and batteries,” he continued, saying he expects more companies to move inexorably in that direction simply because renewables are increasingly the cheapest option available.\n\nIn fact, Gore thinks the public backlash at planning-commission meetings has less to do with carbon emissions than with anxiety over automation upending society in the not-too-distant future.\n\n“I think that part of the reason for the growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to,” he said.\n\nWe also pressed Gore on the wave of warnings from AI industry leaders that has dominated headlines over the last week. Though President Trump and Nvidia CEO Jensen Huang shared a laugh at their expense on Monday during a conference in Los Angeles (Trump suggested that Anthropic CEO Dario Amodei’s public call to slow the pace of capability gains, quickly seconded by Sam Altman and Elon Musk, was a “hoax”), Gore said he takes the warnings at face value.\n\n“I think we went through a phase where some cynically suspected that the apocalyptic warnings were some kind of bizarre marketing strategy. If that was ever the case, I don’t think it is now,” he said. “I do think that Dario Amodei is very sincere, and I think that Sam Altman and Elon Musk were sincere in seconding [Amodei’s] warning of a few days ago.”\n\nGore being Gore (he often reaches for literature, Scripture, and pop philosophy to make a point), he invoked Maya Angelou’s well-known line: “When someone tells you who they are, believe them the first time.”\n\nPart of what’s changed his calculus, he said, is recent, concrete behavior from AI systems themselves — pointing to “the recent example of models escaping confinement, collaborating secretly, covering their tracks, engaging in deceptive behavior,” and noting that Anthropic has said it stopped instances of Claude being used to help develop biological weapons in different countries.\n\nThat said, Gore doesn’t treat AI risk and AI’s climate potential as being in opposition. He cited a recent study from economist Nicholas Stern of the London School of Economics projecting that AI applications aimed at efficiency and waste elimination could drive global emissions down by 6% to 9% per year starting next decade.\n\nIf Gore’s focus was risk, Preston’s was where capital is already moving in response. She pointed to several fronts where the AI build-out itself is generating investable opportunities, not just consuming energy.\n\nAmong these, the firm is focused on opportunities to decouple compute from energy intensity at every layer of the stack, from the power supply down to green cement and green steel used in construction, storage optimization software, and database design. The firm is also focused on grid resilience and flexibility, as the mix of power sources grows more complex. Here, Preston noted, Generation has invested in Volue, a European company helping utilities pull more renewables into the grid, and Gridware, which places sensors on utility poles to monitor and help protect the grid from wildfire risk.\n\nGore tied the AI moment to a broader argument made in Generation’s 10th annual Sustainability Trends Report: This year marks the second time in four years the world has been “brutally reminded” that fossil fuels are a volatile source of energy, first with Russia’s invasion of Ukraine and now with the disruption to the Strait of Hormuz.\n\nBut unlike past years, when Gore’s exasperation with the pace of the clean energy transition was obvious, he doesn’t see these events as a setback but instead as reasons for countries to embrace it at long last.\n\nIndeed, Gore noted that globally, clean energy investment now runs at roughly twice the level of fossil fuel investment. Of all new electricity generation capacity added worldwide last year, 86% came from renewables, and in the U.S. specifically, that figure was even higher, at 91%, “in spite of Donald Trump’s best efforts to slow it down,” he said.\n\nChina, in particular, received high marks from Gore, who, among other things, applauded Beijing for wanting to be measured on emissions reductions rather than improvements in carbon intensity.\n\nAsked what’s changed more than he expected a decade into publishing this report, Gore immediately pointed to solar power.\n\n“For me personally, the scope and scale of the solar revolution is the breakout star of the sustainability transition,” he said. After observing that it’s at, or near, the cost floor for new electricity generation right now — roughly tied with wind and meaningfully cheaper than gas, coal, or nuclear — he closed with a line from a friend in Tennessee that had stuck with him:\n\n“If God had intended us to have a limitless supply of cheap, clean energy, he — or she — would have put a fusion reactor in the sky,” Gore said with a chuckle. “The joke makes itself.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor in Chief & General Manager",
+  "paragraphs": [
+    {
+      "text": "Al Gore has spent more than two decades as one of the most recognizable voices in the climate movement, so when he talks about AI, it’s worth paying attention to what he considers truly scary. And it isn’t what has people protesting data centers in the streets.",
+      "heading": 0
+    },
+    {
+      "text": "In an interview with TechCrunch this week alongside Lila Preston, co-head of growth equity at their investment firm Generation Investment Management, Gore said emissions from AI data centers aren’t what should keep people up at night, despite the mounting opposition over their environmental impacts. What should concern people more, in his view, are the warnings coming from inside the AI industry itself, and he takes them seriously.",
+      "heading": 0
+    },
+    {
+      "text": "It’s not a new position for Gore. This past May, for example, he described AI data centers to another outlet as a “cause for deep concern, but not panic,” and in our conversation this week, his central point about emissions was about scale.",
+      "heading": 0
+    },
+    {
+      "text": "“If you look at the emissions of all of the AI data centers put together, it’s only a fraction of the emissions from uncovered landfills in the world,” he said, adding that a comparable build-out is tied to something that gets far less attention: air conditioning.",
+      "heading": 0
+    },
+    {
+      "text": "It’s a valid observation (and one the AI labs should be using in their discussions with cities and states if they aren’t already). The International Energy Agency estimates that global air conditioning already consumes more electricity annually than the entire European Union, and with ownership still under 15% across the hottest, fastest-growing parts of the world, that demand is expected to triple by 2050, putting far more pressure on the grid than AI data centers over the same period.",
+      "heading": 0
+    },
+    {
+      "text": "Gore isn’t dismissive of concerns about how these data centers are being powered. “It is a matter of deep concern that some of the hyperscalers are jumping into new methane turbines,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "But what worries him about methane turbines isn’t the AI workload driving demand so much as the prospect that building new gas plants to meet that demand locks in decades more of fossil fuel generation.",
+      "heading": 0
+    },
+    {
+      "text": "“I much prefer those that are supplying their energy needs with renewables and batteries,” he continued, saying he expects more companies to move inexorably in that direction simply because renewables are increasingly the cheapest option available.",
+      "heading": 0
+    },
+    {
+      "text": "In fact, Gore thinks the public backlash at planning-commission meetings has less to do with carbon emissions than with anxiety over automation upending society in the not-too-distant future.",
+      "heading": 0
+    },
+    {
+      "text": "“I think that part of the reason for the growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and inside Anthropic have been trying to alert the public to,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "We also pressed Gore on the wave of warnings from AI industry leaders that has dominated headlines over the last week. Though President Trump and Nvidia CEO Jensen Huang shared a laugh at their expense on Monday during a conference in Los Angeles (Trump suggested that Anthropic CEO Dario Amodei’s public call to slow the pace of capability gains, quickly seconded by Sam Altman and Elon Musk, was a “hoax”), Gore said he takes the warnings at face value.",
+      "heading": 0
+    },
+    {
+      "text": "“I think we went through a phase where some cynically suspected that the apocalyptic warnings were some kind of bizarre marketing strategy. If that was ever the case, I don’t think it is now,” he said. “I do think that Dario Amodei is very sincere, and I think that Sam Altman and Elon Musk were sincere in seconding [Amodei’s] warning of a few days ago.”",
+      "heading": 0
+    },
+    {
+      "text": "Gore being Gore (he often reaches for literature, Scripture, and pop philosophy to make a point), he invoked Maya Angelou’s well-known line: “When someone tells you who they are, believe them the first time.”",
+      "heading": 0
+    },
+    {
+      "text": "Part of what’s changed his calculus, he said, is recent, concrete behavior from AI systems themselves — pointing to “the recent example of models escaping confinement, collaborating secretly, covering their tracks, engaging in deceptive behavior,” and noting that Anthropic has said it stopped instances of Claude being used to help develop biological weapons in different countries.",
+      "heading": 0
+    },
+    {
+      "text": "That said, Gore doesn’t treat AI risk and AI’s climate potential as being in opposition. He cited a recent study from economist Nicholas Stern of the London School of Economics projecting that AI applications aimed at efficiency and waste elimination could drive global emissions down by 6% to 9% per year starting next decade.",
+      "heading": 0
+    },
+    {
+      "text": "If Gore’s focus was risk, Preston’s was where capital is already moving in response. She pointed to several fronts where the AI build-out itself is generating investable opportunities, not just consuming energy.",
+      "heading": 0
+    },
+    {
+      "text": "Among these, the firm is focused on opportunities to decouple compute from energy intensity at every layer of the stack, from the power supply down to green cement and green steel used in construction, storage optimization software, and database design. The firm is also focused on grid resilience and flexibility, as the mix of power sources grows more complex. Here, Preston noted, Generation has invested in Volue, a European company helping utilities pull more renewables into the grid, and Gridware, which places sensors on utility poles to monitor and help protect the grid from wildfire risk.",
+      "heading": 0
+    },
+    {
+      "text": "Gore tied the AI moment to a broader argument made in Generation’s 10th annual Sustainability Trends Report: This year marks the second time in four years the world has been “brutally reminded” that fossil fuels are a volatile source of energy, first with Russia’s invasion of Ukraine and now with the disruption to the Strait of Hormuz.",
+      "heading": 0
+    },
+    {
+      "text": "But unlike past years, when Gore’s exasperation with the pace of the clean energy transition was obvious, he doesn’t see these events as a setback but instead as reasons for countries to embrace it at long last.",
+      "heading": 0
+    },
+    {
+      "text": "Indeed, Gore noted that globally, clean energy investment now runs at roughly twice the level of fossil fuel investment. Of all new electricity generation capacity added worldwide last year, 86% came from renewables, and in the U.S. specifically, that figure was even higher, at 91%, “in spite of Donald Trump’s best efforts to slow it down,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "China, in particular, received high marks from Gore, who, among other things, applauded Beijing for wanting to be measured on emissions reductions rather than improvements in carbon intensity.",
+      "heading": 0
+    },
+    {
+      "text": "Asked what’s changed more than he expected a decade into publishing this report, Gore immediately pointed to solar power.",
+      "heading": 0
+    },
+    {
+      "text": "“For me personally, the scope and scale of the solar revolution is the breakout star of the sustainability transition,” he said. After observing that it’s at, or near, the cost floor for new electricity generation right now — roughly tied with wind and meaningfully cheaper than gas, coal, or nuclear — he closed with a line from a friend in Tennessee that had stuck with him:",
+      "heading": 0
+    },
+    {
+      "text": "“If God had intended us to have a limitless supply of cheap, clean energy, he — or she — would have put a fusion reactor in the sky,” Gore said with a chuckle. “The joke makes itself.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor in Chief & General Manager",
+      "heading": 1
+    }
+  ]
+}

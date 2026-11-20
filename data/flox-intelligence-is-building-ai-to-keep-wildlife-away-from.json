@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+  "slug": "flox-intelligence-is-building-ai-to-keep-wildlife-away-from",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/founders-sara-tomas-full.jpg?w=828",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+    "episode": ""
+  },
+  "words": 969,
+  "lines": 25,
+  "duration": 323,
+  "text": "When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks.\n\nThe train, you see, had apparently hit a wild bison at full speed, and the impact damaged the engine so badly that it had to be towed away for repairs. For a long time, I thought such things only happened in places like rural India, but I learned a few years ago that wildlife and infrastructure do not mix anywhere on the planet.\n\nThe FAA estimates that wildlife strikes have cost U.S. civil aviation about $272 million a year on average between 1990 and 2025. In France, the rail operator SNCF says wandering animals affect more than 8,000 trains across the country each year and are among its five leading causes of delays. In Brittany, 120 trains hit animals in 2023 alone, disrupting 660 services and causing more than 15,000 minutes of delays.\n\nReading about all that damage, to both infrastructure and animals, inspired Sara Nozkova (pictured above on the left) to develop a wildlife-deterrent system that works differently from the sirens, lights, fences, falcons, and culling traditionally used to keep animals away from roads, train tracks, airports, and other infrastructure.\n\n“I was convinced the answer was not a louder deterrent,” she told TechCrunch.\n\nAfter spending 13 years working in transportation and autonomous vehicles, Nozkova had learned how quickly the systems we build to navigate roads and other controlled environments fail once nature enters the equation.\n\n“We have taught machines to be brilliant, but only inside the environments we engineered for them,” she said. “Cities, factory lines, warehouses. Fixed geometry, known objects. Stepping outside into nature, I saw firsthand how the same machines quickly go blind. Because nature is complex and always alive.”\n\nSo instead she joined the AI lab at KTH Royal Institute of Technology in Stockholm and started working on a system that could change its deterrent responses based on what an animal nearby is doing, and even what kind of animal it is.\n\nThat work turned into Flox Intelligence, which spun out of KTH in 2020 and is one of the finalists at this year’s Startup Battlefield 200 pitch competition at TechCrunch Disrupt, taking place this year at Moscone West in San Francisco October 13-15.\n\nFlox makes edge devices that process data on-site rather than in the cloud. Like autonomous vehicles, they use perception systems to sense their surroundings, but theirs are trained on wildlife behavior. A motion sensor wakes the device when it detects movement, triggering a camera that uses on-device models to identify nearby animals. The device then emits a species-appropriate sound to scare them away.\n\nNozkova says the system learns from experience, too, and varies its responses so animals don’t get habituated to repeated signals.\n\nThe company currently sells battery-operated devices that can be mounted on poles, trees, and other structures. It also offers a software platform that shows clients where the devices are deployed and what’s happening on the ground. The platform can also generate reports for regulatory compliance and for uses like biodiversity monitoring. The longer-term goal is to make the software portable enough to run on machines that work outside, including trains, cars, and drones.\n\nNozkova says about 150 Flox devices are live in North America, Europe, and Australia at airfields and airport perimeters, road and rail corridors (especially fence ends and crossings along wildlife corridors), national parks, agricultural land, urban areas, mining sites, and critical infrastructure such as electrical substations.\n\nThe company sells edge units up front, then charges an annual software and AI subscription after the first year. Flox also has OEM partnerships with companies that pay an annual fee to deploy its software on vehicles, like trains. Train manufacturer Alstom is one such partner.\n\nThe company expects to end 2026 with revenue of about $1.5 million, Nozkova said.\n\nAs unique as Flox’s product and approach are, the startup is not without competition. Robin Radar’s Scarecrow also uses species-specific distress calls to disperse birds and it records the activity, while iCHASE sells a system that detects birds with computer vision and targets them with a moving laser, adjusting its response as needed.\n\nNozkova says her moat is the breadth of the system and the data Flox has collected in the field, which she calls “ground truth on what actually makes a moose or a grizzly bear move safely.”\n\n“Physical AI is walking out of the factory and into the messy, alive outdoors,” Nozkova says. “Every machine that operates outside — trains, trucks, drones, tractors, robots — will need to understand nature, and nature intelligence is the next layer of the perception stack. Almost nobody is building it.”\n\nThe company has raised about $5 million across pre-seed and seed rounds so far, with the seed round led by Unconventional Ventures and Tilia Impact Ventures. Co-investors across the rounds include GENIUS NY, Norrsken, Satgana, and angel investors, Nozkova said.\n\nThe company is now opening a $10 million Series A, which would mostly go toward growing from about 150 devices to several thousand deployed units and extending the underlying system beyond its current wildlife use cases.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor\n\nRam is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.\n\nYou can contact or verify outreach from Ram by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks.",
+      "heading": 0
+    },
+    {
+      "text": "The train, you see, had apparently hit a wild bison at full speed, and the impact damaged the engine so badly that it had to be towed away for repairs. For a long time, I thought such things only happened in places like rural India, but I learned a few years ago that wildlife and infrastructure do not mix anywhere on the planet.",
+      "heading": 0
+    },
+    {
+      "text": "The FAA estimates that wildlife strikes have cost U.S. civil aviation about $272 million a year on average between 1990 and 2025. In France, the rail operator SNCF says wandering animals affect more than 8,000 trains across the country each year and are among its five leading causes of delays. In Brittany, 120 trains hit animals in 2023 alone, disrupting 660 services and causing more than 15,000 minutes of delays.",
+      "heading": 0
+    },
+    {
+      "text": "Reading about all that damage, to both infrastructure and animals, inspired Sara Nozkova (pictured above on the left) to develop a wildlife-deterrent system that works differently from the sirens, lights, fences, falcons, and culling traditionally used to keep animals away from roads, train tracks, airports, and other infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "“I was convinced the answer was not a louder deterrent,” she told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "After spending 13 years working in transportation and autonomous vehicles, Nozkova had learned how quickly the systems we build to navigate roads and other controlled environments fail once nature enters the equation.",
+      "heading": 0
+    },
+    {
+      "text": "“We have taught machines to be brilliant, but only inside the environments we engineered for them,” she said. “Cities, factory lines, warehouses. Fixed geometry, known objects. Stepping outside into nature, I saw firsthand how the same machines quickly go blind. Because nature is complex and always alive.”",
+      "heading": 0
+    },
+    {
+      "text": "So instead she joined the AI lab at KTH Royal Institute of Technology in Stockholm and started working on a system that could change its deterrent responses based on what an animal nearby is doing, and even what kind of animal it is.",
+      "heading": 0
+    },
+    {
+      "text": "That work turned into Flox Intelligence, which spun out of KTH in 2020 and is one of the finalists at this year’s Startup Battlefield 200 pitch competition at TechCrunch Disrupt, taking place this year at Moscone West in San Francisco October 13-15.",
+      "heading": 0
+    },
+    {
+      "text": "Flox makes edge devices that process data on-site rather than in the cloud. Like autonomous vehicles, they use perception systems to sense their surroundings, but theirs are trained on wildlife behavior. A motion sensor wakes the device when it detects movement, triggering a camera that uses on-device models to identify nearby animals. The device then emits a species-appropriate sound to scare them away.",
+      "heading": 0
+    },
+    {
+      "text": "Nozkova says the system learns from experience, too, and varies its responses so animals don’t get habituated to repeated signals.",
+      "heading": 0
+    },
+    {
+      "text": "The company currently sells battery-operated devices that can be mounted on poles, trees, and other structures. It also offers a software platform that shows clients where the devices are deployed and what’s happening on the ground. The platform can also generate reports for regulatory compliance and for uses like biodiversity monitoring. The longer-term goal is to make the software portable enough to run on machines that work outside, including trains, cars, and drones.",
+      "heading": 0
+    },
+    {
+      "text": "Nozkova says about 150 Flox devices are live in North America, Europe, and Australia at airfields and airport perimeters, road and rail corridors (especially fence ends and crossings along wildlife corridors), national parks, agricultural land, urban areas, mining sites, and critical infrastructure such as electrical substations.",
+      "heading": 0
+    },
+    {
+      "text": "The company sells edge units up front, then charges an annual software and AI subscription after the first year. Flox also has OEM partnerships with companies that pay an annual fee to deploy its software on vehicles, like trains. Train manufacturer Alstom is one such partner.",
+      "heading": 0
+    },
+    {
+      "text": "The company expects to end 2026 with revenue of about $1.5 million, Nozkova said.",
+      "heading": 0
+    },
+    {
+      "text": "As unique as Flox’s product and approach are, the startup is not without competition. Robin Radar’s Scarecrow also uses species-specific distress calls to disperse birds and it records the activity, while iCHASE sells a system that detects birds with computer vision and targets them with a moving laser, adjusting its response as needed.",
+      "heading": 0
+    },
+    {
+      "text": "Nozkova says her moat is the breadth of the system and the data Flox has collected in the field, which she calls “ground truth on what actually makes a moose or a grizzly bear move safely.”",
+      "heading": 0
+    },
+    {
+      "text": "“Physical AI is walking out of the factory and into the messy, alive outdoors,” Nozkova says. “Every machine that operates outside — trains, trucks, drones, tractors, robots — will need to understand nature, and nature intelligence is the next layer of the perception stack. Almost nobody is building it.”",
+      "heading": 0
+    },
+    {
+      "text": "The company has raised about $5 million across pre-seed and seed rounds so far, with the seed round led by Unconventional Ventures and Tilia Impact Ventures. Co-investors across the rounds include GENIUS NY, Norrsken, Satgana, and angel investors, Nozkova said.",
+      "heading": 0
+    },
+    {
+      "text": "The company is now opening a $10 million Series A, which would mostly go toward growing from about 150 devices to several thousand deployed units and extending the underlying system beyond its current wildlife use cases.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor",
+      "heading": 1
+    },
+    {
+      "text": "Ram is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ram by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

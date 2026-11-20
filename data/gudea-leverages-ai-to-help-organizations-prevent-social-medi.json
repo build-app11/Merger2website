@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+  "slug": "gudea-leverages-ai-to-help-organizations-prevent-social-medi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2197117084.jpg?resize=1200,843",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+    "episode": ""
+  },
+  "words": 842,
+  "lines": 23,
+  "duration": 281,
+  "text": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post — whether it involves AI-generated misinformation, hate speech, or a damaging rumor — can quickly snowball into a much larger public controversy.\n\nGudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.\n\nUnlike traditional social listening platforms, which only track metrics such as mentions, hashtags, and impressions, Gudea aims to show organizations who is driving a conversation, how information is moving, how quickly a story is gaining traction, and where it could be headed. Rather than simply tallying posts, its AI analyzes behavior, relationships, and the pathways through which information travels across more than 500 mainstream and fringe websites and platforms, including X, Reddit, and TikTok.\n\nInstead of simply telling a company that mentions are rising, Gudea aims to provide the context behind that growth so decision-makers can determine how and whether to respond.\n\nGudea pitched its mission Wednesday afternoon on the Startup Battlefield stage at TechCrunch Disrupt 2026, where the company made the case that companies need to take a more proactive approach to protecting their reputations.\n\n“These big industries don’t understand that there are things they can do proactively to defend their reputation and their brand,” CEO and founder Keith Presley said. “A lot of the chief communications officers and chief media or marketing officers, they’re using legacy tools to try to figure out what’s happening. Those tools were only ever designed to tell you the number of hashtags or number of impressions.”\n\nGudea was founded in 2023 by Presley, Jonathan Sperber, and James Thomin. Presley brings more than 15 years of experience spanning political campaigns and defense, including building the infrastructure for Andrew Yang’s presidential campaign. Sperber, the company’s chief strategy officer, has a background in disinformation research. Thomin, Gudea’s CTO, holds a PhD in chemical engineering and has spent roughly two decades working in AI and machine learning.\n\nPresley called the company’s path to becoming a startup unusual.\n\n“We’re one of those weird startups where I never wanted to do a company,” he said.\n\nThe team began with the George Washington Initiative, a nonprofit established after the 2020 election. The organization adapted strategies and tactics that the intelligence community has used overseas to disrupt online networks tied to groups such as Al Qaeda and ISIS. It applied them to domestic information campaigns.\n\nThe goal was to identify the online environments where information campaigns were taking shape and disrupt the pathways that allowed those narratives to reach wider audiences.\n\nHowever, the team found that existing tools didn’t show how information was actually moving across people, groups, and platforms. That gap became the opening for Gudea.\n\nThree years after its founding, Gudea has nearly 40 clients. According to Presley, its customer base includes a Fortune 50 telecommunications company, a Fortune 50 retailer, “one of the world’s largest AI labs, one of the world’s largest bands,” public relations and crisis communications agencies, and government agencies.\n\nWith the rise of generative AI, Presley believes that the need for Gudea’s technology has only grown, as the company looks to expand its customer base.\n\nAI tools have dramatically lowered the cost and effort required to generate content and coordinate online campaigns. What once required a larger organization can increasingly be carried out by a single person with a laptop and access to the right software.\n\n“When we first started in 2021, and then as a company in 2023, we maybe saw one out of four things we looked at have inauthentic activity around it,” Presley said. “Now it’s probably nine out of 10 things that we look at have this inauthentic activity.”\n\nLooking further ahead, Gudea plans to expand its ability to understand where narratives originate and how they spread. One major upcoming initiative is geolocation for narratives. Slated for next year, the technology is intended to allow users to identify where conversations are happening with far greater precision, down to the city-block level, Presley explains.\n\nThe company also wants to give customers greater access to the tools behind its analysis. For example, a company could eventually run an advertising campaign through Gudea’s AI model before launching it and get a better idea of whether the strategy is likely to produce a negative outcome or not.\n\nLast week, Gudea announced that it had raised $7 million in seed funding in a round co-led by Mudita Venture Partners and Silicon Road Ventures. The investment brings the startup’s total funding to approximately $15 million.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post — whether it involves AI-generated misinformation, hate speech, or a damaging rumor — can quickly snowball into a much larger public controversy.",
+      "heading": 0
+    },
+    {
+      "text": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.",
+      "heading": 0
+    },
+    {
+      "text": "Unlike traditional social listening platforms, which only track metrics such as mentions, hashtags, and impressions, Gudea aims to show organizations who is driving a conversation, how information is moving, how quickly a story is gaining traction, and where it could be headed. Rather than simply tallying posts, its AI analyzes behavior, relationships, and the pathways through which information travels across more than 500 mainstream and fringe websites and platforms, including X, Reddit, and TikTok.",
+      "heading": 0
+    },
+    {
+      "text": "Instead of simply telling a company that mentions are rising, Gudea aims to provide the context behind that growth so decision-makers can determine how and whether to respond.",
+      "heading": 0
+    },
+    {
+      "text": "Gudea pitched its mission Wednesday afternoon on the Startup Battlefield stage at TechCrunch Disrupt 2026, where the company made the case that companies need to take a more proactive approach to protecting their reputations.",
+      "heading": 0
+    },
+    {
+      "text": "“These big industries don’t understand that there are things they can do proactively to defend their reputation and their brand,” CEO and founder Keith Presley said. “A lot of the chief communications officers and chief media or marketing officers, they’re using legacy tools to try to figure out what’s happening. Those tools were only ever designed to tell you the number of hashtags or number of impressions.”",
+      "heading": 0
+    },
+    {
+      "text": "Gudea was founded in 2023 by Presley, Jonathan Sperber, and James Thomin. Presley brings more than 15 years of experience spanning political campaigns and defense, including building the infrastructure for Andrew Yang’s presidential campaign. Sperber, the company’s chief strategy officer, has a background in disinformation research. Thomin, Gudea’s CTO, holds a PhD in chemical engineering and has spent roughly two decades working in AI and machine learning.",
+      "heading": 0
+    },
+    {
+      "text": "Presley called the company’s path to becoming a startup unusual.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re one of those weird startups where I never wanted to do a company,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The team began with the George Washington Initiative, a nonprofit established after the 2020 election. The organization adapted strategies and tactics that the intelligence community has used overseas to disrupt online networks tied to groups such as Al Qaeda and ISIS. It applied them to domestic information campaigns.",
+      "heading": 0
+    },
+    {
+      "text": "The goal was to identify the online environments where information campaigns were taking shape and disrupt the pathways that allowed those narratives to reach wider audiences.",
+      "heading": 0
+    },
+    {
+      "text": "However, the team found that existing tools didn’t show how information was actually moving across people, groups, and platforms. That gap became the opening for Gudea.",
+      "heading": 0
+    },
+    {
+      "text": "Three years after its founding, Gudea has nearly 40 clients. According to Presley, its customer base includes a Fortune 50 telecommunications company, a Fortune 50 retailer, “one of the world’s largest AI labs, one of the world’s largest bands,” public relations and crisis communications agencies, and government agencies.",
+      "heading": 0
+    },
+    {
+      "text": "With the rise of generative AI, Presley believes that the need for Gudea’s technology has only grown, as the company looks to expand its customer base.",
+      "heading": 0
+    },
+    {
+      "text": "AI tools have dramatically lowered the cost and effort required to generate content and coordinate online campaigns. What once required a larger organization can increasingly be carried out by a single person with a laptop and access to the right software.",
+      "heading": 0
+    },
+    {
+      "text": "“When we first started in 2021, and then as a company in 2023, we maybe saw one out of four things we looked at have inauthentic activity around it,” Presley said. “Now it’s probably nine out of 10 things that we look at have this inauthentic activity.”",
+      "heading": 0
+    },
+    {
+      "text": "Looking further ahead, Gudea plans to expand its ability to understand where narratives originate and how they spread. One major upcoming initiative is geolocation for narratives. Slated for next year, the technology is intended to allow users to identify where conversations are happening with far greater precision, down to the city-block level, Presley explains.",
+      "heading": 0
+    },
+    {
+      "text": "The company also wants to give customers greater access to the tools behind its analysis. For example, a company could eventually run an advertising campaign through Gudea’s AI model before launching it and get a better idea of whether the strategy is likely to produce a negative outcome or not.",
+      "heading": 0
+    },
+    {
+      "text": "Last week, Gudea announced that it had raised $7 million in seed funding in a round co-led by Mudita Venture Partners and Silicon Road Ventures. The investment brings the startup’s total funding to approximately $15 million.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

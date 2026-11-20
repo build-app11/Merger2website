@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Google brings agentic AI to Gemini, starting with businesses",
+  "slug": "google-brings-agentic-ai-to-gemini-starting-with-businesses",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/image_3.max-2100x2100_0CYZWqn.jpg?resize=1200,591",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+    "episode": ""
+  },
+  "words": 624,
+  "lines": 17,
+  "duration": 208,
+  "text": "At a Google Cloud event on Thursday, the company announced it’s bringing its Gemini AI into the agentic age, with the launch of a unified agent that can not only answer questions but also get things done on the user’s behalf, all from a single interface.\n\nThe move comes as AI tools have been moving beyond being just conversational experiences to those that can take ownership of assigned tasks, generate code, schedule meetings, book appointments and travel, and more. It also follows the rise of consumer-facing agents like Meta’s Muse and those that operate over messaging, like Instinct and others, as well as the recent debut of ChatGPT’s Dots.\n\nThe company still has a good shot at achieving scale for its agentic efforts — as Google CEO Sundar Pichai pointed out at the event’s start, Gemini today has over 1 billion monthly active users. He also noted that nearly 90% of Fortune 100 businesses now use Gemini Enterprise at work.\n\nGiven Gemini’s adoption in the corporate world, Google will initially focus on bringing the agent to businesses before later rolling it out to consumers.\n\nAccording to Pichai, this will allow the company to solve the “harder problems around security, scale, and performance,” which come with launching powerful agents such as these.\n\nThomas Kurian, CEO of Google Cloud, explained that the new agent can be given “objectives, not just instructions.” That means it’s able to plan the work, use custom skills and tools, and connect to businesses’ internal systems to accomplish its goals.\n\nBy default, the AI will pick the best model to complete the task, but users can also take over to choose a model — including those from third parties, starting with Anthropic’s Claude models. Google said that it will expand the model picker to include open source models and other private models in the future.\n\nThe request can include attachments, like files, folders, or other projects designed for specific workstreams, like those that combine files and skills. The agent can connect to the business’ data and systems, like Google Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres, Snowflake, and others.\n\nIt can also connect and work securely with any Model Context Protocol (MCP) server inside or outside the company’s network.\n\nUsers can keep track of what Gemini is doing from a “tasks inbox” interface, where they can see Gemini’s thinking process, delegation of tasks to subagents, loading of special skills, code, and progress.\n\nNotably, the AI will have its own Workspace account, as if it’s just another co-worker. That means it has its own email address and its own context, Google said. It knows who at the company is on which team, their time zones, who needs to approve items, what’s on people’s calendars, and more. Users can call the agent by tagging it, emailing it, sharing with it, or adding it to a group chat. As it takes action, it writes an audit trail attributed to the agent, instead of a person.\n\nThe agent will be accessible from iOS and Android mobile devices, Windows and Mac desktops, the command line interface, Google Workspace, Microsoft 365, ServiceNow, and Slack.\n\nThe agent’s early testers included sportswear brand On, Shopify, and PayPal, and noted that Gemini Enterprise customers include large businesses like BNP Paribas, Bradesco, Merck, Orange Spain, Santee Cooper, SOMPO, Ulta Beauty, and Wesfarmers.\n\nGoogle said new flexible spending options, including multi-model orchestration, smart routing, and real-time spend caps, will help businesses keep their enterprise AI costs under better control.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "At a Google Cloud event on Thursday, the company announced it’s bringing its Gemini AI into the agentic age, with the launch of a unified agent that can not only answer questions but also get things done on the user’s behalf, all from a single interface.",
+      "heading": 0
+    },
+    {
+      "text": "The move comes as AI tools have been moving beyond being just conversational experiences to those that can take ownership of assigned tasks, generate code, schedule meetings, book appointments and travel, and more. It also follows the rise of consumer-facing agents like Meta’s Muse and those that operate over messaging, like Instinct and others, as well as the recent debut of ChatGPT’s Dots.",
+      "heading": 0
+    },
+    {
+      "text": "The company still has a good shot at achieving scale for its agentic efforts — as Google CEO Sundar Pichai pointed out at the event’s start, Gemini today has over 1 billion monthly active users. He also noted that nearly 90% of Fortune 100 businesses now use Gemini Enterprise at work.",
+      "heading": 0
+    },
+    {
+      "text": "Given Gemini’s adoption in the corporate world, Google will initially focus on bringing the agent to businesses before later rolling it out to consumers.",
+      "heading": 0
+    },
+    {
+      "text": "According to Pichai, this will allow the company to solve the “harder problems around security, scale, and performance,” which come with launching powerful agents such as these.",
+      "heading": 0
+    },
+    {
+      "text": "Thomas Kurian, CEO of Google Cloud, explained that the new agent can be given “objectives, not just instructions.” That means it’s able to plan the work, use custom skills and tools, and connect to businesses’ internal systems to accomplish its goals.",
+      "heading": 0
+    },
+    {
+      "text": "By default, the AI will pick the best model to complete the task, but users can also take over to choose a model — including those from third parties, starting with Anthropic’s Claude models. Google said that it will expand the model picker to include open source models and other private models in the future.",
+      "heading": 0
+    },
+    {
+      "text": "The request can include attachments, like files, folders, or other projects designed for specific workstreams, like those that combine files and skills. The agent can connect to the business’ data and systems, like Google Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres, Snowflake, and others.",
+      "heading": 0
+    },
+    {
+      "text": "It can also connect and work securely with any Model Context Protocol (MCP) server inside or outside the company’s network.",
+      "heading": 0
+    },
+    {
+      "text": "Users can keep track of what Gemini is doing from a “tasks inbox” interface, where they can see Gemini’s thinking process, delegation of tasks to subagents, loading of special skills, code, and progress.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, the AI will have its own Workspace account, as if it’s just another co-worker. That means it has its own email address and its own context, Google said. It knows who at the company is on which team, their time zones, who needs to approve items, what’s on people’s calendars, and more. Users can call the agent by tagging it, emailing it, sharing with it, or adding it to a group chat. As it takes action, it writes an audit trail attributed to the agent, instead of a person.",
+      "heading": 0
+    },
+    {
+      "text": "The agent will be accessible from iOS and Android mobile devices, Windows and Mac desktops, the command line interface, Google Workspace, Microsoft 365, ServiceNow, and Slack.",
+      "heading": 0
+    },
+    {
+      "text": "The agent’s early testers included sportswear brand On, Shopify, and PayPal, and noted that Gemini Enterprise customers include large businesses like BNP Paribas, Bradesco, Merck, Orange Spain, Santee Cooper, SOMPO, Ulta Beauty, and Wesfarmers.",
+      "heading": 0
+    },
+    {
+      "text": "Google said new flexible spending options, including multi-model orchestration, smart routing, and real-time spend caps, will help businesses keep their enterprise AI costs under better control.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

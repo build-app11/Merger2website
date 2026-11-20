@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+  "slug": "an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2287646148.jpg?resize=1200,901",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "episode": ""
+  },
+  "words": 388,
+  "lines": 11,
+  "duration": 129,
+  "text": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice.\n\nOn Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures,” detailing how AI systems could reliably improve a model’s performance on a set of alignment benchmarks. When given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.\n\nLed by Anthropic fellow Chen Yueh-Han, the system replicates much of the traditional approach to research. Each automated system searches the available literature, proposes a method, and trains the model using that method for 30 minutes, gradually increasing the benchmark over several iterations. Effective methods are preserved while ineffective ones are discarded, allowing the system to operate quickly and at a great scale.\n\n“Overall, these results provide early evidence that automated alignment post-training could become practical in the near term,” the paper reads.\n\nThe paper is a step toward recursive self-improvement, which many see as the next significant step in AI progress. If models can improve their own alignment training, it’s plausible they could improve training practices more broadly — at which point, human AI researchers might soon become obsolete.\n\nThe paper isn’t shy about addressing this idea, explicitly comparing the Automated Alignment Researcher (AAR) to its human equivalent. “The best AAR method beats what experienced humans propose, on average within six hours,” the paper reads. “Human guided research directions do not lead to stronger performance.”\n\nThere’s even a cost comparison, in case anyone wasn’t convinced. “An AAR costs roughly $4 per hour in API inference against the $150 per hour we pay our human researchers.”\n\nIn fairness, the paper also points out a few limitations to this approach. The automated system only works insofar as the benchmarks reflect the actual alignment goals, and even then there’s significant work to be done in establishing and maintaining those benchmarks — not to mention maintaining and expanding on the literature the automated researchers are drawn from.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice.",
+      "heading": 0
+    },
+    {
+      "text": "On Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures,” detailing how AI systems could reliably improve a model’s performance on a set of alignment benchmarks. When given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "heading": 0
+    },
+    {
+      "text": "Led by Anthropic fellow Chen Yueh-Han, the system replicates much of the traditional approach to research. Each automated system searches the available literature, proposes a method, and trains the model using that method for 30 minutes, gradually increasing the benchmark over several iterations. Effective methods are preserved while ineffective ones are discarded, allowing the system to operate quickly and at a great scale.",
+      "heading": 0
+    },
+    {
+      "text": "“Overall, these results provide early evidence that automated alignment post-training could become practical in the near term,” the paper reads.",
+      "heading": 0
+    },
+    {
+      "text": "The paper is a step toward recursive self-improvement, which many see as the next significant step in AI progress. If models can improve their own alignment training, it’s plausible they could improve training practices more broadly — at which point, human AI researchers might soon become obsolete.",
+      "heading": 0
+    },
+    {
+      "text": "The paper isn’t shy about addressing this idea, explicitly comparing the Automated Alignment Researcher (AAR) to its human equivalent. “The best AAR method beats what experienced humans propose, on average within six hours,” the paper reads. “Human guided research directions do not lead to stronger performance.”",
+      "heading": 0
+    },
+    {
+      "text": "There’s even a cost comparison, in case anyone wasn’t convinced. “An AAR costs roughly $4 per hour in API inference against the $150 per hour we pay our human researchers.”",
+      "heading": 0
+    },
+    {
+      "text": "In fairness, the paper also points out a few limitations to this approach. The automated system only works insofar as the benchmarks reflect the actual alignment goals, and even then there’s significant work to be done in establishing and maintaining those benchmarks — not to mention maintaining and expanding on the literature the automated researchers are drawn from.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

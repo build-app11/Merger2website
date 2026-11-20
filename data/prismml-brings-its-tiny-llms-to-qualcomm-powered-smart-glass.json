@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+  "slug": "prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glass",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/PrismML-Snapdragon-smartglasses.png?w=612",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+    "episode": ""
+  },
+  "words": 284,
+  "lines": 17,
+  "duration": 95,
+  "text": "Posted:\n\nJulie Bort\n\nPrismML brings its tiny LLMs to Qualcomm-powered smart glasses\n\nThe AI Lab PrismML — founded by Caltech researchers and advised by UC Berkeley’s Ion Stoica — has created a version of its tiny language models for smart glasses running on Qualcomm’s Snapdragon chips.\n\nOn Wednesday, at Qualcomm’s Snapdragon Summit, the chipmaker showcased PrismML’s 1-bit Bonsai LLM, which can be run locally on AI smart glasses built on the Snapdragon AR1 Gen 1 Platform.\n\nAs TechCrunch previously reported, PrismML’s claim to fame is that it shrinks larger models substantially (in this case, by 4x), while retaining almost all of their performance on standard benchmarks. The smart glasses version is a 2-billion-parameter model tuned for vision and language, so wearers can ask what they’re looking at in real time.\n\nPrism’s larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have. The startup pitches this as an alternative to depending on the privacy promises of proprietary AI labs and their insatiable need for more compute.\n\nReleasing a model for Qualcomm’s chip is a step toward that vision. But no smart glasses running PrismML have been announced yet.\n\nTopics\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit\n\nNvidia created a weird bit of intrigue by not filing a routine SEC report\n\nNvidia clarifies when it will — and won’t — keep financing neoclouds\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "heading": 1
+    },
+    {
+      "text": "The AI Lab PrismML — founded by Caltech researchers and advised by UC Berkeley’s Ion Stoica — has created a version of its tiny language models for smart glasses running on Qualcomm’s Snapdragon chips.",
+      "heading": 0
+    },
+    {
+      "text": "On Wednesday, at Qualcomm’s Snapdragon Summit, the chipmaker showcased PrismML’s 1-bit Bonsai LLM, which can be run locally on AI smart glasses built on the Snapdragon AR1 Gen 1 Platform.",
+      "heading": 0
+    },
+    {
+      "text": "As TechCrunch previously reported, PrismML’s claim to fame is that it shrinks larger models substantially (in this case, by 4x), while retaining almost all of their performance on standard benchmarks. The smart glasses version is a 2-billion-parameter model tuned for vision and language, so wearers can ask what they’re looking at in real time.",
+      "heading": 0
+    },
+    {
+      "text": "Prism’s larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have. The startup pitches this as an alternative to depending on the privacy promises of proprietary AI labs and their insatiable need for more compute.",
+      "heading": 0
+    },
+    {
+      "text": "Releasing a model for Qualcomm’s chip is a step toward that vision. But no smart glasses running PrismML have been announced yet.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

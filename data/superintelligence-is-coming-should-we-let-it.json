@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Superintelligence is coming. Should we let it?",
+  "slug": "superintelligence-is-coming-should-we-let-it",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2021258442.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+    "episode": ""
+  },
+  "words": 186,
+  "lines": 11,
+  "duration": 62,
+  "text": "Superintelligence is coming. Should we let it?\n\nLoading the player…\n\nAI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do?\n\nOn this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of nonprofit ControlAI, which is pushing for a far more radical approach to AI safety: stopping companies from developing superintelligence altogether. Leahy explains why he thinks the risks have become too great to manage through alignment and containment alone, and how what sounded far-fetched six months ago is now being backed by a wave of new legislation.\n\nTopics\n\nAudio Producer\n\nYou can contact or verify outreach from Theresa by emailing [email protected].\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nSarah Perez",
+  "paragraphs": [
+    {
+      "text": "Superintelligence is coming. Should we let it?",
+      "heading": 0
+    },
+    {
+      "text": "Loading the player…",
+      "heading": 1
+    },
+    {
+      "text": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do?",
+      "heading": 0
+    },
+    {
+      "text": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of nonprofit ControlAI, which is pushing for a far more radical approach to AI safety: stopping companies from developing superintelligence altogether. Leahy explains why he thinks the risks have become too great to manage through alignment and containment alone, and how what sounded far-fetched six months ago is now being backed by a wave of new legislation.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Audio Producer",
+      "heading": 1
+    },
+    {
+      "text": "You can contact or verify outreach from Theresa by emailing [email protected].",
+      "heading": 0
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    }
+  ]
+}

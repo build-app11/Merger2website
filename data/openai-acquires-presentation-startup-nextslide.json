@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "OpenAI acquires presentation startup NextSlide",
+  "slug": "openai-acquires-presentation-startup-nextslide",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2259148891.jpg?resize=1200,686",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "episode": ""
+  },
+  "words": 251,
+  "lines": 20,
+  "duration": 84,
+  "text": "Posted:\n\nAnthony Ha\n\nOpenAI acquires presentation startup NextSlide\n\nNextSlide recently announced that it’s joining OpenAI, with the presentation startup’s team members now working on ChatGPT.\n\nThe NextSlide website currently displays a note from founder Ahmed Beshry describing the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”\n\nThe ultimate goal, Beshry said, was “to make visual communication more accessible and help more people express their ideas clearly.” So by joining OpenAI, the team will “continue pursuing that same mission: building AI products that help people create, communicate, and turn their ideas into meaningful work.”\n\nThe financial terms of the deal were not disclosed. In a note on LinkedIn, Beshry said the announcement is coming “a few months late,” as the acquisition took place “earlier this year.”\n\nBeshry was previously a co-founder at Caper AI, a smart cart/cashier-less checkout startup acquired by Instacart in 2021.\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI acquires presentation startup NextSlide",
+      "heading": 1
+    },
+    {
+      "text": "NextSlide recently announced that it’s joining OpenAI, with the presentation startup’s team members now working on ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "The NextSlide website currently displays a note from founder Ahmed Beshry describing the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
+      "heading": 0
+    },
+    {
+      "text": "The ultimate goal, Beshry said, was “to make visual communication more accessible and help more people express their ideas clearly.” So by joining OpenAI, the team will “continue pursuing that same mission: building AI products that help people create, communicate, and turn their ideas into meaningful work.”",
+      "heading": 0
+    },
+    {
+      "text": "The financial terms of the deal were not disclosed. In a note on LinkedIn, Beshry said the announcement is coming “a few months late,” as the acquisition took place “earlier this year.”",
+      "heading": 0
+    },
+    {
+      "text": "Beshry was previously a co-founder at Caper AI, a smart cart/cashier-less checkout startup acquired by Instacart in 2021.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

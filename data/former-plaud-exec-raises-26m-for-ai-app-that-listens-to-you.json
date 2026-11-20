@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+  "slug": "former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ambi-by-Mistlabs.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+    "episode": ""
+  },
+  "words": 777,
+  "lines": 20,
+  "duration": 259,
+  "text": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you’ll believe the tech companies, requires apps and devices to listen, watch, or record users’ activity all the time and gather all possible context.\n\nThere’s obviously privacy and data security concerns with anything that’s collecting data about you continuously. But startups are building such apps undeterred anyway, arming themselves with the belief that the market for personalized assistance is big enough to swallow such concerns.\n\nFormer Plaud exec Peter Mo is building Ambi to do something similar. The app aims to provide real-time intelligence and insights to people by listening to them all the time.\n\nThe company said on Monday that it has raised $26 million across multiple funding rounds led by Luminous Ventures, which has backed companies like Meituan and Unitree Robotics, and original design manufacturer (ODM) Huaqin.\n\nAmbi is also releasing apps for iPhones, Macs, and Apple Watch. These apps act like meeting notetakers, but users can choose to have them listening so they can capture context all day.\n\nMeeting notetaking companies have been working to automate tasks that follow once calls are done, based on the summaries and action items they gather during the conversation, and using multitudes of connectors to software systems. Ambi wants to take this a step further by having its agent start the work during the meeting itself.\n\nThe company’s promise is that its AI agent can proactively give you suggestions or surface relevant knowledge while you are in a meeting, based on your calendar, meetings, knowledge base, and web data. Users can also start a task on one device and continue it on another.\n\n“The way we interact with intelligence is limited. Often the intelligence is trapped on the screen, and if you use hardware like Plaud, you need to wait for recording to transfer to the phone, upload to the cloud, and get intelligence after processing. That’s why we are building Ambi to use AI anytime and anywhere,” Mo, the company’s co-founder and CEO, told TechCrunch.\n\nThe company has ambitions to capture more information. Its upcoming desktop app will be able to look at the work that users do and store important parts in its memory to give more personalized suggestions. Apps like Littlebird or Minimi already do something similar.\n\nThe startup is also planning to launch its own hardware device, which will have a screen, a speaker, a camera, and microphones to capture context and display information.\n\nQuestion of privacy\n\nAmbi’s launch comes amidst growing concerns around AI devices that don’t have enough indicators to suggest they are capturing data on people around the user. It is not clear if Ambi’s apps or its upcoming device will have enough indicators to alert third parties that their conversations are being recorded if the user doesn’t disclose their use of Ambi’s tech.\n\nSome meeting notetakers have even been sued because their tech recorded people’s conversations and data without their consent. Plus, the recent release of Apple’s Audio Intelligence feature, which transcribes speech continuously, has raised privacy concerns.\n\nMo said that users can turn off ambient data capture on Ambi’s apps and devices at any time, and the feature is off by default. The startup said it doesn’t store any recordings of users and encrypts the data, but it didn’t specify what kind of encryption it uses. Despite these measures, the onus of declaring ambient capture is still on the users. He classified this as an industry-wide problem.\n\n“We have to inform our users that they have to tell others about ambient capture. We, as an industry, haven’t solved this problem [of disclosure]. We have tried to put the information about disclosure in every place possible, but if users try to hide the capture, we can’t just solve the problem,” he said.\n\nAmbi currently has over 50 staff across offices in San Francisco, Beijing, Shanghai, and Shenzhen. The company is hiring for its go-to-market function and AI engineers for working on speech-recognition models.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you’ll believe the tech companies, requires apps and devices to listen, watch, or record users’ activity all the time and gather all possible context.",
+      "heading": 0
+    },
+    {
+      "text": "There’s obviously privacy and data security concerns with anything that’s collecting data about you continuously. But startups are building such apps undeterred anyway, arming themselves with the belief that the market for personalized assistance is big enough to swallow such concerns.",
+      "heading": 0
+    },
+    {
+      "text": "Former Plaud exec Peter Mo is building Ambi to do something similar. The app aims to provide real-time intelligence and insights to people by listening to them all the time.",
+      "heading": 0
+    },
+    {
+      "text": "The company said on Monday that it has raised $26 million across multiple funding rounds led by Luminous Ventures, which has backed companies like Meituan and Unitree Robotics, and original design manufacturer (ODM) Huaqin.",
+      "heading": 0
+    },
+    {
+      "text": "Ambi is also releasing apps for iPhones, Macs, and Apple Watch. These apps act like meeting notetakers, but users can choose to have them listening so they can capture context all day.",
+      "heading": 0
+    },
+    {
+      "text": "Meeting notetaking companies have been working to automate tasks that follow once calls are done, based on the summaries and action items they gather during the conversation, and using multitudes of connectors to software systems. Ambi wants to take this a step further by having its agent start the work during the meeting itself.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s promise is that its AI agent can proactively give you suggestions or surface relevant knowledge while you are in a meeting, based on your calendar, meetings, knowledge base, and web data. Users can also start a task on one device and continue it on another.",
+      "heading": 0
+    },
+    {
+      "text": "“The way we interact with intelligence is limited. Often the intelligence is trapped on the screen, and if you use hardware like Plaud, you need to wait for recording to transfer to the phone, upload to the cloud, and get intelligence after processing. That’s why we are building Ambi to use AI anytime and anywhere,” Mo, the company’s co-founder and CEO, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The company has ambitions to capture more information. Its upcoming desktop app will be able to look at the work that users do and store important parts in its memory to give more personalized suggestions. Apps like Littlebird or Minimi already do something similar.",
+      "heading": 0
+    },
+    {
+      "text": "The startup is also planning to launch its own hardware device, which will have a screen, a speaker, a camera, and microphones to capture context and display information.",
+      "heading": 0
+    },
+    {
+      "text": "Question of privacy",
+      "heading": 1
+    },
+    {
+      "text": "Ambi’s launch comes amidst growing concerns around AI devices that don’t have enough indicators to suggest they are capturing data on people around the user. It is not clear if Ambi’s apps or its upcoming device will have enough indicators to alert third parties that their conversations are being recorded if the user doesn’t disclose their use of Ambi’s tech.",
+      "heading": 0
+    },
+    {
+      "text": "Some meeting notetakers have even been sued because their tech recorded people’s conversations and data without their consent. Plus, the recent release of Apple’s Audio Intelligence feature, which transcribes speech continuously, has raised privacy concerns.",
+      "heading": 0
+    },
+    {
+      "text": "Mo said that users can turn off ambient data capture on Ambi’s apps and devices at any time, and the feature is off by default. The startup said it doesn’t store any recordings of users and encrypts the data, but it didn’t specify what kind of encryption it uses. Despite these measures, the onus of declaring ambient capture is still on the users. He classified this as an industry-wide problem.",
+      "heading": 0
+    },
+    {
+      "text": "“We have to inform our users that they have to tell others about ambient capture. We, as an industry, haven’t solved this problem [of disclosure]. We have tried to put the information about disclosure in every place possible, but if users try to hide the capture, we can’t just solve the problem,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Ambi currently has over 50 staff across offices in San Francisco, Beijing, Shanghai, and Shenzhen. The company is hiring for its go-to-market function and AI engineers for working on speech-recognition models.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

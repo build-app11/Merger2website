@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Modulate raises $25M for its voice models and analysis suite",
+  "slug": "modulate-raises-25m-for-its-voice-models-and-analysis-suite",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Modulate-Cofounders_3.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+    "episode": ""
+  },
+  "words": 690,
+  "lines": 18,
+  "duration": 230,
+  "text": "Boston-based voice intelligence startup Modulate has raised $25 million in new funding for its platform that uses an array of small models to offer enterprises transcription, emotional analysis, deepfake and AI music detection, and policy enforcement for voice agents in regulated industries.\n\nThe funding follows a popular trend among investors in the growing voice AI industry: backing companies that are trying to make AI voices sound more human.\n\nIt also rivals other companies trying to detect the intent behind human conversation by analyzing it, and those trying to protect people and companies from deepfake calls, as it is now easy to clone voices.\n\nModulate’s new funding was led by Future Ventures with participation from Hyperplane and Lakestar. Data from PitchBook indicated that the startup had raised $41 million in funding at a $170 million valuation prior to this round.\n\nThe startup was founded in 2017 by Mike Pappas and Carter Huffman, who met as MIT physics undergrads. In its early days, the company focused on providing voice modulation for gaming. But later, it started to concentrate on a voice-based moderation tool.\n\nWith the onset of voice AI models, the company is now concentrating on detecting different sorts of AI audio generation and analyzing intent behind a person’s words.\n\n“Our insight into the voice AI space is that a lot of folks are doing transcription, but there’s not really any capability out there that gets the full nuance and full understanding of a conversation, which is so important when you’re talking to another human being,” Huffman said on a call with TechCrunch.\n\nThe company today runs more than 100 models that are largely categorized into two sections: signal extraction models to understand vocal emotion, tone, language, and synthetic voice determination, and analysis/detection models that look at intent, like what the customer is trying to say, whether the caller is violating rules or whether they are trying to scam the receiver.\n\nHuffman said that because it runs smaller models, the company doesn’t need specialized hardware and a ton of compute, which could be crucial when token bills go up. Plus, it’s easier for the company to train models with newer capacities, add them to the lot, and have an orchestrator call them when needed.\n\nModulate has a varied customer base, but it specializes in deepfake detection and alerting organizations like call centers to a possible scam. It also monitors how AI agents respond to customers to assess the quality of calls, along with making sure that AI follows compliance rules in regulatory areas. Because of these products, Modulate often sits beside the voice stack being used by a company just to analyze calls.\n\nAs more enterprises adopt AI-powered customer service, it is becoming important for them to know why a customer call was a success or a failure. In that case, gauging customers’ intent and response becomes critical beyond basic analysis. Huffman said Modulate can give granular data to enterprises around that.\n\n“I think when companies think of emotion analysis, they think if the customer was neutral or positive, the call was a success, and if the customer was negative, the call was a failure. But actually, many times people will be polite even to, like, AI agents or bots. Right. And they won’t come across as angry, but they’ll be very dissatisfied,” he said.\n\nThe company said that its tech is also being used to monitor cyberattacks through voice calls.\n\nThe startup currently has 40-45 employees and aims to add 10 more people in the coming months to bolster model building. Modulate is currently working on increasing its on-premises and on-device deployment capabilities for increased privacy.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Boston-based voice intelligence startup Modulate has raised $25 million in new funding for its platform that uses an array of small models to offer enterprises transcription, emotional analysis, deepfake and AI music detection, and policy enforcement for voice agents in regulated industries.",
+      "heading": 0
+    },
+    {
+      "text": "The funding follows a popular trend among investors in the growing voice AI industry: backing companies that are trying to make AI voices sound more human.",
+      "heading": 0
+    },
+    {
+      "text": "It also rivals other companies trying to detect the intent behind human conversation by analyzing it, and those trying to protect people and companies from deepfake calls, as it is now easy to clone voices.",
+      "heading": 0
+    },
+    {
+      "text": "Modulate’s new funding was led by Future Ventures with participation from Hyperplane and Lakestar. Data from PitchBook indicated that the startup had raised $41 million in funding at a $170 million valuation prior to this round.",
+      "heading": 0
+    },
+    {
+      "text": "The startup was founded in 2017 by Mike Pappas and Carter Huffman, who met as MIT physics undergrads. In its early days, the company focused on providing voice modulation for gaming. But later, it started to concentrate on a voice-based moderation tool.",
+      "heading": 0
+    },
+    {
+      "text": "With the onset of voice AI models, the company is now concentrating on detecting different sorts of AI audio generation and analyzing intent behind a person’s words.",
+      "heading": 0
+    },
+    {
+      "text": "“Our insight into the voice AI space is that a lot of folks are doing transcription, but there’s not really any capability out there that gets the full nuance and full understanding of a conversation, which is so important when you’re talking to another human being,” Huffman said on a call with TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "The company today runs more than 100 models that are largely categorized into two sections: signal extraction models to understand vocal emotion, tone, language, and synthetic voice determination, and analysis/detection models that look at intent, like what the customer is trying to say, whether the caller is violating rules or whether they are trying to scam the receiver.",
+      "heading": 0
+    },
+    {
+      "text": "Huffman said that because it runs smaller models, the company doesn’t need specialized hardware and a ton of compute, which could be crucial when token bills go up. Plus, it’s easier for the company to train models with newer capacities, add them to the lot, and have an orchestrator call them when needed.",
+      "heading": 0
+    },
+    {
+      "text": "Modulate has a varied customer base, but it specializes in deepfake detection and alerting organizations like call centers to a possible scam. It also monitors how AI agents respond to customers to assess the quality of calls, along with making sure that AI follows compliance rules in regulatory areas. Because of these products, Modulate often sits beside the voice stack being used by a company just to analyze calls.",
+      "heading": 0
+    },
+    {
+      "text": "As more enterprises adopt AI-powered customer service, it is becoming important for them to know why a customer call was a success or a failure. In that case, gauging customers’ intent and response becomes critical beyond basic analysis. Huffman said Modulate can give granular data to enterprises around that.",
+      "heading": 0
+    },
+    {
+      "text": "“I think when companies think of emotion analysis, they think if the customer was neutral or positive, the call was a success, and if the customer was negative, the call was a failure. But actually, many times people will be polite even to, like, AI agents or bots. Right. And they won’t come across as angry, but they’ll be very dissatisfied,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The company said that its tech is also being used to monitor cyberattacks through voice calls.",
+      "heading": 0
+    },
+    {
+      "text": "The startup currently has 40-45 employees and aims to add 10 more people in the coming months to bolster model building. Modulate is currently working on increasing its on-premises and on-device deployment capabilities for increased privacy.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

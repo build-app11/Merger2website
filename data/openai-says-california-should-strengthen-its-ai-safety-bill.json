@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "OpenAI says California should strengthen its AI safety bill",
+  "slug": "openai-says-california-should-strengthen-its-ai-safety-bill",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+    "episode": ""
+  },
+  "words": 313,
+  "lines": 21,
+  "duration": 104,
+  "text": "Posted:\n\nAnthony Ha\n\nOpenAI says California should strengthen its AI safety bill\n\nOpenAI is calling for California to add more safeguards to a landmark AI safety bill that was passed last year.\n\nIn a LinkedIn post from the company’s global affairs team, OpenAI said California’s SB 53 “should be amended to expand safeguards” — for example, by “requiring monitoring of frontier models under training or evaluation for potential serious incidents,” and by “strengthening cybersecurity protections throughout the model-development lifecycle.”\n\n“As California continues to lead on frontier safety, we are committed to working with the California legislature and the Governor to strengthen California SB 53,” the company said.\n\nThe post also referenced “recent incidents” that “underscore both the need for these protections and the importance of updating them” as new risks emerge. Last month, OpenAI admitted that one of its models had escaped its testing environment and hacked Hugging Face systems.\n\nOpenAI’s endorsement of stronger AI safeguards is striking because it previously opposed SB 53, which imposes transparency requirements and whistleblower protections on large AI companies.\n\nThe company said that in the absence of significant federal legislation, it now supports an approach of “reverse federalism,” in which “states can move in a compatible direction around core protections that can ultimately become the foundation for a national standard.”\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in Government & Policy\n\nElon Musk says: ‘I’m not MAGA’\n\nLucas Ropek\n\nSEC reportedly investigating Nvidia amid Huang exit\n\nRebecca Bellan\n\nTrump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI says California should strengthen its AI safety bill",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI is calling for California to add more safeguards to a landmark AI safety bill that was passed last year.",
+      "heading": 0
+    },
+    {
+      "text": "In a LinkedIn post from the company’s global affairs team, OpenAI said California’s SB 53 “should be amended to expand safeguards” — for example, by “requiring monitoring of frontier models under training or evaluation for potential serious incidents,” and by “strengthening cybersecurity protections throughout the model-development lifecycle.”",
+      "heading": 0
+    },
+    {
+      "text": "“As California continues to lead on frontier safety, we are committed to working with the California legislature and the Governor to strengthen California SB 53,” the company said.",
+      "heading": 0
+    },
+    {
+      "text": "The post also referenced “recent incidents” that “underscore both the need for these protections and the importance of updating them” as new risks emerge. Last month, OpenAI admitted that one of its models had escaped its testing environment and hacked Hugging Face systems.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI’s endorsement of stronger AI safeguards is striking because it previously opposed SB 53, which imposes transparency requirements and whistleblower protections on large AI companies.",
+      "heading": 0
+    },
+    {
+      "text": "The company said that in the absence of significant federal legislation, it now supports an approach of “reverse federalism,” in which “states can move in a compatible direction around core protections that can ultimately become the foundation for a national standard.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in Government & Policy",
+      "heading": 1
+    },
+    {
+      "text": "Elon Musk says: ‘I’m not MAGA’",
+      "heading": 1
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "SEC reportedly investigating Nvidia amid Huang exit",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "heading": 0
+    }
+  ]
+}

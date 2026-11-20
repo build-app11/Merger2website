@@ -1,0 +1,117 @@
+{
+  "type": "read",
+  "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+  "slug": "accel-reportedly-in-talks-to-lead-1b-round-for-thinking-mach",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Mira-Murati-at-Bloomberg.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "episode": ""
+  },
+  "words": 339,
+  "lines": 23,
+  "duration": 113,
+  "text": "Posted:\n\nMarina Temkin\n\nAccel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation\n\nThinking Machines, the AI lab founded early last year by former OpenAI CTO Mira Murati, is in discussions to raise $1 billion at a valuation of at least $40 billion, The Information reported Thursday. Existing backer Accel is in talks to lead the fundraise, according to our source and The Information’s reporting.\n\nThe new round, if it is completed, would value the company below the $50 billion valuation that Thinking Machines reportedly sought to secure late last year.\n\nThinking Machines’ annual revenue run rate stands at over $100 million, according to a source with knowledge of the company’s financials. At that revenue figure, a $40 billion valuation reflects an extraordinarily high revenue multiple.\n\nAccel and Thinking Machines didn’t immediately respond to a request for comment.\n\nIn July, the company introduced Inkling, an open-weight model that generates revenue by charging usage-based compute fees for adapting models on proprietary data on its Tinker platform.\n\nThe startup’s prior fundraise — a $2 billion round that stands among the largest seed financings in history — valued the company at $12 billion. Andreessen Horowitz led the investment, joined by Nvidia, GV, Lightspeed, and Conviction Partners. Investors backed the round largely on the pedigree of Murati and the former OpenAI researchers who joined her.\n\nThinking Machines has since had several high-profile departures, with some of the co-founders, including Lilian Weng and Luke Metz, going back to OpenAI.\n\nTopics\n\nAnthropic rival says companies can (mostly) skip the pricey models\n\nConnie Loizos\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nIndia’s Humyn Labs raises $47M to feed US robotics companies the data they need\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "heading": 0
+    },
+    {
+      "text": "Thinking Machines, the AI lab founded early last year by former OpenAI CTO Mira Murati, is in discussions to raise $1 billion at a valuation of at least $40 billion, The Information reported Thursday. Existing backer Accel is in talks to lead the fundraise, according to our source and The Information’s reporting.",
+      "heading": 0
+    },
+    {
+      "text": "The new round, if it is completed, would value the company below the $50 billion valuation that Thinking Machines reportedly sought to secure late last year.",
+      "heading": 0
+    },
+    {
+      "text": "Thinking Machines’ annual revenue run rate stands at over $100 million, according to a source with knowledge of the company’s financials. At that revenue figure, a $40 billion valuation reflects an extraordinarily high revenue multiple.",
+      "heading": 0
+    },
+    {
+      "text": "Accel and Thinking Machines didn’t immediately respond to a request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "In July, the company introduced Inkling, an open-weight model that generates revenue by charging usage-based compute fees for adapting models on proprietary data on its Tinker platform.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s prior fundraise — a $2 billion round that stands among the largest seed financings in history — valued the company at $12 billion. Andreessen Horowitz led the investment, joined by Nvidia, GV, Lightspeed, and Conviction Partners. Investors backed the round largely on the pedigree of Murati and the former OpenAI researchers who joined her.",
+      "heading": 0
+    },
+    {
+      "text": "Thinking Machines has since had several high-profile departures, with some of the co-founders, including Lilian Weng and Luke Metz, going back to OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "heading": 1
+    },
+    {
+      "text": "Connie Loizos",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

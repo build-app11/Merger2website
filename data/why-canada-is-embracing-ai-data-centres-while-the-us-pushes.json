@@ -1,0 +1,212 @@
+{
+  "type": "read",
+  "title": "Why Canada is embracing AI data centres while the US pushes back",
+  "slug": "why-canada-is-embracing-ai-data-centres-while-the-us-pushes",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/20d8/live/7f60e450-df9a-11f1-a9ad-6774a3284d10.png",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 1312,
+  "lines": 47,
+  "duration": 437,
+  "text": "Published 6 hours ago\n\nAs Americans have grown increasingly sour on artificial intelligence (AI) data centre development, Canada's industry leaders are sensing an opportunity.\n\n\"Data centres in Canada looking pretty appealing right now,\" Lucy Hargreaves, CEO of non-profit policy group Build Canada, wrote on X the day after American voters passed 40 of 41 local ballot initiatives aimed at limiting or preventing data centre development in this month's midterm elections.\n\nWhile the number of proposed AI data centres in the US dwarfs that of its northern neighbour, in recent months Canada is being increasingly pitched as a hub for these so-called \"hyperscale\" projects.\n\nThose in favour argue that Canada's abundant land, natural gas and cold climate make it uniquely positioned to address some of the problems facing US AI infrastructure, from data centres' proximity to populated areas to noise pollution and strain on electricity grids.\n\n\"Some of the capital that would have been deployed to build data centres in the US is now more available for Canada,\" Hargreaves told the BBC in an interview.\n\n\"The question really is whether or not we want to go for that.\"\n\nUnlike in the US, pushback to these projects in Canada has been muted - at least so far. Many are going ahead without significant disruptions, and legislators have openly embraced them without major political consequences.\n\nAt the heart of Canada's AI data centre boom is Alberta, where 90% of all currently proposed sites are set to be built.\n\nThe western Canadian province, rich with natural gas deposits, has pitched itself as \"North America's destination of choice\" for AI data centres, including by offering a \"concierge\" service for investors to help build these projects at \"unparalleled speed\".\n\nOne of those investors is Kevin O'Leary, the Canadian businessman, TV personality and an ally of Donald Trump, who announced plans this year to build two large AI data centres - one in Alberta and one in the US state of Utah.\n\nHis planned sites, both named Wonder Valley, are being received in very different ways on either side of the border.\n\nResidents in Utah have organised a fierce opposition campaign., external The pushback led outgoing state senator Stuart Adams to demand in June that O'Leary scale down the project by 75%, external, from 40,000 to 13,000 acres.\n\nFinancing for the Utah Wonder Valley data centre is still underway, and it is unclear when - and if - shovels will hit the ground on the project.\n\nThe proposed 7,000-acre, 7.5-gigawatt Alberta Wonder Valley project, meanwhile, has received strong backing from both the provincial government and the local municipality.\n\nThe project is billed as \"off-grid\", external, relying on its own power system fuelled by natural gas sourced from the region. In April, the Alberta government exempted the project from an environmental impact assessment, external, arguing it was unnecessary, though it will still need to obtain permits prior to construction.\n\nThe project was met with only limited opposition at a local town hall earlier this year. One resident, Dan Harms, told Bloomberg in June, external that he saw the economic benefits of the Wonder Valley data centre and that it was being built \"out in the middle of nowhere\".\n\nIn an interview with BBC News, Reeve Ryan Ratzlaf, of Greenview Municipality in north-western Alberta, said the project was the \"perfect fit\" for his rural community, which had been looking for an industrial tenant to fill a resource-rich parcel of land for 13 years.\n\nSome community members have expressed concern about the amount of water needed to cool the proposed site annually, which is projected to be six million cubic metres, or about the size of 2,400 Olympic-size swimming pools.\n\nRatzlaf argued the amount was a drop compared to the annual flow of the nearby Smoky River, from which the centre would pull water. More broadly, he said he believed that economic benefits to the region outweighed potential risks.\n\n\"It's a giant warehouse with computer equipment inside,\" he said, arguing that it was less risky than petrochemical plants that could have been built in its place.\n\nSpeaking to BBC News, the CEO overseeing both O'Leary projects, Paul Palandjian, said the two were proceeding at an \"equal\" pace.\n\nHe acknowledged it had become more of a \"hot topic\" in the US than in Alberta. But there are signs public anger towards AI data centres in Alberta has grown in recent months.\n\nRecent public information sessions on provincial AI data centre plans were attended by some furious residents.\n\n\"If no one wants this, why are you pushing forward with this?\" one resident asked in an August town hall reported on by the Canadian Press, external, held shortly after Alberta announced that Meta would build a C$13bn ($9bn; £6.8bn) AI data centre in the province.\n\nSturgeon Lake Cree Nation has also recently sued the government over its decision to override the environmental assessment for O'Leary's Wonder Valley data centre, labelling it \"irrational\" in court filings.\n\nThis week, the Alberta government proposed legislation that would put restrictions on where data centres could be built in a bid to ease some concerns.\n\nThere are also signs that public cooperation may be fading elsewhere in the country.\n\nOn Saturday, hundreds of protesters gathered in Canada's Atlantic province of Nova Scotia against a proposed AI data centre, external that will be used by technology giant Anthropic.\n\nBut experts say the US backlash offers a cautionary tale for Canada as it tries to capitalise on the AI boom.\n\n\"AI is generally not very popular. This is both true in Canada and the United States,\" noted Sean Mullin, a senior fellow at the University of Toronto and former adviser to Canada's prime minister on the national sovereign AI compute strategy.\n\n\"I think we could experience some of the same backlashes if we're not thoughtful about it,\" he said.\n\nSo far, lawmakers in Canada have stood firm.\n\nThe Carney government, which has made reducing Canada's reliance on the US a priority, has framed the development of AI data centres as a matter of national security and sovereignty. It has projected that Canada needs to expand its computing capacity 16-fold over the next four years to meet domestic demand.\n\nAlberta is defending its data centre plans by saying they will create jobs and generate revenue, and that sites will be developed \"responsibly\".\n\nIn Ontario, Premier Doug Ford has said that his province needs to move \"full steam ahead\" with building data centres.\n\nMullin said one reason the backlash had been less severe in Canada was simply due to scope and timing.\n\n\"There has been less of these projects happening, and as a result, they've attracted less attention,\" he said.\n\nCanada has released some high-level guidance on data centre development, which has been co-signed by Anthropic, Meta and other big AI players. It calls on data centres to pay for electricity costs, minimise water use and create long-term benefits for the regions they are in.\n\nIf politicians don't tread carefully, Bek MacIntosh, an Alberta resident who has fought a proposed hyperscale data centre in her community, said she believed public discontent could translate into angry votes, like those seen in the US.\n\nMacIntosh successfully halted a data centre in Olds, Alberta,, external over concerns with its scale, scope and proximity to her home. Even after her eight-month battle, she said she was not opposed to all AI infrastructure and believed Canada had the resources and landscape to build them responsibly.\n\nBut she fears Alberta has opened the door to \"the most reckless of reckless developers\", and warned that voters might have a \"knee-jerk reaction\" if provinces don't take care to develop AI data centres responsibly.\n\n\"And I don't think any political party in Canada is prepared for it.\"\n\nCanada\n\nArtificial intelligence\n\nUnited States\n\nMore on this story",
+  "paragraphs": [
+    {
+      "text": "Published 6 hours ago",
+      "heading": 1
+    },
+    {
+      "text": "As Americans have grown increasingly sour on artificial intelligence (AI) data centre development, Canada's industry leaders are sensing an opportunity.",
+      "heading": 0
+    },
+    {
+      "text": "\"Data centres in Canada looking pretty appealing right now,\" Lucy Hargreaves, CEO of non-profit policy group Build Canada, wrote on X the day after American voters passed 40 of 41 local ballot initiatives aimed at limiting or preventing data centre development in this month's midterm elections.",
+      "heading": 0
+    },
+    {
+      "text": "While the number of proposed AI data centres in the US dwarfs that of its northern neighbour, in recent months Canada is being increasingly pitched as a hub for these so-called \"hyperscale\" projects.",
+      "heading": 0
+    },
+    {
+      "text": "Those in favour argue that Canada's abundant land, natural gas and cold climate make it uniquely positioned to address some of the problems facing US AI infrastructure, from data centres' proximity to populated areas to noise pollution and strain on electricity grids.",
+      "heading": 0
+    },
+    {
+      "text": "\"Some of the capital that would have been deployed to build data centres in the US is now more available for Canada,\" Hargreaves told the BBC in an interview.",
+      "heading": 0
+    },
+    {
+      "text": "\"The question really is whether or not we want to go for that.\"",
+      "heading": 0
+    },
+    {
+      "text": "Unlike in the US, pushback to these projects in Canada has been muted - at least so far. Many are going ahead without significant disruptions, and legislators have openly embraced them without major political consequences.",
+      "heading": 0
+    },
+    {
+      "text": "At the heart of Canada's AI data centre boom is Alberta, where 90% of all currently proposed sites are set to be built.",
+      "heading": 0
+    },
+    {
+      "text": "The western Canadian province, rich with natural gas deposits, has pitched itself as \"North America's destination of choice\" for AI data centres, including by offering a \"concierge\" service for investors to help build these projects at \"unparalleled speed\".",
+      "heading": 0
+    },
+    {
+      "text": "One of those investors is Kevin O'Leary, the Canadian businessman, TV personality and an ally of Donald Trump, who announced plans this year to build two large AI data centres - one in Alberta and one in the US state of Utah.",
+      "heading": 0
+    },
+    {
+      "text": "His planned sites, both named Wonder Valley, are being received in very different ways on either side of the border.",
+      "heading": 0
+    },
+    {
+      "text": "Residents in Utah have organised a fierce opposition campaign., external The pushback led outgoing state senator Stuart Adams to demand in June that O'Leary scale down the project by 75%, external, from 40,000 to 13,000 acres.",
+      "heading": 0
+    },
+    {
+      "text": "Financing for the Utah Wonder Valley data centre is still underway, and it is unclear when - and if - shovels will hit the ground on the project.",
+      "heading": 0
+    },
+    {
+      "text": "The proposed 7,000-acre, 7.5-gigawatt Alberta Wonder Valley project, meanwhile, has received strong backing from both the provincial government and the local municipality.",
+      "heading": 0
+    },
+    {
+      "text": "The project is billed as \"off-grid\", external, relying on its own power system fuelled by natural gas sourced from the region. In April, the Alberta government exempted the project from an environmental impact assessment, external, arguing it was unnecessary, though it will still need to obtain permits prior to construction.",
+      "heading": 0
+    },
+    {
+      "text": "The project was met with only limited opposition at a local town hall earlier this year. One resident, Dan Harms, told Bloomberg in June, external that he saw the economic benefits of the Wonder Valley data centre and that it was being built \"out in the middle of nowhere\".",
+      "heading": 0
+    },
+    {
+      "text": "In an interview with BBC News, Reeve Ryan Ratzlaf, of Greenview Municipality in north-western Alberta, said the project was the \"perfect fit\" for his rural community, which had been looking for an industrial tenant to fill a resource-rich parcel of land for 13 years.",
+      "heading": 0
+    },
+    {
+      "text": "Some community members have expressed concern about the amount of water needed to cool the proposed site annually, which is projected to be six million cubic metres, or about the size of 2,400 Olympic-size swimming pools.",
+      "heading": 0
+    },
+    {
+      "text": "Ratzlaf argued the amount was a drop compared to the annual flow of the nearby Smoky River, from which the centre would pull water. More broadly, he said he believed that economic benefits to the region outweighed potential risks.",
+      "heading": 0
+    },
+    {
+      "text": "\"It's a giant warehouse with computer equipment inside,\" he said, arguing that it was less risky than petrochemical plants that could have been built in its place.",
+      "heading": 0
+    },
+    {
+      "text": "Speaking to BBC News, the CEO overseeing both O'Leary projects, Paul Palandjian, said the two were proceeding at an \"equal\" pace.",
+      "heading": 0
+    },
+    {
+      "text": "He acknowledged it had become more of a \"hot topic\" in the US than in Alberta. But there are signs public anger towards AI data centres in Alberta has grown in recent months.",
+      "heading": 0
+    },
+    {
+      "text": "Recent public information sessions on provincial AI data centre plans were attended by some furious residents.",
+      "heading": 0
+    },
+    {
+      "text": "\"If no one wants this, why are you pushing forward with this?\" one resident asked in an August town hall reported on by the Canadian Press, external, held shortly after Alberta announced that Meta would build a C$13bn ($9bn; £6.8bn) AI data centre in the province.",
+      "heading": 0
+    },
+    {
+      "text": "Sturgeon Lake Cree Nation has also recently sued the government over its decision to override the environmental assessment for O'Leary's Wonder Valley data centre, labelling it \"irrational\" in court filings.",
+      "heading": 0
+    },
+    {
+      "text": "This week, the Alberta government proposed legislation that would put restrictions on where data centres could be built in a bid to ease some concerns.",
+      "heading": 0
+    },
+    {
+      "text": "There are also signs that public cooperation may be fading elsewhere in the country.",
+      "heading": 0
+    },
+    {
+      "text": "On Saturday, hundreds of protesters gathered in Canada's Atlantic province of Nova Scotia against a proposed AI data centre, external that will be used by technology giant Anthropic.",
+      "heading": 0
+    },
+    {
+      "text": "But experts say the US backlash offers a cautionary tale for Canada as it tries to capitalise on the AI boom.",
+      "heading": 0
+    },
+    {
+      "text": "\"AI is generally not very popular. This is both true in Canada and the United States,\" noted Sean Mullin, a senior fellow at the University of Toronto and former adviser to Canada's prime minister on the national sovereign AI compute strategy.",
+      "heading": 0
+    },
+    {
+      "text": "\"I think we could experience some of the same backlashes if we're not thoughtful about it,\" he said.",
+      "heading": 0
+    },
+    {
+      "text": "So far, lawmakers in Canada have stood firm.",
+      "heading": 0
+    },
+    {
+      "text": "The Carney government, which has made reducing Canada's reliance on the US a priority, has framed the development of AI data centres as a matter of national security and sovereignty. It has projected that Canada needs to expand its computing capacity 16-fold over the next four years to meet domestic demand.",
+      "heading": 0
+    },
+    {
+      "text": "Alberta is defending its data centre plans by saying they will create jobs and generate revenue, and that sites will be developed \"responsibly\".",
+      "heading": 0
+    },
+    {
+      "text": "In Ontario, Premier Doug Ford has said that his province needs to move \"full steam ahead\" with building data centres.",
+      "heading": 0
+    },
+    {
+      "text": "Mullin said one reason the backlash had been less severe in Canada was simply due to scope and timing.",
+      "heading": 0
+    },
+    {
+      "text": "\"There has been less of these projects happening, and as a result, they've attracted less attention,\" he said.",
+      "heading": 0
+    },
+    {
+      "text": "Canada has released some high-level guidance on data centre development, which has been co-signed by Anthropic, Meta and other big AI players. It calls on data centres to pay for electricity costs, minimise water use and create long-term benefits for the regions they are in.",
+      "heading": 0
+    },
+    {
+      "text": "If politicians don't tread carefully, Bek MacIntosh, an Alberta resident who has fought a proposed hyperscale data centre in her community, said she believed public discontent could translate into angry votes, like those seen in the US.",
+      "heading": 0
+    },
+    {
+      "text": "MacIntosh successfully halted a data centre in Olds, Alberta,, external over concerns with its scale, scope and proximity to her home. Even after her eight-month battle, she said she was not opposed to all AI infrastructure and believed Canada had the resources and landscape to build them responsibly.",
+      "heading": 0
+    },
+    {
+      "text": "But she fears Alberta has opened the door to \"the most reckless of reckless developers\", and warned that voters might have a \"knee-jerk reaction\" if provinces don't take care to develop AI data centres responsibly.",
+      "heading": 0
+    },
+    {
+      "text": "\"And I don't think any political party in Canada is prepared for it.\"",
+      "heading": 0
+    },
+    {
+      "text": "Canada",
+      "heading": 1
+    },
+    {
+      "text": "Artificial intelligence",
+      "heading": 1
+    },
+    {
+      "text": "United States",
+      "heading": 1
+    },
+    {
+      "text": "More on this story",
+      "heading": 1
+    }
+  ]
+}

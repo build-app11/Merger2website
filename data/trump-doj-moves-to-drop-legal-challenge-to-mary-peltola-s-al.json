@@ -1,0 +1,100 @@
+{
+  "type": "read",
+  "title": "Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win",
+  "slug": "trump-doj-moves-to-drop-legal-challenge-to-mary-peltola-s-al",
+  "category": "News",
+  "channel": "the Guardian",
+  "image": "https://i.guim.co.uk/img/media/137c92397a23570d7587a4de4e41c0a66edf7caf/461_0_4610_3688/master/4610.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=155171446504bd8f9d58cb289591e20f",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-mary-peltola-alaska-senate",
+    "episode": ""
+  },
+  "words": 437,
+  "lines": 19,
+  "duration": 146,
+  "text": "President had sought to block results if Democrat won race that featured two candidates named Dan Sullivan\n\nIn a legal filing on Thursday, the Trump administration asked a federal appeals court to dismiss the lawsuit it filed before the midterm elections seeking to block the certification of the US Senate race in Alaska should Democrat Mary Peltola win.\n\nThe legal challenge centered around the presence on the ballot of a second candidate with the same name as the incumbent, Republican senator Dan Sullivan. The Alaska supreme court already ruled that the second Sullivan’s candidacy was legal and that he could be on the ballot.\n\nPeltola did win the election, with 50.13% of the vote, giving her more than the combined vote totals of all other candidates, including the incumbent Republican senator, Dan Sullivan, and a second Daniel Sullivan, who was reportedly recruited to enter the race by Democrats to siphon votes away from the sitting senator.\n\nThe suit was filed at the direction of Donald Trump saying that a Peltola win should not be certified until an investigation can determine if voters were confused. The administration never explained how such an investigation could take place given the secrecy of the ballot.\n\nThe administration moved on Thursday to have an appeals court declare its case moot, two days after the race was decided.\n\nPeltola faced significant controversy on the campaign trail, after the New York Times reported that her staffers were involved in a scheme to recruit the “decoy” Dan Sullivan.\n\nPeltola denied any involvement in encouraging the second Sullivan’s run.\n\nPeltola, who is Yup’ik, will join the Minnesota senator-elect Peggy Flanagan, a member of the White Earth band of Ojibwe, as the first two Native American women to serve in the US Senate.\n\nThe legal filing came a day after Alaska concluded its vote-count and used ranked-choice tabulation to decide races where no candidate got more then 50% of the votes cast, including the election for the state’s sole representative in Congress.\n\nOne of those candidates, Eric Hafner, was apparently also included on the ballot in an attempt to confuse voters. Hafner, who was allowed to contest the race as a Democrat, over the objections of the state’s Democratic party, and despite having no connection to the state and currently being incarcerated in federal prison in New York, got 22,715 votes.\n\nHad all of his ballots been cast for Hill, who was backed by the state’s Democratic party, Hill would have defeated Begich.\n\nUS midterm elections 2026\n\nAlaska\n\nDemocrats\n\nUS Senate\n\nUS Congress\n\nnews\n\nMost viewed",
+  "paragraphs": [
+    {
+      "text": "President had sought to block results if Democrat won race that featured two candidates named Dan Sullivan",
+      "heading": 0
+    },
+    {
+      "text": "In a legal filing on Thursday, the Trump administration asked a federal appeals court to dismiss the lawsuit it filed before the midterm elections seeking to block the certification of the US Senate race in Alaska should Democrat Mary Peltola win.",
+      "heading": 0
+    },
+    {
+      "text": "The legal challenge centered around the presence on the ballot of a second candidate with the same name as the incumbent, Republican senator Dan Sullivan. The Alaska supreme court already ruled that the second Sullivan’s candidacy was legal and that he could be on the ballot.",
+      "heading": 0
+    },
+    {
+      "text": "Peltola did win the election, with 50.13% of the vote, giving her more than the combined vote totals of all other candidates, including the incumbent Republican senator, Dan Sullivan, and a second Daniel Sullivan, who was reportedly recruited to enter the race by Democrats to siphon votes away from the sitting senator.",
+      "heading": 0
+    },
+    {
+      "text": "The suit was filed at the direction of Donald Trump saying that a Peltola win should not be certified until an investigation can determine if voters were confused. The administration never explained how such an investigation could take place given the secrecy of the ballot.",
+      "heading": 0
+    },
+    {
+      "text": "The administration moved on Thursday to have an appeals court declare its case moot, two days after the race was decided.",
+      "heading": 0
+    },
+    {
+      "text": "Peltola faced significant controversy on the campaign trail, after the New York Times reported that her staffers were involved in a scheme to recruit the “decoy” Dan Sullivan.",
+      "heading": 0
+    },
+    {
+      "text": "Peltola denied any involvement in encouraging the second Sullivan’s run.",
+      "heading": 0
+    },
+    {
+      "text": "Peltola, who is Yup’ik, will join the Minnesota senator-elect Peggy Flanagan, a member of the White Earth band of Ojibwe, as the first two Native American women to serve in the US Senate.",
+      "heading": 0
+    },
+    {
+      "text": "The legal filing came a day after Alaska concluded its vote-count and used ranked-choice tabulation to decide races where no candidate got more then 50% of the votes cast, including the election for the state’s sole representative in Congress.",
+      "heading": 0
+    },
+    {
+      "text": "One of those candidates, Eric Hafner, was apparently also included on the ballot in an attempt to confuse voters. Hafner, who was allowed to contest the race as a Democrat, over the objections of the state’s Democratic party, and despite having no connection to the state and currently being incarcerated in federal prison in New York, got 22,715 votes.",
+      "heading": 0
+    },
+    {
+      "text": "Had all of his ballots been cast for Hill, who was backed by the state’s Democratic party, Hill would have defeated Begich.",
+      "heading": 0
+    },
+    {
+      "text": "US midterm elections 2026",
+      "heading": 1
+    },
+    {
+      "text": "Alaska",
+      "heading": 1
+    },
+    {
+      "text": "Democrats",
+      "heading": 1
+    },
+    {
+      "text": "US Senate",
+      "heading": 1
+    },
+    {
+      "text": "US Congress",
+      "heading": 1
+    },
+    {
+      "text": "news",
+      "heading": 1
+    },
+    {
+      "text": "Most viewed",
+      "heading": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+  "slug": "snapchat-now-lets-developers-build-ar-lenses-with-ai-assista",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+    "episode": ""
+  },
+  "words": 510,
+  "lines": 14,
+  "duration": 170,
+  "text": "Snapchat announced on Wednesday that it’s giving Lens creators the ability to build Lenses using the AI coding assistants they already use, like Claude Code, Cursor, and Codex. Snapchat Lenses, which are a core part of the social network’s platform, are AR effects that let users alter their appearance, add digital objects to their surroundings, or interact with animated experiences through the camera.\n\nThe company is introducing Easy Lens CLI, which builds on its existing Easy Lens tool, which lets creators generate Lenses from a single prompt on the web and mobile. Easy Lens CLI brings that same idea into developers’ existing workflows, allowing AI assistants to handle the technical work while creators focus on the vision for the Lens itself.\n\nThe launch indicates that Snapchat is looking to lower the barrier to creating AR content, while making its platform more accessible to developers who are increasingly using AI coding assistants. Instead of requiring creators to learn how to use Snapchat’s own development tools, the company is bringing Lens creation into the AI coding workflows they already use, which could in turn expand the pool of people who build for Snapchat.\n\nDevelopers enrolled in Snapchat’s Lens+ Payouts program can earn from the Lenses they create with Easy Lens CLI. Snapchat says it paid out $1.8 million to Lens+ community creators last month.\n\nLens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says. That includes building with more than 100 AR building blocks and 50 AI asset generators, generating previews, and publishing them to Snapchat and tracking their performance.\n\nWith Easy Lens CLI, Snapchat says developers can create everything from Web Lens games with leaderboards to camera effects and beauty filters.\n\nAI assistants can generate assets, build and test Lenses, address errors, and send updated versions directly to the creator’s phone. The new capability can take a game from an initial idea to a published Lens in a single day, without developers having to write code themselves, Snapchat says.\n\nThe tool is aimed at different types of creators. The company notes that game developers can bring existing browser games to Snapchat as Web Lenses, while AI creators can use assets from their preferred tools to build Lenses in their own style. Additionally, agencies and brands can turn existing campaign videos, images, and other brand assets into AR experiences with less production time.\n\nEasy Lens CLI runs on Mac, Windows, and Linux.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Reporter\n\nAisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.\n\nYou can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Snapchat announced on Wednesday that it’s giving Lens creators the ability to build Lenses using the AI coding assistants they already use, like Claude Code, Cursor, and Codex. Snapchat Lenses, which are a core part of the social network’s platform, are AR effects that let users alter their appearance, add digital objects to their surroundings, or interact with animated experiences through the camera.",
+      "heading": 0
+    },
+    {
+      "text": "The company is introducing Easy Lens CLI, which builds on its existing Easy Lens tool, which lets creators generate Lenses from a single prompt on the web and mobile. Easy Lens CLI brings that same idea into developers’ existing workflows, allowing AI assistants to handle the technical work while creators focus on the vision for the Lens itself.",
+      "heading": 0
+    },
+    {
+      "text": "The launch indicates that Snapchat is looking to lower the barrier to creating AR content, while making its platform more accessible to developers who are increasingly using AI coding assistants. Instead of requiring creators to learn how to use Snapchat’s own development tools, the company is bringing Lens creation into the AI coding workflows they already use, which could in turn expand the pool of people who build for Snapchat.",
+      "heading": 0
+    },
+    {
+      "text": "Developers enrolled in Snapchat’s Lens+ Payouts program can earn from the Lenses they create with Easy Lens CLI. Snapchat says it paid out $1.8 million to Lens+ community creators last month.",
+      "heading": 0
+    },
+    {
+      "text": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says. That includes building with more than 100 AR building blocks and 50 AI asset generators, generating previews, and publishing them to Snapchat and tracking their performance.",
+      "heading": 0
+    },
+    {
+      "text": "With Easy Lens CLI, Snapchat says developers can create everything from Web Lens games with leaderboards to camera effects and beauty filters.",
+      "heading": 0
+    },
+    {
+      "text": "AI assistants can generate assets, build and test Lenses, address errors, and send updated versions directly to the creator’s phone. The new capability can take a game from an initial idea to a published Lens in a single day, without developers having to write code themselves, Snapchat says.",
+      "heading": 0
+    },
+    {
+      "text": "The tool is aimed at different types of creators. The company notes that game developers can bring existing browser games to Snapchat as Web Lenses, while AI creators can use assets from their preferred tools to build Lenses in their own style. Additionally, agencies and brands can turn existing campaign videos, images, and other brand assets into AR experiences with less production time.",
+      "heading": 0
+    },
+    {
+      "text": "Easy Lens CLI runs on Mac, Windows, and Linux.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Aisha by emailing [email protected] or via encrypted message at aisha_malik.01 on Signal.",
+      "heading": 0
+    }
+  ]
+}

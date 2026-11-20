@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+  "slug": "openai-gives-codex-reusable-cloud-environments-that-work-acr",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+    "episode": ""
+  },
+  "words": 481,
+  "lines": 14,
+  "duration": 160,
+  "text": "OpenAI introduced new capabilities for its software engineering agent Codex, making it more useful beyond a developer’s laptop with reusable cloud development environments that can be accessed from any device.\n\nThe update, announced at OpenAI’s DevDay on Tuesday, is one of several for Codex. OpenAI also announced a refreshed Codex CLI, a new code review experience, tools to harden infrastructure, and other API enhancements.\n\nWhile Codex could already spin up cloud tasks to do work remotely, today’s announcement shows that OpenAI is making those cloud environments more persistent and configurable, rather than treating each cloud task as an isolated remote sandbox.\n\nAs the company explains, developers will now be able to run Codex wherever they need it, whether that’s on a computer, remotely from a phone, or in the cloud. The reusable development environments are designed to help tasks start more quickly and give teams a shared workspace with approved settings and permissions, OpenAI said.\n\nMeanwhile, the Codex CLI is getting an update that allows developers to start and direct tasks using their voice.\n\nA new /agents view is meant to make it easier to delegate work and track multiple tasks at the same time. Other changes include improvements to everyday tasks such as editing prompts, resuming sessions, and using worktrees. OpenAI is also rolling out a “cleaner” terminal user interface designed to make longer sessions easier to read.\n\nCodex can also be pulled into a new code review experience within the ChatGPT desktop app, where users can read summaries, explore code changes, or ask Codex about potential issues before sharing feedback on GitHub pull requests or GitLab merge requests.\n\nAutomatic code reviews also let Codex perform an initial review while users step away from their computers.\n\nOn the security side, OpenAI is rolling out a new set of tools called Codex Security Cloud, designed to help developers secure their infrastructure. Developers can use the tools to scan entire GitHub repositories on demand or on a regular schedule, as well as whenever new commits arrive. Codex will then investigate findings, remove duplicates, and prepare fixes in the cloud — even when the user isn’t active and their laptop is closed.\n\nNotably, the tool set includes access to the models offered through OpenAI’s cybersecurity initiative Daybreak Blue, without requiring developers to submit a separate application.\n\nOpenAI also announced several API updates, including a new Decisions API for real-time decision-making. The API uses Luna to answer a set of user-defined questions with predefined answers. The company also introduced an updated a version of the Agents API that now supports computer use and the ability to use Amazon’s Bedrock Managed Agents to build OpenAI agents that run entirely on AWS.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "OpenAI introduced new capabilities for its software engineering agent Codex, making it more useful beyond a developer’s laptop with reusable cloud development environments that can be accessed from any device.",
+      "heading": 0
+    },
+    {
+      "text": "The update, announced at OpenAI’s DevDay on Tuesday, is one of several for Codex. OpenAI also announced a refreshed Codex CLI, a new code review experience, tools to harden infrastructure, and other API enhancements.",
+      "heading": 0
+    },
+    {
+      "text": "While Codex could already spin up cloud tasks to do work remotely, today’s announcement shows that OpenAI is making those cloud environments more persistent and configurable, rather than treating each cloud task as an isolated remote sandbox.",
+      "heading": 0
+    },
+    {
+      "text": "As the company explains, developers will now be able to run Codex wherever they need it, whether that’s on a computer, remotely from a phone, or in the cloud. The reusable development environments are designed to help tasks start more quickly and give teams a shared workspace with approved settings and permissions, OpenAI said.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, the Codex CLI is getting an update that allows developers to start and direct tasks using their voice.",
+      "heading": 0
+    },
+    {
+      "text": "A new /agents view is meant to make it easier to delegate work and track multiple tasks at the same time. Other changes include improvements to everyday tasks such as editing prompts, resuming sessions, and using worktrees. OpenAI is also rolling out a “cleaner” terminal user interface designed to make longer sessions easier to read.",
+      "heading": 0
+    },
+    {
+      "text": "Codex can also be pulled into a new code review experience within the ChatGPT desktop app, where users can read summaries, explore code changes, or ask Codex about potential issues before sharing feedback on GitHub pull requests or GitLab merge requests.",
+      "heading": 0
+    },
+    {
+      "text": "Automatic code reviews also let Codex perform an initial review while users step away from their computers.",
+      "heading": 0
+    },
+    {
+      "text": "On the security side, OpenAI is rolling out a new set of tools called Codex Security Cloud, designed to help developers secure their infrastructure. Developers can use the tools to scan entire GitHub repositories on demand or on a regular schedule, as well as whenever new commits arrive. Codex will then investigate findings, remove duplicates, and prepare fixes in the cloud — even when the user isn’t active and their laptop is closed.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, the tool set includes access to the models offered through OpenAI’s cybersecurity initiative Daybreak Blue, without requiring developers to submit a separate application.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI also announced several API updates, including a new Decisions API for real-time decision-making. The API uses Luna to answer a set of user-defined questions with predefined answers. The company also introduced an updated a version of the Agents API that now supports computer use and the ability to use Amazon’s Bedrock Managed Agents to build OpenAI agents that run entirely on AWS.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

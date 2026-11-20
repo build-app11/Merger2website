@@ -1,0 +1,192 @@
+{
+  "type": "read",
+  "title": "Security flaw found in Java, world's third-largest programming language",
+  "slug": "security-flaw-found-in-java-world-s-third-largest-programmin",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b2fd/live/c9c932d0-e324-11f1-99a1-253766e7ad8b.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 737,
+  "lines": 42,
+  "duration": 246,
+  "text": "Security flaw found in Java, world's third-largest programming language\n\nPublished 18 November 2026\n\nA cyber-security firm has used artificial intelligence (AI) to uncover a critical flaw in the hugely popular computer programming language Java.\n\nTech start-up Calif - which recently identified a cyber-security flaw in another language, PHP - found the bug in Java's memory functions.\n\nJava is a popular programming language used by nearly all of the world's top companies such as Apple and Amazon, as well as many banks, hospitals and governments.\n\nIt is meant to make the IT world more secure by managing your memory online, said computer scientist Professor Toby Walsh, which is why \"this is such an unlikely and serious flaw\".\n\nThe discovery comes after a string of serious technology issues, including a massive Microsoft outage.\n\nOn Tuesday, the US National Security Agency said its internal communications went offline on Tuesday due to a \"scheduled routine maintenance\".\n\nThe NSA did not specify whether its outage was linked to the identified Java bug.\n\nApple also reported multiple services suffered full outages due to an internal update, while a network failure grounded all flights in the US.\n\nUS Secretary of State Marco Rubio said there was \"zero evidence\" the incidents were related.\n\nJava releases critical update\n\nWith the help of AI, Calif discovered a serious security vulnerability it has called Java4Shell, which allowed an adversary to remotely execute unwanted commands to Java's memory system.\n\nIn this case, the adversary was OpenAI's recently-released model GPT-6 Cyber, which is not yet available to the public.\n\nOracle, the owner of Java, released a \"critical patch update\" on Tuesday, which it said contained security vulnerability fixes - including for this flaw.\n\nAt this stage it is unclear if any platforms or companies have been affected by the latest incident.\n\nBut the Java flaw remains a huge concern for cyber-security experts, who say overloading a system's memory is one of the most common ways for hackers to exploit or crash a system.\n\nThe BBC has contacted Oracle for comment.\n\nWhat is PHP and why did it spark a global cyber-security scramble?\n\nPublished 23 October\n\nUS National Security Agency's classified internal network reportedly goes offline\n\nPublished 2 days ago\n\nNearly every critical sector, including banking, national security systems, aviation and telecommunications, relies on Java.\n\nFirst released in 1995, the programming language and computing system is now the \"beating heart of the modern economy\", Calif said in its investigation.\n\nOne of its main functions is to manage and protect memory for you, Walsh, a leading researcher in AI, told the BBC.\n\nAny time you transfer information on the internet, receive a file from a user or need to log into an IT system with a password, the platform you are using is likely relying on a Java program.\n\nThe serious flaw could comprise \"critical financial systems, customers and organisation's data,\" cyber-security expert Dr Pedram Hayati said.\n\nIn Australia alone, almost every bank uses Java for managing critical transaction data, Hayati added.\n\nThe latest incidents have exposed how nearly every critical sector - including national security systems, aviation and telecommunications - relies on legacy infrastructure online.\n\nEarlier this week, thousands of customers at major US banks, including JP Morgan Chase, Wells Fargo and Bank of America, reported trouble accessing services.\n\nThe Java discovery follows a critical cyber-security flaw identified in the PHP programming language, also identified by Calif.\n\nPHP is the code that websites like Wikipedia use to collect information and present it in a way you can read on the web.\n\nSurrey Centre for Cyber Security Prof Alan Woodward said the PHP flaw affected some 30 million websites, leaving them vulnerable to malicious attacks.\n\nAt the time, website owners were urged to check if their sites were affected and, if so, they were told to install updates to patch the issue or consider going offline.\n\nThe PHP flaws went undetected for at least a decade, which Walsh said is similar to what has happened with Java.\n\n\"It's been hiding in plain sight for 12 years\", he said.\n\n\"AI is now exposing more flaws much more quickly,\" Walsh said including ones that may have been so obscure and difficult that humans could not have discovered them alone.\n\nEarlier in November, OpenAI president Greg Brockman announced his company was pivoting 25% of its staff to focus on cyber-security demands.\n\nCyber-security\n\nArtificial intelligence\n\nInternational Business\n\nComputer hacking",
+  "paragraphs": [
+    {
+      "text": "Security flaw found in Java, world's third-largest programming language",
+      "heading": 1
+    },
+    {
+      "text": "Published 18 November 2026",
+      "heading": 1
+    },
+    {
+      "text": "A cyber-security firm has used artificial intelligence (AI) to uncover a critical flaw in the hugely popular computer programming language Java.",
+      "heading": 0
+    },
+    {
+      "text": "Tech start-up Calif - which recently identified a cyber-security flaw in another language, PHP - found the bug in Java's memory functions.",
+      "heading": 0
+    },
+    {
+      "text": "Java is a popular programming language used by nearly all of the world's top companies such as Apple and Amazon, as well as many banks, hospitals and governments.",
+      "heading": 0
+    },
+    {
+      "text": "It is meant to make the IT world more secure by managing your memory online, said computer scientist Professor Toby Walsh, which is why \"this is such an unlikely and serious flaw\".",
+      "heading": 0
+    },
+    {
+      "text": "The discovery comes after a string of serious technology issues, including a massive Microsoft outage.",
+      "heading": 0
+    },
+    {
+      "text": "On Tuesday, the US National Security Agency said its internal communications went offline on Tuesday due to a \"scheduled routine maintenance\".",
+      "heading": 0
+    },
+    {
+      "text": "The NSA did not specify whether its outage was linked to the identified Java bug.",
+      "heading": 0
+    },
+    {
+      "text": "Apple also reported multiple services suffered full outages due to an internal update, while a network failure grounded all flights in the US.",
+      "heading": 0
+    },
+    {
+      "text": "US Secretary of State Marco Rubio said there was \"zero evidence\" the incidents were related.",
+      "heading": 0
+    },
+    {
+      "text": "Java releases critical update",
+      "heading": 1
+    },
+    {
+      "text": "With the help of AI, Calif discovered a serious security vulnerability it has called Java4Shell, which allowed an adversary to remotely execute unwanted commands to Java's memory system.",
+      "heading": 0
+    },
+    {
+      "text": "In this case, the adversary was OpenAI's recently-released model GPT-6 Cyber, which is not yet available to the public.",
+      "heading": 0
+    },
+    {
+      "text": "Oracle, the owner of Java, released a \"critical patch update\" on Tuesday, which it said contained security vulnerability fixes - including for this flaw.",
+      "heading": 0
+    },
+    {
+      "text": "At this stage it is unclear if any platforms or companies have been affected by the latest incident.",
+      "heading": 0
+    },
+    {
+      "text": "But the Java flaw remains a huge concern for cyber-security experts, who say overloading a system's memory is one of the most common ways for hackers to exploit or crash a system.",
+      "heading": 0
+    },
+    {
+      "text": "The BBC has contacted Oracle for comment.",
+      "heading": 0
+    },
+    {
+      "text": "What is PHP and why did it spark a global cyber-security scramble?",
+      "heading": 0
+    },
+    {
+      "text": "Published 23 October",
+      "heading": 1
+    },
+    {
+      "text": "US National Security Agency's classified internal network reportedly goes offline",
+      "heading": 1
+    },
+    {
+      "text": "Published 2 days ago",
+      "heading": 1
+    },
+    {
+      "text": "Nearly every critical sector, including banking, national security systems, aviation and telecommunications, relies on Java.",
+      "heading": 0
+    },
+    {
+      "text": "First released in 1995, the programming language and computing system is now the \"beating heart of the modern economy\", Calif said in its investigation.",
+      "heading": 0
+    },
+    {
+      "text": "One of its main functions is to manage and protect memory for you, Walsh, a leading researcher in AI, told the BBC.",
+      "heading": 0
+    },
+    {
+      "text": "Any time you transfer information on the internet, receive a file from a user or need to log into an IT system with a password, the platform you are using is likely relying on a Java program.",
+      "heading": 0
+    },
+    {
+      "text": "The serious flaw could comprise \"critical financial systems, customers and organisation's data,\" cyber-security expert Dr Pedram Hayati said.",
+      "heading": 0
+    },
+    {
+      "text": "In Australia alone, almost every bank uses Java for managing critical transaction data, Hayati added.",
+      "heading": 0
+    },
+    {
+      "text": "The latest incidents have exposed how nearly every critical sector - including national security systems, aviation and telecommunications - relies on legacy infrastructure online.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier this week, thousands of customers at major US banks, including JP Morgan Chase, Wells Fargo and Bank of America, reported trouble accessing services.",
+      "heading": 0
+    },
+    {
+      "text": "The Java discovery follows a critical cyber-security flaw identified in the PHP programming language, also identified by Calif.",
+      "heading": 0
+    },
+    {
+      "text": "PHP is the code that websites like Wikipedia use to collect information and present it in a way you can read on the web.",
+      "heading": 0
+    },
+    {
+      "text": "Surrey Centre for Cyber Security Prof Alan Woodward said the PHP flaw affected some 30 million websites, leaving them vulnerable to malicious attacks.",
+      "heading": 0
+    },
+    {
+      "text": "At the time, website owners were urged to check if their sites were affected and, if so, they were told to install updates to patch the issue or consider going offline.",
+      "heading": 0
+    },
+    {
+      "text": "The PHP flaws went undetected for at least a decade, which Walsh said is similar to what has happened with Java.",
+      "heading": 0
+    },
+    {
+      "text": "\"It's been hiding in plain sight for 12 years\", he said.",
+      "heading": 0
+    },
+    {
+      "text": "\"AI is now exposing more flaws much more quickly,\" Walsh said including ones that may have been so obscure and difficult that humans could not have discovered them alone.",
+      "heading": 0
+    },
+    {
+      "text": "Earlier in November, OpenAI president Greg Brockman announced his company was pivoting 25% of its staff to focus on cyber-security demands.",
+      "heading": 0
+    },
+    {
+      "text": "Cyber-security",
+      "heading": 1
+    },
+    {
+      "text": "Artificial intelligence",
+      "heading": 1
+    },
+    {
+      "text": "International Business",
+      "heading": 1
+    },
+    {
+      "text": "Computer hacking",
+      "heading": 1
+    }
+  ]
+}

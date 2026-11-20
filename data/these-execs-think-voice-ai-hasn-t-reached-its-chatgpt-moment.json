@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+  "slug": "these-execs-think-voice-ai-hasn-t-reached-its-chatgpt-moment",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-2.42.28-PM.jpg?resize=1200,624",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+    "episode": ""
+  },
+  "words": 700,
+  "lines": 17,
+  "duration": 233,
+  "text": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\n\nEvery week there is a new model or a tool release that claims to sound human and converse like one. However, in reality, that might not be the case. Enterprise voice AI platform PolyAI’s CTO Shawn Wen thinks that despite the release of full-duplex models — which can speak while listening to you — voice AI hasn’t had its “ChatGPT moment” yet.\n\n“We have reached the milestone of developing full-duplex models. The next challenge is to make reasoning very fast, so that the models can fetch answers quickly and the conversation feels natural,” he told me onstage at the HumanX conference last month.\n\nHe also said that AI agents in customer service should not sound robotic and should give callers enough confidence that they can solve problems.\n\n“I think the next stage will be slightly different because once the voice is good enough, like, and the customer is willing to engage with them for the first two or three turns, they start to build confidence, and over time, they will feel like I probably don’t have to talk to a human if the agent can solve my problem,” he said.\n\nAlex Gay, CMO for meeting note-taker Otter, opined that speaker identification, intent capture, and typing that up with organizational knowledge is a key step for enabling automation. The company is also working on digital twins that might represent people in meetings. For that technology, he said it’s paramount that the output voice gives the same emotive expressions of talking to a human in a meeting.\n\n“If you think about the meetings that you’re in right now, the best conversations that you have are where you can have debate, and strategic discussions, and when you feel like there’s a relationship that underpins it. If you aren’t able to have that with an avatar, then it’s just a Q and A chatbot,” Gay noted.\n\nVoice AI’s understanding and transparency\n\nWhile voice AI models have improved, AI assistants often don’t understand users, or your meeting note-taker shows the wrong transcript or a summary.\n\nWen thinks that ASR (automatic speech recognition) models often miss important keywords, and that creates an issue in capturing the whole context.\n\nOtter’s Gay agreed with this, adding that the company keeps working on improving transcription. He also said that language is one area where voice models need to improve.\n\n“For Otter, you know, transcription was never the end point. It was just the layer that we could start to drive some of the productivity gains on the back of. But if your original transcription didn’t have the accuracy that you needed, all the follow-up actions that you have become flawed. And the minute that starts to take action, that is wrong. You lose trust in the platform. It is critical for us to continue to improve that ASR model because all of the downstream impacts are significant,” he said.\n\nWith the new voice tools, there is also a question of transparency. Tools should declare to customers that they are being recorded or talking to AI. Otter said that it wants to instill trust in people who are in a meeting, so even for a meeting where the bot is not present, it wants to try methods like notifying everyone in the chat that the meeting is being recorded. PolyAI’s Wen also said that it’s important to establish that people are talking to an AI in enterprise calls.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.",
+      "heading": 0
+    },
+    {
+      "text": "Every week there is a new model or a tool release that claims to sound human and converse like one. However, in reality, that might not be the case. Enterprise voice AI platform PolyAI’s CTO Shawn Wen thinks that despite the release of full-duplex models — which can speak while listening to you — voice AI hasn’t had its “ChatGPT moment” yet.",
+      "heading": 0
+    },
+    {
+      "text": "“We have reached the milestone of developing full-duplex models. The next challenge is to make reasoning very fast, so that the models can fetch answers quickly and the conversation feels natural,” he told me onstage at the HumanX conference last month.",
+      "heading": 0
+    },
+    {
+      "text": "He also said that AI agents in customer service should not sound robotic and should give callers enough confidence that they can solve problems.",
+      "heading": 0
+    },
+    {
+      "text": "“I think the next stage will be slightly different because once the voice is good enough, like, and the customer is willing to engage with them for the first two or three turns, they start to build confidence, and over time, they will feel like I probably don’t have to talk to a human if the agent can solve my problem,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Alex Gay, CMO for meeting note-taker Otter, opined that speaker identification, intent capture, and typing that up with organizational knowledge is a key step for enabling automation. The company is also working on digital twins that might represent people in meetings. For that technology, he said it’s paramount that the output voice gives the same emotive expressions of talking to a human in a meeting.",
+      "heading": 0
+    },
+    {
+      "text": "“If you think about the meetings that you’re in right now, the best conversations that you have are where you can have debate, and strategic discussions, and when you feel like there’s a relationship that underpins it. If you aren’t able to have that with an avatar, then it’s just a Q and A chatbot,” Gay noted.",
+      "heading": 0
+    },
+    {
+      "text": "Voice AI’s understanding and transparency",
+      "heading": 1
+    },
+    {
+      "text": "While voice AI models have improved, AI assistants often don’t understand users, or your meeting note-taker shows the wrong transcript or a summary.",
+      "heading": 0
+    },
+    {
+      "text": "Wen thinks that ASR (automatic speech recognition) models often miss important keywords, and that creates an issue in capturing the whole context.",
+      "heading": 0
+    },
+    {
+      "text": "Otter’s Gay agreed with this, adding that the company keeps working on improving transcription. He also said that language is one area where voice models need to improve.",
+      "heading": 0
+    },
+    {
+      "text": "“For Otter, you know, transcription was never the end point. It was just the layer that we could start to drive some of the productivity gains on the back of. But if your original transcription didn’t have the accuracy that you needed, all the follow-up actions that you have become flawed. And the minute that starts to take action, that is wrong. You lose trust in the platform. It is critical for us to continue to improve that ASR model because all of the downstream impacts are significant,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "With the new voice tools, there is also a question of transparency. Tools should declare to customers that they are being recorded or talking to AI. Otter said that it wants to instill trust in people who are in a meeting, so even for a meeting where the bot is not present, it wants to try methods like notifying everyone in the chat that the meeting is being recorded. PolyAI’s Wen also said that it’s important to establish that people are talking to an AI in enterprise calls.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

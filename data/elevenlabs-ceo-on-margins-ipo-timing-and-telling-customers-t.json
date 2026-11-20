@@ -1,0 +1,149 @@
+{
+  "type": "read",
+  "title": "ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot",
+  "slug": "elevenlabs-ceo-on-margins-ipo-timing-and-telling-customers-t",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+    "episode": ""
+  },
+  "words": 1298,
+  "lines": 31,
+  "duration": 433,
+  "text": "ElevenLabs builds the voice layer of AI, the models that turn text into speech that sounds human. Most people encounter it when they’re talking with customer service — often without realizing it. Klarna runs first-line phone support for 35 million U.S. customers on it, for example. So do Deutsche Telekom, Cisco, Adobe, and a growing list of governments. ElevenLabs also sells to creators, who use its platform for audiobooks, dubbing, and music.\n\nIt’s not alone in what it does. In fact, it’s increasingly bumping into customers, including Decagon, a conversational AI platform that trained its voice product on ElevenLabs and now competes with it. But its investors don’t seem too concerned. The company, which says it’s pacing at $600 million in annual recurring revenue, is now reportedly valued at $22 billion by its backers, despite being just four years old.\n\nTo understand more, I interviewed ElevenLabs co-founder and CEO, Mati Staniszewski, at Nrth in Toronto, a local entrepreneurship conference formerly known as Elevate. We covered a range of topics in a short time, including whether businesses should tell customers when they’re talking to an AI (he thinks they should), and whether he could discuss the company’s gross margins. Unsurprisingly, Staniszewski said he couldn’t discuss them in any detail, but he was clear that he doesn’t mind them getting squeezed even further if it means expanding the company’s market share.\n\nOur conversation follows, condensed and lightly edited. You can check out the full conversation here.\n\nYou joined us at TechCrunch Disrupt last year, where you said audio models would be commoditized within a couple of years. How would you rate that prediction now?\n\nThere is still a lot of work to be done, and the quality delta you can achieve just on the model level is still significant. If we think longer term, probably three, five years from now, those differences will be smaller. What we’d love to do, and be the first ones to do, is pass the Turing test for conversational AI. You need to combine intelligence, but you also need emotional intelligence. You need to understand the emotions of the other side, to be able to slow down or speak up. That hasn’t yet been done.\n\nWhat percentage of the business is enterprise now?\n\nWe are now $600 million in ARR. Fifty-five percent plus is classic enterprise, and a big percentage of the [remaining] 45% are small and medium businesses, developers, builders, creators.\n\nLike everyone else in AI, you’re increasingly competing with your customers. Decagon trained its voice product on you and now runs queries through its own models.\n\nThe lines become more blurry. As we think about model companies, platform companies, application companies, in the past you’d have very clear splits where one starts and ends. Today that line is much more blurry. In Anthropic’s case, what was a model company is definitely a platform and increasingly a wide set of applications. I think this will continue.\n\nYour customers can choose the “reasoning layer” from a menu of options at ElevenLabs. What are you seeing in terms of the use of frontier lab models versus open weight?\n\nIt’s less of a binary choice. In customer experience, if you’re calling in and it’s just informational, you’re not executing any actions — you can use a lot of the open source models because your knowledge base defines what a good experience is. But if it’s financial services, you want to be authenticated, you want information about a transaction, maybe a refund. There’s no room for error. Here, frontier models will still lead.\n\nSome of those open-weight models are Chinese. The U.S. government is a customer. European governments are customers. What are those conversations like?\n\nDifferent. In each deployment, the models and the voices we deploy will depend on the case. If we work with the Polish government or the Brazilian government, they have their own set of requirements. It can be an open-weight model, a closed-source model, their own fine-tuned model. [In Poland] it’s a healthcare case. You have patients booking appointments across the public health system, and 18% never show up. The deployment is agents that call and remind you. They had a set of models optimized on their knowledge, and we integrate while keeping data residency.\n\nShould businesses disclose when someone is talking to an agent rather than a human?\n\nI think there should be disclosure at this time. Currently, people aren’t used to it, and the common pattern is you don’t want to feel cheated on that call. But in five years, when everybody has their own agent working on their behalf, you’ll be calling in and expecting an agent. Then I think we’ll shift as a society. There are good ways of doing it — if there’s a 30-minute wait for a human, offer the customer a choice. In almost all cases, they choose the agent and then they’re surprised by how good the experience is.\n\nWhat are your gross margins, given what you’re paying for models and inference?\n\nI’m going to give a vague answer. Given we have that research element, we’re able to fine-tune and constrain models in extremely smart ways. But if we can pass on any savings to the customer, we do that. The biggest thing is still proving the value and being there with the customer. So if we can invest and prove that value, we don’t mind the margins going lower to actually benefit together as the value gets created in the next five years.\n\nYou have millions of hours of customer service calls. Do you train on them? How much of your training data is synthetic?\n\nIn certain companies, we created the models together. They wanted a specific model for their use case. Otherwise, the big part of the training hasn’t been so much the volume of data, it was annotating the data. We have thousands of people internally on a contracting basis helping us annotate not only what was said, but when people were speaking, how they said things, what emotions were used. We had to bring voice coaches in to be able to detect accents accurately.\n\nIt’s been reported you’re looking at 2028 for an IPO. Can you confirm that?\n\nWe’d love to create a company that stands the test of time. We are preparing the foundation to be able to do it in the next years. But whether we do it will depend on the time and place.\n\n“Years” is very vague.\n\n[Laughs.]\n\nBackstage: Where do you land on whether the frontier labs should slow down?\n\nEverybody is aligned to work together on finding a way to pace. Whether they should be public about it, and how much of the media conversation or regulation it should involve, that’s another topic. But yes, we should all take the right precautions as we deploy the technology. We don’t train the text models and the intelligence side of models, which is the core key of the debate.\n\nCould ElevenLabs be exposed the way Hugging Face was?\n\nWe’re a step further, because we don’t deploy self-replicating or recurrent parts of the intelligence of agents. Our technology doesn’t allow you to let agents create more agents. Every customer goes through KYC. Cybersecurity risk is definitely a risk for the wider world, but we have a good set of precautions in place.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditor in Chief & General Manager",
+  "paragraphs": [
+    {
+      "text": "ElevenLabs builds the voice layer of AI, the models that turn text into speech that sounds human. Most people encounter it when they’re talking with customer service — often without realizing it. Klarna runs first-line phone support for 35 million U.S. customers on it, for example. So do Deutsche Telekom, Cisco, Adobe, and a growing list of governments. ElevenLabs also sells to creators, who use its platform for audiobooks, dubbing, and music.",
+      "heading": 0
+    },
+    {
+      "text": "It’s not alone in what it does. In fact, it’s increasingly bumping into customers, including Decagon, a conversational AI platform that trained its voice product on ElevenLabs and now competes with it. But its investors don’t seem too concerned. The company, which says it’s pacing at $600 million in annual recurring revenue, is now reportedly valued at $22 billion by its backers, despite being just four years old.",
+      "heading": 0
+    },
+    {
+      "text": "To understand more, I interviewed ElevenLabs co-founder and CEO, Mati Staniszewski, at Nrth in Toronto, a local entrepreneurship conference formerly known as Elevate. We covered a range of topics in a short time, including whether businesses should tell customers when they’re talking to an AI (he thinks they should), and whether he could discuss the company’s gross margins. Unsurprisingly, Staniszewski said he couldn’t discuss them in any detail, but he was clear that he doesn’t mind them getting squeezed even further if it means expanding the company’s market share.",
+      "heading": 0
+    },
+    {
+      "text": "Our conversation follows, condensed and lightly edited. You can check out the full conversation here.",
+      "heading": 0
+    },
+    {
+      "text": "You joined us at TechCrunch Disrupt last year, where you said audio models would be commoditized within a couple of years. How would you rate that prediction now?",
+      "heading": 0
+    },
+    {
+      "text": "There is still a lot of work to be done, and the quality delta you can achieve just on the model level is still significant. If we think longer term, probably three, five years from now, those differences will be smaller. What we’d love to do, and be the first ones to do, is pass the Turing test for conversational AI. You need to combine intelligence, but you also need emotional intelligence. You need to understand the emotions of the other side, to be able to slow down or speak up. That hasn’t yet been done.",
+      "heading": 0
+    },
+    {
+      "text": "What percentage of the business is enterprise now?",
+      "heading": 0
+    },
+    {
+      "text": "We are now $600 million in ARR. Fifty-five percent plus is classic enterprise, and a big percentage of the [remaining] 45% are small and medium businesses, developers, builders, creators.",
+      "heading": 0
+    },
+    {
+      "text": "Like everyone else in AI, you’re increasingly competing with your customers. Decagon trained its voice product on you and now runs queries through its own models.",
+      "heading": 0
+    },
+    {
+      "text": "The lines become more blurry. As we think about model companies, platform companies, application companies, in the past you’d have very clear splits where one starts and ends. Today that line is much more blurry. In Anthropic’s case, what was a model company is definitely a platform and increasingly a wide set of applications. I think this will continue.",
+      "heading": 0
+    },
+    {
+      "text": "Your customers can choose the “reasoning layer” from a menu of options at ElevenLabs. What are you seeing in terms of the use of frontier lab models versus open weight?",
+      "heading": 0
+    },
+    {
+      "text": "It’s less of a binary choice. In customer experience, if you’re calling in and it’s just informational, you’re not executing any actions — you can use a lot of the open source models because your knowledge base defines what a good experience is. But if it’s financial services, you want to be authenticated, you want information about a transaction, maybe a refund. There’s no room for error. Here, frontier models will still lead.",
+      "heading": 0
+    },
+    {
+      "text": "Some of those open-weight models are Chinese. The U.S. government is a customer. European governments are customers. What are those conversations like?",
+      "heading": 0
+    },
+    {
+      "text": "Different. In each deployment, the models and the voices we deploy will depend on the case. If we work with the Polish government or the Brazilian government, they have their own set of requirements. It can be an open-weight model, a closed-source model, their own fine-tuned model. [In Poland] it’s a healthcare case. You have patients booking appointments across the public health system, and 18% never show up. The deployment is agents that call and remind you. They had a set of models optimized on their knowledge, and we integrate while keeping data residency.",
+      "heading": 0
+    },
+    {
+      "text": "Should businesses disclose when someone is talking to an agent rather than a human?",
+      "heading": 0
+    },
+    {
+      "text": "I think there should be disclosure at this time. Currently, people aren’t used to it, and the common pattern is you don’t want to feel cheated on that call. But in five years, when everybody has their own agent working on their behalf, you’ll be calling in and expecting an agent. Then I think we’ll shift as a society. There are good ways of doing it — if there’s a 30-minute wait for a human, offer the customer a choice. In almost all cases, they choose the agent and then they’re surprised by how good the experience is.",
+      "heading": 0
+    },
+    {
+      "text": "What are your gross margins, given what you’re paying for models and inference?",
+      "heading": 0
+    },
+    {
+      "text": "I’m going to give a vague answer. Given we have that research element, we’re able to fine-tune and constrain models in extremely smart ways. But if we can pass on any savings to the customer, we do that. The biggest thing is still proving the value and being there with the customer. So if we can invest and prove that value, we don’t mind the margins going lower to actually benefit together as the value gets created in the next five years.",
+      "heading": 0
+    },
+    {
+      "text": "You have millions of hours of customer service calls. Do you train on them? How much of your training data is synthetic?",
+      "heading": 0
+    },
+    {
+      "text": "In certain companies, we created the models together. They wanted a specific model for their use case. Otherwise, the big part of the training hasn’t been so much the volume of data, it was annotating the data. We have thousands of people internally on a contracting basis helping us annotate not only what was said, but when people were speaking, how they said things, what emotions were used. We had to bring voice coaches in to be able to detect accents accurately.",
+      "heading": 0
+    },
+    {
+      "text": "It’s been reported you’re looking at 2028 for an IPO. Can you confirm that?",
+      "heading": 0
+    },
+    {
+      "text": "We’d love to create a company that stands the test of time. We are preparing the foundation to be able to do it in the next years. But whether we do it will depend on the time and place.",
+      "heading": 0
+    },
+    {
+      "text": "“Years” is very vague.",
+      "heading": 0
+    },
+    {
+      "text": "[Laughs.]",
+      "heading": 1
+    },
+    {
+      "text": "Backstage: Where do you land on whether the frontier labs should slow down?",
+      "heading": 0
+    },
+    {
+      "text": "Everybody is aligned to work together on finding a way to pace. Whether they should be public about it, and how much of the media conversation or regulation it should involve, that’s another topic. But yes, we should all take the right precautions as we deploy the technology. We don’t train the text models and the intelligence side of models, which is the core key of the debate.",
+      "heading": 0
+    },
+    {
+      "text": "Could ElevenLabs be exposed the way Hugging Face was?",
+      "heading": 0
+    },
+    {
+      "text": "We’re a step further, because we don’t deploy self-replicating or recurrent parts of the intelligence of agents. Our technology doesn’t allow you to let agents create more agents. Every customer goes through KYC. Cybersecurity risk is definitely a risk for the wider world, but we have a good set of precautions in place.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editor in Chief & General Manager",
+      "heading": 1
+    }
+  ]
+}

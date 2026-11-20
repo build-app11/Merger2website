@@ -1,0 +1,121 @@
+{
+  "type": "read",
+  "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+  "slug": "mark-zuckerberg-s-ai-manifesto-is-exactly-why-people-don-t-l",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-2204064825.jpg?resize=1200,814",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+    "episode": ""
+  },
+  "words": 1360,
+  "lines": 24,
+  "duration": 453,
+  "text": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the “personal superintelligence” systems Meta AI is building. The ideas in the post aren’t totally new. A version of the essay ran in The Wall Street Journal two weeks ago, and he’s talked about them on Meta earnings calls before. But this is probably the most detailed version he’s shared.\n\nI’ve seen it described as an anti-doomer essay, but that’s not quite right. It’s more of a description of why Mark Zuckerberg is personally excited about the ways AI is going to change society. Yet, even as Zuckerberg tries to paint a picture of the wonderful future abundant superintelligence will bring, he keeps reminding us of all the ways it’s likely to go wrong.\n\nI find AI exciting too — that’s why I keep writing about it — but a lot of the public sees AI as creepy and unpleasant. So it’s worth pinning down exactly what’s happening here, and why Zuckerberg isn’t doing the industry any favors with essays like this.\n\nSocial media is still a sensitive topic in the tech industry, and we don’t have the space here to litigate the relative merits of every single complaint people have about Facebook. Suffice it to say, Facebook as a product and Zuckerberg as a person are both unpopular with the U.S. public. A recent survey found that 64% of Americans believe social media has been harmful to democracy and a similar percentage believe it should be more heavily regulated, numbers that cut evenly across partisan lines. Just this weekend, a court fined the company $567 million for being harmful to children. The vibes are bad.\n\nI don’t bring this up to imply that Zuckerberg should withdraw to the wilderness in shame — but the fallout from social media is one of the central reasons we’re now seeing so much anxiety about the social impact of AI. Whether it’s fair or not, the public does not trust tech executives to make sure new technologies like this have a positive impact on society. Instead of acknowledging that and trying to win back their trust, this essay demonstrates over and over again how the trust was lost in the first place.\n\nA large part of the essay is devoted to hazy generalities about intelligence — very similar to the hazy generalities Zuckerberg and Dorsey used to give about free speech. Here is one for instance:\n\nAs everyone gains more powerful tools, each person will become more capable of shaping the future, not less. … People and institutions with competing interests naturally check and balance each other to lead towards positive outcomes. The best and most realistic path to building a positive AI future is by delivering superintelligence to everyone.\n\nI guess? I can think of a few examples of conflicting interests leading to bad outcomes, but let’s put that aside. The weirder thing is that this is being presented as an earnest philosophical conclusion, instead of a specific product called “personal intelligence” that Meta is bringing to market. If you’re already inclined to distrust this person, you might worry that they’re writing all this to convince themselves that nothing bad can happen.\n\nThat feeling got more intense for me when Zuckerberg got to the specific examples, many of which are alarmingly out of touch with the reality of how AI tools are being used. For instance, this is Zuckerberg’s take on AI in education:\n\nEveryone will have a personalized tutor and coach with a PhD in every subject and unlimited patience to help you learn anything you want. Students will have extra help in areas they need it that is currently only available to those whose parents can pay. Adults will have a superintelligent learning assistant that knows exactly how to teach you new job skills, new languages, new hobbies, or anything else you’re interested in.\n\nOf course, the product Zuckerberg is describing already exists: This is a consumer chatbot like ChatGPT, Claude, and Gemini. These tools really are helpful if you want to learn about a certain topic, but the main way they’re used in education is to avoid learning, since your personalized tutor can do your homework and write your assigned essay — and because there’s no robust watermarking system in place, there’s no way for teachers to be sure which essays were generated with AI.\n\nThis is a pretty low-stakes example of AI harms, but it’s a real thing that is happening right now. Sometimes you design a technology to do good things and it has unintended consequences that make things worse. And the fact that one of the most powerful people in the world refuses to acknowledge this can make people understandably nervous!\n\nZuckerberg also gives an example of how AI will change the legal system for the better:\n\nAs a thought experiment, imagine only one person had a superintelligent lawyer. They would have an unfair advantage in court — even if they were wrong on the merits. That would lead to a worse society. But now imagine everyone has a superintelligent lawyer. In this case, justice would be carried out much more fairly and efficiently than it is today when there is often an imbalance in skills and resources in litigation.\n\nAgain, that’s a loaded example. Sure, access to legal AI might lead to a more just society, but it also might add more complexity to the bureaucratic hellscape that already exists. Or it might unleash a new wave of vexatious litigants that just clog up the works with the legal equivalent of spam. It’s hard to feel calm about any of this stuff, and the fact that Zuckerberg isn’t worried makes me more worried.\n\nIn other places, even descriptions of Meta’s existing business practices start to take on an oddly abstract character. For instance, this is how Zuckerberg describes Meta’s commitment to a freemium model:\n\nEveryone will have free or affordable access to these tools. … We will offer free versions that will be accessible to billions of people. For those who want to pay to use more compute, there will be a dynamic auction mechanism that will guarantee that everyone gets the lowest price possible for the intelligence and compute they’re using while also ensuring the capacity is used for whatever people collectively find most valuable. This will ensure the benefits of superintelligence are distributed widely.\n\nIn broad strokes, I agree with everything he’s saying here. Zuckerberg is right that access is an issue, and he’s right that a freemium model allows for more access than requiring everyone to pay for compute up front. Dynamic markets for spot compute already exist, so it’s not like he’s imagining something completely outside the norm. But there’s a reason every consumer AI product insulates end users from the spot price of the compute they’re using. Surge pricing is a terrible user experience, particularly when it’s deployed on a tool you actually rely on for your work.\n\nAgain, I have to assume that Zuckerberg knows this, and he’s not actually planning to set token prices through dynamic auctions. But I’m actually less sure of that now than I was before I read this piece.\n\nThere are better ways to talk about this stuff. For all their faults, Sam Altman and Dario Amodei do a pretty good job when they’re directly communicating with the public. They do exactly what Zuckerberg resists here: acknowledging the dangers of AI, emphasizing their own precautions, and trying to convince listeners that they can be trusted.\n\nThat communication can only do so much. Sometimes ( especially recently ), the safeguards fail and the inherent danger of the whole enterprise is made clear. But without some kind of trust-building, the industry may not always be able to survive those failures.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the “personal superintelligence” systems Meta AI is building. The ideas in the post aren’t totally new. A version of the essay ran in The Wall Street Journal two weeks ago, and he’s talked about them on Meta earnings calls before. But this is probably the most detailed version he’s shared.",
+      "heading": 0
+    },
+    {
+      "text": "I’ve seen it described as an anti-doomer essay, but that’s not quite right. It’s more of a description of why Mark Zuckerberg is personally excited about the ways AI is going to change society. Yet, even as Zuckerberg tries to paint a picture of the wonderful future abundant superintelligence will bring, he keeps reminding us of all the ways it’s likely to go wrong.",
+      "heading": 0
+    },
+    {
+      "text": "I find AI exciting too — that’s why I keep writing about it — but a lot of the public sees AI as creepy and unpleasant. So it’s worth pinning down exactly what’s happening here, and why Zuckerberg isn’t doing the industry any favors with essays like this.",
+      "heading": 0
+    },
+    {
+      "text": "Social media is still a sensitive topic in the tech industry, and we don’t have the space here to litigate the relative merits of every single complaint people have about Facebook. Suffice it to say, Facebook as a product and Zuckerberg as a person are both unpopular with the U.S. public. A recent survey found that 64% of Americans believe social media has been harmful to democracy and a similar percentage believe it should be more heavily regulated, numbers that cut evenly across partisan lines. Just this weekend, a court fined the company $567 million for being harmful to children. The vibes are bad.",
+      "heading": 0
+    },
+    {
+      "text": "I don’t bring this up to imply that Zuckerberg should withdraw to the wilderness in shame — but the fallout from social media is one of the central reasons we’re now seeing so much anxiety about the social impact of AI. Whether it’s fair or not, the public does not trust tech executives to make sure new technologies like this have a positive impact on society. Instead of acknowledging that and trying to win back their trust, this essay demonstrates over and over again how the trust was lost in the first place.",
+      "heading": 0
+    },
+    {
+      "text": "A large part of the essay is devoted to hazy generalities about intelligence — very similar to the hazy generalities Zuckerberg and Dorsey used to give about free speech. Here is one for instance:",
+      "heading": 0
+    },
+    {
+      "text": "As everyone gains more powerful tools, each person will become more capable of shaping the future, not less. … People and institutions with competing interests naturally check and balance each other to lead towards positive outcomes. The best and most realistic path to building a positive AI future is by delivering superintelligence to everyone.",
+      "heading": 0
+    },
+    {
+      "text": "I guess? I can think of a few examples of conflicting interests leading to bad outcomes, but let’s put that aside. The weirder thing is that this is being presented as an earnest philosophical conclusion, instead of a specific product called “personal intelligence” that Meta is bringing to market. If you’re already inclined to distrust this person, you might worry that they’re writing all this to convince themselves that nothing bad can happen.",
+      "heading": 0
+    },
+    {
+      "text": "That feeling got more intense for me when Zuckerberg got to the specific examples, many of which are alarmingly out of touch with the reality of how AI tools are being used. For instance, this is Zuckerberg’s take on AI in education:",
+      "heading": 0
+    },
+    {
+      "text": "Everyone will have a personalized tutor and coach with a PhD in every subject and unlimited patience to help you learn anything you want. Students will have extra help in areas they need it that is currently only available to those whose parents can pay. Adults will have a superintelligent learning assistant that knows exactly how to teach you new job skills, new languages, new hobbies, or anything else you’re interested in.",
+      "heading": 0
+    },
+    {
+      "text": "Of course, the product Zuckerberg is describing already exists: This is a consumer chatbot like ChatGPT, Claude, and Gemini. These tools really are helpful if you want to learn about a certain topic, but the main way they’re used in education is to avoid learning, since your personalized tutor can do your homework and write your assigned essay — and because there’s no robust watermarking system in place, there’s no way for teachers to be sure which essays were generated with AI.",
+      "heading": 0
+    },
+    {
+      "text": "This is a pretty low-stakes example of AI harms, but it’s a real thing that is happening right now. Sometimes you design a technology to do good things and it has unintended consequences that make things worse. And the fact that one of the most powerful people in the world refuses to acknowledge this can make people understandably nervous!",
+      "heading": 0
+    },
+    {
+      "text": "Zuckerberg also gives an example of how AI will change the legal system for the better:",
+      "heading": 0
+    },
+    {
+      "text": "As a thought experiment, imagine only one person had a superintelligent lawyer. They would have an unfair advantage in court — even if they were wrong on the merits. That would lead to a worse society. But now imagine everyone has a superintelligent lawyer. In this case, justice would be carried out much more fairly and efficiently than it is today when there is often an imbalance in skills and resources in litigation.",
+      "heading": 0
+    },
+    {
+      "text": "Again, that’s a loaded example. Sure, access to legal AI might lead to a more just society, but it also might add more complexity to the bureaucratic hellscape that already exists. Or it might unleash a new wave of vexatious litigants that just clog up the works with the legal equivalent of spam. It’s hard to feel calm about any of this stuff, and the fact that Zuckerberg isn’t worried makes me more worried.",
+      "heading": 0
+    },
+    {
+      "text": "In other places, even descriptions of Meta’s existing business practices start to take on an oddly abstract character. For instance, this is how Zuckerberg describes Meta’s commitment to a freemium model:",
+      "heading": 0
+    },
+    {
+      "text": "Everyone will have free or affordable access to these tools. … We will offer free versions that will be accessible to billions of people. For those who want to pay to use more compute, there will be a dynamic auction mechanism that will guarantee that everyone gets the lowest price possible for the intelligence and compute they’re using while also ensuring the capacity is used for whatever people collectively find most valuable. This will ensure the benefits of superintelligence are distributed widely.",
+      "heading": 0
+    },
+    {
+      "text": "In broad strokes, I agree with everything he’s saying here. Zuckerberg is right that access is an issue, and he’s right that a freemium model allows for more access than requiring everyone to pay for compute up front. Dynamic markets for spot compute already exist, so it’s not like he’s imagining something completely outside the norm. But there’s a reason every consumer AI product insulates end users from the spot price of the compute they’re using. Surge pricing is a terrible user experience, particularly when it’s deployed on a tool you actually rely on for your work.",
+      "heading": 0
+    },
+    {
+      "text": "Again, I have to assume that Zuckerberg knows this, and he’s not actually planning to set token prices through dynamic auctions. But I’m actually less sure of that now than I was before I read this piece.",
+      "heading": 0
+    },
+    {
+      "text": "There are better ways to talk about this stuff. For all their faults, Sam Altman and Dario Amodei do a pretty good job when they’re directly communicating with the public. They do exactly what Zuckerberg resists here: acknowledging the dangers of AI, emphasizing their own precautions, and trying to convince listeners that they can be trusted.",
+      "heading": 0
+    },
+    {
+      "text": "That communication can only do so much. Sometimes ( especially recently ), the safeguards fail and the inherent danger of the whole enterprise is made clear. But without some kind of trust-building, the industry may not always be able to survive those failures.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

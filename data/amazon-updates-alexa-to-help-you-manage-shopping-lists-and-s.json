@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+  "slug": "amazon-updates-alexa-to-help-you-manage-shopping-lists-and-s",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1252468735.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+    "episode": ""
+  },
+  "words": 262,
+  "lines": 16,
+  "duration": 87,
+  "text": "Posted:\n\nIvan Mehta\n\nAmazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions\n\nAhead of the holiday season, Amazon has added more than 100 new shopping-related capabilities to Alexa, including managing subscriptions and lists, updating delivery instructions, solving payment issues, and answering questions about Prime subscriptions.\n\nThe update allows you to use Alexa to create lists, register them, see what’s on them, and add or edit items. You can also manage subscriptions with the AI bot — for example, you could ask it to change deliveries for an item to every three months instead of every month — and edit delivery instructions, such as change an address or add drop-off details.\n\nUsers also can now ask Alexa about their Prime or Audible subscriptions, and ask it questions about billing or payment issues.\n\nAmazon has launched various AI-centric shopping features this year, including a shopping assistant and a way to notify users about new products and offers.\n\nThe company said that since the start of the year, the number of people using agentic features has grown 8x, and over the last 12 months, over 400 million consumers have used Alexa for shopping.\n\nTopics\n\nSuperhuman pushes its Go assistant everywhere\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nSarah Perez\n\nLatest in Commerce\n\nSatya Nadella predicts AI agents will reshuffle the economics of the web\n\nDaydream’s new AI agent acts as your personal stylist — and can shop for you, too\n\nChatGPT’s new Wallet lets AI agents shop and check out for you",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Ivan Mehta",
+      "heading": 1
+    },
+    {
+      "text": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+      "heading": 0
+    },
+    {
+      "text": "Ahead of the holiday season, Amazon has added more than 100 new shopping-related capabilities to Alexa, including managing subscriptions and lists, updating delivery instructions, solving payment issues, and answering questions about Prime subscriptions.",
+      "heading": 0
+    },
+    {
+      "text": "The update allows you to use Alexa to create lists, register them, see what’s on them, and add or edit items. You can also manage subscriptions with the AI bot — for example, you could ask it to change deliveries for an item to every three months instead of every month — and edit delivery instructions, such as change an address or add drop-off details.",
+      "heading": 0
+    },
+    {
+      "text": "Users also can now ask Alexa about their Prime or Audible subscriptions, and ask it questions about billing or payment issues.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon has launched various AI-centric shopping features this year, including a shopping assistant and a way to notify users about new products and offers.",
+      "heading": 0
+    },
+    {
+      "text": "The company said that since the start of the year, the number of people using agentic features has grown 8x, and over the last 12 months, over 400 million consumers have used Alexa for shopping.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Superhuman pushes its Go assistant everywhere",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Commerce",
+      "heading": 1
+    },
+    {
+      "text": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "heading": 0
+    },
+    {
+      "text": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "heading": 0
+    },
+    {
+      "text": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "heading": 0
+    }
+  ]
+}

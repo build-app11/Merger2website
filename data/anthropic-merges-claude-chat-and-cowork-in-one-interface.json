@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Anthropic merges Claude chat and Cowork in one interface",
+  "slug": "anthropic-merges-claude-chat-and-cowork-in-one-interface",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+    "episode": ""
+  },
+  "words": 362,
+  "lines": 13,
+  "duration": 121,
+  "text": "Anthropic is merging its front end for Claude chat and Cowork, making it less confusing for people to decide which tab to use for different tasks.\n\nThe unified interface lets users access chat, Cowork, and Artifacts (Claude’s interactive workspace feature) within one window. Claude Design, which was introduced in April for website and prototype design, also works anywhere within Claude.\n\nBefore this rollout, the company said customers often struggled to choose the right tab for the right task. With the new design, Claude automatically routes requests without having to switch tabs or windows. The idea is to remove confusion about which feature to pick and use just one front end to route work to different parts of the app.\n\nHopefully, OpenAI also takes a cue from this rollout and fixes ChatGPT’s interface across the platforms.\n\nAnthropic is also adding dedicated features for making presentations and documents. Users can ask the AI assistant to create, edit, and present slides, and it can also download the generated presentation as a PDF or PowerPoint.\n\nSimilarly, with the Docs feature, users can work alongside Claude to create sections, ask questions, and comment on completed parts. Users can share generated documents or slides with a link and edit them on their phone.\n\nUsers can also ask Claude to start creating a document on desktop, and they can check the progress of the task using the mobile app.\n\nThese features are rolling out to Claude’s Pro and Max plans first, on the web, desktop, and mobile over the coming weeks. The company plans to extend them to the free and team tiers later.\n\nThe update comes in the wake of an upgrade of Cowork’s memory layer, which helps Claude remember user context across chats.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Anthropic is merging its front end for Claude chat and Cowork, making it less confusing for people to decide which tab to use for different tasks.",
+      "heading": 0
+    },
+    {
+      "text": "The unified interface lets users access chat, Cowork, and Artifacts (Claude’s interactive workspace feature) within one window. Claude Design, which was introduced in April for website and prototype design, also works anywhere within Claude.",
+      "heading": 0
+    },
+    {
+      "text": "Before this rollout, the company said customers often struggled to choose the right tab for the right task. With the new design, Claude automatically routes requests without having to switch tabs or windows. The idea is to remove confusion about which feature to pick and use just one front end to route work to different parts of the app.",
+      "heading": 0
+    },
+    {
+      "text": "Hopefully, OpenAI also takes a cue from this rollout and fixes ChatGPT’s interface across the platforms.",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic is also adding dedicated features for making presentations and documents. Users can ask the AI assistant to create, edit, and present slides, and it can also download the generated presentation as a PDF or PowerPoint.",
+      "heading": 0
+    },
+    {
+      "text": "Similarly, with the Docs feature, users can work alongside Claude to create sections, ask questions, and comment on completed parts. Users can share generated documents or slides with a link and edit them on their phone.",
+      "heading": 0
+    },
+    {
+      "text": "Users can also ask Claude to start creating a document on desktop, and they can check the progress of the task using the mobile app.",
+      "heading": 0
+    },
+    {
+      "text": "These features are rolling out to Claude’s Pro and Max plans first, on the web, desktop, and mobile over the coming weeks. The company plans to extend them to the free and team tiers later.",
+      "heading": 0
+    },
+    {
+      "text": "The update comes in the wake of an upgrade of Cowork’s memory layer, which helps Claude remember user context across chats.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

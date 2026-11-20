@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+  "slug": "macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-b",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/MacPaw-x-Liquid-AI.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+    "episode": ""
+  },
+  "words": 409,
+  "lines": 13,
+  "duration": 136,
+  "text": "Ukraine-based app developer MacPaw has partnered with Liquid AI to power its products with locally hosted AI models, and eventually make the tech stack available to developers. The company is also preparing its SetApp app store for AI apps with credit-based plans for users.\n\nMacPaw is currently working on its AI assistant Eney, which it unveiled last year, and now plans to build a locally hosted version, for which it has roped in Liquid AI to develop an on-device inference system called Elix as well as a local memory system.\n\n“Before training our models, we select an architecture that is different and tailored to the hardware. That allows us to really have the most efficient version of intelligence that runs directly on the device, with benefits like privacy and security,” Liquid AI’s co-founder and CEO Ramin Hasani told TechCrunch.\n\nMacPaw’s CEO Oleksandr Kosovan said locally hosted AI models will also give users the ability to run assistants and agentic workflows offline.\n\nNotably, Apple already provides its own local models to developers. But Hasani maintains that Liquid AI’s models focus on performance for different capabilities.\n\n“We are also building a customization stack around models. This means that with user input, the models can use the data and improve. We want our models to be adaptable and become more intelligent over time,” Hasani said.\n\nMacPaw plans to focus more on AI apps for its subscription-based app store, SetApp, which has over 150,000 paying users.\n\nOnce it locks in the local processing architecture with Liquid AI, MacPaw wants to make the tech available to developers so they can use on-device inference with their apps. Kosovan said the platform will also provide access to other cloud models from companies like Google, acting as a one-stop shop for developers.\n\nMacPaw is already experimenting with credit-based pricing for the app store, where users can perform a certain number of AI operations based on the credits they have and the complexity of the task.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Ukraine-based app developer MacPaw has partnered with Liquid AI to power its products with locally hosted AI models, and eventually make the tech stack available to developers. The company is also preparing its SetApp app store for AI apps with credit-based plans for users.",
+      "heading": 0
+    },
+    {
+      "text": "MacPaw is currently working on its AI assistant Eney, which it unveiled last year, and now plans to build a locally hosted version, for which it has roped in Liquid AI to develop an on-device inference system called Elix as well as a local memory system.",
+      "heading": 0
+    },
+    {
+      "text": "“Before training our models, we select an architecture that is different and tailored to the hardware. That allows us to really have the most efficient version of intelligence that runs directly on the device, with benefits like privacy and security,” Liquid AI’s co-founder and CEO Ramin Hasani told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "MacPaw’s CEO Oleksandr Kosovan said locally hosted AI models will also give users the ability to run assistants and agentic workflows offline.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, Apple already provides its own local models to developers. But Hasani maintains that Liquid AI’s models focus on performance for different capabilities.",
+      "heading": 0
+    },
+    {
+      "text": "“We are also building a customization stack around models. This means that with user input, the models can use the data and improve. We want our models to be adaptable and become more intelligent over time,” Hasani said.",
+      "heading": 0
+    },
+    {
+      "text": "MacPaw plans to focus more on AI apps for its subscription-based app store, SetApp, which has over 150,000 paying users.",
+      "heading": 0
+    },
+    {
+      "text": "Once it locks in the local processing architecture with Liquid AI, MacPaw wants to make the tech available to developers so they can use on-device inference with their apps. Kosovan said the platform will also provide access to other cloud models from companies like Google, acting as a one-stop shop for developers.",
+      "heading": 0
+    },
+    {
+      "text": "MacPaw is already experimenting with credit-based pricing for the app store, where users can perform a certain number of AI operations based on the credits they have and the complexity of the task.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

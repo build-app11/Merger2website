@@ -1,0 +1,137 @@
+{
+  "type": "read",
+  "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+  "slug": "instinct-s-powerful-ai-assistant-is-raising-privacy-and-secu",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/11/hand-key-illustration-getty.jpg?resize=1200,786",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+    "episode": ""
+  },
+  "words": 1182,
+  "lines": 28,
+  "duration": 394,
+  "text": "Everyone is buzzing about Instinct, an AI personal assistant still in private access, not only for its incredible capabilities, but also for its potential privacy concerns. The agent, a veritable taskmaster, has been praised as feeling “like magic” and being one of the “most exciting launches” since OpenClaw. However, some testers have also raised concerns about the AI agent’s security model and its worrisome terms of service.\n\nTo be fair, Instinct is still in private testing for now, so these concerns haven’t yet scaled to the wider public at this time.\n\nCreated by a small team led by former Sierra research scientist Noah Shinn, San Francisco-based Instinct is operated by Spear Street Technology, per its terms and California business filings. It’s currently operating in stealth, per PitchBook.\n\nThe AI agent itself works by connecting to your applications and devices, including your email, messaging apps, calendar, and your device’s audio, location, screen, and more. You can text the agent or call it via text message or WhatsApp, asking it to perform various tasks for you, like booking your appointments and reservations, scheduling a ride to the airport, cleaning up your inbox, organizing important information, handling your shopping, finding you cheap flights, and much more.\n\nThough Instinct is described by testers as outperforming their expectations, some have also raised concerns about the company’s approach to customer privacy and security. This raises a timely question: Are the trade-offs of giving AI this level of access and autonomy actually worth it?\n\nFor instance, several people are circulating screenshots from the company’s Terms of Service, which grant Instinct a broad “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models. The terms also detail how Instinct can receive information from users’ devices, including screen captures, cursor movements, and keyboard inputs.\n\nThe terms also allow Instinct to enter into “agreements, commitments, or transactions” on users’ behalf, which would be binding.\n\nlet’s pause for a sec and talk about https://t.co/19wLOjliYq VCs, notable people, successful people hyping it up all week. They all just giving away their emails and all their personal data, emails, messages: “sub-licensable, worldwide, perpetual and irrevocable license to… pic.twitter.com/MWb3LKnvQp\n\nFrom a #cyberhealth perspective, Instinct is a hard no. On the positive side, their policy is 100% forthcoming. However, the access they require comes with responsibility I would not bestow on any company. For those who desire speed or the \"current thing\" if you want to be… https://t.co/HdXO1k18u3 pic.twitter.com/VczQw9P0Sa\n\nOne early adopter, Peter Yang, pointed out that Instinct would not delete his Gmail records when asked. (The team later fixed the problem by adding a tool for deleting external data in its settings, he said.)\n\nHey Instinct, it's not cool to index and retain my emails without my permission and not let me delete them from your records? I can't recommend this to anyone until this is figured out. Thanks @clairevo for spotting this. pic.twitter.com/J2qhYVqwxN\n\nAnother person, Claire Vo, found that Instinct was still summarizing their inbox after disconnecting its access. When she asked Instinct what happened, the bot confirmed that the emails were stored in plain text for later searches.\n\nwhat a thrill! i disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM 😵 here's what happened, and what i've learned 👇 pic.twitter.com/LMGGLXcrD5\n\nMany others questioned the security model, too. One tester was a bit worried when they found that Instinct was able to pull a sign-up code from their email inbox to complete a particular task — in their case, booking a table at a restaurant via Resy. And Hello Patient co-founder Alex Cohen wrote that once he found out how easily Instinct could be phished, he deleted his account:\n\nFor additional context, I don’t think we’re at the point where it’s safe to give AI read/write access to your inbox. I wanted to see how easily Instinct could be phished, so I created a brand new Gmail account and emailed my real personal account with instructions for Instinct… https://t.co/Mh1W3xJQov pic.twitter.com/V5inRtK9Zj\n\nIn addition, Moxxie Ventures founder Katie Jacobs Stanton shared that Instinct broke her trust when it sent an email on her behalf without first checking with her.\n\n“We’re trading privacy and control for hyper-personalized AI tools (AI notetakers, personalized AI agents, etc), often without fully understanding the trade,” she remarked on X, summarizing the dilemma posed personal AI agents. “The more powerful these agents become, the more trust matters. Every successful action earns a little more trust. One unauthorized action can reset that trust to zero,” she said.\n\nInstinct is an amazing product. I've been using it for mostly personal needs and a little bit of work. Last night, it was a little naughty and sent an innocuous email on my behalf without checking with me first. I told it that it had broken my trust and disconnected my email.…\n\nMichael Mignano, the founder of Anchor, which was acquired by Spotify, and now a GP at Union Square Ventures, noted that products like Instinct are going to “change modern security norms for consumers,” adding that “people will increasingly hand over passwords to 3p [third-party] apps, unaware of how or what they are storing for them.”\n\nInterest in Instinct and personal AI has been growing since the arrival of OpenClaw, a personal AI assistant that became popular for its powerful capabilities, leading its founder to join OpenAI to help work on the next generation of personal agents. Another messaging-based assistant, Poke, also just exited to Cognition.\n\nAmid the criticism, Instinct’s team hasn’t yet responded to anyone’s concerns or complaints on X, preferring to keep a low profile. (The bot itself identifies Luca Borletti, also formerly of Sierra, as being involved with the company, but that has not been confirmed.) TechCrunch has heard from multiple investors that Kleiner Perkins and Conviction have invested in the startup and those rounds have now closed.\n\nI've been using Instinct every day for the last week now. It’s been awesome for travel booking, rebookings, restaurant reservations, email follow-ups, CRM management, even working on our data room for LPs. I've tried Hermes, OpenClaw, Tasklet, GrokBot but Instinct takes the cake…\n\nRequests for comment sent to both the startup’s main email address and Shinn directly have not yet been returned.\n\nAfter the publication of this article, Instinct told The WSJ it was taking the security concerns raised seriously, and shared that it was raising a $250 million Series B at a $2.5 billion valuation, led by Index Ventures and Benchmark.\n\nThis story was updated with new funding information after publication.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Everyone is buzzing about Instinct, an AI personal assistant still in private access, not only for its incredible capabilities, but also for its potential privacy concerns. The agent, a veritable taskmaster, has been praised as feeling “like magic” and being one of the “most exciting launches” since OpenClaw. However, some testers have also raised concerns about the AI agent’s security model and its worrisome terms of service.",
+      "heading": 0
+    },
+    {
+      "text": "To be fair, Instinct is still in private testing for now, so these concerns haven’t yet scaled to the wider public at this time.",
+      "heading": 0
+    },
+    {
+      "text": "Created by a small team led by former Sierra research scientist Noah Shinn, San Francisco-based Instinct is operated by Spear Street Technology, per its terms and California business filings. It’s currently operating in stealth, per PitchBook.",
+      "heading": 0
+    },
+    {
+      "text": "The AI agent itself works by connecting to your applications and devices, including your email, messaging apps, calendar, and your device’s audio, location, screen, and more. You can text the agent or call it via text message or WhatsApp, asking it to perform various tasks for you, like booking your appointments and reservations, scheduling a ride to the airport, cleaning up your inbox, organizing important information, handling your shopping, finding you cheap flights, and much more.",
+      "heading": 0
+    },
+    {
+      "text": "Though Instinct is described by testers as outperforming their expectations, some have also raised concerns about the company’s approach to customer privacy and security. This raises a timely question: Are the trade-offs of giving AI this level of access and autonomy actually worth it?",
+      "heading": 0
+    },
+    {
+      "text": "For instance, several people are circulating screenshots from the company’s Terms of Service, which grant Instinct a broad “perpetual and irrevocable” license to “access, use, host, cache, store, reproduce, transmit, display, publish, distribute, and modify” any of the user’s materials, including for training its AI models. The terms also detail how Instinct can receive information from users’ devices, including screen captures, cursor movements, and keyboard inputs.",
+      "heading": 0
+    },
+    {
+      "text": "The terms also allow Instinct to enter into “agreements, commitments, or transactions” on users’ behalf, which would be binding.",
+      "heading": 0
+    },
+    {
+      "text": "let’s pause for a sec and talk about https://t.co/19wLOjliYq VCs, notable people, successful people hyping it up all week. They all just giving away their emails and all their personal data, emails, messages: “sub-licensable, worldwide, perpetual and irrevocable license to… pic.twitter.com/MWb3LKnvQp",
+      "heading": 0
+    },
+    {
+      "text": "From a #cyberhealth perspective, Instinct is a hard no. On the positive side, their policy is 100% forthcoming. However, the access they require comes with responsibility I would not bestow on any company. For those who desire speed or the \"current thing\" if you want to be… https://t.co/HdXO1k18u3 pic.twitter.com/VczQw9P0Sa",
+      "heading": 0
+    },
+    {
+      "text": "One early adopter, Peter Yang, pointed out that Instinct would not delete his Gmail records when asked. (The team later fixed the problem by adding a tool for deleting external data in its settings, he said.)",
+      "heading": 0
+    },
+    {
+      "text": "Hey Instinct, it's not cool to index and retain my emails without my permission and not let me delete them from your records? I can't recommend this to anyone until this is figured out. Thanks @clairevo for spotting this. pic.twitter.com/J2qhYVqwxN",
+      "heading": 0
+    },
+    {
+      "text": "Another person, Claire Vo, found that Instinct was still summarizing their inbox after disconnecting its access. When she asked Instinct what happened, the bot confirmed that the emails were stored in plain text for later searches.",
+      "heading": 0
+    },
+    {
+      "text": "what a thrill! i disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM 😵 here's what happened, and what i've learned 👇 pic.twitter.com/LMGGLXcrD5",
+      "heading": 0
+    },
+    {
+      "text": "Many others questioned the security model, too. One tester was a bit worried when they found that Instinct was able to pull a sign-up code from their email inbox to complete a particular task — in their case, booking a table at a restaurant via Resy. And Hello Patient co-founder Alex Cohen wrote that once he found out how easily Instinct could be phished, he deleted his account:",
+      "heading": 0
+    },
+    {
+      "text": "For additional context, I don’t think we’re at the point where it’s safe to give AI read/write access to your inbox. I wanted to see how easily Instinct could be phished, so I created a brand new Gmail account and emailed my real personal account with instructions for Instinct… https://t.co/Mh1W3xJQov pic.twitter.com/V5inRtK9Zj",
+      "heading": 0
+    },
+    {
+      "text": "In addition, Moxxie Ventures founder Katie Jacobs Stanton shared that Instinct broke her trust when it sent an email on her behalf without first checking with her.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re trading privacy and control for hyper-personalized AI tools (AI notetakers, personalized AI agents, etc), often without fully understanding the trade,” she remarked on X, summarizing the dilemma posed personal AI agents. “The more powerful these agents become, the more trust matters. Every successful action earns a little more trust. One unauthorized action can reset that trust to zero,” she said.",
+      "heading": 0
+    },
+    {
+      "text": "Instinct is an amazing product. I've been using it for mostly personal needs and a little bit of work. Last night, it was a little naughty and sent an innocuous email on my behalf without checking with me first. I told it that it had broken my trust and disconnected my email.…",
+      "heading": 0
+    },
+    {
+      "text": "Michael Mignano, the founder of Anchor, which was acquired by Spotify, and now a GP at Union Square Ventures, noted that products like Instinct are going to “change modern security norms for consumers,” adding that “people will increasingly hand over passwords to 3p [third-party] apps, unaware of how or what they are storing for them.”",
+      "heading": 0
+    },
+    {
+      "text": "Interest in Instinct and personal AI has been growing since the arrival of OpenClaw, a personal AI assistant that became popular for its powerful capabilities, leading its founder to join OpenAI to help work on the next generation of personal agents. Another messaging-based assistant, Poke, also just exited to Cognition.",
+      "heading": 0
+    },
+    {
+      "text": "Amid the criticism, Instinct’s team hasn’t yet responded to anyone’s concerns or complaints on X, preferring to keep a low profile. (The bot itself identifies Luca Borletti, also formerly of Sierra, as being involved with the company, but that has not been confirmed.) TechCrunch has heard from multiple investors that Kleiner Perkins and Conviction have invested in the startup and those rounds have now closed.",
+      "heading": 0
+    },
+    {
+      "text": "I've been using Instinct every day for the last week now. It’s been awesome for travel booking, rebookings, restaurant reservations, email follow-ups, CRM management, even working on our data room for LPs. I've tried Hermes, OpenClaw, Tasklet, GrokBot but Instinct takes the cake…",
+      "heading": 0
+    },
+    {
+      "text": "Requests for comment sent to both the startup’s main email address and Shinn directly have not yet been returned.",
+      "heading": 0
+    },
+    {
+      "text": "After the publication of this article, Instinct told The WSJ it was taking the security concerns raised seriously, and shared that it was raising a $250 million Series B at a $2.5 billion valuation, led by Index Ventures and Benchmark.",
+      "heading": 0
+    },
+    {
+      "text": "This story was updated with new funding information after publication.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

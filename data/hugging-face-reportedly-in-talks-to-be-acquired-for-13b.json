@@ -1,0 +1,93 @@
+{
+  "type": "read",
+  "title": "Hugging Face reportedly in talks to be acquired for $13B",
+  "slug": "hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+    "episode": ""
+  },
+  "words": 454,
+  "lines": 17,
+  "duration": 151,
+  "text": "Hugging Face has been approached to sell at a valuation of $13 billion or more, Business Insider reported over the weekend.\n\nThe startup’s platform and open source community is where developers and researchers share, find, test, and deploy AI models. Hugging Face was recently the target of an attack from one of OpenAI’s systems, which broke out of its sandbox during a cybersecurity evaluation and breached the startup’s servers.\n\nIt’s not clear who Hugging Face has been in talks with, and no deal has yet been reached, according to Business Insider. However, the startup has reportedly been talking to banks to help evaluate bids.\n\nThe talks come amid increased interest in companies providing core AI infrastructure services, as evidenced by Stripe’s $7 billion acquisition of OpenRouter.\n\nHugging Face last raised in 2023 at a $4.5 billion post-money valuation in a round led by Salesforce Ventures, with participation from Alphabet, GV, IBM Ventures, and others.\n\nOn a recent episode of the TechCrunch Equity podcast, Hugging Face CEO Clem Delangue said that the company was “close to profitability” and only “recently started to touch the money that [it] raised three years ago,” adding that the startup is thinking about how to optimize for “long-term sustainability of the company rather than short-term profits or fundraising maximization.”\n\n“We’re more in a unique position where we can keep creating value for the community and for AI builders,” he said.\n\nThe way Delangue has discussed the company’s responsibility to the Hugging Face community raises questions over whether the startup is truly considering selling or is simply fielding offers for what has become a central pillar in AI infrastructure.\n\n“We’re building a platform for the community, and they’re trusting us with sharing their data and their models on the platform, so we have a long-term responsibility to them,” Delangue said on Equity.\n\nMore to the point, the company earlier this year turned down a $500 million investment from Nvidia that would have valued it at $7 billion, saying at the time that it didn’t want a single dominant investor to sway decisions.\n\nTechCrunch has reached out to Hugging Face for more information.\n\nLoading the player…\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Hugging Face has been approached to sell at a valuation of $13 billion or more, Business Insider reported over the weekend.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s platform and open source community is where developers and researchers share, find, test, and deploy AI models. Hugging Face was recently the target of an attack from one of OpenAI’s systems, which broke out of its sandbox during a cybersecurity evaluation and breached the startup’s servers.",
+      "heading": 0
+    },
+    {
+      "text": "It’s not clear who Hugging Face has been in talks with, and no deal has yet been reached, according to Business Insider. However, the startup has reportedly been talking to banks to help evaluate bids.",
+      "heading": 0
+    },
+    {
+      "text": "The talks come amid increased interest in companies providing core AI infrastructure services, as evidenced by Stripe’s $7 billion acquisition of OpenRouter.",
+      "heading": 0
+    },
+    {
+      "text": "Hugging Face last raised in 2023 at a $4.5 billion post-money valuation in a round led by Salesforce Ventures, with participation from Alphabet, GV, IBM Ventures, and others.",
+      "heading": 0
+    },
+    {
+      "text": "On a recent episode of the TechCrunch Equity podcast, Hugging Face CEO Clem Delangue said that the company was “close to profitability” and only “recently started to touch the money that [it] raised three years ago,” adding that the startup is thinking about how to optimize for “long-term sustainability of the company rather than short-term profits or fundraising maximization.”",
+      "heading": 0
+    },
+    {
+      "text": "“We’re more in a unique position where we can keep creating value for the community and for AI builders,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The way Delangue has discussed the company’s responsibility to the Hugging Face community raises questions over whether the startup is truly considering selling or is simply fielding offers for what has become a central pillar in AI infrastructure.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re building a platform for the community, and they’re trusting us with sharing their data and their models on the platform, so we have a long-term responsibility to them,” Delangue said on Equity.",
+      "heading": 0
+    },
+    {
+      "text": "More to the point, the company earlier this year turned down a $500 million investment from Nvidia that would have valued it at $7 billion, saying at the time that it didn’t want a single dominant investor to sway decisions.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Hugging Face for more information.",
+      "heading": 0
+    },
+    {
+      "text": "Loading the player…",
+      "heading": 1
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

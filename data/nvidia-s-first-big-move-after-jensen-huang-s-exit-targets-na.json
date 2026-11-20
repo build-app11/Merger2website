@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+  "slug": "nvidia-s-first-big-move-after-jensen-huang-s-exit-targets-na",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?resize=1200,799",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+    "episode": ""
+  },
+  "words": 393,
+  "lines": 21,
+  "duration": 131,
+  "text": "Posted:\n\nKirsten Korosec\n\nNvidia’s first big move after Jensen Huang’s exit targets national security\n\nNvidia has formed a committee to oversee national security policies and export control compliance following the abrupt resignation of CEO Jensen Huang over allegations of an affair with a suspected Chinese spy who had links to one of the company’s customers.\n\nNvidia said Tuesday that the new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks. The move comes amid increased scrutiny from U.S. lawmakers over Huang’s alleged ties to the suspected spy and his advocacy for easing restrictions on advanced AI chip exports to China.\n\nThe Commerce Department said Monday it was planning to introduce new export controls on AI chips and data centers outside of the U.S. in an effort to prevent companies in China and elsewhere from circumventing existing rules by remotely accessing AI infrastructure located in other countries. The interim rule was made in direct response to the unfolding chip smuggling scandal at Nvidia.\n\nThe announcement comes just a few hours before Nvidia’s highly anticipated third-quarter earnings call. Analysts, the media, and shareholders expect the company to address the controversy and outline how it might affect operations. This is the first major action by the company under the leadership of Colette Kress, the company’s CFO who took over as interim CEO after Huang stepped down last week.\n\nThe committee, which will meet at least quarterly, will be chaired by director Suzanne Nora Johnson and include fellow directors Stephen C. Neal and John O. Dabiri as members.\n\nNvidia already has a national security team and global trade compliance team. Those teams will now report to this board committee and Kress on day-to-day operations.\n\nHuang has agreed to testify before Congress later this month.\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nAmanda Silberling\n\nPalmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Kirsten Korosec",
+      "heading": 1
+    },
+    {
+      "text": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia has formed a committee to oversee national security policies and export control compliance following the abrupt resignation of CEO Jensen Huang over allegations of an affair with a suspected Chinese spy who had links to one of the company’s customers.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia said Tuesday that the new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks. The move comes amid increased scrutiny from U.S. lawmakers over Huang’s alleged ties to the suspected spy and his advocacy for easing restrictions on advanced AI chip exports to China.",
+      "heading": 0
+    },
+    {
+      "text": "The Commerce Department said Monday it was planning to introduce new export controls on AI chips and data centers outside of the U.S. in an effort to prevent companies in China and elsewhere from circumventing existing rules by remotely accessing AI infrastructure located in other countries. The interim rule was made in direct response to the unfolding chip smuggling scandal at Nvidia.",
+      "heading": 0
+    },
+    {
+      "text": "The announcement comes just a few hours before Nvidia’s highly anticipated third-quarter earnings call. Analysts, the media, and shareholders expect the company to address the controversy and outline how it might affect operations. This is the first major action by the company under the leadership of Colette Kress, the company’s CFO who took over as interim CEO after Huang stepped down last week.",
+      "heading": 0
+    },
+    {
+      "text": "The committee, which will meet at least quarterly, will be chaired by director Suzanne Nora Johnson and include fellow directors Stephen C. Neal and John O. Dabiri as members.",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia already has a national security team and global trade compliance team. Those teams will now report to this board committee and Kress on day-to-day operations.",
+      "heading": 0
+    },
+    {
+      "text": "Huang has agreed to testify before Congress later this month.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

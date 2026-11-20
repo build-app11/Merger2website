@@ -1,0 +1,168 @@
+{
+  "type": "read",
+  "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
+  "slug": "big-ticket-holiday-items-may-be-harder-to-find-as-shipping-c",
+  "category": "News",
+  "channel": "CNBC",
+  "image": "https://image.cnbcfm.com/api/v1/image/107262823-1687813179540-lowes.jpg?v=1745168696&w=1920&h=1080",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.cnbc.com/2026/11/16/holiday-big-ticket-inventory-shipping-costs.html",
+    "episode": ""
+  },
+  "words": 1062,
+  "lines": 36,
+  "duration": 354,
+  "text": "Experts expect higher transport and carrying costs this holiday season will mean retailers have lower inventory of big-ticket items like large TVs and grills.\n\nTransportation executives said they're seeing retailers be cautious on their holiday inventory strategy.\n\nMeanwhile, interest in last-minute delivery is ticking up, and drone company Flytrex said retailers are exploring using drones for holiday delivery.\n\nIn this article\n\nUPS\n\nThis holiday season, big-ticket items are expected to be in short supply with diesel prices near records, trucking rates close to a post-pandemic level and carrying costs hitting multidecade highs. All of that is forcing many retailers to rethink their holiday inventory strategy.\n\n\"We are going to have some of the lowest inventory levels on some of these big-ticket items we have seen in history,\" said Deborah Weinswig, CEO of retail analytics firm Coresight Research.\n\nWeinswig said retailers she is working with are holding less inventory of big-screen TVs, grills, large consumer appliances like washers and dryers, and other items that take either big amounts of space or cost a lot of money to hold.\n\n\"It's freight getting it from there to here; it's carrying costs; then it's just the trucking to get it into the stores,\" Weinswig said. \"We're talking three different pieces right here and each is up significantly year on year.\"\n\nThe surge pricing for supply chain services is being caused by domestic and international policy.\n\nAccording to Evercore ISI, the rates for general trucking have increased more than 47% year over year during the week of Nov. 2.\n\nIndustry experts say a large factor has been a crackdown by the federal government on non-citizen truck drivers and non-U.S.-based truck drivers operating in the U.S. That has created a capacity crunch that has raised rates and is expected to continue to create upward pressure.\n\nAt the same time, fuel surcharges are spiking.\n\nMost transportation providers charge customers an extra fuel surcharge to offset changes in the cost of diesel fuel. That surcharge has spiked 64% year over year, according to Evercore ISI data, as diesel prices have hit new record highs due in part to the U.S.-Israel war with Iran.\n\nAnd inventory holding costs — or the total expense of storing unsold goods, which could include the costs for capital, service, storage and other risk factors — are closely tied to the yield on the 10-year Treasury note, which exceeded 5% in October and remains at multiyear highs in November.\n\nCollectively, the higher costs could mean bigger discounts for shoppers willing to wait, according to Bill Catania, CEO of logistics technology company OneRail, which powers same-day delivery for companies such as FedEx and Lowe's.\n\n\"You're going to see more discount and price promotions as we get closer to the holiday to liquidate inventory, so they're not having to transfer it or dispose of it or position it some other way,\" Catania said.\n\nPlanning for peak\n\nRetailers are also facing a conundrum in their holiday inventory strategy when it comes to shipping costs versus opportunity costs. In other words, is it worth it to stock up now, or wait it out in hopes that shipping rates will come down some but potentially miss out on having the right product mix?\n\nIt's leading to a wait-and-see approach for stocking shelves after early holiday sales in October, executives said.\n\nUPS CEO Carol Tomé said on the company's earnings call on Oct. 27 that it's \"just starting to get peak season forecasts from our customers.\"\n\nSimilarly, Derek Leathers, CEO of Werner Enterprises, a trucker for big-box stores and major retailers, said retailers are cautious.\n\n\"When rates are higher and the cost of capital is more expensive, you are going to have a much more intense focus on not having excess inventory,\" Leathers said.\n\nStill, 2026 holiday sales are expected to top $1 trillion as inflation drives growth and customer spending is expected to remain healthy, according to Bain & Company's annual forecast. Leathers said even with the surge in trucking and shipping rates, he's seeing that retailers are willing to pay up to stock up.\n\n\"The bigger concern right now is wanting to make sure they have their capacity locked in. There is way more dialogue around the assurance of having a truck or whatever mode that needs to be secured,\" Leathers said. \"Not saying they are price insensitive, because they are certainly always concerned about price. But you can't sell it if it's not on the shelf.\"\n\nLast minute and last mile\n\nShipMatrix, a data analytics firm for the logistics industry, forecasts 2.4 billion packages will be delivered during the 2026 holiday peak, a 4% increase year over year.\n\nIt's an increase that will likely lead retailers to increasingly use gig delivery, especially later in the holiday peak. Gig workers allow retailers and delivery companies to adjust to changes in order flow and accommodate surges of last-minute shopping without spending time and money onboarding new team members.\n\n\"Gig economy delivery is great. You know, it fulfills fast, but there's better unit economics out there,\" Catania said.\n\nIndustry experts said they also expect to see more retailers use drones for last-mile delivery for smaller items.\n\nA 2024 PwC study forecast that the cost of drone delivery would \"drop by more than 70% over the next 10 years, which will not only match traditional last-mile delivery costs, but surpass them and create an inflection point for the industry.\"\n\nAmit Regev, CEO of drone company Flytrex, said the company is in active talks with retailers about using drones for holiday deliveries.\n\n\"The expectation now is becoming so much more instant,\" Regev said.\n\nRetailers have been increasing their use of drones. Lowe's in September said it was launching a drone delivery service in partnership with DoorDash and Alphabet's Wing. Amazon earlier this year said it was aiming to offer drone deliveries in nearly 500 U.S. cities and towns by the end of the year.\n\nFlytrex currently delivers for Walmart and a number of restaurants including Little Caesars and Papa John's.\n\n\"Customers are looking for that instant gratification,\" Regev said. \"So if it takes too long, they might not want to order with you. And from what we are seeing that's a stronger incentive for them to try and test or deploy deliveries using drones.\"",
+  "paragraphs": [
+    {
+      "text": "Experts expect higher transport and carrying costs this holiday season will mean retailers have lower inventory of big-ticket items like large TVs and grills.",
+      "heading": 0
+    },
+    {
+      "text": "Transportation executives said they're seeing retailers be cautious on their holiday inventory strategy.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, interest in last-minute delivery is ticking up, and drone company Flytrex said retailers are exploring using drones for holiday delivery.",
+      "heading": 0
+    },
+    {
+      "text": "In this article",
+      "heading": 1
+    },
+    {
+      "text": "UPS",
+      "heading": 1
+    },
+    {
+      "text": "This holiday season, big-ticket items are expected to be in short supply with diesel prices near records, trucking rates close to a post-pandemic level and carrying costs hitting multidecade highs. All of that is forcing many retailers to rethink their holiday inventory strategy.",
+      "heading": 0
+    },
+    {
+      "text": "\"We are going to have some of the lowest inventory levels on some of these big-ticket items we have seen in history,\" said Deborah Weinswig, CEO of retail analytics firm Coresight Research.",
+      "heading": 0
+    },
+    {
+      "text": "Weinswig said retailers she is working with are holding less inventory of big-screen TVs, grills, large consumer appliances like washers and dryers, and other items that take either big amounts of space or cost a lot of money to hold.",
+      "heading": 0
+    },
+    {
+      "text": "\"It's freight getting it from there to here; it's carrying costs; then it's just the trucking to get it into the stores,\" Weinswig said. \"We're talking three different pieces right here and each is up significantly year on year.\"",
+      "heading": 0
+    },
+    {
+      "text": "The surge pricing for supply chain services is being caused by domestic and international policy.",
+      "heading": 0
+    },
+    {
+      "text": "According to Evercore ISI, the rates for general trucking have increased more than 47% year over year during the week of Nov. 2.",
+      "heading": 0
+    },
+    {
+      "text": "Industry experts say a large factor has been a crackdown by the federal government on non-citizen truck drivers and non-U.S.-based truck drivers operating in the U.S. That has created a capacity crunch that has raised rates and is expected to continue to create upward pressure.",
+      "heading": 0
+    },
+    {
+      "text": "At the same time, fuel surcharges are spiking.",
+      "heading": 0
+    },
+    {
+      "text": "Most transportation providers charge customers an extra fuel surcharge to offset changes in the cost of diesel fuel. That surcharge has spiked 64% year over year, according to Evercore ISI data, as diesel prices have hit new record highs due in part to the U.S.-Israel war with Iran.",
+      "heading": 0
+    },
+    {
+      "text": "And inventory holding costs — or the total expense of storing unsold goods, which could include the costs for capital, service, storage and other risk factors — are closely tied to the yield on the 10-year Treasury note, which exceeded 5% in October and remains at multiyear highs in November.",
+      "heading": 0
+    },
+    {
+      "text": "Collectively, the higher costs could mean bigger discounts for shoppers willing to wait, according to Bill Catania, CEO of logistics technology company OneRail, which powers same-day delivery for companies such as FedEx and Lowe's.",
+      "heading": 0
+    },
+    {
+      "text": "\"You're going to see more discount and price promotions as we get closer to the holiday to liquidate inventory, so they're not having to transfer it or dispose of it or position it some other way,\" Catania said.",
+      "heading": 0
+    },
+    {
+      "text": "Planning for peak",
+      "heading": 1
+    },
+    {
+      "text": "Retailers are also facing a conundrum in their holiday inventory strategy when it comes to shipping costs versus opportunity costs. In other words, is it worth it to stock up now, or wait it out in hopes that shipping rates will come down some but potentially miss out on having the right product mix?",
+      "heading": 0
+    },
+    {
+      "text": "It's leading to a wait-and-see approach for stocking shelves after early holiday sales in October, executives said.",
+      "heading": 0
+    },
+    {
+      "text": "UPS CEO Carol Tomé said on the company's earnings call on Oct. 27 that it's \"just starting to get peak season forecasts from our customers.\"",
+      "heading": 0
+    },
+    {
+      "text": "Similarly, Derek Leathers, CEO of Werner Enterprises, a trucker for big-box stores and major retailers, said retailers are cautious.",
+      "heading": 0
+    },
+    {
+      "text": "\"When rates are higher and the cost of capital is more expensive, you are going to have a much more intense focus on not having excess inventory,\" Leathers said.",
+      "heading": 0
+    },
+    {
+      "text": "Still, 2026 holiday sales are expected to top $1 trillion as inflation drives growth and customer spending is expected to remain healthy, according to Bain & Company's annual forecast. Leathers said even with the surge in trucking and shipping rates, he's seeing that retailers are willing to pay up to stock up.",
+      "heading": 0
+    },
+    {
+      "text": "\"The bigger concern right now is wanting to make sure they have their capacity locked in. There is way more dialogue around the assurance of having a truck or whatever mode that needs to be secured,\" Leathers said. \"Not saying they are price insensitive, because they are certainly always concerned about price. But you can't sell it if it's not on the shelf.\"",
+      "heading": 0
+    },
+    {
+      "text": "Last minute and last mile",
+      "heading": 1
+    },
+    {
+      "text": "ShipMatrix, a data analytics firm for the logistics industry, forecasts 2.4 billion packages will be delivered during the 2026 holiday peak, a 4% increase year over year.",
+      "heading": 0
+    },
+    {
+      "text": "It's an increase that will likely lead retailers to increasingly use gig delivery, especially later in the holiday peak. Gig workers allow retailers and delivery companies to adjust to changes in order flow and accommodate surges of last-minute shopping without spending time and money onboarding new team members.",
+      "heading": 0
+    },
+    {
+      "text": "\"Gig economy delivery is great. You know, it fulfills fast, but there's better unit economics out there,\" Catania said.",
+      "heading": 0
+    },
+    {
+      "text": "Industry experts said they also expect to see more retailers use drones for last-mile delivery for smaller items.",
+      "heading": 0
+    },
+    {
+      "text": "A 2024 PwC study forecast that the cost of drone delivery would \"drop by more than 70% over the next 10 years, which will not only match traditional last-mile delivery costs, but surpass them and create an inflection point for the industry.\"",
+      "heading": 0
+    },
+    {
+      "text": "Amit Regev, CEO of drone company Flytrex, said the company is in active talks with retailers about using drones for holiday deliveries.",
+      "heading": 0
+    },
+    {
+      "text": "\"The expectation now is becoming so much more instant,\" Regev said.",
+      "heading": 0
+    },
+    {
+      "text": "Retailers have been increasing their use of drones. Lowe's in September said it was launching a drone delivery service in partnership with DoorDash and Alphabet's Wing. Amazon earlier this year said it was aiming to offer drone deliveries in nearly 500 U.S. cities and towns by the end of the year.",
+      "heading": 0
+    },
+    {
+      "text": "Flytrex currently delivers for Walmart and a number of restaurants including Little Caesars and Papa John's.",
+      "heading": 0
+    },
+    {
+      "text": "\"Customers are looking for that instant gratification,\" Regev said. \"So if it takes too long, they might not want to order with you. And from what we are seeing that's a stronger incentive for them to try and test or deploy deliveries using drones.\"",
+      "heading": 0
+    }
+  ]
+}

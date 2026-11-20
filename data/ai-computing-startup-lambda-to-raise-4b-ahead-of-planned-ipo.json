@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+  "slug": "ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-1148109686.jpg?resize=1200,687",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+    "episode": ""
+  },
+  "words": 417,
+  "lines": 22,
+  "duration": 139,
+  "text": "Posted:\n\nRebecca Bellan\n\nAI computing startup Lambda to raise $4B ahead of planned IPO\n\nCloud provider Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation, marking what could be its last private round before a planned 2027 IPO, according to The Wall Street Journal. Coatue Management and Blackstone are leading the round.\n\nA letter to investors reviewed by the Journal shows Lambda’s backlog grew from $15 billion in June to $50 billion in September. While that might look like a hearty increase in demand, much of that increase appears to be driven by a $35 billion commitment from one company: Anthropic, which signed a deal with Lambda in late August.\n\nThat means Lambda’s valuation, which has climbed significantly since its 2025 funding round, could be leaning heavily on Anthropic’s ability to keep paying. Still, with reliable GPU capacity so scarce, investors are clearly still willing to bet on companies that provide it, especially ones with large contracts with a major AI lab.\n\nFor neoclouds like Lambda, demand isn’t so much the problem as is the cost of meeting it. Data center buildouts are largely funded by debt — of which Lambda just raised an additional $1 billion last week — and lenders are getting choosier about who they offer cash to and under what circumstances. Lambda’s decision to raise more now not only sets the tone for its IPO pricing, but also gives it access to more capital before the scrutiny of public markets arrives.\n\nIf and when Lambda does IPO — the company was reportedly meant to debut this year, but has pushed that back amid market uncertainty — it will join other Nvidia-backed neoclouds, like CoreWeave and Nebius, that now depend on the health of their stock to fund their data center buildouts. British neocloud Nscale filed for an IPO last month and is expected to begin trading soon.\n\nLambda, Coatue, and Blackstone did not immediately respond to a request for comment.\n\nTopics\n\nAnthropic’s IPO could deliver $156B to charity\n\nTim Fernholz\n\nAnthropic’s IPO puts AI’s circular financing boom to the test\n\nAnthropic prices IPO at $83 a share, above projected range\n\nMarina Temkin\n\nLatest in Fundraising\n\nIsomorphic Labs raises $5B as it looks to take drug candidates to clinical trials\n\nRam Iyer\n\nCybersecurity AI startup Corma reaches $1B valuation in about 3 months\n\nJulie Bort\n\nBedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings\n\nTim De Chant",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Rebecca Bellan",
+      "heading": 1
+    },
+    {
+      "text": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "heading": 0
+    },
+    {
+      "text": "Cloud provider Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation, marking what could be its last private round before a planned 2027 IPO, according to The Wall Street Journal. Coatue Management and Blackstone are leading the round.",
+      "heading": 0
+    },
+    {
+      "text": "A letter to investors reviewed by the Journal shows Lambda’s backlog grew from $15 billion in June to $50 billion in September. While that might look like a hearty increase in demand, much of that increase appears to be driven by a $35 billion commitment from one company: Anthropic, which signed a deal with Lambda in late August.",
+      "heading": 0
+    },
+    {
+      "text": "That means Lambda’s valuation, which has climbed significantly since its 2025 funding round, could be leaning heavily on Anthropic’s ability to keep paying. Still, with reliable GPU capacity so scarce, investors are clearly still willing to bet on companies that provide it, especially ones with large contracts with a major AI lab.",
+      "heading": 0
+    },
+    {
+      "text": "For neoclouds like Lambda, demand isn’t so much the problem as is the cost of meeting it. Data center buildouts are largely funded by debt — of which Lambda just raised an additional $1 billion last week — and lenders are getting choosier about who they offer cash to and under what circumstances. Lambda’s decision to raise more now not only sets the tone for its IPO pricing, but also gives it access to more capital before the scrutiny of public markets arrives.",
+      "heading": 0
+    },
+    {
+      "text": "If and when Lambda does IPO — the company was reportedly meant to debut this year, but has pushed that back amid market uncertainty — it will join other Nvidia-backed neoclouds, like CoreWeave and Nebius, that now depend on the health of their stock to fund their data center buildouts. British neocloud Nscale filed for an IPO last month and is expected to begin trading soon.",
+      "heading": 0
+    },
+    {
+      "text": "Lambda, Coatue, and Blackstone did not immediately respond to a request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic prices IPO at $83 a share, above projected range",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin",
+      "heading": 1
+    },
+    {
+      "text": "Latest in Fundraising",
+      "heading": 1
+    },
+    {
+      "text": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "heading": 0
+    },
+    {
+      "text": "Ram Iyer",
+      "heading": 1
+    },
+    {
+      "text": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "heading": 0
+    },
+    {
+      "text": "Tim De Chant",
+      "heading": 1
+    }
+  ]
+}

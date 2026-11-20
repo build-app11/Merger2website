@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+  "slug": "plants-can-speak-using-electricity-so-this-startup-built-an",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/electric-plant-bud-sensor.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+    "episode": ""
+  },
+  "words": 728,
+  "lines": 21,
+  "duration": 243,
+  "text": "Justin Mast’s life was changed by a cyborg plant.\n\nA few years ago, Mast was reading through some scientific literature when he stumbled upon research about a houseplant wired to a motorized stand. When the plant wanted more light, electrical signals flowed through the living tissues. A control board sensed the current and wheeled the plant closer to the light source.\n\n“I’m like, what the heck?” Mast told TechCrunch. “That was the entry to the rabbit hole for me.”\n\nMast wound up partnering with Lee von Kraus, a neuroscientist who has worked with DARPA, to found Electric Plant, which has been spending the past three years collecting data to build a large language model, Bombadil, capable of interpreting the subtle electrical signals coursing through a plant’s stem and relaying details about the plant’s needs to growers.\n\nThe founders believe their model could one day lead to a tool that would let people “speak” to plants. “We’re listening more than we’re speaking, but listening’s the first step,” said Mast, co-founder and CEO of Electric Plant.\n\nTo bring its sensors and Bombadil to market, Electric Plant recently raised an $11.2 million seed round led by Onto Ventures and Climactic, with participation from Ponderosa, Endeavor Catalyst, Ludlow, Michigan Rise, The Fund, Schox VC, and Dug Song.\n\nEven in the most controlled greenhouses, farmers and growers don’t have full visibility of what their plants require, Mast said. Traditionally, farmers, growers, and foresters have relied on coarse tools that react to plants’ demands for water, nutrients, or light. And tools like soil probes, handheld spectroscopes, and satellite imagery work well enough, but they leave much to be desired, Mast said.\n\n“That technology is sophisticated, but its ability to get at the inside of the plant isn’t very sophisticated. Most of that stuff still lags quite a bit behind the real-time needs of the plant,” he said.\n\nElectric Plant had to start somewhere, though, so it used those devices to train its Bombadil model, which is capable of interpreting electrical signals in about 125 different species. “We know the model will surpass a lot of that equipment,” Mast said.\n\nThe startup’s sensors are also significantly cheaper than existing tools, which generally cost thousands of dollars. “This is tens of dollars,” he said.\n\nThe sensors, about the size of a regular iPhone folded lengthwise, are attached to a plant using stainless steel screws. The screws must penetrate the cambium — the layer of living tissue just under the bark — to connect to the microvolt changes occurring within the plant. Data collected from these sensors is sent to a base station via a low-power wireless network.\n\nElectric Plant only needs a couple sensors per acre for accurate results, Mast said. The data gets interpreted by Bombadil in the cloud, and the results are sent back to the customer, who can use it to, for example, adjust their watering or fertilizer schedules. Mast claims such a system can boost yields while reducing water use by 20% or more.\n\nMast wouldn’t disclose who Electric Plant’s initial customers are, but it’s easy to imagine applications in agriculture and forestry.\n\nBombadil’s first hundred-plus species runs the gamut of plant forms, from ferns, redwoods, and tomatoes to dahlias, Mast said.\n\n“This is the most diverse model ever created on biological electrical signals,” he said. “No one’s ever done anything equivalent to this in the animal world.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Justin Mast’s life was changed by a cyborg plant.",
+      "heading": 0
+    },
+    {
+      "text": "A few years ago, Mast was reading through some scientific literature when he stumbled upon research about a houseplant wired to a motorized stand. When the plant wanted more light, electrical signals flowed through the living tissues. A control board sensed the current and wheeled the plant closer to the light source.",
+      "heading": 0
+    },
+    {
+      "text": "“I’m like, what the heck?” Mast told TechCrunch. “That was the entry to the rabbit hole for me.”",
+      "heading": 0
+    },
+    {
+      "text": "Mast wound up partnering with Lee von Kraus, a neuroscientist who has worked with DARPA, to found Electric Plant, which has been spending the past three years collecting data to build a large language model, Bombadil, capable of interpreting the subtle electrical signals coursing through a plant’s stem and relaying details about the plant’s needs to growers.",
+      "heading": 0
+    },
+    {
+      "text": "The founders believe their model could one day lead to a tool that would let people “speak” to plants. “We’re listening more than we’re speaking, but listening’s the first step,” said Mast, co-founder and CEO of Electric Plant.",
+      "heading": 0
+    },
+    {
+      "text": "To bring its sensors and Bombadil to market, Electric Plant recently raised an $11.2 million seed round led by Onto Ventures and Climactic, with participation from Ponderosa, Endeavor Catalyst, Ludlow, Michigan Rise, The Fund, Schox VC, and Dug Song.",
+      "heading": 0
+    },
+    {
+      "text": "Even in the most controlled greenhouses, farmers and growers don’t have full visibility of what their plants require, Mast said. Traditionally, farmers, growers, and foresters have relied on coarse tools that react to plants’ demands for water, nutrients, or light. And tools like soil probes, handheld spectroscopes, and satellite imagery work well enough, but they leave much to be desired, Mast said.",
+      "heading": 0
+    },
+    {
+      "text": "“That technology is sophisticated, but its ability to get at the inside of the plant isn’t very sophisticated. Most of that stuff still lags quite a bit behind the real-time needs of the plant,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Electric Plant had to start somewhere, though, so it used those devices to train its Bombadil model, which is capable of interpreting electrical signals in about 125 different species. “We know the model will surpass a lot of that equipment,” Mast said.",
+      "heading": 0
+    },
+    {
+      "text": "The startup’s sensors are also significantly cheaper than existing tools, which generally cost thousands of dollars. “This is tens of dollars,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "The sensors, about the size of a regular iPhone folded lengthwise, are attached to a plant using stainless steel screws. The screws must penetrate the cambium — the layer of living tissue just under the bark — to connect to the microvolt changes occurring within the plant. Data collected from these sensors is sent to a base station via a low-power wireless network.",
+      "heading": 0
+    },
+    {
+      "text": "Electric Plant only needs a couple sensors per acre for accurate results, Mast said. The data gets interpreted by Bombadil in the cloud, and the results are sent back to the customer, who can use it to, for example, adjust their watering or fertilizer schedules. Mast claims such a system can boost yields while reducing water use by 20% or more.",
+      "heading": 0
+    },
+    {
+      "text": "Mast wouldn’t disclose who Electric Plant’s initial customers are, but it’s easy to imagine applications in agriculture and forestry.",
+      "heading": 0
+    },
+    {
+      "text": "Bombadil’s first hundred-plus species runs the gamut of plant forms, from ferns, redwoods, and tomatoes to dahlias, Mast said.",
+      "heading": 0
+    },
+    {
+      "text": "“This is the most diverse model ever created on biological electrical signals,” he said. “No one’s ever done anything equivalent to this in the animal world.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

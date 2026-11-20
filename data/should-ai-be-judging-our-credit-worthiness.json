@@ -1,0 +1,228 @@
+{
+  "type": "read",
+  "title": "Should AI be judging our credit worthiness?",
+  "slug": "should-ai-be-judging-our-credit-worthiness",
+  "category": "News",
+  "channel": "BBC News",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5352/live/663fec10-d765-11f1-93e1-3b657b665bcf.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 1109,
+  "lines": 51,
+  "duration": 370,
+  "text": "Published 27 minutes ago\n\nGetting approval for a mortgage, a car loan or even a mobile phone contract can rest on a credit score.\n\nSophie Hope was on the sharp end of just such a decision.\n\n\"When I first checked my credit score, it was excellent. But then my mortgage application was suddenly denied by the lender because of my credit report. It was a massive shock as I'd never had bad credit. When I looked into it, my score had gone to 'very poor',\" she says.\n\nIt turns out, the Brighton-based nail technician and content creator, had been the victim of identity fraud.\n\n\"Someone had opened accounts in my name across various catalogue sites and ordered multiple items, including a PlayStation 4 and Nike socks,\" she says.\n\n\"Without me knowing, the debt was transferred to a secondary finance company. It spent three to four years accumulating in the background. It was only when I went to apply for a mortgage that I discovered how severely it had dragged down my credit score,\" she says.\n\nHope's experience shows how crucial a credit score can be, but, as in her case, it does not tell the full story.\n\n\"As a nation, we are overly obsessed with credit scores,\" says Funmi Olufunwa, a consumer finance lawyer and founder of financial education business, Hoops Finance.\n\nThree firms - Experian, Equifax and TransUnion - produce credit scores in the UK, and they all work from roughly the same data.\n\n\"A credit score is backward looking. It's looking at what has happened in the past, which doesn't necessarily predict the future,\" says Olufunwa.\n\n\"But when somebody's looking to lend you money, they're looking at what actually is affordable,\" she says.\n\nTraditional credit scoring systems also disadvantage \"thin-file applicants\" - young people and recent immigrants to the UK who won't have built up a credit history.\n\nBut with more financial data available than ever before - and a growing appetite for AI to make sense of it - could artificial intelligence help lenders work out who is safe to lend to?\n\nIn the US lending decisions will often hinge on a credit score from a company called FICO, which uses data from the big three credit assessment firms.\n\nBut AI-powered lending firms, Upstart and Zest AI have both built businesses which offer lenders an extra option when it comes to assessing a client's credit worthiness.\n\n\"Thanks to our machine-learning models that look at more than 2,500 variables, we believe we can make significantly more loans at low prices to borrowers from every demographic group,\" Upstart said in statement.\n\nMortgage expert and founder and CEO of The Mortgage Mum, Sarah Tucker says: \"AI has the potential to help lenders analyse much broader sets of information, identify patterns more quickly and build a more individual picture of someone's affordability and risk.\"\n\nIf technology allows lenders to understand so-called thin-file applicants better, rather than simply applying increasingly rigid rules, Tucker believes there is \"a real opportunity to improve financial inclusion\".\n\nBut like with many other applications of AI into everyday life, there are concerns.\n\n\"Consumers need to understand what information is being used to make decisions about them, and they need to be able to challenge something when it is wrong,\" Tucker explains.\n\nCredit scores have been a contentious topic for decades for this very reason, says Sandra Wachter, professor of Technology and Regulation at the University of Oxford.\n\n\"We are not assessing if past decisions were right,\" Wachter argues, adding, AI does not know about existing social inequalities that impact decisions and could just \"replicate what it has seen in the past\".\n\nWhile companies like Upstart and Zest AI see technology as a tool for financial inclusion, Wachter believes that real transformation requires accountability, as well as automation.\n\nShe stresses that firms must apply existing regulations and establish new guardrails to ensure that AI does not simply perpetuate the biases of the past.\n\n\"Not putting any safeguards in place will fortify, foster, and enhance discrimination.\"\n\nUpstart says it is tackling that issue.\n\n\"We've invested in creating objective, automated evaluations to identify bias, and we've incorporated those evaluations into our model training process so it evolves to become even more accurate and more fair over time,\" the company said in a statement.\n\nEvangeline Atkinson had a frustrating experience over her credit score.\n\n\"I was at university, paying rent, paying bills, as I had been doing for many years. I tried to get a £30-a-month phone contract, and they said no,\" she recalls.\n\n\"When I dug into it, it was because I was completely invisible to the system. No record could be found for me at any of the big three credit reference agencies.\"\n\nThat experience inspired her to try to change the system.\n\nIn 2021, Atkinson founded a credit reference agency with her best-friend from school, who had also experienced difficulties getting credit.\n\nTheir firm, Noggin HQ, was authorised by the FCA in June. Atkinson explains it was set up to help consumers access affordable credit by analysing their current account transactional data.\n\nThe platform helps lenders interpret thousands of individual data points about a person's spending habits.\n\nCrucially, it does this without using AI, which Atkinson has also argued \"carries the risk of inbuilt bias\".\n\n\"You have to be very careful\", she warns. \"It's very sensitive data and it would be very easy for the models to be inferring various kind of protected characteristics.\"\n\nPerhaps conscious of change, the big three credit scoring firms have all started experimenting with AI.\n\nExperian announced a partnership with OpenAI in August 2026, letting users check their credit score inside ChatGPT. Equifax launched a platform called Equifax Amplify AI, which it says uses machine learning to sharpen credit assessment and fraud detection.\n\nMeanwhile, in March TransUnion announced it was integrating Google's Gemini models \"within its proprietary analytic data assets\".\n\nAs for the future of credit scoring, companies are starting to look beyond traditional methods, according to consumer finance lawyer Funmi Olufunwa.\n\n\"They are beginning to realise that traditional credit scoring is inherently backward-looking, and that there are better predictors of the future out there.\"\n\nWhether consumers will be happy with AI playing a part in working out their future credit ratings is another thing.\n\nAny change might be led by the younger, tech-savvy generation.\n\n\"They feel comfortable with their data being used this way, simply because it's the world they've grown up in.\n\n\"I wonder if older cohorts, who may not use technology as much, will be quite as comfortable with it,\" says Olufunwa.\n\nInternational Business\n\nTechnology of Business\n\nArtificial intelligence\n\nMortgages\n\nPersonal finance",
+  "paragraphs": [
+    {
+      "text": "Published 27 minutes ago",
+      "heading": 1
+    },
+    {
+      "text": "Getting approval for a mortgage, a car loan or even a mobile phone contract can rest on a credit score.",
+      "heading": 0
+    },
+    {
+      "text": "Sophie Hope was on the sharp end of just such a decision.",
+      "heading": 0
+    },
+    {
+      "text": "\"When I first checked my credit score, it was excellent. But then my mortgage application was suddenly denied by the lender because of my credit report. It was a massive shock as I'd never had bad credit. When I looked into it, my score had gone to 'very poor',\" she says.",
+      "heading": 0
+    },
+    {
+      "text": "It turns out, the Brighton-based nail technician and content creator, had been the victim of identity fraud.",
+      "heading": 0
+    },
+    {
+      "text": "\"Someone had opened accounts in my name across various catalogue sites and ordered multiple items, including a PlayStation 4 and Nike socks,\" she says.",
+      "heading": 0
+    },
+    {
+      "text": "\"Without me knowing, the debt was transferred to a secondary finance company. It spent three to four years accumulating in the background. It was only when I went to apply for a mortgage that I discovered how severely it had dragged down my credit score,\" she says.",
+      "heading": 0
+    },
+    {
+      "text": "Hope's experience shows how crucial a credit score can be, but, as in her case, it does not tell the full story.",
+      "heading": 0
+    },
+    {
+      "text": "\"As a nation, we are overly obsessed with credit scores,\" says Funmi Olufunwa, a consumer finance lawyer and founder of financial education business, Hoops Finance.",
+      "heading": 0
+    },
+    {
+      "text": "Three firms - Experian, Equifax and TransUnion - produce credit scores in the UK, and they all work from roughly the same data.",
+      "heading": 0
+    },
+    {
+      "text": "\"A credit score is backward looking. It's looking at what has happened in the past, which doesn't necessarily predict the future,\" says Olufunwa.",
+      "heading": 0
+    },
+    {
+      "text": "\"But when somebody's looking to lend you money, they're looking at what actually is affordable,\" she says.",
+      "heading": 0
+    },
+    {
+      "text": "Traditional credit scoring systems also disadvantage \"thin-file applicants\" - young people and recent immigrants to the UK who won't have built up a credit history.",
+      "heading": 0
+    },
+    {
+      "text": "But with more financial data available than ever before - and a growing appetite for AI to make sense of it - could artificial intelligence help lenders work out who is safe to lend to?",
+      "heading": 0
+    },
+    {
+      "text": "In the US lending decisions will often hinge on a credit score from a company called FICO, which uses data from the big three credit assessment firms.",
+      "heading": 0
+    },
+    {
+      "text": "But AI-powered lending firms, Upstart and Zest AI have both built businesses which offer lenders an extra option when it comes to assessing a client's credit worthiness.",
+      "heading": 0
+    },
+    {
+      "text": "\"Thanks to our machine-learning models that look at more than 2,500 variables, we believe we can make significantly more loans at low prices to borrowers from every demographic group,\" Upstart said in statement.",
+      "heading": 0
+    },
+    {
+      "text": "Mortgage expert and founder and CEO of The Mortgage Mum, Sarah Tucker says: \"AI has the potential to help lenders analyse much broader sets of information, identify patterns more quickly and build a more individual picture of someone's affordability and risk.\"",
+      "heading": 0
+    },
+    {
+      "text": "If technology allows lenders to understand so-called thin-file applicants better, rather than simply applying increasingly rigid rules, Tucker believes there is \"a real opportunity to improve financial inclusion\".",
+      "heading": 0
+    },
+    {
+      "text": "But like with many other applications of AI into everyday life, there are concerns.",
+      "heading": 0
+    },
+    {
+      "text": "\"Consumers need to understand what information is being used to make decisions about them, and they need to be able to challenge something when it is wrong,\" Tucker explains.",
+      "heading": 0
+    },
+    {
+      "text": "Credit scores have been a contentious topic for decades for this very reason, says Sandra Wachter, professor of Technology and Regulation at the University of Oxford.",
+      "heading": 0
+    },
+    {
+      "text": "\"We are not assessing if past decisions were right,\" Wachter argues, adding, AI does not know about existing social inequalities that impact decisions and could just \"replicate what it has seen in the past\".",
+      "heading": 0
+    },
+    {
+      "text": "While companies like Upstart and Zest AI see technology as a tool for financial inclusion, Wachter believes that real transformation requires accountability, as well as automation.",
+      "heading": 0
+    },
+    {
+      "text": "She stresses that firms must apply existing regulations and establish new guardrails to ensure that AI does not simply perpetuate the biases of the past.",
+      "heading": 0
+    },
+    {
+      "text": "\"Not putting any safeguards in place will fortify, foster, and enhance discrimination.\"",
+      "heading": 0
+    },
+    {
+      "text": "Upstart says it is tackling that issue.",
+      "heading": 0
+    },
+    {
+      "text": "\"We've invested in creating objective, automated evaluations to identify bias, and we've incorporated those evaluations into our model training process so it evolves to become even more accurate and more fair over time,\" the company said in a statement.",
+      "heading": 0
+    },
+    {
+      "text": "Evangeline Atkinson had a frustrating experience over her credit score.",
+      "heading": 0
+    },
+    {
+      "text": "\"I was at university, paying rent, paying bills, as I had been doing for many years. I tried to get a £30-a-month phone contract, and they said no,\" she recalls.",
+      "heading": 0
+    },
+    {
+      "text": "\"When I dug into it, it was because I was completely invisible to the system. No record could be found for me at any of the big three credit reference agencies.\"",
+      "heading": 0
+    },
+    {
+      "text": "That experience inspired her to try to change the system.",
+      "heading": 0
+    },
+    {
+      "text": "In 2021, Atkinson founded a credit reference agency with her best-friend from school, who had also experienced difficulties getting credit.",
+      "heading": 0
+    },
+    {
+      "text": "Their firm, Noggin HQ, was authorised by the FCA in June. Atkinson explains it was set up to help consumers access affordable credit by analysing their current account transactional data.",
+      "heading": 0
+    },
+    {
+      "text": "The platform helps lenders interpret thousands of individual data points about a person's spending habits.",
+      "heading": 0
+    },
+    {
+      "text": "Crucially, it does this without using AI, which Atkinson has also argued \"carries the risk of inbuilt bias\".",
+      "heading": 0
+    },
+    {
+      "text": "\"You have to be very careful\", she warns. \"It's very sensitive data and it would be very easy for the models to be inferring various kind of protected characteristics.\"",
+      "heading": 0
+    },
+    {
+      "text": "Perhaps conscious of change, the big three credit scoring firms have all started experimenting with AI.",
+      "heading": 0
+    },
+    {
+      "text": "Experian announced a partnership with OpenAI in August 2026, letting users check their credit score inside ChatGPT. Equifax launched a platform called Equifax Amplify AI, which it says uses machine learning to sharpen credit assessment and fraud detection.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, in March TransUnion announced it was integrating Google's Gemini models \"within its proprietary analytic data assets\".",
+      "heading": 0
+    },
+    {
+      "text": "As for the future of credit scoring, companies are starting to look beyond traditional methods, according to consumer finance lawyer Funmi Olufunwa.",
+      "heading": 0
+    },
+    {
+      "text": "\"They are beginning to realise that traditional credit scoring is inherently backward-looking, and that there are better predictors of the future out there.\"",
+      "heading": 0
+    },
+    {
+      "text": "Whether consumers will be happy with AI playing a part in working out their future credit ratings is another thing.",
+      "heading": 0
+    },
+    {
+      "text": "Any change might be led by the younger, tech-savvy generation.",
+      "heading": 0
+    },
+    {
+      "text": "\"They feel comfortable with their data being used this way, simply because it's the world they've grown up in.",
+      "heading": 0
+    },
+    {
+      "text": "\"I wonder if older cohorts, who may not use technology as much, will be quite as comfortable with it,\" says Olufunwa.",
+      "heading": 0
+    },
+    {
+      "text": "International Business",
+      "heading": 1
+    },
+    {
+      "text": "Technology of Business",
+      "heading": 1
+    },
+    {
+      "text": "Artificial intelligence",
+      "heading": 1
+    },
+    {
+      "text": "Mortgages",
+      "heading": 1
+    },
+    {
+      "text": "Personal finance",
+      "heading": 1
+    }
+  ]
+}

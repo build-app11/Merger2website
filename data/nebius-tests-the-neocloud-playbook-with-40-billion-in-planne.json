@@ -1,0 +1,113 @@
+{
+  "type": "read",
+  "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+  "slug": "nebius-tests-the-neocloud-playbook-with-40-billion-in-planne",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2300447831.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+    "episode": ""
+  },
+  "words": 925,
+  "lines": 22,
+  "duration": 308,
+  "text": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. It’s an ambitious plan, but it rests on a string of planned projects that are already starting to show cracks.\n\nNebius plans to fund the buildout by relying on customer pre-payments and loans backed by customer contracts — essentially using the future value of its data centers to finance their construction. But that can be a risky strategy if those projects get bogged down by delays or cancellations.\n\n“Building at this scale is hard, and delays are part of our industry right now,” CEO Arkady Volozh said during Thursday’s earnings call. “We are not immune.”\n\nThe earnings announcement comes on the heels of reports that Microsoft is cooling on neocloud deals that aren’t delivering on time. That’s a problem for companies like Nebius, whose financing strategy is becoming more dependent on repayments. Because if it can’t get to capacity on time, it will keep piling on costs while revenues slip.\n\nOne of Nebius’ largest customers is Microsoft, which is paying for AI computing capacity at a Vineland, New Jersey, data center that is now months behind schedule. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip. Only just over half of the Microsoft capacity is now planned for delivery by the end of the year, with the rest coming in Q2 2027.\n\nThe delay is because DataOne, the third-party operator of the site, “decided to wind down the temporary generation faster than it was expected,” according to Andrey Korolenko, chief product and infrastructure officer, as the site switches over to Bloom Energy fuel cells.\n\nStill, that transition wasn’t entirely by choice. In August, the investigative site Floodlight identified at least 45 natural gas generators in operation at the DataOne site, even though it had not received any permits for operating gas generators. New Jersey regulators fined the DataOne facility $1.1 million in response, finding that the use of the generators violated federal law.\n\nDataOne is also facing a noise-complaint lawsuit from nearby residents over a constant humming noise allegedly emitted by the data center.\n\nAccording to Nebius’ summary of its Microsoft contract, Microsoft can terminate affected service after a grace period if dates are missed and no alternative capacity is offered. The tranches were originally meant to be deployed in 2025 and 2026, so a Q2 2027 delivery date falls well beyond that window. The contract also includes financial penalties for late delivery.\n\nNebius said that Microsoft “has been part of the planning process.” Nebius did not say whether Microsoft has agreed to the new dates, but Microsoft has not publicly canceled anything.\n\nTechCrunch has reached out to Nebius, Microsoft, and DataOne for comment.\n\nOn the call, Marc Boroditsky, Nebius’s chief revenue officer, said the company’s deals with Microsoft and Meta both came with significant prepayment, which arrived long before delivery. But Bloomberg reported last week that Microsoft is tightening oversight on projects run by third parties, including Nebius, IREN, and Nscale, and debating whether it’s worth signing new agreements. Microsoft also sent employees to the site in New Jersey, per Bloomberg.\n\nIn its own quarterly earnings report, Microsoft noted that its capex spend was lower than expected due to third-party delays. The company is clearly not above pulling back from planned agreements where its partner doesn’t meet its share of the bargain. Bloomberg also reported that Microsoft won’t use an option to more than double its Nscale agreement for a Texas data center and recently stopped being an anchor customer for Nscale’s planned Essex site after power delays.\n\nNebius says the delays it faces are coming from sites it doesn’t control, with the data centers it is building itself coming online on time or ahead of schedule. Those, Nebius says, will supply most of its new capacity from 2027. New deals signed in Q3 came with prepayments that more than cover the cost of building capacity behind them, says Boroditsky. Nebius ended the quarter with $7.4 billion in cash.\n\nTotal prepayments plus asset-backed financing of investment-grade contracts are expected to cover up to 85% of the $40 to $45 billion 2027 capex spend. CFO Maria Del Dado Alonso Sanchez named Microsoft and Meta as contracts that can be financed this way. Boroditsky also said Nebius could “tap prepayments to shore up any additional cash requirements.”\n\nNebius forecast 2027 revenue of $12 to $13 billion, and said it expects to break even on a pre-tax basis by the fourth quarter.\n\nNebius reported third-quarter revenue of $981 million, up 571% from a year earlier. Roughly a third of that was a one-time payment tied to a new partnership model. Nebius cut its 2026 revenue forecast by $200 million to $3 billion, citing delays to third-party sites like New Jersey. Shares ended the day down 17%.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. It’s an ambitious plan, but it rests on a string of planned projects that are already starting to show cracks.",
+      "heading": 0
+    },
+    {
+      "text": "Nebius plans to fund the buildout by relying on customer pre-payments and loans backed by customer contracts — essentially using the future value of its data centers to finance their construction. But that can be a risky strategy if those projects get bogged down by delays or cancellations.",
+      "heading": 0
+    },
+    {
+      "text": "“Building at this scale is hard, and delays are part of our industry right now,” CEO Arkady Volozh said during Thursday’s earnings call. “We are not immune.”",
+      "heading": 0
+    },
+    {
+      "text": "The earnings announcement comes on the heels of reports that Microsoft is cooling on neocloud deals that aren’t delivering on time. That’s a problem for companies like Nebius, whose financing strategy is becoming more dependent on repayments. Because if it can’t get to capacity on time, it will keep piling on costs while revenues slip.",
+      "heading": 0
+    },
+    {
+      "text": "One of Nebius’ largest customers is Microsoft, which is paying for AI computing capacity at a Vineland, New Jersey, data center that is now months behind schedule. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip. Only just over half of the Microsoft capacity is now planned for delivery by the end of the year, with the rest coming in Q2 2027.",
+      "heading": 0
+    },
+    {
+      "text": "The delay is because DataOne, the third-party operator of the site, “decided to wind down the temporary generation faster than it was expected,” according to Andrey Korolenko, chief product and infrastructure officer, as the site switches over to Bloom Energy fuel cells.",
+      "heading": 0
+    },
+    {
+      "text": "Still, that transition wasn’t entirely by choice. In August, the investigative site Floodlight identified at least 45 natural gas generators in operation at the DataOne site, even though it had not received any permits for operating gas generators. New Jersey regulators fined the DataOne facility $1.1 million in response, finding that the use of the generators violated federal law.",
+      "heading": 0
+    },
+    {
+      "text": "DataOne is also facing a noise-complaint lawsuit from nearby residents over a constant humming noise allegedly emitted by the data center.",
+      "heading": 0
+    },
+    {
+      "text": "According to Nebius’ summary of its Microsoft contract, Microsoft can terminate affected service after a grace period if dates are missed and no alternative capacity is offered. The tranches were originally meant to be deployed in 2025 and 2026, so a Q2 2027 delivery date falls well beyond that window. The contract also includes financial penalties for late delivery.",
+      "heading": 0
+    },
+    {
+      "text": "Nebius said that Microsoft “has been part of the planning process.” Nebius did not say whether Microsoft has agreed to the new dates, but Microsoft has not publicly canceled anything.",
+      "heading": 0
+    },
+    {
+      "text": "TechCrunch has reached out to Nebius, Microsoft, and DataOne for comment.",
+      "heading": 0
+    },
+    {
+      "text": "On the call, Marc Boroditsky, Nebius’s chief revenue officer, said the company’s deals with Microsoft and Meta both came with significant prepayment, which arrived long before delivery. But Bloomberg reported last week that Microsoft is tightening oversight on projects run by third parties, including Nebius, IREN, and Nscale, and debating whether it’s worth signing new agreements. Microsoft also sent employees to the site in New Jersey, per Bloomberg.",
+      "heading": 0
+    },
+    {
+      "text": "In its own quarterly earnings report, Microsoft noted that its capex spend was lower than expected due to third-party delays. The company is clearly not above pulling back from planned agreements where its partner doesn’t meet its share of the bargain. Bloomberg also reported that Microsoft won’t use an option to more than double its Nscale agreement for a Texas data center and recently stopped being an anchor customer for Nscale’s planned Essex site after power delays.",
+      "heading": 0
+    },
+    {
+      "text": "Nebius says the delays it faces are coming from sites it doesn’t control, with the data centers it is building itself coming online on time or ahead of schedule. Those, Nebius says, will supply most of its new capacity from 2027. New deals signed in Q3 came with prepayments that more than cover the cost of building capacity behind them, says Boroditsky. Nebius ended the quarter with $7.4 billion in cash.",
+      "heading": 0
+    },
+    {
+      "text": "Total prepayments plus asset-backed financing of investment-grade contracts are expected to cover up to 85% of the $40 to $45 billion 2027 capex spend. CFO Maria Del Dado Alonso Sanchez named Microsoft and Meta as contracts that can be financed this way. Boroditsky also said Nebius could “tap prepayments to shore up any additional cash requirements.”",
+      "heading": 0
+    },
+    {
+      "text": "Nebius forecast 2027 revenue of $12 to $13 billion, and said it expects to break even on a pre-tax basis by the fourth quarter.",
+      "heading": 0
+    },
+    {
+      "text": "Nebius reported third-quarter revenue of $981 million, up 571% from a year earlier. Roughly a third of that was a one-time payment tied to a new partnership model. Nebius cut its 2026 revenue forecast by $200 million to $3 billion, citing delays to third-party sites like New Jersey. Shares ended the day down 17%.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

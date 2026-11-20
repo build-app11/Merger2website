@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Canva releases its first image generation model",
+  "slug": "canva-releases-its-first-image-generation-model",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+    "episode": ""
+  },
+  "words": 445,
+  "lines": 14,
+  "duration": 148,
+  "text": "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta.\n\nThe company said its model works in two stages. In the first stage, it interprets users’ prompts and creates a plan with details like spatial relationships of elements, relative scale, visual hierarchy, and information for text generation. In the second stage, its model generates an image of up to 2K resolution in a possible 30 different aspect ratios for various platforms.\n\nCanva said that this approach allows it to create images with accurate details of objects and legible text. Plus, users would be able to make precise edits without changing other parts of the image.\n\nThe company noted that rather than using photographs, it used designs to train this model using human-designed templates from Canva’s library, including posters, social posts, presentations, infographics, menus, and typography-rich layouts.\n\nThat means images generated with Canva Craft could be converted into layered designs using Magic Layers, the company’s image-to-design transformer. Last year, the platform released its own model that understands designs and layers.\n\nCanva Craft is available on the company’s platform to all users, who can access the model from the Dream Lab tab. The model will also be available through the Canva API. Plus, the company plans to support image generation in third-party chatbots like ChatGPT and Gemini through Canva’s MCP.\n\nCanva has used a bunch of image models for generation in its platform, so it’s likely that the new models will help save API costs for the company. It said that besides costs, the new model also allows the platform to have better quality and speed control.\n\nIn 2024, Canva acquired media generation platform Leonardo.ai. It said that the researchers from Leonardo contributed to the new image model.\n\nCanva said that it is developing two cost-efficient versions of the model, called Craftfast and Craft-ultrafast, which will be released soon.\n\nThe company was on track for $4 billion in revenue last year. However, it cut its growth forecast for 2026, causing its valuation to reportedly plummet from $42 billion to $35 billion, according to external analysts.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta.",
+      "heading": 0
+    },
+    {
+      "text": "The company said its model works in two stages. In the first stage, it interprets users’ prompts and creates a plan with details like spatial relationships of elements, relative scale, visual hierarchy, and information for text generation. In the second stage, its model generates an image of up to 2K resolution in a possible 30 different aspect ratios for various platforms.",
+      "heading": 0
+    },
+    {
+      "text": "Canva said that this approach allows it to create images with accurate details of objects and legible text. Plus, users would be able to make precise edits without changing other parts of the image.",
+      "heading": 0
+    },
+    {
+      "text": "The company noted that rather than using photographs, it used designs to train this model using human-designed templates from Canva’s library, including posters, social posts, presentations, infographics, menus, and typography-rich layouts.",
+      "heading": 0
+    },
+    {
+      "text": "That means images generated with Canva Craft could be converted into layered designs using Magic Layers, the company’s image-to-design transformer. Last year, the platform released its own model that understands designs and layers.",
+      "heading": 0
+    },
+    {
+      "text": "Canva Craft is available on the company’s platform to all users, who can access the model from the Dream Lab tab. The model will also be available through the Canva API. Plus, the company plans to support image generation in third-party chatbots like ChatGPT and Gemini through Canva’s MCP.",
+      "heading": 0
+    },
+    {
+      "text": "Canva has used a bunch of image models for generation in its platform, so it’s likely that the new models will help save API costs for the company. It said that besides costs, the new model also allows the platform to have better quality and speed control.",
+      "heading": 0
+    },
+    {
+      "text": "In 2024, Canva acquired media generation platform Leonardo.ai. It said that the researchers from Leonardo contributed to the new image model.",
+      "heading": 0
+    },
+    {
+      "text": "Canva said that it is developing two cost-efficient versions of the model, called Craftfast and Craft-ultrafast, which will be released soon.",
+      "heading": 0
+    },
+    {
+      "text": "The company was on track for $4 billion in revenue last year. However, it cut its growth forecast for 2026, causing its valuation to reportedly plummet from $42 billion to $35 billion, according to external analysts.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

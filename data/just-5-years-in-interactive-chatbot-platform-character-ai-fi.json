@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+  "slug": "just-5-years-in-interactive-chatbot-platform-character-ai-fi",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+    "episode": ""
+  },
+  "words": 763,
+  "lines": 19,
+  "duration": 254,
+  "text": "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and struggles to scale its popular platform. In a court document, the company said it had assets and liabilities between $50 million and $100 million.\n\n“Over the past year, Character.ai has taken meaningful steps to sustain and improve its business in the face of significant legal, regulatory, and operational headwinds. After a comprehensive review of the available alternatives, the board determined that this court-supervised sale process provides the Company with the best opportunity to maximize value for all stakeholders,” Character.AI CEO Colin Adams said in a statement.\n\nThe startup has also agreed to sell some of its assets to Disney for $20 million, as well as a non-exclusive perpetual license for its technology.\n\nThe company said Disney will provide transition services via former Character.AI employees who joined the entertainment giant last month alongside its former CEO Karandeep Singh Anand.\n\nAdams said the company would continue operating during the sale process, which is expected to close in late November or early December. However, he did note that there isn’t yet a bid for the company’s assets or a buyer.\n\n“We hope that the sale process will yield an actionable proposal that will allow continued operations of the Character.ai platform. If such a bid is unavailable, however, the platform will be wound down,” Adams wrote.\n\nCharacter.AI has had a tumultuous five years. Founded by former Google engineers Noam Shazeer, a co-author of the landmark Transformer paper, and Daniel De Freitas in late 2021, the startup initially focused on training foundation models and developing an AI chatbot platform that lets people create custom characters they could chat with.\n\nBy September 2022, the startup reached unicorn valuation with a $150 million fundraise on the back of high demand for its platform, with the company saying at the time that its users had exchanged more than 2 billion messages with its bots in five months, and active users were averaging more than two hours on the platform daily.\n\nIn May 2023, the Character.AI’s apps attracted more than 1.7 million installs in their first week after launch. But about a year later, in August 2024, Google struck a $2.7 billion deal to license the startup’s models, and both Shazeer and De Freitas returned to the search giant. At that time, the startup’s general counsel, Dominic Perella, stepped in as interim CEO, and the company moved away from training foundation models to focus on growth.\n\nCharacter.AI’s traction didn’t slow, however, with its platform recording 20 million monthly active users by October of that year.\n\nBut things got difficult after the startup was sued following the suicide of a 14-year-old Florida boy whose mother says he became obsessed with a chatbot on its platform. Soon after, Texas launched an investigation to assess if the platform conformed to child privacy and safety laws. The company subsequently settled some of these lawsuits, added more safety features, and banned minors from its platform.\n\nIn June of last year, the company appointed Anand, a former Brex and Meta executive, as CEO, and expanded its products to add AI video generation, and social feeds. The company has since tried to introduce new ways to spur user engagement via interactive storytelling formats as well as microdramas.\n\nBut the fact that the company had to file for bankruptcy shows that such changes couldn’t move the needle on sustainability for the startup.\n\nIt also shows that consumer-facing AI products are really hard to scale and monetize. Character.AI was one of the top apps in terms of time spent, according to analytics firm Sensor Tower. But high engagement can be a double-edged sword; AI costs rise the more people use the app, which consequently also increases the pressure to monetize users.\n\nCharacter.AI has raised over $193 million in funding across multiple rounds from investors including Lightspeed, SV Angel, Greycroft, and a16z, according to PitchBook.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and struggles to scale its popular platform. In a court document, the company said it had assets and liabilities between $50 million and $100 million.",
+      "heading": 0
+    },
+    {
+      "text": "“Over the past year, Character.ai has taken meaningful steps to sustain and improve its business in the face of significant legal, regulatory, and operational headwinds. After a comprehensive review of the available alternatives, the board determined that this court-supervised sale process provides the Company with the best opportunity to maximize value for all stakeholders,” Character.AI CEO Colin Adams said in a statement.",
+      "heading": 0
+    },
+    {
+      "text": "The startup has also agreed to sell some of its assets to Disney for $20 million, as well as a non-exclusive perpetual license for its technology.",
+      "heading": 0
+    },
+    {
+      "text": "The company said Disney will provide transition services via former Character.AI employees who joined the entertainment giant last month alongside its former CEO Karandeep Singh Anand.",
+      "heading": 0
+    },
+    {
+      "text": "Adams said the company would continue operating during the sale process, which is expected to close in late November or early December. However, he did note that there isn’t yet a bid for the company’s assets or a buyer.",
+      "heading": 0
+    },
+    {
+      "text": "“We hope that the sale process will yield an actionable proposal that will allow continued operations of the Character.ai platform. If such a bid is unavailable, however, the platform will be wound down,” Adams wrote.",
+      "heading": 0
+    },
+    {
+      "text": "Character.AI has had a tumultuous five years. Founded by former Google engineers Noam Shazeer, a co-author of the landmark Transformer paper, and Daniel De Freitas in late 2021, the startup initially focused on training foundation models and developing an AI chatbot platform that lets people create custom characters they could chat with.",
+      "heading": 0
+    },
+    {
+      "text": "By September 2022, the startup reached unicorn valuation with a $150 million fundraise on the back of high demand for its platform, with the company saying at the time that its users had exchanged more than 2 billion messages with its bots in five months, and active users were averaging more than two hours on the platform daily.",
+      "heading": 0
+    },
+    {
+      "text": "In May 2023, the Character.AI’s apps attracted more than 1.7 million installs in their first week after launch. But about a year later, in August 2024, Google struck a $2.7 billion deal to license the startup’s models, and both Shazeer and De Freitas returned to the search giant. At that time, the startup’s general counsel, Dominic Perella, stepped in as interim CEO, and the company moved away from training foundation models to focus on growth.",
+      "heading": 0
+    },
+    {
+      "text": "Character.AI’s traction didn’t slow, however, with its platform recording 20 million monthly active users by October of that year.",
+      "heading": 0
+    },
+    {
+      "text": "But things got difficult after the startup was sued following the suicide of a 14-year-old Florida boy whose mother says he became obsessed with a chatbot on its platform. Soon after, Texas launched an investigation to assess if the platform conformed to child privacy and safety laws. The company subsequently settled some of these lawsuits, added more safety features, and banned minors from its platform.",
+      "heading": 0
+    },
+    {
+      "text": "In June of last year, the company appointed Anand, a former Brex and Meta executive, as CEO, and expanded its products to add AI video generation, and social feeds. The company has since tried to introduce new ways to spur user engagement via interactive storytelling formats as well as microdramas.",
+      "heading": 0
+    },
+    {
+      "text": "But the fact that the company had to file for bankruptcy shows that such changes couldn’t move the needle on sustainability for the startup.",
+      "heading": 0
+    },
+    {
+      "text": "It also shows that consumer-facing AI products are really hard to scale and monetize. Character.AI was one of the top apps in terms of time spent, according to analytics firm Sensor Tower. But high engagement can be a double-edged sword; AI costs rise the more people use the app, which consequently also increases the pressure to monetize users.",
+      "heading": 0
+    },
+    {
+      "text": "Character.AI has raised over $193 million in funding across multiple rounds from investors including Lightspeed, SV Angel, Greycroft, and a16z, according to PitchBook.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

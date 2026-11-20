@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+  "slug": "openai-safety-employee-resigns-claiming-the-company-s-cultur",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "episode": ""
+  },
+  "words": 786,
+  "lines": 18,
+  "duration": 262,
+  "text": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.\n\nIn an essay published in The Atlantic, Robinson said he led the writing of safety reports that accompanied OpenAI’s major product launches. He also said that with three-and-a-half years at OpenAI, he is “among the longest-tenured employees at the company.” Now he’s quitting, because in his view, the company’s “culture is broken.”\n\nIn some ways, Robinson’s comments echo those of Jacob Coxon, who worked as a researcher at both OpenAI and Anthropic before quitting and declaring that these companies are “gambling with our lives.” Coxon’s comments led to a broader debate about AI safety, with Anthropic CEO Dario Amodei unveiling a plan for more cautious AI development; AI executives met with President Donald Trump this week and signed what appeared to be a hastily written, non-binding pledge to implement more safety controls.\n\nBut in Robinson’s view, the debate needs to go beyond “specific rules or new laws,” addressing the overall culture at these companies. And while much of the reporting around OpenAI has focused on how the company’s CEO Sam Altman lost the trust of former colleagues, Robinson’s essay suggests that OpenAI’s culture issues are the same as those of Silicon Valley at large.\n\n“OpenAI has thrived by trial and error (which it calls ‘iterative deployment’), looking for problems and improving its guardrails in response,” he wrote. “But this approach, by its very nature, guarantees periodic failures — and the scale of those failures is growing as systems get more capable.”\n\nPointing to the recent breach of Hugging Face systems by OpenAI agents, as well as continuing revelations of OpenAI discovering more rogue agents, Robinson argued, “An environment where things like this can happen is no place to grow artificial minds that could be smarter than we are and that might not do what we want them to.”\n\nGiven the increased risk, Robinson argued that frontier AI companies need to start operating “like nuclear-power plants or busy airports, with layers of redundancy and careful, time-consuming planning, so that the occasional and inevitable human error does not open a door to disaster.”\n\nBut Robinson said that in his time at OpenAI, he “never encountered a colleague who had experience making airplanes fly safely or nuclear reactors run without melting down, or helping the financial system grow without collapsing.”\n\nIn response to Robinson’s essay, OpenAI spokesperson Drew Pusateri said the company continues to improve its safety measures.\n\n“We’re making sure our models don’t become more capable than we can safely manage and secure, and we pause training or hold back models when we need to slow down,” Pusateri said in a statement. “We’re making significant changes to strengthen security in our research and testing environments, train models to not just complete tasks but do so responsibly, expand our work with third-party evaluators, and improve real-time monitoring so we can detect and respond to concerning behavior earlier in the training process.”\n\nBeyond calling for changes in OpenAI’s culture, Robinson also said it’s time to ask bigger questions about alignment — something that he admitted could sound “touchy-feely,” but he said it’s critical as companies’ current “measures of how well” AI systems “match human values are coarse.”\n\n“The smarter the industry lets models grow while these problems remain unsolved, the more dangerous our situation becomes,” he said.\n\nRobinson’s departure was first reported by Business Insider. In his essay, he also acknowledged that he’s following an apparently common step in the AI whistleblower playbook: He’s hired a PR firm. But he insisted, “The decision to speak out is mine alone.”\n\n“Perhaps I should have stayed and fought for fundamental shifts in our staffing and culture, but in practice, my colleagues and I were so busy sprinting that we seldom had the chance to consider big changes, much less to actually make them,” Robinson said. “That’s why I concluded that stronger incentives for safety — coming from outside the company — are a big part of getting this right.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\n\nYou can contact or verify outreach from Anthony by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "heading": 0
+    },
+    {
+      "text": "In an essay published in The Atlantic, Robinson said he led the writing of safety reports that accompanied OpenAI’s major product launches. He also said that with three-and-a-half years at OpenAI, he is “among the longest-tenured employees at the company.” Now he’s quitting, because in his view, the company’s “culture is broken.”",
+      "heading": 0
+    },
+    {
+      "text": "In some ways, Robinson’s comments echo those of Jacob Coxon, who worked as a researcher at both OpenAI and Anthropic before quitting and declaring that these companies are “gambling with our lives.” Coxon’s comments led to a broader debate about AI safety, with Anthropic CEO Dario Amodei unveiling a plan for more cautious AI development; AI executives met with President Donald Trump this week and signed what appeared to be a hastily written, non-binding pledge to implement more safety controls.",
+      "heading": 0
+    },
+    {
+      "text": "But in Robinson’s view, the debate needs to go beyond “specific rules or new laws,” addressing the overall culture at these companies. And while much of the reporting around OpenAI has focused on how the company’s CEO Sam Altman lost the trust of former colleagues, Robinson’s essay suggests that OpenAI’s culture issues are the same as those of Silicon Valley at large.",
+      "heading": 0
+    },
+    {
+      "text": "“OpenAI has thrived by trial and error (which it calls ‘iterative deployment’), looking for problems and improving its guardrails in response,” he wrote. “But this approach, by its very nature, guarantees periodic failures — and the scale of those failures is growing as systems get more capable.”",
+      "heading": 0
+    },
+    {
+      "text": "Pointing to the recent breach of Hugging Face systems by OpenAI agents, as well as continuing revelations of OpenAI discovering more rogue agents, Robinson argued, “An environment where things like this can happen is no place to grow artificial minds that could be smarter than we are and that might not do what we want them to.”",
+      "heading": 0
+    },
+    {
+      "text": "Given the increased risk, Robinson argued that frontier AI companies need to start operating “like nuclear-power plants or busy airports, with layers of redundancy and careful, time-consuming planning, so that the occasional and inevitable human error does not open a door to disaster.”",
+      "heading": 0
+    },
+    {
+      "text": "But Robinson said that in his time at OpenAI, he “never encountered a colleague who had experience making airplanes fly safely or nuclear reactors run without melting down, or helping the financial system grow without collapsing.”",
+      "heading": 0
+    },
+    {
+      "text": "In response to Robinson’s essay, OpenAI spokesperson Drew Pusateri said the company continues to improve its safety measures.",
+      "heading": 0
+    },
+    {
+      "text": "“We’re making sure our models don’t become more capable than we can safely manage and secure, and we pause training or hold back models when we need to slow down,” Pusateri said in a statement. “We’re making significant changes to strengthen security in our research and testing environments, train models to not just complete tasks but do so responsibly, expand our work with third-party evaluators, and improve real-time monitoring so we can detect and respond to concerning behavior earlier in the training process.”",
+      "heading": 0
+    },
+    {
+      "text": "Beyond calling for changes in OpenAI’s culture, Robinson also said it’s time to ask bigger questions about alignment — something that he admitted could sound “touchy-feely,” but he said it’s critical as companies’ current “measures of how well” AI systems “match human values are coarse.”",
+      "heading": 0
+    },
+    {
+      "text": "“The smarter the industry lets models grow while these problems remain unsolved, the more dangerous our situation becomes,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "Robinson’s departure was first reported by Business Insider. In his essay, he also acknowledged that he’s following an apparently common step in the AI whistleblower playbook: He’s hired a PR firm. But he insisted, “The decision to speak out is mine alone.”",
+      "heading": 0
+    },
+    {
+      "text": "“Perhaps I should have stayed and fought for fundamental shifts in our staffing and culture, but in practice, my colleagues and I were so busy sprinting that we seldom had the chance to consider big changes, much less to actually make them,” Robinson said. “That’s why I concluded that stronger incentives for safety — coming from outside the company — are a big part of getting this right.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Anthony by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "type": "read",
+  "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+  "slug": "anthropic-gamma-and-clay-share-what-happens-when-enterprises",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_3-De-Jong-Amin-Lee_16x9-Dark.png?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+    "episode": ""
+  },
+  "words": 829,
+  "lines": 25,
+  "duration": 276,
+  "text": "An AI demo can look brilliant in five minutes. Then customers start using the product. They push it into workflows you didn’t anticipate. They expect it to work reliably. And they quickly find out whether it solves a big enough problem to become part of how they work — or becomes another AI experiment they tried and abandoned.\n\nAt TechCrunch Disrupt 2026, leaders from Anthropic, Gamma, and Clay will come together on the AI Stage for “ What Anthropic Sees When Enterprises Actually Deploy Claude.” The conversation will bring two sides of AI deployment: the patterns Anthropic sees across enterprise implementations and the firsthand experience of founders building AI products people actually use.\n\nSecure your pass to Disrupt and save 50% on a second pass. Hear what AI leaders and founders are learning when their products meet real customers. Insightful sessions like this are meant to be experienced with a colleague, partner, or peer.\n\nWhat happens after the AI launch?\n\nMost conversations about enterprise AI focus on what companies could do with it. Anthropic Head of Applied AI Cat de Jong starts somewhere more interesting: what happens after deployment.\n\nDe Jong works directly with enterprises putting Claude into critical workflows. At Disrupt, she’ll explore where deployments succeed, where they stall, and what separates organizations extracting real value from those still running pilots 18 months later.\n\nIf you’re selling AI into the enterprise, those patterns matter. De Jong’s experience offers a firsthand look at what changes when AI moves from experimentation into critical workflows and why some organizations get to production while others don’t.\n\nWant to know what separates AI pilots from deployments that make it into production? Register for Disrupt and get a second pass for 50% off.\n\nHow do you get people to use what you’ve built?\n\nAnthropic can see patterns across enterprise deployments. Gamma co-founder and CEO Grant Lee brings another perspective to the conversation: what it looks like from inside a company building an AI product and getting people to actually use it.\n\nGamma has grown its AI-powered platform from an alternative to traditional presentation software into a broader visual communication tool. TechCrunch reported in March that the company was approaching 100 million users as it expanded its AI tools into marketing assets and other forms of visual content.\n\nThat kind of adoption gives Lee a useful vantage point on the questions at the center of this session: What makes an AI product useful enough for customers to keep coming back? What changes once people start using it in ways you didn’t anticipate? And how do you turn powerful AI capabilities into a product that solves a problem people actually have?\n\nBuilding an AI product is one thing. Getting people to make it part of how they work is another. Secure your pass to Disrupt and hear what Gamma has learned along the way.\n\nWhat happens when AI becomes part of the workflow?\n\nClay co-founder and CEO Kareem Amin brings the perspective of a founder building AI into the way companies find and reach customers. Clay provides infrastructure to pull in data, run agentic workflows, and launch GTM plays.\n\nIn January, TechCrunch reported that Clay was one of the launch apps integrated into Claude when Anthropic introduced interactive workplace tools inside the Claude interface, so his perspective is particularly relevant to the conversation.\n\nThat puts Amin close to the questions this session will explore: where AI is genuinely useful, how it fits into existing workflows, and what happens once customers start depending on it.\n\nTogether, de Jong, Lee, and Amin bring different views of that transition. Anthropic can identify patterns across enterprise deployments, while Gamma and Clay can pressure-test those patterns against what they’re seeing as customers put AI products to work.\n\nWant to learn what AI adoption looks like from both sides? Explore your Disrupt ticket options and save 50% on a second pass of the same type to hear crucial AI perspectives from Anthropic, Gamma, and Clay on the AI Stage.\n\nHear what it takes for an AI product to go beyond the demo at Disrupt 2026\n\nAn impressive demo can show what AI makes possible. The harder test comes when customers start depending on it. At Disrupt, Anthropic brings a view across enterprise deployments, while Gamma and Clay bring the founder perspective on building AI products people actually use.\n\nJoin them at Disrupt, October 13-15 at San Francisco’s Moscone West, where 10,000+ founders, investors, operators, and tech leaders gather for 200+ sessions across six industry stages, roundtables, and breakouts featuring 250+ speakers, plus 300+ exhibiting startups, matchmaking, and networking.\n\nRegister for your pass and get a second pass for 50% off. Hear what Anthropic, Gamma, and Clay are learning about turning AI capabilities into products people actually use.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+  "paragraphs": [
+    {
+      "text": "An AI demo can look brilliant in five minutes. Then customers start using the product. They push it into workflows you didn’t anticipate. They expect it to work reliably. And they quickly find out whether it solves a big enough problem to become part of how they work — or becomes another AI experiment they tried and abandoned.",
+      "heading": 0
+    },
+    {
+      "text": "At TechCrunch Disrupt 2026, leaders from Anthropic, Gamma, and Clay will come together on the AI Stage for “ What Anthropic Sees When Enterprises Actually Deploy Claude.” The conversation will bring two sides of AI deployment: the patterns Anthropic sees across enterprise implementations and the firsthand experience of founders building AI products people actually use.",
+      "heading": 0
+    },
+    {
+      "text": "Secure your pass to Disrupt and save 50% on a second pass. Hear what AI leaders and founders are learning when their products meet real customers. Insightful sessions like this are meant to be experienced with a colleague, partner, or peer.",
+      "heading": 0
+    },
+    {
+      "text": "What happens after the AI launch?",
+      "heading": 0
+    },
+    {
+      "text": "Most conversations about enterprise AI focus on what companies could do with it. Anthropic Head of Applied AI Cat de Jong starts somewhere more interesting: what happens after deployment.",
+      "heading": 0
+    },
+    {
+      "text": "De Jong works directly with enterprises putting Claude into critical workflows. At Disrupt, she’ll explore where deployments succeed, where they stall, and what separates organizations extracting real value from those still running pilots 18 months later.",
+      "heading": 0
+    },
+    {
+      "text": "If you’re selling AI into the enterprise, those patterns matter. De Jong’s experience offers a firsthand look at what changes when AI moves from experimentation into critical workflows and why some organizations get to production while others don’t.",
+      "heading": 0
+    },
+    {
+      "text": "Want to know what separates AI pilots from deployments that make it into production? Register for Disrupt and get a second pass for 50% off.",
+      "heading": 0
+    },
+    {
+      "text": "How do you get people to use what you’ve built?",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic can see patterns across enterprise deployments. Gamma co-founder and CEO Grant Lee brings another perspective to the conversation: what it looks like from inside a company building an AI product and getting people to actually use it.",
+      "heading": 0
+    },
+    {
+      "text": "Gamma has grown its AI-powered platform from an alternative to traditional presentation software into a broader visual communication tool. TechCrunch reported in March that the company was approaching 100 million users as it expanded its AI tools into marketing assets and other forms of visual content.",
+      "heading": 0
+    },
+    {
+      "text": "That kind of adoption gives Lee a useful vantage point on the questions at the center of this session: What makes an AI product useful enough for customers to keep coming back? What changes once people start using it in ways you didn’t anticipate? And how do you turn powerful AI capabilities into a product that solves a problem people actually have?",
+      "heading": 0
+    },
+    {
+      "text": "Building an AI product is one thing. Getting people to make it part of how they work is another. Secure your pass to Disrupt and hear what Gamma has learned along the way.",
+      "heading": 0
+    },
+    {
+      "text": "What happens when AI becomes part of the workflow?",
+      "heading": 0
+    },
+    {
+      "text": "Clay co-founder and CEO Kareem Amin brings the perspective of a founder building AI into the way companies find and reach customers. Clay provides infrastructure to pull in data, run agentic workflows, and launch GTM plays.",
+      "heading": 0
+    },
+    {
+      "text": "In January, TechCrunch reported that Clay was one of the launch apps integrated into Claude when Anthropic introduced interactive workplace tools inside the Claude interface, so his perspective is particularly relevant to the conversation.",
+      "heading": 0
+    },
+    {
+      "text": "That puts Amin close to the questions this session will explore: where AI is genuinely useful, how it fits into existing workflows, and what happens once customers start depending on it.",
+      "heading": 0
+    },
+    {
+      "text": "Together, de Jong, Lee, and Amin bring different views of that transition. Anthropic can identify patterns across enterprise deployments, while Gamma and Clay can pressure-test those patterns against what they’re seeing as customers put AI products to work.",
+      "heading": 0
+    },
+    {
+      "text": "Want to learn what AI adoption looks like from both sides? Explore your Disrupt ticket options and save 50% on a second pass of the same type to hear crucial AI perspectives from Anthropic, Gamma, and Clay on the AI Stage.",
+      "heading": 0
+    },
+    {
+      "text": "Hear what it takes for an AI product to go beyond the demo at Disrupt 2026",
+      "heading": 0
+    },
+    {
+      "text": "An impressive demo can show what AI makes possible. The harder test comes when customers start depending on it. At Disrupt, Anthropic brings a view across enterprise deployments, while Gamma and Clay bring the founder perspective on building AI products people actually use.",
+      "heading": 0
+    },
+    {
+      "text": "Join them at Disrupt, October 13-15 at San Francisco’s Moscone West, where 10,000+ founders, investors, operators, and tech leaders gather for 200+ sessions across six industry stages, roundtables, and breakouts featuring 250+ speakers, plus 300+ exhibiting startups, matchmaking, and networking.",
+      "heading": 0
+    },
+    {
+      "text": "Register for your pass and get a second pass for 50% off. Hear what Anthropic, Gamma, and Clay are learning about turning AI capabilities into products people actually use.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    }
+  ]
+}

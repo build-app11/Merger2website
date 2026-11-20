@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+  "slug": "amazon-which-started-off-selling-books-is-destroying-rare-te",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-601797365.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+    "episode": ""
+  },
+  "words": 288,
+  "lines": 18,
+  "duration": 96,
+  "text": "Posted:\n\nAmanda Silberling\n\nAmazon, which started off selling books, is destroying rare texts to train AI\n\nAmazon is buying tons of rare books, cutting off their spines, and scanning them for AI training, according to 404 Media, which placed a tracking device in a rare book that ultimately arrived at an Amazon facility in Las Vegas.\n\nThe facility, known as VGT3, identifies itself with a symbol of a dinosaur holding a book in its claws. Amazon told 404 Media in a statement that it “purchases books through commercial channels to improve the products and services customers use.”\n\nCompanies like Amazon need unfathomably large amounts of text to train their LLMs, which have already ingested what they can from the internet (and, in Anthropic’s case, illegally pirated books). Rare books, especially ones that are out of print or impossible to find on the internet, offer a new source of coveted training data.\n\nThese texts are especially valuable since there’s no chance that anything published before 2022 was written by an LLM. When LLMs train on AI-generated text, they risk “ model collapse,” which can occur when the quality of an LLM’s outputs degrade after ingesting too much AI-generated text.\n\nTopics\n\nThe unfolding Jensen Huang scandal: a timeline\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nFelicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "heading": 0
+    },
+    {
+      "text": "Amazon is buying tons of rare books, cutting off their spines, and scanning them for AI training, according to 404 Media, which placed a tracking device in a rare book that ultimately arrived at an Amazon facility in Las Vegas.",
+      "heading": 0
+    },
+    {
+      "text": "The facility, known as VGT3, identifies itself with a symbol of a dinosaur holding a book in its claws. Amazon told 404 Media in a statement that it “purchases books through commercial channels to improve the products and services customers use.”",
+      "heading": 0
+    },
+    {
+      "text": "Companies like Amazon need unfathomably large amounts of text to train their LLMs, which have already ingested what they can from the internet (and, in Anthropic’s case, illegally pirated books). Rare books, especially ones that are out of print or impossible to find on the internet, offer a new source of coveted training data.",
+      "heading": 0
+    },
+    {
+      "text": "These texts are especially valuable since there’s no chance that anything published before 2022 was written by an LLM. When LLMs train on AI-generated text, they risk “ model collapse,” which can occur when the quality of an LLM’s outputs degrade after ingesting too much AI-generated text.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "The unfolding Jensen Huang scandal: a timeline",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

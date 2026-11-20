@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+  "slug": "box-taps-nvidia-s-nemotron-for-new-agent-first-content-retri",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1178603809.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+    "episode": ""
+  },
+  "words": 372,
+  "lines": 11,
+  "duration": 124,
+  "text": "At its developer conference on Thursday, Box showed off a new feature that will build Nvidia’s Nemotron embedding system into the core of its product.\n\nCalled Box Content Retrieval, the new feature allows agents to answer queries far more effectively by relying on the embedded metadata created by Nemotron.\n\nBox says the upshot for users is faster, more accurate, and less expensive queries. Nvidia’s VP of generative AI software, Kari Briski, told TechCrunch that she expects queries to be answered four times faster, with 20% fewer errors and 90% fewer tokens used.\n\nThe system will be available to all of Box’s Enterprise Advance customers, rolling out early next year.\n\n“This dramatically boosts both the relevance of our search technology for agents,” Box CEO Aaron Levie said. “Instead of an agent having to kind of read through each document, we can send back chunks from the documents that are most relevant to the user’s query or whatever the task is that the agent is doing.”\n\nThe feature is an implementation of Nvidia’s Nemotron Embed project, which offers open-weight embedding models to improve automated retrieval systems. Major labs have often overlooked such models, which use LLMs to pre-process data so it can be better used by agents. The sector has been a focus for Nvidia’s open source model project, with its recent Nemotron release in July topping the RTEB benchmark, which measures retrieval quality.\n\nThe system will be most useful when paired with active agents, Box says, giving the example of lawyers, who will ostensibly be able to find relevant clauses and precedents more easily under the new system. Because Nemotron’s embeddings go beyond simple keywords to map underlying concepts, a search tool can surface related legal themes even when different wording or language is used.\n\nWhile the Nemotron models are freely available, the system also relies heavily on Box’s pre-existing metadata and permission controls, which will make it challenging to recreate from scratch. “We’re probably packing in five different technologies into one simple API,” Levie told TechCrunch.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nAI Editor",
+  "paragraphs": [
+    {
+      "text": "At its developer conference on Thursday, Box showed off a new feature that will build Nvidia’s Nemotron embedding system into the core of its product.",
+      "heading": 0
+    },
+    {
+      "text": "Called Box Content Retrieval, the new feature allows agents to answer queries far more effectively by relying on the embedded metadata created by Nemotron.",
+      "heading": 0
+    },
+    {
+      "text": "Box says the upshot for users is faster, more accurate, and less expensive queries. Nvidia’s VP of generative AI software, Kari Briski, told TechCrunch that she expects queries to be answered four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "heading": 0
+    },
+    {
+      "text": "The system will be available to all of Box’s Enterprise Advance customers, rolling out early next year.",
+      "heading": 0
+    },
+    {
+      "text": "“This dramatically boosts both the relevance of our search technology for agents,” Box CEO Aaron Levie said. “Instead of an agent having to kind of read through each document, we can send back chunks from the documents that are most relevant to the user’s query or whatever the task is that the agent is doing.”",
+      "heading": 0
+    },
+    {
+      "text": "The feature is an implementation of Nvidia’s Nemotron Embed project, which offers open-weight embedding models to improve automated retrieval systems. Major labs have often overlooked such models, which use LLMs to pre-process data so it can be better used by agents. The sector has been a focus for Nvidia’s open source model project, with its recent Nemotron release in July topping the RTEB benchmark, which measures retrieval quality.",
+      "heading": 0
+    },
+    {
+      "text": "The system will be most useful when paired with active agents, Box says, giving the example of lawyers, who will ostensibly be able to find relevant clauses and precedents more easily under the new system. Because Nemotron’s embeddings go beyond simple keywords to map underlying concepts, a search tool can surface related legal themes even when different wording or language is used.",
+      "heading": 0
+    },
+    {
+      "text": "While the Nemotron models are freely available, the system also relies heavily on Box’s pre-existing metadata and permission controls, which will make it challenging to recreate from scratch. “We’re probably packing in five different technologies into one simple API,” Levie told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "AI Editor",
+      "heading": 1
+    }
+  ]
+}

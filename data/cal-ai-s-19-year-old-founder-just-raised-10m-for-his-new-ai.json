@@ -1,0 +1,97 @@
+{
+  "type": "read",
+  "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+  "slug": "cal-ai-s-19-year-old-founder-just-raised-10m-for-his-new-ai",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/Zach-Yaegari.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+    "episode": ""
+  },
+  "words": 745,
+  "lines": 18,
+  "duration": 248,
+  "text": "Zach Yadegari, the teen co-founder of calorie tracking app Cal AI, has launched Persona, a new AI agent startup, and already raised $10 million. Vine Ventures led the round, with Z Fellows founder Cory Levy and Collective Global participating.\n\nIn March, MyFitnessPal acquired Cal AI for an undisclosed sum after it zoomed ahead of the older calorie app in the app store rankings. The deal was big enough to convince Yadegari and his co-founders to sell the company after it had pulled in over $30 million in annual revenue in under two years, MyFitnessPal told TechCrunch at the time.\n\nYadegari and his co-founders originally went to work for their new owner, continuing development on Cal AI, but he left the bigger company in June, he tells TechCrunch. He then went right to work on his next idea. (He is working with another co-founder who has yet to be announced.)\n\nThat idea is Persona, a personal AI assistant similar to Instinct or Meta’s Muse but with a hardware component that will soon be available: a $179 wearable band.\n\nThat makes Persona somewhat more like Bee, the wearable AI device that Amazon acquired in 2025, but Persona’s device differs in several ways, Yadegari tells TechCrunch. For one, it won’t be ambient AI, meaning it won’t always be listening and recording. The band will have a button that activates the assistant, or it can be set up to activate with the flick of one’s wrist.\n\nYadegari also says that Persona is designed with user privacy in mind. Persona doesn’t run its AI model or store user data on the device. Instead, the model runs in Persona’s cloud, and user data is sent there. The assistant protects privacy by encrypting data in transit and at rest. Users can also delete their data, the company says.\n\nIn this way, it is promising that user conversations stay private and cannot be sold to advertisers or data brokers.\n\nThe team is also baking in safeguards to protect the assistant against phishing and prompt-injection attempts, Yadegari says. These are two areas that can plague agents, say AI labs like OpenAI.\n\nPlus, he promises that Persona’s agent can’t see a user’s credit-card details and that purchases will require the user’s approval, with payment handled through external providers such as Stripe Link. Link is Stripe’s secure wallet designed for use by agents.\n\nAlthough user data won’t be sold to advertisers, the startup’s current business model does rely on ads. Yadegari says the company will show advertised wares during shopping research. But he says that the agent will present unbiased recommendations because the agent won’t know which of the items are advertised. For example, if someone is researching office chairs, he says, “the agent knows their preferences” and will show them chairs that match those preferences, some of them sponsored results.\n\nThe bands are expected to be available in December, and an app is in the works. In the meantime, Persona has launched as a free beta product in which users work with the assistant via iMessage text messages. It has attracted “a few thousand beta users,” Yadegari said. The band has also already generated “five figures in preorder revenue.”\n\nLike other consumer AI assistants, he says, Persona can order food or rides, take notes, book travel, answer questions and emails, among other tasks.\n\n“All of the utility apps that you use on your phone day-to-day, whether those are apps for shopping, whether it’s Uber, DoorDash, your email — these are all collapsing and will collapse into a single super app powered by an AI assistant,” Yadegari said.\n\nEventually, he hopes to make Persona even more proactive. “It can offer help and solve problems before you even know you have a problem, and overall be more seamless with your life, so that you don’t need to stare at a rectangle in your hand all day.”\n\nCome see Zach Yadegari speak at TechCrunch Disrupt on “How to create viral growth and capitalize on it.” Disrupt takes place October 13-15 at the Moscone Center in San Francisco. Before Cal AI, Yadegari built his first business in the ninth grade and sold it for $100,000 when he was 16.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "Zach Yadegari, the teen co-founder of calorie tracking app Cal AI, has launched Persona, a new AI agent startup, and already raised $10 million. Vine Ventures led the round, with Z Fellows founder Cory Levy and Collective Global participating.",
+      "heading": 0
+    },
+    {
+      "text": "In March, MyFitnessPal acquired Cal AI for an undisclosed sum after it zoomed ahead of the older calorie app in the app store rankings. The deal was big enough to convince Yadegari and his co-founders to sell the company after it had pulled in over $30 million in annual revenue in under two years, MyFitnessPal told TechCrunch at the time.",
+      "heading": 0
+    },
+    {
+      "text": "Yadegari and his co-founders originally went to work for their new owner, continuing development on Cal AI, but he left the bigger company in June, he tells TechCrunch. He then went right to work on his next idea. (He is working with another co-founder who has yet to be announced.)",
+      "heading": 0
+    },
+    {
+      "text": "That idea is Persona, a personal AI assistant similar to Instinct or Meta’s Muse but with a hardware component that will soon be available: a $179 wearable band.",
+      "heading": 0
+    },
+    {
+      "text": "That makes Persona somewhat more like Bee, the wearable AI device that Amazon acquired in 2025, but Persona’s device differs in several ways, Yadegari tells TechCrunch. For one, it won’t be ambient AI, meaning it won’t always be listening and recording. The band will have a button that activates the assistant, or it can be set up to activate with the flick of one’s wrist.",
+      "heading": 0
+    },
+    {
+      "text": "Yadegari also says that Persona is designed with user privacy in mind. Persona doesn’t run its AI model or store user data on the device. Instead, the model runs in Persona’s cloud, and user data is sent there. The assistant protects privacy by encrypting data in transit and at rest. Users can also delete their data, the company says.",
+      "heading": 0
+    },
+    {
+      "text": "In this way, it is promising that user conversations stay private and cannot be sold to advertisers or data brokers.",
+      "heading": 0
+    },
+    {
+      "text": "The team is also baking in safeguards to protect the assistant against phishing and prompt-injection attempts, Yadegari says. These are two areas that can plague agents, say AI labs like OpenAI.",
+      "heading": 0
+    },
+    {
+      "text": "Plus, he promises that Persona’s agent can’t see a user’s credit-card details and that purchases will require the user’s approval, with payment handled through external providers such as Stripe Link. Link is Stripe’s secure wallet designed for use by agents.",
+      "heading": 0
+    },
+    {
+      "text": "Although user data won’t be sold to advertisers, the startup’s current business model does rely on ads. Yadegari says the company will show advertised wares during shopping research. But he says that the agent will present unbiased recommendations because the agent won’t know which of the items are advertised. For example, if someone is researching office chairs, he says, “the agent knows their preferences” and will show them chairs that match those preferences, some of them sponsored results.",
+      "heading": 0
+    },
+    {
+      "text": "The bands are expected to be available in December, and an app is in the works. In the meantime, Persona has launched as a free beta product in which users work with the assistant via iMessage text messages. It has attracted “a few thousand beta users,” Yadegari said. The band has also already generated “five figures in preorder revenue.”",
+      "heading": 0
+    },
+    {
+      "text": "Like other consumer AI assistants, he says, Persona can order food or rides, take notes, book travel, answer questions and emails, among other tasks.",
+      "heading": 0
+    },
+    {
+      "text": "“All of the utility apps that you use on your phone day-to-day, whether those are apps for shopping, whether it’s Uber, DoorDash, your email — these are all collapsing and will collapse into a single super app powered by an AI assistant,” Yadegari said.",
+      "heading": 0
+    },
+    {
+      "text": "Eventually, he hopes to make Persona even more proactive. “It can offer help and solve problems before you even know you have a problem, and overall be more seamless with your life, so that you don’t need to stare at a rectangle in your hand all day.”",
+      "heading": 0
+    },
+    {
+      "text": "Come see Zach Yadegari speak at TechCrunch Disrupt on “How to create viral growth and capitalize on it.” Disrupt takes place October 13-15 at the Moscone Center in San Francisco. Before Cal AI, Yadegari built his first business in the ninth grade and sold it for $100,000 when he was 16.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

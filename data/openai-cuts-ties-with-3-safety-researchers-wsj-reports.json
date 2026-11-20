@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+  "slug": "openai-cuts-ties-with-3-safety-researchers-wsj-reports",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "episode": ""
+  },
+  "words": 346,
+  "lines": 12,
+  "duration": 115,
+  "text": "OpenAI has parted ways with three researchers on its safety team who allegedly shared confidential company information with a third-party AI safety organization, The Wall Street Journal reported on Thursday.\n\n“We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,” an OpenAI spokesperson said in a statement to the WSJ. “Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.”\n\nThe report did not name the researchers, the organization, or the information involved. OpenAI did not immediately respond to our request for comment.\n\nPosts circulating on X named individuals some users believe were among those dismissed, who had also publicly expressed concerns about AI risk while at OpenAI. TechCrunch has not confirmed their identities.\n\nIn a statement to WSJ, an OpenAI spokesperson said an internal investigation confirmed the researchers had “mishandled sensitive information outside established company procedures.”\n\nThe departures come two days after The New York Times reported that OpenAI executives had brushed aside employees’ warnings about its safety practices, with employees describing a broader pattern of the company deprioritizing security. An OpenAI spokesperson told the Times the company takes security concerns seriously and has internal channels for reporting safety issues, while saying it recognized “a need to move faster.”\n\nIt’s unclear whether the three researchers raised concerns through internal channels before allegedly sharing information outside the organization.\n\nThe departures also come as OpenAI responds to a series of security incidents in which its AI agents escaped containment, posted user images, and hacked government websites. Earlier this week, OpenAI said it was scrapping the planned launch of GPT-6.1 Astra, an AI model, over safety concerns.\n\nThis isn’t the first time OpenAI has dismissed researchers over alleged information sharing. In 2024, the company fired researchers Leopold Aschenbrenner and Pavel Izmailov over alleged leaks, The Information reported.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nEditorial Fellow",
+  "paragraphs": [
+    {
+      "text": "OpenAI has parted ways with three researchers on its safety team who allegedly shared confidential company information with a third-party AI safety organization, The Wall Street Journal reported on Thursday.",
+      "heading": 0
+    },
+    {
+      "text": "“We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,” an OpenAI spokesperson said in a statement to the WSJ. “Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.”",
+      "heading": 0
+    },
+    {
+      "text": "The report did not name the researchers, the organization, or the information involved. OpenAI did not immediately respond to our request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Posts circulating on X named individuals some users believe were among those dismissed, who had also publicly expressed concerns about AI risk while at OpenAI. TechCrunch has not confirmed their identities.",
+      "heading": 0
+    },
+    {
+      "text": "In a statement to WSJ, an OpenAI spokesperson said an internal investigation confirmed the researchers had “mishandled sensitive information outside established company procedures.”",
+      "heading": 0
+    },
+    {
+      "text": "The departures come two days after The New York Times reported that OpenAI executives had brushed aside employees’ warnings about its safety practices, with employees describing a broader pattern of the company deprioritizing security. An OpenAI spokesperson told the Times the company takes security concerns seriously and has internal channels for reporting safety issues, while saying it recognized “a need to move faster.”",
+      "heading": 0
+    },
+    {
+      "text": "It’s unclear whether the three researchers raised concerns through internal channels before allegedly sharing information outside the organization.",
+      "heading": 0
+    },
+    {
+      "text": "The departures also come as OpenAI responds to a series of security incidents in which its AI agents escaped containment, posted user images, and hacked government websites. Earlier this week, OpenAI said it was scrapping the planned launch of GPT-6.1 Astra, an AI model, over safety concerns.",
+      "heading": 0
+    },
+    {
+      "text": "This isn’t the first time OpenAI has dismissed researchers over alleged information sharing. In 2024, the company fired researchers Leopold Aschenbrenner and Pavel Izmailov over alleged leaks, The Information reported.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Editorial Fellow",
+      "heading": 1
+    }
+  ]
+}

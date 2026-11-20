@@ -1,0 +1,69 @@
+{
+  "type": "read",
+  "title": "Muse can now place calls to US businesses — if you pay",
+  "slug": "muse-can-now-place-calls-to-us-businesses-if-you-pay",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-calls.jpg?w=1104",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+    "episode": ""
+  },
+  "words": 509,
+  "lines": 11,
+  "duration": 170,
+  "text": "After initially testing the feature in September, Meta’s consumer AI agent Muse is now able to place calls to U.S. businesses on behalf of its users. However, only paid subscribers have access to the feature, the company says.\n\nMeta’s Muse, which now has over 10 million users, the company said last month, has been working to make consumer AI a mainstream product for everyday users. Placing calls is one of the ways it aims to get there, as it could handle another task on people’s to-do lists.\n\nNotes Alexandr Wang, Meta’s chief AI officer and head of its Superintelligence Labs division, the feature could be used to take care of calls people don’t want to make, like those to their cable company, the DMV, or to a restaurant that doesn’t offer online reservations.\n\n🚨MUSE FEATURE ALERT!!!🚨 lots of you have been asking for this one… muse can make phone calls for you! ☎️📞📲 let muse take care of all those calls you don’t want to make. insurance? cable? DMV? dinner res? not your problem anymore. out now to paid subs in the US 🇺🇸 pic.twitter.com/dsyMNmI2Ub\n\nPreviously, only a select number of Muse early adopters were able to try this feature after asking the AI for access. Now, anyone who pays for Muse can make this type of request. Currently, Muse subscription plans start at $20 per month for 500 million Muse tokens per week. Heavier AI users can opt to pay $100 per month for 3 billion tokens.\n\nMuse is not the only AI agent able to place calls to businesses; the startup Instinct has been offering a similar option, as has Google’s Gemini. However, while the AI tools are now certainly capable of handling the task, the reception on the other end of the line can be mixed. Many businesses and receptionists hang up on calls from AI agents as soon as they identify that it’s not a human on the phone. But with AI now better able to mimic a real human voice, being able to tell the difference between a customer and an AI working on the customer’s behalf will get tougher.\n\nDespite the challenges, this feature is one that could appeal to consumers who have grown frustrated with the state of customer service over the years. For too long, customers have been forced to navigate complex phone trees, and then sit on hold waiting for a human representative to pick up. If they’re lucky, that person can actually help them, and not transfer them to another department. Now, those consumers could potentially use their AI, with its infinite patience, for this tedious task instead.\n\nWhile calls remain a paid-only feature for the time being, the recently added option to make a Muse email address will soon roll out to free users, Wang said this week.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "After initially testing the feature in September, Meta’s consumer AI agent Muse is now able to place calls to U.S. businesses on behalf of its users. However, only paid subscribers have access to the feature, the company says.",
+      "heading": 0
+    },
+    {
+      "text": "Meta’s Muse, which now has over 10 million users, the company said last month, has been working to make consumer AI a mainstream product for everyday users. Placing calls is one of the ways it aims to get there, as it could handle another task on people’s to-do lists.",
+      "heading": 0
+    },
+    {
+      "text": "Notes Alexandr Wang, Meta’s chief AI officer and head of its Superintelligence Labs division, the feature could be used to take care of calls people don’t want to make, like those to their cable company, the DMV, or to a restaurant that doesn’t offer online reservations.",
+      "heading": 0
+    },
+    {
+      "text": "🚨MUSE FEATURE ALERT!!!🚨 lots of you have been asking for this one… muse can make phone calls for you! ☎️📞📲 let muse take care of all those calls you don’t want to make. insurance? cable? DMV? dinner res? not your problem anymore. out now to paid subs in the US 🇺🇸 pic.twitter.com/dsyMNmI2Ub",
+      "heading": 0
+    },
+    {
+      "text": "Previously, only a select number of Muse early adopters were able to try this feature after asking the AI for access. Now, anyone who pays for Muse can make this type of request. Currently, Muse subscription plans start at $20 per month for 500 million Muse tokens per week. Heavier AI users can opt to pay $100 per month for 3 billion tokens.",
+      "heading": 0
+    },
+    {
+      "text": "Muse is not the only AI agent able to place calls to businesses; the startup Instinct has been offering a similar option, as has Google’s Gemini. However, while the AI tools are now certainly capable of handling the task, the reception on the other end of the line can be mixed. Many businesses and receptionists hang up on calls from AI agents as soon as they identify that it’s not a human on the phone. But with AI now better able to mimic a real human voice, being able to tell the difference between a customer and an AI working on the customer’s behalf will get tougher.",
+      "heading": 0
+    },
+    {
+      "text": "Despite the challenges, this feature is one that could appeal to consumers who have grown frustrated with the state of customer service over the years. For too long, customers have been forced to navigate complex phone trees, and then sit on hold waiting for a human representative to pick up. If they’re lucky, that person can actually help them, and not transfer them to another department. Now, those consumers could potentially use their AI, with its infinite patience, for this tedious task instead.",
+      "heading": 0
+    },
+    {
+      "text": "While calls remain a paid-only feature for the time being, the recently added option to make a Muse email address will soon roll out to free users, Wang said this week.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

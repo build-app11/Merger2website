@@ -1,0 +1,85 @@
+{
+  "type": "read",
+  "title": "Massachusetts hits data centers with new clean power rules",
+  "slug": "massachusetts-hits-data-centers-with-new-clean-power-rules",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2001268132.jpeg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+    "episode": ""
+  },
+  "words": 598,
+  "lines": 15,
+  "duration": 199,
+  "text": "Massachusetts became the latest state to force data centers to bring their own power, but this time there’s a twist. A new state mandate would require developers building data centers larger than 25 megawatts to provide clean power or pay into a ratepayer protection fund.\n\nGov. Maura Healey’s executive order is the latest example of states turning against data centers. Just a few years ago, tech companies and data center developers were showered with incentives to locate facilities in a particular state. Now they’re fighting a groundswell of public opposition as politicians seek to show voters they’re addressing their concerns.\n\nUnder Healey’s order, data centers larger than 25 megawatts of peak demand will have to bring their own power and guarantee that it adheres to the state’s clean energy requirements. Healey would prefer that they generate the clean power on-site, too. If not, they’ll need to fund the construction of new generation nearby or pay into a ratepayer protection fund.\n\nMassachusetts is also directing communities to “avoid signing non-disclosure agreements,” according to the executive order. To give regulators time to implement the new restrictions, the governor is pausing applications for a data center sales tax exemption that went into effect last month.\n\nHealey said data centers must meet the Massachusetts clean energy standard enshrined in state law, although it comes with some added strength. The state’s clean energy standard dictates that industry only generate a portion of their power using approved sources like wind, solar, and hydro. In 2030, for example, those sources must contribute at least 40% of the total. The amount varies by year, and it ratchets up over time. But the governor’s office clarified that data centers will be required to meet 100% of its electricity demand with clean energy generation.\n\nWith the new restrictions, Massachusetts becomes the third state in as many months to rein in data center development.\n\nIn August, Texas governor Greg Abbott announced that all new data centers in the state would need to submit to audits by the public utility commission and the grid operator, ERCOT. In July, New York’s governor stopped construction of new data centers 50 megawatts or larger.\n\nWith public sentiment shifting against data centers, the tech industry is starting to push back. Pro-AI super PAC Leading the Future — which is funded by Marc Andreessen, Ben Horowitz, and Greg Brockman — is buying ads that seek to sway voters in battleground states ahead of midterm elections.\n\nUpdate: This article was updated with information from the Massachusetts governor’s office that clarified the executive order will require data centers to meet 100% of its electricity demand with clean energy generation.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Climate\n\nTim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.\n\nDe Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.\n\nYou can contact or verify outreach from Tim by emailing [email protected].",
+  "paragraphs": [
+    {
+      "text": "Massachusetts became the latest state to force data centers to bring their own power, but this time there’s a twist. A new state mandate would require developers building data centers larger than 25 megawatts to provide clean power or pay into a ratepayer protection fund.",
+      "heading": 0
+    },
+    {
+      "text": "Gov. Maura Healey’s executive order is the latest example of states turning against data centers. Just a few years ago, tech companies and data center developers were showered with incentives to locate facilities in a particular state. Now they’re fighting a groundswell of public opposition as politicians seek to show voters they’re addressing their concerns.",
+      "heading": 0
+    },
+    {
+      "text": "Under Healey’s order, data centers larger than 25 megawatts of peak demand will have to bring their own power and guarantee that it adheres to the state’s clean energy requirements. Healey would prefer that they generate the clean power on-site, too. If not, they’ll need to fund the construction of new generation nearby or pay into a ratepayer protection fund.",
+      "heading": 0
+    },
+    {
+      "text": "Massachusetts is also directing communities to “avoid signing non-disclosure agreements,” according to the executive order. To give regulators time to implement the new restrictions, the governor is pausing applications for a data center sales tax exemption that went into effect last month.",
+      "heading": 0
+    },
+    {
+      "text": "Healey said data centers must meet the Massachusetts clean energy standard enshrined in state law, although it comes with some added strength. The state’s clean energy standard dictates that industry only generate a portion of their power using approved sources like wind, solar, and hydro. In 2030, for example, those sources must contribute at least 40% of the total. The amount varies by year, and it ratchets up over time. But the governor’s office clarified that data centers will be required to meet 100% of its electricity demand with clean energy generation.",
+      "heading": 0
+    },
+    {
+      "text": "With the new restrictions, Massachusetts becomes the third state in as many months to rein in data center development.",
+      "heading": 0
+    },
+    {
+      "text": "In August, Texas governor Greg Abbott announced that all new data centers in the state would need to submit to audits by the public utility commission and the grid operator, ERCOT. In July, New York’s governor stopped construction of new data centers 50 megawatts or larger.",
+      "heading": 0
+    },
+    {
+      "text": "With public sentiment shifting against data centers, the tech industry is starting to push back. Pro-AI super PAC Leading the Future — which is funded by Marc Andreessen, Ben Horowitz, and Greg Brockman — is buying ads that seek to sway voters in battleground states ahead of midterm elections.",
+      "heading": 0
+    },
+    {
+      "text": "Update: This article was updated with information from the Massachusetts governor’s office that clarified the executive order will require data centers to meet 100% of its electricity demand with clean energy generation.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Climate",
+      "heading": 1
+    },
+    {
+      "text": "Tim De Chant is a senior climate reporter at TechCrunch. He has written for a wide range of publications, including Wired magazine, the Chicago Tribune, Ars Technica, The Wire China, and NOVA Next, where he was founding editor.",
+      "heading": 0
+    },
+    {
+      "text": "De Chant is also a lecturer in MIT’s Graduate Program in Science Writing, and he was awarded a Knight Science Journalism Fellowship at MIT in 2018, during which time he studied climate technologies and explored new business models for journalism. He received his PhD in environmental science, policy, and management from the University of California, Berkeley, and his BA degree in environmental studies, English, and biology from St. Olaf College.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Tim by emailing [email protected].",
+      "heading": 0
+    }
+  ]
+}

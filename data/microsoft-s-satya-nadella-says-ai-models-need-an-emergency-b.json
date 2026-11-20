@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+  "slug": "microsoft-s-satya-nadella-says-ai-models-need-an-emergency-b",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "episode": ""
+  },
+  "words": 291,
+  "lines": 20,
+  "duration": 97,
+  "text": "Posted:\n\nAnthony Ha\n\nMicrosoft’s Satya Nadella says AI models need an ‘emergency brake’\n\nMicrosoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved.\n\nIn a Saturday morning post on X, Nadella wrote that it’s time “to step back and assess the trust architecture” of AI.\n\n“We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions,” Nadella wrote, using the Trump administration’s preferred term for AI.\n\nAs outlined by Nadella, this approach “means separating the model from the harness that orchestrates its work,” as well as “externalizing controls and safeguards.” He also called for “every meaningful model action” to be documented with “tamper-proof human readable evidence,” and for systems where “an authorized person” always has the ability “to pause or shut down a model mid-task.”\n\n“We must assume a model is compromised and contain it from the start,” he said. “Think of it like an emergency brake.”\n\nNadella’s comments come as leading AI companies acknowledge more and more incidents where they seemed to lose control of their models, and after Anthropic CEO Dario Amodei published a plan for more cautious AI development.\n\nTopics\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit\n\nJulie Bort\n\nAmidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\n\nLucas Ropek\n\nMicrosoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit\n\nAmanda Silberling\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved.",
+      "heading": 0
+    },
+    {
+      "text": "In a Saturday morning post on X, Nadella wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "heading": 0
+    },
+    {
+      "text": "“We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions,” Nadella wrote, using the Trump administration’s preferred term for AI.",
+      "heading": 0
+    },
+    {
+      "text": "As outlined by Nadella, this approach “means separating the model from the harness that orchestrates its work,” as well as “externalizing controls and safeguards.” He also called for “every meaningful model action” to be documented with “tamper-proof human readable evidence,” and for systems where “an authorized person” always has the ability “to pause or shut down a model mid-task.”",
+      "heading": 0
+    },
+    {
+      "text": "“We must assume a model is compromised and contain it from the start,” he said. “Think of it like an emergency brake.”",
+      "heading": 0
+    },
+    {
+      "text": "Nadella’s comments come as leading AI companies acknowledge more and more incidents where they seemed to lose control of their models, and after Anthropic CEO Dario Amodei published a plan for more cautious AI development.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "heading": 0
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

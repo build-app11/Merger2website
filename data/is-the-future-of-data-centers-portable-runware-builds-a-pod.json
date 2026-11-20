@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Is the future of data centers portable? Runware builds a pod to find out",
+  "slug": "is-the-future-of-data-centers-portable-runware-builds-a-pod",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/Data-center.png?resize=1196,1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "episode": ""
+  },
+  "words": 727,
+  "lines": 16,
+  "duration": 242,
+  "text": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod. Designed as a single transportable unit, the Pod represents a more flexible kind of compute that can sit alongside hyperscalers’ massive data center projects.\n\nRunware says the Pod can offer inference at a higher quality but lower cost than other serverless inference platforms and GPU clouds. The modular design means it’s easy to add capacity quickly by creating new pods rather than having to expand a fixed data center. In some ways, this is the future, Flaviu Radulescu, co-founder and CEO of Runware, told TechCrunch.\n\n“We believe distributed compute, positioned closer to end users for faster inference, is what will win in the long term,” he said, noting his company as an example. Aside from a lower price, Radulescu noted that the Runware system can scale and add capacity fast, deploy anywhere there is power, and adapt quickly to new hardware releases. The Runware pods also do not use water, but rather a closed-loop cooling system that can be built in days, compared to the months or even years it takes to build traditional data centers.\n\n“Demand for inference is growing faster than facilities can be built,” Radulescu said. “What we want is to power the world’s intelligence, to be the backbone every AI model runs on with capacity that keeps up with demand instead of throttling it.”\n\nRunware currently has 10 pods in deployment across the U.S., Europe, and Asia-Pacific, Radulescu said. The company already provides inference to a few companies, including Higgsfield AI and Wix, and has 160 sites available to power its pods right now. Runware announced a $50 million Series A in December to provide the infrastructure needed for companies to generate images. They see the expansion into pods as part of the company’s core mission: providing inference to companies, rather than a single product.\n\nAI labs like OpenAI and SpaceX are still racing to build data centers throughout the U.S. OpenAI, for example, is close to striking a $500 billion deal that would see it build a data center in Ohio, according to reports. But Radulescu doesn’t see those projects as a threat to the Sonic Inference Pods, describing the flexibility of the pods as a key differentiator.\n\n“Every pod runs as part of a single network, so requests go wherever there’s capacity, closer to the users, and if one pod goes offline, traffic moves to another,” he said, adding that a system failure means one pod is down rather than a whole fixed facility. “Customers who want dedicated hardware get whole pods to themselves.”\n\nHe’s also not too worried about other companies building this for themselves, saying simply that hardware is slow and finding the talent pool to build and fix this technology is small.\n\n“A mistake in a circuit board design costs months between redesign, simulation, fabrication, testing, and delivery,” he said. “Every one of those calls needs someone who understands exactly what each component does and what breaks if it’s gone.”\n\nBuilding AI data centers is a controversial topic, however, especially because of how many resources it uses. Already, communities where data centers are located have reported seeing a rise in utility costs. One day, Runware sees a world where it can run on renewable power and doesn’t draw on the resources communities need, but that day is not necessarily today.\n\nRadulescu said that AI power use is going to increase regardless, “driven by demand for inference, not by who supplies it.” What Runware is focused on right now is how that demand gets met, he said. “No transmission losses, no water in cooling, and we’re using power that already exists instead of asking for new grid capacity to be built. More inference built this way means less new grid, less water, for the same amount of compute.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter, Venture\n\nDominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.\n\nYou can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+  "paragraphs": [
+    {
+      "text": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod. Designed as a single transportable unit, the Pod represents a more flexible kind of compute that can sit alongside hyperscalers’ massive data center projects.",
+      "heading": 0
+    },
+    {
+      "text": "Runware says the Pod can offer inference at a higher quality but lower cost than other serverless inference platforms and GPU clouds. The modular design means it’s easy to add capacity quickly by creating new pods rather than having to expand a fixed data center. In some ways, this is the future, Flaviu Radulescu, co-founder and CEO of Runware, told TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "“We believe distributed compute, positioned closer to end users for faster inference, is what will win in the long term,” he said, noting his company as an example. Aside from a lower price, Radulescu noted that the Runware system can scale and add capacity fast, deploy anywhere there is power, and adapt quickly to new hardware releases. The Runware pods also do not use water, but rather a closed-loop cooling system that can be built in days, compared to the months or even years it takes to build traditional data centers.",
+      "heading": 0
+    },
+    {
+      "text": "“Demand for inference is growing faster than facilities can be built,” Radulescu said. “What we want is to power the world’s intelligence, to be the backbone every AI model runs on with capacity that keeps up with demand instead of throttling it.”",
+      "heading": 0
+    },
+    {
+      "text": "Runware currently has 10 pods in deployment across the U.S., Europe, and Asia-Pacific, Radulescu said. The company already provides inference to a few companies, including Higgsfield AI and Wix, and has 160 sites available to power its pods right now. Runware announced a $50 million Series A in December to provide the infrastructure needed for companies to generate images. They see the expansion into pods as part of the company’s core mission: providing inference to companies, rather than a single product.",
+      "heading": 0
+    },
+    {
+      "text": "AI labs like OpenAI and SpaceX are still racing to build data centers throughout the U.S. OpenAI, for example, is close to striking a $500 billion deal that would see it build a data center in Ohio, according to reports. But Radulescu doesn’t see those projects as a threat to the Sonic Inference Pods, describing the flexibility of the pods as a key differentiator.",
+      "heading": 0
+    },
+    {
+      "text": "“Every pod runs as part of a single network, so requests go wherever there’s capacity, closer to the users, and if one pod goes offline, traffic moves to another,” he said, adding that a system failure means one pod is down rather than a whole fixed facility. “Customers who want dedicated hardware get whole pods to themselves.”",
+      "heading": 0
+    },
+    {
+      "text": "He’s also not too worried about other companies building this for themselves, saying simply that hardware is slow and finding the talent pool to build and fix this technology is small.",
+      "heading": 0
+    },
+    {
+      "text": "“A mistake in a circuit board design costs months between redesign, simulation, fabrication, testing, and delivery,” he said. “Every one of those calls needs someone who understands exactly what each component does and what breaks if it’s gone.”",
+      "heading": 0
+    },
+    {
+      "text": "Building AI data centers is a controversial topic, however, especially because of how many resources it uses. Already, communities where data centers are located have reported seeing a rise in utility costs. One day, Runware sees a world where it can run on renewable power and doesn’t draw on the resources communities need, but that day is not necessarily today.",
+      "heading": 0
+    },
+    {
+      "text": "Radulescu said that AI power use is going to increase regardless, “driven by demand for inference, not by who supplies it.” What Runware is focused on right now is how that demand gets met, he said. “No transmission losses, no water in cooling, and we’re using power that already exists instead of asking for new grid capacity to be built. More inference built this way means less new grid, less water, for the same amount of compute.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Dominic by emailing [email protected] or via encrypted message at +1 646 831-7565 on Signal.",
+      "heading": 0
+    }
+  ]
+}

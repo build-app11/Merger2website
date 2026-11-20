@@ -1,0 +1,81 @@
+{
+  "type": "read",
+  "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+  "slug": "robotics-startup-generalist-reaches-3b-valuation-sources-say",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-640351099.jpg?resize=1200,849",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "episode": ""
+  },
+  "words": 424,
+  "lines": 14,
+  "duration": 141,
+  "text": "Generalist, a robotics startup, is now valued at $3 billion after raising additional capital led by 8VC, according to two people with knowledge of the funding.\n\nThe fresh capital totals nearly $200 million according to a regulatory filing. That additional capital is an extension of a $400 million Series B led by Radical Ventures that the company announced in June at a $2 billion valuation, the people said. The new capital brings the round’s total funding to $600 million.\n\nGeneralist and 8VC didn’t respond to a request for comment.\n\nGeneralist was founded in 2024 by former Google DeepMind researchers Pete Florence and Andy Zeng, along with former Boston Dynamics engineer Andrew Barry. It received early backing from 8VC and Radical Ventures as well as Nvidia, Union Square Ventures, Bezos Expeditions, and AI researcher Fei-Fei Li.\n\nUntil recently, the startup operated quietly and with little publicity.\n\nGeneralist is developing an AI foundation model that can work with various robots. It claims its newly released Gen 1.5 model enables robots to master new tasks from video demonstrations as short as 3 to 12 seconds long.\n\nThe startup is working with a handful of customers, using their feedback to tailor the model for specific use cases, according to one source.\n\nGeneralist isn’t alone in its pursuit of building a brain for a broad range of robots. Other competitors include Physical Intelligence, which is reportedly valued at $11 billion, and SoftBank-backed Skild AI, valued at $14 billion, as well as Genesis AI, which was in talks as of last month to raise capital at a $3 billion valuation.\n\nThe funding surge reflects a bet from some investors that robotics may soon reach its own “ChatGPT moment,” meaning that robots will be able to perform general tasks without being explicitly trained for each one. However, because robots cannot be trained on the entirety of the internet’s data the way LLMs can, some VCs warn that a truly general robotics model may still be years away.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nReporter, Venture\n\nMarina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.\n\nYou can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Generalist, a robotics startup, is now valued at $3 billion after raising additional capital led by 8VC, according to two people with knowledge of the funding.",
+      "heading": 0
+    },
+    {
+      "text": "The fresh capital totals nearly $200 million according to a regulatory filing. That additional capital is an extension of a $400 million Series B led by Radical Ventures that the company announced in June at a $2 billion valuation, the people said. The new capital brings the round’s total funding to $600 million.",
+      "heading": 0
+    },
+    {
+      "text": "Generalist and 8VC didn’t respond to a request for comment.",
+      "heading": 0
+    },
+    {
+      "text": "Generalist was founded in 2024 by former Google DeepMind researchers Pete Florence and Andy Zeng, along with former Boston Dynamics engineer Andrew Barry. It received early backing from 8VC and Radical Ventures as well as Nvidia, Union Square Ventures, Bezos Expeditions, and AI researcher Fei-Fei Li.",
+      "heading": 0
+    },
+    {
+      "text": "Until recently, the startup operated quietly and with little publicity.",
+      "heading": 0
+    },
+    {
+      "text": "Generalist is developing an AI foundation model that can work with various robots. It claims its newly released Gen 1.5 model enables robots to master new tasks from video demonstrations as short as 3 to 12 seconds long.",
+      "heading": 0
+    },
+    {
+      "text": "The startup is working with a handful of customers, using their feedback to tailor the model for specific use cases, according to one source.",
+      "heading": 0
+    },
+    {
+      "text": "Generalist isn’t alone in its pursuit of building a brain for a broad range of robots. Other competitors include Physical Intelligence, which is reportedly valued at $11 billion, and SoftBank-backed Skild AI, valued at $14 billion, as well as Genesis AI, which was in talks as of last month to raise capital at a $3 billion valuation.",
+      "heading": 0
+    },
+    {
+      "text": "The funding surge reflects a bet from some investors that robotics may soon reach its own “ChatGPT moment,” meaning that robots will be able to perform general tasks without being explicitly trained for each one. However, because robots cannot be trained on the entirety of the internet’s data the way LLMs can, some VCs warn that a truly general robotics model may still be years away.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Reporter, Venture",
+      "heading": 1
+    },
+    {
+      "text": "Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Marina by emailing [email protected] or via encrypted message at +1 347-683-3909 on Signal.",
+      "heading": 0
+    }
+  ]
+}

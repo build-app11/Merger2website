@@ -1,0 +1,73 @@
+{
+  "type": "read",
+  "title": "Facebook is giving users more control over their algorithm",
+  "slug": "facebook-is-giving-users-more-control-over-their-algorithm",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+    "episode": ""
+  },
+  "words": 404,
+  "lines": 12,
+  "duration": 135,
+  "text": "Facebook is the latest social media platform to give users greater control over the algorithm that determines what appears in their feeds.\n\nMeta announced the launch of its new AI-powered feature, “Your Algorithm,” on Tuesday, a feature it first launched on Instagram. The new tool allows Facebook users to influence the content they see in Feed and Reels by describing their preferences in their own words using natural language. Rather than relying entirely on automated recommendations, users can now communicate directly with the platform about the topics and content they want to see more or less frequently.\n\nAccording to Meta, the feature is designed to make content recommendations more relevant. Users can adjust their preferences and interact with the algorithms responsible for ranking and recommending posts, with changes reflected in their recommendations in real time.\n\nThe company has also updated Facebook’s three-dot menu, making it easier for users to manage their content preferences directly from individual posts. By opening the menu, users can access “Your Algorithm” or select the “Interested” and “Not interested” options to indicate whether particular content aligns with their preferences.\n\nMeta says the platform may ask follow-up questions to better understand what users liked or disliked, allowing them to provide more detailed feedback. Users can explain what they want to see more or less of, helping Facebook refine its recommendations based on their responses.\n\nThe introduction of “Your Algorithm” reflects Meta’s broader effort to give people more influence over their social media experiences as AI increasingly shapes content discovery. The move signals a shift away from the traditional recommendation systems that have shaped social media experiences for years, bringing the platform closer to streaming services that allow users to personalize recommendations based on their interests and preferences.\n\nThe launch also builds on Meta’s existing personalization efforts across its other platforms. Instagram introduced Your Algorithm in June, extending customization options across Feed and Explore after first launching the feature for Reels in December 2025.\n\nThreads also introduced its own related feature, called “Dear Algo,” which allows users to influence the content recommended to them.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nLauren covers media, streaming, apps and platforms at TechCrunch.\n\nYou can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Facebook is the latest social media platform to give users greater control over the algorithm that determines what appears in their feeds.",
+      "heading": 0
+    },
+    {
+      "text": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” on Tuesday, a feature it first launched on Instagram. The new tool allows Facebook users to influence the content they see in Feed and Reels by describing their preferences in their own words using natural language. Rather than relying entirely on automated recommendations, users can now communicate directly with the platform about the topics and content they want to see more or less frequently.",
+      "heading": 0
+    },
+    {
+      "text": "According to Meta, the feature is designed to make content recommendations more relevant. Users can adjust their preferences and interact with the algorithms responsible for ranking and recommending posts, with changes reflected in their recommendations in real time.",
+      "heading": 0
+    },
+    {
+      "text": "The company has also updated Facebook’s three-dot menu, making it easier for users to manage their content preferences directly from individual posts. By opening the menu, users can access “Your Algorithm” or select the “Interested” and “Not interested” options to indicate whether particular content aligns with their preferences.",
+      "heading": 0
+    },
+    {
+      "text": "Meta says the platform may ask follow-up questions to better understand what users liked or disliked, allowing them to provide more detailed feedback. Users can explain what they want to see more or less of, helping Facebook refine its recommendations based on their responses.",
+      "heading": 0
+    },
+    {
+      "text": "The introduction of “Your Algorithm” reflects Meta’s broader effort to give people more influence over their social media experiences as AI increasingly shapes content discovery. The move signals a shift away from the traditional recommendation systems that have shaped social media experiences for years, bringing the platform closer to streaming services that allow users to personalize recommendations based on their interests and preferences.",
+      "heading": 0
+    },
+    {
+      "text": "The launch also builds on Meta’s existing personalization efforts across its other platforms. Instagram introduced Your Algorithm in June, extending customization options across Feed and Explore after first launching the feature for Reels in December 2025.",
+      "heading": 0
+    },
+    {
+      "text": "Threads also introduced its own related feature, called “Dear Algo,” which allows users to influence the content recommended to them.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Lauren covers media, streaming, apps and platforms at TechCrunch.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Lauren by emailing [email protected] or via encrypted message at laurenforris22.25 on Signal.",
+      "heading": 0
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "read",
+  "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+  "slug": "instinct-brings-its-ai-agent-to-group-chats-even-for-friends",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "episode": ""
+  },
+  "words": 479,
+  "lines": 13,
+  "duration": 160,
+  "text": "Instinct, the AI agent now valued at $10 billion as of its latest funding round, is expanding into group chats. The startup announced on Monday that users will be able to add the agent to chats with friends, which could be helpful in certain scenarios like travel planning, snagging event tickets, running fantasy leagues, organizing carpools, or managing who’s bringing what to Thanksgiving.\n\nNotably, the group chats with the AI agent will work even if a user’s friends haven’t joined Instinct, the company said.\n\nWith the launch, Instinct moves ahead in its battle with top competitors in the space, like Meta’s Muse. The latter doesn’t yet offer the group chat functionality, though Meta’s older app, Meta AI, can be added to group chats on WhatsApp, Messenger, Instagram, and Facebook.\n\nInstinct in group chats Starting today, early access users can add Instinct to group chats. A new Instinct joins and works for the whole group. Making plans with friends usually turns into a frustrating back-and-forth over times and places. With Instinct in the group, you can… pic.twitter.com/pqJX7ieC7B\n\nInstinct and Muse have been running neck and neck recently, with both of them adding the ability to make phone calls over the past couple of weeks, as their agents try to win more of the consumer AI market. Last week, OpenAI launched ChatGPT Dots, personal AI agents that can also be used in ChatGPT Spaces, collaborative workspaces where the Dots and humans work together.\n\nOn X, Instinct founder Noah Shinn explained how Instinct handles users’ privacy and security in group chats. He said a user’s personal Instinct agent will ask permission before connecting with the group’s Instinct agent, and that users can also choose which groups they trust and can remove that trust at any time.\n\nShinn also said the group’s Instinct is siloed from the users’ personal accounts, which it cannot access. The personal agent will always ask the user’s permission before sharing information or taking any action.\n\nIf new members join the group chat, any pending replies from a user’s personal Instinct agent are held before those are shared with the group, too.\n\n“Making plans with friends usually turns into a frustrating back-and-forth over times and places. With Instinct in the group, you can explore options together, agree on a plan and get it done, all in one thread,” Shinn wrote.\n\nThe feature is rolling out initially to Instinct’s early access users but will expand to all users “soon.” To gain access to the new feature (or other recent additions), users can ask their Instinct agent to put them on the list to try it out.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nConsumer News Editor",
+  "paragraphs": [
+    {
+      "text": "Instinct, the AI agent now valued at $10 billion as of its latest funding round, is expanding into group chats. The startup announced on Monday that users will be able to add the agent to chats with friends, which could be helpful in certain scenarios like travel planning, snagging event tickets, running fantasy leagues, organizing carpools, or managing who’s bringing what to Thanksgiving.",
+      "heading": 0
+    },
+    {
+      "text": "Notably, the group chats with the AI agent will work even if a user’s friends haven’t joined Instinct, the company said.",
+      "heading": 0
+    },
+    {
+      "text": "With the launch, Instinct moves ahead in its battle with top competitors in the space, like Meta’s Muse. The latter doesn’t yet offer the group chat functionality, though Meta’s older app, Meta AI, can be added to group chats on WhatsApp, Messenger, Instagram, and Facebook.",
+      "heading": 0
+    },
+    {
+      "text": "Instinct in group chats Starting today, early access users can add Instinct to group chats. A new Instinct joins and works for the whole group. Making plans with friends usually turns into a frustrating back-and-forth over times and places. With Instinct in the group, you can… pic.twitter.com/pqJX7ieC7B",
+      "heading": 0
+    },
+    {
+      "text": "Instinct and Muse have been running neck and neck recently, with both of them adding the ability to make phone calls over the past couple of weeks, as their agents try to win more of the consumer AI market. Last week, OpenAI launched ChatGPT Dots, personal AI agents that can also be used in ChatGPT Spaces, collaborative workspaces where the Dots and humans work together.",
+      "heading": 0
+    },
+    {
+      "text": "On X, Instinct founder Noah Shinn explained how Instinct handles users’ privacy and security in group chats. He said a user’s personal Instinct agent will ask permission before connecting with the group’s Instinct agent, and that users can also choose which groups they trust and can remove that trust at any time.",
+      "heading": 0
+    },
+    {
+      "text": "Shinn also said the group’s Instinct is siloed from the users’ personal accounts, which it cannot access. The personal agent will always ask the user’s permission before sharing information or taking any action.",
+      "heading": 0
+    },
+    {
+      "text": "If new members join the group chat, any pending replies from a user’s personal Instinct agent are held before those are shared with the group, too.",
+      "heading": 0
+    },
+    {
+      "text": "“Making plans with friends usually turns into a frustrating back-and-forth over times and places. With Instinct in the group, you can explore options together, agree on a plan and get it done, all in one thread,” Shinn wrote.",
+      "heading": 0
+    },
+    {
+      "text": "The feature is rolling out initially to Instinct’s early access users but will expand to all users “soon.” To gain access to the new feature (or other recent additions), users can ask their Instinct agent to put them on the list to try it out.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Consumer News Editor",
+      "heading": 1
+    }
+  ]
+}

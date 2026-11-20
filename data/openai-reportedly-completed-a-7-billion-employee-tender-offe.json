@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+  "slug": "openai-reportedly-completed-a-7-billion-employee-tender-offe",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+    "episode": ""
+  },
+  "words": 373,
+  "lines": 20,
+  "duration": 124,
+  "text": "Posted:\n\nTim Fernholz\n\nOpenAI reportedly completed a $7 billion employee tender offer\n\nOpenAI has bought back $7 billion worth of shares from employees at the privately held frontier AI lab as part of an effort to provide liquidity to its workforce.\n\nThe deal, reported by Bloomberg, valued OpenAI at $852 billion, the same as its most recent fundraising round in March, which added $122 billion to the company’s war chest.\n\nThe company also filed confidentially with the Securities and Exchange Commission in June to prepare for a potential IPO later this year. However, a tender offer suggests that an IPO may not be forthcoming soon. With many tech companies remaining private longer than previous generations of startups, private tenders have proven a useful way for firms to allow employees to realize the value of their stock compensation without the difficulties that come with a public offering.\n\nOpenAI did not respond to a request for comment by publication time.\n\nLast month, OpenAI CEO Sam Altman wrote that “we did not have our best 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date.” Firms going public typically want to show strong financial results to bring investors on board, and The Wall Street Journal reported in April that the company missed internal financial goals.\n\nWhile OpenAI’s incredible growth and products are likely to generate massive interest in public markets, the potential debut of rival Anthropic — which was reportedly profitable earlier this year — gives the company a reason to ensure it puts its best face forward. The tender could be another signal that the much-anticipated offering will wait for OpenAI’s new strategy of paring down its bets and focusing on its enterprise business to gain traction.\n\nTopics\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nAnthropic’s IPO could deliver $156B to charity\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Tim Fernholz",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI has bought back $7 billion worth of shares from employees at the privately held frontier AI lab as part of an effort to provide liquidity to its workforce.",
+      "heading": 0
+    },
+    {
+      "text": "The deal, reported by Bloomberg, valued OpenAI at $852 billion, the same as its most recent fundraising round in March, which added $122 billion to the company’s war chest.",
+      "heading": 0
+    },
+    {
+      "text": "The company also filed confidentially with the Securities and Exchange Commission in June to prepare for a potential IPO later this year. However, a tender offer suggests that an IPO may not be forthcoming soon. With many tech companies remaining private longer than previous generations of startups, private tenders have proven a useful way for firms to allow employees to realize the value of their stock compensation without the difficulties that come with a public offering.",
+      "heading": 0
+    },
+    {
+      "text": "OpenAI did not respond to a request for comment by publication time.",
+      "heading": 0
+    },
+    {
+      "text": "Last month, OpenAI CEO Sam Altman wrote that “we did not have our best 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date.” Firms going public typically want to show strong financial results to bring investors on board, and The Wall Street Journal reported in April that the company missed internal financial goals.",
+      "heading": 0
+    },
+    {
+      "text": "While OpenAI’s incredible growth and products are likely to generate massive interest in public markets, the potential debut of rival Anthropic — which was reportedly profitable earlier this year — gives the company a reason to ensure it puts its best face forward. The tender could be another signal that the much-anticipated offering will wait for OpenAI’s new strategy of paring down its bets and focusing on its enterprise business to gain traction.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s IPO could deliver $156B to charity",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

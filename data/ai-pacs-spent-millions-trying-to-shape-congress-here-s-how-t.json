@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+  "slug": "ai-pacs-spent-millions-trying-to-shape-congress-here-s-how-t",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2264644532.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+    "episode": ""
+  },
+  "words": 792,
+  "lines": 20,
+  "duration": 264,
+  "text": "Political groups both supporting and opposing the AI industry spent millions of dollars trying to influence Tuesday’s midterm elections and shape the future of AI regulation. That spending produced mixed results, with some of the most heavily backed candidates losing their races.\n\nOn the industry side, two AI-focused political action committees (PACs) that raised and spent money to influence the elections — American Mission and Building the Future — collectively spent $4.8 million to back South Carolina Senate candidate Darline Graham, who lost. American Mission is the Republican spending arm of Leading the Future (LTF), a broader political group backed by OpenAI president Greg Brockman and the VC firm Andreessen Horowitz.\n\nAmerican Mission also spent more than $500,000 apiece supporting Republican House candidates Aaron Flint in Montana and Laurie Buckhout in North Carolina, both of whom lost. LTF’s Democratic spending arm, Think Big, had better luck backing Florida Rep. Jared Moskowitz, who won reelection.\n\nGroups advocating for stronger AI safeguards also saw mixed results. Public First, which is backed by Anthropic, supported several Republicans who lost through its affiliated PAC but had more success backing Democratic candidates. It also contributed $3 million to a PAC supporting California state Sen. Scott Wiener, who was leading his race at the time of publication.\n\nMeanwhile, Guardrails Alliance, a group that has sought to make taking money from AI companies a political liability, spent more than $1 million apiece opposing two candidates who lost: California Rep. Jimmy Gomez and Montana’s Aaron Flint. It also spent $300,000 supporting Angela Gonzales-Torres, who defeated Gomez.\n\nIt’s difficult to separate the impact of AI-related spending from the broader Democratic wave that swept Tuesday’s elections. Elon Musk, who reportedly poured half a billion dollars into supporting Republicans in the midterms, also saw many of his candidates lose. Indeed, LTF also backed some candidates it believed were likely to win, only to see them lose to the Dems.\n\nFor LTF, though, the general election wasn’t the main focus. The group told TechCrunch ahead of Election Day that it thinks primaries (the contests that choose each party’s nominee) are a more effective use of its money, because spending there can build name recognition and help candidates set up AI policy agendas.\n\nLTF spent $27.38 million in the primaries, including $8 million alone on opposing New York Assembly member Alex Bores, who lost his bid for Congress back in June. When deciding whether it’s worth jumping into a general election race, LTF assesses how competitive the race is, whether it thinks spending could make a difference, and whether it should keep its powder dry for future elections.\n\nCharlie Blaettler, political director of Guardrails Alliance, had a different theory for why LTF spent comparatively little in the general election.\n\n“They don’t want their money to become an issue in these elections,” he said. He pointed to the Michigan Senate primary election, in which a pro-Israel lobbying group called AIPAC spent close to $30 million backing Democratic candidate Haley Stevens against Abdul El-Sayed. Stevens conceded the primary to El-Sayed, who went on to win the Senate seat.\n\n“AIPAC became the story in that race,” Blaettler said. “We know people hate AI billionaires. They hate the people running these companies. They’re very distrustful and disgusted by the political spending and lobbying that the tech industry does. If they spend in a competitive race, they would just become an enormous liability for their candidates.”\n\nThe main fight among AI-related PACs, whether they are pro-industry or pro-regulation, is whether Congress should establish a national AI framework that overrides state laws, or whether states will maintain their own ability to impose safeguards.\n\nNeither side seems poised to back down. LTF, which favors a single national AI framework, told TechCrunch it plans to keep spending in the 2028 elections, while Guardrails Alliance says it wants to keep opposing candidates backed by the AI industry.\n\nBlaettler said that while LTF’s ads rarely touch on AI, instead focusing on popular issues for each candidate, Guardrail Alliance’s ads are specifically about who is taking money from the AI industry.\n\n“Our goal is to make AI money politically toxic,” Blaettler said.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nSenior Reporter\n\nRebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.\n\nYou can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+  "paragraphs": [
+    {
+      "text": "Political groups both supporting and opposing the AI industry spent millions of dollars trying to influence Tuesday’s midterm elections and shape the future of AI regulation. That spending produced mixed results, with some of the most heavily backed candidates losing their races.",
+      "heading": 0
+    },
+    {
+      "text": "On the industry side, two AI-focused political action committees (PACs) that raised and spent money to influence the elections — American Mission and Building the Future — collectively spent $4.8 million to back South Carolina Senate candidate Darline Graham, who lost. American Mission is the Republican spending arm of Leading the Future (LTF), a broader political group backed by OpenAI president Greg Brockman and the VC firm Andreessen Horowitz.",
+      "heading": 0
+    },
+    {
+      "text": "American Mission also spent more than $500,000 apiece supporting Republican House candidates Aaron Flint in Montana and Laurie Buckhout in North Carolina, both of whom lost. LTF’s Democratic spending arm, Think Big, had better luck backing Florida Rep. Jared Moskowitz, who won reelection.",
+      "heading": 0
+    },
+    {
+      "text": "Groups advocating for stronger AI safeguards also saw mixed results. Public First, which is backed by Anthropic, supported several Republicans who lost through its affiliated PAC but had more success backing Democratic candidates. It also contributed $3 million to a PAC supporting California state Sen. Scott Wiener, who was leading his race at the time of publication.",
+      "heading": 0
+    },
+    {
+      "text": "Meanwhile, Guardrails Alliance, a group that has sought to make taking money from AI companies a political liability, spent more than $1 million apiece opposing two candidates who lost: California Rep. Jimmy Gomez and Montana’s Aaron Flint. It also spent $300,000 supporting Angela Gonzales-Torres, who defeated Gomez.",
+      "heading": 0
+    },
+    {
+      "text": "It’s difficult to separate the impact of AI-related spending from the broader Democratic wave that swept Tuesday’s elections. Elon Musk, who reportedly poured half a billion dollars into supporting Republicans in the midterms, also saw many of his candidates lose. Indeed, LTF also backed some candidates it believed were likely to win, only to see them lose to the Dems.",
+      "heading": 0
+    },
+    {
+      "text": "For LTF, though, the general election wasn’t the main focus. The group told TechCrunch ahead of Election Day that it thinks primaries (the contests that choose each party’s nominee) are a more effective use of its money, because spending there can build name recognition and help candidates set up AI policy agendas.",
+      "heading": 0
+    },
+    {
+      "text": "LTF spent $27.38 million in the primaries, including $8 million alone on opposing New York Assembly member Alex Bores, who lost his bid for Congress back in June. When deciding whether it’s worth jumping into a general election race, LTF assesses how competitive the race is, whether it thinks spending could make a difference, and whether it should keep its powder dry for future elections.",
+      "heading": 0
+    },
+    {
+      "text": "Charlie Blaettler, political director of Guardrails Alliance, had a different theory for why LTF spent comparatively little in the general election.",
+      "heading": 0
+    },
+    {
+      "text": "“They don’t want their money to become an issue in these elections,” he said. He pointed to the Michigan Senate primary election, in which a pro-Israel lobbying group called AIPAC spent close to $30 million backing Democratic candidate Haley Stevens against Abdul El-Sayed. Stevens conceded the primary to El-Sayed, who went on to win the Senate seat.",
+      "heading": 0
+    },
+    {
+      "text": "“AIPAC became the story in that race,” Blaettler said. “We know people hate AI billionaires. They hate the people running these companies. They’re very distrustful and disgusted by the political spending and lobbying that the tech industry does. If they spend in a competitive race, they would just become an enormous liability for their candidates.”",
+      "heading": 0
+    },
+    {
+      "text": "The main fight among AI-related PACs, whether they are pro-industry or pro-regulation, is whether Congress should establish a national AI framework that overrides state laws, or whether states will maintain their own ability to impose safeguards.",
+      "heading": 0
+    },
+    {
+      "text": "Neither side seems poised to back down. LTF, which favors a single national AI framework, told TechCrunch it plans to keep spending in the 2028 elections, while Guardrails Alliance says it wants to keep opposing candidates backed by the AI industry.",
+      "heading": 0
+    },
+    {
+      "text": "Blaettler said that while LTF’s ads rarely touch on AI, instead focusing on popular issues for each candidate, Guardrail Alliance’s ads are specifically about who is taking money from the AI industry.",
+      "heading": 0
+    },
+    {
+      "text": "“Our goal is to make AI money politically toxic,” Blaettler said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Senior Reporter",
+      "heading": 1
+    },
+    {
+      "text": "Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.",
+      "heading": 0
+    }
+  ]
+}

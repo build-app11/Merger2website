@@ -1,0 +1,52 @@
+{
+  "type": "read",
+  "title": "Business Daily",
+  "slug": "business-daily",
+  "category": "News",
+  "channel": "BBC",
+  "image": "https://ichef.bbci.co.uk/images/ic/1024x576/p0png5qs.jpg",
+  "lang": "en",
+  "tags": [
+    "Learn news",
+    "read"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct8gm9?at_medium=RSS&at_campaign=rss",
+    "episode": ""
+  },
+  "words": 160,
+  "lines": 7,
+  "duration": 60,
+  "text": "Episode details\n\nWorld Service, 19 Nov 2026, 27 mins\n\nPower players: How do you value Anthropic?\n\nAvailable for over a year\n\nDario Amodei runs Anthropic, the company behind the Claude chatbot. He says artificial intelligence could help cure cancer, while warning it could also threaten humanity. As Anthropic starts selling shares through an initial public offering in New York, how do you put a value on a business making such extraordinary promises? Rahul Tandon and Will Bain are joined by the BBC's North America technology correspondent Lily Jamali to examine one of the most influential power players in artificial intelligence.\n\n(Photo: CEO of Anthropic Dario Amodei, addresses the gathering at the AI Impact Summit, in New Delhi, India, 19 February, 2026. He has short dark hair, black rimmed glasses and is wearing a black jacket, white shirt and tie. He gestures with his hand as he speaks. Credit: Bhawika Chhabra/Reuters)\n\nProducer: Barbara George and Matt Lines\nEditor: Stephen Ryan",
+  "paragraphs": [
+    {
+      "text": "Episode details",
+      "heading": 1
+    },
+    {
+      "text": "World Service, 19 Nov 2026, 27 mins",
+      "heading": 1
+    },
+    {
+      "text": "Power players: How do you value Anthropic?",
+      "heading": 0
+    },
+    {
+      "text": "Available for over a year",
+      "heading": 1
+    },
+    {
+      "text": "Dario Amodei runs Anthropic, the company behind the Claude chatbot. He says artificial intelligence could help cure cancer, while warning it could also threaten humanity. As Anthropic starts selling shares through an initial public offering in New York, how do you put a value on a business making such extraordinary promises? Rahul Tandon and Will Bain are joined by the BBC's North America technology correspondent Lily Jamali to examine one of the most influential power players in artificial intelligence.",
+      "heading": 0
+    },
+    {
+      "text": "(Photo: CEO of Anthropic Dario Amodei, addresses the gathering at the AI Impact Summit, in New Delhi, India, 19 February, 2026. He has short dark hair, black rimmed glasses and is wearing a black jacket, white shirt and tie. He gestures with his hand as he speaks. Credit: Bhawika Chhabra/Reuters)",
+      "heading": 0
+    },
+    {
+      "text": "Producer: Barbara George and Matt Lines Editor: Stephen Ryan",
+      "heading": 0
+    }
+  ]
+}

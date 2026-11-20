@@ -1,0 +1,101 @@
+{
+  "type": "read",
+  "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+  "slug": "nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.jpeg?resize=1200,675",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+    "episode": ""
+  },
+  "words": 707,
+  "lines": 19,
+  "duration": 236,
+  "text": "After weeks of swirling rumors, Nvidia confirmed today that it has acquired Hugging Face for $12.93 billion. Hugging Face’s platform hosts three million models, one million applications used by over 18 million developers, and half a million datasets.\n\nIn a blog post, Nvidia’s CEO Jensen Huang said that Hugging Face will continue to support open source and open-weight models and will work on expanding developer access.\n\n“Hugging Face will remain an open platform for the entire AI ecosystem. Developers will choose the models they want, the frameworks they want, the clouds and inference service providers they want and the computing platforms they want. Nvidia compute will not be required to build on or deploy through Hugging Face,” said Huang.\n\nHuang touted Nvidia’s contributions and said that the chip company has released more than 500 models and 250 open datasets on Hugging Face. He argued that the company builds open models to get developers across the world to use them.\n\nFor a company like Nvidia, which is a dominant hardware platform for AI development and inference, an open ecosystem that it controls is beneficial as it can create a platform suited for its chips. Plus, as TechCrunch wrote earlier, Nvidia will be able to sell its unused capacity to enterprise customers packaged with Hugging Face’s offering.\n\nHugging Face was founded in 2016 and has raised over $395 million in funding to date, according to Crunchbase. The company’s last round was in 2023, when it raised $235 million led by Salesforce Ventures, with investments from Google, Amazon, IBM, and Nvidia.\n\nIn a post on X, Hugging Face CEO Clem Delangue thanked the community for showing the company could be an alternative to closed-source APIs.\n\n“But for it to happen at [a] larger scale, it needs more compute, more support, more collaboration, and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us,” said Delangue.\n\nHugging Face has risen in prominence, with more models being released every day. Last year, the company rejected a $500 million deal from Nvidia, according to Financial Times. Last month, The Information reported that Hugging Face is clocking $150 million in annualized revenue.\n\nIn an interview with TechCrunch in July, Delangue said that its growth rate is helping the platform to get “close to profitability.”\n\nNvidia’s Huang has been a strong proponent of open models. He wrote a letter, co-signed by several other organizations, to advocate for open-weight models to strengthen the U.S.’s position against rivals like China in the AI sector.\n\nThe company is heavily investing in model development. Last month, The Wall Street Journal reported that it struck a $6 billion deal with coding startup Poolside to develop open models. During its recent earnings call, the company said it has infused over $50 billion into AI frontier labs.\n\nHuang pitched open models while answering one of the analysts and said that almost all open models run on Nvidia hardware. He also signaled the importance of these models in cybersecurity.\n\n“One of the areas where frontier models are vital is cybersecurity. You see the number of cybersecurity companies that are enabled by frontier models so that they could have massively distributed, continuously running autonomous cybersecurity systems to defend. Those companies are emerging. There are some amazing companies. They couldn’t do it without open models. And so open models is both incredibly successful and have finally reached the frontier, but they’re also vital to the American economy. It’s vital to the world economy,” he said.\n\nIn July, Delangue said that Nvidia’s open model helped Hugging Face defend against cyberattacks after proprietary models failed to protect the platform. Days before that, OpenAI admitted that its unreleased model breached Hugging Face.\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\n\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+  "paragraphs": [
+    {
+      "text": "After weeks of swirling rumors, Nvidia confirmed today that it has acquired Hugging Face for $12.93 billion. Hugging Face’s platform hosts three million models, one million applications used by over 18 million developers, and half a million datasets.",
+      "heading": 0
+    },
+    {
+      "text": "In a blog post, Nvidia’s CEO Jensen Huang said that Hugging Face will continue to support open source and open-weight models and will work on expanding developer access.",
+      "heading": 0
+    },
+    {
+      "text": "“Hugging Face will remain an open platform for the entire AI ecosystem. Developers will choose the models they want, the frameworks they want, the clouds and inference service providers they want and the computing platforms they want. Nvidia compute will not be required to build on or deploy through Hugging Face,” said Huang.",
+      "heading": 0
+    },
+    {
+      "text": "Huang touted Nvidia’s contributions and said that the chip company has released more than 500 models and 250 open datasets on Hugging Face. He argued that the company builds open models to get developers across the world to use them.",
+      "heading": 0
+    },
+    {
+      "text": "For a company like Nvidia, which is a dominant hardware platform for AI development and inference, an open ecosystem that it controls is beneficial as it can create a platform suited for its chips. Plus, as TechCrunch wrote earlier, Nvidia will be able to sell its unused capacity to enterprise customers packaged with Hugging Face’s offering.",
+      "heading": 0
+    },
+    {
+      "text": "Hugging Face was founded in 2016 and has raised over $395 million in funding to date, according to Crunchbase. The company’s last round was in 2023, when it raised $235 million led by Salesforce Ventures, with investments from Google, Amazon, IBM, and Nvidia.",
+      "heading": 0
+    },
+    {
+      "text": "In a post on X, Hugging Face CEO Clem Delangue thanked the community for showing the company could be an alternative to closed-source APIs.",
+      "heading": 0
+    },
+    {
+      "text": "“But for it to happen at [a] larger scale, it needs more compute, more support, more collaboration, and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us,” said Delangue.",
+      "heading": 0
+    },
+    {
+      "text": "Hugging Face has risen in prominence, with more models being released every day. Last year, the company rejected a $500 million deal from Nvidia, according to Financial Times. Last month, The Information reported that Hugging Face is clocking $150 million in annualized revenue.",
+      "heading": 0
+    },
+    {
+      "text": "In an interview with TechCrunch in July, Delangue said that its growth rate is helping the platform to get “close to profitability.”",
+      "heading": 0
+    },
+    {
+      "text": "Nvidia’s Huang has been a strong proponent of open models. He wrote a letter, co-signed by several other organizations, to advocate for open-weight models to strengthen the U.S.’s position against rivals like China in the AI sector.",
+      "heading": 0
+    },
+    {
+      "text": "The company is heavily investing in model development. Last month, The Wall Street Journal reported that it struck a $6 billion deal with coding startup Poolside to develop open models. During its recent earnings call, the company said it has infused over $50 billion into AI frontier labs.",
+      "heading": 0
+    },
+    {
+      "text": "Huang pitched open models while answering one of the analysts and said that almost all open models run on Nvidia hardware. He also signaled the importance of these models in cybersecurity.",
+      "heading": 0
+    },
+    {
+      "text": "“One of the areas where frontier models are vital is cybersecurity. You see the number of cybersecurity companies that are enabled by frontier models so that they could have massively distributed, continuously running autonomous cybersecurity systems to defend. Those companies are emerging. There are some amazing companies. They couldn’t do it without open models. And so open models is both incredibly successful and have finally reached the frontier, but they’re also vital to the American economy. It’s vital to the world economy,” he said.",
+      "heading": 0
+    },
+    {
+      "text": "In July, Delangue said that Nvidia’s open model helped Hugging Face defend against cyberattacks after proprietary models failed to protect the platform. Days before that, OpenAI admitted that its unreleased model breached Hugging Face.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.",
+      "heading": 0
+    },
+    {
+      "text": "You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.",
+      "heading": 0
+    }
+  ]
+}

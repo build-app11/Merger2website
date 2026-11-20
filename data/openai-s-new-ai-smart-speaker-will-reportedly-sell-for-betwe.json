@@ -1,0 +1,109 @@
+{
+  "type": "read",
+  "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+  "slug": "openai-s-new-ai-smart-speaker-will-reportedly-sell-for-betwe",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "episode": ""
+  },
+  "words": 380,
+  "lines": 21,
+  "duration": 127,
+  "text": "Posted:\n\nLucas Ropek\n\nOpenAI’s new AI smart speaker will reportedly sell for between $300 and $400\n\nMore details continue to trickle out about OpenAI’s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the “ physical manifestation ” of ChatGPT.\n\nBloomberg now reports that the device will be “donut-shaped,” designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter.\n\nIt will be constructed from “high-quality metal,” have a “premium look,” and (in a detail that mystifies) will have distinct “moving parts,” sources told Bloomberg.\n\nIt also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon’s smart home speakers range in price from $40 on the low end to $240 on the high end.\n\nSo, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users’ lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into. The potentially high price point also might not help.\n\nThe device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes.\n\nThe company’s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple, which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing.\n\nTopics\n\nSam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie\n\nAmanda Silberling\n\nSam Altman warns against a future where AI, not humans, calls the shots\n\nSarah Perez\n\nOpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+      "heading": 0
+    },
+    {
+      "text": "More details continue to trickle out about OpenAI’s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the “ physical manifestation ” of ChatGPT.",
+      "heading": 0
+    },
+    {
+      "text": "Bloomberg now reports that the device will be “donut-shaped,” designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter.",
+      "heading": 0
+    },
+    {
+      "text": "It will be constructed from “high-quality metal,” have a “premium look,” and (in a detail that mystifies) will have distinct “moving parts,” sources told Bloomberg.",
+      "heading": 0
+    },
+    {
+      "text": "It also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon’s smart home speakers range in price from $40 on the low end to $240 on the high end.",
+      "heading": 0
+    },
+    {
+      "text": "So, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users’ lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into. The potentially high price point also might not help.",
+      "heading": 0
+    },
+    {
+      "text": "The device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes.",
+      "heading": 0
+    },
+    {
+      "text": "The company’s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple, which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "heading": 0
+    },
+    {
+      "text": "Amanda Silberling",
+      "heading": 1
+    },
+    {
+      "text": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "heading": 0
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}

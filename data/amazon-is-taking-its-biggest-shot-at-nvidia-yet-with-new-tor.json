@@ -1,0 +1,89 @@
+{
+  "type": "read",
+  "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+  "slug": "amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-tor",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+    "episode": ""
+  },
+  "words": 729,
+  "lines": 16,
+  "duration": 243,
+  "text": "On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon’s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spurred its rise as AI hardware provider of choice.\n\nTorchNeuron works with PyTorch, a free, open source toolkit that developers use to build, train, and run AI models. It lets AI apps written with PyTorch run on Trainium by changing just one line of configuration, according to Amazon — no code rewrite required.\n\nAmazon says about 85% of AI apps are written with PyTorch. Facebook originally developed it, but since 2022, it has been part of the Linux Foundation, which maintains open source projects. Nvidia has spent years ensuring its CUDA software — the software infrastructure that allows apps to run on Nvidia GPUs and its other hardware — seamlessly supports AI apps written with PyTorch. As a result, Nvidia’s hardware is now deeply embedded in the toolkit, essentially by default.\n\nTorchNeuron is adapted from PyTorch, so developers who know PyTorch already know how to use it. Amazon isn’t the first company to attempt to easily bring their chips to the platform. PyTorch users can also port their apps to AMD GPUs or even Apple’s chips with a simple configuration change.\n\nHowever, Amazon argues that porting to Trainium is not only easy, but it also gives AI startups access to Amazon’s entire cloud. Unsurprisingly, AWS claims that this is a better choice for startups than using neoclouds, many of which are tied to Nvidia and its hardware, like CoreWeave, Nebius, and Firmus.\n\n“You’re building on AWS. You’re not betting on a single-purpose compute provider and scrambling to build everything else around it,” Colin Brace, VP of Technology Software at AWS Annapurna Labs (the unit that makes Amazon’s custom chips), told TechCrunch via email. “On AWS,” he continued, “the infrastructure to go from prototype to production is already there, allowing a founder to move fast and scale when they need to.”\n\nAWS says that because the same chip both handles training (teaching the AI model) and inference (putting the finished model to work, as when it answers a user’s question), and is tightly integrated with the cloud infrastructure that startups need, its cloud will save them money, even if AWS doesn’t offer the cheapest per-token price.\n\n“Trainium’s value is price-performance plus the fact that it’s one platform for both training and inference, which improves the economics across a full workload,” Brace said. “Look at Deepgram — they moved to Trainium using native PyTorch support and they’re processing 70% more audio per dollar at production-grade accuracy.” Deepgram is an AI voice app provider, a competitor to ElevenLabs.\n\nBut Amazon isn’t content to just give PyTorch app developers an easy option to move to its cloud.\n\nAmazon also says it is pushing PyTorch to be less automatically centered on Nvidia, and it will contribute the code to do that to the main PyTorch project. In the blog post announcing the new tool, the company wrote:\n\nAmazon’s approach extends beyond its own hardware. The company is contributing changes upstream to PyTorch itself, working with the PyTorch community to remove code that ties the framework to specific chips. The goal is to make PyTorch more hardware-agnostic for the entire developer community, not just Trainium users.\n\nWhile such a tactic is undoubtedly good for those who are selling hardware and cloud services that compete with Nvidia, one of the points of PyTorch is to hide all the pesky difficulties of getting AI code to run on hardware. We’ll have to wait and see if pushing Nvidia out that far gives developers more choice and more affordable options, as Amazon promises, or just more configuration headaches.\n\nEither way, if Amazon succeeds in deeply uncoupling PyTorch from Nvidia, this could have much bigger ramifications for the GPU giant than simply dealing with chip competitors. As Brace said: “The real story is removing the lock-in that kept developers from having a real choice at all.”\n\nTopics\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nVenture Editor",
+  "paragraphs": [
+    {
+      "text": "On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon’s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spurred its rise as AI hardware provider of choice.",
+      "heading": 0
+    },
+    {
+      "text": "TorchNeuron works with PyTorch, a free, open source toolkit that developers use to build, train, and run AI models. It lets AI apps written with PyTorch run on Trainium by changing just one line of configuration, according to Amazon — no code rewrite required.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon says about 85% of AI apps are written with PyTorch. Facebook originally developed it, but since 2022, it has been part of the Linux Foundation, which maintains open source projects. Nvidia has spent years ensuring its CUDA software — the software infrastructure that allows apps to run on Nvidia GPUs and its other hardware — seamlessly supports AI apps written with PyTorch. As a result, Nvidia’s hardware is now deeply embedded in the toolkit, essentially by default.",
+      "heading": 0
+    },
+    {
+      "text": "TorchNeuron is adapted from PyTorch, so developers who know PyTorch already know how to use it. Amazon isn’t the first company to attempt to easily bring their chips to the platform. PyTorch users can also port their apps to AMD GPUs or even Apple’s chips with a simple configuration change.",
+      "heading": 0
+    },
+    {
+      "text": "However, Amazon argues that porting to Trainium is not only easy, but it also gives AI startups access to Amazon’s entire cloud. Unsurprisingly, AWS claims that this is a better choice for startups than using neoclouds, many of which are tied to Nvidia and its hardware, like CoreWeave, Nebius, and Firmus.",
+      "heading": 0
+    },
+    {
+      "text": "“You’re building on AWS. You’re not betting on a single-purpose compute provider and scrambling to build everything else around it,” Colin Brace, VP of Technology Software at AWS Annapurna Labs (the unit that makes Amazon’s custom chips), told TechCrunch via email. “On AWS,” he continued, “the infrastructure to go from prototype to production is already there, allowing a founder to move fast and scale when they need to.”",
+      "heading": 0
+    },
+    {
+      "text": "AWS says that because the same chip both handles training (teaching the AI model) and inference (putting the finished model to work, as when it answers a user’s question), and is tightly integrated with the cloud infrastructure that startups need, its cloud will save them money, even if AWS doesn’t offer the cheapest per-token price.",
+      "heading": 0
+    },
+    {
+      "text": "“Trainium’s value is price-performance plus the fact that it’s one platform for both training and inference, which improves the economics across a full workload,” Brace said. “Look at Deepgram — they moved to Trainium using native PyTorch support and they’re processing 70% more audio per dollar at production-grade accuracy.” Deepgram is an AI voice app provider, a competitor to ElevenLabs.",
+      "heading": 0
+    },
+    {
+      "text": "But Amazon isn’t content to just give PyTorch app developers an easy option to move to its cloud.",
+      "heading": 0
+    },
+    {
+      "text": "Amazon also says it is pushing PyTorch to be less automatically centered on Nvidia, and it will contribute the code to do that to the main PyTorch project. In the blog post announcing the new tool, the company wrote:",
+      "heading": 0
+    },
+    {
+      "text": "Amazon’s approach extends beyond its own hardware. The company is contributing changes upstream to PyTorch itself, working with the PyTorch community to remove code that ties the framework to specific chips. The goal is to make PyTorch more hardware-agnostic for the entire developer community, not just Trainium users.",
+      "heading": 0
+    },
+    {
+      "text": "While such a tactic is undoubtedly good for those who are selling hardware and cloud services that compete with Nvidia, one of the points of PyTorch is to hide all the pesky difficulties of getting AI code to run on hardware. We’ll have to wait and see if pushing Nvidia out that far gives developers more choice and more affordable options, as Amazon promises, or just more configuration headaches.",
+      "heading": 0
+    },
+    {
+      "text": "Either way, if Amazon succeeds in deeply uncoupling PyTorch from Nvidia, this could have much bigger ramifications for the GPU giant than simply dealing with chip competitors. As Brace said: “The real story is removing the lock-in that kept developers from having a real choice at all.”",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "heading": 0
+    },
+    {
+      "text": "Venture Editor",
+      "heading": 1
+    }
+  ]
+}

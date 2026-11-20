@@ -1,0 +1,105 @@
+{
+  "type": "read",
+  "title": "Hikers rescued after using Google Gemini for planning",
+  "slug": "hikers-rescued-after-using-google-gemini-for-planning",
+  "category": "News",
+  "channel": "TechCrunch",
+  "image": "https://techcrunch.com/wp-content/uploads/2017/11/gettyimages-677147499.jpg?resize=1200,600",
+  "lang": "en",
+  "tags": [
+    "Read",
+    "news",
+    "learn"
+  ],
+  "source": {
+    "type": "news",
+    "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "episode": ""
+  },
+  "words": 301,
+  "lines": 20,
+  "duration": 100,
+  "text": "Posted:\n\nAnthony Ha\n\nHikers rescued after using Google Gemini for planning\n\nThree hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition, according to the Chicago Tribune.\n\nA report from the Siskiyou County sheriff’s office said that three young men set off on their hike at 3 a.m. and that even though hikers are told to turn around if they haven’t reached the summit by noon, they made it to the top at 7 p.m.\n\nThe trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers.\n\nWhile it’s not clear whether Gemini can take all the blame for these bad decisions, the sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required, especially when their planned 8-hour ascent became a multiday ordeal.”\n\n“It is always advisable to call the local USFS Mount Shasta ranger station ahead of your trip to ensure you have the most accurate information, and to never rely solely on AI for your trip planning,” the sheriff’s office said.\n\nTopics\n\nGoogle gives Gemini the ability to use your Mac for you\n\nSarah Perez\n\nGoogle’s AI feature in Search gets its own incognito mode\n\nGoogle to keep Gemini chats for 2 months, up from 72 hours, even with history off\n\nJagmeet Singh\n\nLatest in AI\n\nApple may be developing its own AI agent that runs your Mac\n\nLucas Ropek\n\nAnthropic’s 7 founders cashed out nearly $2B in record-breaking IPO\n\nJulie Bort\n\nMeta’s new Muse Charm device may cost $300",
+  "paragraphs": [
+    {
+      "text": "Posted:",
+      "heading": 0
+    },
+    {
+      "text": "Anthony Ha",
+      "heading": 1
+    },
+    {
+      "text": "Hikers rescued after using Google Gemini for planning",
+      "heading": 1
+    },
+    {
+      "text": "Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition, according to the Chicago Tribune.",
+      "heading": 0
+    },
+    {
+      "text": "A report from the Siskiyou County sheriff’s office said that three young men set off on their hike at 3 a.m. and that even though hikers are told to turn around if they haven’t reached the summit by noon, they made it to the top at 7 p.m.",
+      "heading": 0
+    },
+    {
+      "text": "The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers.",
+      "heading": 0
+    },
+    {
+      "text": "While it’s not clear whether Gemini can take all the blame for these bad decisions, the sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required, especially when their planned 8-hour ascent became a multiday ordeal.”",
+      "heading": 0
+    },
+    {
+      "text": "“It is always advisable to call the local USFS Mount Shasta ranger station ahead of your trip to ensure you have the most accurate information, and to never rely solely on AI for your trip planning,” the sheriff’s office said.",
+      "heading": 0
+    },
+    {
+      "text": "Topics",
+      "heading": 1
+    },
+    {
+      "text": "Google gives Gemini the ability to use your Mac for you",
+      "heading": 0
+    },
+    {
+      "text": "Sarah Perez",
+      "heading": 1
+    },
+    {
+      "text": "Google’s AI feature in Search gets its own incognito mode",
+      "heading": 1
+    },
+    {
+      "text": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "heading": 0
+    },
+    {
+      "text": "Jagmeet Singh",
+      "heading": 1
+    },
+    {
+      "text": "Latest in AI",
+      "heading": 1
+    },
+    {
+      "text": "Apple may be developing its own AI agent that runs your Mac",
+      "heading": 0
+    },
+    {
+      "text": "Lucas Ropek",
+      "heading": 1
+    },
+    {
+      "text": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "heading": 1
+    },
+    {
+      "text": "Julie Bort",
+      "heading": 1
+    },
+    {
+      "text": "Meta’s new Muse Charm device may cost $300",
+      "heading": 1
+    }
+  ]
+}
