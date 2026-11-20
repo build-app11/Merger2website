@@ -298,6 +298,15 @@
 
 /* ---- highlight ke deck ---- */
 .rtb[aria-pressed=true]{background:var(--accent);color:var(--on)}
+.ambg{position:fixed;inset:0;z-index:40;background:rgba(10,12,30,.5);display:flex;align-items:flex-end;justify-content:center;padding:12px}
+.ampn{width:100%;max-width:34rem;max-height:86vh;max-height:86dvh;overflow:auto;background:var(--field);color:var(--fg);border:2.5px solid var(--ink);border-radius:22px;box-shadow:6px 6px 0 var(--shadow);padding:14px;display:flex;flex-direction:column;gap:10px;font-family:var(--font-ui)}
+.ampn h2{margin:0;font:700 1.1rem var(--font-display);color:var(--head)}
+.amq{border-left:4px solid var(--accent);background:rgba(127,127,127,.13);border-radius:8px;padding:8px 10px;font-size:.92rem;line-height:1.5;overflow-wrap:anywhere;max-height:30vh;overflow:auto}
+.amrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.amh{margin:0;font:500 .82rem/1.45 var(--font-ui);color:var(--muted)}
+.asm{border:2px solid var(--ink);border-radius:999px;background:var(--field);color:var(--fg);padding:8px 14px;font:700 .88rem var(--font-ui);cursor:pointer}
+.asm[aria-pressed="true"]{background:var(--accent);color:var(--on)}
+.asm:active{transform:translate(1px,1px)}
 .atoast{position:fixed;left:50%;transform:translateX(-50%);z-index:45;max-width:calc(100% - 24px);padding:8px 14px;border-radius:999px;background:var(--head);color:var(--bar);font:600 .85rem var(--font-ui);text-align:center;overflow-wrap:anywhere;pointer-events:none}
 </style>
 <meta name="description" content="Pemutar audio Learning Fun: audio asli dengan transkrip berwaktu dan IPA di setiap kata.">
@@ -578,7 +587,7 @@
     else if(a==='ro'){if(cfg.hasRo)pref.ro=!pref.ro}
     else if(a==='ta'){pref.ta=!pref.ta;axTrStart()}
     else if(a==='vx'){pref.vx=!pref.vx}
-    else if(a==='hlm'){pref.hlm=!pref.hlm;aHide();aToast(pref.hlm?'Highlight aktif: pilih teks untuk langsung menyimpannya ke deck':'Highlight dimatikan')}
+    else if(a==='hlm'){pref.hlm=!pref.hlm;aHide();aToast(pref.hlm?'Highlight aktif: pilih teks, lalu pilih deck tujuannya':'Highlight dimatikan')}
     else if(a==='fs-')setFs(pref.fs-1);else if(a==='fs+')setFs(pref.fs+1);
     else if(a==='speed')setSpeed(+v);
     else if(a==='rep'){pref.rep=v;syncLoop()}
@@ -1629,26 +1638,41 @@
     if(AXTR0){for(let i=a;i>=0&&WORDS[i].b===WORDS[a].b;i--)if(WORDS[i].tr)return WORDS[i].tr;return''}
     return axCached(axTl(),k)||'';
   }
-  function aSaveSel(info){
-    const text=info.text.trim();if(!text)return;
-    const ds=deckList();if(!ds.some(d=>d.id==='__star'))ds.unshift({id:'__star',name:'Kata Berbintang'});
-    const last=lsG('lf:lastdeck','__star'),d=ds.find(x=>x.id===last)||ds.find(x=>x.id==='__star'),arr=stGet();
+  function aSaveSel(info,d){
+    const text=info.text.trim();if(!text)return;const arr=stGet();
     if(arr.some(x=>String(x.w).trim().toLowerCase()===text.toLowerCase()&&(x.deck||'__star')===d.id)){aToast('Sudah ada di deck “'+d.name+'”.');return}
     arr.unshift({w:text,ipa:'',id:aBack(info.a),en:axTxt[segOf[info.a]]||'',lg:langOf()[0],sl:LGB,at:Date.now(),deck:d.id});
     stSet(arr);lsS('lf:lastdeck',d.id);deckLoad();vocPaintAll();
     aToast('🗂 '+(text.length>40?text.slice(0,40)+'…':text)+' → '+d.name);
+  }
+  const aDecks=()=>{const ds=deckList();if(!ds.some(d=>d.id==='__star'))ds.unshift({id:'__star',name:'Kata Berbintang'});return ds};
+  function aPick(info){
+    if(rd.querySelector('.ambg'))return;
+    const bg=mk('div','ambg'),pn=mk('div','ampn');pn.setAttribute('role','dialog');pn.setAttribute('aria-modal','true');pn.setAttribute('aria-label','Simpan ke deck');
+    const close=()=>bg.remove();
+    pn.appendChild(mk('h2',null,'Simpan ke deck mana?'));
+    pn.appendChild(mk('div','amq',info.text));
+    const ds=aDecks(),last=lsG('lf:lastdeck','__star'),row=mk('div','amrow');
+    ds.forEach(d=>{const b=mk('button','asm',d.name);b.type='button';if(d.id===last)b.setAttribute('aria-pressed','true');b.onclick=()=>{aSaveSel(info,d);close()};row.appendChild(b)});
+    pn.appendChild(row);
+    if(ds.length<2)pn.appendChild(mk('p','amh','Buat deck lain di Kosakata (＋ Deck) supaya pilihannya bertambah.'));
+    const x=mk('button','asm','Batal');x.type='button';x.onclick=close;pn.appendChild(x);
+    bg.appendChild(pn);bg.addEventListener('click',e=>{if(e.target===bg)close()});rd.appendChild(bg);
+    const f=row.querySelector('[aria-pressed=true]')||row.firstChild;if(f)f.focus();
   }
   function aHide(){clearTimeout(aSelT)}
   function aSync(){
     if(!pref.hlm||P)return;
     const info=aReadSel();if(!info)return;
     const g=getSelection();if(g)g.removeAllRanges();
-    aSaveSel(info);
+    aPick(info);
   }
   /* tunggu sebentar sampai pilihan teks selesai (handle seleksi di HP masih bisa digeser) */
   const aSelCh=()=>{clearTimeout(aSelT);if(pref.hlm&&!P)aSelT=setTimeout(aSync,700)};
   document.addEventListener('selectionchange',aSelCh);
-  function aOff(){document.removeEventListener('selectionchange',aSelCh);clearTimeout(aSelT);clearTimeout(aToastT)}
+  const aKey=e=>{if(e.key==='Escape'){const m=rd.querySelector('.ambg');if(m)m.remove()}};
+  document.addEventListener('keydown',aKey);
+  function aOff(){document.removeEventListener('keydown',aKey);document.removeEventListener('selectionchange',aSelCh);clearTimeout(aSelT);clearTimeout(aToastT)}
 
   applyPref();paintAll(-1);
   if(cfg.startAt){au.addEventListener('loadedmetadata',()=>{au.currentTime=cfg.startAt},{once:true})}
