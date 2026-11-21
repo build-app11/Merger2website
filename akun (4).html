@@ -148,6 +148,13 @@ progress{width:100%;height:14px;margin-top:12px}
 .chalrow{display:flex;align-items:center;gap:10px;margin-top:8px;font:700 .95rem/1.2 var(--font)}
 .chalrow select{min-height:40px;padding:0 10px;border:2.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:700 .95rem var(--font)}
 .chalwords{max-height:9rem;overflow:auto;margin-top:8px;padding:10px 12px;border:2.5px dashed var(--line);border-radius:14px;font-size:.9rem;line-height:1.5}
+.vpanel{margin-top:12px;padding:12px 14px;border:2.5px solid var(--line);border-radius:16px;background:var(--bg)}
+.vpanel h3{margin:0 0 6px!important}
+.vpanel ol{max-height:40vh;overflow:auto;margin:0;padding:0 0 0 1.5em;font-size:1rem;line-height:1.5}
+.vpanel li{margin:2px 0}
+.vpanel .vpc{margin:10px 0 0;font-weight:700;font-size:.92rem;color:var(--muted)}
+.vpact{display:grid;grid-template-columns:2fr 1fr;gap:10px}
+.vpact .btn{margin-top:10px;min-height:46px;font-size:.95rem}
 @media(max-width:360px){.aibtns{grid-template-columns:1fr}}
 </style>
 <meta name="description" content="Akun dan pengaturan Learning Fun.">
@@ -207,17 +214,23 @@ progress{width:100%;height:14px;margin-top:12px}
 
   <section class="card" id="aiEval" aria-labelledby="aiT">
     <h2 id="aiT">Tantangan &amp; evaluasi AI</h2>
-    <p>AI menilai progres belajarmu (kata, mendengarkan, bacaan, latihan), lalu mengajak dua tantangan dari deck Kata Berbintang-mu: buat kalimat bergilir (AI mulai, kamu balas, bergantian), kemudian mini cerita 3-5 kalimat. Kesalahanmu diberi tahu, dan di akhir ada evaluasi hasil tantangan. Prompt disalin otomatis, tinggal tempel (paste) di Replika (aplikasi), Sesame, atau Pi AI. Untuk TalkClara, BwithU, DoaCam, dan TwoPeas, yang disalin hanya daftar kosakata Kata Berbintang-mu (tanpa evaluasi), untuk kamu pakai ngobrol bebas. Datamu tidak dikirim ke mana pun oleh halaman ini.</p>
+    <p>AI menilai progres belajarmu (kata, mendengarkan, bacaan, latihan), lalu mengajak dua tantangan dari deck Kata Berbintang-mu: buat kalimat bergilir (AI mulai, kamu balas, bergantian), kemudian mini cerita 3-5 kalimat. Kesalahanmu diberi tahu, dan di akhir ada evaluasi hasil tantangan. Prompt disalin otomatis, tinggal tempel (paste) di Replika (aplikasi), Sesame, atau Pi AI. Untuk TalkClara, BwithU, DoaCam, dan TwoPeas (dipakai lewat suara), yang tampil hanya daftar kosakata Kata Berbintang-mu tanpa evaluasi, supaya kamu tahu apa yang mau dibicarakan. Setelah 10 detik aplikasinya terbuka. Datamu tidak dikirim ke mana pun oleh halaman ini.</p>
     
     <p id="chalWords" class="chalwords" role="status" aria-live="polite"></p>
     <div class="aibtns">
       <button class="btn rep" id="bRep" type="button">Buka Replika<small>buka aplikasi, lewat chat</small></button>
       <button class="btn ses" id="bSes" type="button">Buka Sesame<small>lewat suara</small></button>
-      <button class="btn tc" id="bTc" type="button">Buka TalkClara<small>salin kosakata, suara</small></button>
-      <button class="btn bw" id="bBw" type="button">Buka BwithU<small>salin kosakata, video call</small></button>
-      <button class="btn dc" id="bDc" type="button">Buka DoaCam<small>salin kosakata, video call</small></button>
-      <button class="btn tp" id="bTp" type="button">Buka TwoPeas<small>salin kosakata, suara</small></button>
+      <button class="btn tc" id="bTc" type="button">Buka TalkClara<small>kosakata dulu, lalu suara</small></button>
+      <button class="btn bw" id="bBw" type="button">Buka BwithU<small>kosakata dulu, lalu video</small></button>
+      <button class="btn dc" id="bDc" type="button">Buka DoaCam<small>kosakata dulu, lalu video</small></button>
+      <button class="btn tp" id="bTp" type="button">Buka TwoPeas<small>kosakata dulu, lalu suara</small></button>
       <button class="btn pi" id="bPi" type="button">Buka Pi AI<small>chat atau suara</small></button>
+    </div>
+    <div id="vocabPanel" class="vpanel" hidden role="region" aria-live="polite" aria-labelledby="vpT">
+      <h3 id="vpT"></h3>
+      <ol id="vpList"></ol>
+      <p id="vpCount" class="vpc"></p>
+      <div class="vpact"><button class="btn pri" id="vpGo" type="button"></button><button class="btn" id="vpCancel" type="button">Batal</button></div>
     </div>
     <button class="btn" id="bCopy" type="button">Salin prompt saja</button>
     <p id="aiMsg" role="status" aria-live="polite"></p>
@@ -540,16 +553,47 @@ progress{width:100%;height:14px;margin-top:12px}
   /* Companion (TalkClara, BwithU, DoaCam, TwoPeas): hanya daftar kosakata Kata Berbintang, tanpa evaluasi. */
   const VOCAB_ONLY = new Set(['tc', 'bw', 'dc', 'tp']);
   const vocabText = () => chalWords.map((x, i) => (i + 1) + '. ' + x.w + (x.m ? ' = ' + x.m : '')).join('\n');
-  async function copyVocab(k) {
-    const m = $('#aiMsg'), t = vocabText();
-    if (!t) { m.textContent = 'Belum ada kata berbintang untuk disalin. Membuka ' + AI_NAMES[k] + '…'; return; }
-    try { await navigator.clipboard.writeText(t); m.textContent = chalWords.length + ' kata disalin. Membuka ' + AI_NAMES[k] + '…, lalu tempel (paste) daftarnya.'; }
-    catch (e) { m.textContent = 'Salin otomatis gagal. Buka ' + AI_NAMES[k] + ', daftar kata bisa disalin dari kotak "Kata berbintang" di atas.'; }
+  /* Tampilkan daftar kosakata dulu, lalu buka aplikasi setelah 10 detik (aplikasinya dipakai lewat suara, bukan ketik). */
+  const VOCAB_WAIT = 10;
+  let vpTimer = null, vpKey = '';
+  const vpStop = () => { clearInterval(vpTimer); vpTimer = null; };
+  function vpGo() { const tg = aiTarget(vpKey); window.open(tg.url, '_blank', 'noopener'); }
+  function startVocab(k) {
+    vpStop(); vpKey = k;
+    const name = AI_NAMES[k], panel = $('#vocabPanel'), ol = $('#vpList'), cnt = $('#vpCount'), has = chalWords.length > 0;
+    $('#aiMsg').textContent = '';
+    $('#vpT').textContent = 'Kosakata untuk dibicarakan di ' + name;
+    ol.innerHTML = '';
+    chalWords.forEach(x => {
+      const li = document.createElement('li'), b = document.createElement('b');
+      b.textContent = x.w; li.appendChild(b);
+      if (x.m) li.appendChild(document.createTextNode(' = ' + x.m));
+      ol.appendChild(li);
+    });
+    ol.hidden = !has;
+    $('#vpGo').textContent = 'Buka ' + name + ' sekarang';
+    panel.hidden = false;
+    panel.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    if (!has) { cnt.textContent = 'Belum ada kata berbintang. Beri bintang pada kata di pemutar video atau audio, lalu coba lagi. Kamu tetap bisa membuka ' + name + ' sekarang.'; return; }
+    let n = VOCAB_WAIT;
+    const tick = () => { cnt.textContent = 'Pelajari daftar ini dulu. ' + name + ' terbuka dalam ' + n + ' detik.'; };
+    tick();
+    vpTimer = setInterval(() => {
+      n--;
+      if (n > 0) return tick();
+      vpStop();
+      cnt.textContent = 'Membuka ' + name + '. Jika belum terbuka, ketuk tombol Buka di bawah.';
+      vpGo();
+    }, 1000);
   }
+  $('#vpGo').addEventListener('click', () => { vpStop(); $('#vpCount').textContent = 'Membuka ' + AI_NAMES[vpKey] + '.'; vpGo(); });
+  $('#vpCancel').addEventListener('click', () => { vpStop(); $('#vocabPanel').hidden = true; });
   async function openAI(k) {
-    if (VOCAB_ONLY.has(k)) await copyVocab(k);
-    else { await copyPrompt(); $('#aiMsg').textContent = 'Prompt disalin. Membuka ' + AI_NAMES[k] + '…, lalu tempel (paste) pesannya.'; }
+    if (VOCAB_ONLY.has(k)) { startVocab(k); return; }
+    vpStop(); $('#vocabPanel').hidden = true;
+    await copyPrompt();
     const tg = aiTarget(k);
+    $('#aiMsg').textContent = 'Prompt disalin. Membuka ' + AI_NAMES[k] + '…, lalu tempel (paste) pesannya.';
     if (tg.same) location.href = tg.url; else window.open(tg.url, '_blank', 'noopener');
   }
   $('#bRep').addEventListener('click', () => openAI('rep'));
