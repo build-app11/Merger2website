@@ -375,9 +375,15 @@ h1, h2, h3, p { margin: 0; }
 #plDlg .plnew input { flex: 1; min-width: 0; padding: 8px 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); font: 600 0.95rem var(--font); }
 .sel.dim select { color: var(--muted); }
 /* Tombol kembali ke atas */
-#toTop { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(var(--lfb, 0px) + 16px + env(safe-area-inset-bottom, 0px)); z-index: 19; display: grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 2.5px solid var(--line); border-radius: 50%; background: var(--yellow); color: var(--on); box-shadow: 3px 3px 0 var(--shadow); cursor: pointer; opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity .2s ease, transform .2s ease; }
-#toTop.show { opacity: 1; transform: none; pointer-events: auto; }
-#toTop:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+#toTop { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(var(--lfb, 0px) + 16px + env(safe-area-inset-bottom, 0px)); z-index: 19; display: grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 2.5px solid var(--line); border-radius: 50%; background: var(--yellow); color: var(--on); box-shadow: 3px 3px 0 var(--shadow); cursor: pointer;
+  opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(18px) scale(.8);
+  transition: opacity .45s cubic-bezier(.22, 1, .36, 1), transform .45s cubic-bezier(.22, 1, .36, 1), visibility 0s linear .45s; }
+#toTop.show { opacity: 1; visibility: visible; pointer-events: auto; transform: none; transition-delay: 0s; }
+#toTop.show:hover { transform: translateY(-2px); }
+#toTop svg { transition: transform .25s ease; }
+#toTop:hover svg { transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) { #toTop { transition: none !important; transform: none; } }
+#toTop:active, #toTop.show:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
 </style>
 <link rel="canonical" href="https://learningfun.zone.id/">
 <meta property="og:type" content="website">
@@ -1657,13 +1663,28 @@ h1, h2, h3, p { margin: 0; }
 })();
 </script>
 <script>
-/* Tombol kembali ke atas: muncul setelah menggulir sekitar satu layar. */
+/* Tombol kembali ke atas: muncul saat kartu latihan ke-4 sudah terlihat, hilang lagi saat kembali ke atas.
+   Dua ambang (muncul lebih awal, hilang lebih lambat) agar tidak berkedip di batas. */
 (() => {
   const b = document.getElementById('toTop'); if (!b) return;
   b.hidden = false;
-  let t = false;
-  const upd = () => { t = false; b.classList.toggle('show', scrollY > Math.max(400, innerHeight * 0.8)); };
-  addEventListener('scroll', () => { if (!t) { t = true; requestAnimationFrame(upd); } }, { passive: true });
+  let t = false, on = false;
+  const upd = () => {
+    t = false;
+    const c = document.querySelector('#list > li:nth-child(4) > a.card');
+    let next = on;
+    if (!c) next = false;
+    else {
+      const top = c.getBoundingClientRect().top;
+      next = on ? top < innerHeight * 0.9 : top < innerHeight * 0.55;
+    }
+    if (next !== on) { on = next; b.classList.toggle('show', on); }
+  };
+  const tick = () => { if (!t) { t = true; requestAnimationFrame(upd); } };
+  addEventListener('scroll', tick, { passive: true });
+  addEventListener('resize', tick);
+  addEventListener('lf:loaded', tick);
+  new MutationObserver(tick).observe(document.getElementById('list'), { childList: true });
   b.addEventListener('click', () => {
     const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
     scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
