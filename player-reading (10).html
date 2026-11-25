@@ -560,7 +560,7 @@ const stOk=()=>typeof Worker!=='undefined'&&typeof WebAssembly==='object'&&typeo
 function stWorker(){
   if(ST.w)return ST.w;
   const src=`
-importScripts(${JSON.stringify(ST.ORT+'ort.min.js')});
+import * as ort from ${JSON.stringify(ST.ORT+'ort.wasm.min.mjs')};
 ort.env.wasm.wasmPaths=${JSON.stringify(ST.ORT)};ort.env.wasm.numThreads=1;ort.env.wasm.proxy=false;
 const BASES=${JSON.stringify(ST.BASES)},SIZES={'duration_predictor':3.5,'text_encoder':34.7,'vector_estimator':244.6,'vocoder':96.7},TOTAL=379.5;
 let S=null,loading=null,done=0,styles={};
@@ -590,6 +590,7 @@ async function loadFrom(base){
 function load(){
   if(S)return Promise.resolve(S);
   return loading||(loading=(async()=>{
+    postMessage({stat:'Memuat model Supertonic…'});
     let err=null;
     for(const b of BASES){try{S=await loadFrom(b);return S}catch(e){err=e}}
     throw err||new Error('Model Supertonic tidak bisa diunduh.');
@@ -641,19 +642,21 @@ async function synth(voice,text,lang,steps,speed){
   const vo=await s.m.vocoder.run({latent:new ort.Tensor('float32',cur,[1,ld,L])});
   return wav(vo.wav_tts.data.slice(0,Math.min(wl,vo.wav_tts.data.length)),sr);
 }
+addEventListener('unhandledrejection',ev=>postMessage({id:-1,err:String(ev.reason&&ev.reason.message||ev.reason)}));
 onmessage=async e=>{
   const {id,voice,text,lang,steps,speed}=e.data;
   try{postMessage({id,blob:await synth(voice,text,lang,steps,speed)})}
   catch(err){postMessage({id,err:String(err&&err.message||err)})}
 };`;
-  const w=new Worker(URL.createObjectURL(new Blob([src],{type:'text/javascript'})));
+  const w=new Worker(URL.createObjectURL(new Blob([src],{type:'text/javascript'})),{type:'module'});
   w.onmessage=e=>{
     const d=e.data||{};
     if(d.prog!=null){say('Mengunduh model Supertonic… '+d.prog+'%');return}
     if(d.stat){say(d.stat);return}
+    if(d.id===-1){const er=new Error(d.err);Object.values(ST.pend).forEach(h=>h.no(er));ST.pend={};return}
     const h=ST.pend[d.id];if(!h)return;delete ST.pend[d.id];d.err?h.no(new Error(d.err)):h.ok(d.blob);
   };
-  w.onerror=()=>{const er=new Error('Supertonic gagal dimuat di browser ini. Periksa koneksi internet atau pilih suara lain.');Object.values(ST.pend).forEach(h=>h.no(er));ST.pend={};try{w.terminate()}catch(e){}ST.w=null};
+  w.onerror=ev=>{const er=new Error('Supertonic gagal dimuat di browser ini'+(ev&&ev.message?' ('+ev.message+')':' (mesin ONNX atau memori)')+'. Periksa koneksi internet atau pilih suara lain.');Object.values(ST.pend).forEach(h=>h.no(er));ST.pend={};try{w.terminate()}catch(e){}ST.w=null};
   return ST.w=w;
 }
 function stStop(){if(ST.w){try{ST.w.terminate()}catch(e){}ST.w=null;const er=new Error('Dibatalkan.');Object.values(ST.pend).forEach(h=>h.no(er));ST.pend={}}}
